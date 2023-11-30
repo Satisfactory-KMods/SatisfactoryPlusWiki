@@ -43,11 +43,10 @@ jobs:
                   pnpm run lint
                   rm .env
 
-            - name: 'Build and push docker image'
-              uses: docker/build-push-action@v1
+            - name: Build and push
+              uses: docker/build-push-action@v5
               with:
-                  registry: ghcr.io
-                  username: 'Satisfactory-KMods'
-                  password: ${{ secrets.PAT }}
-                  repository: ${{ github.repository }}
-                  tags: dev
+                  push: true
+                  tags: ${{ github.repository }}:dev
+                  secrets: |
+                      GIT_AUTH_TOKEN=${{ secrets.PAT }}
