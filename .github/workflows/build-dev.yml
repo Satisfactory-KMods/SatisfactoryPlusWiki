@@ -6,6 +6,10 @@ on:
             - '*'
             - '!main'
 
+env:
+    REGISTRY: ghcr.io
+    IMAGE_NAME: ${{ github.repository }}
+
 jobs:
     prepare-and-build-app:
         runs-on: ubuntu-latest
