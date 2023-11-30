@@ -1,0 +1,33 @@
+name: build and create docker image
+
+on:
+    push:
+        branches:
+            - '*'
+            - '!master'
+
+jobs:
+    prepare-and-build-app:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: Setup Node.js
+              uses: actions/setup-node@v3
+              with:
+                  node-version: '18'
+                  cache: 'yarn'
+            - name: run lint
+              run: |
+                  cp .env.example .env
+                  pnpm i
+                  pnpm run lint
+                  rm .env
+
+            - name: 'Build and push docker image'
+              uses: docker/build-push-action@v1
+              with:
+                  registry: ghcr.io
+                  username: 'Satisfactory-KMods'
+                  password: ${{ secrets.PAT }}
+                  repository: ${{ github.repository }}
+                  tags: dev

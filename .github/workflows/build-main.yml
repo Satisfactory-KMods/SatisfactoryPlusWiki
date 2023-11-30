@@ -1,0 +1,59 @@
+name: build and create release
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    prepare-and-build-app:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+
+            - name: Install Node.js
+              uses: actions/setup-node@v3
+              with:
+                  node-version: 18
+
+            - uses: pnpm/action-setup@v2
+              name: Install pnpm
+              with:
+                  version: 8
+                  run_install: false
+
+            - name: Get pnpm store directory
+              shell: bash
+              run: |
+                  echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+            - uses: actions/cache@v3
+              name: Setup pnpm cache
+              with:
+                  path: ${{ env.STORE_PATH }}
+                  key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+                  restore-keys: |
+                      ${{ runner.os }}-pnpm-store-
+
+            - name: Install dependencies
+              run: pnpm install
+
+            - name: lint and type check
+              run: |
+                  cp .env.example .env
+                  pnpm i
+                  pnpm run lint
+                  rm .env
+
+            - name: 'Build and push docker image'
+              uses: docker/build-push-action@v1
+              with:
+                  registry: ghcr.io
+                  username: 'Satisfactory-KMods'
+                  password: ${{ secrets.PAT }}
+                  repository: ${{ github.repository }}
+                  tags: latest
+
+            - name: 'Create Release'
+              run: |
+                  pnpm semantic-release

@@ -10,9 +10,9 @@ export enum SFDataType {
 	researchTree = 'researchTree'
 }
 
-export interface SFSchematicData extends SFDataBase {}
-
 export interface SFDataBase {}
+
+export interface SFSchematicData extends SFDataBase {}
 
 export interface SFBuildableData extends SFDataBase {}
 

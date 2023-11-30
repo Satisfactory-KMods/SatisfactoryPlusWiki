@@ -21,7 +21,7 @@ export const dbState = {
 export function startMigrate() {
 	log('info', 'Starting database migration');
 	if (dbState.migrated) return Promise.resolve(dbState);
-	return migrate(db, { migrationsFolder: join(process.cwd(), 'server/db', 'migrations') })
+	return migrate(db, { migrationsFolder: join(process.cwd(), 'server/db/migrations') })
 		.then(() => {
 			dbState.migrated = true;
 			dbState.connected = true;
