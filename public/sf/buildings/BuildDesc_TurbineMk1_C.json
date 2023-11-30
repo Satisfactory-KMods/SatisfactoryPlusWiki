@@ -1,0 +1,126 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Turbinen/SF+_Build_RP_MP_TurbineMk1.SF+_Build_RP_MP_TurbineMk1_C",
+	"path": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Turbinen/BuildDesc_TurbineMk1.BuildDesc_TurbineMk1_C",
+	"name": "Turbine Mk1",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Turbines/TurbineMk1/Recipe_RP_MP_TurbineMk1.Recipe_RP_MP_TurbineMk1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_LeadSheet.Desc_LeadSheet_C",
+					"time": 1,
+					"amount": 10
+				}
+			],
+			"output": [
+				{
+					"item": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Turbinen/BuildDesc_TurbineMk1.BuildDesc_TurbineMk1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
+			]
+		},
+		{
+			"isRecipe": false,
+			"type": 2,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Turbinen/SF+_Build_RP_MP_TurbineMk1.SF+_Build_RP_MP_TurbineMk1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Steam_Hot.Desc_Gas_Steam_Hot_C",
+					"time": 2,
+					"amount": 1000
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Steam.Desc_Gas_Steam_C",
+					"time": 2,
+					"amount": 1000
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
+			]
+		},
+		{
+			"isRecipe": false,
+			"type": 2,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Turbinen/SF+_Build_RP_MP_TurbineMk1.SF+_Build_RP_MP_TurbineMk1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_High.Desc_SlugSlime_High_C",
+					"time": 15,
+					"amount": 1000
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Low.Desc_SlugSlime_Low_C",
+					"time": 15,
+					"amount": 200
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
+			]
+		},
+		{
+			"isRecipe": false,
+			"type": 2,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Turbinen/SF+_Build_RP_MP_TurbineMk1.SF+_Build_RP_MP_TurbineMk1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Mid.Desc_SlugSlime_Mid_C",
+					"time": 10,
+					"amount": 1000
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Low.Desc_SlugSlime_Low_C",
+					"time": 10,
+					"amount": 200
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

@@ -1,0 +1,35 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleWallMk2.Recipe_PowerPoleWallMk2_C",
+	"name": "Wall Outlet Mk.2",
+	"image": "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/UI/PowerPoleWall_MK2_512.PowerPoleWall_MK2_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
+			"amount": 4
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 6
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CateriumRod.Desc_CateriumRod_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/Desc_PowerPoleWallMk2.Desc_PowerPoleWallMk2_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_WallPowerPolesMK2.ResourceSink_WallPowerPolesMK2_C",
+		"/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_WallPowerPolesMK2.ResourceSink_WallPowerPolesMK2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

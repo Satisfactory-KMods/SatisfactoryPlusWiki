@@ -1,0 +1,30 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Window_OutCorner_02.Recipe_Roof_Window_OutCorner_02_C",
+	"name": "Outer Corner Roof 2m",
+	"image": "/Game/FactoryGame/Buildable/Building/Roof/UI/IconDesc_RoofWindowOut_02_512.IconDesc_RoofWindowOut_02_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Window_OutCorner_02.Desc_Roof_Window_OutCorner_02_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Roofs_Corners_Glass.CBG_Roofs_Corners_Glass_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

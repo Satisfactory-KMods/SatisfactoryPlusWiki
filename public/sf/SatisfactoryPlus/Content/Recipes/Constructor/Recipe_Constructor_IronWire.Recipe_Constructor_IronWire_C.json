@@ -1,0 +1,29 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_IronWire.Recipe_Constructor_IronWire_C",
+	"name": "Iron Wire",
+	"image": "/KLib/Assets/Parts/Production/Metal/Wires/UI/Icon_IronWire_256.Icon_IronWire_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+			"amount": 2
+		}
+	],
+	"category": "Electronics",
+	"duration": 4,
+	"manuelDuration": 0.40000000596046448,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1.SF+_Schematic_Tutorial1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,30 @@
+﻿{
+	"path": "/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C",
+	"name": "Iron Ingot",
+	"description": "Used for crafting.\r\nCrafted into the most basic parts.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 2,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2_0.Schematic_SF+_2_2_0_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Resource/Parts/IronIngot/UI/IconDesc_IronIngot_256.IconDesc_IronIngot_256",
+	"category": "Ingots",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

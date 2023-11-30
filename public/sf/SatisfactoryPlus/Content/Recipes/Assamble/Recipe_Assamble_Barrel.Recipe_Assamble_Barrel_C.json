@@ -1,0 +1,33 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_Barrel.Recipe_Assamble_Barrel_C",
+	"name": "Empty Barrel",
+	"image": "/KLib/Assets/Parts/Packaged/Items/Barrel/UI/Icon_EmptyBarrel.Icon_EmptyBarrel",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Packaged/Items/Empty/Desc_NC_Barrel.Desc_NC_Barrel_C",
+			"amount": 2
+		}
+	],
+	"category": "Empty Container",
+	"duration": 4,
+	"manuelDuration": 0.20000000298023224,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

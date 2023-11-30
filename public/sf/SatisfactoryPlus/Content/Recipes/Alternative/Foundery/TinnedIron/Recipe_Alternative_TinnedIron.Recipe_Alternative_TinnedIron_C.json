@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Alternative/Foundery/TinnedIron/Recipe_Alternative_TinnedIron.Recipe_Alternative_TinnedIron_C",
+	"name": "Alternate: Tinned Iron",
+	"image": "/KLib/Assets/Parts/Production/Metal/Ingots/UI/Icon_TinIngot_256.Icon_TinIngot_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedIron.Desc_CrushedIron_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedTin.Desc_CrushedTin_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Ingots/Desc_TinIngot.Desc_TinIngot_C",
+			"amount": 6
+		}
+	],
+	"category": "Alloys",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/Recipes/Alternative/Foundery/TinnedIron/Alternative_TinnedIron.Alternative_TinnedIron_C"
+	],
+	"isAlternate": true,
+	"dataType": "recipe"
+}

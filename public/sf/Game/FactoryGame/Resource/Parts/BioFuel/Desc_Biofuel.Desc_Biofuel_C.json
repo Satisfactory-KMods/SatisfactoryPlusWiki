@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Resource/Parts/BioFuel/Desc_Biofuel.Desc_Biofuel_C",
+	"name": "Solid Biofuel",
+	"description": "The most energy-efficient form of solid biomass. Can be used as fuel for the Chainsaw.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 48,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 450,
+	"form": 1,
+	"stackSize": 200,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Composter.Schematic_Tree_Farming_Composter_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_2.Schematic_SF+_1_2_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Resource/Parts/SolidBiofuel/UI/IconDesc_SolidBiofuel_256.IconDesc_SolidBiofuel_256",
+	"category": "Biomass",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

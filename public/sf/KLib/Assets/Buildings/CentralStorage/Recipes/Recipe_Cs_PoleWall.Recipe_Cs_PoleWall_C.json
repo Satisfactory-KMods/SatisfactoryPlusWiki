@@ -1,0 +1,38 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_Cs_PoleWall.Recipe_Cs_PoleWall_C",
+	"name": "FaxIT Wall Pole",
+	"image": "/KLib/Assets/Buildings/CentralStorage/UI/Icon_BuildS_PoleWall.Icon_BuildS_PoleWall",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+			"amount": 2
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
+			"amount": 5
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 5
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_Cs_PoleWall.BuildDesc_Cs_PoleWall_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

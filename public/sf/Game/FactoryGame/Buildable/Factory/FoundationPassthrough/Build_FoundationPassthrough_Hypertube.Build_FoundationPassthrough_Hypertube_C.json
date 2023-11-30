@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Desc_FoundationPassthrough_Hypertube.Desc_FoundationPassthrough_Hypertube_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Hypertube Floor Hole",
+	"description": "Can be attached to Foundations, allowing Hypertubes to pass through them.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_HyperTubeFloorHole.ResourceSink_HyperTubeFloorHole_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/HyperTubeWallSupport/UI/IconDesc_HypertubeFloorHole_512.IconDesc_HypertubeFloorHole_512",
+	"category": "Transport",
+	"subCategory": "Hypertubes",
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Build_FoundationPassthrough_Hypertube.Build_FoundationPassthrough_Hypertube_C",
+	"dataType": "buildable"
+}

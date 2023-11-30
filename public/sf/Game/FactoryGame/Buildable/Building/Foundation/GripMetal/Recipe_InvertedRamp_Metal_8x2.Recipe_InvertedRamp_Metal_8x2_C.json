@@ -1,0 +1,39 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_Metal_8x2.Recipe_InvertedRamp_Metal_8x2_C",
+	"name": "Inv. Ramp 2m",
+	"image": "/Game/FactoryGame/Buildable/Building/Ramp/UI/Inverted/IconDesc_SteelInvertRamp1m_512_.IconDesc_SteelInvertRamp1m_512_",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_Metal_8x2.Desc_InvertedRamp_Metal_8x2_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Ramps_Inverted_Metal.CBG_Ramps_Inverted_Metal_C",
+		"/Game/FactoryGame/Schematics/ResourceSink/Customizer_Background/CBG_Ramps_Inverted_Metal.CBG_Ramps_Inverted_Metal_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

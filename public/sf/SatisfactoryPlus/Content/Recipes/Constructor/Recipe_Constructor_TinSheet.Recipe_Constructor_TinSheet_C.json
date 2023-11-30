@@ -1,0 +1,29 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_TinSheet.Recipe_Constructor_TinSheet_C",
+	"name": "Tin Sheet",
+	"image": "/KLib/Assets/Parts/Production/Metal/Sheets/UI/Icon_TinSheet_256.Icon_TinSheet_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_TinSheet.Desc_TinSheet_C",
+			"amount": 3
+		}
+	],
+	"category": "Standard Parts",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

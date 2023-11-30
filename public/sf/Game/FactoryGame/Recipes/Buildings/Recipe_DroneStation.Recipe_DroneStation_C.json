@@ -1,0 +1,42 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Buildings/Recipe_DroneStation.Recipe_DroneStation_C",
+	"name": "Drone Port",
+	"image": "/Game/FactoryGame/Buildable/Factory/DroneStation/UI/IconDesc_DronePort_512.IconDesc_DronePort_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C",
+			"amount": 200
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C",
+			"amount": 10
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_TitanPipe.Desc_TitanPipe_C",
+			"amount": 150
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+			"amount": 200
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C",
+			"amount": 20
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Factory/DroneStation/Desc_DroneStation.Desc_DroneStation_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_3.Schematic_SF+_8_3_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

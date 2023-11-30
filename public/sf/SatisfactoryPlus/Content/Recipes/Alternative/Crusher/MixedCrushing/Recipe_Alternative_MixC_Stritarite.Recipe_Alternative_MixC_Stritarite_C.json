@@ -1,0 +1,36 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Recipe_Alternative_MixC_Stritarite.Recipe_Alternative_MixC_Stritarite_C",
+	"name": "Alternative: Mixed Stiratite",
+	"image": "/KLib/Assets/Parts/Production/Crushed/UI/Icon_CrushedStritarit_256.Icon_CrushedStritarit_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Nodes/Stritarit/Res_StritaritOre.Res_StritaritOre_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Nodes/Rubyte/Res_RubyteOre.Res_RubyteOre_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedStritarit.Desc_CrushedStritarit_C",
+			"amount": 6
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+			"amount": 2
+		}
+	],
+	"category": "Crushing Ores",
+	"duration": 4,
+	"manuelDuration": 1.2000000476837158,
+	"producedIn": [
+		"/KLib/Assets/Buildings/Crusher/Build_Crusher.Build_Crusher_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Stritarite.Alternative_MixedCrushing_Stritarite_C"
+	],
+	"isAlternate": true,
+	"dataType": "recipe"
+}

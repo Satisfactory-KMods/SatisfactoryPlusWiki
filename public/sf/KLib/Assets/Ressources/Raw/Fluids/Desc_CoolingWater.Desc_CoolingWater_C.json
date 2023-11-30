@@ -1,0 +1,30 @@
+﻿{
+	"path": "/KLib/Assets/Ressources/Raw/Fluids/Desc_CoolingWater.Desc_CoolingWater_C",
+	"name": "Coolant",
+	"description": "This coolant has been specially developed for the storage system. ",
+	"gasColor": "00000000",
+	"fluidColor": "2D657AFF",
+	"canBeSink": false,
+	"sinkPoints": 0,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 2,
+	"stackSize": 50000,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Hidden_Coolant.Schematic_Hidden_Coolant_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/KLib/Assets/Ressources/Raw/Fluids/UI/LiquidTin.LiquidTin",
+	"category": "",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

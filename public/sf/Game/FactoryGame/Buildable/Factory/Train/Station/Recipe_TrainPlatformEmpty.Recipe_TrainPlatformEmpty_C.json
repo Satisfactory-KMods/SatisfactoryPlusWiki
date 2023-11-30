@@ -1,0 +1,38 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/Train/Station/Recipe_TrainPlatformEmpty.Recipe_TrainPlatformEmpty_C",
+	"name": "Empty Platform",
+	"image": "/Game/FactoryGame/Buildable/Factory/Train/Station/UI/IconDesc_EmptyPlatform_512.IconDesc_EmptyPlatform_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+			"amount": 100
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_SteelRod.Desc_SteelRod_C",
+			"amount": 20
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C",
+			"amount": 5
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+			"amount": 20
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Factory/Train/Station/Desc_TrainPlatformEmpty.Desc_TrainPlatformEmpty_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_7.Schematic_SF+_5_7_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

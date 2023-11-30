@@ -1,0 +1,27 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Vehicle/Train/Locomotive/Desc_Locomotive.Desc_Locomotive_C",
+	"name": "Electric Locomotive",
+	"description": "The Locomotive is used to move Freight Cars from station to station.\r\nRequires between 25-110 MW of power to drive. \r\nMust be built on railway.\r\n\r\nNicknamed 'Leif' by FICSIT pioneers because of its reliability.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": false,
+	"sinkPoints": 0,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 4,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 1,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_7.Schematic_SF+_5_7_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Buildable/Vehicle/Train/Locomotive/UI/Locomotive_512.Locomotive_512",
+	"category": "Transport",
+	"subCategory": "Railway Transport",
+	"dataType": "itemDescriptor"
+}

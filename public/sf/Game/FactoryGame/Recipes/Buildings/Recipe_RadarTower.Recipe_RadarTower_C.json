@@ -1,0 +1,42 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Buildings/Recipe_RadarTower.Recipe_RadarTower_C",
+	"name": "Radar Tower",
+	"image": "/Game/FactoryGame/Buildable/Factory/RadarTower/UI/RadarTower_512.RadarTower_512",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+			"amount": 500
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_SteelRod.Desc_SteelRod_C",
+			"amount": 200
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/CrystalOscillator/Desc_CrystalOscillator.Desc_CrystalOscillator_C",
+			"amount": 50
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+			"amount": 250
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+			"amount": 100
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Factory/RadarTower/Desc_RadarTower.Desc_RadarTower_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_4_4.Schematic_Trees_Cryolit_4_4_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

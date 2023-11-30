@@ -1,0 +1,33 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_PhCell.Recipe_Assamble_PhCell_C",
+	"name": "Simple Photovoltaic Cell",
+	"image": "/KLib/Assets/Parts/Production/Parts/PhotovoltaicCell/UI/Icon_PhotovoltaicCell.Icon_PhotovoltaicCell",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Silica/Desc_Silica.Desc_Silica_C",
+			"amount": 30
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
+			"amount": 15
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Parts/PhotovoltaicCell/Desc_PhotovoltaicCell.Desc_PhotovoltaicCell_C",
+			"amount": 2
+		}
+	],
+	"category": "Building Parts",
+	"duration": 15,
+	"manuelDuration": 0.75,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_6.Schematic_SF+_4_6_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

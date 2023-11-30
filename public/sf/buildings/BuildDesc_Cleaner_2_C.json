@@ -1,0 +1,342 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": true,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/KLib/Assets/Buildings/Cleaner/Build_Cleaner2.Build_Cleaner2_C",
+	"path": "/KLib/Assets/Buildings/Cleaner/BuildDesc_Cleaner_2.BuildDesc_Cleaner_2_C",
+	"name": "Fluid Conditioner ",
+	"consumed": [
+		{
+			"isRecipe": false,
+			"type": 5,
+			"buildingRecipe": false,
+			"productionElement": "/KLib/Assets/Buildings/Cleaner/Build_Cleaner2.Build_Cleaner2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Ores/Fluids/BioWater/Res_LiquidBioWater.Res_LiquidBioWater_C",
+					"time": 6,
+					"amount": 3000
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+					"time": 6,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 6,
+					"amount": 1500
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_GenericBiomass.Desc_GenericBiomass_C",
+					"time": 2,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Leaves.Desc_Leaves_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
+			]
+		},
+		{
+			"isRecipe": false,
+			"type": 5,
+			"buildingRecipe": false,
+			"productionElement": "/KLib/Assets/Buildings/Cleaner/Build_Cleaner2.Build_Cleaner2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidDirtyWater.Desc_LiquidDirtyWater_C",
+					"time": 6,
+					"amount": 7500
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 4,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 6,
+					"amount": 4000
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedIron.Desc_PurifiedIron_C",
+					"time": 6,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedCopper.Desc_PurifiedCopper_C",
+					"time": 6,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedTin.Desc_PurifiedTin_C",
+					"time": 6,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedCaterium.Desc_PurifiedCaterium_C",
+					"time": 12,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedMagnesium.Desc_PurifiedMagnesium_C",
+					"time": 12,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedZinc.Desc_PurifiedZinc_C",
+					"time": 12,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedLead.Desc_PurifiedLead_C",
+					"time": 12,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedNickle.Desc_PurifiedNickle_C",
+					"time": 20,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
+			]
+		},
+		{
+			"isRecipe": false,
+			"type": 5,
+			"buildingRecipe": false,
+			"productionElement": "/KLib/Assets/Buildings/Cleaner/Build_Cleaner2.Build_Cleaner2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Fertilizer/Desc_FF_Fertilizer.Desc_FF_Fertilizer_C",
+					"time": 6,
+					"amount": 7500
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 6,
+					"amount": 3750
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/BioFuel/Desc_Biofuel.Desc_Biofuel_C",
+					"time": 6,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
+			]
+		},
+		{
+			"isRecipe": false,
+			"type": 5,
+			"buildingRecipe": false,
+			"productionElement": "/KLib/Assets/Buildings/Cleaner/Build_Cleaner2.Build_Cleaner2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
+					"time": 6,
+					"amount": 7500
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_CarbonDioxide.Desc_Gas_CarbonDioxide_C",
+					"time": 6,
+					"amount": 3000
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Burn/ColdSlag/Desc_ColdSlag.Desc_ColdSlag_C",
+					"time": 2.4000000953674316,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Sulfur/Desc_Sulfur.Desc_Sulfur_C",
+					"time": 6,
+					"amount": 2
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
+			]
+		},
+		{
+			"isRecipe": false,
+			"type": 5,
+			"buildingRecipe": false,
+			"productionElement": "/KLib/Assets/Buildings/Cleaner/Build_Cleaner2.Build_Cleaner2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidRawSludge.Desc_LiquidRawSludge_C",
+					"time": 6,
+					"amount": 3000
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Silica/Desc_Silica.Desc_Silica_C",
+					"time": 2,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 6,
+					"amount": 1500
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedIron.Desc_CrushedIron_C",
+					"time": 4,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedTin.Desc_CrushedTin_C",
+					"time": 4,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedMagnesium.Desc_CrushedMagnesium_C",
+					"time": 8,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
+			]
+		},
+		{
+			"isRecipe": false,
+			"type": 5,
+			"buildingRecipe": false,
+			"productionElement": "/KLib/Assets/Buildings/Cleaner/Build_Cleaner2.Build_Cleaner2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Low.Desc_SlugSlime_Low_C",
+					"time": 6,
+					"amount": 3000
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/QuartzCrystal/Desc_QuartzCrystal.Desc_QuartzCrystal_C",
+					"time": 4,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Parts/PowerShardCrystal/Desc_PowerShardCrystal.Desc_PowerShardCrystal_C",
+					"time": 10,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
+			]
+		},
+		{
+			"isRecipe": false,
+			"type": 5,
+			"buildingRecipe": false,
+			"productionElement": "/KLib/Assets/Buildings/Cleaner/Build_Cleaner2.Build_Cleaner2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 6,
+					"amount": 9000
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Ores/Cryolit/Res_Cryolit.Res_Cryolit_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_CoolingWater.Desc_CoolingWater_C",
+					"time": 6,
+					"amount": 9000
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Salt.Desc_Salt_C",
+					"time": 2,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/QuartzCrystal/Desc_QuartzCrystal.Desc_QuartzCrystal_C",
+					"time": 3,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/Cleaner/Recipe_Cleaner_2.Recipe_Cleaner_2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
+					"time": 1,
+					"amount": 20
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_LeadSheet.Desc_LeadSheet_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 30
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/Cleaner/BuildDesc_Cleaner_2.BuildDesc_Cleaner_2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

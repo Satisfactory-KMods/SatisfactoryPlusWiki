@@ -1,0 +1,30 @@
+﻿{
+	"path": "/Game/FactoryGame/Resource/Parts/AlienProtein/Desc_AlienProtein.Desc_AlienProtein_C",
+	"name": "Alien Protein",
+	"description": "Ground down Alien Remains in a neat little package.\r\nUsed for medical purposes and to research alien organisms.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": false,
+	"sinkPoints": 0,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Enemy/Schematic_Trees_Enemy_1_1.Schematic_Trees_Enemy_1_1_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Enemy/Schematic_Trees_Enemy_2_0.Schematic_Trees_Enemy_2_0_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Enemy/Schematic_Trees_Enemy_4_0.Schematic_Trees_Enemy_4_0_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Enemy/Schematic_Trees_Enemy_5_1.Schematic_Trees_Enemy_5_1_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Resource/Parts/AlienProtein/UI/IconDesc_AlienProtein_256.IconDesc_AlienProtein_256",
+	"category": "Alien Remains",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

@@ -1,0 +1,28 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Sorted_IronIngots.Recipe_Smelter_Sorted_IronIngots_C",
+	"name": "Iron Ingot",
+	"image": "/Game/FactoryGame/Resource/Parts/IronIngot/UI/IconDesc_IronIngot_256.IconDesc_IronIngot_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedIron.Desc_CrushedIron_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C",
+			"amount": 3
+		}
+	],
+	"category": "Ingots",
+	"duration": 4,
+	"manuelDuration": 0.80000001192092896,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2_0.Schematic_SF+_2_2_0_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

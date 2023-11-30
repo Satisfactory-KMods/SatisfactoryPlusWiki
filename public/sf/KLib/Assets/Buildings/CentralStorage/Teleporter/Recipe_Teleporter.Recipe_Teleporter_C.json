@@ -1,0 +1,42 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/CentralStorage/Teleporter/Recipe_Teleporter.Recipe_Teleporter_C",
+	"name": "Network Teleporter",
+	"image": "/KLib/Assets/Buildings/CentralStorage/Teleporter/Icon_Levelpad.Icon_Levelpad",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
+			"amount": 10
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
+			"amount": 10
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C",
+			"amount": 25
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
+			"amount": 50
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_5.Desc_SpaceElevatorPart_5_C",
+			"amount": 25
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Buildings/CentralStorage/Teleporter/BuildDesc_Teleporter.BuildDesc_Teleporter_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_Out_Teleporter.Schematic_Trees_TimeCrystak_Transport_Out_Teleporter_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

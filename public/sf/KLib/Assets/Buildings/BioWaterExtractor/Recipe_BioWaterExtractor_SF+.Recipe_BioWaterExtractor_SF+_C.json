@@ -1,0 +1,46 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/BioWaterExtractor/Recipe_BioWaterExtractor_SF+.Recipe_BioWaterExtractor_SF+_C",
+	"name": "Bio Water Extractor",
+	"image": "/Game/FactoryGame/Buildable/Factory/FrackingExtractor/UI/IconDesc_Extractor_512.IconDesc_Extractor_512",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
+			"amount": 15
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
+			"amount": 5
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
+			"amount": 10
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C",
+			"amount": 50
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+			"amount": 25
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 75
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Buildings/BioWaterExtractor/BuildDesc_BioWaterExtractor_SF+.BuildDesc_BioWaterExtractor_SF+_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8_0.Schematic_SF+_2_8_0_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

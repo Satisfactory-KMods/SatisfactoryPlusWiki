@@ -1,0 +1,38 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/BuildGun/Recipe_SFP_WindTurbineMk1.Recipe_SFP_WindTurbineMk1_C",
+	"name": "Wind Turbine Mk1",
+	"image": "/RefinedPower/Buildables/Factory/WindTurbine_Mk1/UI/Icon_WindTurbine_Mk1.Icon_WindTurbine_Mk1",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+			"amount": 10
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+			"amount": 15
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
+			"amount": 20
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 50
+		}
+	],
+	"output": [
+		{
+			"item": "/RefinedPower/Buildables/Factory/WindTurbine_Mk1/Desc_WindTurbine_Mk1.Desc_WindTurbine_Mk1_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 10,
+	"manuelDuration": 1,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

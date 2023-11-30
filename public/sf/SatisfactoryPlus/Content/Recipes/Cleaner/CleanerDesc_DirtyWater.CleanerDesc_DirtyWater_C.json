@@ -1,0 +1,58 @@
+﻿{
+	"schematic": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
+	"path": "/SatisfactoryPlus/Content/Recipes/Cleaner/CleanerDesc_DirtyWater.CleanerDesc_DirtyWater_C",
+	"image": "/KLib/Assets/Ressources/Raw/Fluids/UI/LiquidDirtyWater.LiquidDirtyWater",
+	"inFluid": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidDirtyWater.Desc_LiquidDirtyWater_C",
+	"outFluid": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+	"inAmount": 7500,
+	"outAmount": 4000,
+	"name": "",
+	"description": "",
+	"filterItem": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+	"filterNeed": true,
+	"filterTime": 4,
+	"filterAmount": 1,
+	"bypass": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedIron.Desc_PurifiedIron_C",
+			"time": 6,
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedCopper.Desc_PurifiedCopper_C",
+			"time": 6,
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedTin.Desc_PurifiedTin_C",
+			"time": 6,
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedCaterium.Desc_PurifiedCaterium_C",
+			"time": 12,
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedMagnesium.Desc_PurifiedMagnesium_C",
+			"time": 12,
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedZinc.Desc_PurifiedZinc_C",
+			"time": 12,
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedLead.Desc_PurifiedLead_C",
+			"time": 12,
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedNickle.Desc_PurifiedNickle_C",
+			"time": 20,
+			"amount": 1
+		}
+	],
+	"dataType": "cleaner"
+}

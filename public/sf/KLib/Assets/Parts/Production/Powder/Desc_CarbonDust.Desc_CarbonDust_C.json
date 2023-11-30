@@ -1,0 +1,27 @@
+﻿{
+	"path": "/KLib/Assets/Parts/Production/Powder/Desc_CarbonDust.Desc_CarbonDust_C",
+	"name": "Carbon Dust",
+	"description": "A sack full of finely crushed powdered coal. Perfect for making gunpowder.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 5,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 250,
+	"form": 1,
+	"stackSize": 200,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/Schematic_Trees_Sulfur_3_2.Schematic_Trees_Sulfur_3_2_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/KLib/Assets/Parts/Production/Powder/UI/Icon_CarbonDust.Icon_CarbonDust",
+	"category": "",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

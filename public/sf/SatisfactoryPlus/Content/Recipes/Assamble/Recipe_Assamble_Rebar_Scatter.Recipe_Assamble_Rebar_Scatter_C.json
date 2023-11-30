@@ -1,0 +1,33 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_Rebar_Scatter.Recipe_Assamble_Rebar_Scatter_C",
+	"name": "Shatter Rebar",
+	"image": "/Game/FactoryGame/Equipment/RebarGun/UI/IconDesc_ScatterRebar_256.IconDesc_ScatterRebar_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SpikedRebar/Desc_SpikedRebar.Desc_SpikedRebar_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Crystals/Diamond/Desc_Diamond.Desc_Diamond_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Equipment/RebarGun/Ammo/Desc_Rebar_Spreadshot.Desc_Rebar_Spreadshot_C",
+			"amount": 1
+		}
+	],
+	"category": "Ammunition",
+	"duration": 6,
+	"manuelDuration": 0.30000001192092896,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_5.Schematic_Trees_Cryolit_3_5_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

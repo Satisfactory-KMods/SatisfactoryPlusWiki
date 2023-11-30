@@ -1,0 +1,50 @@
+﻿{
+	"path": "/Game/FactoryGame/Resource/RawResources/Geyser/Desc_Geyser.Desc_Geyser_C",
+	"name": "Geyser",
+	"description": "Used to turn the turbines of the Geothermal Generator.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": false,
+	"sinkPoints": 0,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 5,
+	"canDelete": true,
+	"energyValue": 60,
+	"form": 4,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_2_6_U6.Schematic_Trees_Satmonium_2_6_U6_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "miner",
+		"drillTier": 1,
+		"scannerTier": 1,
+		"modulInformation": [],
+		"neededModules": [
+			"/KLib/Assets/Buildings/ModularExtractor/Attachments/ModuleAttachment_Drill.ModuleAttachment_Drill_C"
+		],
+		"preventModules": [
+			"/KLib/Assets/Buildings/ModularExtractor/Modules/Smelter/Build_SmelterModule.Build_SmelterModule_C",
+			"/KLib/Assets/Buildings/ModularExtractor/Modules/Fluid/Build_Module_Fluid.Build_Module_Fluid_C",
+			"/KLib/Assets/Buildings/ModularExtractor/Modules/Crusher/Build_Module_Crusher.Build_Module_Crusher_C"
+		],
+		"fluidInfos": [
+			{
+				"path": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+				"normalFluidCountPerSecond": 500,
+				"productionTimeMulti": 0.5
+			},
+			{
+				"path": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Low.Desc_SlugSlime_Low_C",
+				"normalFluidCountPerSecond": 250,
+				"productionTimeMulti": 1
+			}
+		]
+	},
+	"image": "/Game/FactoryGame/World/Environment/HotSpring/UI/IconDesc_Geyser_128.IconDesc_Geyser_128",
+	"category": "Raw Materials",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

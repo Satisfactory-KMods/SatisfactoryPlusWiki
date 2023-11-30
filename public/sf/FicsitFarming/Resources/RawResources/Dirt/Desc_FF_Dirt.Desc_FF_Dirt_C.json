@@ -1,0 +1,48 @@
+﻿{
+	"path": "/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt.Desc_FF_Dirt_C",
+	"name": "Jar Of Dirt",
+	"description": "It's a jar of dirt.. \r\n\r\ncan be extracted into different seeds:\r\n- Carrot\r\n- Corn\r\n- Potato\r\n- Wheat",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 5,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 5,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 200,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Scanning_Dirt.Schematic_Tree_Farming_Scanning_Dirt_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "miner",
+		"drillTier": 1,
+		"scannerTier": 1,
+		"modulInformation": [],
+		"neededModules": [
+			"/KLib/Assets/Buildings/ModularExtractor/Attachments/ModuleAttachment_Drill.ModuleAttachment_Drill_C"
+		],
+		"preventModules": [
+			"/KLib/Assets/Buildings/ModularExtractor/Modules/Smelter/Build_SmelterModule.Build_SmelterModule_C"
+		],
+		"fluidInfos": [
+			{
+				"path": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+				"normalFluidCountPerSecond": 500,
+				"productionTimeMulti": 1
+			},
+			{
+				"path": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Low.Desc_SlugSlime_Low_C",
+				"normalFluidCountPerSecond": 250,
+				"productionTimeMulti": 2
+			}
+		]
+	},
+	"image": "/FicsitFarming/Resources/RawResources/Dirt/UI/Icon_FF_Dirt_new.Icon_FF_Dirt_new",
+	"category": "Raw Materials",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

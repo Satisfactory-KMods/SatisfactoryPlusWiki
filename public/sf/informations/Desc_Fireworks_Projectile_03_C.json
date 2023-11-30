@@ -1,0 +1,44 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "",
+	"path": "/Game/FactoryGame/Events/Christmas/Fireworks/Desc_Fireworks_Projectile_03.Desc_Fireworks_Projectile_03_C",
+	"name": "Sparkly Fireworks",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/Game/FactoryGame/Events/Christmas/Fireworks/Recipe_Fireworks_03.Recipe_Fireworks_03_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBranch.Desc_XmasBranch_C",
+					"time": 24,
+					"amount": 3
+				},
+				{
+					"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_Snow.Desc_Snow_C",
+					"time": 24,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Events/Christmas/Fireworks/Desc_Fireworks_Projectile_03.Desc_Fireworks_Projectile_03_C",
+					"time": 24,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/Game/FactoryGame/Events/Christmas/Calendar_Schematics/Ficsmas_Schematic_Fireworks.Ficsmas_Schematic_Fireworks_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "informations"
+}

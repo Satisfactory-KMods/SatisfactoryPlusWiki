@@ -1,0 +1,94 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "",
+	"path": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedTitan.Desc_CrushedTitan_C",
+	"name": "Crushed Rutile",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Sorter/Recipe_Sorter_T3_Stritarit.Recipe_Sorter_T3_Stritarit_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Nodes/Stritarit/Res_StritaritOre.Res_StritaritOre_C",
+					"time": 6,
+					"amount": 10
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidHydrochloricAcid.Desc_LiquidHydrochloricAcid_C",
+					"time": 6,
+					"amount": 3000
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 6,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedTitan.Desc_CrushedTitan_C",
+					"time": 6,
+					"amount": 10
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedMagnesium.Desc_CrushedMagnesium_C",
+					"time": 6,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedCobalt.Desc_CrushedCobalt_C",
+					"time": 6,
+					"amount": 3
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_1.Schematic_SF+_8_1_C"
+			]
+		}
+	],
+	"produced": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Wascher/Recipe_Wasching_Rutile.Recipe_Wasching_Rutile_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedTitan.Desc_CrushedTitan_C",
+					"time": 3,
+					"amount": 6
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 3,
+					"amount": 1500
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedTitan.Desc_PurifiedTitan_C",
+					"time": 3,
+					"amount": 6
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidDirtyWater.Desc_LiquidDirtyWater_C",
+					"time": 3,
+					"amount": 1500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_1.Schematic_SF+_8_1_C"
+			]
+		}
+	],
+	"dataType": "informations"
+}

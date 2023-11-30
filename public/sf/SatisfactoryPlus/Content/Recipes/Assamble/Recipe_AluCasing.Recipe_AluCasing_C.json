@@ -1,0 +1,33 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_AluCasing.Recipe_AluCasing_C",
+	"name": "Aluminum Casing",
+	"image": "/Game/FactoryGame/Resource/Parts/AluminumCasing/UI/IconDesc_AluminiumCasing_256.IconDesc_AluminiumCasing_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_AlumniumSheet.Desc_AlumniumSheet_C",
+			"amount": 4
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C",
+			"amount": 4
+		}
+	],
+	"category": "Advanced Standard Parts",
+	"duration": 4,
+	"manuelDuration": 0.20000000298023224,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

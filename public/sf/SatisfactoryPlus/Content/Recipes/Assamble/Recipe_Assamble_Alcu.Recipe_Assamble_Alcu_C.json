@@ -1,0 +1,33 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_Alcu.Recipe_Assamble_Alcu_C",
+	"name": "Alclad Aluminum Sheet",
+	"image": "/Game/FactoryGame/Resource/Parts/AluminumPlate/UI/IconDesc_AluminiumSheet_256.IconDesc_AluminiumSheet_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C",
+			"amount": 15
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_AlumniumSheet.Desc_AlumniumSheet_C",
+			"amount": 15
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/AluminumPlate/Desc_AluminumPlate.Desc_AluminumPlate_C",
+			"amount": 15
+		}
+	],
+	"category": "Advanced Standard Parts",
+	"duration": 15,
+	"manuelDuration": 0.75,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_4.Schematic_SF+_7_4_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

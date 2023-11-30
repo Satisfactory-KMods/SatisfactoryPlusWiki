@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/Workshop/Desc_Workshop.Desc_Workshop_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Equipment Workshop",
+	"description": "Used to manually craft equipment.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1.SF+_Schematic_Tutorial1_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/Workshop/UI/Workshop_512.Workshop_512",
+	"category": "Production",
+	"subCategory": "Workstations",
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C",
+	"dataType": "buildable"
+}

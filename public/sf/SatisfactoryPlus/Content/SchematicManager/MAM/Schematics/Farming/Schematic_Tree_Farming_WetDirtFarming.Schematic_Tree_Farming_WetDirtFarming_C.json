@@ -1,0 +1,43 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C",
+	"name": "Bog Earth Crops",
+	"description": "",
+	"cost": [],
+	"category": "",
+	"subCategory": "Walls",
+	"type": 6,
+	"tier": 1,
+	"time": 3,
+	"image": "/FicsitFarming/Resources/RawResources/Seeds/UI/mushroom.Mushroom",
+	"smallImage": "/FicsitFarming/Resources/RawResources/Seeds/UI/wheat.wheat",
+	"scannerUnlocks": [],
+	"recipeUnlocks": [
+		"/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Flowers.Recipe_SF+_Flowers_C",
+		"/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_Apple.Recipe_SF+_Crop_Apple_C",
+		"/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Alt_Crop_Mycelia.Recipe_SF+_Alt_Crop_Mycelia_C",
+		"/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_Cotton.Recipe_SF+_Crop_Cotton_C",
+		"/FicsitFarming/Buildings/Plots/FlowerPlot/Recipe_FF_FlowerPlot.Recipe_FF_FlowerPlot_C",
+		"/FicsitFarming/Buildings/Plots/MyceliaPlot/Recipe_FF_MyceliaPlot.Recipe_FF_MyceliaPlot_C",
+		"/FicsitFarming/Buildings/Plots/TreePlot/Recipe_FF_TreePlot.Recipe_FF_TreePlot_C",
+		"/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Flowers2.Recipe_SF+_Flowers2_C",
+		"/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_Apple.Recipe_SF+_Alt_Crop_Apple_C",
+		"/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_Mycelia2.Recipe_SF+_Alt_Crop_Mycelia2_C",
+		"/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_Cotton.Recipe_SF+_Alt_Crop_Cotton_C",
+		"/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Flowers3.Recipe_SF+_Alt_Flowers3_C",
+		"/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_Apple2.Recipe_SF+_Alt_Crop_Apple2_C",
+		"/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_Mycelia3.Recipe_SF+_Alt_Crop_Mycelia3_C",
+		"/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_Cotton2.Recipe_SF+_Alt_Crop_Cotton2_C",
+		"/SatisfactoryPlus/Content/Recipes/Composter/FF/Recipe_Compost_Apple_SF+.Recipe_Compost_Apple_SF+_C",
+		"/SatisfactoryPlus/Content/Recipes/Composter/FF/Recipe_Compost_Cotton_SF+.Recipe_Compost_Cotton_SF+_C",
+		"/SatisfactoryPlus/Content/Recipes/Composter/FF/Recipe_Compost_Flower_SF+.Recipe_Compost_Flower_SF+_C",
+		"/SatisfactoryPlus/Content/Recipes/Composter/FF/Recipe_Compost_Mycelia_SF+.Recipe_Compost_Mycelia_SF+_C"
+	],
+	"handSlots": 0,
+	"subSchematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Water.Hidden_Farming_FertDirt_Water_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Fert.Hidden_Farming_FertDirt_Fert_C"
+	],
+	"cleanerDesc": [],
+	"inventorySlots": 0,
+	"dataType": "schematic"
+}

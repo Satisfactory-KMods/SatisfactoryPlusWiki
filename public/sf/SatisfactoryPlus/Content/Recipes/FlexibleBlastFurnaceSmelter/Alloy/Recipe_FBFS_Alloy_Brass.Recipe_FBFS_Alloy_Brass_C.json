@@ -1,0 +1,40 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Alloy/Recipe_FBFS_Alloy_Brass.Recipe_FBFS_Alloy_Brass_C",
+	"name": "Molten Brass",
+	"image": "/KLib/Assets/Ressources/Raw/Fluids/UI/Icon_Molten_Brass.Icon_Molten_Brass",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidCopper.Desc_LiquidCopper_C",
+			"amount": 1250
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidZinc.Desc_LiquidZinc_C",
+			"amount": 1000
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedIron.Desc_CrushedIron_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidBrass.Desc_LiquidBrass_C",
+			"amount": 2000
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
+			"amount": 500
+		}
+	],
+	"category": "Alloys",
+	"duration": 3,
+	"manuelDuration": 0.30000001192092896,
+	"producedIn": [
+		"/KLib/Assets/Buildings/FlexibleBlastFurnace/Build_FlexibleBlastFurnaceSmelter.Build_FlexibleBlastFurnaceSmelter_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

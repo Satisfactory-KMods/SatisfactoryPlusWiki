@@ -1,0 +1,38 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Buildings/Recipe_Valve.Recipe_Valve_C",
+	"name": "Valve",
+	"image": "/Game/FactoryGame/Buildable/Factory/PipeValve/UI/IconDesc_Valve_512.IconDesc_Valve_512",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_BrassPipe.Desc_BrassPipe_C",
+			"amount": 5
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C",
+			"amount": 5
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+			"amount": 5
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+			"amount": 10
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Factory/PipeValve/Desc_Valve.Desc_Valve_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_9.Schematic_SF+_4_9_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,49 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Build_QuarterPipeMiddleOutCorner_PolishedConcrete_4x4.Build_QuarterPipeMiddleOutCorner_PolishedConcrete_4x4_C",
+	"path": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Desc_QuarterPipeMiddleOutCorner_PolishedConcrete_4x4.Desc_QuarterPipeMiddleOutCorner_PolishedConcrete_4x4_C",
+	"name": "Outer Corner Extension 4m",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_QuarterPipeMiddleOutCorner_PolishedConcrete_4x4.Recipe_QuarterPipeMiddleOutCorner_PolishedConcrete_4x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Desc_QuarterPipeMiddleOutCorner_PolishedConcrete_4x4.Desc_QuarterPipeMiddleOutCorner_PolishedConcrete_4x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_PolishedConcrete_FoundationMaterial.ResourceSink_Customizer_PolishedConcrete_FoundationMaterial_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_QuarterPipeExtensions.ResourceSink_QuarterPipeExtensions_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_ExtensionQuarterPipes_Polished.CBG_ExtensionQuarterPipes_Polished_C",
+				"/Game/FactoryGame/Schematics/ResourceSink/Customizer/ResourceSink_Customizer_PolishedConcrete_FoundationMaterial.ResourceSink_Customizer_PolishedConcrete_FoundationMaterial_C",
+				"/Game/FactoryGame/Schematics/ResourceSink/Customizer_Background/CBG_ExtensionQuarterPipes_Polished.CBG_ExtensionQuarterPipes_Polished_C",
+				"/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_QuarterPipeExtensions.ResourceSink_QuarterPipeExtensions_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

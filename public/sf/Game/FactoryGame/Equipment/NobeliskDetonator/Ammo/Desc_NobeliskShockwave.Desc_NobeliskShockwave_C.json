@@ -1,0 +1,27 @@
+﻿{
+	"path": "/Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskShockwave.Desc_NobeliskShockwave_C",
+	"name": "Pulse Nobelisk",
+	"description": "Instead of a regular explosion, this Nobelisk generates a powerful shockwave.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 1533,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 50,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_5_4.Schematic_Trees_Cryolit_5_4_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Resource/Parts/NobeliskExplosive/UI/IconDesc_Shock_256.IconDesc_Shock_256",
+	"category": "Ammunition",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

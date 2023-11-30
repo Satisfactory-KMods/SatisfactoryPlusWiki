@@ -1,0 +1,27 @@
+﻿{
+	"path": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Leaves.Desc_Leaves_C",
+	"name": "Leaves",
+	"description": "Primarily used as fuel.\r\nBiomass Burners and vehicles can use it for power.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 3,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 15,
+	"form": 1,
+	"stackSize": 500,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Resource/Parts/GenericBiomass/IconDesc_Leaves_256.IconDesc_Leaves_256",
+	"category": "Biomass",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

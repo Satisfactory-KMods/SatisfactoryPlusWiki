@@ -1,0 +1,28 @@
+﻿{
+	"path": "/Game/FactoryGame/Resource/Parts/HeavyOilResidue/Desc_PackagedOilResidue.Desc_PackagedOilResidue_C",
+	"name": "Packaged Heavy Oil Residue",
+	"description": "Heavy Oil Residue, packaged for alternative transport. Can be used as fuel for Vehicles.",
+	"gasColor": "00000000",
+	"fluidColor": "6D2D78FF",
+	"canBeSink": true,
+	"sinkPoints": 180,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 400,
+	"form": 1,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Resource/RawResources/CrudeOil/UI/OilResidue_256.OilResidue_256",
+	"category": "Packaging",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

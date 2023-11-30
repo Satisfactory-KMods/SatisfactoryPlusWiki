@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Recipes/Recipe_Time_Stabilizer.Recipe_Time_Stabilizer_C",
+	"name": "Stabilized Quantum Crystal",
+	"image": "/KLib/Assets/Parts/Production/TimeCrystal/Icon_TimeC_StabilizedTimeCrystal.Icon_TimeC_StabilizedTimeCrystal",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Nodes/QuantumCystal/Res_TimeCrystal.Res_TimeCrystal_C",
+			"amount": 6
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Case.Desc_TimeC_Case_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C",
+			"amount": 1
+		}
+	],
+	"category": "Quantum Technology",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Stabilizer.Schematic_Trees_TimeCrystak_Stabilizer_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

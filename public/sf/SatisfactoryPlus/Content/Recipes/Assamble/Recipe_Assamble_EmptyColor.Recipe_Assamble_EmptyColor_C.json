@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_EmptyColor.Recipe_Assamble_EmptyColor_C",
+	"name": "Empty Cartridge",
+	"image": "/Game/FactoryGame/Resource/Parts/ColorCartridge/UI/IconDesc_ColorCartridge_256.IconDesc_ColorCartridge_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_ZincPlates.Desc_ZincPlates_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/EmtpyCartridge/Desc_EmtpyCartridge.Desc_EmtpyCartridge_C",
+			"amount": 2
+		}
+	],
+	"category": "Empty Container",
+	"duration": 6,
+	"manuelDuration": 0.30000001192092896,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_3.Schematic_SF+_2_3_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

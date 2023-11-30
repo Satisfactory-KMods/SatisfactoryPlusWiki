@@ -1,0 +1,51 @@
+﻿{
+	"path": "/KLib/Assets/Ressources/Raw/Nodes/Stritarit/Res_StritaritOre.Res_StritaritOre_C",
+	"name": "Stiratite Ore",
+	"description": "Ore that can be process to\r\n\r\n- Iron\r\n- Magnesium\r\n- Cobalt\r\n- Rutile",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 1,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 5,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 200,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "miner",
+		"drillTier": 1,
+		"scannerTier": 1,
+		"modulInformation": [],
+		"neededModules": [
+			"/KLib/Assets/Buildings/ModularExtractor/Attachments/ModuleAttachment_Drill.ModuleAttachment_Drill_C"
+		],
+		"preventModules": [],
+		"fluidInfos": [
+			{
+				"path": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+				"normalFluidCountPerSecond": 500,
+				"productionTimeMulti": 0.5
+			},
+			{
+				"path": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidHydrochloricAcid.Desc_LiquidHydrochloricAcid_C",
+				"normalFluidCountPerSecond": 500,
+				"productionTimeMulti": 1
+			},
+			{
+				"path": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Low.Desc_SlugSlime_Low_C",
+				"normalFluidCountPerSecond": 500,
+				"productionTimeMulti": 2
+			}
+		]
+	},
+	"image": "/KLib/Assets/Ressources/Raw/Nodes/Stritarit/UI/Icon_StritaritOre_256.Icon_StritaritOre_256",
+	"category": "Raw Materials",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

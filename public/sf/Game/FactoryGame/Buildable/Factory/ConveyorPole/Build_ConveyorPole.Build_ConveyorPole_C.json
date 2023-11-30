@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/ConveyorPole/Desc_ConveyorPole.Desc_ConveyorPole_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Conveyor Pole",
+	"description": "Can be used as a connection for conveyor belts. The height of the pole can be adjusted.\r\nUseful to route conveyor belts in a more controlled manner and over long distances.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/ConveyorPole/UI/IconDesc_ConveyorPole_512.IconDesc_ConveyorPole_512",
+	"category": "Logistics",
+	"subCategory": "Conveyor Supports",
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/ConveyorPole/Build_ConveyorPole.Build_ConveyorPole_C",
+	"dataType": "buildable"
+}

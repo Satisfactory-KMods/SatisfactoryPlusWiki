@@ -1,0 +1,46 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/ModifyedBuildings/Colider/Recipe_Colider.Recipe_Colider_C",
+	"name": "Particle Accelerator",
+	"image": "/Game/FactoryGame/Buildable/Factory/HadronCollider/UI/IconDesc_HadronCollider_512.IconDesc_HadronCollider_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/AluminumPlate/Desc_AluminumPlate.Desc_AluminumPlate_C",
+			"amount": 200
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C",
+			"amount": 20
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+			"amount": 500
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C",
+			"amount": 50
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/AluminumPlateReinforced/Desc_AluminumPlateReinforced.Desc_AluminumPlateReinforced_C",
+			"amount": 100
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
+			"amount": 1000
+		}
+	],
+	"output": [
+		{
+			"item": "/SatisfactoryPlus/Content/ModifyedBuildings/Colider/BuildDesc_Colider.BuildDesc_Colider_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_2.Schematic_SF+_8_2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

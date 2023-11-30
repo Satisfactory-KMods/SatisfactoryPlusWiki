@@ -1,0 +1,36 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Ingots/Recipe_SAC_Ingots_Lead.Recipe_SAC_Ingots_Lead_C",
+	"name": "Lead Ingot",
+	"image": "/KLib/Assets/Parts/Production/Metal/Ingots/UI/Icon_LeadIngot_256.Icon_LeadIngot_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidLead.Desc_LiquidLead_C",
+			"amount": 1500
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 500
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Ingots/Desc_LeadIngot.Desc_LeadIngot_C",
+			"amount": 6
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Steam.Desc_Gas_Steam_C",
+			"amount": 750
+		}
+	],
+	"category": "Ingots",
+	"duration": 3,
+	"manuelDuration": 0.30000001192092896,
+	"producedIn": [
+		"/KLib/Assets/Buildings/SoldifierAndCooler/Build_SoldifierAndCooler.Build_SoldifierAndCooler_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

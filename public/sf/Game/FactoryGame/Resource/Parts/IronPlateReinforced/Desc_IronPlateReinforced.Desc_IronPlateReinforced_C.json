@@ -1,0 +1,28 @@
+﻿{
+	"path": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
+	"name": "Reinforced Iron Plate",
+	"description": "Used for crafting.\r\nA sturdier and more durable Iron Plate.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 120,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C",
+		"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/ReZincPlates/Alternative_ReZincPlates.Alternative_ReZincPlates_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/UI/IconDesc_ReinforcedIronPlates_256.IconDesc_ReinforcedIronPlates_256",
+	"category": "Standard Parts",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

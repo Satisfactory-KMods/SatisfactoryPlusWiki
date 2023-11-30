@@ -1,0 +1,26 @@
+﻿{
+	"path": "/KBFL/Utils/Nodes/KBFL_DEBUG_node.KBFL_DEBUG_node_C",
+	"name": "Resource Node",
+	"image": "/KBFL/Utils/Nodes/UI/Icon_Resource_Node.Icon_Resource_Node",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Equipment/Beacon/BP_EquipmentDescriptorBeacon.BP_EquipmentDescriptorBeacon_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/KBFL/Utils/Nodes/KBFL_DEBUG_DESC_ResourceNodes.KBFL_DEBUG_DESC_ResourceNodes_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/KBFL/Utils/KBFL_Schematic_Debug.KBFL_Schematic_Debug_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,38 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Vehicle/Recipe_Tractor.Recipe_Tractor_C",
+	"name": "Tractor",
+	"image": "/Game/FactoryGame/Buildable/Vehicle/Tractor/UI/IconDesc_Tractor_512.IconDesc_Tractor_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
+			"amount": 10
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 50
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
+			"amount": 20
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+			"amount": 20
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Vehicle/Tractor/Desc_Tractor.Desc_Tractor_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_9.Schematic_SF+_3_9_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_Paint.Recipe_ChemReactor_Paint_C",
+	"name": "Paint",
+	"image": "/KLib/Assets/Ressources/Raw/Fluids/UI/Icon_Molten_Kovar.Icon_Molten_Kovar",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_GenericBiomass.Desc_GenericBiomass_C",
+			"amount": 6
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 1500
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_Paint.Desc_Paint_C",
+			"amount": 500
+		}
+	],
+	"category": "Advanced Refinement",
+	"duration": 6,
+	"manuelDuration": 1.8000000715255737,
+	"producedIn": [
+		"/KLib/Assets/Buildings/ChemReactor/Build_ChemReactor.Build_ChemReactor_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Flowers_3_2.Schematic_Trees_Evo_Flowers_3_2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

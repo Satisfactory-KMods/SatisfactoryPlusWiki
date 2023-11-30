@@ -1,0 +1,36 @@
+﻿{
+	"path": "/FicsitFarming/Recipes/Food/Recipe_FF_Cooked_Muffin_Corn.Recipe_FF_Cooked_Muffin_Corn_C",
+	"name": "Corn Muffin",
+	"image": "/FicsitFarming/Resources/Cooked/Muffin/-Shared/Texture/Icon_Muffin.Icon_Muffin",
+	"input": [
+		{
+			"item": "/FicsitFarming/Resources/Crops/Wheat/Desc_FF_Crop_Wheat.Desc_FF_Crop_Wheat_C",
+			"amount": 60
+		},
+		{
+			"item": "/FicsitFarming/Resources/Crops/Corn/Desc_FF_Crop_Corn.Desc_FF_Crop_Corn_C",
+			"amount": 40
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 20000
+		}
+	],
+	"output": [
+		{
+			"item": "/FicsitFarming/Resources/Cooked/Muffin/Corn/Desc_FF_Cooked_Muffin_Corn.Desc_FF_Cooked_Muffin_Corn_C",
+			"amount": 2
+		}
+	],
+	"category": "Consumables",
+	"duration": 120,
+	"manuelDuration": 12,
+	"producedIn": [
+		"/FicsitFarming/Buildings/CookingHub/Build_FF_CookingHub.Build_FF_CookingHub_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Muffins.Schematic_Tree_Farming_Muffins_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,28 @@
+﻿{
+	"schematic": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+	"path": "/SatisfactoryPlus/Content/Recipes/Cleaner/CleanerDesc_LiquidSlag.CleanerDesc_LiquidSlag_C",
+	"image": "/KLib/Assets/Ressources/Raw/Fluids/UI/LiquidSlag.LiquidSlag",
+	"inFluid": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
+	"outFluid": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_CarbonDioxide.Desc_Gas_CarbonDioxide_C",
+	"inAmount": 7500,
+	"outAmount": 3000,
+	"name": "",
+	"description": "",
+	"filterItem": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+	"filterNeed": true,
+	"filterTime": 6,
+	"filterAmount": 1,
+	"bypass": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Burn/ColdSlag/Desc_ColdSlag.Desc_ColdSlag_C",
+			"time": 2.4000000953674316,
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Sulfur/Desc_Sulfur.Desc_Sulfur_C",
+			"time": 6,
+			"amount": 2
+		}
+	],
+	"dataType": "cleaner"
+}

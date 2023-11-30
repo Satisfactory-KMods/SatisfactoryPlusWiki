@@ -1,0 +1,28 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Workbench/Recipe_Handcrafter_Rubyte.Recipe_Handcrafter_Rubyte_C",
+	"name": "Crushed Rubyte",
+	"image": "/KLib/Assets/Parts/Production/Crushed/UI/Icon_CrushedRubyte_256.Icon_CrushedRubyte_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Nodes/Rubyte/Res_RubyteOre.Res_RubyteOre_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedRubyte.Desc_CrushedRubyte_C",
+			"amount": 3
+		}
+	],
+	"category": "Crushing Ores",
+	"duration": 3,
+	"manuelDuration": 0.30000001192092896,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3_0.SF+_Schematic_Tutorial3_0_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,27 @@
+﻿{
+	"path": "/Game/FactoryGame/Resource/Equipment/NailGun/Desc_RebarGunProjectile.Desc_RebarGunProjectile_C",
+	"name": "Rebar Gun",
+	"description": "Improvised ranged weapon for self-defense. Has to be reloaded after each use.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 1968,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 2,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 1,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Enemy/Schematic_Trees_Enemy_3_3.Schematic_Trees_Enemy_3_3_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Resource/Equipment/NailGun/UI/IconDesc_RebarGun_256.IconDesc_RebarGun_256",
+	"category": "Weapons",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

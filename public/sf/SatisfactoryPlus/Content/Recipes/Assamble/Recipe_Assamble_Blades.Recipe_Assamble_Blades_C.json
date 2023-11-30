@@ -1,0 +1,33 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_Blades.Recipe_Assamble_Blades_C",
+	"name": "Rotor Blades",
+	"image": "/KLib/Assets/Parts/Production/WaterBlade/UI/Icon_WaterBlade_New.Icon_WaterBlade_New",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+			"amount": 20
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
+			"amount": 10
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/WaterBlade/Desc_WaterBlade.Desc_WaterBlade_C",
+			"amount": 4
+		}
+	],
+	"category": "Building Parts",
+	"duration": 60,
+	"manuelDuration": 3,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_8.Schematic_SF+_3_8_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

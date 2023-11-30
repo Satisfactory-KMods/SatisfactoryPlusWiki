@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/LightsControlPanel/Desc_LightsControlPanel.Desc_LightsControlPanel_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Lights Control Panel",
+	"description": "Useful for sectioning and modifying many lights at once.\r\n\r\nControls all Lights connected to the Power Grid attached to the 'Light Power Connector'.\r\n(Other Control Panels and Power Switches interrupt the connection.)",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_LightControlPanel.ResourceSink_LightControlPanel_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/LightsControlPanel/UI/IconDesc_LightsControlPanel_512.IconDesc_LightsControlPanel_512",
+	"category": "Organization",
+	"subCategory": "Lights",
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/LightsControlPanel/Build_LightsControlPanel.Build_LightsControlPanel_C",
+	"dataType": "buildable"
+}

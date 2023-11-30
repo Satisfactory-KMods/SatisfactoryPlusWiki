@@ -1,0 +1,29 @@
+﻿{
+	"path": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedCaterium.Desc_CrushedCaterium_C",
+	"name": "Crushed Caterium",
+	"description": "Crushed metal that can be mined from various ore clusters. Used to create ingots or liquid metals.\r\n\r\nIt can also be cleaned with machines to extract more metal from them.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 10,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 200,
+	"schematics": [
+		"/SatisfactoryPlus/Content/Recipes/Alternative/Sorter/PureSortedGold/Alternative_PureSortedCaterium.Alternative_PureSortedCaterium_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_4.Schematic_Trees_Satmonium_3_4_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_2.Schematic_SF+_6_2_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/KLib/Assets/Parts/Production/Crushed/UI/Icon_CrushedCaterium_256.Icon_CrushedCaterium_256",
+	"category": "",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

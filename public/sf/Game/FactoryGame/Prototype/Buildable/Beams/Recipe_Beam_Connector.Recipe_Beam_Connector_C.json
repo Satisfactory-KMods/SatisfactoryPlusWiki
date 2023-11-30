@@ -1,0 +1,30 @@
+﻿{
+	"path": "/Game/FactoryGame/Prototype/Buildable/Beams/Recipe_Beam_Connector.Recipe_Beam_Connector_C",
+	"name": "Beam Connector",
+	"image": "/Game/FactoryGame/Prototype/Buildable/Beams/UI/IconDesc_BeamConnector_512.IconDesc_BeamConnector_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Prototype/Buildable/Beams/Desc_Beam_Connector.Desc_Beam_Connector_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_BeamSet.ResourceSink_BeamSet_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

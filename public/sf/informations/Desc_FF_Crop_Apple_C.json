@@ -1,0 +1,258 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "",
+	"path": "/FicsitFarming/Resources/Crops/Apples/Desc_FF_Crop_Apple.Desc_FF_Crop_Apple_C",
+	"name": "Apple",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_Apple.Recipe_SF+_Crop_Apple_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_AppleSeed.Desc_FF_AppleSeed_C",
+					"time": 30,
+					"amount": 5
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Apples/Desc_FF_Crop_Apple.Desc_FF_Crop_Apple_C",
+					"time": 30,
+					"amount": 5
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 30,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Water.Hidden_Farming_FertDirt_Water_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Fert.Hidden_Farming_FertDirt_Fert_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_Apple.Recipe_SF+_Alt_Crop_Apple_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_AppleSeed.Desc_FF_AppleSeed_C",
+					"time": 10,
+					"amount": 5
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 10,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Apples/Desc_FF_Crop_Apple.Desc_FF_Crop_Apple_C",
+					"time": 10,
+					"amount": 5
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 10,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Water.Hidden_Farming_FertDirt_Water_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Fert.Hidden_Farming_FertDirt_Fert_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_Apple2.Recipe_SF+_Alt_Crop_Apple2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_AppleSeed.Desc_FF_AppleSeed_C",
+					"time": 30,
+					"amount": 25
+				},
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Fertilizer/Desc_FF_Fertilizer.Desc_FF_Fertilizer_C",
+					"time": 30,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Apples/Desc_FF_Crop_Apple.Desc_FF_Crop_Apple_C",
+					"time": 30,
+					"amount": 25
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 30,
+					"amount": 5
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Water.Hidden_Farming_FertDirt_Water_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Fert.Hidden_Farming_FertDirt_Fert_C"
+			]
+		}
+	],
+	"produced": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/FicsitFarming/Recipes/Food/Recipe_FF_Cooked_Pie_Apples.Recipe_FF_Cooked_Pie_Apples_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Wheat/Desc_FF_Crop_Wheat.Desc_FF_Crop_Wheat_C",
+					"time": 120,
+					"amount": 60
+				},
+				{
+					"item": "/FicsitFarming/Resources/Crops/Apples/Desc_FF_Crop_Apple.Desc_FF_Crop_Apple_C",
+					"time": 120,
+					"amount": 80
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 120,
+					"amount": 20000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Cooked/Pie/Apples/Desc_FF_Cooked_Pie_Apples.Desc_FF_Cooked_Pie_Apples_C",
+					"time": 120,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Water.Hidden_Farming_FertDirt_Water_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Fert.Hidden_Farming_FertDirt_Fert_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Cooker/Recipe_Cooker_SnailFoodMk_3.Recipe_Cooker_SnailFoodMk_3_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Wheat/Desc_FF_Crop_Wheat.Desc_FF_Crop_Wheat_C",
+					"time": 3,
+					"amount": 2
+				},
+				{
+					"item": "/FicsitFarming/Resources/Crops/Apples/Desc_FF_Crop_Apple.Desc_FF_Crop_Apple_C",
+					"time": 3,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 3,
+					"amount": 1500
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Food/Desc_SnailFood_Tier_3.Desc_SnailFood_Tier_3_C",
+					"time": 3,
+					"amount": 3
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Water.Hidden_Farming_FertDirt_Water_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Fert.Hidden_Farming_FertDirt_Fert_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Composter/FF/Recipe_Compost_Apple_SF+.Recipe_Compost_Apple_SF+_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Apples/Desc_FF_Crop_Apple.Desc_FF_Crop_Apple_C",
+					"time": 6,
+					"amount": 3
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 6,
+					"amount": 1500
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Fertilizer/Desc_FF_Fertilizer.Desc_FF_Fertilizer_C",
+					"time": 6,
+					"amount": 1500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Water.Hidden_Farming_FertDirt_Water_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Fert.Hidden_Farming_FertDirt_Fert_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Cooker/Recipe_Cooker_SnailFoodMk_7.Recipe_Cooker_SnailFoodMk_7_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Apples/Desc_FF_Crop_Apple.Desc_FF_Crop_Apple_C",
+					"time": 3,
+					"amount": 2
+				},
+				{
+					"item": "/FicsitFarming/Resources/Crops/Bananas/Desc_FF_Crop_Banana.Desc_FF_Crop_Banana_C",
+					"time": 3,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidDirtyWater.Desc_LiquidDirtyWater_C",
+					"time": 3,
+					"amount": 1500
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Food/Desc_SnailFood_Tier_7.Desc_SnailFood_Tier_7_C",
+					"time": 3,
+					"amount": 3
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Water.Hidden_Farming_FertDirt_Water_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Fert.Hidden_Farming_FertDirt_Fert_C"
+			]
+		}
+	],
+	"dataType": "informations"
+}

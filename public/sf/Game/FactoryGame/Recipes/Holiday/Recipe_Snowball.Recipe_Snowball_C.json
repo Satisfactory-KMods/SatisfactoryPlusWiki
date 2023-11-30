@@ -1,0 +1,28 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Holiday/Recipe_Snowball.Recipe_Snowball_C",
+	"name": "Snowball",
+	"image": "/Game/FactoryGame/Events/Christmas/Parts/UI/IconDesc_SnowballProjectile_256.IconDesc_SnowballProjectile_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_Snow.Desc_Snow_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SnowballProjectile/Desc_SnowballProjectile.Desc_SnowballProjectile_C",
+			"amount": 1
+		}
+	],
+	"category": "FICSMAS",
+	"duration": 12,
+	"manuelDuration": 1.2000000476837158,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C"
+	],
+	"schematics": [
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_4-2.Research_XMas_4-2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,52 @@
+﻿{
+	"path": "/KLib/Assets/Ressources/Raw/Nodes/Satmonium/Res_SatmoniumOre.Res_SatmoniumOre_C",
+	"name": "Satmonium Ore",
+	"description": "Ore that can be process to\r\n\r\n- Gold\r\n- Copper\r\n- Platinum",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 1,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 5,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 200,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_0.Schematic_Trees_Satmonium_3_0_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "miner",
+		"drillTier": 1,
+		"scannerTier": 1,
+		"modulInformation": [],
+		"neededModules": [
+			"/KLib/Assets/Buildings/ModularExtractor/Attachments/ModuleAttachment_Drill.ModuleAttachment_Drill_C"
+		],
+		"preventModules": [],
+		"fluidInfos": [
+			{
+				"path": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+				"normalFluidCountPerSecond": 500,
+				"productionTimeMulti": 0.5
+			},
+			{
+				"path": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidHydrochloricAcid.Desc_LiquidHydrochloricAcid_C",
+				"normalFluidCountPerSecond": 250,
+				"productionTimeMulti": 1
+			},
+			{
+				"path": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Low.Desc_SlugSlime_Low_C",
+				"normalFluidCountPerSecond": 250,
+				"productionTimeMulti": 2
+			}
+		]
+	},
+	"image": "/KLib/Assets/Ressources/Raw/Nodes/Satmonium/UI/Icon_SatmoniumOre_256.Icon_SatmoniumOre_256",
+	"category": "Raw Materials",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

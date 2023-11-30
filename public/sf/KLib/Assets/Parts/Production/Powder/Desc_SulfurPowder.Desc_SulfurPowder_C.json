@@ -1,0 +1,27 @@
+﻿{
+	"path": "/KLib/Assets/Parts/Production/Powder/Desc_SulfurPowder.Desc_SulfurPowder_C",
+	"name": "Sulfur Powder",
+	"description": "Very fine sulfur powder with coal dust, it can be very explosive! ",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 3,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 200,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/Schematic_Trees_Sulfur_3_2.Schematic_Trees_Sulfur_3_2_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/KLib/Assets/Parts/Production/Powder/UI/Icon_CrashedSulfur.Icon_CrashedSulfur",
+	"category": "",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

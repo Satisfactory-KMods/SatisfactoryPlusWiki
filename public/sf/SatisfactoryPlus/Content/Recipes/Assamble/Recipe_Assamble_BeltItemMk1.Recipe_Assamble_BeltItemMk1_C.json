@@ -1,0 +1,33 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_BeltItemMk1.Recipe_Assamble_BeltItemMk1_C",
+	"name": "Simple Conveyor Belt",
+	"image": "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk2/UI/ConveyorMk2_256.ConveyorMk2_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_TinSheet.Desc_TinSheet_C",
+			"amount": 6
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Belt/Desc_BeltItemMk1.Desc_BeltItemMk1_C",
+			"amount": 4
+		}
+	],
+	"category": "Building Parts",
+	"duration": 12,
+	"manuelDuration": 1.2000000476837158,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_0.Schematic_SF+_1_0_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,28 @@
+﻿{
+	"path": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasBranch.Recipe_XmasBranch_C",
+	"name": "FICSMAS Tree Branch",
+	"image": "/Game/FactoryGame/Events/Christmas/Parts/UI/IconDesc_Branch_256.IconDesc_Branch_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_Gift.Desc_Gift_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBranch.Desc_XmasBranch_C",
+			"amount": 1
+		}
+	],
+	"category": "FICSMAS",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C"
+	],
+	"schematics": [
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_1.Research_XMas_1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,36 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Recipe_Alternative_CastedCopperPipes.Recipe_Alternative_CastedCopperPipes_C",
+	"name": "Alternate: Casted Copper Pipes",
+	"image": "/KLib/Assets/Parts/Production/Metal/Pipes/UI/Icon_CopperPipe_256_psd.Icon_CopperPipe_256_psd",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidCopper.Desc_LiquidCopper_C",
+			"amount": 1500
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 750
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
+			"amount": 4
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Steam.Desc_Gas_Steam_C",
+			"amount": 1125
+		}
+	],
+	"category": "Cooling",
+	"duration": 3,
+	"manuelDuration": 0.30000001192092896,
+	"producedIn": [
+		"/KLib/Assets/Buildings/SoldifierAndCooler/Build_SoldifierAndCooler.Build_SoldifierAndCooler_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+	],
+	"isAlternate": true,
+	"dataType": "recipe"
+}

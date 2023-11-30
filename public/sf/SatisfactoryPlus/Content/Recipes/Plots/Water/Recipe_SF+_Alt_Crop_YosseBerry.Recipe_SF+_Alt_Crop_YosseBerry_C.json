@@ -1,0 +1,36 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_YosseBerry.Recipe_SF+_Alt_Crop_YosseBerry_C",
+	"name": "Enriched Yosse Berry",
+	"image": "/FicsitFarming/Resources/Crops/YosseBerry/Texture/Icon_YosseBerry.Icon_YosseBerry",
+	"input": [
+		{
+			"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_YosseSeed.Desc_FF_YosseSeed_C",
+			"amount": 5
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 5000
+		}
+	],
+	"output": [
+		{
+			"item": "/FicsitFarming/Resources/Crops/YosseBerry/Desc_FF_Crop_YosseBerry.Desc_FF_Crop_YosseBerry_C",
+			"amount": 5
+		},
+		{
+			"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+			"amount": 1
+		}
+	],
+	"category": "Crops",
+	"duration": 10,
+	"manuelDuration": 1,
+	"producedIn": [
+		"/FicsitFarming/Buildings/Plots/CropPlot/Build_FF_CropPlot.Build_FF_CropPlot_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_WetDirt_Water.Hidden_Farming_WetDirt_Water_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

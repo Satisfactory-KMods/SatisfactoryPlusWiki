@@ -1,0 +1,42 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_ShardFrame.Recipe_Assamble_ShardFrame_C",
+	"name": "Power Shard Frame",
+	"image": "/KLib/Assets/Parts/Production/Parts/PowerShardFrame/UI/Icon_PowerShardFrame.Icon_PowerShardFrame",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_InvarPipe.Desc_InvarPipe_C",
+			"amount": 60
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+			"amount": 80
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Parts/PowerShardCrystal/Desc_PowerShardCrystal.Desc_PowerShardCrystal_C",
+			"amount": 5
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+			"amount": 25
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Parts/PowerShardFrame/Desc_PowerShardFrame.Desc_PowerShardFrame_C",
+			"amount": 1
+		}
+	],
+	"category": "Power Shards",
+	"duration": 60,
+	"manuelDuration": 3,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_4_0_NEW.Schematic_Trees_Slugs_3_4_0_NEW_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_4_NEW.Schematic_Trees_Slugs_3_4_NEW_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

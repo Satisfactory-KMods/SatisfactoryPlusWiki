@@ -1,0 +1,29 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/ModularExtractor/Desc/BuildDesc_Module_Drill_T3.BuildDesc_Module_Drill_T3_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 30,
+	"descriptorType": 0,
+	"name": "Diamond Mining Head",
+	"description": "Attached to the Modular Miner.\r\nDepending on the level, the amount of material that is extracted changes.\r\nSome ores require a certain tier.\r\n\r\nIncreases the power required by the modular miner. \r\n\r\nQuantity per run: 0",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_1.Schematic_SF+_8_1_C"
+	],
+	"image": "/KLib/Assets/Buildings/ModularExtractor/UI/Icons/Icon_Drill_Mk3.Icon_Drill_Mk3",
+	"category": "Production",
+	"subCategory": "Miner",
+	"buildingPath": "/KLib/Assets/Buildings/ModularExtractor/Modules/MiningHead/Build_MiningHead_Mk3.Build_MiningHead_Mk3_C",
+	"dataType": "buildable"
+}

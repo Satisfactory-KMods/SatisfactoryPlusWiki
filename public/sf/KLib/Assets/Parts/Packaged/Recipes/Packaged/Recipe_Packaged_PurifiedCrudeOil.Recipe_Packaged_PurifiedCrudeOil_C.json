@@ -1,0 +1,32 @@
+﻿{
+	"path": "/KLib/Assets/Parts/Packaged/Recipes/Packaged/Recipe_Packaged_PurifiedCrudeOil.Recipe_Packaged_PurifiedCrudeOil_C",
+	"name": "Packaged Purified Crude Oil ",
+	"image": "/Game/FactoryGame/Resource/RawResources/CrudeOil/UI/Oil_256.Oil_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Packaged/Items/Empty/Desc_NC_Barrel.Desc_NC_Barrel_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_PurifiedCrudeOil.Desc_PurifiedCrudeOil_C",
+			"amount": 1000
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Packaged/Items/Barrel/Desc_PackagedPurifiedCrudeOil.Desc_PackagedPurifiedCrudeOil_C",
+			"amount": 1
+		}
+	],
+	"category": "Packaging - Barrel",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [
+		"/AB_FluidExtras/FluidPacker/Build_AB_FluidPacker.Build_AB_FluidPacker_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

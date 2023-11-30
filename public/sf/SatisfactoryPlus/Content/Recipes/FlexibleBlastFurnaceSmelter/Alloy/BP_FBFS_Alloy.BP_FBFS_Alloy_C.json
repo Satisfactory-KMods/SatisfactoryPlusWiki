@@ -1,0 +1,34 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Alloy/BP_FBFS_Alloy.BP_FBFS_Alloy_C",
+	"name": "Titanium Solution",
+	"image": "/KLib/Assets/Ressources/Raw/Fluids/UI/LiquidTitan.LiquidTitan",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidIron.Desc_LiquidIron_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidTin.Desc_LiquidTin_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidTitan.Desc_LiquidTitan_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
+			"amount": 1000
+		}
+	],
+	"category": "Alloys",
+	"duration": 3,
+	"manuelDuration": 0.30000001192092896,
+	"producedIn": [
+		"/KLib/Assets/Buildings/FlexibleBlastFurnace/Build_FlexibleBlastFurnaceSmelter.Build_FlexibleBlastFurnaceSmelter_C"
+	],
+	"schematics": [],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

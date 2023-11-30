@@ -1,0 +1,32 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_PackagedBiofuel.Recipe_PackagedBiofuel_C",
+	"name": "Packaged Liquid Biofuel",
+	"image": "/Game/FactoryGame/Resource/Parts/Turbofuel/UI/IconDesc_LiquidBiofuel_256.IconDesc_LiquidBiofuel_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/BioFuel/Desc_LiquidBiofuel.Desc_LiquidBiofuel_C",
+			"amount": 1000
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/FluidCanister/Desc_FluidCanister.Desc_FluidCanister_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/BioFuel/Desc_PackagedBiofuel.Desc_PackagedBiofuel_C",
+			"amount": 1
+		}
+	],
+	"category": "Packaging - Canister",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [
+		"/AB_FluidExtras/FluidPacker/Build_AB_FluidPacker.Build_AB_FluidPacker_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,23 @@
+﻿{
+	"schematic": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_4_2_NEW.Schematic_Trees_Slugs_4_2_NEW_C",
+	"path": "/SatisfactoryPlus/Content/Recipes/Cleaner/CleanerDesc_SlugSlimeLow.CleanerDesc_SlugSlimeLow_C",
+	"image": "/KLib/Assets/Ressources/Raw/Fluids/UI/LiquidNatriumaluminat.LiquidNatriumaluminat",
+	"inFluid": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Low.Desc_SlugSlime_Low_C",
+	"outFluid": "Class /Script/FactoryGame.FGNoneDescriptor",
+	"inAmount": 3000,
+	"outAmount": 1,
+	"name": "",
+	"description": "",
+	"filterItem": "/Game/FactoryGame/Resource/Parts/QuartzCrystal/Desc_QuartzCrystal.Desc_QuartzCrystal_C",
+	"filterNeed": true,
+	"filterTime": 4,
+	"filterAmount": 2,
+	"bypass": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Parts/PowerShardCrystal/Desc_PowerShardCrystal.Desc_PowerShardCrystal_C",
+			"time": 10,
+			"amount": 1
+		}
+	],
+	"dataType": "cleaner"
+}

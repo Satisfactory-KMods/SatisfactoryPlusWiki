@@ -1,0 +1,44 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Equipment/Recipe_JetPack.Recipe_JetPack_C",
+	"name": "Jetpack",
+	"image": "/Game/FactoryGame/Resource/Equipment/JetPack/UI/Jetpack_256.Jetpack_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+			"amount": 1000
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_CobaltPlates.Desc_CobaltPlates_C",
+			"amount": 300
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_InvarPipe.Desc_InvarPipe_C",
+			"amount": 300
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+			"amount": 100
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GasTank/Desc_GasTank.Desc_GasTank_C",
+			"amount": 100
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Equipment/JetPack/BP_EquipmentDescriptorJetPack.BP_EquipmentDescriptorJetPack_C",
+			"amount": 1
+		}
+	],
+	"category": "Body Equipment",
+	"duration": 120,
+	"manuelDuration": 12,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_1.Schematic_SF+_6_1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

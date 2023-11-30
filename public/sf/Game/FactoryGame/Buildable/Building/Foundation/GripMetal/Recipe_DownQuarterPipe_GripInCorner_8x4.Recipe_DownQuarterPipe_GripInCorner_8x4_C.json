@@ -1,0 +1,31 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_DownQuarterPipe_GripInCorner_8x4.Recipe_DownQuarterPipe_GripInCorner_8x4_C",
+	"name": "Inverted Inner Corner Quarter Pipe",
+	"image": "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Grip_DownInCorner_8x4_512.IconDesc_QP_Grip_DownInCorner_8x4_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+			"amount": 5
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_DownQuarterPipeInCorner_Grip_8x4.Desc_DownQuarterPipeInCorner_Grip_8x4_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_QuarterPipes_GripMetal.CBG_QuarterPipes_GripMetal_C",
+		"/Game/FactoryGame/Schematics/ResourceSink/Customizer_Background/CBG_QuarterPipes_GripMetal.CBG_QuarterPipes_GripMetal_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,43 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Window_8x4_01.Recipe_Wall_Window_8x4_01_C",
+	"name": "Single Window",
+	"image": "/Game/FactoryGame/Buildable/Building/Wall/UI/Portholes/Wall_Window_8x4_01_512.Wall_Window_8x4_01_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
+			"amount": 3
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_01.Desc_Wall_Window_8x4_01_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_7.Schematic_SF+_1_7_C",
+		"/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_WindowedWalls.ResourceSink_WindowedWalls_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

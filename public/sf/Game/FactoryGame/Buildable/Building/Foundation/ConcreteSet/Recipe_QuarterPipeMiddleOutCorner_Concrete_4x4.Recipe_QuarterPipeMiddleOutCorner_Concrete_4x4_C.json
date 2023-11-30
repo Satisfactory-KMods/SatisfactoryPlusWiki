@@ -1,0 +1,31 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddleOutCorner_Concrete_4x4.Recipe_QuarterPipeMiddleOutCorner_Concrete_4x4_C",
+	"name": "Outer Corner Extension 4m",
+	"image": "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Concrete_Mid_OutCorner_8x4_512.IconDesc_QP_Concrete_Mid_OutCorner_8x4_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+			"amount": 5
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeMiddleOutCorner_Concrete_4x4.Desc_QuarterPipeMiddleOutCorner_Concrete_4x4_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_ExtensionQuarterPipes_Concrete.CBG_ExtensionQuarterPipes_Concrete_C",
+		"/Game/FactoryGame/Schematics/ResourceSink/Customizer_Background/CBG_ExtensionQuarterPipes_Concrete.CBG_ExtensionQuarterPipes_Concrete_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

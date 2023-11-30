@@ -1,0 +1,42 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "",
+	"path": "/KLib/Assets/Buildings/SlugHatching/Desc/EggDNA/Desc_EggDNA_Purple.Desc_EggDNA_Purple_C",
+	"name": "Slug DNA - Purple",
+	"consumed": [],
+	"produced": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/SchematicManager/SaveComp/Recipe_DNAToEgg_Purple.Recipe_DNAToEgg_Purple_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/EggDNA/Desc_EggDNA_Purple.Desc_EggDNA_Purple_C",
+					"time": 6,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/AlienProtein/Desc_AlienProtein.Desc_AlienProtein_C",
+					"time": 6,
+					"amount": 5
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_EggPurple.EggDesc_EggPurple_C",
+					"time": 6,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		}
+	],
+	"dataType": "informations"
+}

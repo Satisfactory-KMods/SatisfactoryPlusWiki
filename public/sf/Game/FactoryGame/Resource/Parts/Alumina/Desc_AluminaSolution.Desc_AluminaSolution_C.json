@@ -1,0 +1,28 @@
+﻿{
+	"path": "/Game/FactoryGame/Resource/Parts/Alumina/Desc_AluminaSolution.Desc_AluminaSolution_C",
+	"name": "Alumina Solution",
+	"description": "Dissolved Alumina, extracted from Bauxite. Can be further refined into Aluminum Scrap for Aluminum Ingot production.",
+	"gasColor": "00000000",
+	"fluidColor": "C1C1C1FF",
+	"canBeSink": true,
+	"sinkPoints": 20,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 2,
+	"stackSize": 50000,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1_0.Schematic_SF+_7_1_0_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Resource/Parts/Alumina/UI/LiquidAlumina_Pipe_512.LiquidAlumina_Pipe_512",
+	"category": "",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

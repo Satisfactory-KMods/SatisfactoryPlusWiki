@@ -1,0 +1,33 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_BeltItemMk2.Recipe_Assamble_BeltItemMk2_C",
+	"name": "Conveyor Belt",
+	"image": "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk3/UI/ConveyorMk3_256.ConveyorMk3_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
+			"amount": 2
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BronzePlates.Desc_BronzePlates_C",
+			"amount": 4
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Belt/Desc_BeltItemMk2.Desc_BeltItemMk2_C",
+			"amount": 4
+		}
+	],
+	"category": "Building Parts",
+	"duration": 12,
+	"manuelDuration": 1.2000000476837158,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_6.Schematic_SF+_3_6_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,32 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Equipment/Recipe_PortableMiner.Recipe_PortableMiner_C",
+	"name": "Portable Miner",
+	"image": "/Game/FactoryGame/IconDesc_PortableMiner_256.IconDesc_PortableMiner_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+			"amount": 4
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Equipment/PortableMiner/BP_ItemDescriptorPortableMiner.BP_ItemDescriptorPortableMiner_C",
+			"amount": 1
+		}
+	],
+	"category": "Tools",
+	"duration": 40,
+	"manuelDuration": 4,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1.SF+_Schematic_Tutorial1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

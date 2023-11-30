@@ -1,0 +1,33 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_Cold.Recipe_Assamble_Cold_C",
+	"name": "Empty Cryo Tank",
+	"image": "/KLib/Assets/Parts/Packaged/Items/Cold/UI/Icon_CryoTank_Empty.Icon_CryoTank_Empty",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_ZincPlates.Desc_ZincPlates_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_CopperPlates.Desc_CopperPlates_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Packaged/Items/Empty/Desc_NC_CryoTankEmpty.Desc_NC_CryoTankEmpty_C",
+			"amount": 2
+		}
+	],
+	"category": "Empty Container",
+	"duration": 4,
+	"manuelDuration": 0.20000000298023224,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

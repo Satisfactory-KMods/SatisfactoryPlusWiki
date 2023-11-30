@@ -1,0 +1,222 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "",
+	"path": "/FicsitFarming/Resources/Crops/Corn/Desc_FF_Crop_Corn.Desc_FF_Crop_Corn_C",
+	"name": "Corn",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_Corn.Recipe_SF+_Crop_Corn_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_CornSeed.Desc_FF_CornSeed_C",
+					"time": 30,
+					"amount": 5
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Corn/Desc_FF_Crop_Corn.Desc_FF_Crop_Corn_C",
+					"time": 30,
+					"amount": 5
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 30,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DirtFarming.Schematic_Tree_Farming_DirtFarming_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Fert.Hidden_Farming_Dirt_Fert_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Water.Hidden_Farming_Dirt_Water_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_Corn2.Recipe_SF+_Alt_Crop_Corn2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_CornSeed.Desc_FF_CornSeed_C",
+					"time": 30,
+					"amount": 25
+				},
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Fertilizer/Desc_FF_Fertilizer.Desc_FF_Fertilizer_C",
+					"time": 30,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Corn/Desc_FF_Crop_Corn.Desc_FF_Crop_Corn_C",
+					"time": 30,
+					"amount": 25
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 30,
+					"amount": 5
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DirtFarming.Schematic_Tree_Farming_DirtFarming_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Fert.Hidden_Farming_Dirt_Fert_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Water.Hidden_Farming_Dirt_Water_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_Corn.Recipe_SF+_Alt_Crop_Corn_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_CornSeed.Desc_FF_CornSeed_C",
+					"time": 10,
+					"amount": 5
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 10,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Corn/Desc_FF_Crop_Corn.Desc_FF_Crop_Corn_C",
+					"time": 10,
+					"amount": 5
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 10,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DirtFarming.Schematic_Tree_Farming_DirtFarming_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Fert.Hidden_Farming_Dirt_Fert_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Water.Hidden_Farming_Dirt_Water_C"
+			]
+		}
+	],
+	"produced": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Cooker/Recipe_Cooker_SnailFoodMk_5.Recipe_Cooker_SnailFoodMk_5_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Mycelia.Desc_Mycelia_C",
+					"time": 3,
+					"amount": 2
+				},
+				{
+					"item": "/FicsitFarming/Resources/Crops/Corn/Desc_FF_Crop_Corn.Desc_FF_Crop_Corn_C",
+					"time": 3,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 3,
+					"amount": 1500
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Food/Desc_SnailFood_Tier_5.Desc_SnailFood_Tier_5_C",
+					"time": 3,
+					"amount": 3
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DirtFarming.Schematic_Tree_Farming_DirtFarming_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Fert.Hidden_Farming_Dirt_Fert_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Water.Hidden_Farming_Dirt_Water_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Composter/FF/Recipe_Compost_Corn_SF+.Recipe_Compost_Corn_SF+_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Corn/Desc_FF_Crop_Corn.Desc_FF_Crop_Corn_C",
+					"time": 6,
+					"amount": 3
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 6,
+					"amount": 1500
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Fertilizer/Desc_FF_Fertilizer.Desc_FF_Fertilizer_C",
+					"time": 6,
+					"amount": 1500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DirtFarming.Schematic_Tree_Farming_DirtFarming_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Fert.Hidden_Farming_Dirt_Fert_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Water.Hidden_Farming_Dirt_Water_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/FicsitFarming/Recipes/Food/Recipe_FF_Cooked_Muffin_Corn.Recipe_FF_Cooked_Muffin_Corn_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Wheat/Desc_FF_Crop_Wheat.Desc_FF_Crop_Wheat_C",
+					"time": 120,
+					"amount": 60
+				},
+				{
+					"item": "/FicsitFarming/Resources/Crops/Corn/Desc_FF_Crop_Corn.Desc_FF_Crop_Corn_C",
+					"time": 120,
+					"amount": 40
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 120,
+					"amount": 20000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Cooked/Muffin/Corn/Desc_FF_Cooked_Muffin_Corn.Desc_FF_Cooked_Muffin_Corn_C",
+					"time": 120,
+					"amount": 2
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DirtFarming.Schematic_Tree_Farming_DirtFarming_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Fert.Hidden_Farming_Dirt_Fert_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Water.Hidden_Farming_Dirt_Water_C"
+			]
+		}
+	],
+	"dataType": "informations"
+}

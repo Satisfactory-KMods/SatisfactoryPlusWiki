@@ -1,0 +1,29 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_BrassPlates.Recipe_Constructor_BrassPlates_C",
+	"name": "Brass Plates",
+	"image": "/KLib/Assets/Parts/Production/Metal/Plates/UI/Icon_BrassPlates.Icon_BrassPlates",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Ingots/Desc_BrassIngot.Desc_BrassIngot_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
+			"amount": 2
+		}
+	],
+	"category": "Standard Parts",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

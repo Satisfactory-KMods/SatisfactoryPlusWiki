@@ -1,0 +1,36 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Recipe_Alternative_CastedCoppperPlates.Recipe_Alternative_CastedCoppperPlates_C",
+	"name": "Alternate: Casted Copper Busbars",
+	"image": "/KLib/Assets/Parts/Production/Metal/Plates/UI/Icon_Copper_Bars.Icon_Copper_Bars",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidCopper.Desc_LiquidCopper_C",
+			"amount": 750
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 750
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_CopperPlates.Desc_CopperPlates_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Steam.Desc_Gas_Steam_C",
+			"amount": 1125
+		}
+	],
+	"category": "Cooling",
+	"duration": 3,
+	"manuelDuration": 0.30000001192092896,
+	"producedIn": [
+		"/KLib/Assets/Buildings/SoldifierAndCooler/Build_SoldifierAndCooler.Build_SoldifierAndCooler_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+	],
+	"isAlternate": true,
+	"dataType": "recipe"
+}

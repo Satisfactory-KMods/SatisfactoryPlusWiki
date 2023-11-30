@@ -1,0 +1,27 @@
+﻿{
+	"path": "/Game/FactoryGame/Equipment/Rifle/Ammo/Desc_CartridgeSmart.Desc_CartridgeSmart_C",
+	"name": "Rifle Smartridge",
+	"description": "The bullet guidance system built into this ammunition allows it to accurately hit any target within the reticle area.\r\nEspecially useful when dealing with agile threats, or for Pioneers who can't be bothered to aim properly.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": false,
+	"sinkPoints": 0,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_2_5_U6.Schematic_Trees_Satmonium_2_5_U6_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Equipment/Rifle/UI/IconDesc_HomingRifle_256.IconDesc_HomingRifle_256",
+	"category": "Ammunition",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

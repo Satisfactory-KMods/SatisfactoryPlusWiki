@@ -1,0 +1,49 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/FicsitFarming/Buildings/FarmingPlatform/Mk2/Build_FF_FarmingPlatformMk2.Build_FF_FarmingPlatformMk2_C",
+	"path": "/FicsitFarming/Buildings/FarmingPlatform/Mk2/Desc_FF_FarmingPlatformMk2.Desc_FF_FarmingPlatformMk2_C",
+	"name": "Farming Platform Mk1",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/FicsitFarming/Buildings/FarmingPlatform/Mk2/Recipe_FF_FarmingPlatformMk2.Recipe_FF_FarmingPlatformMk2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 100
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 100
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
+					"time": 1,
+					"amount": 50
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Buildings/FarmingPlatform/Mk2/Desc_FF_FarmingPlatformMk2.Desc_FF_FarmingPlatformMk2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

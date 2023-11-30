@@ -1,0 +1,42 @@
+﻿{
+	"path": "/Game/FactoryGame/Events/Christmas/Buildings/SnowmanDecor/Recipe_Snowman.Recipe_Snowman_C",
+	"name": "Snowman",
+	"image": "/Game/FactoryGame/Events/Christmas/Buildings/UI/IconDesc_Snowman_512.IconDesc_Snowman_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_Snow.Desc_Snow_C",
+			"amount": 50
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_CandyCane.Desc_CandyCane_C",
+			"amount": 3
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBow.Desc_XmasBow_C",
+			"amount": 1
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall1.Desc_XmasBall1_C",
+			"amount": 3
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall2.Desc_XmasBall2_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Buildings/SnowmanDecor/Desc_Snowman.Desc_Snowman_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2-1.Research_XMas_2-1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

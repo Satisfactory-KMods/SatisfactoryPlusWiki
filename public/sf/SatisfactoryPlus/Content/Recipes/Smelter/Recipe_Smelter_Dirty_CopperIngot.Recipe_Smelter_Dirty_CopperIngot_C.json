@@ -1,0 +1,29 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Dirty_CopperIngot.Recipe_Smelter_Dirty_CopperIngot_C",
+	"name": "Sloppy Copper Ingots",
+	"image": "/Game/FactoryGame/Resource/Parts/CopperIngot/UI/IconDesc_CopperIngot_256.IconDesc_CopperIngot_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedSapherit.Desc_CrushedSapherit_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/CopperIngot/Desc_CopperIngot.Desc_CopperIngot_C",
+			"amount": 1
+		}
+	],
+	"category": "Ingots",
+	"duration": 2,
+	"manuelDuration": 0.20000000298023224,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

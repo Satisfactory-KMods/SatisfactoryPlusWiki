@@ -1,0 +1,29 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CateriumSheet.Recipe_Constructor_CateriumSheet_C",
+	"name": "Caterium Sheet",
+	"image": "/KLib/Assets/Parts/Production/Metal/Sheets/UI/Icon_CateriumSheet_256.Icon_CateriumSheet_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_CateriumPlates.Desc_CateriumPlates_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_CateriumSheet.Desc_CateriumSheet_C",
+			"amount": 3
+		}
+	],
+	"category": "Standard Parts",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_3.Schematic_Trees_Satmonium_3_3_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

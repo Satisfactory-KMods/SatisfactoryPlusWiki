@@ -1,0 +1,36 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Flowers2.Recipe_SF+_Flowers2_C",
+	"name": "Enriched Processed Flowers",
+	"image": "/Game/FactoryGame/Resource/Parts/GenericBiomass/UI/FlowerPetals_Final_256.FlowerPetals_Final_256",
+	"input": [
+		{
+			"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_FlowerSeed.Desc_FF_FlowerSeed_C",
+			"amount": 5
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 5000
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_FlowerPetals.Desc_FlowerPetals_C",
+			"amount": 5
+		},
+		{
+			"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+			"amount": 1
+		}
+	],
+	"category": "Biomass",
+	"duration": 10,
+	"manuelDuration": 1,
+	"producedIn": [
+		"/FicsitFarming/Buildings/Plots/FlowerPlot/Build_FF_FlowerPlot.Build_FF_FlowerPlot_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Water.Hidden_Farming_FertDirt_Water_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

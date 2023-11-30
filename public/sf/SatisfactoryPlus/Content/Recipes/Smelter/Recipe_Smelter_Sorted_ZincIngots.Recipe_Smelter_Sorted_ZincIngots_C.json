@@ -1,0 +1,28 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Sorted_ZincIngots.Recipe_Smelter_Sorted_ZincIngots_C",
+	"name": "Zinc Ingot",
+	"image": "/KLib/Assets/Parts/Production/Metal/Ingots/UI/Icon_ZincIngot_256.Icon_ZincIngot_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedZinc.Desc_CrushedZinc_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Ingots/Desc_ZincIngot.Desc_ZincIngot_C",
+			"amount": 3
+		}
+	],
+	"category": "Ingots",
+	"duration": 4,
+	"manuelDuration": 0.80000001192092896,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

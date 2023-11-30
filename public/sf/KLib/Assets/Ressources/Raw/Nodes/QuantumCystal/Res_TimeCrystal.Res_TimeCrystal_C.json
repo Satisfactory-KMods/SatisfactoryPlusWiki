@@ -1,0 +1,60 @@
+﻿{
+	"path": "/KLib/Assets/Ressources/Raw/Nodes/QuantumCystal/Res_TimeCrystal.Res_TimeCrystal_C",
+	"name": "Unstable Quantum Crystals",
+	"description": "A special crystal cannot lose energy. Perfect to make a good computing system out of it. Is very unstable...",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": false,
+	"sinkPoints": 0,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 5,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 200,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Miner.Schematic_Trees_TimeCrystak_Miner_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "miner",
+		"drillTier": 1,
+		"scannerTier": 1,
+		"modulInformation": [],
+		"neededModules": [
+			"/KLib/Assets/Buildings/ModularExtractor/Attachments/ModuleAttachment_Drill.ModuleAttachment_Drill_C",
+			"/KLib/Assets/Buildings/ModularExtractor/Attachments/ModuleAttachment_Fluid.ModuleAttachment_Fluid_C"
+		],
+		"preventModules": [
+			"/KLib/Assets/Buildings/ModularExtractor/Modules/Smelter/Build_SmelterModule.Build_SmelterModule_C",
+			"/KLib/Assets/Buildings/ModularExtractor/Modules/Crusher/Build_Module_Crusher.Build_Module_Crusher_C"
+		],
+		"fluidInfos": [
+			{
+				"path": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Mid.Desc_SlugSlime_Mid_C",
+				"normalFluidCountPerSecond": 250,
+				"productionTimeMulti": 0.25
+			},
+			{
+				"path": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Mineral.Desc_SlugSlime_Mineral_C",
+				"normalFluidCountPerSecond": 500,
+				"productionTimeMulti": 1
+			},
+			{
+				"path": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Low.Desc_SlugSlime_Low_C",
+				"normalFluidCountPerSecond": 125,
+				"productionTimeMulti": 0
+			},
+			{
+				"path": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_High.Desc_SlugSlime_High_C",
+				"normalFluidCountPerSecond": 375,
+				"productionTimeMulti": 0.5
+			}
+		]
+	},
+	"image": "/KUI/Assets/TX_PlaceHolder.TX_PlaceHolder",
+	"category": "Raw Materials",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

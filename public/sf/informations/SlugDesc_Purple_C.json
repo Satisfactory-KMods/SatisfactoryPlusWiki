@@ -1,0 +1,92 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "",
+	"path": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Purple.SlugDesc_Purple_C",
+	"name": "Unknown Slug ID#5608",
+	"consumed": [
+		{
+			"isRecipe": false,
+			"type": 11,
+			"buildingRecipe": false,
+			"productionElement": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_EggPurple.EggDesc_EggPurple_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_EggPurple.EggDesc_EggPurple_C",
+					"time": 10,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Purple.SlugDesc_Purple_C",
+					"time": 10,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		}
+	],
+	"produced": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Composter/Recipe_Low_Purple.Recipe_Low_Purple_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Purple.SlugDesc_Purple_C",
+					"time": 4,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Low.Desc_SlugSlime_Low_C",
+					"time": 4,
+					"amount": 1000
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": false,
+			"type": 12,
+			"buildingRecipe": false,
+			"productionElement": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Purple.SlugDesc_Purple_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Purple.SlugDesc_Purple_C",
+					"time": 100,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Purple.SlugDesc_Purple_C",
+					"time": 100,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Food/Desc_SnailFood_Tier_1.Desc_SnailFood_Tier_1_C",
+					"time": 20,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_EggPurple.EggDesc_EggPurple_C",
+					"time": 40,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		}
+	],
+	"dataType": "informations"
+}

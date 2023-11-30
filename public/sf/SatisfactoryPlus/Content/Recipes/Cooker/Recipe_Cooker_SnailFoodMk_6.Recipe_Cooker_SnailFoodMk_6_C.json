@@ -1,0 +1,36 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Cooker/Recipe_Cooker_SnailFoodMk_6.Recipe_Cooker_SnailFoodMk_6_C",
+	"name": "Helloween Snail Food",
+	"image": "/KLib/Assets/Parts/Production/Food/UI/Icon_SnailFood_Tier_6.Icon_SnailFood_Tier_6",
+	"input": [
+		{
+			"item": "/FicsitFarming/Resources/Crops/YosseBerry/Desc_FF_Crop_YosseBerry.Desc_FF_Crop_YosseBerry_C",
+			"amount": 2
+		},
+		{
+			"item": "/FicsitFarming/Resources/Crops/Pumpkin/Desc_FF_Crop_Pumpkin.Desc_FF_Crop_Pumpkin_C",
+			"amount": 2
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidDirtyWater.Desc_LiquidDirtyWater_C",
+			"amount": 1500
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Food/Desc_SnailFood_Tier_6.Desc_SnailFood_Tier_6_C",
+			"amount": 3
+		}
+	],
+	"category": "Food",
+	"duration": 3,
+	"manuelDuration": 0.15000000596046448,
+	"producedIn": [
+		"/FicsitFarming/Buildings/CookingHub/Build_FF_CookingHub.Build_FF_CookingHub_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Platform3.Schematic_Tree_Platform3_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

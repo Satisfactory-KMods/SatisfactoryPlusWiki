@@ -1,0 +1,268 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/NewTrees/ResearchTree_Sulfur.ResearchTree_Sulfur_C",
+	"name": "Sulfur",
+	"description": "Data has shown this 'element' to simply be an unusual mixture of primarily sulfide and sulfate minerals from which Sulfur might be extraced. The properties of Sulfur would allow for the production of more... volatile self-defense applications.",
+	"image": "/Game/FactoryGame/Resource/RawResources/Sulfur/UI/Sulfur_256.Sulfur_256",
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/Schematic_Trees_Sulfur_3_0.Schematic_Trees_Sulfur_3_0_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/Schematic_Trees_Sulfur_3_1.Schematic_Trees_Sulfur_3_1_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/Schematic_Trees_Sulfur_3_2.Schematic_Trees_Sulfur_3_2_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_3_3.Schematic_Trees_Sulfur_3_3_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_3_4.Schematic_Trees_Sulfur_3_4_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_1_5.Schematic_Trees_Sulfur_1_5_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_2_5.Schematic_Trees_Sulfur_2_5_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_4_5.Schematic_Trees_Sulfur_4_5_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_5_5.Schematic_Trees_Sulfur_5_5_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_3_6.Schematic_Trees_Sulfur_3_6_C"
+	],
+	"nodes": [
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/Schematic_Trees_Sulfur_3_0.Schematic_Trees_Sulfur_3_0_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 0
+			},
+			"unhiddenBy": [],
+			"nodesToUnhide": [
+				{
+					"X": 3,
+					"Y": 1
+				},
+				{
+					"X": 3,
+					"Y": 2
+				},
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"parents": []
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/Schematic_Trees_Sulfur_3_1.Schematic_Trees_Sulfur_3_1_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 1
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/Schematic_Trees_Sulfur_3_2.Schematic_Trees_Sulfur_3_2_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 2
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 1
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_3_3.Schematic_Trees_Sulfur_3_3_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 3
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 3,
+					"Y": 4
+				}
+			],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_3_4.Schematic_Trees_Sulfur_3_4_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 4
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 1,
+					"Y": 5
+				},
+				{
+					"X": 2,
+					"Y": 5
+				},
+				{
+					"X": 3,
+					"Y": 6
+				},
+				{
+					"X": 4,
+					"Y": 5
+				},
+				{
+					"X": 5,
+					"Y": 5
+				}
+			],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_1_5.Schematic_Trees_Sulfur_1_5_C",
+			"coordinates":
+			{
+				"X": 1,
+				"Y": 5
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 4
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 4
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_2_5.Schematic_Trees_Sulfur_2_5_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 5
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 4
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 4
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_4_5.Schematic_Trees_Sulfur_4_5_C",
+			"coordinates":
+			{
+				"X": 4,
+				"Y": 5
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 4
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 4
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_5_5.Schematic_Trees_Sulfur_5_5_C",
+			"coordinates":
+			{
+				"X": 5,
+				"Y": 5
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 4
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 4
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_3_6.Schematic_Trees_Sulfur_3_6_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 6
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 4
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 4
+				}
+			]
+		}
+	],
+	"treeUnlocks": [
+		{
+			"items": [
+				"/Game/FactoryGame/Resource/RawResources/Sulfur/Desc_Sulfur.Desc_Sulfur_C"
+			],
+			"needAll": false
+		}
+	],
+	"dataType": "researchTree"
+}

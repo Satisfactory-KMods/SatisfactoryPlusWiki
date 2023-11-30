@@ -1,0 +1,38 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_NetworkStorageUnit_Fluid_1.Recipe_NetworkStorageUnit_Fluid_1_C",
+	"name": "Fluid Server",
+	"image": "/KLib/Assets/Buildings/CentralStorage/UI/Icon_NetworkStorageUnit_Fluid.Icon_NetworkStorageUnit_Fluid",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
+			"amount": 10
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 25
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+			"amount": 10
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
+			"amount": 20
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_NetworkStorageUnit_Fluid_1.BuildDesc_NetworkStorageUnit_Fluid_1_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_FluidStorage_1.Schematic_Trees_TimeCrystak_FluidStorage_1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

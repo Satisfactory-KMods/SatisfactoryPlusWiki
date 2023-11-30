@@ -1,0 +1,40 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Equipment/Recipe_Chainsaw.Recipe_Chainsaw_C",
+	"name": "Chainsaw",
+	"image": "/Game/FactoryGame/Equipment/Chainsaw/UI/IconDesc_Chainsaw_256.IconDesc_Chainsaw_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
+			"amount": 5
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+			"amount": 25
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 160
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+			"amount": 15
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Equipment/Chainsaw/Desc_Chainsaw.Desc_Chainsaw_C",
+			"amount": 1
+		}
+	],
+	"category": "Tools",
+	"duration": 60,
+	"manuelDuration": 6,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_2.Schematic_SF+_1_2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

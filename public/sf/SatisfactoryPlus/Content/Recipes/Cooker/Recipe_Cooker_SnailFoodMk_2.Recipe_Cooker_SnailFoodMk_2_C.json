@@ -1,0 +1,36 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Cooker/Recipe_Cooker_SnailFoodMk_2.Recipe_Cooker_SnailFoodMk_2_C",
+	"name": "Healthy Snail Food",
+	"image": "/KLib/Assets/Parts/Production/Food/UI/Icon_SnailFood_Tier_2.Icon_SnailFood_Tier_2",
+	"input": [
+		{
+			"item": "/FicsitFarming/Resources/Crops/Potato/Desc_FF_Crop_Potato.Desc_FF_Crop_Potato_C",
+			"amount": 1
+		},
+		{
+			"item": "/FicsitFarming/Resources/Crops/Carrots/Desc_FF_Crop_Carrot.Desc_FF_Crop_Carrot_C",
+			"amount": 1
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 1500
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Food/Desc_SnailFood_Tier_2.Desc_SnailFood_Tier_2_C",
+			"amount": 3
+		}
+	],
+	"category": "Food",
+	"duration": 3,
+	"manuelDuration": 0.15000000596046448,
+	"producedIn": [
+		"/FicsitFarming/Buildings/CookingHub/Build_FF_CookingHub.Build_FF_CookingHub_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_PlotModules.Schematic_Tree_Farming_PlotModules_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,34 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorCeilingAttachment.Recipe_ConveyorCeilingAttachment_C",
+	"name": "Conveyor Ceiling Mount",
+	"image": "/Game/FactoryGame/Buildable/Factory/ConveyorPoleWall/UI/IconDesc_ConvCeilingAttachment_512.IconDesc_ConvCeilingAttachment_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Factory/ConveyorPoleWall/Desc_ConveyorCeilingAttachment.Desc_ConveyorCeilingAttachment_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_ConveyorCeilingMount.ResourceSink_ConveyorCeilingMount_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,28 @@
+﻿{
+	"path": "/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C",
+	"name": "Rubber",
+	"description": "Rubber is a material that is very flexible and has a lot of friction.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 60,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 200,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
+		"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/ADHP/Alternative_AHP.Alternative_AHP_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Resource/Parts/Rubber/UI/IconDesc_Rubber_256.IconDesc_Rubber_256",
+	"category": "Oil Products",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

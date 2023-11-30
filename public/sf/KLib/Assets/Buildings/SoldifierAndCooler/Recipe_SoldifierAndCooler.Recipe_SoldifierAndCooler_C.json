@@ -1,0 +1,42 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/SoldifierAndCooler/Recipe_SoldifierAndCooler.Recipe_SoldifierAndCooler_C",
+	"name": "Solidifier and Cooler",
+	"image": "/KLib/Assets/Buildings/SoldifierAndCooler/UI/Icon_Solidifier_LG.Icon_Solidifier_LG",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
+			"amount": 5
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 30
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+			"amount": 20
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
+			"amount": 5
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_LeadPlates.Desc_LeadPlates_C",
+			"amount": 20
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Buildings/SoldifierAndCooler/BuildDesc_SoldifierAndCooler.BuildDesc_SoldifierAndCooler_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

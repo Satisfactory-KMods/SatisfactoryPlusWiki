@@ -1,0 +1,38 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Buildings/Recipe_JumpPadAdjustable.Recipe_JumpPadAdjustable_C",
+	"name": "Jump Pad",
+	"image": "/Game/FactoryGame/Buildable/Factory/JumpPad/UI/IconDesc_JumpPad_512.IconDesc_JumpPad_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 15
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+			"amount": 10
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CopperRod.Desc_CopperRod_C",
+			"amount": 10
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
+			"amount": 5
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Factory/JumpPad/Desc_JumpPadAdjustable.Desc_JumpPadAdjustable_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_7.Schematic_SF+_2_7_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

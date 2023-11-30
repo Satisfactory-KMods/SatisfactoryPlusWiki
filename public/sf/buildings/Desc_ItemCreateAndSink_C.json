@@ -1,0 +1,39 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/KBFL/Utils/CheatBuilding/Build_ItemCreateAndSink.Build_ItemCreateAndSink_C",
+	"path": "/KBFL/Utils/CheatBuilding/Desc_ItemCreateAndSink.Desc_ItemCreateAndSink_C",
+	"name": "All In One Cheat Building",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KBFL/Utils/CheatBuilding/KBFL_Recipe_ItemCreateAndSink.KBFL_Recipe_ItemCreateAndSink_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Equipment/Beacon/BP_EquipmentDescriptorBeacon.BP_EquipmentDescriptorBeacon_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KBFL/Utils/CheatBuilding/Desc_ItemCreateAndSink.Desc_ItemCreateAndSink_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/KBFL/Utils/KBFL_Schematic_Debug.KBFL_Schematic_Debug_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

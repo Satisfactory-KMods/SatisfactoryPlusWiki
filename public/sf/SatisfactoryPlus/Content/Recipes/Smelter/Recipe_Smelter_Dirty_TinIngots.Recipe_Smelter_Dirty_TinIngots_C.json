@@ -1,0 +1,29 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Dirty_TinIngots.Recipe_Smelter_Dirty_TinIngots_C",
+	"name": "Sloppy Tin Ingots",
+	"image": "/KLib/Assets/Parts/Production/Metal/Ingots/UI/Icon_TinIngot_256.Icon_TinIngot_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedRubyte.Desc_CrushedRubyte_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Ingots/Desc_TinIngot.Desc_TinIngot_C",
+			"amount": 1
+		}
+	],
+	"category": "Ingots",
+	"duration": 2,
+	"manuelDuration": 0.20000000298023224,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

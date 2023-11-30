@@ -1,0 +1,36 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/ChemReactor/OilProcessing/Recipe_ChemReactor_Oil_Destila.Recipe_ChemReactor_Oil_Destila_C",
+	"name": "Oil Destilation",
+	"image": "/KLib/Assets/Ressources/Raw/Fluids/UI/Hydrocarbons.Hydrocarbons",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_PurifiedCrudeOil.Desc_PurifiedCrudeOil_C",
+			"amount": 3000
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidHydrocarbons.Desc_LiquidHydrocarbons_C",
+			"amount": 2000
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/HeavyOilResidue/Desc_HeavyOilResidue.Desc_HeavyOilResidue_C",
+			"amount": 2500
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Asphalt/Desc_Asphalt.Desc_Asphalt_C",
+			"amount": 2
+		}
+	],
+	"category": "Advanced Refinement",
+	"duration": 3,
+	"manuelDuration": 0.90000003576278687,
+	"producedIn": [
+		"/KLib/Assets/Buildings/ChemReactor/Build_ChemReactor.Build_ChemReactor_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

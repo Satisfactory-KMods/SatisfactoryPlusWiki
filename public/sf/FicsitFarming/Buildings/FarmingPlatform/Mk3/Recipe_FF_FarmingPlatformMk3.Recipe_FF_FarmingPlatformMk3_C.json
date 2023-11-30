@@ -1,0 +1,34 @@
+﻿{
+	"path": "/FicsitFarming/Buildings/FarmingPlatform/Mk3/Recipe_FF_FarmingPlatformMk3.Recipe_FF_FarmingPlatformMk3_C",
+	"name": "Farming Platform Mk2",
+	"image": "/FicsitFarming/Buildings/FarmingPlatform/Mk3/UI/Icon_FarmingPlatformMk3.Icon_FarmingPlatformMk3",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
+			"amount": 50
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+			"amount": 50
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 30
+		}
+	],
+	"output": [
+		{
+			"item": "/FicsitFarming/Buildings/FarmingPlatform/Mk3/Desc_FF_FarmingPlatformMk3.Desc_FF_FarmingPlatformMk3_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Platform3.Schematic_Tree_Platform3_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

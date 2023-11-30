@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_Cotton.Recipe_SF+_Crop_Cotton_C",
+	"name": "Cotton",
+	"image": "/FicsitFarming/Resources/Crops/Cotton/UI/Icon_Cotton.Icon_Cotton",
+	"input": [
+		{
+			"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_CottonSeed.Desc_FF_CottonSeed_C",
+			"amount": 5
+		}
+	],
+	"output": [
+		{
+			"item": "/FicsitFarming/Resources/Crops/Cotton/Desc_FF_Crop_Cotton.Desc_FF_Crop_Cotton_C",
+			"amount": 5
+		},
+		{
+			"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+			"amount": 1
+		}
+	],
+	"category": "Crops",
+	"duration": 30,
+	"manuelDuration": 3,
+	"producedIn": [
+		"/FicsitFarming/Buildings/Plots/CropPlot/Build_FF_CropPlot.Build_FF_CropPlot_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

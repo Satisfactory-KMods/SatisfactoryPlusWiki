@@ -1,0 +1,49 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "",
+	"path": "/FicsitFarming/Resources/Parts/Misc/DoggoChow/Desc_FF_DoggoChow.Desc_FF_DoggoChow_C",
+	"name": "Doggo Chow",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/FicsitFarming/Recipes/Food/Recipe_FF_DoggoChow.Recipe_FF_DoggoChow_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/YosseBerry/Desc_FF_Crop_YosseBerry.Desc_FF_Crop_YosseBerry_C",
+					"time": 60,
+					"amount": 35
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Mycelia.Desc_Mycelia_C",
+					"time": 60,
+					"amount": 35
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 60,
+					"amount": 25000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Parts/Misc/DoggoChow/Desc_FF_DoggoChow.Desc_FF_DoggoChow_C",
+					"time": 60,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DoggoLove.Schematic_Tree_Farming_DoggoLove_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "informations"
+}

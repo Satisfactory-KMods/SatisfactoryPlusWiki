@@ -1,0 +1,40 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
+	"name": "Oil Refining",
+	"description": "",
+	"cost": [],
+	"category": "",
+	"subCategory": "",
+	"type": 3,
+	"tier": 5,
+	"time": 600,
+	"image": "/KLib/Assets/Icons/Milestones/ICON_Milestone_Oilprocessing.ICON_Milestone_Oilprocessing",
+	"smallImage": "/KLib/Assets/Icons/Milestones/ICON_Milestone_Oilprocessing.ICON_Milestone_Oilprocessing",
+	"scannerUnlocks": [
+		"/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C"
+	],
+	"recipeUnlocks": [
+		"/Game/FactoryGame/Recipes/Buildings/Recipe_OilPump.Recipe_OilPump_C",
+		"/KLib/Assets/Buildings/ChemReactor/Recipe_ChemReactor.Recipe_ChemReactor_C",
+		"/KLib/Assets/Buildings/Weavingmachine/Recipe_Weavingmachine.Recipe_Weavingmachine_C",
+		"/SatisfactoryPlus/Content/Recipes/ChemReactor/OilProcessing/Recipe_ChemReactor_Oil_Destila.Recipe_ChemReactor_Oil_Destila_C",
+		"/SatisfactoryPlus/Content/Recipes/ChemReactor/OilProcessing/Recipe_ChemReactor_Oil_Desulfurization.Recipe_ChemReactor_Oil_Desulfurization_C",
+		"/SatisfactoryPlus/Content/Recipes/ChemReactor/OilProcessing/Recipe_ChemReactor_Oil_Petroleum.Recipe_ChemReactor_Oil_Petroleum_C",
+		"/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Recipe_FBFS_Oil_Purification.Recipe_FBFS_Oil_Purification_C",
+		"/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Recipe_SAC_OilPlasticRubber.Recipe_SAC_OilPlasticRubber_C",
+		"/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_LiquidBiofuel.Recipe_ChemReactor_LiquidBiofuel_C",
+		"/SatisfactoryPlus/Content/Recipes/Weavingmachine/Recipe_Weavingmachine_SyntheticFabric.Recipe_Weavingmachine_SyntheticFabric_C",
+		"/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_Diesel.Recipe_ChemReactor_Diesel_C",
+		"/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_NaturalGas.Recipe_ChemReactor_NaturalGas_C",
+		"/SatisfactoryPlus/Content/Recipes/ChemReactor/OilProcessing/Recipe_ChemReactor_Oil_Destila_2.Recipe_ChemReactor_Oil_Destila_2_C"
+	],
+	"handSlots": 0,
+	"subSchematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0_1.Schematic_SF+_5_0_1_C"
+	],
+	"cleanerDesc": [
+		"/SatisfactoryPlus/Content/Recipes/Cleaner/CleanerDesc_RawSludge.CleanerDesc_RawSludge_C"
+	],
+	"inventorySlots": 0,
+	"dataType": "schematic"
+}

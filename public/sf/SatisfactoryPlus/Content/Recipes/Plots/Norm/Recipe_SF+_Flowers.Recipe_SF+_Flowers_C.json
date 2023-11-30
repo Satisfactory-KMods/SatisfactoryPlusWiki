@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Flowers.Recipe_SF+_Flowers_C",
+	"name": "Processed Flowers",
+	"image": "/Game/FactoryGame/Resource/Parts/GenericBiomass/UI/FlowerPetals_Final_256.FlowerPetals_Final_256",
+	"input": [
+		{
+			"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_FlowerSeed.Desc_FF_FlowerSeed_C",
+			"amount": 5
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_FlowerPetals.Desc_FlowerPetals_C",
+			"amount": 5
+		},
+		{
+			"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+			"amount": 1
+		}
+	],
+	"category": "Biomass",
+	"duration": 30,
+	"manuelDuration": 3,
+	"producedIn": [
+		"/FicsitFarming/Buildings/Plots/FlowerPlot/Build_FF_FlowerPlot.Build_FF_FlowerPlot_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

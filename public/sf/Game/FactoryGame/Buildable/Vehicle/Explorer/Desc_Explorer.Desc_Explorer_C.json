@@ -1,0 +1,27 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Vehicle/Explorer/Desc_Explorer.Desc_Explorer_C",
+	"name": "Explorer",
+	"description": "Fuel: Any fuel type\r\n\r\n24-slot inventory. Has a built-in craft bench.\r\n\r\nFast and nimble exploration vehicle. Tuned for really rough terrain and able to climb almost vertical surfaces.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": false,
+	"sinkPoints": 0,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 4,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 1,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_2_2.Schematic_Trees_Cryolit_2_2_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Buildable/Vehicle/Explorer/UI/IconDesc_Explorer_512.IconDesc_Explorer_512",
+	"category": "Transport",
+	"subCategory": "Vehicle Transport",
+	"dataType": "itemDescriptor"
+}

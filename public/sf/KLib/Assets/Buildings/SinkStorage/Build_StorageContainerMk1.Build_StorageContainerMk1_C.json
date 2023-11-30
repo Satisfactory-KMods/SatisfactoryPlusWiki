@@ -1,0 +1,29 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/SinkStorage/Desc_SinkStorageMk1.Desc_SinkStorageMk1_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 7.5,
+	"descriptorType": 0,
+	"name": "Awesome Sink Storage Mk.1",
+	"description": "Contains 24 slots for storing large amounts of items.\r\nHas one input and output for conveyor belts.\r\n\r\nIf powered, items in the last slot will be automatically converted to AWESOME Sink points.\r\nNeed also Power to store items!",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_3.Schematic_SF+_2_3_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/UI/IconDesc_StorageContainer_512.IconDesc_StorageContainer_512",
+	"category": "Special",
+	"subCategory": "AWESOME Bonus Program",
+	"buildingPath": "/KLib/Assets/Buildings/SinkStorage/Build_StorageContainerMk1.Build_StorageContainerMk1_C",
+	"dataType": "buildable"
+}

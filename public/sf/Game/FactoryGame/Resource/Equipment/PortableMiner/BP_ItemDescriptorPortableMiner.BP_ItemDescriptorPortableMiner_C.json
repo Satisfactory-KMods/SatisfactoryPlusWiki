@@ -1,0 +1,28 @@
+﻿{
+	"path": "/Game/FactoryGame/Resource/Equipment/PortableMiner/BP_ItemDescriptorPortableMiner.BP_ItemDescriptorPortableMiner_C",
+	"name": "Portable Miner",
+	"description": "Can be set up on a resource node to automatically extract the resource. Note that it has limited storage space.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 56,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 2,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 50,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1.SF+_Schematic_Tutorial1_C",
+		"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/AutomaticMiner/Alternative_AutomaticMiner.Alternative_AutomaticMiner_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/IconDesc_PortableMiner_256.IconDesc_PortableMiner_256",
+	"category": "Tools",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

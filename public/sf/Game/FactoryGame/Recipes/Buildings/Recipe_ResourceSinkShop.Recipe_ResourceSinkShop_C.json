@@ -1,0 +1,35 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Buildings/Recipe_ResourceSinkShop.Recipe_ResourceSinkShop_C",
+	"name": "AWESOME Shop",
+	"image": "/Game/FactoryGame/Buildable/Factory/ResourceSinkShop/UI/ResourceSinkShop_512.ResourceSinkShop_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 100
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_LeadSheet.Desc_LeadSheet_C",
+			"amount": 25
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+			"amount": 25
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Factory/ResourceSinkShop/Desc_ResourceSinkShop.Desc_ResourceSinkShop_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_3.Schematic_SF+_2_3_C",
+		"/Game/FactoryGame/Schematics/Progression/Schematic_2-5.Schematic_2-5_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

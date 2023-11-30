@@ -1,0 +1,29 @@
+﻿{
+	"path": "/AB_FluidExtras/FluidPacker/Desc_AB_FluidPacker.Desc_AB_FluidPacker_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 10,
+	"descriptorType": 0,
+	"name": "A.I. Fluid Packer",
+	"description": "Let the onboard A.I. figure out the recipe for you! Pack and unpack containers simply by hooking it up to your factory. Re-uses any recipe for the regular Packer.\r\n\r\nNOTE: For optimal performance with no chance of rebellion keep the machine busy.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C"
+	],
+	"image": "/AB_FluidExtras/FluidPacker/Icon_FluidPacker_Lg.Icon_FluidPacker_Lg",
+	"category": "Production",
+	"subCategory": "Manufacturers",
+	"buildingPath": "/AB_FluidExtras/FluidPacker/Build_AB_FluidPacker.Build_AB_FluidPacker_C",
+	"dataType": "buildable"
+}

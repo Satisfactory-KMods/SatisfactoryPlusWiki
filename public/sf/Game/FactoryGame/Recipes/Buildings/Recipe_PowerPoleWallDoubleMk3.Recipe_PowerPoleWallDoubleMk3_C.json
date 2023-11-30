@@ -1,0 +1,35 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleWallDoubleMk3.Recipe_PowerPoleWallDoubleMk3_C",
+	"name": "Double Wall Outlet Mk.3",
+	"image": "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/UI/PowerPoleWallDouble_MK3_512.PowerPoleWallDouble_MK3_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C",
+			"amount": 2
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+			"amount": 4
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CateriumRod.Desc_CateriumRod_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/Desc_PowerPoleWallDoubleMk3.Desc_PowerPoleWallDoubleMk3_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_WallPowerPolesMK3.ResourceSink_WallPowerPolesMK3_C",
+		"/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_WallPowerPolesMK3.ResourceSink_WallPowerPolesMK3_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

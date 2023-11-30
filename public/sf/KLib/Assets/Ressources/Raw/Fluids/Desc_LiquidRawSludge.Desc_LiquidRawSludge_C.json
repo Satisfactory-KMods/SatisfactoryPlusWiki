@@ -1,0 +1,29 @@
+﻿{
+	"path": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidRawSludge.Desc_LiquidRawSludge_C",
+	"name": "Raw Sludge",
+	"description": "A waste product that contains trace amounts of iron, magnesium and tin.",
+	"gasColor": "B0A7A0FF",
+	"fluidColor": "B0A7A0FF",
+	"canBeSink": false,
+	"sinkPoints": 0,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 2,
+	"stackSize": 50000,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/KLib/Assets/Ressources/Raw/Fluids/UI/LiquidSludge.LiquidSludge",
+	"category": "",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

@@ -1,0 +1,32 @@
+﻿{
+	"path": "/KLib/Assets/Parts/Packaged/Recipes/UnPackaged/Recipe_UnPackaged_CoolingWater.Recipe_UnPackaged_CoolingWater_C",
+	"name": "Unpack Purified Crude Oil ",
+	"image": "/KLib/Assets/Parts/Packaged/Items/Cold/UI/Icon_CryoTank_Empty.Icon_CryoTank_Empty",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Packaged/Items/Cold/Desc_PackagedCoolingWater.Desc_PackagedCoolingWater_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Packaged/Items/Empty/Desc_NC_CryoTankEmpty.Desc_NC_CryoTankEmpty_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_CoolingWater.Desc_CoolingWater_C",
+			"amount": 1000
+		}
+	],
+	"category": "Unpackaging - Cold / Energetic",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [
+		"/AB_FluidExtras/FluidPacker/Build_AB_FluidPacker.Build_AB_FluidPacker_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

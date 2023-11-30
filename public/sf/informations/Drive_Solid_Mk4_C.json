@@ -1,0 +1,84 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "",
+	"path": "/KLib/Assets/Parts/NetworkHardDrives/Drive_Solid_Mk4.Drive_Solid_Mk4_C",
+	"name": "Drive Mk.4",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Recipes/Recipe_SolidDrive_MK_4.Recipe_SolidDrive_MK_4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/NetworkHardDrives/Drive_Solid_Mk3.Drive_Solid_Mk3_C",
+					"time": 150,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Parts/PowerShardCrystal/Desc_PowerShardCrystal.Desc_PowerShardCrystal_C",
+					"time": 150,
+					"amount": 20
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/NetworkHardDrives/Drive_Solid_Mk4.Drive_Solid_Mk4_C",
+					"time": 150,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_4.Schematic_Trees_TimeCrystak_ItemStorage_4_C"
+			]
+		}
+	],
+	"produced": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Recipes/Recipe_SolidDrive_MK_5.Recipe_SolidDrive_MK_5_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/NetworkHardDrives/Drive_Solid_Mk4.Drive_Solid_Mk4_C",
+					"time": 150,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C",
+					"time": 150,
+					"amount": 20
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C",
+					"time": 150,
+					"amount": 50
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+					"time": 150,
+					"amount": 100
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/NetworkHardDrives/Drive_Solid_Mk5.Drive_Solid_Mk5_C",
+					"time": 150,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_4.Schematic_Trees_TimeCrystak_ItemStorage_4_C"
+			]
+		}
+	],
+	"dataType": "informations"
+}

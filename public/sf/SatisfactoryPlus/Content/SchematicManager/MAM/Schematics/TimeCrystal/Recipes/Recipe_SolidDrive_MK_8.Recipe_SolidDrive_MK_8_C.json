@@ -1,0 +1,40 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Recipes/Recipe_SolidDrive_MK_8.Recipe_SolidDrive_MK_8_C",
+	"name": "Drive Mk.8",
+	"image": "/KUI/Assets/TX_PlaceHolder.TX_PlaceHolder",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/NetworkHardDrives/Drive_Solid_Mk7.Drive_Solid_Mk7_C",
+			"amount": 1
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_9.Desc_SpaceElevatorPart_9_C",
+			"amount": 10
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C",
+			"amount": 50
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TitanPlates.Desc_TitanPlates_C",
+			"amount": 100
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/NetworkHardDrives/Drive_Solid_Mk8.Drive_Solid_Mk8_C",
+			"amount": 1
+		}
+	],
+	"category": "Quantum Technology",
+	"duration": 150,
+	"manuelDuration": 15,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_8.Schematic_Trees_TimeCrystak_ItemStorage_8_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

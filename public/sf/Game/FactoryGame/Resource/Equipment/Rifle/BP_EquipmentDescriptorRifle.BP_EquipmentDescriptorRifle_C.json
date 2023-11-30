@@ -1,0 +1,27 @@
+﻿{
+	"path": "/Game/FactoryGame/Resource/Equipment/Rifle/BP_EquipmentDescriptorRifle.BP_EquipmentDescriptorRifle_C",
+	"name": "Rifle",
+	"description": "A long-range, rapid-fire weapon. Specifically designed to deliver adequate performance within the designated work area.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 9480,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 2,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 1,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_1_5.Schematic_Trees_Sulfur_1_5_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Resource/Equipment/Rifle/UI/RifleMK1_256.RifleMK1_256",
+	"category": "Weapons",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

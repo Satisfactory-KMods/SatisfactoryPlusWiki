@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Weavingmachine/Recipe_Weavingmachine_CarbonMesh.Recipe_Weavingmachine_CarbonMesh_C",
+	"name": "Carbon Mesh",
+	"image": "/KLib/Assets/Parts/Production/CarbonMesh/UI/Icon_CarbonMesh.Icon_CarbonMesh",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_CarbonDust.Desc_CarbonDust_C",
+			"amount": 4
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 1500
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/CarbonMesh/Desc_CarbonMesh.Desc_CarbonMesh_C",
+			"amount": 3
+		}
+	],
+	"category": "Weaving",
+	"duration": 12,
+	"manuelDuration": 1.2000000476837158,
+	"producedIn": [
+		"/KLib/Assets/Buildings/Weavingmachine/Build_Weavingmachine.Build_Weavingmachine_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_6.Schematic_SF+_4_6_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

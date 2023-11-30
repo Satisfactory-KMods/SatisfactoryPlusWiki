@@ -1,0 +1,29 @@
+﻿{
+	"path": "/RefinedPower/Buildables/Factory/AutomatedBiomassGen/Desc_AutomatedBiomassGen.Desc_AutomatedBiomassGen_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Automated Biomass Generator",
+	"description": "Burns the biomass in your world to convert it into power and has an automated input for a higher building cost!\r\n\r\nBurn baby burn.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/GeneratorBiomass/UI/BiomassGenerator_512.BiomassGenerator_512",
+	"category": "Power",
+	"subCategory": "Misc",
+	"buildingPath": "/RefinedPower/Buildables/Factory/AutomatedBiomassGen/Build_AutomatedBiomassGen.Build_AutomatedBiomassGen_C",
+	"dataType": "buildable"
+}

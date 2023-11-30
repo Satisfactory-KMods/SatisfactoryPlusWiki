@@ -1,0 +1,31 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_DownQuarterPipe_AsphaltOutCorner_8x4.Recipe_DownQuarterPipe_AsphaltOutCorner_8x4_C",
+	"name": "Inverted Outer Corner Quarter Pipe",
+	"image": "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Asphalt_DownOutCorner_8x4_512.IconDesc_QP_Asphalt_DownOutCorner_8x4_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+			"amount": 5
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Asphalt/Desc_Asphalt.Desc_Asphalt_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Desc_DownQuarterPipeOutCorner_Asphalt_8x4.Desc_DownQuarterPipeOutCorner_Asphalt_8x4_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_QuarterPipes_Asphalt.CBG_QuarterPipes_Asphalt_C",
+		"/Game/FactoryGame/Schematics/ResourceSink/Customizer_Background/CBG_QuarterPipes_Asphalt.CBG_QuarterPipes_Asphalt_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

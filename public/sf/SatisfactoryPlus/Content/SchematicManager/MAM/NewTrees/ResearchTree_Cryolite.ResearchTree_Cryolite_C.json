@@ -1,0 +1,321 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/NewTrees/ResearchTree_Cryolite.ResearchTree_Cryolite_C",
+	"name": "Cryolite",
+	"description": "This mineral shows purity levels akin to synthetic Quartz manufactured on earth. Thus R&D believes it maybe be used in similar fashion to produce communication and exploration technologies.",
+	"image": "/KLib/Assets/Ressources/Raw/Ores/Cryolit/UI/Icon_Cryolit_256.Icon_Cryolit_256",
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_0.Schematic_Trees_Cryolit_3_0_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_1.Schematic_Trees_Cryolit_3_1_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_2_2.Schematic_Trees_Cryolit_2_2_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_4_2.Schematic_Trees_Cryolit_4_2_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_4_3.Schematic_Trees_Cryolit_4_3_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_4.Schematic_Trees_Cryolit_3_4_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_4_4.Schematic_Trees_Cryolit_4_4_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_5_4.Schematic_Trees_Cryolit_5_4_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_5.Schematic_Trees_Cryolit_3_5_C",
+		"/Game/FactoryGame/Schematics/Research/Quartz_RS/Research_Quartz_4_1.Research_Quartz_4_1_C"
+	],
+	"nodes": [
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_0.Schematic_Trees_Cryolit_3_0_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 0
+			},
+			"unhiddenBy": [],
+			"nodesToUnhide": [
+				{
+					"X": 3,
+					"Y": 1
+				},
+				{
+					"X": 3,
+					"Y": 2
+				},
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"parents": []
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_1.Schematic_Trees_Cryolit_3_1_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 1
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_2_2.Schematic_Trees_Cryolit_2_2_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 2
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 2
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 2,
+					"Y": 2
+				},
+				{
+					"X": 4,
+					"Y": 2
+				}
+			],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 1
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_4_2.Schematic_Trees_Cryolit_4_2_C",
+			"coordinates":
+			{
+				"X": 4,
+				"Y": 2
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 3
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 3,
+					"Y": 4
+				},
+				{
+					"X": 4,
+					"Y": 3
+				},
+				{
+					"X": 3,
+					"Y": 5
+				}
+			],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_4_3.Schematic_Trees_Cryolit_4_3_C",
+			"coordinates":
+			{
+				"X": 4,
+				"Y": 3
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 4,
+					"Y": 4
+				},
+				{
+					"X": 5,
+					"Y": 4
+				},
+				{
+					"X": 4,
+					"Y": 5
+				}
+			],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_4.Schematic_Trees_Cryolit_3_4_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 4
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_4_4.Schematic_Trees_Cryolit_4_4_C",
+			"coordinates":
+			{
+				"X": 4,
+				"Y": 4
+			},
+			"unhiddenBy": [
+				{
+					"X": 4,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 4,
+					"Y": 3
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_5_4.Schematic_Trees_Cryolit_5_4_C",
+			"coordinates":
+			{
+				"X": 5,
+				"Y": 4
+			},
+			"unhiddenBy": [
+				{
+					"X": 4,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 4,
+					"Y": 3
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_5.Schematic_Trees_Cryolit_3_5_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 5
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 4
+				}
+			]
+		},
+		{
+			"path": "/Game/FactoryGame/Schematics/Research/Quartz_RS/Research_Quartz_4_1.Research_Quartz_4_1_C",
+			"coordinates":
+			{
+				"X": 4,
+				"Y": 5
+			},
+			"unhiddenBy": [
+				{
+					"X": 4,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 4,
+					"Y": 4
+				}
+			]
+		}
+	],
+	"treeUnlocks": [
+		{
+			"items": [
+				"/KLib/Assets/Ressources/Raw/Ores/Cryolit/Res_Cryolit.Res_Cryolit_C"
+			],
+			"needAll": false
+		}
+	],
+	"dataType": "researchTree"
+}

@@ -1,0 +1,30 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Buildings/Recipe_IndustrialTank.Recipe_IndustrialTank_C",
+	"name": "Industrial Fluid Buffer",
+	"image": "/Game/FactoryGame/Buildable/Factory/StorageTank/UI/FluidStorageIndustrial_512.FluidStorageIndustrial_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+			"amount": 30
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Factory/IndustrialFluidContainer/Desc_IndustrialTank.Desc_IndustrialTank_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

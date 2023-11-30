@@ -1,0 +1,105 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "",
+	"path": "/KLib/Assets/Ressources/Raw/Nodes/Crotinium/Res_CrotiniumOre.Res_CrotiniumOre_C",
+	"name": "Crotinnium Ore",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Collider/Recipe_Slug_Colider_CrushedCrono.Recipe_Slug_Colider_CrushedCrono_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Mineral.Desc_SlugSlime_Mineral_C",
+					"time": 30,
+					"amount": 7500
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Salt.Desc_Salt_C",
+					"time": 30,
+					"amount": 20
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Nodes/Crotinium/Res_CrotiniumOre.Res_CrotiniumOre_C",
+					"time": 30,
+					"amount": 100
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Low.Desc_SlugSlime_Low_C",
+					"time": 30,
+					"amount": 1000
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_5.Schematic_SF+_8_5_C"
+			]
+		},
+		{
+			"isRecipe": false,
+			"type": 6,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/ExtractDesc/Miner/ExtractDesc_Crotinium.ExtractDesc_Crotinium_C",
+			"wasteProducer": "",
+			"input": [],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Nodes/Crotinium/Res_CrotiniumOre.Res_CrotiniumOre_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Nodes/Crotinium/Res_CrotiniumOre.Res_CrotiniumOre_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_5.Schematic_SF+_8_5_C"
+			]
+		}
+	],
+	"produced": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_Crotinium.Recipe_Crusher_Crotinium_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Nodes/Crotinium/Res_CrotiniumOre.Res_CrotiniumOre_C",
+					"time": 3,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedCrotinium.Desc_CrushedCrotinium_C",
+					"time": 3,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+					"time": 3,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_5.Schematic_SF+_8_5_C"
+			]
+		}
+	],
+	"dataType": "informations"
+}

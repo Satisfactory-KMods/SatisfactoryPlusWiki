@@ -1,0 +1,347 @@
+﻿{
+	"path": "/Game/FactoryGame/Schematics/Research/BPD_ResearchTree_XMas.BPD_ResearchTree_XMas_C",
+	"name": "FICSMAS Holiday Event",
+	"description": "The December and January Holiday Content and Event were brought to you by the FICSIT Inc. internal marketing department. Any resemblance to external holidays, celebrations, events, traditions, historical or contemporary, and their products, is purely coincidental. *Check the FICSMAS Calendar in the HUB on the 1st, 3rd, 4th, and 10th of December to progress!",
+	"image": "",
+	"schematics": [
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2.Research_XMas_2_C",
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_3.Research_XMas_3_C",
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_1-2.Research_XMas_1-2_C",
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_4-2.Research_XMas_4-2_C",
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_4-1.Research_XMas_4-1_C",
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_1.Research_XMas_1_C",
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_1-1.Research_XMas_1-1_C",
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_4.Research_XMas_4_C",
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_5.Research_XMas_5_C",
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2-2.Research_XMas_2-2_C",
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_3-2.Research_XMas_3-2_C",
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2-1.Research_XMas_2-1_C",
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_3-1.Research_XMas_3-1_C"
+	],
+	"nodes": [
+		{
+			"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2.Research_XMas_2_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 1
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 3,
+					"Y": 2
+				},
+				{
+					"X": 1,
+					"Y": 3
+				},
+				{
+					"X": 5,
+					"Y": 3
+				}
+			],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			]
+		},
+		{
+			"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_3.Research_XMas_3_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 2
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 1
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 3,
+					"Y": 3
+				},
+				{
+					"X": 0,
+					"Y": 4
+				},
+				{
+					"X": 6,
+					"Y": 4
+				}
+			],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 1
+				}
+			]
+		},
+		{
+			"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_1-2.Research_XMas_1-2_C",
+			"coordinates":
+			{
+				"X": 4,
+				"Y": 1
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			]
+		},
+		{
+			"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_4-2.Research_XMas_4-2_C",
+			"coordinates":
+			{
+				"X": 4,
+				"Y": 4
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			]
+		},
+		{
+			"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_4-1.Research_XMas_4-1_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 4
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			]
+		},
+		{
+			"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_1.Research_XMas_1_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 0
+			},
+			"unhiddenBy": [],
+			"nodesToUnhide": [
+				{
+					"X": 2,
+					"Y": 1
+				},
+				{
+					"X": 4,
+					"Y": 1
+				},
+				{
+					"X": 3,
+					"Y": 1
+				}
+			],
+			"parents": []
+		},
+		{
+			"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_1-1.Research_XMas_1-1_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 1
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			]
+		},
+		{
+			"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_4.Research_XMas_4_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 3
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 2,
+					"Y": 4
+				},
+				{
+					"X": 4,
+					"Y": 4
+				},
+				{
+					"X": 3,
+					"Y": 6
+				}
+			],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			]
+		},
+		{
+			"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_5.Research_XMas_5_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 6
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			]
+		},
+		{
+			"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2-2.Research_XMas_2-2_C",
+			"coordinates":
+			{
+				"X": 5,
+				"Y": 3
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 1
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 1
+				}
+			]
+		},
+		{
+			"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_3-2.Research_XMas_3-2_C",
+			"coordinates":
+			{
+				"X": 6,
+				"Y": 4
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			]
+		},
+		{
+			"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2-1.Research_XMas_2-1_C",
+			"coordinates":
+			{
+				"X": 1,
+				"Y": 3
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 1
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 1
+				}
+			]
+		},
+		{
+			"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_3-1.Research_XMas_3-1_C",
+			"coordinates":
+			{
+				"X": 0,
+				"Y": 4
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			]
+		}
+	],
+	"treeUnlocks": [
+		{
+			"items": [
+				"/Game/FactoryGame/Events/Christmas/Parts/Desc_Gift.Desc_Gift_C"
+			],
+			"needAll": false
+		}
+	],
+	"dataType": "researchTree"
+}

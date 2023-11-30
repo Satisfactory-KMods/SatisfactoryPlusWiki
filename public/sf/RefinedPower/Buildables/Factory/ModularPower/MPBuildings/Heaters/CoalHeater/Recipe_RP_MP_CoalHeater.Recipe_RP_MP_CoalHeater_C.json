@@ -1,0 +1,42 @@
+﻿{
+	"path": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Heaters/CoalHeater/Recipe_RP_MP_CoalHeater.Recipe_RP_MP_CoalHeater_C",
+	"name": "Coal Heater",
+	"image": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Heaters/CoalHeater/UI/Icon_CoalHeater.Icon_CoalHeater",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_BrassPipe.Desc_BrassPipe_C",
+			"amount": 15
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CopperRod.Desc_CopperRod_C",
+			"amount": 10
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+			"amount": 25
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
+			"amount": 10
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+			"amount": 15
+		}
+	],
+	"output": [
+		{
+			"item": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Heater/BuildDesc_CoalHeater.BuildDesc_CoalHeater_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_0.Schematic_SF+_4_0_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

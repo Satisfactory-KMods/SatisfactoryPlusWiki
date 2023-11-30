@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/DroneStation/Desc_DroneStation.Desc_DroneStation_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 100,
+	"descriptorType": 0,
+	"name": "Drone Port",
+	"description": "Drone Ports can have one other Port assigned as their transport destination.\r\nEach Drone Port can contain a single Drone, which transports available input back and forth between its home and destination Ports.\r\n\r\nThe Drone Port interface provides delivery details and allows management of Port connections.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_3.Schematic_SF+_8_3_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/DroneStation/UI/IconDesc_DronePort_512.IconDesc_DronePort_512",
+	"category": "Transport",
+	"subCategory": "Vehicle Transport",
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/DroneStation/Build_DroneStation.Build_DroneStation_C",
+	"dataType": "buildable"
+}

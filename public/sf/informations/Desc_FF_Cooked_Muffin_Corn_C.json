@@ -1,0 +1,49 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "",
+	"path": "/FicsitFarming/Resources/Cooked/Muffin/Corn/Desc_FF_Cooked_Muffin_Corn.Desc_FF_Cooked_Muffin_Corn_C",
+	"name": "Corn Muffin",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/FicsitFarming/Recipes/Food/Recipe_FF_Cooked_Muffin_Corn.Recipe_FF_Cooked_Muffin_Corn_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Wheat/Desc_FF_Crop_Wheat.Desc_FF_Crop_Wheat_C",
+					"time": 120,
+					"amount": 60
+				},
+				{
+					"item": "/FicsitFarming/Resources/Crops/Corn/Desc_FF_Crop_Corn.Desc_FF_Crop_Corn_C",
+					"time": 120,
+					"amount": 40
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 120,
+					"amount": 20000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Cooked/Muffin/Corn/Desc_FF_Cooked_Muffin_Corn.Desc_FF_Cooked_Muffin_Corn_C",
+					"time": 120,
+					"amount": 2
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Muffins.Schematic_Tree_Farming_Muffins_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "informations"
+}

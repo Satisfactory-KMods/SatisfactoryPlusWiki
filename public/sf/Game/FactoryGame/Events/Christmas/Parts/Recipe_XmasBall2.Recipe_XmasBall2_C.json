@@ -1,0 +1,28 @@
+﻿{
+	"path": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasBall2.Recipe_XmasBall2_C",
+	"name": "Blue FICSMAS Ornament",
+	"image": "/Game/FactoryGame/Events/Christmas/Parts/UI/IconDesc_XmasBall_Blue_256.IconDesc_XmasBall_Blue_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_Gift.Desc_Gift_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall2.Desc_XmasBall2_C",
+			"amount": 2
+		}
+	],
+	"category": "FICSMAS",
+	"duration": 12,
+	"manuelDuration": 1.2000000476837158,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C"
+	],
+	"schematics": [
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2.Research_XMas_2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

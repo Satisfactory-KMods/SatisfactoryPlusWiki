@@ -1,0 +1,40 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Alloy/Recipe_FBFS_Alloy_Steel.Recipe_FBFS_Alloy_Steel_C",
+	"name": "Molten Steel",
+	"image": "/KLib/Assets/Ressources/Raw/Fluids/UI/LiquidSteel.LiquidSteel",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidIron.Desc_LiquidIron_C",
+			"amount": 1500
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C",
+			"amount": 2
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Air.Desc_Air_C",
+			"amount": 750
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSteel.Desc_LiquidSteel_C",
+			"amount": 1500
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
+			"amount": 500
+		}
+	],
+	"category": "Alloys",
+	"duration": 3,
+	"manuelDuration": 0.30000001192092896,
+	"producedIn": [
+		"/KLib/Assets/Buildings/FlexibleBlastFurnace/Build_FlexibleBlastFurnaceSmelter.Build_FlexibleBlastFurnaceSmelter_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

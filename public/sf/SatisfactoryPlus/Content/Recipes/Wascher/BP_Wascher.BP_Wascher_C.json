@@ -1,0 +1,34 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Wascher/BP_Wascher.BP_Wascher_C",
+	"name": "Purified Tin",
+	"image": "/KLib/Assets/Parts/Production/Purified/UI/Icon_PurifiedTin.Icon_PurifiedTin",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedTin.Desc_CrushedTin_C",
+			"amount": 3
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 1500
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedTin.Desc_PurifiedTin_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidDirtyWater.Desc_LiquidDirtyWater_C",
+			"amount": 1500
+		}
+	],
+	"category": "Washing",
+	"duration": 3,
+	"manuelDuration": 0.30000001192092896,
+	"producedIn": [
+		"/KLib/Assets/Buildings/OreWasher/Build_OreWascher.Build_OreWascher_C"
+	],
+	"schematics": [],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

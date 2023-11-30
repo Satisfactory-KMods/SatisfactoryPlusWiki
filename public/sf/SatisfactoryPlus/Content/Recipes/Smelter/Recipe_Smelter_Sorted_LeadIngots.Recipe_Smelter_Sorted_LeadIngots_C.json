@@ -1,0 +1,28 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Sorted_LeadIngots.Recipe_Smelter_Sorted_LeadIngots_C",
+	"name": "Lead Ingot",
+	"image": "/KLib/Assets/Parts/Production/Metal/Ingots/UI/Icon_LeadIngot_256.Icon_LeadIngot_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedLead.Desc_CrushedLead_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Ingots/Desc_LeadIngot.Desc_LeadIngot_C",
+			"amount": 3
+		}
+	],
+	"category": "Ingots",
+	"duration": 4,
+	"manuelDuration": 0.40000000596046448,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

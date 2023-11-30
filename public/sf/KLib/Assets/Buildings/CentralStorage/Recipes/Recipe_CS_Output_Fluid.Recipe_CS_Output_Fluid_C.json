@@ -1,0 +1,38 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_Output_Fluid.Recipe_CS_Output_Fluid_C",
+	"name": "Faxit Fluid Sender",
+	"image": "/KLib/Assets/Buildings/CentralStorage/UI/Icon_BuildS_Output_Fluid.Icon_BuildS_Output_Fluid",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_BronzePipe.Desc_BronzePipe_C",
+			"amount": 20
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
+			"amount": 20
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
+			"amount": 5
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 25
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_CS_Output_Fluid.BuildDesc_CS_Output_Fluid_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_Out_Fluid.Schematic_Trees_TimeCrystak_Transport_Out_Fluid_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

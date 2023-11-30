@@ -1,0 +1,118 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "",
+	"path": "/KLib/Assets/Parts/Production/Food/Desc_SnailFood_Tier_2.Desc_SnailFood_Tier_2_C",
+	"name": "Healthy Snail Food",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Cooker/Recipe_Cooker_SnailFoodMk_2.Recipe_Cooker_SnailFoodMk_2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Potato/Desc_FF_Crop_Potato.Desc_FF_Crop_Potato_C",
+					"time": 3,
+					"amount": 1
+				},
+				{
+					"item": "/FicsitFarming/Resources/Crops/Carrots/Desc_FF_Crop_Carrot.Desc_FF_Crop_Carrot_C",
+					"time": 3,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 3,
+					"amount": 1500
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Food/Desc_SnailFood_Tier_2.Desc_SnailFood_Tier_2_C",
+					"time": 3,
+					"amount": 3
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_PlotModules.Schematic_Tree_Farming_PlotModules_C"
+			]
+		}
+	],
+	"produced": [
+		{
+			"isRecipe": false,
+			"type": 12,
+			"buildingRecipe": false,
+			"productionElement": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_WhiteSlug.SlugDesc_WhiteSlug_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_WhiteSlug.SlugDesc_WhiteSlug_C",
+					"time": 100,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_WhiteSlug.SlugDesc_WhiteSlug_C",
+					"time": 100,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Food/Desc_SnailFood_Tier_2.Desc_SnailFood_Tier_2_C",
+					"time": 20,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_EggWhite.EggDesc_EggWhite_C",
+					"time": 40,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_PlotModules.Schematic_Tree_Farming_PlotModules_C"
+			]
+		},
+		{
+			"isRecipe": false,
+			"type": 12,
+			"buildingRecipe": false,
+			"productionElement": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Lime.SlugDesc_Lime_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Lime.SlugDesc_Lime_C",
+					"time": 100,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Lime.SlugDesc_Lime_C",
+					"time": 100,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Food/Desc_SnailFood_Tier_2.Desc_SnailFood_Tier_2_C",
+					"time": 20,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_Lime.EggDesc_Lime_C",
+					"time": 40,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_PlotModules.Schematic_Tree_Farming_PlotModules_C"
+			]
+		}
+	],
+	"dataType": "informations"
+}

@@ -1,0 +1,32 @@
+﻿{
+	"path": "/KLib/Assets/Parts/Packaged/Recipes/Packaged/Recipe_Packaged_DieselOil.Recipe_Packaged_DieselOil_C",
+	"name": "Packaged Diesel Fuel",
+	"image": "/KLib/Assets/Parts/Packaged/Items/Barrel/UI/Icon_PDiesel.Icon_PDiesel",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Packaged/Items/Empty/Desc_NC_Barrel.Desc_NC_Barrel_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_DieselOil.Desc_DieselOil_C",
+			"amount": 1000
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Packaged/Items/Barrel/Desc_PackagedDieselOil.Desc_PackagedDieselOil_C",
+			"amount": 1
+		}
+	],
+	"category": "Packaging - Barrel",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [
+		"/AB_FluidExtras/FluidPacker/Build_AB_FluidPacker.Build_AB_FluidPacker_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

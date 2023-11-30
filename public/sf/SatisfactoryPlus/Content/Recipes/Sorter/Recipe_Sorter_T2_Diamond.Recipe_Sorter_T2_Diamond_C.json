@@ -1,0 +1,36 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Sorter/Recipe_Sorter_T2_Diamond.Recipe_Sorter_T2_Diamond_C",
+	"name": "Sorted Diamond",
+	"image": "/KLib/Assets/Parts/Production/Crystals/Diamond/UI/Icon_Diamond.Icon_Diamond",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Ores/Cryolit/Res_Cryolit.Res_Cryolit_C",
+			"amount": 6
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 6000
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crystals/Diamond/Desc_Diamond.Desc_Diamond_C",
+			"amount": 2
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+			"amount": 1
+		}
+	],
+	"category": "Advanced Sorting",
+	"duration": 3,
+	"manuelDuration": 0.30000001192092896,
+	"producedIn": [
+		"/KLib/Assets/Buildings/Sorter/Build_SorterMk1.Build_SorterMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

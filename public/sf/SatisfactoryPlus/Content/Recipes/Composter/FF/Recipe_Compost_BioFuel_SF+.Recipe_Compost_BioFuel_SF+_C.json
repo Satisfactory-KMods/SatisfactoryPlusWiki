@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Composter/FF/Recipe_Compost_BioFuel_SF+.Recipe_Compost_BioFuel_SF+_C",
+	"name": "Compost: Biofuel ",
+	"image": "/FicsitFarming/Resources/RawResources/Fertilizer/UI/Icon_Fertilizer.Icon_Fertilizer",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/BioFuel/Desc_Biofuel.Desc_Biofuel_C",
+			"amount": 1
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 1500
+		}
+	],
+	"output": [
+		{
+			"item": "/FicsitFarming/Resources/RawResources/Fertilizer/Desc_FF_Fertilizer.Desc_FF_Fertilizer_C",
+			"amount": 1500
+		}
+	],
+	"category": "Compost",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/FicsitFarming/Buildings/Composter/Build_FF_Composter.Build_FF_Composter_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_OtherComposter.Hidden_Farming_OtherComposter_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

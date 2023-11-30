@@ -1,0 +1,97 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "",
+	"path": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_BloodRed.SlugDesc_BloodRed_C",
+	"name": "Unknown Slug ID#7291",
+	"consumed": [
+		{
+			"isRecipe": false,
+			"type": 11,
+			"buildingRecipe": false,
+			"productionElement": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_BloodRed.EggDesc_BloodRed_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_BloodRed.EggDesc_BloodRed_C",
+					"time": 10,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 1,
+					"amount": 1500
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_BloodRed.SlugDesc_BloodRed_C",
+					"time": 10,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		}
+	],
+	"produced": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Composter/Recipe_Mineral_BloodRed.Recipe_Mineral_BloodRed_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_BloodRed.SlugDesc_BloodRed_C",
+					"time": 4,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Mineral.Desc_SlugSlime_Mineral_C",
+					"time": 4,
+					"amount": 1000
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": false,
+			"type": 12,
+			"buildingRecipe": false,
+			"productionElement": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_BloodRed.SlugDesc_BloodRed_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_BloodRed.SlugDesc_BloodRed_C",
+					"time": 100,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_BloodRed.SlugDesc_BloodRed_C",
+					"time": 100,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Food/Desc_SnailFood_Tier_7.Desc_SnailFood_Tier_7_C",
+					"time": 20,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_BloodRed.EggDesc_BloodRed_C",
+					"time": 40,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		}
+	],
+	"dataType": "informations"
+}

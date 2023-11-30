@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Packager/Other/Recipe_Packager_Color.Recipe_Packager_Color_C",
+	"name": "Color Cartridge",
+	"image": "/Game/FactoryGame/Resource/Parts/ColorCartridge/UI/IconDesc_ColorCartridge_256.IconDesc_ColorCartridge_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/EmtpyCartridge/Desc_EmtpyCartridge.Desc_EmtpyCartridge_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_Paint.Desc_Paint_C",
+			"amount": 500
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ColorCartridge/Desc_ColorCartridge.Desc_ColorCartridge_C",
+			"amount": 1
+		}
+	],
+	"category": "Packaging",
+	"duration": 3,
+	"manuelDuration": 0.30000001192092896,
+	"producedIn": [
+		"/AB_FluidExtras/FluidPacker/Build_AB_FluidPacker.Build_AB_FluidPacker_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Flowers_3_2.Schematic_Trees_Evo_Flowers_3_2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

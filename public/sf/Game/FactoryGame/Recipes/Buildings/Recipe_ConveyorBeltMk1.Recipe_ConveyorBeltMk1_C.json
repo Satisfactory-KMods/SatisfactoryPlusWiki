@@ -1,0 +1,30 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorBeltMk1.Recipe_ConveyorBeltMk1_C",
+	"name": "Conveyor Belt Mk.1",
+	"image": "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk1/UI/ConveyorMk1_512.ConveyorMk1_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 1
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk1/Desc_ConveyorBeltMk1.Desc_ConveyorBeltMk1_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,28 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Vehicle/Cyberwagon/Desc_CyberWagon.Desc_CyberWagon_C",
+	"name": "Cyber Wagon",
+	"description": "Absolutely indestructible.\r\nNeeds no further introduction.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": false,
+	"sinkPoints": 0,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 4,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 1,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_CyberWagon.ResourceSink_CyberWagon_C",
+		"/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_CyberWagon.ResourceSink_CyberWagon_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Buildable/Vehicle/Cyberwagon/UI/Cyberwagon_512.Cyberwagon_512",
+	"category": "Transport",
+	"subCategory": "Vehicle Transport",
+	"dataType": "itemDescriptor"
+}

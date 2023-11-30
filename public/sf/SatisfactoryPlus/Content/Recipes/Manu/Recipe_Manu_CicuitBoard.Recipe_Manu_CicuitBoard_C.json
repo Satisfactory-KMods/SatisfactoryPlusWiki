@@ -1,0 +1,41 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_CicuitBoard.Recipe_Manu_CicuitBoard_C",
+	"name": "Circuit Board",
+	"image": "/Game/FactoryGame/Resource/Parts/CircuitBoard/UI/IconDesc_CircuitBoard_256.IconDesc_CircuitBoard_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+			"amount": 6
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+			"amount": 6
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_SolderWire.Desc_SolderWire_C",
+			"amount": 24
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+			"amount": 12
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C",
+			"amount": 4
+		}
+	],
+	"category": "Advanced Standard Parts",
+	"duration": 12,
+	"manuelDuration": 3.6000001430511475,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

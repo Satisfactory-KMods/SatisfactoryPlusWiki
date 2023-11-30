@@ -1,0 +1,34 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/Util_Buildings/CeilingStackable/Recipe_CeilingStackableHyperPole.Recipe_CeilingStackableHyperPole_C",
+	"name": "Invert Stackable Hypertube Support",
+	"image": "/KLib/Assets/Buildings/Util_Buildings/CeilingStackable/UI/Icon_CeilingStackableHyperPole.Icon_CeilingStackableHyperPole",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+			"amount": 6
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+			"amount": 5
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Buildings/Util_Buildings/CeilingStackable/PoleDesc_CeilingStackableHyperPole.PoleDesc_CeilingStackableHyperPole_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Sink_InverHyper.Sink_InverHyper_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,29 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_TinWire.Recipe_Constructor_TinWire_C",
+	"name": "Tin Wire",
+	"image": "/KLib/Assets/Parts/Production/Metal/Wires/UI/Icon_TinWire.Icon_TinWire",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_TinRod.Desc_TinRod_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_TinWire.Desc_TinWire_C",
+			"amount": 2
+		}
+	],
+	"category": "Electronics",
+	"duration": 4,
+	"manuelDuration": 0.40000000596046448,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial4.SF+_Schematic_Tutorial4_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

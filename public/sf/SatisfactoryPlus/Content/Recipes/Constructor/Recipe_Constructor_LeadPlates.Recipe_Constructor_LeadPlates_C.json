@@ -1,0 +1,29 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_LeadPlates.Recipe_Constructor_LeadPlates_C",
+	"name": "Lead Plates",
+	"image": "/KLib/Assets/Parts/Production/Metal/Plates/UI/Icon_LeadPlates.Icon_LeadPlates",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Ingots/Desc_LeadIngot.Desc_LeadIngot_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_LeadPlates.Desc_LeadPlates_C",
+			"amount": 2
+		}
+	],
+	"category": "Standard Parts",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

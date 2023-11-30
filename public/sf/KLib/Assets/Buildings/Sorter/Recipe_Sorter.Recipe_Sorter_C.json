@@ -1,0 +1,38 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/Sorter/Recipe_Sorter.Recipe_Sorter_C",
+	"name": "Sorter",
+	"image": "/KLib/Assets/Buildings/Sorter/UI/Icon_Sorter.Icon_Sorter",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_TinSheet.Desc_TinSheet_C",
+			"amount": 20
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
+			"amount": 5
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+			"amount": 35
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 50
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Buildings/Sorter/BuildDesc_Sorter.BuildDesc_Sorter_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

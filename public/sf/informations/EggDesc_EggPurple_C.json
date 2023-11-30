@@ -1,0 +1,103 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "",
+	"path": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_EggPurple.EggDesc_EggPurple_C",
+	"name": "Unknown Egg ID#5608",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/SchematicManager/SaveComp/Recipe_DNAToEgg_Purple.Recipe_DNAToEgg_Purple_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/EggDNA/Desc_EggDNA_Purple.Desc_EggDNA_Purple_C",
+					"time": 6,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/AlienProtein/Desc_AlienProtein.Desc_AlienProtein_C",
+					"time": 6,
+					"amount": 5
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_EggPurple.EggDesc_EggPurple_C",
+					"time": 6,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_4_0_NEW.Schematic_Trees_Slugs_4_0_NEW_C"
+			]
+		},
+		{
+			"isRecipe": false,
+			"type": 12,
+			"buildingRecipe": false,
+			"productionElement": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Purple.SlugDesc_Purple_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Purple.SlugDesc_Purple_C",
+					"time": 100,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Purple.SlugDesc_Purple_C",
+					"time": 100,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Food/Desc_SnailFood_Tier_1.Desc_SnailFood_Tier_1_C",
+					"time": 20,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_EggPurple.EggDesc_EggPurple_C",
+					"time": 40,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_4_0_NEW.Schematic_Trees_Slugs_4_0_NEW_C"
+			]
+		}
+	],
+	"produced": [
+		{
+			"isRecipe": false,
+			"type": 11,
+			"buildingRecipe": false,
+			"productionElement": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_EggPurple.EggDesc_EggPurple_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_EggPurple.EggDesc_EggPurple_C",
+					"time": 10,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Purple.SlugDesc_Purple_C",
+					"time": 10,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_4_0_NEW.Schematic_Trees_Slugs_4_0_NEW_C"
+			]
+		}
+	],
+	"dataType": "informations"
+}

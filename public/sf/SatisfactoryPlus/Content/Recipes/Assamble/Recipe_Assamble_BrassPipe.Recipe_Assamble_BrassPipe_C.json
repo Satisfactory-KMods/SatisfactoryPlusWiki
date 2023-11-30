@@ -1,0 +1,33 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_BrassPipe.Recipe_Assamble_BrassPipe_C",
+	"name": "Brass Pipes",
+	"image": "/KLib/Assets/Parts/Production/Metal/Pipes/UI/Icon_BrassPipe.Icon_BrassPipe",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Ingots/Desc_BrassIngot.Desc_BrassIngot_C",
+			"amount": 6
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_BrassPipe.Desc_BrassPipe_C",
+			"amount": 4
+		}
+	],
+	"category": "Advanced Standard Parts",
+	"duration": 12,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

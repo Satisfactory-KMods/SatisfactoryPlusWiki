@@ -1,0 +1,36 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_Apple2.Recipe_SF+_Alt_Crop_Apple2_C",
+	"name": "Fertilised Apple",
+	"image": "/FicsitFarming/Resources/Crops/Apples/UI/Icon_Apple.Icon_Apple",
+	"input": [
+		{
+			"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_AppleSeed.Desc_FF_AppleSeed_C",
+			"amount": 25
+		},
+		{
+			"item": "/FicsitFarming/Resources/RawResources/Fertilizer/Desc_FF_Fertilizer.Desc_FF_Fertilizer_C",
+			"amount": 5000
+		}
+	],
+	"output": [
+		{
+			"item": "/FicsitFarming/Resources/Crops/Apples/Desc_FF_Crop_Apple.Desc_FF_Crop_Apple_C",
+			"amount": 25
+		},
+		{
+			"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+			"amount": 5
+		}
+	],
+	"category": "Crops",
+	"duration": 30,
+	"manuelDuration": 3,
+	"producedIn": [
+		"/FicsitFarming/Buildings/Plots/TreePlot/Build_FF_TreePlot.Build_FF_TreePlot_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Fert.Hidden_Farming_FertDirt_Fert_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

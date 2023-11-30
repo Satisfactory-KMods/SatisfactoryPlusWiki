@@ -1,0 +1,28 @@
+﻿{
+	"path": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasBow.Recipe_XmasBow_C",
+	"name": "FICSMAS Bow",
+	"image": "/Game/FactoryGame/Events/Christmas/Parts/UI/IconDesc_Bow_256.IconDesc_Bow_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_Gift.Desc_Gift_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBow.Desc_XmasBow_C",
+			"amount": 1
+		}
+	],
+	"category": "FICSMAS",
+	"duration": 12,
+	"manuelDuration": 1.2000000476837158,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C"
+	],
+	"schematics": [
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_1-2.Research_XMas_1-2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,34 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_Module_Drill_T1.Recipe_Module_Drill_T1_C",
+	"name": "Metal Mining Head",
+	"image": "/KLib/Assets/Buildings/ModularExtractor/UI/Icons/Icon_Drill_Mk1.Icon_Drill_Mk1",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Equipment/PortableMiner/BP_ItemDescriptorPortableMiner.BP_ItemDescriptorPortableMiner_C",
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+			"amount": 15
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 25
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Buildings/ModularExtractor/Desc/BuildDesc_Module_Drill_T1.BuildDesc_Module_Drill_T1_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial4.SF+_Schematic_Tutorial4_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

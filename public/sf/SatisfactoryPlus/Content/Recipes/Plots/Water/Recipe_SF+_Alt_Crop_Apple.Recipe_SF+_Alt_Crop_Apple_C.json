@@ -1,0 +1,36 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_Apple.Recipe_SF+_Alt_Crop_Apple_C",
+	"name": "Enriched Apple",
+	"image": "/FicsitFarming/Resources/Crops/Apples/UI/Icon_Apple.Icon_Apple",
+	"input": [
+		{
+			"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_AppleSeed.Desc_FF_AppleSeed_C",
+			"amount": 5
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 5000
+		}
+	],
+	"output": [
+		{
+			"item": "/FicsitFarming/Resources/Crops/Apples/Desc_FF_Crop_Apple.Desc_FF_Crop_Apple_C",
+			"amount": 5
+		},
+		{
+			"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+			"amount": 1
+		}
+	],
+	"category": "Crops",
+	"duration": 10,
+	"manuelDuration": 1,
+	"producedIn": [
+		"/FicsitFarming/Buildings/Plots/TreePlot/Build_FF_TreePlot.Build_FF_TreePlot_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Water.Hidden_Farming_FertDirt_Water_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

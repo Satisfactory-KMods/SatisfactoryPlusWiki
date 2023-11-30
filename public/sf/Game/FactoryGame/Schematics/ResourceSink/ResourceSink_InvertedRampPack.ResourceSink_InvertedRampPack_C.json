@@ -1,0 +1,37 @@
+﻿{
+	"path": "/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_InvertedRampPack.ResourceSink_InvertedRampPack_C",
+	"name": "",
+	"description": "",
+	"cost": [],
+	"category": "",
+	"subCategory": "",
+	"type": 0,
+	"tier": 1,
+	"time": 0,
+	"image": "/Game/FactoryGame/Buildable/Building/Ramp/UI/Inverted/IconDesc_FicsitInvertRamp4m_256.IconDesc_FicsitInvertRamp4m_256",
+	"smallImage": "",
+	"scannerUnlocks": [],
+	"recipeUnlocks": [
+		"/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x1.Recipe_RampInverted_8x1_C",
+		"/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x2_01.Recipe_RampInverted_8x2_01_C",
+		"/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_8x4_Inverted_01.Recipe_Ramp_8x4_Inverted_01_C",
+		"/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_Concrete_8x1.Recipe_InvertedRamp_Concrete_8x1_C",
+		"/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_Concrete_8x2.Recipe_InvertedRamp_Concrete_8x2_C",
+		"/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_Concrete_8x4.Recipe_InvertedRamp_Concrete_8x4_C",
+		"/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_Metal_8x1.Recipe_InvertedRamp_Metal_8x1_C",
+		"/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_Metal_8x2.Recipe_InvertedRamp_Metal_8x2_C",
+		"/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_Metal_8x4.Recipe_InvertedRamp_Metal_8x4_C",
+		"/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_InvertedRamp_Polished_8x1.Recipe_InvertedRamp_Polished_8x1_C",
+		"/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_InvertedRamp_Polished_8x2.Recipe_InvertedRamp_Polished_8x2_C",
+		"/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_InvertedRamp_Polished_8x4.Recipe_InvertedRamp_Polished_8x4_C"
+	],
+	"handSlots": 0,
+	"subSchematics": [
+		"/Game/FactoryGame/Schematics/ResourceSink/Customizer_Background/CBG_Ramps_Inverted_Concrete.CBG_Ramps_Inverted_Concrete_C",
+		"/Game/FactoryGame/Schematics/ResourceSink/Customizer_Background/CBG_Ramps_Inverted_Metal.CBG_Ramps_Inverted_Metal_C",
+		"/Game/FactoryGame/Schematics/ResourceSink/Customizer_Background/CBG_Ramps_Inverted_Coated.CBG_Ramps_Inverted_Coated_C"
+	],
+	"cleanerDesc": [],
+	"inventorySlots": 0,
+	"dataType": "schematic"
+}

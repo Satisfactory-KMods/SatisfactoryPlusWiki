@@ -1,0 +1,27 @@
+﻿{
+	"path": "/Game/FactoryGame/Equipment/Rifle/Ammo/Desc_CartridgeChaos.Desc_CartridgeChaos_C",
+	"name": "Turbo Rifle Ammo",
+	"description": "Lightweight, compact, and volatile. These rounds provide extreme capacity and fire rates, at the cost of accuracy.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 120,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 500,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_5_5.Schematic_Trees_Sulfur_5_5_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Equipment/Rifle/UI/IconDesc_TurboRifle_256.IconDesc_TurboRifle_256",
+	"category": "Ammunition",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

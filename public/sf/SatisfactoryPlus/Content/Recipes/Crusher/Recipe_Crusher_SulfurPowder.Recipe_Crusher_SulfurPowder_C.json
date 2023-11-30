@@ -1,0 +1,28 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_SulfurPowder.Recipe_Crusher_SulfurPowder_C",
+	"name": "Sulfur Powder",
+	"image": "/KLib/Assets/Parts/Production/Powder/UI/Icon_CrashedSulfur.Icon_CrashedSulfur",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Sulfur/Desc_Sulfur.Desc_Sulfur_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_SulfurPowder.Desc_SulfurPowder_C",
+			"amount": 2
+		}
+	],
+	"category": "Crushing Powders",
+	"duration": 4,
+	"manuelDuration": 1.2000000476837158,
+	"producedIn": [
+		"/KLib/Assets/Buildings/Crusher/Build_Crusher.Build_Crusher_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/Schematic_Trees_Sulfur_3_2.Schematic_Trees_Sulfur_3_2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

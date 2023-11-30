@@ -1,0 +1,32 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Equipment/Recipe_Parachute.Recipe_Parachute_C",
+	"name": "Parachute",
+	"image": "/Game/FactoryGame/Resource/Equipment/Beacon/UI/Parachute_256.Parachute_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Fabric.Desc_Fabric_C",
+			"amount": 20
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+			"amount": 10
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Equipment/Beacon/Desc_Parachute.Desc_Parachute_C",
+			"amount": 1
+		}
+	],
+	"category": "Body Equipment",
+	"duration": 40,
+	"manuelDuration": 4,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Mush_2_0.Schematic_Trees_Evo_Mush_2_0_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

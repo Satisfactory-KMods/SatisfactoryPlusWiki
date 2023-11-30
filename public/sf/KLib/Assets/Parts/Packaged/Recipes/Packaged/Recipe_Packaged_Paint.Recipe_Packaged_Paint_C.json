@@ -1,0 +1,32 @@
+﻿{
+	"path": "/KLib/Assets/Parts/Packaged/Recipes/Packaged/Recipe_Packaged_Paint.Recipe_Packaged_Paint_C",
+	"name": "Packaged Paint",
+	"image": "/KLib/Assets/Parts/Packaged/Items/Canister/UI/TX_PackagedPaint.TX_PackagedPaint",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/FluidCanister/Desc_FluidCanister.Desc_FluidCanister_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_Paint.Desc_Paint_C",
+			"amount": 1000
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Packaged/Items/Canister/Desc_PackagedPaint.Desc_PackagedPaint_C",
+			"amount": 1
+		}
+	],
+	"category": "Packaging - Canister",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [
+		"/AB_FluidExtras/FluidPacker/Build_AB_FluidPacker.Build_AB_FluidPacker_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

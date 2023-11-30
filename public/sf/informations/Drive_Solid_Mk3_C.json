@@ -1,0 +1,74 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "",
+	"path": "/KLib/Assets/Parts/NetworkHardDrives/Drive_Solid_Mk3.Drive_Solid_Mk3_C",
+	"name": "Drive Mk.3",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Recipes/Recipe_SolidDrive_MK_3.Recipe_SolidDrive_MK_3_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/NetworkHardDrives/Drive_Solid_Mk2.Drive_Solid_Mk2_C",
+					"time": 150,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_3.Desc_SpaceElevatorPart_3_C",
+					"time": 150,
+					"amount": 25
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/NetworkHardDrives/Drive_Solid_Mk3.Drive_Solid_Mk3_C",
+					"time": 150,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_3.Schematic_Trees_TimeCrystak_ItemStorage_3_C"
+			]
+		}
+	],
+	"produced": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Recipes/Recipe_SolidDrive_MK_4.Recipe_SolidDrive_MK_4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/NetworkHardDrives/Drive_Solid_Mk3.Drive_Solid_Mk3_C",
+					"time": 150,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Parts/PowerShardCrystal/Desc_PowerShardCrystal.Desc_PowerShardCrystal_C",
+					"time": 150,
+					"amount": 20
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/NetworkHardDrives/Drive_Solid_Mk4.Drive_Solid_Mk4_C",
+					"time": 150,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_3.Schematic_Trees_TimeCrystak_ItemStorage_3_C"
+			]
+		}
+	],
+	"dataType": "informations"
+}

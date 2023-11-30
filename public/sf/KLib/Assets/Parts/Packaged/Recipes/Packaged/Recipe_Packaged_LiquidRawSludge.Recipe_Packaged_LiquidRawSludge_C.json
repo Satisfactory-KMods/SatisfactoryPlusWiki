@@ -1,0 +1,32 @@
+﻿{
+	"path": "/KLib/Assets/Parts/Packaged/Recipes/Packaged/Recipe_Packaged_LiquidRawSludge.Recipe_Packaged_LiquidRawSludge_C",
+	"name": "Packaged Raw Sludge",
+	"image": "/KLib/Assets/Parts/Packaged/Items/Fluid/UI/Icon_PackagedLiquidRawSludge.Icon_PackagedLiquidRawSludge",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/FluidCanister/Desc_FluidCanister.Desc_FluidCanister_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidRawSludge.Desc_LiquidRawSludge_C",
+			"amount": 1000
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Packaged/Items/Fluid/Desc_PackagedLiquidRawSludge.Desc_PackagedLiquidRawSludge_C",
+			"amount": 1
+		}
+	],
+	"category": "Packaging - Bottle",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [
+		"/AB_FluidExtras/FluidPacker/Build_AB_FluidPacker.Build_AB_FluidPacker_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

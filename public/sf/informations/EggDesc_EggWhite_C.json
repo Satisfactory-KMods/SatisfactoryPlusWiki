@@ -1,0 +1,70 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "",
+	"path": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_EggWhite.EggDesc_EggWhite_C",
+	"name": "Unknown Egg ID#5474",
+	"consumed": [
+		{
+			"isRecipe": false,
+			"type": 12,
+			"buildingRecipe": false,
+			"productionElement": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_WhiteSlug.SlugDesc_WhiteSlug_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_WhiteSlug.SlugDesc_WhiteSlug_C",
+					"time": 100,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_WhiteSlug.SlugDesc_WhiteSlug_C",
+					"time": 100,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Food/Desc_SnailFood_Tier_2.Desc_SnailFood_Tier_2_C",
+					"time": 20,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_EggWhite.EggDesc_EggWhite_C",
+					"time": 40,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		}
+	],
+	"produced": [
+		{
+			"isRecipe": false,
+			"type": 11,
+			"buildingRecipe": false,
+			"productionElement": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_EggWhite.EggDesc_EggWhite_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_EggWhite.EggDesc_EggWhite_C",
+					"time": 10,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_WhiteSlug.SlugDesc_WhiteSlug_C",
+					"time": 10,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		}
+	],
+	"dataType": "informations"
+}

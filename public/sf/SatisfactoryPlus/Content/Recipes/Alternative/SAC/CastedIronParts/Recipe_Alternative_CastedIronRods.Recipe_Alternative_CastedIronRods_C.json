@@ -1,0 +1,36 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Recipe_Alternative_CastedIronRods.Recipe_Alternative_CastedIronRods_C",
+	"name": "Alternate: Casted Iron Rods",
+	"image": "/Game/FactoryGame/Resource/Parts/IronRod/UI/IconDesc_IronRods_256.IconDesc_IronRods_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidIron.Desc_LiquidIron_C",
+			"amount": 1000
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 750
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+			"amount": 6
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Steam.Desc_Gas_Steam_C",
+			"amount": 1125
+		}
+	],
+	"category": "Cooling",
+	"duration": 3,
+	"manuelDuration": 0.30000001192092896,
+	"producedIn": [
+		"/KLib/Assets/Buildings/SoldifierAndCooler/Build_SoldifierAndCooler.Build_SoldifierAndCooler_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+	],
+	"isAlternate": true,
+	"dataType": "recipe"
+}

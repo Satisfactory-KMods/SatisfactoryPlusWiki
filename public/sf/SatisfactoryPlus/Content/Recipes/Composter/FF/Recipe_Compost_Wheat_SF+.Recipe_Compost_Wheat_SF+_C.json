@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Composter/FF/Recipe_Compost_Wheat_SF+.Recipe_Compost_Wheat_SF+_C",
+	"name": "Compost: Wheat ",
+	"image": "/FicsitFarming/Resources/RawResources/Fertilizer/UI/Icon_Fertilizer.Icon_Fertilizer",
+	"input": [
+		{
+			"item": "/FicsitFarming/Resources/Crops/Wheat/Desc_FF_Crop_Wheat.Desc_FF_Crop_Wheat_C",
+			"amount": 3
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 1500
+		}
+	],
+	"output": [
+		{
+			"item": "/FicsitFarming/Resources/RawResources/Fertilizer/Desc_FF_Fertilizer.Desc_FF_Fertilizer_C",
+			"amount": 1500
+		}
+	],
+	"category": "Compost",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/FicsitFarming/Buildings/Composter/Build_FF_Composter.Build_FF_Composter_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Fert.Hidden_Farming_Dirt_Fert_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

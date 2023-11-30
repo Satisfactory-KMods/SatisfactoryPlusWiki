@@ -1,0 +1,40 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_Lift_6.Recipe_Manu_Lift_6_C",
+	"name": "Magnetic Field Generator",
+	"image": "/Game/FactoryGame/Resource/Parts/MagneticFieldGenerator/UI/IconDesc_MagneticFieldGenerator_256.IconDesc_MagneticFieldGenerator_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_5.Desc_SpaceElevatorPart_5_C",
+			"amount": 15
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_CobaltPlates.Desc_CobaltPlates_C",
+			"amount": 75
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+			"amount": 100
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_6.Desc_SpaceElevatorPart_6_C",
+			"amount": 1
+		}
+	],
+	"category": "Space Elevator",
+	"duration": 60,
+	"manuelDuration": 18,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_6.Schematic_SF+_7_6_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

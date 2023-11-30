@@ -1,0 +1,27 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_4.Schematic_SF+_2_4_C",
+	"name": "Smelting Module",
+	"description": "",
+	"cost": [],
+	"category": "",
+	"subCategory": "",
+	"type": 3,
+	"tier": 2,
+	"time": 180,
+	"image": "/KLib/Assets/Icons/Milestones/ICON_Milestone_Metal.ICON_Milestone_Metal",
+	"smallImage": "/KLib/Assets/Icons/Milestones/ICON_Milestone_Metal.ICON_Milestone_Metal",
+	"scannerUnlocks": [],
+	"recipeUnlocks": [
+		"/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_Module_Smelter.Recipe_Module_Smelter_C",
+		"/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_SlagCement.Recipe_Assamble_SlagCement_C"
+	],
+	"handSlots": 0,
+	"subSchematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_4_0.Schematic_SF+_2_4_0_C"
+	],
+	"cleanerDesc": [
+		"/SatisfactoryPlus/Content/Recipes/Cleaner/CleanerDesc_LiquidSlag.CleanerDesc_LiquidSlag_C"
+	],
+	"inventorySlots": 0,
+	"dataType": "schematic"
+}

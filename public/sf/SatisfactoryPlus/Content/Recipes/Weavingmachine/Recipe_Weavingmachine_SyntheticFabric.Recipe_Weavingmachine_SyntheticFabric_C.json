@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Weavingmachine/Recipe_Weavingmachine_SyntheticFabric.Recipe_Weavingmachine_SyntheticFabric_C",
+	"name": "Synthetic Fabric",
+	"image": "/Game/FactoryGame/Resource/Parts/GenericBiomass/UI/IconDesc_Fabric_256.IconDesc_Fabric_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/PolymerResin/Desc_PolymerResin.Desc_PolymerResin_C",
+			"amount": 8
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 2500
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Fabric.Desc_Fabric_C",
+			"amount": 2
+		}
+	],
+	"category": "Weaving",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/KLib/Assets/Buildings/Weavingmachine/Build_Weavingmachine.Build_Weavingmachine_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0_1.Schematic_SF+_5_0_1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

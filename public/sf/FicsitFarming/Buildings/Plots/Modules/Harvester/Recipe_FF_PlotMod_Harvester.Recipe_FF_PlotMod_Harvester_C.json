@@ -1,0 +1,34 @@
+﻿{
+	"path": "/FicsitFarming/Buildings/Plots/Modules/Harvester/Recipe_FF_PlotMod_Harvester.Recipe_FF_PlotMod_Harvester_C",
+	"name": "Harvester Module",
+	"image": "/FicsitFarming/Buildings/Plots/Modules/Harvester/UI/Icon_Plot_Harvester.Icon_Plot_Harvester",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
+			"amount": 10
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
+			"amount": 20
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 50
+		}
+	],
+	"output": [
+		{
+			"item": "/FicsitFarming/Buildings/Plots/Modules/Harvester/Desc_FF_PlotMod_Harvester.Desc_FF_PlotMod_Harvester_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_PlotModules.Schematic_Tree_Farming_PlotModules_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

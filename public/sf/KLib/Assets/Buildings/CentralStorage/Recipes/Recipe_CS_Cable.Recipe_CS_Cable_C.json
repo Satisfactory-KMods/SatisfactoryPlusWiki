@@ -1,0 +1,30 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_Cable.Recipe_CS_Cable_C",
+	"name": "Faxit Cable - Blue",
+	"image": "/KLib/Assets/Buildings/CentralStorage/UI/Icon_BuildSable.Icon_BuildSable",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_CS_Cable.BuildDesc_CS_Cable_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

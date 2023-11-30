@@ -1,0 +1,40 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_BeltItemMk3.Recipe_Manu_BeltItemMk3_C",
+	"name": "Advanced Conveyor Belt",
+	"image": "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk4/UI/ConveyorMk4_256.ConveyorMk4_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SteelPlateReinforced/Desc_SteelPlateReinforced.Desc_SteelPlateReinforced_C",
+			"amount": 4
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_SolderRod.Desc_SolderRod_C",
+			"amount": 10
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Belt/Desc_BeltItemMk2.Desc_BeltItemMk2_C",
+			"amount": 4
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+			"amount": 15
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Belt/Desc_BeltItemMk3.Desc_BeltItemMk3_C",
+			"amount": 4
+		}
+	],
+	"category": "Building Parts",
+	"duration": 30,
+	"manuelDuration": 9,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_5.Schematic_SF+_5_5_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

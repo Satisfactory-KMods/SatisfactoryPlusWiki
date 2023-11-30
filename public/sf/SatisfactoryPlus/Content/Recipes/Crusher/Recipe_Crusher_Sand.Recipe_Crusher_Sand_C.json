@@ -1,0 +1,29 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_Sand.Recipe_Crusher_Sand_C",
+	"name": "Sand",
+	"image": "/KLib/Assets/Parts/Production/Powder/UI/Icon_Sand.Icon_Sand",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+			"amount": 4
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_Sand.Desc_Sand_C",
+			"amount": 2
+		}
+	],
+	"category": "Crushing Powders",
+	"duration": 4,
+	"manuelDuration": 1.2000000476837158,
+	"producedIn": [
+		"/KLib/Assets/Buildings/Crusher/Build_Crusher.Build_Crusher_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_7.Schematic_SF+_1_7_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

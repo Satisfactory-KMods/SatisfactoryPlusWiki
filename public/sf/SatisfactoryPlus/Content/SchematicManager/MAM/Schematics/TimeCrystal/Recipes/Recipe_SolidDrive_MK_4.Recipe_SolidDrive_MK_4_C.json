@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Recipes/Recipe_SolidDrive_MK_4.Recipe_SolidDrive_MK_4_C",
+	"name": "Drive Mk.4",
+	"image": "/KUI/Assets/TX_PlaceHolder.TX_PlaceHolder",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/NetworkHardDrives/Drive_Solid_Mk3.Drive_Solid_Mk3_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Parts/PowerShardCrystal/Desc_PowerShardCrystal.Desc_PowerShardCrystal_C",
+			"amount": 20
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/NetworkHardDrives/Drive_Solid_Mk4.Drive_Solid_Mk4_C",
+			"amount": 1
+		}
+	],
+	"category": "Quantum Technology",
+	"duration": 150,
+	"manuelDuration": 15,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_4.Schematic_Trees_TimeCrystak_ItemStorage_4_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,41 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_Computer.Recipe_Manu_Computer_C",
+	"name": "Computer",
+	"image": "/Game/FactoryGame/Resource/Parts/Computer/UI/IconDesc_Computer_256.IconDesc_Computer_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 12
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C",
+			"amount": 6
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
+			"amount": 3
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+			"amount": 6
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C",
+			"amount": 1
+		}
+	],
+	"category": "Advanced Standard Parts",
+	"duration": 12,
+	"manuelDuration": 3.6000001430511475,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

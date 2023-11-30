@@ -1,0 +1,41 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_RilfleMuni_Turbo.Recipe_Manu_RilfleMuni_Turbo_C",
+	"name": "Turbo Rifle Ammo",
+	"image": "/Game/FactoryGame/Equipment/Rifle/UI/IconDesc_TurboRifle_256.IconDesc_TurboRifle_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/CartridgeStandard/Desc_CartridgeStandard.Desc_CartridgeStandard_C",
+			"amount": 20
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Turbofuel/Desc_TurboFuel.Desc_TurboFuel_C",
+			"amount": 5
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C",
+			"amount": 80
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GunPowder/Desc_GunpowderMK2.Desc_GunpowderMK2_C",
+			"amount": 20
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Equipment/Rifle/Ammo/Desc_CartridgeChaos.Desc_CartridgeChaos_C",
+			"amount": 5
+		}
+	],
+	"category": "Equipment",
+	"duration": 60,
+	"manuelDuration": 18,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_5_5.Schematic_Trees_Sulfur_5_5_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

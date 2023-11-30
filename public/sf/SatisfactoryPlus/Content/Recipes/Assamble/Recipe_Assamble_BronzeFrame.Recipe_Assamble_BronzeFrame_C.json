@@ -1,0 +1,33 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_BronzeFrame.Recipe_Assamble_BronzeFrame_C",
+	"name": "Bronze Frame",
+	"image": "/KLib/Assets/Parts/Production/Metal/Frames/Light/UI/Icon_BronzeFrame_256.Icon_BronzeFrame_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_BronzeRod.Desc_BronzeRod_C",
+			"amount": 12
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 6
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
+			"amount": 1
+		}
+	],
+	"category": "Standard Parts",
+	"duration": 12,
+	"manuelDuration": 1.2000000476837158,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_1.Schematic_SF+_2_1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

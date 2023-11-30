@@ -1,0 +1,28 @@
+﻿{
+	"schematic": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
+	"path": "/SatisfactoryPlus/Content/Recipes/Cleaner/CleanerDesc_BioWater.CleanerDesc_BioWater_C",
+	"image": "/KLib/Assets/Ressources/Raw/Fluids/UI/LiquidBioWater.LiquidBioWater",
+	"inFluid": "/KLib/Assets/Ressources/Raw/Ores/Fluids/BioWater/Res_LiquidBioWater.Res_LiquidBioWater_C",
+	"outFluid": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+	"inAmount": 3000,
+	"outAmount": 1500,
+	"name": "",
+	"description": "",
+	"filterItem": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+	"filterNeed": true,
+	"filterTime": 6,
+	"filterAmount": 1,
+	"bypass": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_GenericBiomass.Desc_GenericBiomass_C",
+			"time": 2,
+			"amount": 1
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Leaves.Desc_Leaves_C",
+			"time": 1,
+			"amount": 1
+		}
+	],
+	"dataType": "cleaner"
+}

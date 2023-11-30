@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Recipe_Alternative_LimeSteel_2.Recipe_Alternative_LimeSteel_2_C",
+	"name": "Alternative: Coal Lime Mixture",
+	"image": "/KLib/Assets/Parts/Production/Mixture/UI/Icon_CoalLime.Icon_CoalLime",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C",
+			"amount": 2
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Mixture/Desc_Mixture_CoalLime.Desc_Mixture_CoalLime_C",
+			"amount": 3
+		}
+	],
+	"category": "Alloys",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/KLib/Assets/Buildings/Crusher/Build_Crusher.Build_Crusher_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C"
+	],
+	"isAlternate": true,
+	"dataType": "recipe"
+}

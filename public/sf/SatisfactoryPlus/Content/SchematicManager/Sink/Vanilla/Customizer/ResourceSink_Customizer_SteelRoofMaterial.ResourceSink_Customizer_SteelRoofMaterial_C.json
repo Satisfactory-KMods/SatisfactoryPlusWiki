@@ -1,0 +1,34 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_SteelRoofMaterial.ResourceSink_Customizer_SteelRoofMaterial_C",
+	"name": "Steel Roof Material",
+	"description": "Adds the Steel Roof Material to the Customizer, from where it can be applied to any Roof.",
+	"cost": [],
+	"category": "Customizer",
+	"subCategory": "Roof Materials",
+	"type": 7,
+	"tier": 1,
+	"time": 0,
+	"image": "/Game/FactoryGame/Buildable/Building/Roof/UI/IconDesc_SteelRoof4m_256.IconDesc_SteelRoof4m_256",
+	"smallImage": "",
+	"scannerUnlocks": [],
+	"recipeUnlocks": [
+		"/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_A_01.Recipe_Roof_A_01_C",
+		"/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_A_02.Recipe_Roof_A_02_C",
+		"/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_A_03.Recipe_Roof_A_03_C",
+		"/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_A_04.Recipe_Roof_A_04_C",
+		"/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Metal_InCorner_01.Recipe_Roof_Metal_InCorner_01_C",
+		"/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Metal_InCorner_02.Recipe_Roof_Metal_InCorner_02_C",
+		"/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Metal_InCorner_03.Recipe_Roof_Metal_InCorner_03_C",
+		"/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Metal_OutCorner_01.Recipe_Roof_Metal_OutCorner_01_C",
+		"/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Metal_OutCorner_02.Recipe_Roof_Metal_OutCorner_02_C",
+		"/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Metal_OutCorner_03.Recipe_Roof_Metal_OutCorner_03_C"
+	],
+	"handSlots": 0,
+	"subSchematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Roofs_Basic_Steel.CBG_Roofs_Basic_Steel_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Roofs_Corners_Steel.CBG_Roofs_Corners_Steel_C"
+	],
+	"cleanerDesc": [],
+	"inventorySlots": 0,
+	"dataType": "schematic"
+}

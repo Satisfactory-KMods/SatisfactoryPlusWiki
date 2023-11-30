@@ -1,0 +1,30 @@
+﻿{
+	"path": "/Game/FactoryGame/Resource/Equipment/Medkit/Desc_Medkit.Desc_Medkit_C",
+	"name": "Medicinal Inhaler",
+	"description": "Fully restores health when used.\r\n\r\nThe FICSIT Medicinal Inhaler can be produced from a variety of different ingredients.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 125,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 2,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 50,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Eat_0_0.Schematic_Trees_Evo_Eat_0_0_C",
+		"/Game/FactoryGame/Schematics/Research/AlienOrganisms_RS/Research_AOrgans_2.Research_AOrgans_2_C",
+		"/Game/FactoryGame/Schematics/Research/Mycelia_RS/Research_Mycelia_5.Research_Mycelia_5_C",
+		"/Game/FactoryGame/Schematics/Research/Mycelia_RS/Research_Mycelia_6.Research_Mycelia_6_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Resource/Equipment/Medkit/UI/Inhaler_256.Inhaler_256",
+	"category": "Consumables",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

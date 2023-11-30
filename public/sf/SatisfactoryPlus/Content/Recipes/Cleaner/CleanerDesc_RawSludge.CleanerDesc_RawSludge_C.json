@@ -1,0 +1,33 @@
+﻿{
+	"schematic": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
+	"path": "/SatisfactoryPlus/Content/Recipes/Cleaner/CleanerDesc_RawSludge.CleanerDesc_RawSludge_C",
+	"image": "/KLib/Assets/Ressources/Raw/Fluids/UI/LiquidSludge.LiquidSludge",
+	"inFluid": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidRawSludge.Desc_LiquidRawSludge_C",
+	"outFluid": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+	"inAmount": 3000,
+	"outAmount": 1500,
+	"name": "",
+	"description": "",
+	"filterItem": "/Game/FactoryGame/Resource/Parts/Silica/Desc_Silica.Desc_Silica_C",
+	"filterNeed": true,
+	"filterTime": 2,
+	"filterAmount": 1,
+	"bypass": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedIron.Desc_CrushedIron_C",
+			"time": 4,
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedTin.Desc_CrushedTin_C",
+			"time": 4,
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedMagnesium.Desc_CrushedMagnesium_C",
+			"time": 8,
+			"amount": 1
+		}
+	],
+	"dataType": "cleaner"
+}

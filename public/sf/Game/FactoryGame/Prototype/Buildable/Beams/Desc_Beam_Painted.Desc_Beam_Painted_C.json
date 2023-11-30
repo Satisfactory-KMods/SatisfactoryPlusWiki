@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Prototype/Buildable/Beams/Desc_Beam_Painted.Desc_Beam_Painted_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Painted Beam",
+	"description": "Snaps to other Beams and various other structural buildings.\r\n\r\nBeams support multiple build modes for different use cases.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_BeamSet.ResourceSink_BeamSet_C"
+	],
+	"image": "/Game/FactoryGame/Prototype/Buildable/Beams/UI/IconDesc_BeamPainted_512.IconDesc_BeamPainted_512",
+	"category": "Architecture",
+	"subCategory": "Beams",
+	"buildingPath": "/Game/FactoryGame/Prototype/Buildable/Beams/Build_Beam_Painted.Build_Beam_Painted_C",
+	"dataType": "buildable"
+}

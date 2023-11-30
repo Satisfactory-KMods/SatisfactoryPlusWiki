@@ -1,0 +1,52 @@
+﻿{
+	"path": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Chlor.Desc_Gas_Chlor_C",
+	"name": "Chlorine",
+	"description": "yellow-green, non-flammable, pungent-smelling gas... better hold your nose.",
+	"gasColor": "98AD60FF",
+	"fluidColor": "98AD60FF",
+	"canBeSink": false,
+	"sinkPoints": 0,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 5,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 3,
+	"stackSize": 50000,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_1.Schematic_SF+_8_1_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "miner",
+		"drillTier": 1,
+		"scannerTier": 1,
+		"modulInformation": [],
+		"neededModules": [
+			"/KLib/Assets/Buildings/ModularExtractor/Attachments/ModuleAttachment_Drill.ModuleAttachment_Drill_C"
+		],
+		"preventModules": [
+			"/KLib/Assets/Buildings/ModularExtractor/Modules/Smelter/Build_SmelterModule.Build_SmelterModule_C",
+			"/KLib/Assets/Buildings/ModularExtractor/Modules/Fluid/Build_Module_Fluid.Build_Module_Fluid_C",
+			"/KLib/Assets/Buildings/ModularExtractor/Modules/Crusher/Build_Module_Crusher.Build_Module_Crusher_C"
+		],
+		"fluidInfos": [
+			{
+				"path": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+				"normalFluidCountPerSecond": 500,
+				"productionTimeMulti": 0.5
+			},
+			{
+				"path": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Low.Desc_SlugSlime_Low_C",
+				"normalFluidCountPerSecond": 250,
+				"productionTimeMulti": 1
+			}
+		]
+	},
+	"image": "/KLib/Assets/Ressources/Raw/Gas/UI/Icon_Chlor.Icon_Chlor",
+	"category": "",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

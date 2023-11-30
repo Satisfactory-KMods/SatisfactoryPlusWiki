@@ -1,0 +1,38 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorBeltMk5.Recipe_ConveyorBeltMk5_C",
+	"name": "Conveyor Belt Mk.5",
+	"image": "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk5/UI/ConveyorMk5_512.ConveyorMk5_512",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Belt/Desc_BeltItemMk4.Desc_BeltItemMk4_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+			"amount": 2
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_CobaltPlates.Desc_CobaltPlates_C",
+			"amount": 2
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_AlumniumSheet.Desc_AlumniumSheet_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk5/Desc_ConveyorBeltMk5.Desc_ConveyorBeltMk5_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_3.Schematic_SF+_7_3_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

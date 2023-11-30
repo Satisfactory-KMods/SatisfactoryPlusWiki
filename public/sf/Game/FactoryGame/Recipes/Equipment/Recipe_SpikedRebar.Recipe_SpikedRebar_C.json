@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Equipment/Recipe_SpikedRebar.Recipe_SpikedRebar_C",
+	"name": "Iron Rebar",
+	"image": "/Game/FactoryGame/Equipment/RebarGun/UI/IconDesc_Rebar_256.IconDesc_Rebar_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SpikedRebar/Desc_SpikedRebar.Desc_SpikedRebar_C",
+			"amount": 1
+		}
+	],
+	"category": "Ammunition",
+	"duration": 4,
+	"manuelDuration": 0.40000000596046448,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Enemy/Schematic_Trees_Enemy_3_3.Schematic_Trees_Enemy_3_3_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

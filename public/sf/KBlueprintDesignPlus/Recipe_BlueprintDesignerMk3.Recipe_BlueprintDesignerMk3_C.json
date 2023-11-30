@@ -1,0 +1,42 @@
+﻿{
+	"path": "/KBlueprintDesignPlus/Recipe_BlueprintDesignerMk3.Recipe_BlueprintDesignerMk3_C",
+	"name": "Blueprint Designer Mk.3",
+	"image": "/Game/FactoryGame/Buildable/Factory/BlueprintDesigner/UI/IconDesc_BlueprintDesigner_512.IconDesc_BlueprintDesigner_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+			"amount": 250
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+			"amount": 300
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+			"amount": 400
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+			"amount": 1000
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+			"amount": 2500
+		}
+	],
+	"output": [
+		{
+			"item": "/KBlueprintDesignPlus/Desc/Desc_BlueprintDesignerMk3.Desc_BlueprintDesignerMk3_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_8.Schematic_SF+_4_8_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

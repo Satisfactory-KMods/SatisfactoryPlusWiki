@@ -1,0 +1,36 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Equipment/Recipe_TherapeuticInhaler.Recipe_TherapeuticInhaler_C",
+	"name": "Therapeutic Inhaler",
+	"image": "/Game/FactoryGame/Resource/Equipment/Medkit/UI/Inhaler_256.Inhaler_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Mycelia.Desc_Mycelia_C",
+			"amount": 15
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/AlienProtein/Desc_AlienProtein.Desc_AlienProtein_C",
+			"amount": 1
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Environment/DesertShroom/Desc_Shroom.Desc_Shroom_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Equipment/Medkit/Desc_Medkit.Desc_Medkit_C",
+			"amount": 1
+		}
+	],
+	"category": "Consumables",
+	"duration": 20,
+	"manuelDuration": 2,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C"
+	],
+	"schematics": [
+		"/Game/FactoryGame/Schematics/Research/Mycelia_RS/Research_Mycelia_6.Research_Mycelia_6_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

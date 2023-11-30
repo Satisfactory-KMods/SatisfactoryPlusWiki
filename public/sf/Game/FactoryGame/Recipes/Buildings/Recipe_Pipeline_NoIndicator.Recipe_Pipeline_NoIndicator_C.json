@@ -1,0 +1,30 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Buildings/Recipe_Pipeline_NoIndicator.Recipe_Pipeline_NoIndicator_C",
+	"name": "Pipeline Mk.1 (No Indicator)",
+	"image": "/Game/FactoryGame/Buildable/Factory/Pipeline/UI/IconDesc_Pipes_512.IconDesc_Pipes_512",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
+			"amount": 1
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Factory/Pipeline/Desc_Pipeline_NoIndicator.Desc_Pipeline_NoIndicator_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_NoIndicator_PipelineMK1.ResourceSink_NoIndicator_PipelineMK1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

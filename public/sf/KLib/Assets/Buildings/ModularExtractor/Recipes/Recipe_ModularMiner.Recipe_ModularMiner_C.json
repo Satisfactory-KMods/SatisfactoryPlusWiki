@@ -1,0 +1,42 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_ModularMiner.Recipe_ModularMiner_C",
+	"name": "Modular Miner",
+	"image": "/KLib/Assets/Buildings/ModularExtractor/UI/Icons/Icon_ModularMiner.Icon_ModularMiner",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+			"amount": 10
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+			"amount": 5
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
+			"amount": 10
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+			"amount": 10
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 20
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Buildings/ModularExtractor/Desc/BuildDesc_ModularMiner.BuildDesc_ModularMiner_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial4.SF+_Schematic_Tutorial4_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,36 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Equipment/Recipe_CandyCaneBasher.Recipe_CandyCaneBasher_C",
+	"name": "Candy Cane Basher",
+	"image": "/Game/FactoryGame/Resource/Equipment/StunSpear/UI/IconDesc_CaneEquipment_256.IconDesc_CaneEquipment_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Equipment/ShockShank/BP_EquipmentDescriptorShockShank.BP_EquipmentDescriptorShockShank_C",
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_CandyCane.Desc_CandyCane_C",
+			"amount": 25
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_Gift.Desc_Gift_C",
+			"amount": 15
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Equipment/StunSpear/BP_EquipmentDescriptorCandyCane.BP_EquipmentDescriptorCandyCane_C",
+			"amount": 1
+		}
+	],
+	"category": "Tools",
+	"duration": 80,
+	"manuelDuration": 8,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C"
+	],
+	"schematics": [
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_1-1.Research_XMas_1-1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

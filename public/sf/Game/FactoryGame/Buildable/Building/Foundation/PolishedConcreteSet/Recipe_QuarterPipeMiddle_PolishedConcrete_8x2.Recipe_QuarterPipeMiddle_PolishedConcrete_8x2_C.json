@@ -1,0 +1,31 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_QuarterPipeMiddle_PolishedConcrete_8x2.Recipe_QuarterPipeMiddle_PolishedConcrete_8x2_C",
+	"name": "Half 2m Foundation",
+	"image": "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_PConcrete_Mid_8x2_512.IconDesc_QP_PConcrete_Mid_8x2_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+			"amount": 5
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Desc_QuarterPipeMiddle_PolishedConcrete_8x2.Desc_QuarterPipeMiddle_PolishedConcrete_8x2_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/Game/FactoryGame/Schematics/ResourceSink/Customizer_Background/CBG_Half_Foundations_Polished.CBG_Half_Foundations_Polished_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Half_Foundations_Polished.CBG_Half_Foundations_Polished_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

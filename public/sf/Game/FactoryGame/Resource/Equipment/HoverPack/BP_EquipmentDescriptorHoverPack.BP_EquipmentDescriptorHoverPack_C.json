@@ -1,0 +1,27 @@
+﻿{
+	"path": "/Game/FactoryGame/Resource/Equipment/HoverPack/BP_EquipmentDescriptorHoverPack.BP_EquipmentDescriptorHoverPack_C",
+	"name": "Hover Pack",
+	"description": "Power consumption: 100 MW\r\n\r\nAllows for vertical movement and hovering in mid-air to improve building efficiency and factory traversal. Wirelessly connects to nearby power connections, such as Power Poles and Buildings, for power consumption.\r\n\r\nSlow-fall: Hold Space Bar after losing connection mid-air.\r\nDisable Hoverpack: Double tap C while hovering.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 413920,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 2,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 1,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_7.Schematic_SF+_4_7_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Equipment/HoverPack/UI/IconDesc_Hoverpack_256.IconDesc_Hoverpack_256",
+	"category": "Body Equipment",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

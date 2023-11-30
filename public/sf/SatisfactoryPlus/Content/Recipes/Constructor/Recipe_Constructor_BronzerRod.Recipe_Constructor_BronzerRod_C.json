@@ -1,0 +1,29 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_BronzerRod.Recipe_Constructor_BronzerRod_C",
+	"name": "Bronze Beam",
+	"image": "/KLib/Assets/Parts/Production/Metal/Rods/UI/Icon_BronzeRods_256.Icon_BronzeRods_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Ingots/Desc_BronzeIngot.Desc_BronzeIngot_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_BronzeRod.Desc_BronzeRod_C",
+			"amount": 3
+		}
+	],
+	"category": "Standard Parts",
+	"duration": 2,
+	"manuelDuration": 0.20000000298023224,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,28 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Composter/Recipe_Low_YellowSlug.Recipe_Low_YellowSlug_C",
+	"name": "Yellow Slug Slime",
+	"image": "/KLib/Assets/Ressources/Raw/Fluids/UI/LiquidNatriumaluminat.LiquidNatriumaluminat",
+	"input": [
+		{
+			"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_YellowSlug.SlugDesc_YellowSlug_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Low.Desc_SlugSlime_Low_C",
+			"amount": 1000
+		}
+	],
+	"category": "Slugs Tier 1",
+	"duration": 4,
+	"manuelDuration": 0.40000000596046448,
+	"producedIn": [
+		"/FicsitFarming/Buildings/Composter/Build_FF_Composter.Build_FF_Composter_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_4_2_NEW.Schematic_Trees_Slugs_4_2_NEW_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

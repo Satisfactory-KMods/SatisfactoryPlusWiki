@@ -1,0 +1,38 @@
+﻿{
+	"path": "/AB_FluidExtras/FluidPacker/Recipe_AB_FluidPacker.Recipe_AB_FluidPacker_C",
+	"name": "A.I. Fluid Packer",
+	"image": "/AB_FluidExtras/FluidPacker/Icon_FluidPacker_Lg.Icon_FluidPacker_Lg",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 25
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
+			"amount": 20
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+			"amount": 20
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C",
+			"amount": 20
+		}
+	],
+	"output": [
+		{
+			"item": "/AB_FluidExtras/FluidPacker/Desc_AB_FluidPacker.Desc_AB_FluidPacker_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 5,
+	"manuelDuration": 0.5,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

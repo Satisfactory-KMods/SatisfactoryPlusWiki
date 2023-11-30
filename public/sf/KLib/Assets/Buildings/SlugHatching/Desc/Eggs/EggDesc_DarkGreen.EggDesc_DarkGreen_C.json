@@ -1,0 +1,48 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_DarkGreen.EggDesc_DarkGreen_C",
+	"name": "Unknown Egg ID#7311",
+	"description": "Time to Hatch: ??? seconds\r\nTemperature: ???-???°C\r\nHumidity: ???-???%\r\nDay Time: ???\r\nNeed Fluid: ???\r\nIncubator Tier: ???\r\n\r\nNote: can't sink!",
+	"gasColor": "006D1CFF",
+	"fluidColor": "006D1CFF",
+	"canBeSink": false,
+	"sinkPoints": 0,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 50,
+	"schematics": [],
+	"itemTypeInformation":
+	{
+		"type": "egg",
+		"minHumidity": 0,
+		"maxHumidity": 1,
+		"minHeat": -23,
+		"maxHeat": -12,
+		"dayTime": 3,
+		"incubatorTier": 1,
+		"fluidConsume": 1000,
+		"fluidConsumeTime": 1,
+		"fluid": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+		"hatchingTime": 10,
+		"power": 40,
+		"realDescription": "Time to Hatch: {HatchingTime} seconds\r\nTemperature: {MinHeat}-{MaxHeat}°C\r\nHumidity: {MinHumidity}-{MaxHumidity}%\r\nDay Time: {SlugTime}\r\nNeed Fluid: {IsFluidConsume}\r\nIncubator Tier: {IncubatorTier}\r\n\r\nNote: can't sink!",
+		"realName": "Unknown Egg ID#7311",
+		"hiddenDescription": "Time to Hatch: {HatchingTime} seconds\r\nTemperature: {MinHeat}-{MaxHeat}°C\r\nHumidity: {MinHumidity}-{MaxHumidity}%\r\nDay Time: {SlugTime}\r\nNeed Fluid: {IsFluidConsume}\r\nIncubator Tier: {IncubatorTier}\r\n\r\nNote: can't sink!",
+		"hiddenName": "Darkgreen Slug Egg",
+		"possibleSlugs": [
+			"/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_DarkGreen.SlugDesc_DarkGreen_C",
+			"/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_DarkBlue.SlugDesc_DarkBlue_C",
+			"/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Pink.SlugDesc_Pink_C",
+			"/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_WhiteSlug.SlugDesc_WhiteSlug_C",
+			"/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Purple.SlugDesc_Purple_C"
+		],
+		"tierBasedChance": [ 1, 0.004999999888241291, 0.0024999999441206455, 0.0010000000474974513, 0.00050000002374872565, 9.9999997473787516e-05, 9.9999997473787516e-05, 9.9999997473787516e-05, 9.9999997473787516e-05, 9.9999997473787516e-05, 9.9999997473787516e-05, 9.9999997473787516e-05, 9.9999997473787516e-05, 9.9999997473787516e-05, 9.9999997473787516e-05, 9.9999997473787516e-05, 9.9999997473787516e-05, 9.9999997473787516e-05, 9.9999997473787516e-05, 9.9999997473787516e-05, 9.9999997473787516e-05 ]
+	},
+	"image": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/UI/Icon_DarkGreen.Icon_DarkGreen",
+	"category": "",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

@@ -1,0 +1,29 @@
+﻿{
+	"path": "/FicsitFarming/Buildings/Plots/CropPlot/Desc_FF_CropPlot.Desc_FF_CropPlot_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 5,
+	"descriptorType": 0,
+	"name": "Crop Plot",
+	"description": "Used to grow all types of crops",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+	],
+	"image": "/FicsitFarming/Buildings/Plots/-Shared/UI/Icon_Plot.Icon_Plot",
+	"category": "Ficsit Farming",
+	"subCategory": "Farming: Plots",
+	"buildingPath": "/FicsitFarming/Buildings/Plots/CropPlot/Build_FF_CropPlot.Build_FF_CropPlot_C",
+	"dataType": "buildable"
+}

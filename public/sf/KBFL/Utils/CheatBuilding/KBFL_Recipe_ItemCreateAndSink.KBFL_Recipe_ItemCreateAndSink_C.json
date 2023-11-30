@@ -1,0 +1,26 @@
+﻿{
+	"path": "/KBFL/Utils/CheatBuilding/KBFL_Recipe_ItemCreateAndSink.KBFL_Recipe_ItemCreateAndSink_C",
+	"name": "All In One Cheat Building",
+	"image": "/KBFL/Utils/CheatBuilding/UI/Icon_ItemCreateAndSink.Icon_ItemCreateAndSink",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Equipment/Beacon/BP_EquipmentDescriptorBeacon.BP_EquipmentDescriptorBeacon_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/KBFL/Utils/CheatBuilding/Desc_ItemCreateAndSink.Desc_ItemCreateAndSink_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/KBFL/Utils/KBFL_Schematic_Debug.KBFL_Schematic_Debug_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,32 @@
+﻿{
+	"path": "/FicsitFarming/Resources/Parts/Misc/DoggoCage/Recipe_FF_DoggoCageEmpty.Recipe_FF_DoggoCageEmpty_C",
+	"name": "Doggo Cage (Empty)",
+	"image": "/FicsitFarming/Resources/Parts/Misc/DoggoCage/UI/Icon_DoggoCageEmpty.Icon_DoggoCageEmpty",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+			"amount": 14
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+			"amount": 20
+		}
+	],
+	"output": [
+		{
+			"item": "/FicsitFarming/Resources/Parts/Misc/DoggoCage/Desc_FF_DoggoCageEmpty.Desc_FF_DoggoCageEmpty_C",
+			"amount": 1
+		}
+	],
+	"category": "Equipment",
+	"duration": 20,
+	"manuelDuration": 2,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DoggoLove.Schematic_Tree_Farming_DoggoLove_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

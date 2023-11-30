@@ -1,0 +1,26 @@
+﻿{
+	"path": "/AB_FluidExtras/Junctions/PipeBend-45/Recipe_PipeBend-45.Recipe_PipeBend-45_C",
+	"name": "Pipeline Bend 45",
+	"image": "/AB_FluidExtras/Junctions/PipeBend-45/Icon_PipeBend-45_512.Icon_PipeBend-45_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C",
+			"amount": 5
+		}
+	],
+	"output": [
+		{
+			"item": "/AB_FluidExtras/Junctions/PipeBend-45/Desc_PipeBend-45.Desc_PipeBend-45_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 5,
+	"manuelDuration": 0.5,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Sink_AB.Sink_AB_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/PowerTower/Desc_PowerTower.Desc_PowerTower_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Power Tower",
+	"description": "Power Towers are used to span Power Lines across great distances.\r\nAn additional power connector is provided at the bottom of the Power Tower for connecting with other buildings, such as Power Poles.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_6.Schematic_SF+_4_6_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/PowerTower/UI/IconDesc_PowerTower_512.IconDesc_PowerTower_512",
+	"category": "Power",
+	"subCategory": "Power Poles",
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/PowerTower/Build_PowerTower.Build_PowerTower_C",
+	"dataType": "buildable"
+}

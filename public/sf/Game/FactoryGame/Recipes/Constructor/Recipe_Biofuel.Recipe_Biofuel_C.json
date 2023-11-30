@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Constructor/Recipe_Biofuel.Recipe_Biofuel_C",
+	"name": "Solid Biofuel",
+	"image": "/Game/FactoryGame/Resource/Parts/SolidBiofuel/UI/IconDesc_SolidBiofuel_256.IconDesc_SolidBiofuel_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_GenericBiomass.Desc_GenericBiomass_C",
+			"amount": 8
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/BioFuel/Desc_Biofuel.Desc_Biofuel_C",
+			"amount": 4
+		}
+	],
+	"category": "Biomass",
+	"duration": 4,
+	"manuelDuration": 2,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_2.Schematic_SF+_1_2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

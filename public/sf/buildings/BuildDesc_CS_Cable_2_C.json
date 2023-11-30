@@ -1,0 +1,49 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/KLib/Assets/Buildings/CentralStorage/Build_CS_Cable_2.Build_CS_Cable_2_C",
+	"path": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_CS_Cable_2.BuildDesc_CS_Cable_2_C",
+	"name": "Faxit Cable- Green",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_Cable_2.Recipe_CS_Cable_2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/ColorCartridge/Desc_ColorCartridge.Desc_ColorCartridge_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_CS_Cable_2.BuildDesc_CS_Cable_2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Cable_01.Schematic_Trees_TimeCrystak_Cable_01_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

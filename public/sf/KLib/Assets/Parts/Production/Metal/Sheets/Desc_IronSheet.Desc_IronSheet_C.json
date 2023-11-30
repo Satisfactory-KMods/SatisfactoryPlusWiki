@@ -1,0 +1,28 @@
+﻿{
+	"path": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+	"name": "Iron Sheet",
+	"description": "One of the most basic parts from Iron.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 10,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 200,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+		"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/KLib/Assets/Parts/Production/Metal/Sheets/UI/Icon_IronSheet_256.Icon_IronSheet_256",
+	"category": "",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

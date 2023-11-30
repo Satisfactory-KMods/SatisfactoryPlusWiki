@@ -1,0 +1,28 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Recipe_Alternative_CuttedCopperWire.Recipe_Alternative_CuttedCopperWire_C",
+	"name": "Alternate: Slightly Copper Wire",
+	"image": "/Game/FactoryGame/Resource/Parts/Wire/UI/IconDesc_Wire_256.IconDesc_Wire_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C",
+			"amount": 5
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+			"amount": 12
+		}
+	],
+	"category": "Electronics",
+	"duration": 12,
+	"manuelDuration": 1.2000000476837158,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C"
+	],
+	"isAlternate": true,
+	"dataType": "recipe"
+}

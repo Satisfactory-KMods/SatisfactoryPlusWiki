@@ -1,0 +1,40 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Collider/Recipe_Colider_Pasta.Recipe_Colider_Pasta_C",
+	"name": "Nuclear Pasta",
+	"image": "/Game/FactoryGame/Resource/Parts/NuclearPasta/UI/IconDesc_NuclearPasta_256.IconDesc_NuclearPasta_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Mineral.Desc_SlugSlime_Mineral_C",
+			"amount": 20000
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/PressureConversionCube/Desc_PressureConversionCube.Desc_PressureConversionCube_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_TitanPipe.Desc_TitanPipe_C",
+			"amount": 60
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_9.Desc_SpaceElevatorPart_9_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Low.Desc_SlugSlime_Low_C",
+			"amount": 2000
+		}
+	],
+	"category": "Space Elevator",
+	"duration": 60,
+	"manuelDuration": 6,
+	"producedIn": [
+		"/SatisfactoryPlus/Content/ModifyedBuildings/Colider/Build_Colider.Build_Colider_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_7.Schematic_SF+_8_7_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

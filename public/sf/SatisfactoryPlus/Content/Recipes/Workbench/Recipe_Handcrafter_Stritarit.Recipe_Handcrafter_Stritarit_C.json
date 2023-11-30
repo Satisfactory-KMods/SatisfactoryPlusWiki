@@ -1,0 +1,28 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Workbench/Recipe_Handcrafter_Stritarit.Recipe_Handcrafter_Stritarit_C",
+	"name": "Crushed Stiratite",
+	"image": "/KLib/Assets/Parts/Production/Crushed/UI/Icon_CrushedStritarit_256.Icon_CrushedStritarit_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Nodes/Stritarit/Res_StritaritOre.Res_StritaritOre_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedStritarit.Desc_CrushedStritarit_C",
+			"amount": 3
+		}
+	],
+	"category": "Crushing Ores",
+	"duration": 3,
+	"manuelDuration": 0.30000001192092896,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

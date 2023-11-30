@@ -1,0 +1,40 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_Chem_Lift_8.Recipe_Chem_Lift_8_C",
+	"name": "Thermal Propulsion Rocket",
+	"image": "/Game/FactoryGame/Resource/Parts/ThermalAntimatterPropulsionRocket/UI/IconDesc_ThermalPropulsionRocket_256.IconDesc_ThermalPropulsionRocket_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_Fluid_RocketFuel.Desc_Fluid_RocketFuel_C",
+			"amount": 25000
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidTitan.Desc_LiquidTitan_C",
+			"amount": 25000
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_5.Desc_SpaceElevatorPart_5_C",
+			"amount": 20
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_8.Desc_SpaceElevatorPart_8_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_CarbonDioxide.Desc_Gas_CarbonDioxide_C",
+			"amount": 20000
+		}
+	],
+	"category": "Space Elevator",
+	"duration": 120,
+	"manuelDuration": 36,
+	"producedIn": [
+		"/KLib/Assets/Buildings/ChemReactor/Build_ChemReactor.Build_ChemReactor_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_7.Schematic_SF+_8_7_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

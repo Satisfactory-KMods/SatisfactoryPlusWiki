@@ -1,0 +1,27 @@
+﻿{
+	"path": "/KLib/Assets/Parts/Production/Mixture/Desc_Mixture_CoalLime.Desc_Mixture_CoalLime_C",
+	"name": "Coal & Lime Mixture",
+	"description": "A metal mixture for advaned smelting. This Mixtures are used in the Foundary or in the Blast Furnace!\r\n\r\nNote: can weigh a lot. ",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 7,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 200,
+	"schematics": [
+		"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/KLib/Assets/Parts/Production/Mixture/UI/Icon_CoalLime.Icon_CoalLime",
+	"category": "",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

@@ -1,0 +1,36 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_NatriumHot.Recipe_ChemReactor_NatriumHot_C",
+	"name": "Caustic Soda ",
+	"image": "/KLib/Assets/Ressources/Raw/Fluids/UI/LiquidHotNatriumaluminat.LiquidHotNatriumaluminat",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Ores/Cryolit/Res_Cryolit.Res_Cryolit_C",
+			"amount": 6
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 9000
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_CausticSoda.Desc_CausticSoda_C",
+			"amount": 9000
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_Salt.Desc_Salt_C",
+			"amount": 2
+		}
+	],
+	"category": "Chemical",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/KLib/Assets/Buildings/ChemReactor/Build_ChemReactor.Build_ChemReactor_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

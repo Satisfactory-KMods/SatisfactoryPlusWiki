@@ -1,0 +1,28 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Recipe_InstandWire_Tin.Recipe_InstandWire_Tin_C",
+	"name": "Alternate: Instant Tin Wire",
+	"image": "/KLib/Assets/Parts/Production/Metal/Wires/UI/Icon_TinWire.Icon_TinWire",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Ingots/Desc_TinIngot.Desc_TinIngot_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_TinWire.Desc_TinWire_C",
+			"amount": 2
+		}
+	],
+	"category": "Electronics",
+	"duration": 4,
+	"manuelDuration": 0.40000000596046448,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C"
+	],
+	"isAlternate": true,
+	"dataType": "recipe"
+}

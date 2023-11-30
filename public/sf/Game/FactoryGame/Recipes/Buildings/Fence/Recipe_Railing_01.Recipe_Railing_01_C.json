@@ -1,0 +1,35 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Buildings/Fence/Recipe_Railing_01.Recipe_Railing_01_C",
+	"name": "Modern Railing",
+	"image": "/Game/FactoryGame/Buildable/Building/Fence/UI/IconDesc_Railing_512.IconDesc_Railing_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Building/Fence/Desc_Railing_01.Desc_Railing_01_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_FactoryFence.ResourceSink_FactoryFence_C",
+		"/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_FactoryFence.ResourceSink_FactoryFence_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

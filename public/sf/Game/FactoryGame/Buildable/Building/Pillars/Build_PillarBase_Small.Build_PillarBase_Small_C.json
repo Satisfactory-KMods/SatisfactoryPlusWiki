@@ -1,0 +1,32 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Pillars/Desc_PillarBase_Small.Desc_PillarBase_Small_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Small Pillar Support",
+	"description": "The Pillar Support snaps to Pillars and can be placed on, for example, Foundations and Walls.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_FoudationPillar.ResourceSink_FoudationPillar_C",
+		"/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_FoudationPillar.ResourceSink_FoudationPillar_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_ConcretePillarSet.ResourceSink_ConcretePillarSet_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_FramePillarSet.ResourceSink_FramePillarSet_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Building/Pillars/UI/IconDesc_PillarBaseSmall_512.IconDesc_PillarBaseSmall_512",
+	"category": "Architecture",
+	"subCategory": "Pillars",
+	"buildingPath": "/Game/FactoryGame/Buildable/Building/Pillars/Build_PillarBase_Small.Build_PillarBase_Small_C",
+	"dataType": "buildable"
+}

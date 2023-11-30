@@ -1,0 +1,28 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/StunnedScrew/Recipe_StunnedScrew.Recipe_StunnedScrew_C",
+	"name": "Alternate: Stamped Iron Screws",
+	"image": "/Game/FactoryGame/Resource/Parts/IronScrew/UI/IconDesc_IronScrews_256.IconDesc_IronScrews_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C",
+			"amount": 5
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 20
+		}
+	],
+	"category": "Standard Parts",
+	"duration": 24,
+	"manuelDuration": 2.4000000953674316,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/StunnedScrew/Alternative_StunnedScrew.Alternative_StunnedScrew_C"
+	],
+	"isAlternate": true,
+	"dataType": "recipe"
+}

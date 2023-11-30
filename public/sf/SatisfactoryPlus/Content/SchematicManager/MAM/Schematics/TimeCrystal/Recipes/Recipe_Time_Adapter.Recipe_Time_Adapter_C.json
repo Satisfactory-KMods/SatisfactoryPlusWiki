@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Recipes/Recipe_Time_Adapter.Recipe_Time_Adapter_C",
+	"name": "Quantum Cable Adapter",
+	"image": "/KUI/Assets/TX_PlaceHolder.TX_PlaceHolder",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
+			"amount": 3
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
+			"amount": 6
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C",
+			"amount": 1
+		}
+	],
+	"category": "Quantum Technology",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_Terminal.Schematic_Trees_TimeCrystak_Transport_Terminal_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

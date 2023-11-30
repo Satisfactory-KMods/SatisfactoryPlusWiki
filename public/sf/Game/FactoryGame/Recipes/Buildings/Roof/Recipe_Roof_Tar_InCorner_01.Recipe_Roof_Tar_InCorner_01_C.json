@@ -1,0 +1,30 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Tar_InCorner_01.Recipe_Roof_Tar_InCorner_01_C",
+	"name": "Inner Corner Roof 1m",
+	"image": "/Game/FactoryGame/Buildable/Building/Roof/UI/IconDesc_RoofTarInCorner_01_512.IconDesc_RoofTarInCorner_01_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Asphalt/Desc_Asphalt.Desc_Asphalt_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Tar_InCorner_01.Desc_Roof_Tar_InCorner_01_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Roofs_Corners_Tar.CBG_Roofs_Corners_Tar_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

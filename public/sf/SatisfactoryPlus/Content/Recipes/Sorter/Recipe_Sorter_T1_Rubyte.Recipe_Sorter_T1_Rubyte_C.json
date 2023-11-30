@@ -1,0 +1,36 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Sorter/Recipe_Sorter_T1_Rubyte.Recipe_Sorter_T1_Rubyte_C",
+	"name": "T1: Sorted Rubyte",
+	"image": "/KLib/Assets/Parts/Production/Crushed/UI/Icon_CrushedTin_256.Icon_CrushedTin_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedRubyte.Desc_CrushedRubyte_C",
+			"amount": 12
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedTin.Desc_CrushedTin_C",
+			"amount": 9
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedLead.Desc_CrushedLead_C",
+			"amount": 6
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+			"amount": 2
+		}
+	],
+	"category": "Simple Sorting",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/KLib/Assets/Buildings/Sorter/Build_SorterMk1.Build_SorterMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

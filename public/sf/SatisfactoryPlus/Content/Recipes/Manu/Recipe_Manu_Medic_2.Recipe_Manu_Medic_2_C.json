@@ -1,0 +1,39 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_Medic_2.Recipe_Manu_Medic_2_C",
+	"name": "Medicinal Inhaler",
+	"image": "/Game/FactoryGame/Resource/Equipment/Medkit/UI/Inhaler_256.Inhaler_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/AnimalParts/Desc_SpitterParts.Desc_SpitterParts_C",
+			"amount": 4
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/AnimalParts/Desc_HogParts.Desc_HogParts_C",
+			"amount": 6
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Food/Desc_SnailFood_Tier_1.Desc_SnailFood_Tier_1_C",
+			"amount": 20
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_GenericBiomass.Desc_GenericBiomass_C",
+			"amount": 60
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Equipment/Medkit/Desc_Medkit.Desc_Medkit_C",
+			"amount": 4
+		}
+	],
+	"category": "Equipment",
+	"duration": 30,
+	"manuelDuration": 9,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

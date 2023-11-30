@@ -1,0 +1,27 @@
+﻿{
+	"path": "/Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskGas.Desc_NobeliskGas_C",
+	"name": "Gas Nobelisk",
+	"description": "Instead of a regular explosion, this Nobelisk creates a deadly gas cloud.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 544,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 50,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Mushroom_3_3.Schematic_Trees_Evo_Mushroom_3_3_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Resource/Parts/NobeliskExplosive/UI/IconDesc_Gas_256.IconDesc_Gas_256",
+	"category": "Ammunition",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

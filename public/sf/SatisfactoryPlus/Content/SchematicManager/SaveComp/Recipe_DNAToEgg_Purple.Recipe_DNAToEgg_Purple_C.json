@@ -1,0 +1,33 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/SaveComp/Recipe_DNAToEgg_Purple.Recipe_DNAToEgg_Purple_C",
+	"name": "Unknown Egg ID#5608",
+	"image": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/UI/Icon_EggPurple.Icon_EggPurple",
+	"input": [
+		{
+			"item": "/KLib/Assets/Buildings/SlugHatching/Desc/EggDNA/Desc_EggDNA_Purple.Desc_EggDNA_Purple_C",
+			"amount": 25
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/AlienProtein/Desc_AlienProtein.Desc_AlienProtein_C",
+			"amount": 5
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_EggPurple.EggDesc_EggPurple_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_4_0_NEW.Schematic_Trees_Slugs_4_0_NEW_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

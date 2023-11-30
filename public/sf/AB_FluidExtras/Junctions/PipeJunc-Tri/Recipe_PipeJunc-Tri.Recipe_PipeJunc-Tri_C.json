@@ -1,0 +1,26 @@
+﻿{
+	"path": "/AB_FluidExtras/Junctions/PipeJunc-Tri/Recipe_PipeJunc-Tri.Recipe_PipeJunc-Tri_C",
+	"name": "Junction Tri",
+	"image": "/AB_FluidExtras/Junctions/PipeJunc-Tri/Icon_PipeJunc-Tri_512.Icon_PipeJunc-Tri_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C",
+			"amount": 5
+		}
+	],
+	"output": [
+		{
+			"item": "/AB_FluidExtras/Junctions/PipeJunc-Tri/Desc_PipeJunc-Tri.Desc_PipeJunc-Tri_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 5,
+	"manuelDuration": 0.5,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Sink_AB.Sink_AB_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

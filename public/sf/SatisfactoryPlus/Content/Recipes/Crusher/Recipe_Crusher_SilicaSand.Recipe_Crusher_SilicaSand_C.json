@@ -1,0 +1,28 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_SilicaSand.Recipe_Crusher_SilicaSand_C",
+	"name": "Silica",
+	"image": "/Game/FactoryGame/Resource/Parts/Silica/UI/IconDesc_Silica_256.IconDesc_Silica_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/QuartzCrystal/Desc_QuartzCrystal.Desc_QuartzCrystal_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Silica/Desc_Silica.Desc_Silica_C",
+			"amount": 3
+		}
+	],
+	"category": "Crushing Powders",
+	"duration": 6,
+	"manuelDuration": 1.8000000715255737,
+	"producedIn": [
+		"/KLib/Assets/Buildings/Crusher/Build_Crusher.Build_Crusher_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_6.Schematic_SF+_4_6_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

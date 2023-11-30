@@ -1,0 +1,42 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C",
+	"name": "Aluminum Processing ",
+	"description": "",
+	"cost": [],
+	"category": "",
+	"subCategory": "",
+	"type": 3,
+	"tier": 7,
+	"time": 750,
+	"image": "/KLib/Assets/Icons/Milestones/ICON_Milestone_Schem.ICON_Milestone_Schem",
+	"smallImage": "/KLib/Assets/Icons/Milestones/ICON_Milestone_Schem.ICON_Milestone_Schem",
+	"scannerUnlocks": [
+		"/KLib/Assets/Ressources/Raw/Nodes/Crotinium/Res_CrotiniumOre.Res_CrotiniumOre_C",
+		"/KLib/Assets/Ressources/Raw/Ores/Cryolit/Res_Cryolit.Res_Cryolit_C",
+		"/KLib/Assets/Ressources/Raw/Nodes/Crotinium/Res_CrotiniumOre.Res_CrotiniumOre_C",
+		"/KLib/Assets/Ressources/Raw/Ores/Cryolit/Res_Cryolit.Res_Cryolit_C"
+	],
+	"recipeUnlocks": [
+		"/Game/FactoryGame/Recipes/Buildings/Recipe_Blender.Recipe_Blender_C",
+		"/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_NatriumHot.Recipe_ChemReactor_NatriumHot_C",
+		"/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_Crotinium.Recipe_Crusher_Crotinium_C",
+		"/SatisfactoryPlus/Content/Recipes/Sorter/Recipe_Sorter_T3_Crotonium.Recipe_Sorter_T3_Crotonium_C",
+		"/SatisfactoryPlus/Content/Recipes/Blender/Recipe_Blender_Aluminiumoxid.Recipe_Blender_Aluminiumoxid_C",
+		"/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Recipe_FBFS_LiquidAlum.Recipe_FBFS_LiquidAlum_C",
+		"/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Recipe_SAC_AlumIngots.Recipe_SAC_AlumIngots_C",
+		"/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Recipe_SAC_AlumSheets.Recipe_SAC_AlumSheets_C",
+		"/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_AluCasing.Recipe_AluCasing_C",
+		"/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_NitricAcid.Recipe_ChemReactor_NitricAcid_C",
+		"/KLib/Assets/Parts/Packaged/Recipes/Packaged/Recipe_Packaged_CausticSoda.Recipe_Packaged_CausticSoda_C",
+		"/KLib/Assets/Parts/Packaged/Recipes/UnPackaged/Recipe_UnPackaged_CausticSoda.Recipe_UnPackaged_CausticSoda_C",
+		"/Game/FactoryGame/Recipes/Packager/Recipe_PackagedAlumina.Recipe_PackagedAlumina_C",
+		"/Game/FactoryGame/Recipes/Packager/Recipe_UnpackageAlumina.Recipe_UnpackageAlumina_C"
+	],
+	"handSlots": 0,
+	"subSchematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1_0.Schematic_SF+_7_1_0_C"
+	],
+	"cleanerDesc": [],
+	"inventorySlots": 0,
+	"dataType": "schematic"
+}

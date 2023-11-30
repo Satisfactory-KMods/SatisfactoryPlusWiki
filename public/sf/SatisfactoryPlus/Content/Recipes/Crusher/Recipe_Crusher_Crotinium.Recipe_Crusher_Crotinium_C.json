@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_Crotinium.Recipe_Crusher_Crotinium_C",
+	"name": "Crushed Crotinnium",
+	"image": "/KLib/Assets/Parts/Production/Crushed/UI/Icon_CrushedCrotinium_256.Icon_CrushedCrotinium_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Nodes/Crotinium/Res_CrotiniumOre.Res_CrotiniumOre_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedCrotinium.Desc_CrushedCrotinium_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+			"amount": 1
+		}
+	],
+	"category": "Crushing Ores",
+	"duration": 3,
+	"manuelDuration": 0.90000003576278687,
+	"producedIn": [
+		"/KLib/Assets/Buildings/Crusher/Build_Crusher.Build_Crusher_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

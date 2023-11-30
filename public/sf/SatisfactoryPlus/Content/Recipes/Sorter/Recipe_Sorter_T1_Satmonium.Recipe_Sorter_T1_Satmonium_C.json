@@ -1,0 +1,36 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Sorter/Recipe_Sorter_T1_Satmonium.Recipe_Sorter_T1_Satmonium_C",
+	"name": "T1: Sorted Satmonium",
+	"image": "/KLib/Assets/Parts/Production/Crushed/UI/Icon_CrushedCaterium_256.Icon_CrushedCaterium_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedSatmonium.Desc_CrushedSatmonium_C",
+			"amount": 12
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedCaterium.Desc_CrushedCaterium_C",
+			"amount": 9
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedCopper.Desc_CrushedCopper_C",
+			"amount": 6
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+			"amount": 2
+		}
+	],
+	"category": "Simple Sorting",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/KLib/Assets/Buildings/Sorter/Build_SorterMk1.Build_SorterMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_4.Schematic_Trees_Satmonium_3_4_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

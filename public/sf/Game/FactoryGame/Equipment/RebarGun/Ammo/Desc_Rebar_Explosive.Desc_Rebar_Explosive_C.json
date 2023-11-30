@@ -1,0 +1,27 @@
+﻿{
+	"path": "/Game/FactoryGame/Equipment/RebarGun/Ammo/Desc_Rebar_Explosive.Desc_Rebar_Explosive_C",
+	"name": "Explosive Rebar",
+	"description": "Explodes on impact, dealing heavy damage.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 360,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_4_5.Schematic_Trees_Sulfur_4_5_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Equipment/RebarGun/UI/IconDesc_ExpRebar_256.IconDesc_ExpRebar_256",
+	"category": "Ammunition",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

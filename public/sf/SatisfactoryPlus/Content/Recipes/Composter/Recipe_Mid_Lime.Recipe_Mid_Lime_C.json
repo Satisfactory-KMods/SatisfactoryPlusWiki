@@ -1,0 +1,29 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Composter/Recipe_Mid_Lime.Recipe_Mid_Lime_C",
+	"name": "Lime Slug Slime",
+	"image": "/KLib/Assets/Ressources/Raw/Fluids/UI/OxyNew.OxyNew",
+	"input": [
+		{
+			"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Lime.SlugDesc_Lime_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Mid.Desc_SlugSlime_Mid_C",
+			"amount": 1000
+		}
+	],
+	"category": "Slugs Tier 2",
+	"duration": 4,
+	"manuelDuration": 0.40000000596046448,
+	"producedIn": [
+		"/FicsitFarming/Buildings/Composter/Build_FF_Composter.Build_FF_Composter_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_4_0_NEW.Schematic_Trees_Slugs_3_4_0_NEW_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_4_NEW.Schematic_Trees_Slugs_3_4_NEW_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

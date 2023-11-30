@@ -1,0 +1,38 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipe_PipeHyperStart.Recipe_PipeHyperStart_C",
+	"name": "Hypertube Entrance",
+	"image": "/Game/FactoryGame/Buildable/Factory/PipeHyperStart/UI/HyperTubeStart_512.HyperTubeStart_512",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_BrassPipe.Desc_BrassPipe_C",
+			"amount": 10
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 5
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SteelPlateReinforced/Desc_SteelPlateReinforced.Desc_SteelPlateReinforced_C",
+			"amount": 5
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+			"amount": 5
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Factory/PipeHyperStart/Desc_PipeHyperStart.Desc_PipeHyperStart_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_2.Schematic_SF+_4_2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

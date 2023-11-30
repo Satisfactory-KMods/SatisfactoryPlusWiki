@@ -1,0 +1,30 @@
+﻿{
+	"path": "/Game/FactoryGame/Resource/Parts/BioFuel/Desc_LiquidBiofuel.Desc_LiquidBiofuel_C",
+	"name": "Liquid Biofuel",
+	"description": "Liquid Biofuel can be used to generate power or packaged to be used as fuel for Vehicles.",
+	"gasColor": "00000000",
+	"fluidColor": "3B532CFF",
+	"canBeSink": true,
+	"sinkPoints": 261,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0.75,
+	"form": 2,
+	"stackSize": 50000,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0_1.Schematic_SF+_5_0_1_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Resource/Parts/BioFuel/UI/IconDesc_LiquidBiofuel_Pipe_512.IconDesc_LiquidBiofuel_Pipe_512",
+	"category": "Fuel",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

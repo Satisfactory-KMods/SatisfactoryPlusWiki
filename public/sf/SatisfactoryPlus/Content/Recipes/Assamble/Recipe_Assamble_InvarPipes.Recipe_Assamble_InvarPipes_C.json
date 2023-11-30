@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_InvarPipes.Recipe_Assamble_InvarPipes_C",
+	"name": "Invar Pipes",
+	"image": "/KLib/Assets/Parts/Production/Metal/Pipes/UI/Icon_InvarPipe.Icon_InvarPipe",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_SolderWire.Desc_SolderWire_C",
+			"amount": 6
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_InvarPlates.Desc_InvarPlates_C",
+			"amount": 6
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_InvarPipe.Desc_InvarPipe_C",
+			"amount": 3
+		}
+	],
+	"category": "Advanced Standard Parts",
+	"duration": 12,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

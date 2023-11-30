@@ -1,0 +1,565 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/NewTrees/ResearchTree_Farming.ResearchTree_Farming_C",
+	"name": "Ficsit Farming",
+	"description": "Fiscit has the authority to grow biomass on this planet. ",
+	"image": "/FicsitFarming/Textures/Icon_Farming.Icon_Farming",
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Scanning_Dirt_Fert.Schematic_Tree_Farming_Scanning_Dirt_Fert_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Scanning_Dirt.Schematic_Tree_Farming_Scanning_Dirt_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Scanning_Dirt_Wer.Schematic_Tree_Farming_Scanning_Dirt_Wer_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_SeedExtracting.Schematic_Tree_Farming_SeedExtracting_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_FertDirtFarming.Schematic_Tree_Farming_FertDirtFarming_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DoggoLove.Schematic_Tree_Farming_DoggoLove_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DirtFarming.Schematic_Tree_Farming_DirtFarming_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Fabric.Schematic_Tree_Farming_Fabric_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Muffins.Schematic_Tree_Farming_Muffins_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_PlotModules.Schematic_Tree_Farming_PlotModules_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Bread.Schematic_Tree_Farming_Bread_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Pie.Schematic_Tree_Farming_Pie_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Composter.Schematic_Tree_Farming_Composter_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Pie_2.Schematic_Tree_Farming_Pie_2_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Platform3.Schematic_Tree_Platform3_C"
+	],
+	"nodes": [
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Scanning_Dirt_Fert.Schematic_Tree_Farming_Scanning_Dirt_Fert_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 0
+			},
+			"unhiddenBy": [],
+			"nodesToUnhide": [
+				{
+					"X": 3,
+					"Y": 2
+				},
+				{
+					"X": 3,
+					"Y": 1
+				},
+				{
+					"X": 2,
+					"Y": 2
+				}
+			],
+			"parents": []
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Scanning_Dirt.Schematic_Tree_Farming_Scanning_Dirt_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 0
+			},
+			"unhiddenBy": [],
+			"nodesToUnhide": [
+				{
+					"X": 3,
+					"Y": 1
+				},
+				{
+					"X": 3,
+					"Y": 2
+				},
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"parents": []
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Scanning_Dirt_Wer.Schematic_Tree_Farming_Scanning_Dirt_Wer_C",
+			"coordinates":
+			{
+				"X": 4,
+				"Y": 0
+			},
+			"unhiddenBy": [],
+			"nodesToUnhide": [
+				{
+					"X": 3,
+					"Y": 2
+				},
+				{
+					"X": 3,
+					"Y": 1
+				},
+				{
+					"X": 4,
+					"Y": 2
+				}
+			],
+			"parents": []
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_SeedExtracting.Schematic_Tree_Farming_SeedExtracting_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 1
+			},
+			"unhiddenBy": [
+				{
+					"X": 2,
+					"Y": 0
+				},
+				{
+					"X": 3,
+					"Y": 0
+				},
+				{
+					"X": 4,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 0
+				},
+				{
+					"X": 2,
+					"Y": 0
+				},
+				{
+					"X": 4,
+					"Y": 0
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_FertDirtFarming.Schematic_Tree_Farming_FertDirtFarming_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 2
+			},
+			"unhiddenBy": [
+				{
+					"X": 2,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 2,
+					"Y": 3
+				},
+				{
+					"X": 3,
+					"Y": 4
+				},
+				{
+					"X": 2,
+					"Y": 4
+				},
+				{
+					"X": 1,
+					"Y": 5
+				},
+				{
+					"X": 4,
+					"Y": 4
+				},
+				{
+					"X": 5,
+					"Y": 5
+				}
+			],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 2
+			},
+			"unhiddenBy": [
+				{
+					"X": 2,
+					"Y": 0
+				},
+				{
+					"X": 3,
+					"Y": 0
+				},
+				{
+					"X": 4,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 1
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C",
+			"coordinates":
+			{
+				"X": 4,
+				"Y": 2
+			},
+			"unhiddenBy": [
+				{
+					"X": 4,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 4,
+					"Y": 3
+				},
+				{
+					"X": 3,
+					"Y": 4
+				},
+				{
+					"X": 2,
+					"Y": 4
+				},
+				{
+					"X": 1,
+					"Y": 5
+				},
+				{
+					"X": 4,
+					"Y": 4
+				},
+				{
+					"X": 5,
+					"Y": 5
+				},
+				{
+					"X": 2,
+					"Y": 3
+				}
+			],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DoggoLove.Schematic_Tree_Farming_DoggoLove_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 3
+			},
+			"unhiddenBy": [
+				{
+					"X": 2,
+					"Y": 2
+				},
+				{
+					"X": 4,
+					"Y": 2
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 2,
+					"Y": 2
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DirtFarming.Schematic_Tree_Farming_DirtFarming_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 3
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 3,
+					"Y": 4
+				},
+				{
+					"X": 4,
+					"Y": 4
+				},
+				{
+					"X": 5,
+					"Y": 5
+				},
+				{
+					"X": 2,
+					"Y": 4
+				},
+				{
+					"X": 1,
+					"Y": 5
+				}
+			],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Fabric.Schematic_Tree_Farming_Fabric_C",
+			"coordinates":
+			{
+				"X": 4,
+				"Y": 3
+			},
+			"unhiddenBy": [
+				{
+					"X": 4,
+					"Y": 2
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 4,
+					"Y": 2
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Muffins.Schematic_Tree_Farming_Muffins_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 4
+			},
+			"unhiddenBy": [
+				{
+					"X": 2,
+					"Y": 2
+				},
+				{
+					"X": 4,
+					"Y": 2
+				},
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 4
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_PlotModules.Schematic_Tree_Farming_PlotModules_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 4
+			},
+			"unhiddenBy": [
+				{
+					"X": 2,
+					"Y": 2
+				},
+				{
+					"X": 4,
+					"Y": 2
+				},
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 3,
+					"Y": 5
+				}
+			],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 3
+				},
+				{
+					"X": 4,
+					"Y": 3
+				},
+				{
+					"X": 2,
+					"Y": 3
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Bread.Schematic_Tree_Farming_Bread_C",
+			"coordinates":
+			{
+				"X": 4,
+				"Y": 4
+			},
+			"unhiddenBy": [
+				{
+					"X": 2,
+					"Y": 2
+				},
+				{
+					"X": 4,
+					"Y": 2
+				},
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 4
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Pie.Schematic_Tree_Farming_Pie_C",
+			"coordinates":
+			{
+				"X": 1,
+				"Y": 5
+			},
+			"unhiddenBy": [
+				{
+					"X": 2,
+					"Y": 2
+				},
+				{
+					"X": 4,
+					"Y": 2
+				},
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 2,
+					"Y": 4
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Composter.Schematic_Tree_Farming_Composter_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 5
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 4
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 3,
+					"Y": 6
+				}
+			],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 4
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Pie_2.Schematic_Tree_Farming_Pie_2_C",
+			"coordinates":
+			{
+				"X": 5,
+				"Y": 5
+			},
+			"unhiddenBy": [
+				{
+					"X": 2,
+					"Y": 2
+				},
+				{
+					"X": 4,
+					"Y": 2
+				},
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 4,
+					"Y": 4
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Platform3.Schematic_Tree_Platform3_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 6
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 5
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 5
+				}
+			]
+		}
+	],
+	"treeUnlocks": [
+		{
+			"items": [
+				"/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt.Desc_FF_Dirt_C",
+				"/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt_Fertilized.Desc_FF_Dirt_Fertilized_C",
+				"/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt_Wet.Desc_FF_Dirt_Wet_C"
+			],
+			"needAll": false
+		}
+	],
+	"dataType": "researchTree"
+}

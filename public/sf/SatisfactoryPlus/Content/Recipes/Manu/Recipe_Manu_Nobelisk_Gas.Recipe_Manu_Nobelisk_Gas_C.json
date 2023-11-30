@@ -1,0 +1,41 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_Nobelisk_Gas.Recipe_Manu_Nobelisk_Gas_C",
+	"name": "Gas Nobelisk",
+	"image": "/Game/FactoryGame/Resource/Parts/NobeliskExplosive/UI/IconDesc_Gas_256.IconDesc_Gas_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/NobeliskExplosive/Desc_NobeliskExplosive.Desc_NobeliskExplosive_C",
+			"amount": 5
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Mycelia.Desc_Mycelia_C",
+			"amount": 60
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_GenericBiomass.Desc_GenericBiomass_C",
+			"amount": 80
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GunPowder/Desc_GunpowderMK2.Desc_GunpowderMK2_C",
+			"amount": 30
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskGas.Desc_NobeliskGas_C",
+			"amount": 2
+		}
+	],
+	"category": "Equipment",
+	"duration": 60,
+	"manuelDuration": 18,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Mushroom_3_3.Schematic_Trees_Evo_Mushroom_3_3_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

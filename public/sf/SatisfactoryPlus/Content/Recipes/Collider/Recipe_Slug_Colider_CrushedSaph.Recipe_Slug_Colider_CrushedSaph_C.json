@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Collider/Recipe_Slug_Colider_CrushedSaph.Recipe_Slug_Colider_CrushedSaph_C",
+	"name": "Crushed Saphirite",
+	"image": "/KLib/Assets/Parts/Production/Crushed/UI/Icon_CrushedSapherit_256.Icon_CrushedSapherit_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Mineral.Desc_SlugSlime_Mineral_C",
+			"amount": 7500
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedSapherit.Desc_CrushedSapherit_C",
+			"amount": 100
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Low.Desc_SlugSlime_Low_C",
+			"amount": 1000
+		}
+	],
+	"category": "Compounds",
+	"duration": 30,
+	"manuelDuration": 3,
+	"producedIn": [
+		"/SatisfactoryPlus/Content/ModifyedBuildings/Colider/Build_Colider.Build_Colider_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_5.Schematic_SF+_8_5_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,34 @@
+﻿{
+	"path": "/FicsitFarming/Buildings/Plots/Modules/Irrigation/Recipe_FF_PlotMod_Irrigation.Recipe_FF_PlotMod_Irrigation_C",
+	"name": "Irrigation Module",
+	"image": "/FicsitFarming/Buildings/Plots/Modules/Irrigation/UI/Icon_Plot_Irrigation.Icon_Plot_Irrigation",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
+			"amount": 10
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
+			"amount": 25
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 30
+		}
+	],
+	"output": [
+		{
+			"item": "/FicsitFarming/Buildings/Plots/Modules/Irrigation/Desc_FF_PlotMod_Irrigation.Desc_FF_PlotMod_Irrigation_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_PlotModules.Schematic_Tree_Farming_PlotModules_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

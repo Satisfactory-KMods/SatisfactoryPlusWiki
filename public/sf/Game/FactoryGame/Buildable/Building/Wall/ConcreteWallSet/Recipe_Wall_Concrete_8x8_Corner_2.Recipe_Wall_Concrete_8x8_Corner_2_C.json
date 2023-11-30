@@ -1,0 +1,31 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x8_Corner_2.Recipe_Wall_Concrete_8x8_Corner_2_C",
+	"name": "Tilted Concave Wall 8m",
+	"image": "/Game/FactoryGame/Buildable/Building/Wall/UI/Angular/Inwards/IconDesc_ConcWallInwards_8x8_512.IconDesc_ConcWallInwards_8x8_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+			"amount": 2
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x8_Corner_2.Desc_Wall_Concrete_8x8_Corner_2_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Concrete_Walls_Tilted.CBG_Concrete_Walls_Tilted_C",
+		"/Game/FactoryGame/Schematics/ResourceSink/Customizer_Background/CBG_Concrete_Walls_Tilted.CBG_Concrete_Walls_Tilted_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

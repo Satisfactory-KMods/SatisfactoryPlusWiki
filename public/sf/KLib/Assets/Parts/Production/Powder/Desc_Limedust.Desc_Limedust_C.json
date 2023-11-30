@@ -1,0 +1,29 @@
+﻿{
+	"path": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+	"name": "Lime Dust",
+	"description": "Lime dust is used for many things! Examples include fertilisers, clarification processes, containment of harmful gases, steel manufacture, plastics/rubbers, paints and concrete. \r\n\r\nA really important thing.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 3,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 500,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
+		"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/KLib/Assets/Parts/Production/Powder/UI/Icon_LimeDust.Icon_LimeDust",
+	"category": "Crushing Powders",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

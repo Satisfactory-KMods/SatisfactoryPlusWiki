@@ -1,0 +1,28 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Recipe_Alternative_CrushedLimeDust.Recipe_Alternative_CrushedLimeDust_C",
+	"name": "Alternate: Crushed Stone Dust",
+	"image": "/KLib/Assets/Parts/Production/Powder/UI/Icon_LimeDust.Icon_LimeDust",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+			"amount": 6
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+			"amount": 4
+		}
+	],
+	"category": "Crushing Powders",
+	"duration": 6,
+	"manuelDuration": 1.8000000715255737,
+	"producedIn": [
+		"/KLib/Assets/Buildings/Crusher/Build_Crusher.Build_Crusher_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C"
+	],
+	"isAlternate": true,
+	"dataType": "recipe"
+}

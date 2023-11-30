@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_Sapherit.Recipe_Crusher_Sapherit_C",
+	"name": "Crushed Saphirite",
+	"image": "/KLib/Assets/Parts/Production/Crushed/UI/Icon_CrushedSapherit_256.Icon_CrushedSapherit_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Nodes/Sapherit/Res_SapheritOre.Res_SapheritOre_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedSapherit.Desc_CrushedSapherit_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+			"amount": 1
+		}
+	],
+	"category": "Crushing Ores",
+	"duration": 3,
+	"manuelDuration": 0.90000003576278687,
+	"producedIn": [
+		"/KLib/Assets/Buildings/Crusher/Build_Crusher.Build_Crusher_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3_0.SF+_Schematic_Tutorial3_0_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

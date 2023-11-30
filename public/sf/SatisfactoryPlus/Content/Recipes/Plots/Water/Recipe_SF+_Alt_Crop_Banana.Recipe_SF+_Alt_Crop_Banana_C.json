@@ -1,0 +1,36 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_Banana.Recipe_SF+_Alt_Crop_Banana_C",
+	"name": "Enriched Banana",
+	"image": "/FicsitFarming/Resources/Crops/Bananas/UI/Icon_Banana.Icon_Banana",
+	"input": [
+		{
+			"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_BananaSeed.Desc_FF_BananaSeed_C",
+			"amount": 5
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 5000
+		}
+	],
+	"output": [
+		{
+			"item": "/FicsitFarming/Resources/Crops/Bananas/Desc_FF_Crop_Banana.Desc_FF_Crop_Banana_C",
+			"amount": 5
+		},
+		{
+			"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+			"amount": 1
+		}
+	],
+	"category": "Crops",
+	"duration": 10,
+	"manuelDuration": 1,
+	"producedIn": [
+		"/FicsitFarming/Buildings/Plots/TreePlot/Build_FF_TreePlot.Build_FF_TreePlot_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_WetDirt_Water.Hidden_Farming_WetDirt_Water_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

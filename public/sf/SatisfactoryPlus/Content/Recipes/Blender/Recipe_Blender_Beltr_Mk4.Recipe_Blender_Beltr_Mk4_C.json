@@ -1,0 +1,44 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Blender/Recipe_Blender_Beltr_Mk4.Recipe_Blender_Beltr_Mk4_C",
+	"name": "Expert Conveyor Belt",
+	"image": "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk5/UI/ConveyorMk5_256.ConveyorMk5_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C",
+			"amount": 6
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Belt/Desc_BeltItemMk3.Desc_BeltItemMk3_C",
+			"amount": 3
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/NitricAcid/Desc_NitricAcid.Desc_NitricAcid_C",
+			"amount": 10000
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 10000
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Belt/Desc_BeltItemMk4.Desc_BeltItemMk4_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Steam.Desc_Gas_Steam_C",
+			"amount": 7500
+		}
+	],
+	"category": "Chemical",
+	"duration": 12,
+	"manuelDuration": 3.6000001430511475,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/Blender/Build_Blender.Build_Blender_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_3.Schematic_SF+_7_3_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

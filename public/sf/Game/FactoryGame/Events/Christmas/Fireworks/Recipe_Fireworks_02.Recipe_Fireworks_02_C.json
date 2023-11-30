@@ -1,0 +1,33 @@
+﻿{
+	"path": "/Game/FactoryGame/Events/Christmas/Fireworks/Recipe_Fireworks_02.Recipe_Fireworks_02_C",
+	"name": "Fancy Fireworks",
+	"image": "/Game/FactoryGame/Events/Christmas/Fireworks/UI/IconDesc_Rocket02_256.IconDesc_Rocket02_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBranch.Desc_XmasBranch_C",
+			"amount": 4
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBow.Desc_XmasBow_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Fireworks/Desc_Fireworks_Projectile_02.Desc_Fireworks_Projectile_02_C",
+			"amount": 1
+		}
+	],
+	"category": "FICSMAS",
+	"duration": 24,
+	"manuelDuration": 2.4000000953674316,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C",
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C"
+	],
+	"schematics": [
+		"/Game/FactoryGame/Events/Christmas/Calendar_Schematics/Ficsmas_Schematic_Fireworks.Ficsmas_Schematic_Fireworks_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

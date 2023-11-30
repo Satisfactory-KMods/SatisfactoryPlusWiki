@@ -1,0 +1,41 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_Nobelisk_Cluster.Recipe_Manu_Nobelisk_Cluster_C",
+	"name": "Cluster Nobelisk",
+	"image": "/Game/FactoryGame/Resource/Parts/NobeliskExplosive/UI/IconDesc_Cluster_256.IconDesc_Cluster_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/NobeliskExplosive/Desc_NobeliskExplosive.Desc_NobeliskExplosive_C",
+			"amount": 5
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_SteelRod.Desc_SteelRod_C",
+			"amount": 60
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C",
+			"amount": 10
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GunPowder/Desc_GunpowderMK2.Desc_GunpowderMK2_C",
+			"amount": 30
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskCluster.Desc_NobeliskCluster_C",
+			"amount": 2
+		}
+	],
+	"category": "Equipment",
+	"duration": 60,
+	"manuelDuration": 18,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_2_5.Schematic_Trees_Sulfur_2_5_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

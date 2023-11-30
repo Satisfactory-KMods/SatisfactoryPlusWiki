@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Recipe_FBFS_Oil_Sulfurtri.Recipe_FBFS_Oil_Sulfurtri_C",
+	"name": "Sulfurous Gas  ",
+	"image": "/KLib/Assets/Ressources/Raw/Gas/UI/Icon_Sulfurtrioxide.Icon_Sulfurtrioxide",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_SulfurPowder.Desc_SulfurPowder_C",
+			"amount": 6
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Ores/Gasses/Oxygen/Res_GasOxygen.Res_GasOxygen_C",
+			"amount": 1500
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Sulfurtrixid.Desc_Sulfurtrixid_C",
+			"amount": 1500
+		}
+	],
+	"category": "Heating",
+	"duration": 3,
+	"manuelDuration": 0.30000001192092896,
+	"producedIn": [
+		"/KLib/Assets/Buildings/FlexibleBlastFurnace/Build_FlexibleBlastFurnaceSmelter.Build_FlexibleBlastFurnaceSmelter_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_2_0.Schematic_SF+_6_2_0_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

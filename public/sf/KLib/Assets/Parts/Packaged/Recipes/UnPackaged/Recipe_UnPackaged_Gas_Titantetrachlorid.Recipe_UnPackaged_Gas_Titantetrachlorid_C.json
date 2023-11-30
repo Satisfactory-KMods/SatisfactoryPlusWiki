@@ -1,0 +1,32 @@
+﻿{
+	"path": "/KLib/Assets/Parts/Packaged/Recipes/UnPackaged/Recipe_UnPackaged_Gas_Titantetrachlorid.Recipe_UnPackaged_Gas_Titantetrachlorid_C",
+	"name": "Unpack Titantetrachlorid",
+	"image": "/KLib/Assets/Parts/Packaged/Items/Gas/UI/Icon_Gas_Emtpy.Icon_Gas_Emtpy",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Packaged/Items/Gas/Desc_PackagedGas_Titantetrachlorid.Desc_PackagedGas_Titantetrachlorid_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GasTank/Desc_GasTank.Desc_GasTank_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Titantetrachlorid.Desc_Gas_Titantetrachlorid_C",
+			"amount": 2000
+		}
+	],
+	"category": "Unpackaging - Gas",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [
+		"/AB_FluidExtras/FluidPacker/Build_AB_FluidPacker.Build_AB_FluidPacker_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

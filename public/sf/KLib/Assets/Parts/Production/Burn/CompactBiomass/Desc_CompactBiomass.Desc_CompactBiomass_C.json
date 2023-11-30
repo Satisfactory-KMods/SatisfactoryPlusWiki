@@ -1,0 +1,27 @@
+﻿{
+	"path": "/KLib/Assets/Parts/Production/Burn/CompactBiomass/Desc_CompactBiomass.Desc_CompactBiomass_C",
+	"name": "Compact Biomass",
+	"description": "Compact Biomass to Burn in the Biomass Heater.\r\n\r\nCan not use in the Biomass Burner!",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 30,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 1000,
+	"form": 1,
+	"stackSize": 200,
+	"schematics": [
+		"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/CompactBiomass/Alternative_CompactBiomass.Alternative_CompactBiomass_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/KLib/Assets/Parts/Production/Burn/CompactBiomass/UI/CompactedCoal_CompactBiomass_256.CompactedCoal_CompactBiomass_256",
+	"category": "",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

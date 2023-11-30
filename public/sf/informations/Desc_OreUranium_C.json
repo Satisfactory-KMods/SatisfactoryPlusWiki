@@ -1,0 +1,36 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "",
+	"path": "/Game/FactoryGame/Resource/RawResources/OreUranium/Desc_OreUranium.Desc_OreUranium_C",
+	"name": "Uranium",
+	"consumed": [
+		{
+			"isRecipe": false,
+			"type": 6,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/ExtractDesc/Miner/ExtractDesc_Uran.ExtractDesc_Uran_C",
+			"wasteProducer": "",
+			"input": [],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/OreUranium/Desc_OreUranium.Desc_OreUranium_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/OreUranium/Desc_OreUranium.Desc_OreUranium_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		}
+	],
+	"produced": [],
+	"dataType": "informations"
+}

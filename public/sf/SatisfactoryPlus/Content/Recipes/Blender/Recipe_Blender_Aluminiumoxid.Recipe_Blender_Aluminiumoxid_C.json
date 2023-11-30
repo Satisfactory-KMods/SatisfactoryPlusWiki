@@ -1,0 +1,40 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Blender/Recipe_Blender_Aluminiumoxid.Recipe_Blender_Aluminiumoxid_C",
+	"name": "Alumina Solution",
+	"image": "/Game/FactoryGame/Resource/Parts/Alumina/UI/LiquidAlumina_Pipe_512.LiquidAlumina_Pipe_512",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+			"amount": 4
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedBauxite.Desc_CrushedBauxite_C",
+			"amount": 8
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_CausticSoda.Desc_CausticSoda_C",
+			"amount": 3750
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 2500
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Alumina/Desc_AluminaSolution.Desc_AluminaSolution_C",
+			"amount": 5000
+		}
+	],
+	"category": "Chemical",
+	"duration": 7.5,
+	"manuelDuration": 2.25,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/Blender/Build_Blender.Build_Blender_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,41 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_Medic.Recipe_Manu_Medic_C",
+	"name": "Medicinal Inhaler",
+	"image": "/Game/FactoryGame/Resource/Equipment/Medkit/UI/Inhaler_256.Inhaler_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Environment/Berry/Desc_Berry.Desc_Berry_C",
+			"amount": 3
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Environment/DesertShroom/Desc_Shroom.Desc_Shroom_C",
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Environment/Nut/Desc_Nut.Desc_Nut_C",
+			"amount": 10
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_GenericBiomass.Desc_GenericBiomass_C",
+			"amount": 60
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Equipment/Medkit/Desc_Medkit.Desc_Medkit_C",
+			"amount": 2
+		}
+	],
+	"category": "Equipment",
+	"duration": 30,
+	"manuelDuration": 9,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Eat_0_0.Schematic_Trees_Evo_Eat_0_0_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,28 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_CarbonDust.Recipe_Crusher_CarbonDust_C",
+	"name": "Carbon Dust",
+	"image": "/KLib/Assets/Parts/Production/Powder/UI/Icon_CarbonDust.Icon_CarbonDust",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_CarbonDust.Desc_CarbonDust_C",
+			"amount": 2
+		}
+	],
+	"category": "Crushing Powders",
+	"duration": 4,
+	"manuelDuration": 1.2000000476837158,
+	"producedIn": [
+		"/KLib/Assets/Buildings/Crusher/Build_Crusher.Build_Crusher_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/Schematic_Trees_Sulfur_3_2.Schematic_Trees_Sulfur_3_2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

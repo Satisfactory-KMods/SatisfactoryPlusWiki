@@ -1,0 +1,30 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Atmosphere/BuildDesc_CoolerCo2.BuildDesc_CoolerCo2_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Co2 Chimney",
+	"description": "Used to disperse Gasses into the atmosphere.\r\n\r\nCarbon Dioxide\r\nAir and Toxic Air\r\nMethane",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8_0.Schematic_SF+_2_8_0_C"
+	],
+	"image": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Coolers/Co2Cooler/UI/Icon_RP_MP_Co2Cooler.Icon_RP_MP_Co2Cooler",
+	"category": "Power",
+	"subCategory": "Modular Power: Cooler",
+	"buildingPath": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Atmosphere/SF+_Build_RP_MP_Co2Cooler.SF+_Build_RP_MP_Co2Cooler_C",
+	"dataType": "buildable"
+}

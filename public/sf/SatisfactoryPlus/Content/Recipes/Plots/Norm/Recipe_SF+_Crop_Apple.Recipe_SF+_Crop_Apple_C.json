@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_Apple.Recipe_SF+_Crop_Apple_C",
+	"name": "Apple",
+	"image": "/FicsitFarming/Resources/Crops/Apples/UI/Icon_Apple.Icon_Apple",
+	"input": [
+		{
+			"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_AppleSeed.Desc_FF_AppleSeed_C",
+			"amount": 5
+		}
+	],
+	"output": [
+		{
+			"item": "/FicsitFarming/Resources/Crops/Apples/Desc_FF_Crop_Apple.Desc_FF_Crop_Apple_C",
+			"amount": 5
+		},
+		{
+			"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+			"amount": 1
+		}
+	],
+	"category": "Crops",
+	"duration": 30,
+	"manuelDuration": 3,
+	"producedIn": [
+		"/FicsitFarming/Buildings/Plots/TreePlot/Build_FF_TreePlot.Build_FF_TreePlot_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

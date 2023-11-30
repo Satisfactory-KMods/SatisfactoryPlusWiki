@@ -1,0 +1,29 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Dirty_Glass.Recipe_Smelter_Dirty_Glass_C",
+	"name": "Sloppy Glass",
+	"image": "/KLib/Assets/Parts/Production/Metal/Plates/UI/Icon_Glass.Icon_Glass",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_Sand.Desc_Sand_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
+			"amount": 2
+		}
+	],
+	"category": "Smelting",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_7.Schematic_SF+_1_7_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

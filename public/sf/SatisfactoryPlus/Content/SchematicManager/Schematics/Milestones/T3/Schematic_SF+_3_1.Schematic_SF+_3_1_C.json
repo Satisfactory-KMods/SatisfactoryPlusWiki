@@ -1,0 +1,35 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+	"name": "Metal Casting",
+	"description": "",
+	"cost": [],
+	"category": "",
+	"subCategory": "",
+	"type": 3,
+	"tier": 3,
+	"time": 360,
+	"image": "/KLib/Assets/Icons/Milestones/ICON_Milestone_Metal.ICON_Milestone_Metal",
+	"smallImage": "/KLib/Assets/Icons/Milestones/ICON_Milestone_Metal.ICON_Milestone_Metal",
+	"scannerUnlocks": [],
+	"recipeUnlocks": [
+		"/KLib/Assets/Buildings/SoldifierAndCooler/Recipe_SoldifierAndCooler.Recipe_SoldifierAndCooler_C",
+		"/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Recipe_SAC_SteamWater.Recipe_SAC_SteamWater_C",
+		"/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Ingots/Recipe_SAC_Ingots_Bronze.Recipe_SAC_Ingots_Bronze_C",
+		"/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Ingots/Recipe_SAC_Ingots_Copper.Recipe_SAC_Ingots_Copper_C",
+		"/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Ingots/Recipe_SAC_Ingots_Gold.Recipe_SAC_Ingots_Gold_C",
+		"/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Ingots/Recipe_SAC_Ingots_Iron.Recipe_SAC_Ingots_Iron_C",
+		"/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Ingots/Recipe_SAC_Ingots_Lead.Recipe_SAC_Ingots_Lead_C",
+		"/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Ingots/Recipe_SAC_Ingots_Tin.Recipe_SAC_Ingots_Tin_C",
+		"/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Ingots/Recipe_SAC_Ingots_Zinc.Recipe_SAC_Ingots_Zinc_C",
+		"/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_SlagCement.Recipe_Assamble_SlagCement_C"
+	],
+	"handSlots": 0,
+	"subSchematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1_1.Schematic_SF+_3_1_1_C"
+	],
+	"cleanerDesc": [
+		"/SatisfactoryPlus/Content/Recipes/Cleaner/CleanerDesc_LiquidSlag.CleanerDesc_LiquidSlag_C"
+	],
+	"inventorySlots": 0,
+	"dataType": "schematic"
+}

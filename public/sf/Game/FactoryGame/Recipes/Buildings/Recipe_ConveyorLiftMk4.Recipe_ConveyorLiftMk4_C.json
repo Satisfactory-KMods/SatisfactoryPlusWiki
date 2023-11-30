@@ -1,0 +1,34 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk4.Recipe_ConveyorLiftMk4_C",
+	"name": "Conveyor Lift Mk.4",
+	"image": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk4/UI/ConveyorLiftMK4_512.ConveyorLiftMK4_512",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Belt/Desc_BeltItemMk3.Desc_BeltItemMk3_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+			"amount": 2
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_SolderWire.Desc_SolderWire_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk4/Desc_ConveyorLiftMk4.Desc_ConveyorLiftMk4_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_5.Schematic_SF+_5_5_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

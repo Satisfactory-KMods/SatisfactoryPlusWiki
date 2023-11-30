@@ -1,0 +1,34 @@
+﻿{
+	"path": "/FicsitFarming/Buildings/FarmingPlatform/Mk2/Recipe_FF_FarmingPlatformMk2.Recipe_FF_FarmingPlatformMk2_C",
+	"name": "Farming Platform Mk1",
+	"image": "/FicsitFarming/Buildings/FarmingPlatform/Mk2/UI/Icon_FF_FarmingPlatformMk2.Icon_FF_FarmingPlatformMk2",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 100
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+			"amount": 100
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
+			"amount": 50
+		}
+	],
+	"output": [
+		{
+			"item": "/FicsitFarming/Buildings/FarmingPlatform/Mk2/Desc_FF_FarmingPlatformMk2.Desc_FF_FarmingPlatformMk2_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk2/Desc_ConveyorBeltMk2.Desc_ConveyorBeltMk2_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Conveyor Belt Mk.2",
+	"description": "Transports up to 120 resources per minute. Used to move resources between buildings.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_1.Schematic_SF+_1_1_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk2/UI/ConveyorMk2_512.ConveyorMk2_512",
+	"category": "Logistics",
+	"subCategory": "Conveyor Belts",
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk2/Build_ConveyorBeltMk2.Build_ConveyorBeltMk2_C",
+	"dataType": "buildable"
+}

@@ -1,0 +1,36 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Sorter/Recipe_Sorter_T1_Cryolit.Recipe_Sorter_T1_Cryolit_C",
+	"name": "T1: Sorted Cryolit Salt",
+	"image": "/Game/FactoryGame/Resource/Parts/QuartzCrystal/UI/IconDesc_QuartzResource_256.IconDesc_QuartzResource_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Ores/Cryolit/Res_Cryolit.Res_Cryolit_C",
+			"amount": 12
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/QuartzCrystal/Desc_QuartzCrystal.Desc_QuartzCrystal_C",
+			"amount": 12
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_Salt.Desc_Salt_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+			"amount": 2
+		}
+	],
+	"category": "Simple Sorting",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/KLib/Assets/Buildings/Sorter/Build_SorterMk1.Build_SorterMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_1.Schematic_Trees_Cryolit_3_1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

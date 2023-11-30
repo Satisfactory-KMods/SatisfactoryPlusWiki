@@ -1,0 +1,31 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Wall/SteelWallSet/Recipe_Wall_Steel_8x4_Corner_01.Recipe_Wall_Steel_8x4_Corner_01_C",
+	"name": "Tilted Corner Wall 4m",
+	"image": "/Game/FactoryGame/Buildable/Building/Wall/UI/Triangle/IconDesc_SteelTriangleWall4m_512.IconDesc_SteelTriangleWall4m_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Building/Wall/SteelWallSet/Desc_Wall_Steel_8x4_Corner_01.Desc_Wall_Steel_8x4_Corner_01_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Steel_Walls_Tilted.CBG_Steel_Walls_Tilted_C",
+		"/Game/FactoryGame/Schematics/ResourceSink/Customizer_Background/CBG_Steel_Walls_Tilted.CBG_Steel_Walls_Tilted_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

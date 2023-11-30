@@ -1,0 +1,29 @@
+﻿{
+	"path": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_TinWire.Desc_TinWire_C",
+	"name": "Tin Wire",
+	"description": "One of the most basic parts from Tin.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 5,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 500,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial4.SF+_Schematic_Tutorial4_C",
+		"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C",
+		"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedTin/Alternative_CastedTinParts.Alternative_CastedTinParts_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/KLib/Assets/Parts/Production/Metal/Wires/UI/Icon_TinWire.Icon_TinWire",
+	"category": "",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

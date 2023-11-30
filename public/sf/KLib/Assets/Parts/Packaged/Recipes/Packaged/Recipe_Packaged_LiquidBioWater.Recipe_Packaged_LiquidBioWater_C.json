@@ -1,0 +1,32 @@
+﻿{
+	"path": "/KLib/Assets/Parts/Packaged/Recipes/Packaged/Recipe_Packaged_LiquidBioWater.Recipe_Packaged_LiquidBioWater_C",
+	"name": "Packaged Biological Water",
+	"image": "/KLib/Assets/Parts/Packaged/Items/Fluid/UI/Icon_PackagedBioWater_256.Icon_PackagedBioWater_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/FluidCanister/Desc_FluidCanister.Desc_FluidCanister_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Ores/Fluids/BioWater/Res_LiquidBioWater.Res_LiquidBioWater_C",
+			"amount": 1000
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Packaged/Items/Fluid/Desc_PackagedLiquidBioWater.Desc_PackagedLiquidBioWater_C",
+			"amount": 1
+		}
+	],
+	"category": "Packaging - Bottle",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [
+		"/AB_FluidExtras/FluidPacker/Build_AB_FluidPacker.Build_AB_FluidPacker_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

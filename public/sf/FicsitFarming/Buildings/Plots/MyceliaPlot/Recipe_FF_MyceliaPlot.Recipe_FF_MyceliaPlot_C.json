@@ -1,0 +1,38 @@
+﻿{
+	"path": "/FicsitFarming/Buildings/Plots/MyceliaPlot/Recipe_FF_MyceliaPlot.Recipe_FF_MyceliaPlot_C",
+	"name": "Mycelia Plot",
+	"image": "/FicsitFarming/Buildings/Plots/-Shared/UI/Icon_Plot.Icon_Plot",
+	"input": [
+		{
+			"item": "/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt.Desc_FF_Dirt_C",
+			"amount": 200
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+			"amount": 25
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 25
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+			"amount": 20
+		}
+	],
+	"output": [
+		{
+			"item": "/FicsitFarming/Buildings/Plots/MyceliaPlot/Desc_FF_MyceliaPlot.Desc_FF_MyceliaPlot_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

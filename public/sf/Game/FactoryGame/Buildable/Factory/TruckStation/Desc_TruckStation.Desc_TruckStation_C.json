@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/TruckStation/Desc_TruckStation.Desc_TruckStation_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 20,
+	"descriptorType": 0,
+	"name": "Truck Station",
+	"description": "Either sends or receives resources to vehicles. Has an inventory with 48 slots.\r\nTransfers up to 120 stacks per minute to/from docked vehicles. \r\nAlways refuels vehicles if it has access to a matching fuel type.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_9.Schematic_SF+_3_9_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/TruckStation/UI/IconDesc_TruckStation_512.IconDesc_TruckStation_512",
+	"category": "Transport",
+	"subCategory": "Vehicle Transport",
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/TruckStation/Build_TruckStation.Build_TruckStation_C",
+	"dataType": "buildable"
+}

@@ -1,0 +1,144 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "",
+	"path": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_WheatSeed.Desc_FF_WheatSeed_C",
+	"name": "Wheat Seed",
+	"consumed": [
+		{
+			"isRecipe": false,
+			"type": 10,
+			"buildingRecipe": false,
+			"productionElement": "/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt.Desc_FF_Dirt_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt.Desc_FF_Dirt_C",
+					"time": 2,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_WheatSeed.Desc_FF_WheatSeed_C",
+					"time": 2,
+					"amount": 1
+				},
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_CornSeed.Desc_FF_CornSeed_C",
+					"time": 2,
+					"amount": 1
+				},
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_PotatoSeed.Desc_FF_PotatoSeed_C",
+					"time": 2,
+					"amount": 1
+				},
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_CarrotSeed.Desc_FF_CarrotSeed_C",
+					"time": 2,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		}
+	],
+	"produced": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_Wheat.Recipe_SF+_Crop_Wheat_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_WheatSeed.Desc_FF_WheatSeed_C",
+					"time": 30,
+					"amount": 5
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Wheat/Desc_FF_Crop_Wheat.Desc_FF_Crop_Wheat_C",
+					"time": 30,
+					"amount": 5
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 30,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_Wheat2.Recipe_SF+_Alt_Crop_Wheat2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_WheatSeed.Desc_FF_WheatSeed_C",
+					"time": 30,
+					"amount": 25
+				},
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Fertilizer/Desc_FF_Fertilizer.Desc_FF_Fertilizer_C",
+					"time": 30,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Wheat/Desc_FF_Crop_Wheat.Desc_FF_Crop_Wheat_C",
+					"time": 30,
+					"amount": 25
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 30,
+					"amount": 5
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_Wheat.Recipe_SF+_Alt_Crop_Wheat_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_WheatSeed.Desc_FF_WheatSeed_C",
+					"time": 10,
+					"amount": 5
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 10,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Wheat/Desc_FF_Crop_Wheat.Desc_FF_Crop_Wheat_C",
+					"time": 10,
+					"amount": 5
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 10,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		}
+	],
+	"dataType": "informations"
+}

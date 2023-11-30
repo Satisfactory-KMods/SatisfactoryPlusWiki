@@ -1,0 +1,39 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_Ramp_DownCorner_Asphalt_8x2.Recipe_Ramp_DownCorner_Asphalt_8x2_C",
+	"name": "Down Corner Ramp 2m",
+	"image": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/UI/IconDesc_AsphaltRampD8x2_512.IconDesc_AsphaltRampD8x2_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+			"amount": 1
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 2
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Asphalt/Desc_Asphalt.Desc_Asphalt_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Desc_Ramp_DownCorner_Asphalt_8x2.Desc_Ramp_DownCorner_Asphalt_8x2_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Ramps_Corners_Asphalt.CBG_Ramps_Corners_Asphalt_C",
+		"/Game/FactoryGame/Schematics/ResourceSink/Customizer_Background/CBG_Ramps_Corners_Asphalt.CBG_Ramps_Corners_Asphalt_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,39 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Orange_FlipTris_8x2.Recipe_Wall_Orange_FlipTris_8x2_C",
+	"name": "Inv. Ramp Wall 2m",
+	"image": "/Game/FactoryGame/Buildable/Building/Wall/UI/DownDiagonal/IconDesc_FicsitDownDiag2m_512.IconDesc_FicsitDownDiag2m_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x2_FlipTris.Desc_Wall_Orange_8x2_FlipTris_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_Diagonal_Down_Wallset.ResourceSink_Diagonal_Down_Wallset_C",
+		"/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_Diagonal_Down_Wallset.ResourceSink_Diagonal_Down_Wallset_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_Mixture_ZincTin.Recipe_Crusher_Mixture_ZincTin_C",
+	"name": "Zinc & Tin Mixture",
+	"image": "/KLib/Assets/Parts/Production/Mixture/UI/Icon_MixtureSnZn.Icon_MixtureSnZn",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedTin.Desc_CrushedTin_C",
+			"amount": 2
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedZinc.Desc_CrushedZinc_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Mixture/Desc_Mixture_ZincTin.Desc_Mixture_ZincTin_C",
+			"amount": 3
+		}
+	],
+	"category": "Crushing Powders",
+	"duration": 3,
+	"manuelDuration": 0.90000003576278687,
+	"producedIn": [
+		"/KLib/Assets/Buildings/Crusher/Build_Crusher.Build_Crusher_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,27 @@
+﻿{
+	"path": "/KLib/Assets/Ressources/Raw/Fluids/Desc_Fluid_RocketFuel.Desc_Fluid_RocketFuel_C",
+	"name": "Rocket Fuel",
+	"description": "Rocket propellant is the reaction mass of a rocket. This reaction mass is ejected at the highest achievable velocity from a rocket engine to produce thrust.",
+	"gasColor": "4B1B1EBF",
+	"fluidColor": "4B1B1EBF",
+	"canBeSink": false,
+	"sinkPoints": 0,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": false,
+	"energyValue": 0,
+	"form": 2,
+	"stackSize": 50000,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_7.Schematic_SF+_8_7_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/KLib/Assets/Ressources/Raw/Fluids/UI/LiquidSuperFuel.LiquidSuperFuel",
+	"category": "Fuel",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

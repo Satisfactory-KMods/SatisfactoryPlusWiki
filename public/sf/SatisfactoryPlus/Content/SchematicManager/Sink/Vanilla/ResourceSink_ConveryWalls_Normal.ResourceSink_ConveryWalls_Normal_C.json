@@ -1,0 +1,33 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_ConveryWalls_Normal.ResourceSink_ConveryWalls_Normal_C",
+	"name": "Conveyor Walls",
+	"description": "",
+	"cost": [],
+	"category": "Walls",
+	"subCategory": "Walls",
+	"type": 7,
+	"tier": 1,
+	"time": 0,
+	"image": "/Game/FactoryGame/Buildable/Building/Wall/UI/ConveyorHole/Wall_Conveyor_x3_Orange_256.Wall_Conveyor_x3_Orange_256",
+	"smallImage": "",
+	"scannerUnlocks": [],
+	"recipeUnlocks": [
+		"/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Conveyor_8x4_01.Recipe_Wall_Conveyor_8x4_01_C",
+		"/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Conveyor_8x4_02.Recipe_Wall_Conveyor_8x4_02_C",
+		"/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Conveyor_8x4_03.Recipe_Wall_Conveyor_8x4_03_C",
+		"/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_ConveyorHole_01.Recipe_Wall_Concrete_8x4_ConveyorHole_01_C",
+		"/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_ConveyorHole_02.Recipe_Wall_Concrete_8x4_ConveyorHole_02_C",
+		"/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_ConveyorHole_03.Recipe_Wall_Concrete_8x4_ConveyorHole_03_C",
+		"/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Conveyor_8x4_01_Steel.Recipe_Wall_Conveyor_8x4_01_Steel_C",
+		"/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Conveyor_8x4_02_Steel.Recipe_Wall_Conveyor_8x4_02_Steel_C",
+		"/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Conveyor_8x4_03_Steel.Recipe_Wall_Conveyor_8x4_03_Steel_C"
+	],
+	"handSlots": 0,
+	"subSchematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Concrete_Walls_Conveyor.CBG_Concrete_Walls_Conveyor_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Steel_Walls_Conveyor.CBG_Steel_Walls_Conveyor_C"
+	],
+	"cleanerDesc": [],
+	"inventorySlots": 0,
+	"dataType": "schematic"
+}

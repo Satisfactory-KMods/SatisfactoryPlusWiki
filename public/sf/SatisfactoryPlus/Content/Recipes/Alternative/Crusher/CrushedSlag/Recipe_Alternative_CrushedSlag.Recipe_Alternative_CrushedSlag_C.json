@@ -1,0 +1,28 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedSlag/Recipe_Alternative_CrushedSlag.Recipe_Alternative_CrushedSlag_C",
+	"name": "Alternate: Crushed Slag",
+	"image": "/KLib/Assets/Parts/Production/Powder/UI/Icon_CrashedLimestone.Icon_CrashedLimestone",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Burn/ColdSlag/Desc_ColdSlag.Desc_ColdSlag_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+			"amount": 6
+		}
+	],
+	"category": "Crushing Powders",
+	"duration": 6,
+	"manuelDuration": 1.8000000715255737,
+	"producedIn": [
+		"/KLib/Assets/Buildings/Crusher/Build_Crusher.Build_Crusher_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedSlag/Alternative_CrushedSlag.Alternative_CrushedSlag_C"
+	],
+	"isAlternate": true,
+	"dataType": "recipe"
+}

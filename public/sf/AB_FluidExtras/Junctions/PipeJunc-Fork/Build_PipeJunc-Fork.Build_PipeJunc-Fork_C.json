@@ -1,0 +1,29 @@
+﻿{
+	"path": "/AB_FluidExtras/Junctions/PipeJunc-Fork/Desc_PipeJunc-Fork.Desc_PipeJunc-Fork_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Junction Fork",
+	"description": "Can be attached to a pipeline to split it 3-ways. Adds an angled split off a straight pipe.\r\nNOTE: Uses the same placement as pipe valves to allow for easy flipping",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Sink_AB.Sink_AB_C"
+	],
+	"image": "/AB_FluidExtras/Junctions/PipeJunc-Fork/Icon_PipeJunc-Fork_512.Icon_PipeJunc-Fork_512",
+	"category": "Logistics",
+	"subCategory": "Pipelines",
+	"buildingPath": "/AB_FluidExtras/Junctions/PipeJunc-Fork/Build_PipeJunc-Fork.Build_PipeJunc-Fork_C",
+	"dataType": "buildable"
+}

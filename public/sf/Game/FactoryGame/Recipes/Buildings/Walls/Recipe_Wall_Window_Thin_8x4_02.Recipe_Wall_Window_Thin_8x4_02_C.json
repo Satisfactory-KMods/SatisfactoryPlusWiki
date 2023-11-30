@@ -1,0 +1,38 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Window_Thin_8x4_02.Recipe_Wall_Window_Thin_8x4_02_C",
+	"name": "Hex Frame Window",
+	"image": "/Game/FactoryGame/Buildable/Building/Wall/UI/Portholes/IconDesc_HexagonWindow_512.IconDesc_HexagonWindow_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_Thin_8x4_02.Desc_Wall_Window_Thin_8x4_02_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_FrameWindows.ResourceSink_FrameWindows_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

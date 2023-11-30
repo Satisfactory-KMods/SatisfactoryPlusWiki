@@ -1,0 +1,40 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Blender/Recipe_Blender_FusedFrame.Recipe_Blender_FusedFrame_C",
+	"name": "Fused Modular Frame",
+	"image": "/Game/FactoryGame/Resource/Parts/ModularFrameFused/UI/IconDesc_FusedModularFrame_256.IconDesc_FusedModularFrame_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
+			"amount": 20
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/NitrogenGas/Desc_NitrogenGas.Desc_NitrogenGas_C",
+			"amount": 12500
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidTin.Desc_LiquidTin_C",
+			"amount": 5000
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C",
+			"amount": 1
+		}
+	],
+	"category": "Chemical",
+	"duration": 16,
+	"manuelDuration": 4.8000001907348633,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/Blender/Build_Blender.Build_Blender_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_4.Schematic_SF+_7_4_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

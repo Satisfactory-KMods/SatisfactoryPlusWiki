@@ -1,0 +1,28 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Workbench/Recipe_Handcrafter_Sapherit.Recipe_Handcrafter_Sapherit_C",
+	"name": "Crushed Saphirite",
+	"image": "/KLib/Assets/Parts/Production/Crushed/UI/Icon_CrushedSapherit_256.Icon_CrushedSapherit_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Nodes/Sapherit/Res_SapheritOre.Res_SapheritOre_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedSapherit.Desc_CrushedSapherit_C",
+			"amount": 3
+		}
+	],
+	"category": "Crushing Ores",
+	"duration": 3,
+	"manuelDuration": 0.30000001192092896,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/WorkBench/Build_WorkBench.Build_WorkBench_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

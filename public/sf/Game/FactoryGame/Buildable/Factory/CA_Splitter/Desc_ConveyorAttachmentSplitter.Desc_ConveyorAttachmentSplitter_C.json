@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/CA_Splitter/Desc_ConveyorAttachmentSplitter.Desc_ConveyorAttachmentSplitter_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Conveyor Splitter",
+	"description": "Splits conveyor belts in three. \r\nUseful to move parts and resources from oversaturated conveyor belts.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_0.Schematic_SF+_1_0_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/CA_Splitter/UI/IconDesc_ConveyorSplitter_512.IconDesc_ConveyorSplitter_512",
+	"category": "Logistics",
+	"subCategory": "Sorting",
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/CA_Splitter/Build_ConveyorAttachmentSplitter.Build_ConveyorAttachmentSplitter_C",
+	"dataType": "buildable"
+}

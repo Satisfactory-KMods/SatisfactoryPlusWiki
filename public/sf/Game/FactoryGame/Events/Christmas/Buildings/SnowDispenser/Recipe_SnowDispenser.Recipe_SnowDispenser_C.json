@@ -1,0 +1,34 @@
+﻿{
+	"path": "/Game/FactoryGame/Events/Christmas/Buildings/SnowDispenser/Recipe_SnowDispenser.Recipe_SnowDispenser_C",
+	"name": "FICSMAS Snow Dispenser",
+	"image": "/Game/FactoryGame/Events/Christmas/Buildings/UI/IconDesc_SnowDispenser_512.IconDesc_SnowDispenser_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_CandyCane.Desc_CandyCane_C",
+			"amount": 10
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_Snow.Desc_Snow_C",
+			"amount": 100
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasWreath.Desc_XmasWreath_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Buildings/SnowDispenser/Desc_SnowDispenser.Desc_SnowDispenser_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_3-2.Research_XMas_3-2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,32 @@
+﻿{
+	"path": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasWreath.Recipe_XmasWreath_C",
+	"name": "FICSMAS Decoration",
+	"image": "/Game/FactoryGame/Events/Christmas/Parts/UI/IconDesc_Wreath_256.IconDesc_Wreath_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBranch.Desc_XmasBranch_C",
+			"amount": 15
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBallCluster.Desc_XmasBallCluster_C",
+			"amount": 6
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasWreath.Desc_XmasWreath_C",
+			"amount": 2
+		}
+	],
+	"category": "FICSMAS",
+	"duration": 60,
+	"manuelDuration": 6,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C"
+	],
+	"schematics": [
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_3-2.Research_XMas_3-2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

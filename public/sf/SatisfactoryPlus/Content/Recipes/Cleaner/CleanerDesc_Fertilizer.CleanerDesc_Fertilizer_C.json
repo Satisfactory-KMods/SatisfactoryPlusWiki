@@ -1,0 +1,23 @@
+﻿{
+	"schematic": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Composter.Schematic_Tree_Farming_Composter_C",
+	"path": "/SatisfactoryPlus/Content/Recipes/Cleaner/CleanerDesc_Fertilizer.CleanerDesc_Fertilizer_C",
+	"image": "/FicsitFarming/Resources/RawResources/Fertilizer/UI/Icon_Fertilizer.Icon_Fertilizer",
+	"inFluid": "/FicsitFarming/Resources/RawResources/Fertilizer/Desc_FF_Fertilizer.Desc_FF_Fertilizer_C",
+	"outFluid": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+	"inAmount": 7500,
+	"outAmount": 3750,
+	"name": "",
+	"description": "",
+	"filterItem": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+	"filterNeed": true,
+	"filterTime": 6,
+	"filterAmount": 1,
+	"bypass": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/BioFuel/Desc_Biofuel.Desc_Biofuel_C",
+			"time": 6,
+			"amount": 1
+		}
+	],
+	"dataType": "cleaner"
+}

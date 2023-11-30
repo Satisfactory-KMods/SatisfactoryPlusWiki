@@ -1,0 +1,29 @@
+﻿{
+	"path": "/KBFL/Utils/Nodes/KBFL_DEBUG_DESC_ResourceNodes_2.KBFL_DEBUG_DESC_ResourceNodes_2_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Resource Node Stone",
+	"description": "",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/KBFL/Utils/KBFL_Schematic_Debug.KBFL_Schematic_Debug_C"
+	],
+	"image": "/KBFL/Utils/Nodes/UI/Icon_Resource_Node.Icon_Resource_Node",
+	"category": "KBFL UTIL",
+	"subCategory": "Miners",
+	"buildingPath": "/KBFL/Utils/Nodes/KBFL_Debug_Building_ResourceNode_Stone.KBFL_Debug_Building_ResourceNode_Stone_C",
+	"dataType": "buildable"
+}

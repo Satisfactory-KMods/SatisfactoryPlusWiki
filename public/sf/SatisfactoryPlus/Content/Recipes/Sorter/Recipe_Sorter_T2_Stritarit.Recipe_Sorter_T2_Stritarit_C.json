@@ -1,0 +1,44 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Sorter/Recipe_Sorter_T2_Stritarit.Recipe_Sorter_T2_Stritarit_C",
+	"name": "T2: Sorted Stiratite",
+	"image": "/KLib/Assets/Parts/Production/Crushed/UI/Icon_CrushedIron_256.Icon_CrushedIron_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedStritarit.Desc_CrushedStritarit_C",
+			"amount": 10
+		},
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidHydrochloricAcid.Desc_LiquidHydrochloricAcid_C",
+			"amount": 3000
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_Sand.Desc_Sand_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedIron.Desc_CrushedIron_C",
+			"amount": 10
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedMagnesium.Desc_CrushedMagnesium_C",
+			"amount": 4
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedCobalt.Desc_CrushedCobalt_C",
+			"amount": 3
+		}
+	],
+	"category": "Advanced Sorting",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/KLib/Assets/Buildings/Sorter/Build_SorterMk1.Build_SorterMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_2.Schematic_SF+_6_2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

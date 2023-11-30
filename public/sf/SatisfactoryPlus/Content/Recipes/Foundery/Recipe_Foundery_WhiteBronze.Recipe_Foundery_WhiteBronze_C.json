@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Foundery/Recipe_Foundery_WhiteBronze.Recipe_Foundery_WhiteBronze_C",
+	"name": "White Bronze Ingots",
+	"image": "/KLib/Assets/Parts/Production/Metal/Ingots/UI/Icon_BronzeIngot_256.Icon_BronzeIngot_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedCopper.Desc_CrushedCopper_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Mixture/Desc_Mixture_ZincTin.Desc_Mixture_ZincTin_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Ingots/Desc_BronzeIngot.Desc_BronzeIngot_C",
+			"amount": 6
+		}
+	],
+	"category": "Alloys",
+	"duration": 4,
+	"manuelDuration": 1.2000000476837158,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

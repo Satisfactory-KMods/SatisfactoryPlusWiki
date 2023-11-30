@@ -1,0 +1,29 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/ModularExtractor/Desc/BuildDesc_ModularMiner.BuildDesc_ModularMiner_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 5,
+	"descriptorType": 0,
+	"name": "Modular Miner",
+	"description": "Consumes different amount of power. The amount depends on the modules.\r\n\r\nThe miner needs a drill to run. and different resources depending on the module.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial4.SF+_Schematic_Tutorial4_C"
+	],
+	"image": "/KLib/Assets/Buildings/ModularExtractor/UI/Icons/Icon_ModularMiner.Icon_ModularMiner",
+	"category": "Production",
+	"subCategory": "Miner",
+	"buildingPath": "/KLib/Assets/Buildings/ModularExtractor/Build_ModularMiner_01.Build_ModularMiner_01_C",
+	"dataType": "buildable"
+}

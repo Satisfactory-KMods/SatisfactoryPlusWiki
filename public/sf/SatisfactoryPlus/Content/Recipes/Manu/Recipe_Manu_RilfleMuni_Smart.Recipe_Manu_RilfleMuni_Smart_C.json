@@ -1,0 +1,41 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_RilfleMuni_Smart.Recipe_Manu_RilfleMuni_Smart_C",
+	"name": "Rifle Smartridge",
+	"image": "/Game/FactoryGame/Equipment/Rifle/UI/IconDesc_HomingRifle_256.IconDesc_HomingRifle_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/CartridgeStandard/Desc_CartridgeStandard.Desc_CartridgeStandard_C",
+			"amount": 20
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C",
+			"amount": 6
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_SteelRod.Desc_SteelRod_C",
+			"amount": 80
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
+			"amount": 180
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Equipment/Rifle/Ammo/Desc_CartridgeSmart.Desc_CartridgeSmart_C",
+			"amount": 5
+		}
+	],
+	"category": "Equipment",
+	"duration": 60,
+	"manuelDuration": 18,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_2_5_U6.Schematic_Trees_Satmonium_2_5_U6_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

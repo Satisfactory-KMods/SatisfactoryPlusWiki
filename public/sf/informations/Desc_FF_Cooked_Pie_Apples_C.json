@@ -1,0 +1,49 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "",
+	"path": "/FicsitFarming/Resources/Cooked/Pie/Apples/Desc_FF_Cooked_Pie_Apples.Desc_FF_Cooked_Pie_Apples_C",
+	"name": "Apple Pie",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/FicsitFarming/Recipes/Food/Recipe_FF_Cooked_Pie_Apples.Recipe_FF_Cooked_Pie_Apples_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Wheat/Desc_FF_Crop_Wheat.Desc_FF_Crop_Wheat_C",
+					"time": 120,
+					"amount": 60
+				},
+				{
+					"item": "/FicsitFarming/Resources/Crops/Apples/Desc_FF_Crop_Apple.Desc_FF_Crop_Apple_C",
+					"time": 120,
+					"amount": 80
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 120,
+					"amount": 20000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Cooked/Pie/Apples/Desc_FF_Cooked_Pie_Apples.Desc_FF_Cooked_Pie_Apples_C",
+					"time": 120,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Pie.Schematic_Tree_Farming_Pie_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "informations"
+}

@@ -1,0 +1,27 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Vehicle/Truck/Desc_Truck.Desc_Truck_C",
+	"name": "Truck",
+	"description": "Fuel: Any fuel type\r\n\r\n48-slot inventory. Has a built-in craft bench.\r\nCan be automated to pick up and deliver resources at Truck Stations.\r\n\r\nNicknamed the Unit by FICSIT pioneers because of its massive frame.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": false,
+	"sinkPoints": 0,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 4,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 1,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_2.Schematic_SF+_5_2_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Buildable/Vehicle/Truck/UI/IconDesc_Truck_512.IconDesc_Truck_512",
+	"category": "Transport",
+	"subCategory": "Vehicle Transport",
+	"dataType": "itemDescriptor"
+}

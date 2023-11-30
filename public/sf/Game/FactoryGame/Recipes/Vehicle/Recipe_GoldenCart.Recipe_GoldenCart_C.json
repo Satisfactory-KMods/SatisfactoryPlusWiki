@@ -1,0 +1,36 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Vehicle/Recipe_GoldenCart.Recipe_GoldenCart_C",
+	"name": "Golden Factory Cart™",
+	"image": "/Game/FactoryGame/Equipment/GolfCart/UI/IconDesc_GolfCartGold_256.IconDesc_GolfCartGold_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GoldIngot/Desc_GoldIngot.Desc_GoldIngot_C",
+			"amount": 15
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+			"amount": 4
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Equipment/GolfCart/Desc_GolfCartGold.Desc_GolfCartGold_C",
+			"amount": 1
+		}
+	],
+	"category": "Tools",
+	"duration": 20,
+	"manuelDuration": 4,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_GoldenCart.ResourceSink_GoldenCart_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

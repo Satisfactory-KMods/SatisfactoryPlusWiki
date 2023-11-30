@@ -1,0 +1,797 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/NewTrees/ResearchTree_NetworkStorage.ResearchTree_NetworkStorage_C",
+	"name": "Quantum Crystal",
+	"description": "This mineral shows some very strange properties. These crystals cannot lose energy. Thus R&D believes it maybe be used in similar fashion to produce teleport and storage technologies.",
+	"image": "/KLib/Assets/Buildings/CentralStorage/UI/Icon_Network_Icon.Icon_Network_Icon",
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Miner.Schematic_Trees_TimeCrystak_Miner_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Stabilizer.Schematic_Trees_TimeCrystak_Stabilizer_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_Terminal.Schematic_Trees_TimeCrystak_Transport_Terminal_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_In_Item.Schematic_Trees_TimeCrystak_Transport_In_Item_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_1.Schematic_Trees_TimeCrystak_ItemStorage_1_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_Out_Item.Schematic_Trees_TimeCrystak_Transport_Out_Item_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_2.Schematic_Trees_TimeCrystak_ItemStorage_2_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_FluidStorage_1.Schematic_Trees_TimeCrystak_FluidStorage_1_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Tiers/Schematic_Upgrade_NetworkTier_2.Schematic_Upgrade_NetworkTier_2_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Cable_01.Schematic_Trees_TimeCrystak_Cable_01_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_3.Schematic_Trees_TimeCrystak_ItemStorage_3_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_Out_Fluid.Schematic_Trees_TimeCrystak_Transport_Out_Fluid_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Tiers/Schematic_Upgrade_NetworkTier_1.Schematic_Upgrade_NetworkTier_1_C",
+		"/KPrivateCodeLib/SubSystem/NetworkSchematic_Unlock_AllowOverflowSink.NetworkSchematic_Unlock_AllowOverflowSink_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Tiers/Schematic_Upgrade_NetworkTier_5.Schematic_Upgrade_NetworkTier_5_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_4.Schematic_Trees_TimeCrystak_ItemStorage_4_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_In_Fluid.Schematic_Trees_TimeCrystak_Transport_In_Fluid_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Cable_2.Schematic_Trees_TimeCrystak_Cable_2_C",
+		"/KPrivateCodeLib/SubSystem/NetworkSchematic_Unlock_Push.NetworkSchematic_Unlock_Push_C",
+		"/KPrivateCodeLib/SubSystem/NetworkSchematic_Unlock_RemoteAccess.NetworkSchematic_Unlock_RemoteAccess_C",
+		"/KPrivateCodeLib/SubSystem/NetworkSchematic_Unlock_Pull.NetworkSchematic_Unlock_Pull_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_5.Schematic_Trees_TimeCrystak_ItemStorage_5_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Tiers/Schematic_Upgrade_NetworkTier_4.Schematic_Upgrade_NetworkTier_4_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_Out_Teleporter.Schematic_Trees_TimeCrystak_Transport_Out_Teleporter_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_6.Schematic_Trees_TimeCrystak_ItemStorage_6_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Tiers/Schematic_Upgrade_NetworkTier_3.Schematic_Upgrade_NetworkTier_3_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_7.Schematic_Trees_TimeCrystak_ItemStorage_7_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_8.Schematic_Trees_TimeCrystak_ItemStorage_8_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Tiers/Schematic_Upgrade_NetworkTier_6.Schematic_Upgrade_NetworkTier_6_C"
+	],
+	"nodes": [
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Miner.Schematic_Trees_TimeCrystak_Miner_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 0
+			},
+			"unhiddenBy": [],
+			"nodesToUnhide": [
+				{
+					"X": 3,
+					"Y": 1
+				},
+				{
+					"X": 3,
+					"Y": 2
+				}
+			],
+			"parents": []
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Stabilizer.Schematic_Trees_TimeCrystak_Stabilizer_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 1
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_Terminal.Schematic_Trees_TimeCrystak_Transport_Terminal_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 2
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 2
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 2,
+					"Y": 2
+				},
+				{
+					"X": 3,
+					"Y": 3
+				},
+				{
+					"X": 3,
+					"Y": 4
+				}
+			],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 1
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_In_Item.Schematic_Trees_TimeCrystak_Transport_In_Item_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 3
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_1.Schematic_Trees_TimeCrystak_ItemStorage_1_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 3
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 2,
+					"Y": 3
+				},
+				{
+					"X": 2,
+					"Y": 4
+				},
+				{
+					"X": 2,
+					"Y": 5
+				},
+				{
+					"X": 3,
+					"Y": 4
+				},
+				{
+					"X": 4,
+					"Y": 4
+				},
+				{
+					"X": 3,
+					"Y": 5
+				},
+				{
+					"X": 3,
+					"Y": 6
+				}
+			],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_Out_Item.Schematic_Trees_TimeCrystak_Transport_Out_Item_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 4
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 1,
+					"Y": 5
+				},
+				{
+					"X": 1,
+					"Y": 6
+				}
+			],
+			"parents": [
+				{
+					"X": 2,
+					"Y": 3
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_2.Schematic_Trees_TimeCrystak_ItemStorage_2_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 4
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 2
+				},
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 4,
+					"Y": 4
+				},
+				{
+					"X": 4,
+					"Y": 5
+				},
+				{
+					"X": 4,
+					"Y": 6
+				},
+				{
+					"X": 5,
+					"Y": 6
+				}
+			],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_FluidStorage_1.Schematic_Trees_TimeCrystak_FluidStorage_1_C",
+			"coordinates":
+			{
+				"X": 4,
+				"Y": 4
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 3
+				},
+				{
+					"X": 3,
+					"Y": 4
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 4,
+					"Y": 5
+				},
+				{
+					"X": 4,
+					"Y": 6
+				},
+				{
+					"X": 5,
+					"Y": 6
+				}
+			],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 4
+				},
+				{
+					"X": 5,
+					"Y": 5
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Tiers/Schematic_Upgrade_NetworkTier_2.Schematic_Upgrade_NetworkTier_2_C",
+			"coordinates":
+			{
+				"X": 1,
+				"Y": 5
+			},
+			"unhiddenBy": [
+				{
+					"X": 2,
+					"Y": 4
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 2,
+					"Y": 4
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Cable_01.Schematic_Trees_TimeCrystak_Cable_01_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 5
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 2,
+					"Y": 4
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_3.Schematic_Trees_TimeCrystak_ItemStorage_3_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 5
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 4
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_Out_Fluid.Schematic_Trees_TimeCrystak_Transport_Out_Fluid_C",
+			"coordinates":
+			{
+				"X": 4,
+				"Y": 5
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 4
+				},
+				{
+					"X": 4,
+					"Y": 4
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 4,
+					"Y": 4
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Tiers/Schematic_Upgrade_NetworkTier_1.Schematic_Upgrade_NetworkTier_1_C",
+			"coordinates":
+			{
+				"X": 5,
+				"Y": 5
+			},
+			"unhiddenBy": [],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 4,
+					"Y": 4
+				}
+			]
+		},
+		{
+			"path": "/KPrivateCodeLib/SubSystem/NetworkSchematic_Unlock_AllowOverflowSink.NetworkSchematic_Unlock_AllowOverflowSink_C",
+			"coordinates":
+			{
+				"X": 1,
+				"Y": 6
+			},
+			"unhiddenBy": [
+				{
+					"X": 2,
+					"Y": 4
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 1,
+					"Y": 7
+				},
+				{
+					"X": 0,
+					"Y": 7
+				},
+				{
+					"X": 2,
+					"Y": 7
+				},
+				{
+					"X": 1,
+					"Y": 8
+				}
+			],
+			"parents": [
+				{
+					"X": 1,
+					"Y": 5
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Tiers/Schematic_Upgrade_NetworkTier_5.Schematic_Upgrade_NetworkTier_5_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 6
+			},
+			"unhiddenBy": [],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 6
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_4.Schematic_Trees_TimeCrystak_ItemStorage_4_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 6
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 3,
+					"Y": 7
+				},
+				{
+					"X": 3,
+					"Y": 8
+				},
+				{
+					"X": 3,
+					"Y": 9
+				},
+				{
+					"X": 3,
+					"Y": 10
+				}
+			],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 5
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_In_Fluid.Schematic_Trees_TimeCrystak_Transport_In_Fluid_C",
+			"coordinates":
+			{
+				"X": 4,
+				"Y": 6
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 4
+				},
+				{
+					"X": 4,
+					"Y": 4
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 4,
+					"Y": 5
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Cable_2.Schematic_Trees_TimeCrystak_Cable_2_C",
+			"coordinates":
+			{
+				"X": 5,
+				"Y": 6
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 4
+				},
+				{
+					"X": 4,
+					"Y": 4
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 4,
+					"Y": 3
+				}
+			],
+			"parents": [
+				{
+					"X": 4,
+					"Y": 5
+				}
+			]
+		},
+		{
+			"path": "/KPrivateCodeLib/SubSystem/NetworkSchematic_Unlock_Push.NetworkSchematic_Unlock_Push_C",
+			"coordinates":
+			{
+				"X": 0,
+				"Y": 7
+			},
+			"unhiddenBy": [
+				{
+					"X": 1,
+					"Y": 6
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 1,
+					"Y": 7
+				}
+			]
+		},
+		{
+			"path": "/KPrivateCodeLib/SubSystem/NetworkSchematic_Unlock_RemoteAccess.NetworkSchematic_Unlock_RemoteAccess_C",
+			"coordinates":
+			{
+				"X": 1,
+				"Y": 7
+			},
+			"unhiddenBy": [
+				{
+					"X": 1,
+					"Y": 6
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 1,
+					"Y": 6
+				}
+			]
+		},
+		{
+			"path": "/KPrivateCodeLib/SubSystem/NetworkSchematic_Unlock_Pull.NetworkSchematic_Unlock_Pull_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 7
+			},
+			"unhiddenBy": [
+				{
+					"X": 1,
+					"Y": 6
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 1,
+					"Y": 7
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_5.Schematic_Trees_TimeCrystak_ItemStorage_5_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 7
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 6
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 6
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Tiers/Schematic_Upgrade_NetworkTier_4.Schematic_Upgrade_NetworkTier_4_C",
+			"coordinates":
+			{
+				"X": 1,
+				"Y": 8
+			},
+			"unhiddenBy": [
+				{
+					"X": 1,
+					"Y": 6
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 1,
+					"Y": 7
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_Out_Teleporter.Schematic_Trees_TimeCrystak_Transport_Out_Teleporter_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 8
+			},
+			"unhiddenBy": [],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 8
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_6.Schematic_Trees_TimeCrystak_ItemStorage_6_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 8
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 6
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 7
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Tiers/Schematic_Upgrade_NetworkTier_3.Schematic_Upgrade_NetworkTier_3_C",
+			"coordinates":
+			{
+				"X": 4,
+				"Y": 8
+			},
+			"unhiddenBy": [],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 8
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_7.Schematic_Trees_TimeCrystak_ItemStorage_7_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 9
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 6
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 8
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_8.Schematic_Trees_TimeCrystak_ItemStorage_8_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 10
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 6
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 9
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Tiers/Schematic_Upgrade_NetworkTier_6.Schematic_Upgrade_NetworkTier_6_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 11
+			},
+			"unhiddenBy": [],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 10
+				}
+			]
+		}
+	],
+	"treeUnlocks": [
+		{
+			"items": [
+				"/KLib/Assets/Ressources/Raw/Nodes/QuantumCystal/Res_TimeCrystal.Res_TimeCrystal_C"
+			],
+			"needAll": false
+		}
+	],
+	"dataType": "researchTree"
+}

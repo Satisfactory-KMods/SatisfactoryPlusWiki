@@ -1,0 +1,49 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/Game/FactoryGame/Buildable/Building/Wall/SteelWallSet/Build_Wall_Steel_8x4_Corner_2.Build_Wall_Steel_8x4_Corner_2_C",
+	"path": "/Game/FactoryGame/Buildable/Building/Wall/SteelWallSet/Desc_Wall_Steel_8x4_Corner_2.Desc_Wall_Steel_8x4_Corner_2_C",
+	"name": "Tilted Concave Wall 4m",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/SteelWallSet/Recipe_Wall_Steel_8x4_Corner_2.Recipe_Wall_Steel_8x4_Corner_2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Wall/SteelWallSet/Desc_Wall_Steel_8x4_Corner_2.Desc_Wall_Steel_8x4_Corner_2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_SteelWallMaterial.ResourceSink_Customizer_SteelWallMaterial_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Steel_Walls_Tilted.CBG_Steel_Walls_Tilted_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_Tilted_Walls.ResourceSink_Tilted_Walls_C",
+				"/Game/FactoryGame/Schematics/ResourceSink/Customizer/ResourceSink_Customizer_SteelWallMaterial.ResourceSink_Customizer_SteelWallMaterial_C",
+				"/Game/FactoryGame/Schematics/ResourceSink/Customizer_Background/CBG_Steel_Walls_Tilted.CBG_Steel_Walls_Tilted_C",
+				"/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_Tilted_Walls.ResourceSink_Tilted_Walls_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

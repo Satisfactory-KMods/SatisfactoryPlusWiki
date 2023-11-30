@@ -1,0 +1,47 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Pink.SlugDesc_Pink_C",
+	"name": "Unknown Slug ID#5224",
+	"description": "Note: they use the same temperature and humidity as the eggs.\r\n\r\nComfortable with: Unknown Slug ID#5474, Unknown Slug ID#4350\r\nNeed Food Tier: Sweet Snail Food",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 50,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 100,
+	"schematics": [],
+	"itemTypeInformation":
+	{
+		"type": "slug",
+		"minHumidity": 0.64999997615814209,
+		"maxHumidity": 0.68000000715255737,
+		"minHeat": 40,
+		"maxHeat": 47,
+		"dayTime": 2,
+		"foodTier": 4,
+		"foodConsumeTime": 20,
+		"foodConsumePerSlug": 1,
+		"dieTime": 100,
+		"breedingTime": 40,
+		"productionCountPerSlug": 1,
+		"egg": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_Pink.EggDesc_Pink_C",
+		"food": "/KLib/Assets/Parts/Production/Food/Desc_SnailFood_Tier_4.Desc_SnailFood_Tier_4_C",
+		"slugRarity": 3,
+		"realDescription": "Note: they use the same temperature and humidity as the eggs.",
+		"realName": "Unknown Slug ID#5224",
+		"hiddenDescription": "Note: they use the same temperature and humidity as the eggs.\r\n\r\nComfortable with: {OtherSlugs}\r\nNeed Food Tier: {FoodTierNum}",
+		"hiddenName": "Pink Slug",
+		"comfortableWith": [
+			"/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_WhiteSlug.SlugDesc_WhiteSlug_C",
+			"/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_YellowSlug.SlugDesc_YellowSlug_C"
+		]
+	},
+	"image": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/UI/Icon_Pink.Icon_Pink",
+	"category": "Power Shards",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

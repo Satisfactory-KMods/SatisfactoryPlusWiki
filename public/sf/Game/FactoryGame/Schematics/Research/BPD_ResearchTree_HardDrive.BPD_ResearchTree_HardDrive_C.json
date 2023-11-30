@@ -1,0 +1,17 @@
+﻿{
+	"path": "/Game/FactoryGame/Schematics/Research/BPD_ResearchTree_HardDrive.BPD_ResearchTree_HardDrive_C",
+	"name": "Hard Drive",
+	"description": "These misplaced FICSIT hard drives hold valuable data on alternative resource production. Examination to salvage their content is highly recommended.",
+	"image": "/Game/FactoryGame/Resource/Environment/CrashSites/UI/HardDrive_256.HardDrive_256",
+	"schematics": [],
+	"nodes": [],
+	"treeUnlocks": [
+		{
+			"items": [
+				"/Game/FactoryGame/Resource/Environment/CrashSites/Desc_HardDrive.Desc_HardDrive_C"
+			],
+			"needAll": false
+		}
+	],
+	"dataType": "researchTree"
+}

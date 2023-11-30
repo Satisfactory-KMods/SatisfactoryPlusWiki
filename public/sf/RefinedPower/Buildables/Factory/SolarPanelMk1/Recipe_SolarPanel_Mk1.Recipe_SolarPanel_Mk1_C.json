@@ -1,0 +1,46 @@
+﻿{
+	"path": "/RefinedPower/Buildables/Factory/SolarPanelMk1/Recipe_SolarPanel_Mk1.Recipe_SolarPanel_Mk1_C",
+	"name": "Solar Panel Mk1",
+	"image": "/RefinedPower/Buildables/Factory/SolarPanelMk1/UI/Icon_SolarPanelMk1.Icon_SolarPanelMk1",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
+			"amount": 20
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Parts/PhotovoltaicCell/Desc_PhotovoltaicCell.Desc_PhotovoltaicCell_C",
+			"amount": 4
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+			"amount": 15
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
+			"amount": 3
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+			"amount": 8
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/CarbonMesh/Desc_CarbonMesh.Desc_CarbonMesh_C",
+			"amount": 10
+		}
+	],
+	"output": [
+		{
+			"item": "/RefinedPower/Buildables/Factory/SolarPanelMk1/Desc_SolarPanel_Mk1.Desc_SolarPanel_Mk1_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 10,
+	"manuelDuration": 1,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_6.Schematic_SF+_4_6_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,28 @@
+﻿{
+	"schematic": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C",
+	"path": "/SatisfactoryPlus/Content/Recipes/Cleaner/CleanerDesc_Coolant.CleanerDesc_Coolant_C",
+	"image": "/Game/FactoryGame/Resource/RawResources/Water/UI/LiquidWater_Pipe_512.LiquidWater_Pipe_512",
+	"inFluid": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+	"outFluid": "/KLib/Assets/Ressources/Raw/Fluids/Desc_CoolingWater.Desc_CoolingWater_C",
+	"inAmount": 9000,
+	"outAmount": 9000,
+	"name": "",
+	"description": "",
+	"filterItem": "/KLib/Assets/Ressources/Raw/Ores/Cryolit/Res_Cryolit.Res_Cryolit_C",
+	"filterNeed": true,
+	"filterTime": 1,
+	"filterAmount": 1,
+	"bypass": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_Salt.Desc_Salt_C",
+			"time": 2,
+			"amount": 1
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/QuartzCrystal/Desc_QuartzCrystal.Desc_QuartzCrystal_C",
+			"time": 3,
+			"amount": 1
+		}
+	],
+	"dataType": "cleaner"
+}

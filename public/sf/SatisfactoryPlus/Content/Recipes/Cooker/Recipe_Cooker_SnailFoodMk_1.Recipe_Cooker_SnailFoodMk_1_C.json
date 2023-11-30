@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Cooker/Recipe_Cooker_SnailFoodMk_1.Recipe_Cooker_SnailFoodMk_1_C",
+	"name": "Grainy Snail Food",
+	"image": "/KLib/Assets/Parts/Production/Food/UI/Icon_SnailFood_Tier_1.Icon_SnailFood_Tier_1",
+	"input": [
+		{
+			"item": "/FicsitFarming/Resources/Crops/Wheat/Desc_FF_Crop_Wheat.Desc_FF_Crop_Wheat_C",
+			"amount": 1
+		},
+		{
+			"item": "/FicsitFarming/Resources/Crops/Carrots/Desc_FF_Crop_Carrot.Desc_FF_Crop_Carrot_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Food/Desc_SnailFood_Tier_1.Desc_SnailFood_Tier_1_C",
+			"amount": 3
+		}
+	],
+	"category": "Food",
+	"duration": 3,
+	"manuelDuration": 0.15000000596046448,
+	"producedIn": [
+		"/FicsitFarming/Buildings/CookingHub/Build_FF_CookingHub.Build_FF_CookingHub_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DirtFarming.Schematic_Tree_Farming_DirtFarming_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

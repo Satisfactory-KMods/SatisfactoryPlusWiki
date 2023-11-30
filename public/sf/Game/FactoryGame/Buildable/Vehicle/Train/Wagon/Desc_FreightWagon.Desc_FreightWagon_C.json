@@ -1,0 +1,27 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Vehicle/Train/Wagon/Desc_FreightWagon.Desc_FreightWagon_C",
+	"name": "Freight Car",
+	"description": "The Freight Car can be built on Railways and attached to an Electric Locomotive or other Freight Car to transport resources. \r\nResources are loaded and unloaded at Freight Platforms.\r\nHas a 1600m³ or 32-slot capacity, depending on the resources.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": false,
+	"sinkPoints": 0,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 4,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_7.Schematic_SF+_5_7_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Buildable/Vehicle/Train/Wagon/UI/FreightCar_512.FreightCar_512",
+	"category": "Transport",
+	"subCategory": "Railway Transport",
+	"dataType": "itemDescriptor"
+}

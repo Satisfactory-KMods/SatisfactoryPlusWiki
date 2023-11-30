@@ -1,0 +1,39 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_Ramp_UpCorner_Asphalt_8x1.Recipe_Ramp_UpCorner_Asphalt_8x1_C",
+	"name": "Up Corner Ramp 1m",
+	"image": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/UI/IconDesc_AsphaltCornerU8x2_256.IconDesc_AsphaltCornerU8x2_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+			"amount": 1
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 2
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Asphalt/Desc_Asphalt.Desc_Asphalt_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Desc_Ramp_UpCorner_Asphalt_8x1.Desc_Ramp_UpCorner_Asphalt_8x1_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Ramps_Corners_Asphalt.CBG_Ramps_Corners_Asphalt_C",
+		"/Game/FactoryGame/Schematics/ResourceSink/Customizer_Background/CBG_Ramps_Corners_Asphalt.CBG_Ramps_Corners_Asphalt_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

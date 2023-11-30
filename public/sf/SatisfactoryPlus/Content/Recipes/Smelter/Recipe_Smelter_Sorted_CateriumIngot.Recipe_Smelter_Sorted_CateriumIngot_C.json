@@ -1,0 +1,28 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Sorted_CateriumIngot.Recipe_Smelter_Sorted_CateriumIngot_C",
+	"name": "Caterium Ingot",
+	"image": "/Game/FactoryGame/Resource/Parts/GoldIngot/UI/IconDesc_CateriumIngot_256.IconDesc_CateriumIngot_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedCaterium.Desc_CrushedCaterium_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GoldIngot/Desc_GoldIngot.Desc_GoldIngot_C",
+			"amount": 3
+		}
+	],
+	"category": "Ingots",
+	"duration": 4,
+	"manuelDuration": 0.80000001192092896,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_4.Schematic_Trees_Satmonium_3_4_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

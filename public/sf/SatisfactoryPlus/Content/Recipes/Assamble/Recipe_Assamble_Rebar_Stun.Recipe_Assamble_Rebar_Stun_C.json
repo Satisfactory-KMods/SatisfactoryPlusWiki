@@ -1,0 +1,33 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_Rebar_Stun.Recipe_Assamble_Rebar_Stun_C",
+	"name": "Stun Rebar",
+	"image": "/Game/FactoryGame/Equipment/RebarGun/UI/IconDesc_StunRebar_256.IconDesc_StunRebar_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SpikedRebar/Desc_SpikedRebar.Desc_SpikedRebar_C",
+			"amount": 3
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
+			"amount": 12
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Equipment/RebarGun/Ammo/Desc_Rebar_Stunshot.Desc_Rebar_Stunshot_C",
+			"amount": 1
+		}
+	],
+	"category": "Ammunition",
+	"duration": 6,
+	"manuelDuration": 0.30000001192092896,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C",
+		"/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_2_4_U6.Schematic_Trees_Satmonium_2_4_U6_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Alt_Crop_Mycelia.Recipe_SF+_Alt_Crop_Mycelia_C",
+	"name": "Mycelia",
+	"image": "/Game/FactoryGame/Resource/Parts/GenericBiomass/UI/IconDesc_Mycelia_256.IconDesc_Mycelia_256",
+	"input": [
+		{
+			"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_MyceliaSeed.Desc_FF_MyceliaSeed_C",
+			"amount": 5
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Mycelia.Desc_Mycelia_C",
+			"amount": 5
+		},
+		{
+			"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+			"amount": 1
+		}
+	],
+	"category": "Biomass",
+	"duration": 30,
+	"manuelDuration": 3,
+	"producedIn": [
+		"/FicsitFarming/Buildings/Plots/MyceliaPlot/Build_FF_MyceliaPlot.Build_FF_MyceliaPlot_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,28 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Composter/Recipe_High_Red.Recipe_High_Red_C",
+	"name": "Red Slug Slime",
+	"image": "/KLib/Assets/Ressources/Raw/Fluids/UI/LiquidQuarz.LiquidQuarz",
+	"input": [
+		{
+			"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Red.SlugDesc_Red_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_High.Desc_SlugSlime_High_C",
+			"amount": 1000
+		}
+	],
+	"category": "Slugs Tier 4",
+	"duration": 4,
+	"manuelDuration": 0.40000000596046448,
+	"producedIn": [
+		"/FicsitFarming/Buildings/Composter/Build_FF_Composter.Build_FF_Composter_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_2_4_NEW.Schematic_Trees_Slugs_2_4_NEW_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

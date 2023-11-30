@@ -1,0 +1,47 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Turquise.SlugDesc_Turquise_C",
+	"name": "Unknown Slug ID#8256",
+	"description": "Note: they use the same temperature and humidity as the eggs.\r\n\r\nComfortable with: Unknown Slug ID#3606, Unknown Slug ID#5608\r\nNeed Food Tier: Breakfast Snail Food",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 50,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 100,
+	"schematics": [],
+	"itemTypeInformation":
+	{
+		"type": "slug",
+		"minHumidity": 0.94999998807907104,
+		"maxHumidity": 1,
+		"minHeat": 66,
+		"maxHeat": 100,
+		"dayTime": 1,
+		"foodTier": 3,
+		"foodConsumeTime": 20,
+		"foodConsumePerSlug": 1,
+		"dieTime": 100,
+		"breedingTime": 40,
+		"productionCountPerSlug": 1,
+		"egg": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_Turquise.EggDesc_Turquise_C",
+		"food": "/KLib/Assets/Parts/Production/Food/Desc_SnailFood_Tier_3.Desc_SnailFood_Tier_3_C",
+		"slugRarity": 3,
+		"realDescription": "Note: they use the same temperature and humidity as the eggs.",
+		"realName": "Unknown Slug ID#8256",
+		"hiddenDescription": "Note: they use the same temperature and humidity as the eggs.\r\n\r\nComfortable with: {OtherSlugs}\r\nNeed Food Tier: {FoodTierNum}",
+		"hiddenName": "Turquoise Slug",
+		"comfortableWith": [
+			"/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Lime.SlugDesc_Lime_C",
+			"/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Purple.SlugDesc_Purple_C"
+		]
+	},
+	"image": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/UI/Icon_Turquise.Icon_Turquise",
+	"category": "Power Shards",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

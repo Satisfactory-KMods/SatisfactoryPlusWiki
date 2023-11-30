@@ -1,0 +1,30 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Ladder/Desc_Ladder.Desc_Ladder_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Ladder",
+	"description": "A ladder with a default height of 2 meters, which can be extended while building. Snaps to walls and foundations.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_Ladders.ResourceSink_Ladders_C",
+		"/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_Ladders.ResourceSink_Ladders_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Building/Ladder/UI/IconDesc_Ladder_512.IconDesc_Ladder_512",
+	"category": "Architecture",
+	"subCategory": "Attachments",
+	"buildingPath": "/Game/FactoryGame/Buildable/Building/Ladder/Build_Ladder.Build_Ladder_C",
+	"dataType": "buildable"
+}

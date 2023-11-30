@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_Potato.Recipe_SF+_Crop_Potato_C",
+	"name": "Potato",
+	"image": "/FicsitFarming/Resources/Crops/Potato/UI/Icon_Potato.Icon_Potato",
+	"input": [
+		{
+			"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_PotatoSeed.Desc_FF_PotatoSeed_C",
+			"amount": 5
+		}
+	],
+	"output": [
+		{
+			"item": "/FicsitFarming/Resources/Crops/Potato/Desc_FF_Crop_Potato.Desc_FF_Crop_Potato_C",
+			"amount": 5
+		},
+		{
+			"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+			"amount": 1
+		}
+	],
+	"category": "Crops",
+	"duration": 30,
+	"manuelDuration": 3,
+	"producedIn": [
+		"/FicsitFarming/Buildings/Plots/CropPlot/Build_FF_CropPlot.Build_FF_CropPlot_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DirtFarming.Schematic_Tree_Farming_DirtFarming_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

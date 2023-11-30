@@ -1,0 +1,29 @@
+﻿{
+	"path": "/FicsitFarming/Resources/Crops/Bananas/Desc_FF_Crop_Banana.Desc_FF_Crop_Banana_C",
+	"name": "Banana",
+	"description": "Its just a Banana",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 60,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 2,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 200,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_FertDirtFarming.Schematic_Tree_Farming_FertDirtFarming_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_WetDirt_Fert.Hidden_Farming_WetDirt_Fert_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_WetDirt_Water.Hidden_Farming_WetDirt_Water_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/FicsitFarming/Resources/Crops/Bananas/UI/Icon_Banana.Icon_Banana",
+	"category": "Crops",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

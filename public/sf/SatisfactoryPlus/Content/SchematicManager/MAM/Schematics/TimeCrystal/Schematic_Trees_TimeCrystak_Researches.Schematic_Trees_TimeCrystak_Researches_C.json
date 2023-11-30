@@ -1,0 +1,35 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C",
+	"name": "Storage System",
+	"description": "",
+	"cost": [],
+	"category": "",
+	"subCategory": "",
+	"type": 6,
+	"tier": 0,
+	"time": 3,
+	"image": "/KUI/Assets/TX_PlaceHolder.TX_PlaceHolder",
+	"smallImage": "/KUI/Assets/TX_PlaceHolder.TX_PlaceHolder",
+	"scannerUnlocks": [],
+	"recipeUnlocks": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Recipes/Recipe_Time_Cable.Recipe_Time_Cable_C",
+		"/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_Core.Recipe_CS_Core_C",
+		"/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_Cable.Recipe_CS_Cable_C",
+		"/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_PoleStand.Recipe_CS_PoleStand_C",
+		"/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_Cs_PoleWall.Recipe_Cs_PoleWall_C",
+		"/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_PoleWallDouble.Recipe_CS_PoleWallDouble_C",
+		"/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_NetworkStorage_Mk1.Recipe_NetworkStorage_Mk1_C",
+		"/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_RAMModuleMk1_Input.Recipe_CS_RAMModuleMk1_Input_C",
+		"/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_RAMModuleMk1_Output.Recipe_CS_RAMModuleMk1_Output_C"
+	],
+	"handSlots": 0,
+	"subSchematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Hidden_Coolant.Schematic_Hidden_Coolant_C"
+	],
+	"cleanerDesc": [
+		"/SatisfactoryPlus/Content/Recipes/Cleaner/CleanerDesc_Coolant.CleanerDesc_Coolant_C",
+		"/SatisfactoryPlus/Content/Recipes/Cleaner/CleanerDesc_Coolant.CleanerDesc_Coolant_C"
+	],
+	"inventorySlots": 0,
+	"dataType": "schematic"
+}

@@ -1,0 +1,26 @@
+﻿{
+	"path": "/Game/FactoryGame/Recipes/Buildings/Recipe_TradingPost.Recipe_TradingPost_C",
+	"name": "The HUB",
+	"image": "/Game/FactoryGame/Buildable/Factory/TradingPost/UI/Hub_512.Hub_512",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/HUBParts/Desc_HUBParts.Desc_HUBParts_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Buildable/Factory/TradingPost/Desc_TradingPost.Desc_TradingPost_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

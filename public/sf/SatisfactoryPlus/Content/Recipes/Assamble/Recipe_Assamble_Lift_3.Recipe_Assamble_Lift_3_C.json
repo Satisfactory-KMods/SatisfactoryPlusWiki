@@ -1,0 +1,32 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_Lift_3.Recipe_Assamble_Lift_3_C",
+	"name": "Automated Wiring",
+	"image": "/Game/FactoryGame/Resource/Parts/AutomatedWiring/UI/SpelevatorPart_3_256.SpelevatorPart_3_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Stator/Desc_Stator.Desc_Stator_C",
+			"amount": 5
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+			"amount": 30
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_3.Desc_SpaceElevatorPart_3_C",
+			"amount": 1
+		}
+	],
+	"category": "Space Elevator",
+	"duration": 30,
+	"manuelDuration": 1.5,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_5.Schematic_SF+_4_5_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

@@ -1,0 +1,44 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "",
+	"path": "/FicsitFarming/Resources/Cooked/Muffin/Wheat/Desc_FF_Cooked_Muffin_Wheat.Desc_FF_Cooked_Muffin_Wheat_C",
+	"name": "Wheat Muffin",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/FicsitFarming/Recipes/Food/Recipe_FF_Cooked_Muffin_Wheat.Recipe_FF_Cooked_Muffin_Wheat_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Wheat/Desc_FF_Crop_Wheat.Desc_FF_Crop_Wheat_C",
+					"time": 120,
+					"amount": 100
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 120,
+					"amount": 20000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Cooked/Muffin/Wheat/Desc_FF_Cooked_Muffin_Wheat.Desc_FF_Cooked_Muffin_Wheat_C",
+					"time": 120,
+					"amount": 2
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Muffins.Schematic_Tree_Farming_Muffins_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "informations"
+}

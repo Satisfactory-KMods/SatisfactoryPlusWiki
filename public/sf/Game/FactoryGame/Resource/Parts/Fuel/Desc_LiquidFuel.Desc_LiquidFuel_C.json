@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Resource/Parts/Fuel/Desc_LiquidFuel.Desc_LiquidFuel_C",
+	"name": "Fuel",
+	"description": "Fuel can be used to generate power or packaged to be used as fuel for Vehicles or the Jetpack.",
+	"gasColor": "00000000",
+	"fluidColor": "EB7D15FF",
+	"canBeSink": true,
+	"sinkPoints": 75,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0.75,
+	"form": 2,
+	"stackSize": 50000,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Resource/Parts/Fuel/UI/IconDesc_LiquidFuel_Pipe_512.IconDesc_LiquidFuel_Pipe_512",
+	"category": "Fuel",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

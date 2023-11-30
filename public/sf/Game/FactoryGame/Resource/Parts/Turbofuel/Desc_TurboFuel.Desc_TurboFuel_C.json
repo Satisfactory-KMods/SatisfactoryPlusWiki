@@ -1,0 +1,28 @@
+﻿{
+	"path": "/Game/FactoryGame/Resource/Parts/Turbofuel/Desc_TurboFuel.Desc_TurboFuel_C",
+	"name": "Packaged Turbofuel",
+	"description": "Turbofuel, packaged for alternative transport. Can be used as fuel for Vehicles and the Jetpack.",
+	"gasColor": "00000000",
+	"fluidColor": "D4292EFF",
+	"canBeSink": true,
+	"sinkPoints": 570,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 2000,
+	"form": 1,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Alternative_TurboFuel_0.Alternative_TurboFuel_0_C",
+		"/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Alternative_TurboFuel_1.Alternative_TurboFuel_1_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Resource/Parts/Turbofuel/UI/IconDesc_TurboFuel_256.IconDesc_TurboFuel_256",
+	"category": "Packaging",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

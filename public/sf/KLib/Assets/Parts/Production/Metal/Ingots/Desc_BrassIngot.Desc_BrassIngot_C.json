@@ -1,0 +1,28 @@
+﻿{
+	"path": "/KLib/Assets/Parts/Production/Metal/Ingots/Desc_BrassIngot.Desc_BrassIngot_C",
+	"name": "Brass Ingot",
+	"description": "Used for crafting.\r\nCrafted into the most basic parts.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 8,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 200,
+	"schematics": [
+		"/SatisfactoryPlus/Content/Recipes/Alternative/Foundery/DirtyBrass/Alternative_DirtyBrass.Alternative_DirtyBrass_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/KLib/Assets/Parts/Production/Metal/Ingots/UI/Icon_BrassIngot_256.Icon_BrassIngot_256",
+	"category": "",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

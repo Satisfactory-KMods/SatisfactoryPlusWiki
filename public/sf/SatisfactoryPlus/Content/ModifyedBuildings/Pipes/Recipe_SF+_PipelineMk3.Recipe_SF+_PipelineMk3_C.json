@@ -1,0 +1,34 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/ModifyedBuildings/Pipes/Recipe_SF+_PipelineMk3.Recipe_SF+_PipelineMk3_C",
+	"name": "Pipeline Mk.3",
+	"image": "/SatisfactoryPlus/Content/ModifyedBuildings/Pipes/Icon_SF+_PipelineMk3.Icon_SF+_PipelineMk3",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_InvarPipe.Desc_InvarPipe_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C",
+			"amount": 2
+		}
+	],
+	"output": [
+		{
+			"item": "/SatisfactoryPlus/Content/ModifyedBuildings/Pipes/SF+_Desc_PipelineMk3.SF+_Desc_PipelineMk3_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_8.Schematic_SF+_6_8_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

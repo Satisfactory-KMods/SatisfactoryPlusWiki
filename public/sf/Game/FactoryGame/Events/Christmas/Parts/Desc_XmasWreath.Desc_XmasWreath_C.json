@@ -1,0 +1,27 @@
+﻿{
+	"path": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasWreath.Desc_XmasWreath_C",
+	"name": "FICSMAS Decoration",
+	"description": "A decoration used to make decorations. Its use cases are questionable.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 1,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 100,
+	"schematics": [
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_3-2.Research_XMas_3-2_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Events/Christmas/Parts/UI/IconDesc_Wreath_256.IconDesc_Wreath_256",
+	"category": "FICSMAS",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

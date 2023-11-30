@@ -1,0 +1,28 @@
+﻿{
+	"path": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_Snow.Recipe_Snow_C",
+	"name": "Actual Snow",
+	"image": "/Game/FactoryGame/Events/Christmas/Parts/UI/IconDesc_Snow_256.IconDesc_Snow_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_Gift.Desc_Gift_C",
+			"amount": 5
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_Snow.Desc_Snow_C",
+			"amount": 2
+		}
+	],
+	"category": "FICSMAS",
+	"duration": 12,
+	"manuelDuration": 1.2000000476837158,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C"
+	],
+	"schematics": [
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2-1.Research_XMas_2-1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

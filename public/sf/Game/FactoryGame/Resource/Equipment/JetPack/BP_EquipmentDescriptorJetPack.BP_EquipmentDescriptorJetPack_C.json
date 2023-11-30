@@ -1,0 +1,27 @@
+﻿{
+	"path": "/Game/FactoryGame/Resource/Equipment/JetPack/BP_EquipmentDescriptorJetPack.BP_EquipmentDescriptorJetPack_C",
+	"name": "Jetpack",
+	"description": "The Jetpack allows Pioneers to travel through the air with increased control.\r\n\r\nFuel is automatically consumed from the inventory to refill the Jetpack while on the ground.\r\nDifferent fuel types can be used and provide different levels of Jetpack efficiency. The preferred fuel type will be used if available and can be set in the equipment inventory.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 49580,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 2,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 1,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_1.Schematic_SF+_6_1_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Resource/Equipment/JetPack/UI/Jetpack_256.Jetpack_256",
+	"category": "Body Equipment",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

@@ -1,0 +1,30 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Walkway/Desc_WalkwayTurn.Desc_WalkwayTurn_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Walkway Turn",
+	"description": "Snaps to foundations and other walkways.\r\nSpecifically made for humans to walk on.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_Walkways.ResourceSink_Walkways_C",
+		"/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_Walkways.ResourceSink_Walkways_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Building/Walkway/UI/IconDesc_WalkwayT_512.IconDesc_WalkwayT_512",
+	"category": "Architecture",
+	"subCategory": "Walkways",
+	"buildingPath": "/Game/FactoryGame/Buildable/Building/Walkway/Build_WalkwayTrun.Build_WalkwayTrun_C",
+	"dataType": "buildable"
+}

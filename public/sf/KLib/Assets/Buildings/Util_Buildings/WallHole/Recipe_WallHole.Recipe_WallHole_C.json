@@ -1,0 +1,38 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/Util_Buildings/WallHole/Recipe_WallHole.Recipe_WallHole_C",
+	"name": "",
+	"image": "/KLib/Assets/Buildings/Util_Buildings/WallHole/UI/Icon_ConvHole.Icon_ConvHole",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+			"amount": 3
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+			"amount": 1
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Buildings/Util_Buildings/WallHole/PoleDesc_Conv_WallHole.PoleDesc_Conv_WallHole_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Sink_WallBelt.Sink_WallBelt_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

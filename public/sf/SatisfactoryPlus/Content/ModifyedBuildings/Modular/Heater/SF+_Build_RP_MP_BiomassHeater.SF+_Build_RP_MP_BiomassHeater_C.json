@@ -1,0 +1,29 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Heater/BuildDesc_Bioheater.BuildDesc_Bioheater_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Biomass Heater",
+	"description": "Used to burn any type of biofuel to be turned into heat and makes a waste product of Carbon Dioxide that needs to be vented out or used in recipes.\r\n\r\nCan produce up to 500°C heat.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
+	],
+	"image": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Heaters/BiomassHeater/UI/Icon_BiomassHeater.Icon_BiomassHeater",
+	"category": "Power",
+	"subCategory": "Modular Power: Heater",
+	"buildingPath": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Heater/SF+_Build_RP_MP_BiomassHeater.SF+_Build_RP_MP_BiomassHeater_C",
+	"dataType": "buildable"
+}

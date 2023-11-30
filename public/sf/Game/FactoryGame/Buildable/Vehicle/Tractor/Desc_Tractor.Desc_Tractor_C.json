@@ -1,0 +1,27 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Vehicle/Tractor/Desc_Tractor.Desc_Tractor_C",
+	"name": "Tractor",
+	"description": "Fuel: Any fuel type\r\n\r\n25-slot inventory. Has a built-in craft bench.\r\nCan be automated to pick up and deliver resources at Truck Stations.\r\n\r\nNicknamed the Sugarcube by FICSIT pioneers with the justification “It’s pretty sweet, y’know”.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": false,
+	"sinkPoints": 0,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 4,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 1,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_9.Schematic_SF+_3_9_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Buildable/Vehicle/Tractor/UI/IconDesc_Tractor_512.IconDesc_Tractor_512",
+	"category": "Transport",
+	"subCategory": "Vehicle Transport",
+	"dataType": "itemDescriptor"
+}

@@ -1,0 +1,37 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_FertDirtFarming.Schematic_Tree_Farming_FertDirtFarming_C",
+	"name": "Peat Soil Crops",
+	"description": "",
+	"cost": [],
+	"category": "",
+	"subCategory": "Walls",
+	"type": 6,
+	"tier": 1,
+	"time": 3,
+	"image": "/FicsitFarming/Resources/RawResources/Seeds/UI/banana.banana",
+	"smallImage": "/FicsitFarming/Resources/RawResources/Seeds/UI/wheat.wheat",
+	"scannerUnlocks": [],
+	"recipeUnlocks": [
+		"/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_Pumpkin.Recipe_SF+_Crop_Pumpkin_C",
+		"/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_Banana.Recipe_SF+_Crop_Banana_C",
+		"/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_YosseBerry.Recipe_SF+_Crop_YosseBerry_C",
+		"/FicsitFarming/Buildings/Plots/TreePlot/Recipe_FF_TreePlot.Recipe_FF_TreePlot_C",
+		"/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_Pumpkin2.Recipe_SF+_Alt_Crop_Pumpkin2_C",
+		"/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_Banana2.Recipe_SF+_Alt_Crop_Banana2_C",
+		"/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_YosseBerry2.Recipe_SF+_Alt_Crop_YosseBerry2_C",
+		"/SatisfactoryPlus/Content/Recipes/Composter/FF/Recipe_Compost_Pumpkin_SF+.Recipe_Compost_Pumpkin_SF+_C",
+		"/SatisfactoryPlus/Content/Recipes/Composter/FF/Recipe_Compost_Yosse_SF+.Recipe_Compost_Yosse_SF+_C",
+		"/SatisfactoryPlus/Content/Recipes/Composter/FF/Recipe_Compost_Banana_SF+.Recipe_Compost_Banana_SF+_C",
+		"/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_Pumpkin.Recipe_SF+_Alt_Crop_Pumpkin_C",
+		"/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_Banana.Recipe_SF+_Alt_Crop_Banana_C",
+		"/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_YosseBerry.Recipe_SF+_Alt_Crop_YosseBerry_C"
+	],
+	"handSlots": 0,
+	"subSchematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_WetDirt_Fert.Hidden_Farming_WetDirt_Fert_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_WetDirt_Water.Hidden_Farming_WetDirt_Water_C"
+	],
+	"cleanerDesc": [],
+	"inventorySlots": 0,
+	"dataType": "schematic"
+}

@@ -1,0 +1,27 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_5.Schematic_SF+_7_5_C",
+	"name": "Fracking",
+	"description": "",
+	"cost": [],
+	"category": "",
+	"subCategory": "",
+	"type": 3,
+	"tier": 7,
+	"time": 750,
+	"image": "/KLib/Assets/Icons/Milestones/ICON_Milestone_DeepMining.ICON_Milestone_DeepMining",
+	"smallImage": "/KLib/Assets/Icons/Milestones/ICON_Milestone_DeepMining.ICON_Milestone_DeepMining",
+	"scannerUnlocks": [
+		"/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+		"/Game/FactoryGame/Resource/RawResources/NitrogenGas/Desc_NitrogenGas.Desc_NitrogenGas_C",
+		"/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C"
+	],
+	"recipeUnlocks": [
+		"/SatisfactoryPlus/Content/Recipes/Buildings/Recipe_FrackingExtractor.Recipe_FrackingExtractor_C",
+		"/SatisfactoryPlus/Content/Recipes/Buildings/Recipe_FrackingSmasher.Recipe_FrackingSmasher_C"
+	],
+	"handSlots": 0,
+	"subSchematics": [],
+	"cleanerDesc": [],
+	"inventorySlots": 0,
+	"dataType": "schematic"
+}

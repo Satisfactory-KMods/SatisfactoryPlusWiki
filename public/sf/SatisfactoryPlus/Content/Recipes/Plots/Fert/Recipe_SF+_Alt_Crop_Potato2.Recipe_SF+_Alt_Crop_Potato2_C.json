@@ -1,0 +1,36 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_Potato2.Recipe_SF+_Alt_Crop_Potato2_C",
+	"name": "Fertilized Potato",
+	"image": "/FicsitFarming/Resources/Crops/Potato/UI/Icon_Potato.Icon_Potato",
+	"input": [
+		{
+			"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_PotatoSeed.Desc_FF_PotatoSeed_C",
+			"amount": 25
+		},
+		{
+			"item": "/FicsitFarming/Resources/RawResources/Fertilizer/Desc_FF_Fertilizer.Desc_FF_Fertilizer_C",
+			"amount": 5000
+		}
+	],
+	"output": [
+		{
+			"item": "/FicsitFarming/Resources/Crops/Potato/Desc_FF_Crop_Potato.Desc_FF_Crop_Potato_C",
+			"amount": 25
+		},
+		{
+			"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+			"amount": 5
+		}
+	],
+	"category": "Crops",
+	"duration": 30,
+	"manuelDuration": 3,
+	"producedIn": [
+		"/FicsitFarming/Buildings/Plots/CropPlot/Build_FF_CropPlot.Build_FF_CropPlot_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Fert.Hidden_Farming_Dirt_Fert_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

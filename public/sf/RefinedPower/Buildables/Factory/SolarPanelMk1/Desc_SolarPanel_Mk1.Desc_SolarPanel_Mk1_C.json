@@ -1,0 +1,29 @@
+﻿{
+	"path": "/RefinedPower/Buildables/Factory/SolarPanelMk1/Desc_SolarPanel_Mk1.Desc_SolarPanel_Mk1_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Solar Panel Mk1",
+	"description": "Generates up to 8MW during the day!\r\n\r\nHas a higher efficiency due to if its sun tracking solar panel, that brings the efficiency up to 69%.\r\n\r\nBigger solar panels can also produce power at night.\r\n\r\nSome Renewable power from the binary star system of Akycha!",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_6.Schematic_SF+_4_6_C"
+	],
+	"image": "/RefinedPower/Buildables/Factory/SolarPanelMk1/UI/Icon_SolarPanelMk1.Icon_SolarPanelMk1",
+	"category": "Power",
+	"subCategory": "Solar Panels",
+	"buildingPath": "/RefinedPower/Buildables/Factory/SolarPanelMk1/Build_RP_SolarPanel_Mk1.Build_RP_SolarPanel_Mk1_C",
+	"dataType": "buildable"
+}

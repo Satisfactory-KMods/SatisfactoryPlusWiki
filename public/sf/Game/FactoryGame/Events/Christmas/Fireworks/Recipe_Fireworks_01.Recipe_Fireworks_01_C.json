@@ -1,0 +1,33 @@
+﻿{
+	"path": "/Game/FactoryGame/Events/Christmas/Fireworks/Recipe_Fireworks_01.Recipe_Fireworks_01_C",
+	"name": "Sweet Fireworks",
+	"image": "/Game/FactoryGame/Events/Christmas/Fireworks/UI/IconDesc_Rocket01_256.IconDesc_Rocket01_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBranch.Desc_XmasBranch_C",
+			"amount": 6
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_CandyCane.Desc_CandyCane_C",
+			"amount": 3
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Fireworks/Desc_Fireworks_Projectile_01.Desc_Fireworks_Projectile_01_C",
+			"amount": 1
+		}
+	],
+	"category": "FICSMAS",
+	"duration": 24,
+	"manuelDuration": 2.4000000953674316,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C",
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C"
+	],
+	"schematics": [
+		"/Game/FactoryGame/Events/Christmas/Calendar_Schematics/Ficsmas_Schematic_Fireworks.Ficsmas_Schematic_Fireworks_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

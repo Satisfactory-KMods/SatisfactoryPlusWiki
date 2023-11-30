@@ -1,0 +1,30 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Door_8x4_03.Desc_Wall_Door_8x4_03_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Side Door Wall",
+	"description": "Allows Pioneers to pass through the wall.\r\nDoor settings can be configured.\r\nSnaps to Foundations and other Walls.\r\n\r\nSize: 8m x 4m",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_DoorWalls_Normal.ResourceSink_DoorWalls_Normal_C",
+		"/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_DoorWalls_Normal.ResourceSink_DoorWalls_Normal_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Building/Wall/UI/Doors/IconDesc_FicsitSideDoor_512.IconDesc_FicsitSideDoor_512",
+	"category": "Walls",
+	"subCategory": "Doors",
+	"buildingPath": "/Game/FactoryGame/Buildable/Building/Wall/Build_Wall_Door_8x4_03.Build_Wall_Door_8x4_03_C",
+	"dataType": "buildable"
+}

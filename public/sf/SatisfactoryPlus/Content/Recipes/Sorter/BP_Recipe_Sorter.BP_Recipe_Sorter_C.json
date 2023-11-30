@@ -1,0 +1,34 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Sorter/BP_Recipe_Sorter.BP_Recipe_Sorter_C",
+	"name": "N/A",
+	"image": "",
+	"input": [
+		{
+			"item": "None",
+			"amount": 12
+		}
+	],
+	"output": [
+		{
+			"item": "None",
+			"amount": 8
+		},
+		{
+			"item": "None",
+			"amount": 4
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+			"amount": 2
+		}
+	],
+	"category": "Simple Sorting",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/KLib/Assets/Buildings/Sorter/Build_SorterMk1.Build_SorterMk1_C"
+	],
+	"schematics": [],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

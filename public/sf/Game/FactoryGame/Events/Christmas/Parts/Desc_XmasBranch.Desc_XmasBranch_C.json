@@ -1,0 +1,27 @@
+﻿{
+	"path": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBranch.Desc_XmasBranch_C",
+	"name": "FICSMAS Tree Branch",
+	"description": "A special Tree Branch used to produce parts and buildings during the FICSMAS Event.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": true,
+	"sinkPoints": 1,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 1,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 1,
+	"stackSize": 500,
+	"schematics": [
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_1.Research_XMas_1_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Events/Christmas/Parts/UI/IconDesc_Branch_256.IconDesc_Branch_256",
+	"category": "FICSMAS",
+	"subCategory": "",
+	"dataType": "itemDescriptor"
+}

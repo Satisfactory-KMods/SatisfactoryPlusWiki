@@ -1,0 +1,39 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/KBFL/Utils/Nodes/KBFL_Debug_Building_ResourceNode_Stone.KBFL_Debug_Building_ResourceNode_Stone_C",
+	"path": "/KBFL/Utils/Nodes/KBFL_DEBUG_DESC_ResourceNodes_2.KBFL_DEBUG_DESC_ResourceNodes_2_C",
+	"name": "Resource Node Stone",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KBFL/Utils/Nodes/KBFL_DEBUG_node_stone.KBFL_DEBUG_node_stone_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Equipment/Beacon/BP_EquipmentDescriptorBeacon.BP_EquipmentDescriptorBeacon_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KBFL/Utils/Nodes/KBFL_DEBUG_DESC_ResourceNodes_2.KBFL_DEBUG_DESC_ResourceNodes_2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/KBFL/Utils/KBFL_Schematic_Debug.KBFL_Schematic_Debug_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

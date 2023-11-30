@@ -1,0 +1,85 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/PneumaticFrackingMachine/Build_PneuMk1.Build_PneuMk1_C",
+	"path": "/PneumaticFrackingMachine/BuildDesc_PneuMk1.BuildDesc_PneuMk1_C",
+	"name": "Mk1  Pneumatic Fracking Machine",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/PneumaticFrackingMachine/Recipe_PneuMk1_NEW.Recipe_PneuMk1_NEW_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C",
+					"time": 1,
+					"amount": 15
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelPlateReinforced/Desc_SteelPlateReinforced.Desc_SteelPlateReinforced_C",
+					"time": 1,
+					"amount": 20
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+					"time": 1,
+					"amount": 60
+				}
+			],
+			"output": [
+				{
+					"item": "/PneumaticFrackingMachine/BuildDesc_PneuMk1.BuildDesc_PneuMk1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/PneumaticFrackingMachine/Schema_Mk1.Schema_Mk1_C"
+			]
+		},
+		{
+			"isRecipe": false,
+			"type": 6,
+			"buildingRecipe": false,
+			"productionElement": "/PneumaticFrackingMachine/Build_PneuMk1.Build_PneuMk1_C",
+			"wasteProducer": "",
+			"input": [],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C",
+					"time": 1,
+					"amount": 4000
+				}
+			],
+			"schematics": [
+				"/PneumaticFrackingMachine/Schema_Mk1.Schema_Mk1_C"
+			]
+		},
+		{
+			"isRecipe": false,
+			"type": 6,
+			"buildingRecipe": false,
+			"productionElement": "/PneumaticFrackingMachine/Build_PneuMk1.Build_PneuMk1_C",
+			"wasteProducer": "",
+			"input": [],
+			"output": [
+				{
+					"item": "/PneumaticFrackingMachine/Desc_AeratedOil.Desc_AeratedOil_C",
+					"time": 1,
+					"amount": 4000
+				}
+			],
+			"schematics": [
+				"/PneumaticFrackingMachine/Schema_Mk1.Schema_Mk1_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

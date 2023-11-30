@@ -1,0 +1,358 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/NewTrees/ResearchTree_PowerSlugs.ResearchTree_PowerSlugs_C",
+	"name": "Power Slugs",
+	"description": "This species of semi-slug seems to emit a weak potential energy from its crystalline shell which R&D thinks might be extracted to improve the efficiency of your work on Project Assembly.",
+	"image": "/Game/FactoryGame/Resource/Environment/Crystal/UI/PowerShard_256.PowerShard_256",
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_2_0_NEW.Schematic_Trees_Slugs_2_0_NEW_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_0_NEW.Schematic_Trees_Slugs_3_0_NEW_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_4_0_NEW.Schematic_Trees_Slugs_4_0_NEW_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_1_NEW.Schematic_Trees_Slugs_3_1_NEW_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_2_2_NEW.Schematic_Trees_Slugs_2_2_NEW_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_2_NEW.Schematic_Trees_Slugs_3_2_NEW_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_4_2_NEW.Schematic_Trees_Slugs_4_2_NEW_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_2_3_NEW.Schematic_Trees_Slugs_2_3_NEW_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_2_4_NEW.Schematic_Trees_Slugs_2_4_NEW_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_4_NEW.Schematic_Trees_Slugs_3_4_NEW_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_4_4_NEW.Schematic_Trees_Slugs_4_4_NEW_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_5_NEW.Schematic_Trees_Slugs_3_5_NEW_C"
+	],
+	"nodes": [
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_2_0_NEW.Schematic_Trees_Slugs_2_0_NEW_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 0
+			},
+			"unhiddenBy": [],
+			"nodesToUnhide": [
+				{
+					"X": 3,
+					"Y": 1
+				},
+				{
+					"X": 3,
+					"Y": 2
+				},
+				{
+					"X": 4,
+					"Y": 2
+				}
+			],
+			"parents": []
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_0_NEW.Schematic_Trees_Slugs_3_0_NEW_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 0
+			},
+			"unhiddenBy": [],
+			"nodesToUnhide": [
+				{
+					"X": 3,
+					"Y": 1
+				},
+				{
+					"X": 3,
+					"Y": 2
+				},
+				{
+					"X": 4,
+					"Y": 2
+				}
+			],
+			"parents": []
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_4_0_NEW.Schematic_Trees_Slugs_4_0_NEW_C",
+			"coordinates":
+			{
+				"X": 4,
+				"Y": 0
+			},
+			"unhiddenBy": [],
+			"nodesToUnhide": [
+				{
+					"X": 3,
+					"Y": 1
+				},
+				{
+					"X": 3,
+					"Y": 2
+				},
+				{
+					"X": 4,
+					"Y": 2
+				}
+			],
+			"parents": []
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_1_NEW.Schematic_Trees_Slugs_3_1_NEW_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 1
+			},
+			"unhiddenBy": [
+				{
+					"X": 2,
+					"Y": 0
+				},
+				{
+					"X": 3,
+					"Y": 0
+				},
+				{
+					"X": 4,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 0
+				},
+				{
+					"X": 2,
+					"Y": 0
+				},
+				{
+					"X": 4,
+					"Y": 0
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_2_2_NEW.Schematic_Trees_Slugs_2_2_NEW_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 2
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_2_NEW.Schematic_Trees_Slugs_3_2_NEW_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 2
+			},
+			"unhiddenBy": [
+				{
+					"X": 2,
+					"Y": 0
+				},
+				{
+					"X": 3,
+					"Y": 0
+				},
+				{
+					"X": 4,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 2,
+					"Y": 2
+				},
+				{
+					"X": 2,
+					"Y": 3
+				}
+			],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 1
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_4_2_NEW.Schematic_Trees_Slugs_4_2_NEW_C",
+			"coordinates":
+			{
+				"X": 4,
+				"Y": 2
+			},
+			"unhiddenBy": [
+				{
+					"X": 2,
+					"Y": 0
+				},
+				{
+					"X": 3,
+					"Y": 0
+				},
+				{
+					"X": 4,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_2_3_NEW.Schematic_Trees_Slugs_2_3_NEW_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 3
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 2
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 2,
+					"Y": 4
+				},
+				{
+					"X": 3,
+					"Y": 4
+				},
+				{
+					"X": 4,
+					"Y": 4
+				},
+				{
+					"X": 3,
+					"Y": 5
+				}
+			],
+			"parents": [
+				{
+					"X": 2,
+					"Y": 2
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_2_4_NEW.Schematic_Trees_Slugs_2_4_NEW_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 4
+			},
+			"unhiddenBy": [
+				{
+					"X": 2,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 2,
+					"Y": 3
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_4_NEW.Schematic_Trees_Slugs_3_4_NEW_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 4
+			},
+			"unhiddenBy": [
+				{
+					"X": 2,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 2,
+					"Y": 3
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_4_4_NEW.Schematic_Trees_Slugs_4_4_NEW_C",
+			"coordinates":
+			{
+				"X": 4,
+				"Y": 4
+			},
+			"unhiddenBy": [
+				{
+					"X": 2,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 4
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_5_NEW.Schematic_Trees_Slugs_3_5_NEW_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 5
+			},
+			"unhiddenBy": [
+				{
+					"X": 2,
+					"Y": 3
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 2,
+					"Y": 4
+				}
+			]
+		}
+	],
+	"treeUnlocks": [
+		{
+			"items": [
+				"/KLib/Assets/Buildings/SlugHatching/Desc/EggDNA/Desc_EggDNA_Blue.Desc_EggDNA_Blue_C",
+				"/KLib/Assets/Buildings/SlugHatching/Desc/EggDNA/Desc_EggDNA_Purple.Desc_EggDNA_Purple_C",
+				"/KLib/Assets/Buildings/SlugHatching/Desc/EggDNA/Desc_EggDNA_Yellow.Desc_EggDNA_Yellow_C",
+				"/Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal.Desc_Crystal_C",
+				"/Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal_mk2.Desc_Crystal_mk2_C",
+				"/Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal_mk3.Desc_Crystal_mk3_C",
+				"/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_EggBlue.EggDesc_EggBlue_C",
+				"/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_EggPurple.EggDesc_EggPurple_C",
+				"/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_EggYellow.EggDesc_EggYellow_C"
+			],
+			"needAll": false
+		}
+	],
+	"dataType": "researchTree"
+}

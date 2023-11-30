@@ -1,0 +1,36 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/Recipes/Alternative/Sorter/PureSortedGold/Recipe_Alternative_PureSortedCaterium.Recipe_Alternative_PureSortedCaterium_C",
+	"name": "Alternate: Pure Sorted Caterium",
+	"image": "/KLib/Assets/Parts/Production/Crushed/UI/Icon_CrushedCaterium_256.Icon_CrushedCaterium_256",
+	"input": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedSatmonium.Desc_CrushedSatmonium_C",
+			"amount": 12
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+			"amount": 10000
+		}
+	],
+	"output": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedCaterium.Desc_CrushedCaterium_C",
+			"amount": 10
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedCaterium.Desc_CrushedCaterium_C",
+			"amount": 5
+		}
+	],
+	"category": "Simple Sorting",
+	"duration": 6,
+	"manuelDuration": 0.60000002384185791,
+	"producedIn": [
+		"/KLib/Assets/Buildings/Sorter/Build_SorterMk1.Build_SorterMk1_C"
+	],
+	"schematics": [
+		"/SatisfactoryPlus/Content/Recipes/Alternative/Sorter/PureSortedGold/Alternative_PureSortedCaterium.Alternative_PureSortedCaterium_C"
+	],
+	"isAlternate": true,
+	"dataType": "recipe"
+}

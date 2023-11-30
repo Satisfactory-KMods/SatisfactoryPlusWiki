@@ -1,0 +1,27 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/DroneStation/Desc_DroneTransport.Desc_DroneTransport_C",
+	"name": "Drone",
+	"description": "Has to be built on a Drone Port.\r\n\r\nFuel: Batteries, based on travel distance.\r\nRefuels at any of its connected Ports, if able.\r\n\r\n9-slot inventory.\r\n\r\nTransports available input back and forth between its home and destination Ports. Drone Status and other details are shown on its home Drone Port.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"canBeSink": false,
+	"sinkPoints": 0,
+	"radio": 0,
+	"radioActive": false,
+	"descriptorType": 4,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_3.Schematic_SF+_8_3_C"
+	],
+	"itemTypeInformation":
+	{
+		"type": "normal"
+	},
+	"image": "/Game/FactoryGame/Buildable/Factory/DroneStation/UI/IconDesc_Drone_512.IconDesc_Drone_512",
+	"category": "Transport",
+	"subCategory": "Vehicle Transport",
+	"dataType": "itemDescriptor"
+}

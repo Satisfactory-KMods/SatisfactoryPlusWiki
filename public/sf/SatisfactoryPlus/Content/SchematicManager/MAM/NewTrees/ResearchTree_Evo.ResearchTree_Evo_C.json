@@ -1,0 +1,336 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/NewTrees/ResearchTree_Evo.ResearchTree_Evo_C",
+	"name": "Natural Environment",
+	"description": "Further research has shown that useful equipment can be made from it. and nutritious fruits are good for health.",
+	"image": "/Game/FactoryGame/Resource/Parts/GenericBiomass/UI/FlowerPetals_Final_256.FlowerPetals_Final_256",
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Eat_1_0.Schematic_Trees_Evo_Eat_1_0_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Mush_2_0.Schematic_Trees_Evo_Mush_2_0_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Mush_3_0.Schematic_Trees_Evo_Mush_3_0_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Mush_4_0.Schematic_Trees_Evo_Mush_4_0_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Flowers_3_1.Schematic_Trees_Evo_Flowers_3_1_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Eat_0_0.Schematic_Trees_Evo_Eat_0_0_C",
+		"/Game/FactoryGame/Schematics/Research/Mycelia_RS/Research_Mycelia_5.Research_Mycelia_5_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Mush_2_1.Schematic_Trees_Evo_Mush_2_1_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Mush_4_1.Schematic_Trees_Evo_Mush_4_1_C",
+		"/Game/FactoryGame/Schematics/Research/Mycelia_RS/Research_Mycelia_6.Research_Mycelia_6_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Flowers_3_2.Schematic_Trees_Evo_Flowers_3_2_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Eat_0_1.Schematic_Trees_Evo_Eat_0_1_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Mushroom_3_3.Schematic_Trees_Evo_Mushroom_3_3_C"
+	],
+	"nodes": [
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Eat_1_0.Schematic_Trees_Evo_Eat_1_0_C",
+			"coordinates":
+			{
+				"X": 0,
+				"Y": 0
+			},
+			"unhiddenBy": [],
+			"nodesToUnhide": [
+				{
+					"X": 0,
+					"Y": 1
+				},
+				{
+					"X": 0,
+					"Y": 2
+				}
+			],
+			"parents": []
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Mush_2_0.Schematic_Trees_Evo_Mush_2_0_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 0
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Mush_3_0.Schematic_Trees_Evo_Mush_3_0_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 0
+			},
+			"unhiddenBy": [],
+			"nodesToUnhide": [
+				{
+					"X": 2,
+					"Y": 0
+				},
+				{
+					"X": 4,
+					"Y": 0
+				},
+				{
+					"X": 2,
+					"Y": 1
+				},
+				{
+					"X": 1,
+					"Y": 1
+				},
+				{
+					"X": 4,
+					"Y": 1
+				},
+				{
+					"X": 5,
+					"Y": 1
+				}
+			],
+			"parents": []
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Mush_4_0.Schematic_Trees_Evo_Mush_4_0_C",
+			"coordinates":
+			{
+				"X": 4,
+				"Y": 0
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Flowers_3_1.Schematic_Trees_Evo_Flowers_3_1_C",
+			"coordinates":
+			{
+				"X": 6,
+				"Y": 0
+			},
+			"unhiddenBy": [],
+			"nodesToUnhide": [
+				{
+					"X": 6,
+					"Y": 1
+				}
+			],
+			"parents": []
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Eat_0_0.Schematic_Trees_Evo_Eat_0_0_C",
+			"coordinates":
+			{
+				"X": 0,
+				"Y": 1
+			},
+			"unhiddenBy": [
+				{
+					"X": 0,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 0,
+					"Y": 0
+				}
+			]
+		},
+		{
+			"path": "/Game/FactoryGame/Schematics/Research/Mycelia_RS/Research_Mycelia_5.Research_Mycelia_5_C",
+			"coordinates":
+			{
+				"X": 1,
+				"Y": 1
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 2,
+					"Y": 0
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Mush_2_1.Schematic_Trees_Evo_Mush_2_1_C",
+			"coordinates":
+			{
+				"X": 2,
+				"Y": 1
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"parents": [
+				{
+					"X": 2,
+					"Y": 0
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Mush_4_1.Schematic_Trees_Evo_Mush_4_1_C",
+			"coordinates":
+			{
+				"X": 4,
+				"Y": 1
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [
+				{
+					"X": 3,
+					"Y": 3
+				}
+			],
+			"parents": [
+				{
+					"X": 4,
+					"Y": 0
+				}
+			]
+		},
+		{
+			"path": "/Game/FactoryGame/Schematics/Research/Mycelia_RS/Research_Mycelia_6.Research_Mycelia_6_C",
+			"coordinates":
+			{
+				"X": 5,
+				"Y": 1
+			},
+			"unhiddenBy": [
+				{
+					"X": 3,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 4,
+					"Y": 0
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Flowers_3_2.Schematic_Trees_Evo_Flowers_3_2_C",
+			"coordinates":
+			{
+				"X": 6,
+				"Y": 1
+			},
+			"unhiddenBy": [
+				{
+					"X": 6,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 6,
+					"Y": 0
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Eat_0_1.Schematic_Trees_Evo_Eat_0_1_C",
+			"coordinates":
+			{
+				"X": 0,
+				"Y": 2
+			},
+			"unhiddenBy": [
+				{
+					"X": 0,
+					"Y": 0
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 0,
+					"Y": 1
+				}
+			]
+		},
+		{
+			"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Mushroom_3_3.Schematic_Trees_Evo_Mushroom_3_3_C",
+			"coordinates":
+			{
+				"X": 3,
+				"Y": 3
+			},
+			"unhiddenBy": [
+				{
+					"X": 2,
+					"Y": 1
+				},
+				{
+					"X": 4,
+					"Y": 1
+				}
+			],
+			"nodesToUnhide": [],
+			"parents": [
+				{
+					"X": 2,
+					"Y": 1
+				},
+				{
+					"X": 4,
+					"Y": 1
+				}
+			]
+		}
+	],
+	"treeUnlocks": [
+		{
+			"items": [
+				"/Game/FactoryGame/Resource/Environment/Berry/Desc_Berry.Desc_Berry_C",
+				"/Game/FactoryGame/Resource/Environment/DesertShroom/Desc_Shroom.Desc_Shroom_C",
+				"/Game/FactoryGame/Resource/Environment/Nut/Desc_Nut.Desc_Nut_C",
+				"/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Mycelia.Desc_Mycelia_C",
+				"/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_FlowerPetals.Desc_FlowerPetals_C"
+			],
+			"needAll": false
+		}
+	],
+	"dataType": "researchTree"
+}

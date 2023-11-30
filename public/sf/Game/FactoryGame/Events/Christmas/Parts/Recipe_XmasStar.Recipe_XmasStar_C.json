@@ -1,0 +1,32 @@
+﻿{
+	"path": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasStar.Recipe_XmasStar_C",
+	"name": "FICSMAS Wonder Star",
+	"image": "/Game/FactoryGame/Events/Christmas/Parts/UI/IconDesc_Star_256.IconDesc_Star_256",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasWreath.Desc_XmasWreath_C",
+			"amount": 5
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_CandyCane.Desc_CandyCane_C",
+			"amount": 20
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasStar.Desc_XmasStar_C",
+			"amount": 1
+		}
+	],
+	"category": "FICSMAS",
+	"duration": 60,
+	"manuelDuration": 6,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C"
+	],
+	"schematics": [
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_4-1.Research_XMas_4-1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}
