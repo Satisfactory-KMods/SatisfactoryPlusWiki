@@ -46,7 +46,8 @@ jobs:
             - name: Build and push
               uses: docker/build-push-action@v5
               with:
+                  context: .
                   push: true
-                  tags: ${{ github.repository }}:dev
+                  tags: satisfactory-kmods/satisfactorypluswiki:dev
                   secrets: |
                       GIT_AUTH_TOKEN=${{ secrets.PAT }}
