@@ -1,6 +1,6 @@
-CREATE SCHEMA "my_schema";
+CREATE SCHEMA "sfp-wiki";
 --> statement-breakpoint
-CREATE TABLE IF NOT EXISTS "my_schema"."account" (
+CREATE TABLE IF NOT EXISTS "sfp-wiki"."account" (
 	"userId" text NOT NULL,
 	"type" text NOT NULL,
 	"provider" text NOT NULL,
@@ -15,13 +15,13 @@ CREATE TABLE IF NOT EXISTS "my_schema"."account" (
 	CONSTRAINT account_provider_providerAccountId_pk PRIMARY KEY("provider","providerAccountId")
 );
 --> statement-breakpoint
-CREATE TABLE IF NOT EXISTS "my_schema"."session" (
+CREATE TABLE IF NOT EXISTS "sfp-wiki"."session" (
 	"sessionToken" text PRIMARY KEY NOT NULL,
 	"userId" text NOT NULL,
 	"expires" timestamp NOT NULL
 );
 --> statement-breakpoint
-CREATE TABLE IF NOT EXISTS "my_schema"."user" (
+CREATE TABLE IF NOT EXISTS "sfp-wiki"."user" (
 	"id" text PRIMARY KEY NOT NULL,
 	"name" text,
 	"email" text NOT NULL,
@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS "my_schema"."user" (
 	"image" text
 );
 --> statement-breakpoint
-CREATE TABLE IF NOT EXISTS "my_schema"."verificationToken" (
+CREATE TABLE IF NOT EXISTS "sfp-wiki"."verificationToken" (
 	"identifier" text NOT NULL,
 	"token" text NOT NULL,
 	"expires" timestamp NOT NULL,
@@ -37,13 +37,13 @@ CREATE TABLE IF NOT EXISTS "my_schema"."verificationToken" (
 );
 --> statement-breakpoint
 DO $$ BEGIN
- ALTER TABLE "my_schema"."account" ADD CONSTRAINT "account_userId_user_id_fk" FOREIGN KEY ("userId") REFERENCES "my_schema"."user"("id") ON DELETE cascade ON UPDATE no action;
+ ALTER TABLE "sfp-wiki"."account" ADD CONSTRAINT "account_userId_user_id_fk" FOREIGN KEY ("userId") REFERENCES "sfp-wiki"."user"("id") ON DELETE cascade ON UPDATE no action;
 EXCEPTION
  WHEN duplicate_object THEN null;
 END $$;
 --> statement-breakpoint
 DO $$ BEGIN
- ALTER TABLE "my_schema"."session" ADD CONSTRAINT "session_userId_user_id_fk" FOREIGN KEY ("userId") REFERENCES "my_schema"."user"("id") ON DELETE cascade ON UPDATE no action;
+ ALTER TABLE "sfp-wiki"."session" ADD CONSTRAINT "session_userId_user_id_fk" FOREIGN KEY ("userId") REFERENCES "sfp-wiki"."user"("id") ON DELETE cascade ON UPDATE no action;
 EXCEPTION
  WHEN duplicate_object THEN null;
 END $$;

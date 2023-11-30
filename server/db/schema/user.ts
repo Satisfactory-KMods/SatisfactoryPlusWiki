@@ -9,13 +9,18 @@ export const users = dbSchema.table('user', {
 	emailVerified: timestamp('emailVerified', { mode: 'date' }),
 	image: text('image')
 });
- 
+
 export const accounts = dbSchema.table(
 	'account',
-	{ 
+	{
 		userId: text('userId')
 			.notNull()
-			.references(() => {return users.id}, { onDelete: 'cascade' }),
+			.references(
+				() => {
+					return users.id;
+				},
+				{ onDelete: 'cascade' }
+			),
 		type: text('type').$type<AdapterAccount['type']>().notNull(),
 		provider: text('provider').notNull(),
 		providerAccountId: text('providerAccountId').notNull(),
@@ -27,16 +32,23 @@ export const accounts = dbSchema.table(
 		id_token: text('id_token'),
 		session_state: text('session_state')
 	},
-	(account) => {return {
-		compoundKey: primaryKey(account.provider, account.providerAccountId)
-	}}
+	(account) => {
+		return {
+			compoundKey: primaryKey(account.provider, account.providerAccountId)
+		};
+	}
 );
 
 export const sessions = dbSchema.table('session', {
 	sessionToken: text('sessionToken').notNull().primaryKey(),
 	userId: text('userId')
 		.notNull()
-		.references(() => {return users.id}, { onDelete: 'cascade' }),
+		.references(
+			() => {
+				return users.id;
+			},
+			{ onDelete: 'cascade' }
+		),
 	expires: timestamp('expires', { mode: 'date' }).notNull()
 });
 
@@ -47,7 +59,9 @@ export const verificationTokens = dbSchema.table(
 		token: text('token').notNull(),
 		expires: timestamp('expires', { mode: 'date' }).notNull()
 	},
-	(vt) => {return {
-		compoundKey: primaryKey(vt.identifier, vt.token)
-	}}
+	(vt) => {
+		return {
+			compoundKey: primaryKey(vt.identifier, vt.token)
+		};
+	}
 );

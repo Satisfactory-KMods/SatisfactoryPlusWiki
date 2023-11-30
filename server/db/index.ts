@@ -29,7 +29,7 @@ export function startMigrate() {
 			return dbState;
 		})
 		.catch((err) => {
-			log('error', 'Database migration failed');
+			log('error', 'Database migration failed', err);
 			log('fatal', err.message);
 		});
 }

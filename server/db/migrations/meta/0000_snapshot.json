@@ -1,12 +1,12 @@
 {
-  "id": "88cc426e-ae1d-443a-bdcb-a29eb3be4a98",
+  "id": "d445856f-fa35-4f33-aa4e-b8ee97e8e82f",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "5",
   "dialect": "pg",
   "tables": {
     "account": {
       "name": "account",
-      "schema": "my_schema",
+      "schema": "sfp-wiki",
       "columns": {
         "userId": {
           "name": "userId",
@@ -104,7 +104,7 @@
     },
     "session": {
       "name": "session",
-      "schema": "my_schema",
+      "schema": "sfp-wiki",
       "columns": {
         "sessionToken": {
           "name": "sessionToken",
@@ -146,7 +146,7 @@
     },
     "user": {
       "name": "user",
-      "schema": "my_schema",
+      "schema": "sfp-wiki",
       "columns": {
         "id": {
           "name": "id",
@@ -186,7 +186,7 @@
     },
     "verificationToken": {
       "name": "verificationToken",
-      "schema": "my_schema",
+      "schema": "sfp-wiki",
       "columns": {
         "identifier": {
           "name": "identifier",
@@ -223,7 +223,7 @@
   },
   "enums": {},
   "schemas": {
-    "my_schema": "my_schema"
+    "sfp-wiki": "sfp-wiki"
   },
   "_meta": {
     "schemas": {},
