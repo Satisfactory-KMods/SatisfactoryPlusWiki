@@ -9,6 +9,7 @@ on:
 env:
     REGISTRY: ghcr.io
     IMAGE_NAME: ${{ github.repository }}
+    DOCKERNAME: dev-sfp-wiki
 
 jobs:
     prepare-and-build-app:
@@ -74,3 +75,12 @@ jobs:
                   labels: ${{ steps.meta.outputs.labels }}
                   cache-from: type=gha
                   cache-to: type=gha,mode=max
+
+            - name: Deploy
+              uses: appleboy/ssh-action@v1.0.0
+              with:
+                  host: ${{ secrets.SSH_HOST }}
+                  username: ${{ secrets.SSH_USER }}
+                  key: ${{ secrets.SSH_KEY }}
+                  port: 22
+                  script: cd /home/apps/ && docker-compose down ${{ env.DOCKERNAME }} && docker-compose build --pull ${{ env.DOCKERNAME }} && docker-compose up -d ${{ env.DOCKERNAME }} && docker image prune -f
