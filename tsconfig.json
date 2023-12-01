@@ -1,8 +1,4 @@
 {
 	// https://nuxt.com/docs/guide/concepts/typescript
-	"extends": "./.nuxt/tsconfig.json",
-	"compilerOptions": {
-		"types": ["@nuxt/types", "@pinia/nuxt", "@nuxtjs/i18n", "@modyfi/vite-plugin-yaml/modules"],
-		"typeRoots": ["./node_modules/@types", "./types"]
-	}
+	"extends": "./.nuxt/tsconfig.json"
 }
