@@ -1,3 +1,7 @@
 {
-  "extends": "../.nuxt/tsconfig.server.json"
+	"extends": "../.nuxt/tsconfig.server.json",
+	"compilerOptions": {
+		"types": ["@nuxt/types", "@pinia/nuxt", "@nuxtjs/i18n", "@modyfi/vite-plugin-yaml/modules"],
+		"typeRoots": ["./node_modules/@types", "./types"]
+	}
 }
