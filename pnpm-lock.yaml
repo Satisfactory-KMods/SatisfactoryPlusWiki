@@ -82,6 +82,9 @@ devDependencies:
   '@semantic-release/git':
     specifier: ^10.0.1
     version: 10.0.1(semantic-release@22.0.8)
+  '@semantic-release/github':
+    specifier: ^9.2.4
+    version: 9.2.4(semantic-release@22.0.8)
   '@semantic-release/release-notes-generator':
     specifier: ^12.1.0
     version: 12.1.0(semantic-release@22.0.8)
@@ -145,6 +148,9 @@ devDependencies:
   sass:
     specifier: ^1.69.5
     version: 1.69.5
+  semantic-release:
+    specifier: ^22.0.8
+    version: 22.0.8(typescript@5.3.2)
   typescript:
     specifier: ^5.3.2
     version: 5.3.2

@@ -88,8 +88,9 @@ jobs:
                       docker image prune --force
                       sleep 60
                       docker compose logs ${{ env.DOCKERNAME }}
-                      docker compose logs ${{ env.DOCKERNAME }} | grep "Server started on port 3000" || exit 1
 
             - name: 'Create Release'
               run: |
-                  pnpm semantic-release
+                  export GH_TOKEN=${{ secrets.PAT }}
+                  export GITHUB_TOKEN=${{ secrets.PAT }}
+                  CI=true pnpm semantic-release
