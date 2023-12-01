@@ -4,9 +4,9 @@ COPY . /dist
 WORKDIR /dist
 
 RUN cp .env.example .env
-RUN npm install -g pnpm
+RUN npm install -g pnpm bun
 RUN pnpm install
-RUN pnpm run build
+RUN bun run build
 RUN rm .env
 
 CMD node .output/server/index.mjs

@@ -2,7 +2,24 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_2_4_NEW.Schematic_Trees_Slugs_2_4_NEW_C",
 	"name": "Basic Power Modules",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C",
+			"amount": 10
+		},
+		{
+			"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Pink.SlugDesc_Pink_C",
+			"amount": 15
+		},
+		{
+			"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_DarkBlue.SlugDesc_DarkBlue_C",
+			"amount": 15
+		},
+		{
+			"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_DarkGreen.SlugDesc_DarkGreen_C",
+			"amount": 15
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,

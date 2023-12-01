@@ -2,7 +2,20 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
 	"name": "Lime Dust",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Ores/Cryolit/Res_Cryolit.Res_Cryolit_C",
+			"amount": 500
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_Salt.Desc_Salt_C",
+			"amount": 500
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_Sand.Desc_Sand_C",
+			"amount": 500
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,

@@ -2,7 +2,20 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_2_2.Schematic_Trees_Cryolit_2_2_C",
 	"name": "Explorer",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C",
+			"amount": 250
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_BrassPipe.Desc_BrassPipe_C",
+			"amount": 500
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_Salt.Desc_Salt_C",
+			"amount": 1000
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,

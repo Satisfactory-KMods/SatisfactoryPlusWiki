@@ -274,16 +274,7 @@ export class Logger<T extends CustomLogs> {
 }
 
 export const logger = new Logger(
-	{
-		backend: LogLevel.LOG,
-		backend_api: LogLevel.LOG,
-		backend_api_error: LogLevel.ERROR,
-		backend_api_info: LogLevel.INFO,
-		frontend: LogLevel.LOG,
-		frontend_api: LogLevel.LOG,
-		frontend_api_error: LogLevel.ERROR,
-		frontend_api_info: LogLevel.INFO
-	},
+	{},
 	{ colors: true }
 );
 export const log = logger.log.bind(logger);

@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/BoomBox/Tapes/Schematic_Sanctum.Schematic_Sanctum_C",
 	"name": "Sanctum Boombox Tape",
 	"description": "Boombox Tapes are automatically added to the Boombox when obtained.",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 1
+		}
+	],
 	"category": "FICSIT Specials",
 	"subCategory": "Boombox",
 	"type": 7,

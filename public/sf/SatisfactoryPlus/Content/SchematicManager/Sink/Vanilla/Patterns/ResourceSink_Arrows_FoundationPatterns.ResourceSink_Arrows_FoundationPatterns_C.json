@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Patterns/ResourceSink_Arrows_FoundationPatterns.ResourceSink_Arrows_FoundationPatterns_C",
 	"name": "Arrow Patterns",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 1
+		}
+	],
 	"category": "Customizer",
 	"subCategory": "Foundation Patterns",
 	"type": 7,

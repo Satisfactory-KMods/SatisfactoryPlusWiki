@@ -2,7 +2,20 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_4_2.Schematic_Trees_Cryolit_4_2_C",
 	"name": "Salty Ingots",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_Salt.Desc_Salt_C",
+			"amount": 400
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedIron.Desc_CrushedIron_C",
+			"amount": 400
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedTin.Desc_CrushedTin_C",
+			"amount": 400
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,

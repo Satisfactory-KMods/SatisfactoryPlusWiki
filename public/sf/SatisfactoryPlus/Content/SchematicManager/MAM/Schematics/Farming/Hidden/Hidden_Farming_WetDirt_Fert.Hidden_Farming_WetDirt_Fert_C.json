@@ -2,7 +2,16 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_WetDirt_Fert.Hidden_Farming_WetDirt_Fert_C",
 	"name": "",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt.Desc_FF_Dirt_C",
+			"amount": 200
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+			"amount": 100
+		}
+	],
 	"category": "",
 	"subCategory": "Walls",
 	"type": 0,

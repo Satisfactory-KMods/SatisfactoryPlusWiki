@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Stabilizer.Schematic_Trees_TimeCrystak_Stabilizer_C",
 	"name": "Crystal Stabilizer",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Nodes/QuantumCystal/Res_TimeCrystal.Res_TimeCrystal_C",
+			"amount": 500
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,

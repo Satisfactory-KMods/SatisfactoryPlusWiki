@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_StatueGoldPioneer.ResourceSink_StatueGoldPioneer_C",
 	"name": "Satisfactory Pioneering",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 150
+		}
+	],
 	"category": "FICSIT Specials",
 	"subCategory": "Pioneering Awards",
 	"type": 7,

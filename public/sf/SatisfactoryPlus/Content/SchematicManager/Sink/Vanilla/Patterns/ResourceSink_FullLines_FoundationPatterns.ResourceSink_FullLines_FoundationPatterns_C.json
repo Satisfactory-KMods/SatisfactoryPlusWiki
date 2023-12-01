@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Patterns/ResourceSink_FullLines_FoundationPatterns.ResourceSink_FullLines_FoundationPatterns_C",
 	"name": "Solid Line Patterns",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 5
+		}
+	],
 	"category": "Customizer",
 	"subCategory": "Foundation Patterns",
 	"type": 7,

@@ -2,7 +2,20 @@
 	"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2.Research_XMas_2_C",
 	"name": "Giant FICSMAS Tree: Upgrade 1",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall1.Desc_XmasBall1_C",
+			"amount": 1
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_CandyCane.Desc_CandyCane_C",
+			"amount": 20
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBow.Desc_XmasBow_C",
+			"amount": 30
+		}
+	],
 	"category": "Organisation",
 	"subCategory": "",
 	"type": 6,

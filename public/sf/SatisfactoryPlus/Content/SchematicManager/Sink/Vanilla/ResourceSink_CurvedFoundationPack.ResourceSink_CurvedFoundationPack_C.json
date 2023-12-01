@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_CurvedFoundationPack.ResourceSink_CurvedFoundationPack_C",
 	"name": "Quarter Pipes Pack",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 6
+		}
+	],
 	"category": "Foundations",
 	"subCategory": "Foundations",
 	"type": 7,

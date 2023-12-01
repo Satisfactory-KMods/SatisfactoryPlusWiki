@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_ConcreteWallMaterial.ResourceSink_Customizer_ConcreteWallMaterial_C",
 	"name": "Concrete Wall Material",
 	"description": "Adds the Concrete Wall Material to the Customizer, from where it can be applied to any Wall.",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 3
+		}
+	],
 	"category": "Customizer",
 	"subCategory": "Wall Materials",
 	"type": 7,

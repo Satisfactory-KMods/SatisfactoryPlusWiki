@@ -2,7 +2,24 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_5_NEW.Schematic_Trees_Slugs_3_5_NEW_C",
 	"name": "Mineral Slugs",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Iron.SlugDesc_Iron_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Copper.SlugDesc_Copper_C",
+			"amount": 1
+		},
+		{
+			"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Orange.SlugDesc_Orange_C",
+			"amount": 1
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/AluminumIngot/Desc_AluminumIngot.Desc_AluminumIngot_C",
+			"amount": 2000
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,

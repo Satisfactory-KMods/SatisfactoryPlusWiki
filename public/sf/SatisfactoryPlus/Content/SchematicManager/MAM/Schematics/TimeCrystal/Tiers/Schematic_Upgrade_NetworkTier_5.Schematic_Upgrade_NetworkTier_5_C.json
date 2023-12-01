@@ -2,7 +2,16 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Tiers/Schematic_Upgrade_NetworkTier_5.Schematic_Upgrade_NetworkTier_5_C",
 	"name": "Unlock a new network tier",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_WhiteSlug.SlugDesc_WhiteSlug_C",
+			"amount": 25
+		},
+		{
+			"item": "/KLib/Assets/Parts/NetworkHardDrives/Drive_Solid_Mk4.Drive_Solid_Mk4_C",
+			"amount": 5
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,

@@ -2,7 +2,28 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_PlotModules.Schematic_Tree_Farming_PlotModules_C",
 	"name": "Plot Modules",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/FicsitFarming/Resources/Crops/Potato/Desc_FF_Crop_Potato.Desc_FF_Crop_Potato_C",
+			"amount": 100
+		},
+		{
+			"item": "/FicsitFarming/Resources/Crops/Wheat/Desc_FF_Crop_Wheat.Desc_FF_Crop_Wheat_C",
+			"amount": 200
+		},
+		{
+			"item": "/FicsitFarming/Resources/Crops/Carrots/Desc_FF_Crop_Carrot.Desc_FF_Crop_Carrot_C",
+			"amount": 100
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
+			"amount": 50
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
+			"amount": 2000
+		}
+	],
 	"category": "",
 	"subCategory": "Walls",
 	"type": 6,

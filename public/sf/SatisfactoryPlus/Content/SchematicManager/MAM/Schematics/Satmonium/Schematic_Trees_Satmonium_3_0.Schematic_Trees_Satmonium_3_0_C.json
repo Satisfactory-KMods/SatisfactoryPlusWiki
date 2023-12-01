@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_0.Schematic_Trees_Satmonium_3_0_C",
 	"name": "Satmonium",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Ressources/Raw/Nodes/Satmonium/Res_SatmoniumOre.Res_SatmoniumOre_C",
+			"amount": 100
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,

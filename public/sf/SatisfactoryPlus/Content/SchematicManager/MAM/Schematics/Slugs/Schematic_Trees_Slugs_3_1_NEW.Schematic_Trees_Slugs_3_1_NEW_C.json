@@ -2,7 +2,16 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_1_NEW.Schematic_Trees_Slugs_3_1_NEW_C",
 	"name": "Slug Hatching",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Frames/Fused/Desc_LeadFrame.Desc_LeadFrame_C",
+			"amount": 25
+		},
+		{
+			"item": "/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt.Desc_FF_Dirt_C",
+			"amount": 100
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,

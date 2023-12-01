@@ -350,6 +350,586 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_Flat_Frame_01.Recipe_Flat_Frame_01_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_Flat_Frame_01.Desc_Flat_Frame_01_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_FoundationGlass_01.Recipe_FoundationGlass_01_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
+					"time": 1,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_FoundationGlass_01.Desc_FoundationGlass_01_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_Foundation_Frame_01.Recipe_Foundation_Frame_01_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_Foundation_Frame_01.Desc_Foundation_Frame_01_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_Frame_01.Recipe_Ramp_Frame_01_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_Frame_01.Desc_Ramp_Frame_01_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_Frame_Inverted_01.Recipe_Ramp_Frame_Inverted_01_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_Frame_Inverted_01.Desc_Ramp_Frame_Inverted_01_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_PillarMiddle.Recipe_PillarMiddle_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_PillarMiddle.Desc_PillarMiddle_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_PillarBase.Recipe_PillarBase_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_PillarBase.Desc_PillarBase_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Pillars/Recipe_PillarBase_Small.Recipe_PillarBase_Small_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Pillars/Desc_PillarBase_Small.Desc_PillarBase_Small_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walkways/Recipe_Walkway_Straight.Recipe_Walkway_Straight_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Walkway/Desc_WalkwayStraight.Desc_WalkwayStraight_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walkways/Recipe_Walkway_Cross.Recipe_Walkway_Cross_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Walkway/Desc_WalkwayCross.Desc_WalkwayCross_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walkways/Recipe_Walkway_T.Recipe_Walkway_T_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Walkway/Desc_WalkwayT.Desc_WalkwayT_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walkways/Recipe_Walkway_Turn.Recipe_Walkway_Turn_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Walkway/Desc_WalkwayTurn.Desc_WalkwayTurn_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walkways/Recipe_Walkway_Ramp.Recipe_Walkway_Ramp_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Walkway/Desc_WalkwayRamp.Desc_WalkwayRamp_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampDouble_8x1.Recipe_RampDouble_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampDouble_8x1.Desc_RampDouble_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampDouble.Recipe_RampDouble_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampDouble.Desc_RampDouble_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_8x8x8.Recipe_Ramp_8x8x8_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_8x8x8.Desc_Ramp_8x8x8_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Foundation_Concrete_8x1.Recipe_Foundation_Concrete_8x1_C",
 			"wasteProducer": "",
 			"input": [
@@ -1070,7 +1650,127 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampDouble_8x1.Recipe_RampDouble_8x1_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_RampDouble_Metal_8x1.Recipe_RampDouble_Metal_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_RampDouble_Metal_8x1.Desc_RampDouble_Metal_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_RampDouble_Metal_8x2.Recipe_RampDouble_Metal_8x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_RampDouble_Metal_8x2.Desc_RampDouble_Metal_8x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_RampDouble_Metal_8x4.Recipe_RampDouble_Metal_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_RampDouble_Metal_8x4.Desc_RampDouble_Metal_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x1_Corner_01.Recipe_RampInverted_8x1_Corner_01_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -1096,7 +1796,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampDouble_8x1.Desc_RampDouble_8x1_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x1_Corner_01.Desc_RampInverted_8x1_Corner_01_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -1110,7 +1810,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampDouble.Recipe_RampDouble_C",
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x2_Corner_01.Recipe_RampInverted_8x2_Corner_01_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -1136,7 +1836,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampDouble.Desc_RampDouble_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x2_Corner_01.Desc_RampInverted_8x2_Corner_01_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -1150,7 +1850,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_8x8x8.Recipe_Ramp_8x8x8_C",
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x4_Corner_01.Recipe_RampInverted_8x4_Corner_01_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -1176,7 +1876,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_8x8x8.Desc_Ramp_8x8x8_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x4_Corner_01.Desc_RampInverted_8x4_Corner_01_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -1190,7 +1890,127 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_RampDouble_Concrete_8x1.Recipe_RampDouble_Concrete_8x1_C",
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x1_Corner_02.Recipe_RampInverted_8x1_Corner_02_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x1_Corner_02.Desc_RampInverted_8x1_Corner_02_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x2_Corner_02.Recipe_RampInverted_8x2_Corner_02_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x2_Corner_02.Desc_RampInverted_8x2_Corner_02_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x4_Corner_02.Recipe_RampInverted_8x4_Corner_02_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x4_Corner_02.Desc_RampInverted_8x4_Corner_02_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_DCorner_Concrete_8x1.Recipe_InvertedRamp_DCorner_Concrete_8x1_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -1216,7 +2036,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_RampDouble_Concrete_8x1.Desc_RampDouble_Concrete_8x1_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_DCorner_Concrete_8x1.Desc_InvertedRamp_DCorner_Concrete_8x1_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -1230,7 +2050,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_RampDouble_Concrete_8x2.Recipe_RampDouble_Concrete_8x2_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_DCorner_Concrete_8x2.Recipe_InvertedRamp_DCorner_Concrete_8x2_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -1256,7 +2076,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_RampDouble_Concrete_8x2.Desc_RampDouble_Concrete_8x2_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_DCorner_Concrete_8x2.Desc_InvertedRamp_DCorner_Concrete_8x2_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -1270,7 +2090,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_RampDouble_Concrete_8x4.Recipe_RampDouble_Concrete_8x4_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_DCorner_Concrete_8x4.Recipe_InvertedRamp_DCorner_Concrete_8x4_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -1296,7 +2116,127 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_RampDouble_Concrete_8x4.Desc_RampDouble_Concrete_8x4_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_DCorner_Concrete_8x4.Desc_InvertedRamp_DCorner_Concrete_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_UCorner_Concrete_8x1.Recipe_InvertedRamp_UCorner_Concrete_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_UCorner_Concrete_8x1.Desc_InvertedRamp_UCorner_Concrete_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_UCorner_Concrete_8x2.Recipe_InvertedRamp_UCorner_Concrete_8x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_UCorner_Concrete_8x2.Desc_InvertedRamp_UCorner_Concrete_8x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_UCorner_Concrete_8x4.Recipe_InvertedRamp_UCorner_Concrete_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_UCorner_Concrete_8x4.Desc_InvertedRamp_UCorner_Concrete_8x4_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -1835,7 +2775,127 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x1_Corner_01.Recipe_RampInverted_8x1_Corner_01_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_RampDouble_Polished_8x1.Recipe_RampDouble_Polished_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Desc_RampDouble_Polished_8x1.Desc_RampDouble_Polished_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_RampDouble_Polished_8x2.Recipe_RampDouble_Polished_8x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Desc_RampDouble_Polished_8x2.Desc_RampDouble_Polished_8x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_RampDouble_Polished_8x4.Recipe_RampDouble_Polished_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Desc_RampDouble_Polished_8x4.Desc_RampDouble_Polished_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x1.Recipe_RampInverted_8x1_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -1861,7 +2921,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x1_Corner_01.Desc_RampInverted_8x1_Corner_01_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x1.Desc_RampInverted_8x1_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -1875,7 +2935,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x2_Corner_01.Recipe_RampInverted_8x2_Corner_01_C",
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x2_01.Recipe_RampInverted_8x2_01_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -1901,7 +2961,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x2_Corner_01.Desc_RampInverted_8x2_Corner_01_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x2_01.Desc_RampInverted_8x2_01_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -1915,7 +2975,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x4_Corner_01.Recipe_RampInverted_8x4_Corner_01_C",
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_8x4_Inverted_01.Recipe_Ramp_8x4_Inverted_01_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -1941,7 +3001,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x4_Corner_01.Desc_RampInverted_8x4_Corner_01_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_8x4_Inverted_01.Desc_Ramp_8x4_Inverted_01_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -1955,7 +3015,367 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x1_Corner_02.Recipe_RampInverted_8x1_Corner_02_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_Concrete_8x1.Recipe_InvertedRamp_Concrete_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_Concrete_8x1.Desc_InvertedRamp_Concrete_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_Concrete_8x2.Recipe_InvertedRamp_Concrete_8x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_Concrete_8x2.Desc_InvertedRamp_Concrete_8x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_Concrete_8x4.Recipe_InvertedRamp_Concrete_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_Concrete_8x4.Desc_InvertedRamp_Concrete_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_Metal_8x1.Recipe_InvertedRamp_Metal_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_Metal_8x1.Desc_InvertedRamp_Metal_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_Metal_8x2.Recipe_InvertedRamp_Metal_8x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_Metal_8x2.Desc_InvertedRamp_Metal_8x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_Metal_8x4.Recipe_InvertedRamp_Metal_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_Metal_8x4.Desc_InvertedRamp_Metal_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_InvertedRamp_Polished_8x1.Recipe_InvertedRamp_Polished_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Desc_InvertedRamp_Polished_8x1.Desc_InvertedRamp_Polished_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_InvertedRamp_Polished_8x2.Recipe_InvertedRamp_Polished_8x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Desc_InvertedRamp_Polished_8x2.Desc_InvertedRamp_Polished_8x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_InvertedRamp_Polished_8x4.Recipe_InvertedRamp_Polished_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Desc_InvertedRamp_Polished_8x4.Desc_InvertedRamp_Polished_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddleInCorner_Ficsit_8x1.Recipe_QuarterPipeMiddleInCorner_Ficsit_8x1_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -1981,7 +3401,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x1_Corner_02.Desc_RampInverted_8x1_Corner_02_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleInCorner_Ficsit_8x1.Desc_QuarterPipeMiddleInCorner_Ficsit_8x1_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -1995,7 +3415,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x2_Corner_02.Recipe_RampInverted_8x2_Corner_02_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddleInCorner_Ficsit_8x2.Recipe_QuarterPipeMiddleInCorner_Ficsit_8x2_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -2021,7 +3441,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x2_Corner_02.Desc_RampInverted_8x2_Corner_02_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleInCorner_Ficsit_8x2.Desc_QuarterPipeMiddleInCorner_Ficsit_8x2_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -2035,7 +3455,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x4_Corner_02.Recipe_RampInverted_8x4_Corner_02_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddleInCorner_Ficsit_8x4.Recipe_QuarterPipeMiddleInCorner_Ficsit_8x4_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -2061,7 +3481,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x4_Corner_02.Desc_RampInverted_8x4_Corner_02_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleInCorner_Ficsit_8x4.Desc_QuarterPipeMiddleInCorner_Ficsit_8x4_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -2075,247 +3495,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_DCorner_Concrete_8x1.Recipe_InvertedRamp_DCorner_Concrete_8x1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_DCorner_Concrete_8x1.Desc_InvertedRamp_DCorner_Concrete_8x1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_DCorner_Concrete_8x2.Recipe_InvertedRamp_DCorner_Concrete_8x2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_DCorner_Concrete_8x2.Desc_InvertedRamp_DCorner_Concrete_8x2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_DCorner_Concrete_8x4.Recipe_InvertedRamp_DCorner_Concrete_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_DCorner_Concrete_8x4.Desc_InvertedRamp_DCorner_Concrete_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_UCorner_Concrete_8x1.Recipe_InvertedRamp_UCorner_Concrete_8x1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_UCorner_Concrete_8x1.Desc_InvertedRamp_UCorner_Concrete_8x1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_UCorner_Concrete_8x2.Recipe_InvertedRamp_UCorner_Concrete_8x2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_UCorner_Concrete_8x2.Desc_InvertedRamp_UCorner_Concrete_8x2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_UCorner_Concrete_8x4.Recipe_InvertedRamp_UCorner_Concrete_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_UCorner_Concrete_8x4.Desc_InvertedRamp_UCorner_Concrete_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_DCorner_Metal_8x1.Recipe_InvertedRamp_DCorner_Metal_8x1_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x1.Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x1_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -2334,14 +3514,14 @@
 					"amount": 2
 				},
 				{
-					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
 					"time": 1,
 					"amount": 2
 				}
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_DCorner_Metal_8x1.Desc_InvertedRamp_DCorner_Metal_8x1_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleOutCorner_Ficsit_4x1.Desc_QuarterPipeMiddleOutCorner_Ficsit_4x1_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -2355,7 +3535,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_DCorner_Metal_8x2.Recipe_InvertedRamp_DCorner_Metal_8x2_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x2.Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x2_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -2374,14 +3554,14 @@
 					"amount": 2
 				},
 				{
-					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
 					"time": 1,
 					"amount": 2
 				}
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_DCorner_Metal_8x2.Desc_InvertedRamp_DCorner_Metal_8x2_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleOutCorner_Ficsit_4x2.Desc_QuarterPipeMiddleOutCorner_Ficsit_4x2_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -2395,7 +3575,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_DCorner_Metal_8x4.Recipe_InvertedRamp_DCorner_Metal_8x4_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x4.Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x4_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -2414,134 +3594,14 @@
 					"amount": 2
 				},
 				{
-					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
 					"time": 1,
 					"amount": 2
 				}
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_DCorner_Metal_8x4.Desc_InvertedRamp_DCorner_Metal_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_UCorner_Metal_8x1.Recipe_InvertedRamp_UCorner_Metal_8x1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_UCorner_Metal_8x1.Desc_InvertedRamp_UCorner_Metal_8x1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_UCorner_Metal_8x2.Recipe_InvertedRamp_UCorner_Metal_8x2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_UCorner_Metal_8x2.Desc_InvertedRamp_UCorner_Metal_8x2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_UCorner_Metal_8x4.Recipe_InvertedRamp_UCorner_Metal_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_UCorner_Metal_8x4.Desc_InvertedRamp_UCorner_Metal_8x4_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleOutCorner_Ficsit_4x4.Desc_QuarterPipeMiddleOutCorner_Ficsit_4x4_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -3155,127 +4215,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x1.Recipe_RampInverted_8x1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x1.Desc_RampInverted_8x1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_RampInverted_8x2_01.Recipe_RampInverted_8x2_01_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_RampInverted_8x2_01.Desc_RampInverted_8x2_01_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_8x4_Inverted_01.Recipe_Ramp_8x4_Inverted_01_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_8x4_Inverted_01.Desc_Ramp_8x4_Inverted_01_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_Concrete_8x1.Recipe_InvertedRamp_Concrete_8x1_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_DCorner_Asphalt_8x1.Recipe_InvertedRamp_DCorner_Asphalt_8x1_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -3294,14 +4234,14 @@
 					"amount": 2
 				},
 				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"item": "/KLib/Assets/Parts/Production/Asphalt/Desc_Asphalt.Desc_Asphalt_C",
 					"time": 1,
-					"amount": 2
+					"amount": 3
 				}
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_Concrete_8x1.Desc_InvertedRamp_Concrete_8x1_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Desc_InvertedRamp_DCorner_Asphalt_8x1.Desc_InvertedRamp_DCorner_Asphalt_8x1_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -3315,7 +4255,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_Concrete_8x2.Recipe_InvertedRamp_Concrete_8x2_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_DCorner_Asphalt_8x2.Recipe_InvertedRamp_DCorner_Asphalt_8x2_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -3334,14 +4274,14 @@
 					"amount": 2
 				},
 				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"item": "/KLib/Assets/Parts/Production/Asphalt/Desc_Asphalt.Desc_Asphalt_C",
 					"time": 1,
-					"amount": 2
+					"amount": 3
 				}
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_Concrete_8x2.Desc_InvertedRamp_Concrete_8x2_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Desc_InvertedRamp_DCorner_Asphalt_8x2.Desc_InvertedRamp_DCorner_Asphalt_8x2_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -3355,7 +4295,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_Concrete_8x4.Recipe_InvertedRamp_Concrete_8x4_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_DCorner_Asphalt_8x4.Recipe_InvertedRamp_DCorner_Asphalt_8x4_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -3374,14 +4314,14 @@
 					"amount": 2
 				},
 				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"item": "/KLib/Assets/Parts/Production/Asphalt/Desc_Asphalt.Desc_Asphalt_C",
 					"time": 1,
-					"amount": 2
+					"amount": 3
 				}
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_Concrete_8x4.Desc_InvertedRamp_Concrete_8x4_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Desc_InvertedRamp_DCorner_Asphalt_8x4.Desc_InvertedRamp_DCorner_Asphalt_8x4_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -3395,7 +4335,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_Metal_8x1.Recipe_InvertedRamp_Metal_8x1_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_UCorner_Asphalt_8x1.Recipe_InvertedRamp_UCorner_Asphalt_8x1_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -3406,7 +4346,7 @@
 				{
 					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
 					"time": 1,
-					"amount": 2
+					"amount": 1
 				},
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
@@ -3414,14 +4354,14 @@
 					"amount": 2
 				},
 				{
-					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"item": "/KLib/Assets/Parts/Production/Asphalt/Desc_Asphalt.Desc_Asphalt_C",
 					"time": 1,
-					"amount": 2
+					"amount": 3
 				}
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_Metal_8x1.Desc_InvertedRamp_Metal_8x1_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Desc_InvertedRamp_UCorner_Asphalt_8x1.Desc_InvertedRamp_UCorner_Asphalt_8x1_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -3435,7 +4375,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_Metal_8x2.Recipe_InvertedRamp_Metal_8x2_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_UCorner_Asphalt_8x2.Recipe_InvertedRamp_UCorner_Asphalt_8x2_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -3446,7 +4386,7 @@
 				{
 					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
 					"time": 1,
-					"amount": 2
+					"amount": 1
 				},
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
@@ -3454,14 +4394,14 @@
 					"amount": 2
 				},
 				{
-					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"item": "/KLib/Assets/Parts/Production/Asphalt/Desc_Asphalt.Desc_Asphalt_C",
 					"time": 1,
-					"amount": 2
+					"amount": 3
 				}
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_Metal_8x2.Desc_InvertedRamp_Metal_8x2_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Desc_InvertedRamp_UCorner_Asphalt_8x2.Desc_InvertedRamp_UCorner_Asphalt_8x2_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -3475,7 +4415,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_Metal_8x4.Recipe_InvertedRamp_Metal_8x4_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_UCorner_Asphalt_8x4.Recipe_InvertedRamp_UCorner_Asphalt_8x4_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -3486,47 +4426,7 @@
 				{
 					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
 					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_Metal_8x4.Desc_InvertedRamp_Metal_8x4_C",
-					"time": 1,
 					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_InvertedRamp_Polished_8x1.Recipe_InvertedRamp_Polished_8x1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
 				},
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
@@ -3534,554 +4434,14 @@
 					"amount": 2
 				},
 				{
-					"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Desc_InvertedRamp_Polished_8x1.Desc_InvertedRamp_Polished_8x1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_InvertedRamp_Polished_8x2.Recipe_InvertedRamp_Polished_8x2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Desc_InvertedRamp_Polished_8x2.Desc_InvertedRamp_Polished_8x2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_InvertedRamp_Polished_8x4.Recipe_InvertedRamp_Polished_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Desc_InvertedRamp_Polished_8x4.Desc_InvertedRamp_Polished_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walkways/Recipe_Walkway_Straight.Recipe_Walkway_Straight_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"item": "/KLib/Assets/Parts/Production/Asphalt/Desc_Asphalt.Desc_Asphalt_C",
 					"time": 1,
 					"amount": 3
 				}
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Walkway/Desc_WalkwayStraight.Desc_WalkwayStraight_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walkways/Recipe_Walkway_Cross.Recipe_Walkway_Cross_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Walkway/Desc_WalkwayCross.Desc_WalkwayCross_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walkways/Recipe_Walkway_T.Recipe_Walkway_T_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Walkway/Desc_WalkwayT.Desc_WalkwayT_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walkways/Recipe_Walkway_Turn.Recipe_Walkway_Turn_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Walkway/Desc_WalkwayTurn.Desc_WalkwayTurn_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walkways/Recipe_Walkway_Ramp.Recipe_Walkway_Ramp_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Walkway/Desc_WalkwayRamp.Desc_WalkwayRamp_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_Flat_Frame_01.Recipe_Flat_Frame_01_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_Flat_Frame_01.Desc_Flat_Frame_01_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_FoundationGlass_01.Recipe_FoundationGlass_01_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
-					"time": 1,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_FoundationGlass_01.Desc_FoundationGlass_01_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_Foundation_Frame_01.Recipe_Foundation_Frame_01_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_Foundation_Frame_01.Desc_Foundation_Frame_01_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_Frame_01.Recipe_Ramp_Frame_01_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_Frame_01.Desc_Ramp_Frame_01_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ramps/Recipe_Ramp_Frame_Inverted_01.Recipe_Ramp_Frame_Inverted_01_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Ramp/Desc_Ramp_Frame_Inverted_01.Desc_Ramp_Frame_Inverted_01_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_PillarMiddle.Recipe_PillarMiddle_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_PillarMiddle.Desc_PillarMiddle_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_PillarBase.Recipe_PillarBase_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_PillarBase.Desc_PillarBase_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Pillars/Recipe_PillarBase_Small.Recipe_PillarBase_Small_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Pillars/Desc_PillarBase_Small.Desc_PillarBase_Small_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Desc_InvertedRamp_UCorner_Asphalt_8x4.Desc_InvertedRamp_UCorner_Asphalt_8x4_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -4202,486 +4562,6 @@
 			"output": [
 				{
 					"item": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Desc_InvertedRamp_Asphalt_8x4.Desc_InvertedRamp_Asphalt_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddleInCorner_Ficsit_8x1.Recipe_QuarterPipeMiddleInCorner_Ficsit_8x1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleInCorner_Ficsit_8x1.Desc_QuarterPipeMiddleInCorner_Ficsit_8x1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddleInCorner_Ficsit_8x2.Recipe_QuarterPipeMiddleInCorner_Ficsit_8x2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleInCorner_Ficsit_8x2.Desc_QuarterPipeMiddleInCorner_Ficsit_8x2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddleInCorner_Ficsit_8x4.Recipe_QuarterPipeMiddleInCorner_Ficsit_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleInCorner_Ficsit_8x4.Desc_QuarterPipeMiddleInCorner_Ficsit_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x1.Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleOutCorner_Ficsit_4x1.Desc_QuarterPipeMiddleOutCorner_Ficsit_4x1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x2.Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleOutCorner_Ficsit_4x2.Desc_QuarterPipeMiddleOutCorner_Ficsit_4x2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x4.Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/FicsitSet/Desc_QuarterPipeMiddleOutCorner_Ficsit_4x4.Desc_QuarterPipeMiddleOutCorner_Ficsit_4x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_QuarterPipe.Recipe_QuarterPipe_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipe.Desc_QuarterPipe_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_QuarterPipe_02.Recipe_QuarterPipe_02_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipe_02.Desc_QuarterPipe_02_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_QuarterPipeCorner_01.Recipe_QuarterPipeCorner_01_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipeCorner_01.Desc_QuarterPipeCorner_01_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_QuarterPipeCorner_02.Recipe_QuarterPipeCorner_02_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipeCorner_02.Desc_QuarterPipeCorner_02_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_QuarterPipeCorner_03.Recipe_QuarterPipeCorner_03_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipeCorner_03.Desc_QuarterPipeCorner_03_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_QuarterPipeCorner_04.Recipe_QuarterPipeCorner_04_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipeCorner_04.Desc_QuarterPipeCorner_04_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -5055,7 +4935,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_RampDouble_Polished_8x1.Recipe_RampDouble_Polished_8x1_C",
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_QuarterPipe.Recipe_QuarterPipe_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -5074,14 +4954,14 @@
 					"amount": 2
 				},
 				{
-					"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
 					"time": 1,
 					"amount": 2
 				}
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Desc_RampDouble_Polished_8x1.Desc_RampDouble_Polished_8x1_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipe.Desc_QuarterPipe_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -5095,7 +4975,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_RampDouble_Polished_8x2.Recipe_RampDouble_Polished_8x2_C",
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_QuarterPipe_02.Recipe_QuarterPipe_02_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -5114,14 +4994,14 @@
 					"amount": 2
 				},
 				{
-					"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
 					"time": 1,
 					"amount": 2
 				}
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Desc_RampDouble_Polished_8x2.Desc_RampDouble_Polished_8x2_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipe_02.Desc_QuarterPipe_02_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -5135,7 +5015,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_RampDouble_Polished_8x4.Recipe_RampDouble_Polished_8x4_C",
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_QuarterPipeCorner_01.Recipe_QuarterPipeCorner_01_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -5154,14 +5034,134 @@
 					"amount": 2
 				},
 				{
-					"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
 					"time": 1,
 					"amount": 2
 				}
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Desc_RampDouble_Polished_8x4.Desc_RampDouble_Polished_8x4_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipeCorner_01.Desc_QuarterPipeCorner_01_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_QuarterPipeCorner_02.Recipe_QuarterPipeCorner_02_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipeCorner_02.Desc_QuarterPipeCorner_02_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_QuarterPipeCorner_03.Recipe_QuarterPipeCorner_03_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipeCorner_03.Desc_QuarterPipeCorner_03_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_QuarterPipeCorner_04.Recipe_QuarterPipeCorner_04_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_QuarterPipeCorner_04.Desc_QuarterPipeCorner_04_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -5415,247 +5415,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_DCorner_Asphalt_8x1.Recipe_InvertedRamp_DCorner_Asphalt_8x1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Asphalt/Desc_Asphalt.Desc_Asphalt_C",
-					"time": 1,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Desc_InvertedRamp_DCorner_Asphalt_8x1.Desc_InvertedRamp_DCorner_Asphalt_8x1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_DCorner_Asphalt_8x2.Recipe_InvertedRamp_DCorner_Asphalt_8x2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Asphalt/Desc_Asphalt.Desc_Asphalt_C",
-					"time": 1,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Desc_InvertedRamp_DCorner_Asphalt_8x2.Desc_InvertedRamp_DCorner_Asphalt_8x2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_DCorner_Asphalt_8x4.Recipe_InvertedRamp_DCorner_Asphalt_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Asphalt/Desc_Asphalt.Desc_Asphalt_C",
-					"time": 1,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Desc_InvertedRamp_DCorner_Asphalt_8x4.Desc_InvertedRamp_DCorner_Asphalt_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_UCorner_Asphalt_8x1.Recipe_InvertedRamp_UCorner_Asphalt_8x1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Asphalt/Desc_Asphalt.Desc_Asphalt_C",
-					"time": 1,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Desc_InvertedRamp_UCorner_Asphalt_8x1.Desc_InvertedRamp_UCorner_Asphalt_8x1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_UCorner_Asphalt_8x2.Recipe_InvertedRamp_UCorner_Asphalt_8x2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Asphalt/Desc_Asphalt.Desc_Asphalt_C",
-					"time": 1,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Desc_InvertedRamp_UCorner_Asphalt_8x2.Desc_InvertedRamp_UCorner_Asphalt_8x2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_UCorner_Asphalt_8x4.Recipe_InvertedRamp_UCorner_Asphalt_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Asphalt/Desc_Asphalt.Desc_Asphalt_C",
-					"time": 1,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Desc_InvertedRamp_UCorner_Asphalt_8x4.Desc_InvertedRamp_UCorner_Asphalt_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_RampDouble_Metal_8x1.Recipe_RampDouble_Metal_8x1_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_DCorner_Metal_8x1.Recipe_InvertedRamp_DCorner_Metal_8x1_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -5681,7 +5441,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_RampDouble_Metal_8x1.Desc_RampDouble_Metal_8x1_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_DCorner_Metal_8x1.Desc_InvertedRamp_DCorner_Metal_8x1_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -5695,7 +5455,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_RampDouble_Metal_8x2.Recipe_RampDouble_Metal_8x2_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_DCorner_Metal_8x2.Recipe_InvertedRamp_DCorner_Metal_8x2_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -5721,7 +5481,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_RampDouble_Metal_8x2.Desc_RampDouble_Metal_8x2_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_DCorner_Metal_8x2.Desc_InvertedRamp_DCorner_Metal_8x2_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -5735,7 +5495,7 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_RampDouble_Metal_8x4.Recipe_RampDouble_Metal_8x4_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_DCorner_Metal_8x4.Recipe_InvertedRamp_DCorner_Metal_8x4_C",
 			"wasteProducer": "",
 			"input": [
 				{
@@ -5761,7 +5521,247 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_RampDouble_Metal_8x4.Desc_RampDouble_Metal_8x4_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_DCorner_Metal_8x4.Desc_InvertedRamp_DCorner_Metal_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_UCorner_Metal_8x1.Recipe_InvertedRamp_UCorner_Metal_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_UCorner_Metal_8x1.Desc_InvertedRamp_UCorner_Metal_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_UCorner_Metal_8x2.Recipe_InvertedRamp_UCorner_Metal_8x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_UCorner_Metal_8x2.Desc_InvertedRamp_UCorner_Metal_8x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_UCorner_Metal_8x4.Recipe_InvertedRamp_UCorner_Metal_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_UCorner_Metal_8x4.Desc_InvertedRamp_UCorner_Metal_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_RampDouble_Concrete_8x1.Recipe_RampDouble_Concrete_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_RampDouble_Concrete_8x1.Desc_RampDouble_Concrete_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_RampDouble_Concrete_8x2.Recipe_RampDouble_Concrete_8x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_RampDouble_Concrete_8x2.Desc_RampDouble_Concrete_8x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_RampDouble_Concrete_8x4.Recipe_RampDouble_Concrete_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_RampDouble_Concrete_8x4.Desc_RampDouble_Concrete_8x4_C",
 					"time": 1,
 					"amount": 1
 				}
