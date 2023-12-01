@@ -76,6 +76,15 @@ jobs:
                   cache-from: type=gha
                   cache-to: type=gha,mode=max
 
+            - name: Setup SSH
+              run: |
+                  mkdir -p ~/.ssh/
+                  echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
+                  echo "${{ secrets.SSH_KEY_PUB }}" > ~/.ssh/id_rsa.pub
+                  chmod 600 ~/.ssh/id_rsa
+                  chmod 600 ~/.ssh/id_rsa.pub
+                  ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+
             - name: Deploy
               uses: appleboy/ssh-action@v1.0.0
               with:
@@ -83,4 +92,11 @@ jobs:
                   username: ${{ secrets.SSH_USER }}
                   key: ${{ secrets.SSH_KEY }}
                   port: 22
-                  script: cd /home/apps/ && docker-compose down ${{ env.DOCKERNAME }} && docker-compose build --pull ${{ env.DOCKERNAME }} && docker-compose up -d ${{ env.DOCKERNAME }} && docker image prune -f
+                  script: |
+                      cd /home/apps/ 
+                      docker-compose down ${{ env.DOCKERNAME }} 
+                      docker-compose build --pull ${{ env.DOCKERNAME }} 
+                      docker-compose up -d ${{ env.DOCKERNAME }} && docker image prune -f
+                      sleep 60
+                      docker-compose logs ${{ env.DOCKERNAME }}
+                      docker-compose logs ${{ env.DOCKERNAME }} | grep "Server started on port 3000" || exit 1
