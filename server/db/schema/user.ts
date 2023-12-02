@@ -1,4 +1,5 @@
 import type { AdapterAccount } from '@auth/core/adapters';
+import { relations } from 'drizzle-orm';
 import { integer, primaryKey, text, timestamp } from 'drizzle-orm/pg-core';
 import { dbSchema } from './schema';
 
@@ -8,6 +9,13 @@ export const users = dbSchema.table('user', {
 	email: text('email').notNull(),
 	emailVerified: timestamp('emailVerified', { mode: 'date' }),
 	image: text('image')
+});
+
+export const usersRelations = relations(users, ({ many }) => {
+	return {
+		accounts: many(accounts),
+		sessions: many(sessions)
+	};
 });
 
 export const accounts = dbSchema.table(
@@ -39,6 +47,15 @@ export const accounts = dbSchema.table(
 	}
 );
 
+export const accountsRelations = relations(accounts, ({ one }) => {
+	return {
+		user: one(users, {
+			fields: [accounts.userId],
+			references: [users.id]
+		})
+	};
+});
+
 export const sessions = dbSchema.table('session', {
 	sessionToken: text('sessionToken').notNull().primaryKey(),
 	userId: text('userId')
@@ -50,6 +67,15 @@ export const sessions = dbSchema.table('session', {
 			{ onDelete: 'cascade' }
 		),
 	expires: timestamp('expires', { mode: 'date' }).notNull()
+});
+
+export const sessionsRelations = relations(sessions, ({ one }) => {
+	return {
+		user: one(users, {
+			fields: [sessions.userId],
+			references: [users.id]
+		})
+	};
 });
 
 export const verificationTokens = dbSchema.table(

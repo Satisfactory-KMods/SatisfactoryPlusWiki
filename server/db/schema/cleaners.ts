@@ -1,5 +1,5 @@
 import { relations } from 'drizzle-orm';
-import { boolean, integer, numeric, text, unique, uuid } from 'drizzle-orm/pg-core';
+import { boolean, index, integer, numeric, text, unique, uuid } from 'drizzle-orm/pg-core';
 import type { SFDataType } from '~/utils/satisfactoryExtractorTypes';
 import { items } from './items';
 import { dataTypeEnum, dbSchema } from './schema';
@@ -8,45 +8,36 @@ import { schematics } from './schematics';
 // -----------------------------------------------------
 // cleaner
 // -----------------------------------------------------
-export const cleaner = dbSchema.table('cleaner', {
-	path: text('path').notNull().primaryKey(),
-	image: text('image').notNull(),
-	name: text('name').notNull(),
-	dataType: dataTypeEnum('data_type').$type<SFDataType>().notNull(),
-	description: text('description').notNull(),
-	schematic: text('schematic')
-		.notNull()
-		.references(
-			() => {
-				return schematics.path;
-			},
-			{
-				onDelete: 'cascade'
-			}
-		),
-	inFluid: text('in_fluid')
-		.notNull()
-		.references(
-			() => {
-				return items.path;
-			},
-			{
-				onDelete: 'cascade'
-			}
-		),
-	outFluid: text('out_fluid').references(
-		() => {
-			return items.path;
-		},
-		{
-			onDelete: 'cascade'
-		}
-	),
-	inAmount: integer('in_amount').notNull(),
-	outAmount: integer('out_amount').notNull(),
-	filterItem: text('filter_item')
-		.notNull()
-		.references(
+export const cleaner = dbSchema.table(
+	'cleaner',
+	{
+		id: uuid('id').defaultRandom().primaryKey(),
+		path: text('path').notNull().unique(),
+		image: text('image').notNull(),
+		name: text('name').notNull(),
+		dataType: dataTypeEnum('data_type').$type<SFDataType>().notNull(),
+		description: text('description').notNull(),
+		schematic: text('schematic')
+			.notNull()
+			.references(
+				() => {
+					return schematics.path;
+				},
+				{
+					onDelete: 'cascade'
+				}
+			),
+		inFluid: text('in_fluid')
+			.notNull()
+			.references(
+				() => {
+					return items.path;
+				},
+				{
+					onDelete: 'cascade'
+				}
+			),
+		outFluid: text('out_fluid').references(
 			() => {
 				return items.path;
 			},
@@ -54,10 +45,28 @@ export const cleaner = dbSchema.table('cleaner', {
 				onDelete: 'cascade'
 			}
 		),
-	filterNeed: boolean('filter_need').notNull(),
-	filterTime: numeric('filter_time').notNull(),
-	filterAmount: integer('filter_amount').notNull()
-});
+		inAmount: integer('in_amount').notNull(),
+		outAmount: integer('out_amount').notNull(),
+		filterItem: text('filter_item')
+			.notNull()
+			.references(
+				() => {
+					return items.path;
+				},
+				{
+					onDelete: 'cascade'
+				}
+			),
+		filterNeed: boolean('filter_need').notNull(),
+		filterTime: numeric('filter_time').notNull(),
+		filterAmount: integer('filter_amount').notNull()
+	},
+	(t) => {
+		return {
+			pathIdx: index('name_idx').on(t.path)
+		};
+	}
+);
 
 export const cleanerRelations = relations(cleaner, ({ many, one }) => {
 	return {

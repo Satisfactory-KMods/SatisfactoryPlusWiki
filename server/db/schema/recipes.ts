@@ -1,5 +1,5 @@
 import { relations } from 'drizzle-orm';
-import { boolean, integer, numeric, text, unique, uuid } from 'drizzle-orm/pg-core';
+import { boolean, index, integer, numeric, text, unique, uuid } from 'drizzle-orm/pg-core';
 import type { SFDataType } from '~/utils/satisfactoryExtractorTypes';
 import { buildables } from './buildables';
 import { items } from './items';
@@ -9,16 +9,26 @@ import { schematics } from './schematics';
 // -----------------------------------------------------
 // recipes
 // -----------------------------------------------------
-export const recipes = dbSchema.table('recipes', {
-	path: text('path').notNull().primaryKey(),
-	name: text('name').notNull(),
-	image: text('image').notNull(),
-	category: text('category').notNull(),
-	duration: numeric('duration').notNull(),
-	manuelDuration: numeric('manuel_duration').notNull(),
-	isAlternate: boolean('is_alternate').notNull(),
-	dataType: dataTypeEnum('data_type').$type<SFDataType>().notNull()
-});
+export const recipes = dbSchema.table(
+	'recipes',
+	{
+		id: uuid('id').defaultRandom().primaryKey(),
+		path: text('path').notNull().unique(),
+		name: text('name').notNull(),
+		image: text('image').notNull(),
+		category: text('category').notNull(),
+		duration: numeric('duration').notNull(),
+		manuelDuration: numeric('manuel_duration').notNull(),
+		isAlternate: boolean('is_alternate').notNull(),
+		isBuildableRecipe: boolean('is_buildable_recipe').default(false).notNull(),
+		dataType: dataTypeEnum('data_type').$type<SFDataType>().notNull()
+	},
+	(t) => {
+		return {
+			pathIdx: index('name_idx').on(t.path)
+		};
+	}
+);
 
 export const recipesRelations = relations(recipes, ({ many }) => {
 	return {

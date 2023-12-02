@@ -1,5 +1,6 @@
 export * from './buildables';
 export * from './cleaners';
+export * from './extraInformations';
 export * from './items';
 export * from './recipes';
 export * from './researchTrees';

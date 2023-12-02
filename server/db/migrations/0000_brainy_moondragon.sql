@@ -31,7 +31,8 @@ EXCEPTION
 END $$;
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "sfp-wiki"."buildables" (
-	"path" text PRIMARY KEY NOT NULL,
+	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
+	"path" text NOT NULL,
 	"name" text NOT NULL,
 	"description" text NOT NULL,
 	"image" text NOT NULL,
@@ -53,11 +54,13 @@ CREATE TABLE IF NOT EXISTS "sfp-wiki"."buildables" (
 	"category" text NOT NULL,
 	"subCategory" text NOT NULL,
 	"form" "item_form" NOT NULL,
-	"data_type" "data_type" NOT NULL
+	"data_type" "data_type" NOT NULL,
+	CONSTRAINT "buildables_path_unique" UNIQUE("path")
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "sfp-wiki"."cleaner" (
-	"path" text PRIMARY KEY NOT NULL,
+	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
+	"path" text NOT NULL,
 	"image" text NOT NULL,
 	"name" text NOT NULL,
 	"data_type" "data_type" NOT NULL,
@@ -70,7 +73,8 @@ CREATE TABLE IF NOT EXISTS "sfp-wiki"."cleaner" (
 	"filter_item" text NOT NULL,
 	"filter_need" boolean NOT NULL,
 	"filter_time" numeric NOT NULL,
-	"filter_amount" integer NOT NULL
+	"filter_amount" integer NOT NULL,
+	CONSTRAINT "cleaner_path_unique" UNIQUE("path")
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "sfp-wiki"."cleaner_bypass" (
@@ -82,8 +86,50 @@ CREATE TABLE IF NOT EXISTS "sfp-wiki"."cleaner_bypass" (
 	CONSTRAINT "cleaner_bypass_cleaner_path_item_path_unique" UNIQUE("cleaner_path","item_path")
 );
 --> statement-breakpoint
+CREATE TABLE IF NOT EXISTS "sfp-wiki"."extra_informations" (
+	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
+	"buildable_path" text,
+	"item_path" text,
+	"name" text NOT NULL,
+	"is_vehicle" boolean DEFAULT false NOT NULL,
+	"is_cleaner" boolean DEFAULT false NOT NULL,
+	"is_miner" boolean DEFAULT false NOT NULL,
+	"is_modul" boolean DEFAULT false NOT NULL,
+	"is_hatchery" boolean DEFAULT false NOT NULL,
+	"is_hatchery_modul" boolean DEFAULT false NOT NULL,
+	CONSTRAINT "extra_informations_buildable_path_unique" UNIQUE("buildable_path"),
+	CONSTRAINT "extra_informations_item_path_unique" UNIQUE("item_path")
+);
+--> statement-breakpoint
+CREATE TABLE IF NOT EXISTS "sfp-wiki"."extra_recipe" (
+	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
+	"used_in" uuid,
+	"produced_in" uuid,
+	"building_recipe" boolean DEFAULT false NOT NULL,
+	"waste_producer" text DEFAULT '' NOT NULL,
+	"production_element" text DEFAULT '' NOT NULL,
+	"type" integer DEFAULT 0 NOT NULL
+);
+--> statement-breakpoint
+CREATE TABLE IF NOT EXISTS "sfp-wiki"."extra_recipe_input" (
+	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
+	"extra_recipe" uuid NOT NULL,
+	"item_path" text NOT NULL,
+	CONSTRAINT "extra_recipe_input_extra_recipe_item_path_unique" UNIQUE("extra_recipe","item_path")
+);
+--> statement-breakpoint
+CREATE TABLE IF NOT EXISTS "sfp-wiki"."extra_recipe_output" (
+	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
+	"extra_recipe" uuid NOT NULL,
+	"item_path" text NOT NULL,
+	"amount" integer NOT NULL,
+	"time" numeric NOT NULL,
+	CONSTRAINT "extra_recipe_output_extra_recipe_item_path_unique" UNIQUE("extra_recipe","item_path")
+);
+--> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "sfp-wiki"."items" (
-	"path" text PRIMARY KEY NOT NULL,
+	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
+	"path" text NOT NULL,
 	"name" text NOT NULL,
 	"description" text NOT NULL,
 	"gas_color" varchar(8) NOT NULL,
@@ -101,7 +147,8 @@ CREATE TABLE IF NOT EXISTS "sfp-wiki"."items" (
 	"image" text NOT NULL,
 	"category" text NOT NULL,
 	"subCategory" text NOT NULL,
-	"data_type" "data_type" NOT NULL
+	"data_type" "data_type" NOT NULL,
+	CONSTRAINT "items_path_unique" UNIQUE("path")
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "sfp-wiki"."produced_in" (
@@ -112,14 +159,17 @@ CREATE TABLE IF NOT EXISTS "sfp-wiki"."produced_in" (
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "sfp-wiki"."recipes" (
-	"path" text PRIMARY KEY NOT NULL,
+	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
+	"path" text NOT NULL,
 	"name" text NOT NULL,
 	"image" text NOT NULL,
 	"category" text NOT NULL,
 	"duration" numeric NOT NULL,
 	"manuel_duration" numeric NOT NULL,
 	"is_alternate" boolean NOT NULL,
-	"data_type" "data_type" NOT NULL
+	"is_buildable_recipe" boolean DEFAULT false NOT NULL,
+	"data_type" "data_type" NOT NULL,
+	CONSTRAINT "recipes_path_unique" UNIQUE("path")
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "sfp-wiki"."recipes_input" (
@@ -139,12 +189,14 @@ CREATE TABLE IF NOT EXISTS "sfp-wiki"."recipes_output" (
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "sfp-wiki"."research_tree" (
-	"path" text PRIMARY KEY NOT NULL,
+	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
+	"path" text NOT NULL,
 	"name" text NOT NULL,
 	"description" text NOT NULL,
 	"image" text NOT NULL,
 	"tree_unlocks" json NOT NULL,
-	"data_type" "data_type" NOT NULL
+	"data_type" "data_type" NOT NULL,
+	CONSTRAINT "research_tree_path_unique" UNIQUE("path")
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "sfp-wiki"."research_tree_nodes" (
@@ -180,7 +232,8 @@ CREATE TABLE IF NOT EXISTS "sfp-wiki"."scanner_unlocks" (
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "sfp-wiki"."schematics" (
-	"path" text PRIMARY KEY NOT NULL,
+	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
+	"path" text NOT NULL,
 	"name" text NOT NULL,
 	"description" text NOT NULL,
 	"image" text NOT NULL,
@@ -192,7 +245,8 @@ CREATE TABLE IF NOT EXISTS "sfp-wiki"."schematics" (
 	"time" numeric NOT NULL,
 	"hand_slots" integer NOT NULL,
 	"inventory_slots" integer NOT NULL,
-	"data_type" "data_type" NOT NULL
+	"data_type" "data_type" NOT NULL,
+	CONSTRAINT "schematics_path_unique" UNIQUE("path")
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "sfp-wiki"."schematic_costs" (
@@ -248,7 +302,8 @@ CREATE TABLE IF NOT EXISTS "sfp-wiki"."verificationToken" (
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "sfp-wiki"."map" (
 	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
-	"item_path" text NOT NULL,
+	"item_path" text,
+	"raw_item_path" text NOT NULL,
 	"type" "resource_node_type" NOT NULL,
 	"x" numeric NOT NULL,
 	"y" numeric NOT NULL,
@@ -258,6 +313,12 @@ CREATE TABLE IF NOT EXISTS "sfp-wiki"."map" (
 	"satelites" json NOT NULL
 );
 --> statement-breakpoint
+CREATE INDEX IF NOT EXISTS "name_idx" ON "sfp-wiki"."buildables" ("path");--> statement-breakpoint
+CREATE INDEX IF NOT EXISTS "name_idx" ON "sfp-wiki"."cleaner" ("path");--> statement-breakpoint
+CREATE INDEX IF NOT EXISTS "name_idx" ON "sfp-wiki"."items" ("path");--> statement-breakpoint
+CREATE INDEX IF NOT EXISTS "name_idx" ON "sfp-wiki"."recipes" ("path");--> statement-breakpoint
+CREATE INDEX IF NOT EXISTS "name_idx" ON "sfp-wiki"."research_tree" ("path");--> statement-breakpoint
+CREATE INDEX IF NOT EXISTS "name_idx" ON "sfp-wiki"."schematics" ("path");--> statement-breakpoint
 DO $$ BEGIN
  ALTER TABLE "sfp-wiki"."cleaner" ADD CONSTRAINT "cleaner_schematic_schematics_path_fk" FOREIGN KEY ("schematic") REFERENCES "sfp-wiki"."schematics"("path") ON DELETE cascade ON UPDATE no action;
 EXCEPTION
@@ -290,6 +351,54 @@ END $$;
 --> statement-breakpoint
 DO $$ BEGIN
  ALTER TABLE "sfp-wiki"."cleaner_bypass" ADD CONSTRAINT "cleaner_bypass_item_path_items_path_fk" FOREIGN KEY ("item_path") REFERENCES "sfp-wiki"."items"("path") ON DELETE cascade ON UPDATE no action;
+EXCEPTION
+ WHEN duplicate_object THEN null;
+END $$;
+--> statement-breakpoint
+DO $$ BEGIN
+ ALTER TABLE "sfp-wiki"."extra_informations" ADD CONSTRAINT "extra_informations_buildable_path_buildables_path_fk" FOREIGN KEY ("buildable_path") REFERENCES "sfp-wiki"."buildables"("path") ON DELETE cascade ON UPDATE no action;
+EXCEPTION
+ WHEN duplicate_object THEN null;
+END $$;
+--> statement-breakpoint
+DO $$ BEGIN
+ ALTER TABLE "sfp-wiki"."extra_informations" ADD CONSTRAINT "extra_informations_item_path_items_path_fk" FOREIGN KEY ("item_path") REFERENCES "sfp-wiki"."items"("path") ON DELETE cascade ON UPDATE no action;
+EXCEPTION
+ WHEN duplicate_object THEN null;
+END $$;
+--> statement-breakpoint
+DO $$ BEGIN
+ ALTER TABLE "sfp-wiki"."extra_recipe" ADD CONSTRAINT "extra_recipe_used_in_extra_informations_id_fk" FOREIGN KEY ("used_in") REFERENCES "sfp-wiki"."extra_informations"("id") ON DELETE cascade ON UPDATE no action;
+EXCEPTION
+ WHEN duplicate_object THEN null;
+END $$;
+--> statement-breakpoint
+DO $$ BEGIN
+ ALTER TABLE "sfp-wiki"."extra_recipe" ADD CONSTRAINT "extra_recipe_produced_in_extra_informations_id_fk" FOREIGN KEY ("produced_in") REFERENCES "sfp-wiki"."extra_informations"("id") ON DELETE cascade ON UPDATE no action;
+EXCEPTION
+ WHEN duplicate_object THEN null;
+END $$;
+--> statement-breakpoint
+DO $$ BEGIN
+ ALTER TABLE "sfp-wiki"."extra_recipe_input" ADD CONSTRAINT "extra_recipe_input_extra_recipe_extra_recipe_id_fk" FOREIGN KEY ("extra_recipe") REFERENCES "sfp-wiki"."extra_recipe"("id") ON DELETE cascade ON UPDATE no action;
+EXCEPTION
+ WHEN duplicate_object THEN null;
+END $$;
+--> statement-breakpoint
+DO $$ BEGIN
+ ALTER TABLE "sfp-wiki"."extra_recipe_input" ADD CONSTRAINT "extra_recipe_input_item_path_schematics_path_fk" FOREIGN KEY ("item_path") REFERENCES "sfp-wiki"."schematics"("path") ON DELETE cascade ON UPDATE no action;
+EXCEPTION
+ WHEN duplicate_object THEN null;
+END $$;
+--> statement-breakpoint
+DO $$ BEGIN
+ ALTER TABLE "sfp-wiki"."extra_recipe_output" ADD CONSTRAINT "extra_recipe_output_extra_recipe_extra_recipe_id_fk" FOREIGN KEY ("extra_recipe") REFERENCES "sfp-wiki"."extra_recipe"("id") ON DELETE cascade ON UPDATE no action;
+EXCEPTION
+ WHEN duplicate_object THEN null;
+END $$;
+--> statement-breakpoint
+DO $$ BEGIN
+ ALTER TABLE "sfp-wiki"."extra_recipe_output" ADD CONSTRAINT "extra_recipe_output_item_path_items_path_fk" FOREIGN KEY ("item_path") REFERENCES "sfp-wiki"."items"("path") ON DELETE cascade ON UPDATE no action;
 EXCEPTION
  WHEN duplicate_object THEN null;
 END $$;

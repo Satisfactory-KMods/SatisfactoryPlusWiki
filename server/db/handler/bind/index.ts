@@ -1,8 +1,10 @@
 import { eq } from 'drizzle-orm';
-import { log } from '~/utils/logger';
+import type { Nullish } from '~/utils/logger/index';
+import { log } from '~/utils/logger/index';
 import { cleaner, cleanerByPass, db, researchTree, researchTreeNodes, researchTreeSchematics } from '../..';
 import { producedIn, recipes, recipesInput, recipesOutput } from '../../schema/recipes';
 import { recipeUnlocks, scannerUnlocks, schematics, schematicsCosts, subSchematics } from '../../schema/schematics';
+import { extraInformations, extraRecipe, extraRecipeInput, extraRecipeOutput, extraRecipeSchematics } from './../../schema/extraInformations';
 
 export async function prepareItems(data: any) {
 	return await Promise.resolve(data);
@@ -57,16 +59,20 @@ export async function prepareRecipe(data: any) {
 	}
 
 	if (result) {
-		for (const producedInEl of data.producedIn) {
-			await db
-				.insert(producedIn)
-				.values({
-					recipePath: result.path,
-					buildingPath: producedInEl
-				})
-				.catch((err) => {
-					log('warn', data.name, producedInEl, err.message);
-				});
+		if (data.producedIn.length === 0) {
+			await db.update(recipes).set({ isBuildableRecipe: true }).where(eq(recipes.path, data.path));
+		} else {
+			for (const producedInEl of data.producedIn) {
+				await db
+					.insert(producedIn)
+					.values({
+						recipePath: result.path,
+						buildingPath: producedInEl
+					})
+					.catch((err) => {
+						log('warn', data.name, producedInEl, err.message);
+					});
+			}
 		}
 		for (const input of data.input) {
 			await db
@@ -192,5 +198,83 @@ export async function prepareSchematic(data: any) {
 }
 
 export async function prepareInformations(data: any) {
+	if (!data.produced.length && !data.consumed.length) return;
+	let buildablePath: Nullish<string> = null;
+	let itemPath: Nullish<string> = null;
+
+	if (data.buildingPath.length > 0) {
+		buildablePath = data.buildingPath;
+	} else {
+		itemPath = data.path;
+	}
+
+	const extraInfo = await db
+		.insert(extraInformations)
+		.values({
+			...data,
+			buildablePath,
+			itemPath
+		})
+		.returning()
+		.then((r) => {
+			return r.at(0);
+		})
+		.catch((err) => {
+			log('error', data.name, err.message);
+		});
+	if (!extraInfo) return;
+
+	const write = async (recipe: any, usedIn: Nullish<string> = null, producedIn: Nullish<string> = null) => {
+		const extraRecipes = await await db
+			.insert(extraRecipe)
+			.values({
+				...recipe,
+				usedIn,
+				producedIn
+			})
+			.returning()
+			.then((r) => {
+				return r.at(0);
+			});
+
+		if (!extraRecipes) return;
+
+		await Promise.all([
+			...recipe.schematics.map((schematicPath: any) => {
+				return db.insert(extraRecipeSchematics).values({
+					extraRecipe: extraRecipes.id,
+					schematicPath
+				});
+			})
+		]);
+		await Promise.all([
+			...recipe.input.map((el: any) => {
+				return db.insert(extraRecipeInput).values({
+					extraRecipe: extraRecipes.id,
+					itemPath: el.item,
+					...el
+				});
+			})
+		]);
+		await Promise.all([
+			...recipe.output.map((el: any) => {
+				return db.insert(extraRecipeOutput).values({
+					extraRecipe: extraRecipes.id,
+					itemPath: el.item,
+					...el
+				});
+			})
+		]);
+	};
+
+	await Promise.all([
+		...data.consumed.map((consumed: any) => {
+			return write(consumed, extraInfo.id);
+		}),
+		...data.produced.map((produced: any) => {
+			return write(produced, null, extraInfo.id);
+		})
+	]);
+
 	return await Promise.resolve(data);
 }
