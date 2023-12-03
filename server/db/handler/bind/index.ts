@@ -7,11 +7,11 @@ import { recipeUnlocks, scannerUnlocks, schematics, schematicsCosts, subSchemati
 import { wikiElement } from '../../schema/wiki';
 import { extraInformations, extraRecipe, extraRecipeInput, extraRecipeOutput, extraRecipeSchematics } from './../../schema/extraInformations';
 
-export async function prepareItems(data: any) {
+export async function bindItems(data: any) {
 	return await Promise.resolve(data);
 }
 
-export async function prepareResearchTree(data: any) {
+export async function bindResearchTree(data: any) {
 	const result = await db
 		.select()
 		.from(researchTree)
@@ -37,16 +37,16 @@ export async function prepareResearchTree(data: any) {
 	return await Promise.resolve(data);
 }
 
-export async function prepareResourceMap(data: any) {
+export async function bindResourceMap(data: any) {
 	return await Promise.resolve(data);
 }
 
-export async function prepareBuildable(data: any) {
+export async function bindBuildable(data: any) {
 	data.path = data.buildingPath ?? data.path;
 	return await Promise.resolve(data);
 }
 
-export async function prepareRecipe(data: any) {
+export async function bindRecipe(data: any) {
 	const result = await db
 		.select()
 		.from(recipes)
@@ -103,7 +103,7 @@ export async function prepareRecipe(data: any) {
 	return await Promise.resolve(data);
 }
 
-export async function prepareCleaner(data: any) {
+export async function bindCleaner(data: any) {
 	if (data.outFluid.startsWith('Class')) data.outFluid = null;
 	const result = await db
 		.insert(cleaner)
@@ -143,7 +143,7 @@ export async function prepareCleaner(data: any) {
 	return await Promise.resolve(data);
 }
 
-export async function prepareSchematic(data: any) {
+export async function bindSchematic(data: any) {
 	const result = await db
 		.select()
 		.from(schematics)
@@ -205,7 +205,7 @@ export async function prepareSchematic(data: any) {
 	return await Promise.resolve(data);
 }
 
-export async function prepareInformations(data: any) {
+export async function bindInformations(data: any) {
 	if (!data.produced.length && !data.consumed.length) return;
 	let buildablePath: Nullish<string> = null;
 	let itemPath: Nullish<string> = null;
@@ -243,34 +243,56 @@ export async function prepareInformations(data: any) {
 			.returning()
 			.then((r) => {
 				return r.at(0);
+			})
+			.catch((err) => {
+				log('warn', extraInfo.id, recipe.path, data.name, err.message);
+				return null;
 			});
 
 		if (!extraRecipes) return;
 
 		await Promise.all([
 			...recipe.schematics.map((schematicPath: any) => {
-				return db.insert(extraRecipeSchematics).values({
-					extraRecipe: extraRecipes.id,
-					schematicPath
-				});
+				return db
+					.insert(extraRecipeSchematics)
+					.values({
+						extraRecipe: extraRecipes.id,
+						schematicPath
+					})
+					.catch((err) => {
+						log('warn', extraInfo.id, extraRecipes.id, schematicPath, err.message);
+						return null;
+					});
 			})
 		]);
 		await Promise.all([
 			...recipe.input.map((el: any) => {
-				return db.insert(extraRecipeInput).values({
-					extraRecipe: extraRecipes.id,
-					itemPath: el.item,
-					...el
-				});
+				return db
+					.insert(extraRecipeInput)
+					.values({
+						extraRecipe: extraRecipes.id,
+						itemPath: el.item,
+						...el
+					})
+					.catch((err) => {
+						log('warn', extraInfo.id, extraRecipes.id, el.item, err.message);
+						return null;
+					});
 			})
 		]);
 		await Promise.all([
 			...recipe.output.map((el: any) => {
-				return db.insert(extraRecipeOutput).values({
-					extraRecipe: extraRecipes.id,
-					itemPath: el.item,
-					...el
-				});
+				return db
+					.insert(extraRecipeOutput)
+					.values({
+						extraRecipe: extraRecipes.id,
+						itemPath: el.item,
+						...el
+					})
+					.catch((err) => {
+						log('warn', extraInfo.id, extraRecipes.id, el.item, err.message);
+						return null;
+					});
 			})
 		]);
 	};

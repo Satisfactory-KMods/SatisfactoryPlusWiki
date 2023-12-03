@@ -2,47 +2,38 @@ import fs from 'fs/promises';
 import { join } from 'path';
 import type { Nullish } from '~/utils/logger';
 import { SFDataType } from '~/utils/satisfactoryExtractorTypes';
-import {
-	prepareBuildable,
-	prepareCleaner,
-	prepareInformations,
-	prepareItems,
-	prepareRecipe,
-	prepareResearchTree,
-	prepareResourceMap,
-	prepareSchematic
-} from './bind/index';
+import { bindBuildable, bindCleaner, bindInformations, bindItems, bindRecipe, bindResearchTree, bindResourceMap, bindSchematic } from './bind/index';
 
 export async function handleJsonData(data: any) {
 	const dataType: Nullish<SFDataType> = data.dataType;
 	if (dataType) {
 		switch (dataType) {
 			case SFDataType.buildable:
-				await prepareBuildable(data);
+				await bindBuildable(data);
 				break;
 			case SFDataType.recipe:
-				await prepareRecipe(data);
+				await bindRecipe(data);
 				break;
 			case SFDataType.cleaner:
-				await prepareCleaner(data);
+				await bindCleaner(data);
 				break;
 			case SFDataType.schematic:
-				await prepareSchematic(data);
+				await bindSchematic(data);
 				break;
 			case SFDataType.informations:
-				await prepareInformations(data);
+				await bindInformations(data);
 				break;
 			case SFDataType.itemDescriptor:
-				await prepareItems(data);
+				await bindItems(data);
 				break;
 			case SFDataType.food:
-				await prepareItems(data);
+				await bindItems(data);
 				break;
 			case SFDataType.resourceMap:
-				await prepareResourceMap(data);
+				await bindResourceMap(data);
 				break;
 			case SFDataType.researchTree:
-				await prepareResearchTree(data);
+				await bindResearchTree(data);
 				break;
 		}
 	}

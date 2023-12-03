@@ -10,9 +10,8 @@ export async function handleJsonData(data: any) {
 		if (locData.type === 'pickup') continue;
 		await Promise.all(
 			locData.locations.map(async (location: any) => {
-				await db
-					.insert(mapTable)
-					.values({
+				try {
+					await db.insert(mapTable).values({
 						itemPath,
 						noRelItemPath: itemPath,
 						type: locData.type,
@@ -22,26 +21,25 @@ export async function handleJsonData(data: any) {
 						purity: location.purity,
 						itemAmounts: location.itemAmounts,
 						satelites: location.Satelites
-					})
-
-					.catch(() => {
-						return db
-							.insert(mapTable)
-							.values({
-								itemPath: null,
-								noRelItemPath: itemPath,
-								type: locData.type,
-								x: location.x,
-								y: location.y,
-								z: location.z,
-								purity: location.purity,
-								itemAmounts: location.itemAmounts,
-								satelites: location.Satelites
-							})
-							.catch((err: any) => {
-								log('error', 'cannot create map element for item:', itemPath, err.message);
-							});
 					});
+				} catch (err) {
+					await db
+						.insert(mapTable)
+						.values({
+							itemPath: null,
+							noRelItemPath: itemPath,
+							type: locData.type,
+							x: location.x,
+							y: location.y,
+							z: location.z,
+							purity: location.purity,
+							itemAmounts: location.itemAmounts,
+							satelites: location.Satelites
+						})
+						.catch((err: any) => {
+							log('error', 'cannot create map element for item:', itemPath, err.message);
+						});
+				}
 			})
 		);
 	}

@@ -1,4 +1,3 @@
-import { log } from '~/utils/logger';
 import { buildables, db, items, researchTree, schematics } from '../..';
 import { recipes } from '../../schema/recipes';
 import { wikiElement } from './../../schema/wiki';
@@ -7,9 +6,7 @@ export async function prepareItems(data: any) {
 	await db
 		.insert(items)
 		.values(data)
-		.catch((err) => {
-			log('warn', data.name, err.message);
-		});
+		.catch(() => {});
 	await db
 		.insert(wikiElement)
 		.values({
@@ -23,9 +20,7 @@ export async function prepareResearchTree(data: any) {
 	await db
 		.insert(researchTree)
 		.values(data)
-		.catch((err) => {
-			log('warn', data.name, err.message);
-		});
+		.catch(() => {});
 	await db
 		.insert(wikiElement)
 		.values({
@@ -44,9 +39,7 @@ export async function prepareBuildable(data: any) {
 	await db
 		.insert(buildables)
 		.values(data)
-		.catch((err) => {
-			log('warn', data.name, err.message);
-		});
+		.catch(() => {});
 	await db
 		.insert(wikiElement)
 		.values({
@@ -60,9 +53,7 @@ export async function prepareRecipe(data: any) {
 	await db
 		.insert(recipes)
 		.values(data)
-		.catch((err) => {
-			log('warn', data.name, err.message);
-		});
+		.catch(() => {});
 	await db
 		.insert(wikiElement)
 		.values({
@@ -80,9 +71,7 @@ export async function prepareSchematic(data: any) {
 	await db
 		.insert(schematics)
 		.values(data)
-		.catch((err) => {
-			log('warn', data.name, err.message);
-		});
+		.catch(() => {});
 	await db
 		.insert(wikiElement)
 		.values({
