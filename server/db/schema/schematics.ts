@@ -34,6 +34,9 @@ export const schematics = dbSchema.table(
 	}
 );
 
+export type SchematicInsert = typeof schematics.$inferInsert;
+export type SchematicSelect = typeof schematics.$inferSelect;
+
 export const schematicsRelations = relations(schematics, ({ many }) => {
 	return {
 		schematics: many(schematics),

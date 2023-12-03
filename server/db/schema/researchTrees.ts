@@ -25,6 +25,9 @@ export const researchTree = dbSchema.table(
 	}
 );
 
+export type ResearchTreeInsert = typeof researchTree.$inferInsert;
+export type ResearchTreeSelect = typeof researchTree.$inferSelect;
+
 export const researchTreeRelations = relations(researchTree, ({ many }) => {
 	return {
 		schematics: many(schematics),

@@ -68,6 +68,9 @@ export const cleaner = dbSchema.table(
 	}
 );
 
+export type CleanerInsert = typeof cleaner.$inferInsert;
+export type CleanerSelect = typeof cleaner.$inferSelect;
+
 export const cleanerRelations = relations(cleaner, ({ many, one }) => {
 	return {
 		schematicData: one(schematics, {

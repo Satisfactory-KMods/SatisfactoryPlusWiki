@@ -30,6 +30,9 @@ export const recipes = dbSchema.table(
 	}
 );
 
+export type RecipeInsert = typeof recipes.$inferInsert;
+export type RecipeSelect = typeof recipes.$inferSelect;
+
 export const recipesRelations = relations(recipes, ({ many }) => {
 	return {
 		inputs: many(recipesInput),

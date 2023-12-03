@@ -39,6 +39,9 @@ export const buildables = dbSchema.table(
 	}
 );
 
+export type BuildableInsert = typeof buildables.$inferInsert;
+export type BuildableSelect = typeof buildables.$inferSelect;
+
 export const buildablesRelations = relations(buildables, ({ many }) => {
 	return {
 		schematics: many(schematics),

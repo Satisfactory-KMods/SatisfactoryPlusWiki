@@ -15,10 +15,10 @@
 	"devDependencies": {
 		"@commitlint/cli": "^18.4.3",
 		"@commitlint/config-conventional": "^18.4.3",
-		"@formkit/auto-animate": "^0.8.1",
 		"@hebilicious/authjs-nuxt": "^0.3.5",
 		"@nuxt/devtools": "latest",
-		"@nuxt/image": "^1.1.0",
+		"@nuxt/image": "^1.0.0",
+		"@nuxt/types": "^2.17.2",
 		"@nuxt/ui": "^2.11.0",
 		"@nuxtjs/eslint-config-typescript": "^12.1.0",
 		"@pinia-plugin-persistedstate/nuxt": "^1.2.0",
@@ -32,7 +32,6 @@
 		"@types/lodash": "^4.14.202",
 		"@types/uuid": "^9.0.7",
 		"@typescript-eslint/parser": "^6.13.1",
-		"@vue-final-modal/nuxt": "^1.0.2",
 		"@vueuse/nuxt": "^10.6.1",
 		"drizzle-kit": "^0.20.6",
 		"eslint": "^8.55.0",
@@ -42,7 +41,6 @@
 		"husky": "^8.0.3",
 		"nuxt": "^3.8.2",
 		"nuxt-icon": "^0.6.6",
-		"nuxt-lodash": "^2.5.3",
 		"nuxt-typed-router": "^3.4.0",
 		"nuxt3-leaflet": "^1.0.12",
 		"prettier": "^3.1.0",
@@ -58,6 +56,7 @@
 	"dependencies": {
 		"@auth/core": "^0.18.4",
 		"@auth/drizzle-adapter": "^0.3.9",
+		"@iconify/json": "^2.2.151",
 		"drizzle-orm": "^0.29.1",
 		"jimp": "^0.22.10",
 		"lodash": "^4.17.21",
@@ -65,8 +64,9 @@
 		"moment-timezone": "^0.5.43",
 		"pinia": "^2.1.7",
 		"postgres": "^3.4.3",
-		"sharp": "^0.33.0",
+		"sharp": "^0.32.6",
 		"uuid": "^9.0.1",
+		"vue-final-modal": "^4.4.6",
 		"zod": "^3.22.4"
 	}
 }

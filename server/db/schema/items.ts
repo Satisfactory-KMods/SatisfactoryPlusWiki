@@ -38,6 +38,9 @@ export const items = dbSchema.table(
 	}
 );
 
+export type ItemInsert = typeof items.$inferInsert;
+export type ItemSelect = typeof items.$inferSelect;
+
 export const itemsRelations = relations(items, ({ many }) => {
 	return {
 		schematics: many(schematics),
