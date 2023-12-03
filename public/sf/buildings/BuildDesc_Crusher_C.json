@@ -54,54 +54,6 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_Limedust_Cryolite.Recipe_Crusher_Limedust_Cryolite_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Ores/Cryolit/Res_Cryolit.Res_Cryolit_C",
-					"time": 3,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 3,
-					"amount": 3
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_Sand.Recipe_Crusher_Sand_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
-					"time": 4,
-					"amount": 4
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Sand.Desc_Sand_C",
-					"time": 4,
-					"amount": 2
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_Sapherit.Recipe_Crusher_Sapherit_C",
 			"wasteProducer": "",
 			"input": [
@@ -230,6 +182,30 @@
 			"output": [
 				{
 					"item": "/KLib/Assets/Parts/Production/Mixture/Desc_Mixture_ZincTin.Desc_Mixture_ZincTin_C",
+					"time": 3,
+					"amount": 3
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_Limedust_Cryolite.Recipe_Crusher_Limedust_Cryolite_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Ores/Cryolit/Res_Cryolit.Res_Cryolit_C",
+					"time": 3,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
 					"time": 3,
 					"amount": 3
 				}
@@ -546,6 +522,30 @@
 					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Salt.Desc_Salt_C",
 					"time": 6,
 					"amount": 5
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_Sand.Recipe_Crusher_Sand_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+					"time": 4,
+					"amount": 4
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Sand.Desc_Sand_C",
+					"time": 4,
+					"amount": 2
 				}
 			],
 			"schematics": [

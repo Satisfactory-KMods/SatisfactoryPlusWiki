@@ -75,6 +75,1101 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_WorkBench.Recipe_WorkBench_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 1,
+					"amount": 5
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/WorkBench/Desc_WorkBench.Desc_WorkBench_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_XenoZapper.Recipe_XenoZapper_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 40,
+					"amount": 50
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 40,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+					"time": 40,
+					"amount": 10
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Equipment/ShockShank/BP_EquipmentDescriptorShockShank.BP_EquipmentDescriptorShockShank_C",
+					"time": 40,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_Workshop.Recipe_Workshop_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 1,
+					"amount": 5
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/Workshop/Desc_Workshop.Desc_Workshop_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_PortableMiner.Recipe_PortableMiner_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 40,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 40,
+					"amount": 4
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Equipment/PortableMiner/BP_ItemDescriptorPortableMiner.BP_ItemDescriptorPortableMiner_C",
+					"time": 40,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 1,
+					"amount": 5
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Desc_SmelterMk1.Desc_SmelterMk1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_RIronPlates.Recipe_Assamble_RIronPlates_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 12,
+					"amount": 6
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 12,
+					"amount": 4
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
+					"time": 12,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorBeltMk1.Recipe_ConveyorBeltMk1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk1/Desc_ConveyorBeltMk1.Desc_ConveyorBeltMk1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Desc_ConveyorLiftMk1.Desc_ConveyorLiftMk1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_ModularMiner.Recipe_ModularMiner_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 20
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/ModularExtractor/Desc/BuildDesc_ModularMiner.BuildDesc_ModularMiner_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 5
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Desc_StorageContainerMk1.Desc_StorageContainerMk1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_IronSheet.Recipe_Constructor_IronSheet_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 6,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 6,
+					"amount": 3
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/RefinedPower/Buildables/Factory/AutomatedBiomassGen/Recipe_AutomatedBiomassGen.Recipe_AutomatedBiomassGen_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 20
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_TinSheet.Desc_TinSheet_C",
+					"time": 1,
+					"amount": 10
+				}
+			],
+			"output": [
+				{
+					"item": "/RefinedPower/Buildables/Factory/AutomatedBiomassGen/Desc_AutomatedBiomassGen.Desc_AutomatedBiomassGen_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/BuildGun/Recipe_SFP_WindTurbineMk1.Recipe_SFP_WindTurbineMk1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 10,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 10,
+					"amount": 15
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
+					"time": 10,
+					"amount": 20
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 10,
+					"amount": 50
+				}
+			],
+			"output": [
+				{
+					"item": "/RefinedPower/Buildables/Factory/WindTurbine_Mk1/Desc_WindTurbine_Mk1.Desc_WindTurbine_Mk1_C",
+					"time": 10,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Recipe_Alternative_GalvanizedSheet.Recipe_Alternative_GalvanizedSheet_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Ingots/Desc_ZincIngot.Desc_ZincIngot_C",
+					"time": 6,
+					"amount": 4
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 6,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 6,
+					"amount": 6
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/FicsitFarming/Buildings/Plots/CropPlot/Recipe_FF_CropPlot.Recipe_FF_CropPlot_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt.Desc_FF_Dirt_C",
+					"time": 1,
+					"amount": 200
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 20
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Buildings/Plots/CropPlot/Desc_FF_CropPlot.Desc_FF_CropPlot_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/FicsitFarming/Resources/Parts/Misc/DoggoCage/Recipe_FF_DoggoCageEmpty.Recipe_FF_DoggoCageEmpty_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 20,
+					"amount": 14
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 20,
+					"amount": 20
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Parts/Misc/DoggoCage/Desc_FF_DoggoCageEmpty.Desc_FF_DoggoCageEmpty_C",
+					"time": 20,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/FicsitFarming/Buildings/Plots/TreePlot/Recipe_FF_TreePlot.Recipe_FF_TreePlot_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt.Desc_FF_Dirt_C",
+					"time": 1,
+					"amount": 200
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 20
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Buildings/Plots/TreePlot/Desc_FF_TreePlot.Desc_FF_TreePlot_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/FicsitFarming/Buildings/Plots/FlowerPlot/Recipe_FF_FlowerPlot.Recipe_FF_FlowerPlot_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt.Desc_FF_Dirt_C",
+					"time": 1,
+					"amount": 200
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 20
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Buildings/Plots/FlowerPlot/Desc_FF_FlowerPlot.Desc_FF_FlowerPlot_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/FicsitFarming/Buildings/Plots/MyceliaPlot/Recipe_FF_MyceliaPlot.Recipe_FF_MyceliaPlot_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt.Desc_FF_Dirt_C",
+					"time": 1,
+					"amount": 200
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 20
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Buildings/Plots/MyceliaPlot/Desc_FF_MyceliaPlot.Desc_FF_MyceliaPlot_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorAttachmentSplitterSmart.Recipe_ConveyorAttachmentSplitterSmart_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Belt/Desc_BeltItemMk1.Desc_BeltItemMk1_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 10
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/Desc_ConveyorAttachmentSplitterSmart.Desc_ConveyorAttachmentSplitterSmart_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_NetworkStorageUnit_Fluid_1.Recipe_NetworkStorageUnit_Fluid_1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
+					"time": 1,
+					"amount": 20
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_NetworkStorageUnit_Fluid_1.BuildDesc_NetworkStorageUnit_Fluid_1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_NetworkStorageUnit_Solid_1.Recipe_NetworkStorageUnit_Solid_1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
+					"time": 1,
+					"amount": 20
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_NetworkStorageUnit_Solid_1.BuildDesc_NetworkStorageUnit_Solid_1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_Core.Recipe_CS_Core_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
+					"time": 1,
+					"amount": 100
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
+					"time": 1,
+					"amount": 100
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C",
+					"time": 1,
+					"amount": 200
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 500
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 200
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_CS_Core.BuildDesc_CS_Core_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_NetworkStorage_Mk1.Recipe_NetworkStorage_Mk1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
+					"time": 1,
+					"amount": 10
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_NetworkStorage_Mk1.BuildDesc_NetworkStorage_Mk1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_RAMModuleMk1_Input.Recipe_CS_RAMModuleMk1_Input_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
+					"time": 1,
+					"amount": 50
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
+					"time": 1,
+					"amount": 50
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C",
+					"time": 1,
+					"amount": 50
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 125
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 50
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
+					"time": 1,
+					"amount": 50
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_CS_RAMModuleMk1_Input.BuildDesc_CS_RAMModuleMk1_Input_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_RAMModuleMk1_Output.Recipe_CS_RAMModuleMk1_Output_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
+					"time": 1,
+					"amount": 50
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
+					"time": 1,
+					"amount": 50
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C",
+					"time": 1,
+					"amount": 50
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 125
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 50
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
+					"time": 1,
+					"amount": 50
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_CS_RAMModuleMk1_Output.BuildDesc_CS_RAMModuleMk1_Output_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_Terminal.Recipe_CS_Terminal_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
+					"time": 1,
+					"amount": 10
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_CS_Terminal.BuildDesc_CS_Terminal_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorAttachmentMerger.Recipe_ConveyorAttachmentMerger_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Belt/Desc_BeltItemMk1.Desc_BeltItemMk1_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/CA_Merger/Desc_ConveyorAttachmentMerger.Desc_ConveyorAttachmentMerger_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorAttachmentSplitter.Recipe_ConveyorAttachmentSplitter_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Belt/Desc_BeltItemMk1.Desc_BeltItemMk1_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/CA_Splitter/Desc_ConveyorAttachmentSplitter.Desc_ConveyorAttachmentSplitter_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_Foundation_8x1_01.Recipe_Foundation_8x1_01_C",
 			"wasteProducer": "",
 			"input": [
@@ -422,6 +1517,221 @@
 			"output": [
 				{
 					"item": "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x1.Desc_Wall_Orange_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_StoragePlayer.Recipe_StoragePlayer_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 4
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/StoragePlayer/Desc_StoragePlayer.Desc_StoragePlayer_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Window_8x4_01.Recipe_Wall_Window_8x4_01_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_01.Desc_Wall_Window_8x4_01_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Window_8x4_02.Recipe_Wall_Window_8x4_02_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_02.Desc_Wall_Window_8x4_02_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Window_8x4_03.Recipe_Wall_Window_8x4_03_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_03.Desc_Wall_Window_8x4_03_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Window_8x4_04.Recipe_Wall_Window_8x4_04_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_04.Desc_Wall_Window_8x4_04_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -3615,6 +4925,166 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_Angular_8x4.Recipe_Wall_Concrete_Angular_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_Angular_8x4.Desc_Wall_Concrete_Angular_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_Angular_8x8.Recipe_Wall_Concrete_Angular_8x8_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_Angular_8x8.Desc_Wall_Concrete_Angular_8x8_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_Corner_01.Recipe_Wall_Concrete_8x4_Corner_01_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x4_Corner_01.Desc_Wall_Concrete_8x4_Corner_01_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x8_Corner_01.Recipe_Wall_Concrete_8x8_Corner_01_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x8_Corner_01.Desc_Wall_Concrete_8x8_Corner_01_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_WallSet_Steel_Angular_8x4.Recipe_WallSet_Steel_Angular_8x4_C",
 			"wasteProducer": "",
 			"input": [
@@ -3692,366 +5162,6 @@
 			"output": [
 				{
 					"item": "/Game/FactoryGame/Buildable/Building/Wall/SteelWallSet/Desc_WallSet_Steel_Angular_8x8.Desc_WallSet_Steel_Angular_8x8_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Window_8x4_01.Recipe_Wall_Window_8x4_01_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_01.Desc_Wall_Window_8x4_01_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Window_8x4_02.Recipe_Wall_Window_8x4_02_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_02.Desc_Wall_Window_8x4_02_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Window_8x4_03.Recipe_Wall_Window_8x4_03_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_03.Desc_Wall_Window_8x4_03_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Window_8x4_04.Recipe_Wall_Window_8x4_04_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Window_8x4_04.Desc_Wall_Window_8x4_04_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_Window_01.Recipe_Wall_Concrete_8x4_Window_01_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x4_Window_01.Desc_Wall_Concrete_8x4_Window_01_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_Window_02.Recipe_Wall_Concrete_8x4_Window_02_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x4_Window_02.Desc_Wall_Concrete_8x4_Window_02_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_Window_03.Recipe_Wall_Concrete_8x4_Window_03_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x4_Window_03.Desc_Wall_Concrete_8x4_Window_03_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_Window_04.Recipe_Wall_Concrete_8x4_Window_04_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x4_Window_04.Desc_Wall_Concrete_8x4_Window_04_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -4520,13 +5630,13 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_Angular_8x4.Recipe_Wall_Concrete_Angular_8x4_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_Window_01.Recipe_Wall_Concrete_8x4_Window_01_C",
 			"wasteProducer": "",
 			"input": [
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
 					"time": 1,
-					"amount": 1
+					"amount": 3
 				},
 				{
 					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
@@ -4536,7 +5646,12 @@
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
 					"time": 1,
-					"amount": 2
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
+					"time": 1,
+					"amount": 3
 				},
 				{
 					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
@@ -4546,7 +5661,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_Angular_8x4.Desc_Wall_Concrete_Angular_8x4_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x4_Window_01.Desc_Wall_Concrete_8x4_Window_01_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -4560,13 +5675,13 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_Angular_8x8.Recipe_Wall_Concrete_Angular_8x8_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_Window_02.Recipe_Wall_Concrete_8x4_Window_02_C",
 			"wasteProducer": "",
 			"input": [
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
 					"time": 1,
-					"amount": 1
+					"amount": 3
 				},
 				{
 					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
@@ -4576,7 +5691,12 @@
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
 					"time": 1,
-					"amount": 2
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
+					"time": 1,
+					"amount": 3
 				},
 				{
 					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
@@ -4586,7 +5706,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_Angular_8x8.Desc_Wall_Concrete_Angular_8x8_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x4_Window_02.Desc_Wall_Concrete_8x4_Window_02_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -4600,13 +5720,13 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_Corner_01.Recipe_Wall_Concrete_8x4_Corner_01_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_Window_03.Recipe_Wall_Concrete_8x4_Window_03_C",
 			"wasteProducer": "",
 			"input": [
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
 					"time": 1,
-					"amount": 1
+					"amount": 3
 				},
 				{
 					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
@@ -4616,7 +5736,12 @@
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
 					"time": 1,
-					"amount": 2
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
+					"time": 1,
+					"amount": 3
 				},
 				{
 					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
@@ -4626,7 +5751,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x4_Corner_01.Desc_Wall_Concrete_8x4_Corner_01_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x4_Window_03.Desc_Wall_Concrete_8x4_Window_03_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -4640,13 +5765,13 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x8_Corner_01.Recipe_Wall_Concrete_8x8_Corner_01_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_Window_04.Recipe_Wall_Concrete_8x4_Window_04_C",
 			"wasteProducer": "",
 			"input": [
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
 					"time": 1,
-					"amount": 1
+					"amount": 3
 				},
 				{
 					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
@@ -4656,7 +5781,12 @@
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
 					"time": 1,
-					"amount": 2
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
+					"time": 1,
+					"amount": 3
 				},
 				{
 					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
@@ -4666,1537 +5796,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x8_Corner_01.Desc_Wall_Concrete_8x8_Corner_01_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_01.Recipe_Roof_Orange_01_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_01.Desc_Roof_Orange_01_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_02.Recipe_Roof_Orange_02_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_02.Desc_Roof_Orange_02_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_03.Recipe_Roof_Orange_03_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_03.Desc_Roof_Orange_03_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_04.Recipe_Roof_Orange_04_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_04.Desc_Roof_Orange_04_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_Workshop.Recipe_Workshop_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
-					"time": 1,
-					"amount": 5
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Factory/Workshop/Desc_Workshop.Desc_Workshop_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_PortableMiner.Recipe_PortableMiner_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 40,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
-					"time": 40,
-					"amount": 4
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/Equipment/PortableMiner/BP_ItemDescriptorPortableMiner.BP_ItemDescriptorPortableMiner_C",
-					"time": 40,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
-					"time": 1,
-					"amount": 5
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Desc_SmelterMk1.Desc_SmelterMk1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_RIronPlates.Recipe_Assamble_RIronPlates_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 12,
-					"amount": 6
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 12,
-					"amount": 4
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
-					"time": 12,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorBeltMk1.Recipe_ConveyorBeltMk1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk1/Desc_ConveyorBeltMk1.Desc_ConveyorBeltMk1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Desc_ConveyorLiftMk1.Desc_ConveyorLiftMk1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_ModularMiner.Recipe_ModularMiner_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 20
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Buildings/ModularExtractor/Desc/BuildDesc_ModularMiner.BuildDesc_ModularMiner_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 5
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Factory/StorageContainerMk1/Desc_StorageContainerMk1.Desc_StorageContainerMk1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_IronSheet.Recipe_Constructor_IronSheet_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 6,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 6,
-					"amount": 3
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/RefinedPower/Buildables/Factory/AutomatedBiomassGen/Recipe_AutomatedBiomassGen.Recipe_AutomatedBiomassGen_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 20
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_TinSheet.Desc_TinSheet_C",
-					"time": 1,
-					"amount": 10
-				}
-			],
-			"output": [
-				{
-					"item": "/RefinedPower/Buildables/Factory/AutomatedBiomassGen/Desc_AutomatedBiomassGen.Desc_AutomatedBiomassGen_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/BuildGun/Recipe_SFP_WindTurbineMk1.Recipe_SFP_WindTurbineMk1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 10,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
-					"time": 10,
-					"amount": 15
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
-					"time": 10,
-					"amount": 20
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 10,
-					"amount": 50
-				}
-			],
-			"output": [
-				{
-					"item": "/RefinedPower/Buildables/Factory/WindTurbine_Mk1/Desc_WindTurbine_Mk1.Desc_WindTurbine_Mk1_C",
-					"time": 10,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_WorkBench.Recipe_WorkBench_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
-					"time": 1,
-					"amount": 5
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Factory/WorkBench/Desc_WorkBench.Desc_WorkBench_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_XenoZapper.Recipe_XenoZapper_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 40,
-					"amount": 50
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 40,
-					"amount": 25
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
-					"time": 40,
-					"amount": 10
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/Equipment/ShockShank/BP_EquipmentDescriptorShockShank.BP_EquipmentDescriptorShockShank_C",
-					"time": 40,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_InCorner_01.Recipe_Roof_Orange_InCorner_01_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_InCorner_01.Desc_Roof_Orange_InCorner_01_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_InCorner_02.Recipe_Roof_Orange_InCorner_02_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_InCorner_02.Desc_Roof_Orange_InCorner_02_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_InCorner_03.Recipe_Roof_Orange_InCorner_03_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_InCorner_03.Desc_Roof_Orange_InCorner_03_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_OutCorner_01.Recipe_Roof_Orange_OutCorner_01_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_OutCorner_01.Desc_Roof_Orange_OutCorner_01_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_OutCorner_02.Recipe_Roof_Orange_OutCorner_02_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_OutCorner_02.Desc_Roof_Orange_OutCorner_02_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_OutCorner_03.Recipe_Roof_Orange_OutCorner_03_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_OutCorner_03.Desc_Roof_Orange_OutCorner_03_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Recipe_Alternative_GalvanizedSheet.Recipe_Alternative_GalvanizedSheet_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Ingots/Desc_ZincIngot.Desc_ZincIngot_C",
-					"time": 6,
-					"amount": 4
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 6,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 6,
-					"amount": 6
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/FicsitFarming/Buildings/Plots/CropPlot/Recipe_FF_CropPlot.Recipe_FF_CropPlot_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt.Desc_FF_Dirt_C",
-					"time": 1,
-					"amount": 200
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
-					"time": 1,
-					"amount": 25
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 25
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 20
-				}
-			],
-			"output": [
-				{
-					"item": "/FicsitFarming/Buildings/Plots/CropPlot/Desc_FF_CropPlot.Desc_FF_CropPlot_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/FicsitFarming/Resources/Parts/Misc/DoggoCage/Recipe_FF_DoggoCageEmpty.Recipe_FF_DoggoCageEmpty_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
-					"time": 20,
-					"amount": 14
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 20,
-					"amount": 20
-				}
-			],
-			"output": [
-				{
-					"item": "/FicsitFarming/Resources/Parts/Misc/DoggoCage/Desc_FF_DoggoCageEmpty.Desc_FF_DoggoCageEmpty_C",
-					"time": 20,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/FicsitFarming/Buildings/Plots/TreePlot/Recipe_FF_TreePlot.Recipe_FF_TreePlot_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt.Desc_FF_Dirt_C",
-					"time": 1,
-					"amount": 200
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
-					"time": 1,
-					"amount": 25
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 25
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 20
-				}
-			],
-			"output": [
-				{
-					"item": "/FicsitFarming/Buildings/Plots/TreePlot/Desc_FF_TreePlot.Desc_FF_TreePlot_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/FicsitFarming/Buildings/Plots/FlowerPlot/Recipe_FF_FlowerPlot.Recipe_FF_FlowerPlot_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt.Desc_FF_Dirt_C",
-					"time": 1,
-					"amount": 200
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
-					"time": 1,
-					"amount": 25
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 25
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 20
-				}
-			],
-			"output": [
-				{
-					"item": "/FicsitFarming/Buildings/Plots/FlowerPlot/Desc_FF_FlowerPlot.Desc_FF_FlowerPlot_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/FicsitFarming/Buildings/Plots/MyceliaPlot/Recipe_FF_MyceliaPlot.Recipe_FF_MyceliaPlot_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt.Desc_FF_Dirt_C",
-					"time": 1,
-					"amount": 200
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
-					"time": 1,
-					"amount": 25
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 25
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 20
-				}
-			],
-			"output": [
-				{
-					"item": "/FicsitFarming/Buildings/Plots/MyceliaPlot/Desc_FF_MyceliaPlot.Desc_FF_MyceliaPlot_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorAttachmentSplitterSmart.Recipe_ConveyorAttachmentSplitterSmart_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Belt/Desc_BeltItemMk1.Desc_BeltItemMk1_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 10
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Factory/CA_SplitterSmart/Desc_ConveyorAttachmentSplitterSmart.Desc_ConveyorAttachmentSplitterSmart_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_NetworkStorageUnit_Fluid_1.Recipe_NetworkStorageUnit_Fluid_1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 25
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
-					"time": 1,
-					"amount": 20
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_NetworkStorageUnit_Fluid_1.BuildDesc_NetworkStorageUnit_Fluid_1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_NetworkStorageUnit_Solid_1.Recipe_NetworkStorageUnit_Solid_1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 25
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
-					"time": 1,
-					"amount": 20
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_NetworkStorageUnit_Solid_1.BuildDesc_NetworkStorageUnit_Solid_1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_Core.Recipe_CS_Core_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
-					"time": 1,
-					"amount": 100
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
-					"time": 1,
-					"amount": 100
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C",
-					"time": 1,
-					"amount": 200
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 500
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 200
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_CS_Core.BuildDesc_CS_Core_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_NetworkStorage_Mk1.Recipe_NetworkStorage_Mk1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 25
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
-					"time": 1,
-					"amount": 10
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_NetworkStorage_Mk1.BuildDesc_NetworkStorage_Mk1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_RAMModuleMk1_Input.Recipe_CS_RAMModuleMk1_Input_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
-					"time": 1,
-					"amount": 50
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
-					"time": 1,
-					"amount": 50
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C",
-					"time": 1,
-					"amount": 50
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 125
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 50
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
-					"time": 1,
-					"amount": 50
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_CS_RAMModuleMk1_Input.BuildDesc_CS_RAMModuleMk1_Input_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_RAMModuleMk1_Output.Recipe_CS_RAMModuleMk1_Output_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
-					"time": 1,
-					"amount": 50
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
-					"time": 1,
-					"amount": 50
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C",
-					"time": 1,
-					"amount": 50
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 125
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 50
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
-					"time": 1,
-					"amount": 50
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_CS_RAMModuleMk1_Output.BuildDesc_CS_RAMModuleMk1_Output_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_Terminal.Recipe_CS_Terminal_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 25
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
-					"time": 1,
-					"amount": 10
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_CS_Terminal.BuildDesc_CS_Terminal_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorAttachmentMerger.Recipe_ConveyorAttachmentMerger_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Belt/Desc_BeltItemMk1.Desc_BeltItemMk1_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Factory/CA_Merger/Desc_ConveyorAttachmentMerger.Desc_ConveyorAttachmentMerger_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorAttachmentSplitter.Recipe_ConveyorAttachmentSplitter_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Belt/Desc_BeltItemMk1.Desc_BeltItemMk1_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Factory/CA_Splitter/Desc_ConveyorAttachmentSplitter.Desc_ConveyorAttachmentSplitter_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_StoragePlayer.Recipe_StoragePlayer_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 4
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Factory/StoragePlayer/Desc_StoragePlayer.Desc_StoragePlayer_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x4_Window_04.Desc_Wall_Concrete_8x4_Window_04_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -6600,6 +6200,41 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorCeilingAttachment.Recipe_ConveyorCeilingAttachment_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/ConveyorPoleWall/Desc_ConveyorCeilingAttachment.Desc_ConveyorCeilingAttachment_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Recipe_FoundationPassthrough_Lift.Recipe_FoundationPassthrough_Lift_C",
 			"wasteProducer": "",
 			"input": [
@@ -6860,6 +6495,406 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_01.Recipe_Roof_Orange_01_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_01.Desc_Roof_Orange_01_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_02.Recipe_Roof_Orange_02_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_02.Desc_Roof_Orange_02_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_03.Recipe_Roof_Orange_03_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_03.Desc_Roof_Orange_03_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_04.Recipe_Roof_Orange_04_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_04.Desc_Roof_Orange_04_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_InCorner_01.Recipe_Roof_Orange_InCorner_01_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_InCorner_01.Desc_Roof_Orange_InCorner_01_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_InCorner_02.Recipe_Roof_Orange_InCorner_02_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_InCorner_02.Desc_Roof_Orange_InCorner_02_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_InCorner_03.Recipe_Roof_Orange_InCorner_03_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_InCorner_03.Desc_Roof_Orange_InCorner_03_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_OutCorner_01.Recipe_Roof_Orange_OutCorner_01_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_OutCorner_01.Desc_Roof_Orange_OutCorner_01_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_OutCorner_02.Recipe_Roof_Orange_OutCorner_02_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_OutCorner_02.Desc_Roof_Orange_OutCorner_02_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_OutCorner_03.Recipe_Roof_Orange_OutCorner_03_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Orange_OutCorner_03.Desc_Roof_Orange_OutCorner_03_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Window_04.Recipe_Roof_Window_04_C",
 			"wasteProducer": "",
 			"input": [
@@ -6887,41 +6922,6 @@
 			"output": [
 				{
 					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Window_04.Desc_Roof_Window_04_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorCeilingAttachment.Recipe_ConveyorCeilingAttachment_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Factory/ConveyorPoleWall/Desc_ConveyorCeilingAttachment.Desc_ConveyorCeilingAttachment_C",
 					"time": 1,
 					"amount": 1
 				}

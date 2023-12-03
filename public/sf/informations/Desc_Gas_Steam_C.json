@@ -13,96 +13,6 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Ingots/Recipe_SAC_Ingots_Steel.Recipe_SAC_Ingots_Steel_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSteel.Desc_LiquidSteel_C",
-					"time": 3,
-					"amount": 1500
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
-					"time": 3,
-					"amount": 500
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C",
-					"time": 3,
-					"amount": 6
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Steam.Desc_Gas_Steam_C",
-					"time": 3,
-					"amount": 750
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedTin/Alternative_CastedTinParts.Alternative_CastedTinParts_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_3.Schematic_SF+_7_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Parts/Recipe_SAC_Parts_SteelRods.Recipe_SAC_Parts_SteelRods_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSteel.Desc_LiquidSteel_C",
-					"time": 3,
-					"amount": 1500
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
-					"time": 3,
-					"amount": 750
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_SteelRod.Desc_SteelRod_C",
-					"time": 3,
-					"amount": 6
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Steam.Desc_Gas_Steam_C",
-					"time": 3,
-					"amount": 1125
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedTin/Alternative_CastedTinParts.Alternative_CastedTinParts_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_3.Schematic_SF+_7_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Ingots/Recipe_SAC_Ingots_Bronze.Recipe_SAC_Ingots_Bronze_C",
 			"wasteProducer": "",
 			"input": [
@@ -130,8 +40,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -175,8 +85,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -220,8 +130,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -265,8 +175,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -310,8 +220,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -355,8 +265,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -400,8 +310,98 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedTin/Alternative_CastedTinParts.Alternative_CastedTinParts_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_3.Schematic_SF+_7_3_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Ingots/Recipe_SAC_Ingots_Steel.Recipe_SAC_Ingots_Steel_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSteel.Desc_LiquidSteel_C",
+					"time": 3,
+					"amount": 1500
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 3,
+					"amount": 500
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C",
+					"time": 3,
+					"amount": 6
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Steam.Desc_Gas_Steam_C",
+					"time": 3,
+					"amount": 750
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedTin/Alternative_CastedTinParts.Alternative_CastedTinParts_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_3.Schematic_SF+_7_3_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Parts/Recipe_SAC_Parts_SteelRods.Recipe_SAC_Parts_SteelRods_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSteel.Desc_LiquidSteel_C",
+					"time": 3,
+					"amount": 1500
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 3,
+					"amount": 750
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_SteelRod.Desc_SteelRod_C",
+					"time": 3,
+					"amount": 6
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Steam.Desc_Gas_Steam_C",
+					"time": 3,
+					"amount": 1125
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -445,8 +445,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -490,8 +490,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -535,8 +535,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -580,8 +580,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -625,8 +625,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -670,8 +670,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -715,8 +715,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -760,8 +760,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -805,8 +805,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -850,8 +850,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -900,8 +900,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -940,8 +940,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -985,8 +985,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -1030,8 +1030,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -1075,8 +1075,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -1120,8 +1120,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -1175,8 +1175,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -1210,8 +1210,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -1245,8 +1245,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -1282,8 +1282,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -1322,8 +1322,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",
@@ -1351,8 +1351,8 @@
 			],
 			"output": [],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C",

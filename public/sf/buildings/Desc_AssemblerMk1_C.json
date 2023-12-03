@@ -59,35 +59,6 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_LimeDustConcrete.Recipe_Assamble_LimeDustConcrete_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 4.5,
-					"amount": 1
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
-					"time": 4.5,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 4.5,
-					"amount": 3
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_6.Schematic_SF+_1_6_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_RIronPlates.Recipe_Assamble_RIronPlates_C",
 			"wasteProducer": "",
 			"input": [
@@ -281,6 +252,35 @@
 					"item": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
 					"time": 10,
 					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_6.Schematic_SF+_1_6_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_LimeDustConcrete.Recipe_Assamble_LimeDustConcrete_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 4.5,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+					"time": 4.5,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 4.5,
+					"amount": 3
 				}
 			],
 			"schematics": [

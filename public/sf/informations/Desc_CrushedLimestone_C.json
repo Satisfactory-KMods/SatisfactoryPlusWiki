@@ -1235,6 +1235,45 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_Cement.Recipe_Constructor_Cement_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+					"time": 3,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 3,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3_0.SF+_Schematic_Tutorial3_0_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2_0.Schematic_SF+_2_2_0_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedSlag/Alternative_CrushedSlag.Alternative_CrushedSlag_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Rubyte.Alternative_MixedCrushing_Rubyte_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Saperite.Alternative_MixedCrushing_Saperite_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Satmonium.Alternative_MixedCrushing_Satmonium_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_0.Schematic_Trees_Satmonium_3_0_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Stritarite.Alternative_MixedCrushing_Stritarite_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_4.Schematic_Trees_Satmonium_3_4_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_1.Schematic_Trees_Cryolit_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_6.Schematic_SF+_4_6_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_LimeDustConcrete.Recipe_Assamble_LimeDustConcrete_C",
 			"wasteProducer": "",
 			"input": [
@@ -1254,84 +1293,6 @@
 					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
 					"time": 4.5,
 					"amount": 3
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3_0.SF+_Schematic_Tutorial3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2_0.Schematic_SF+_2_2_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedSlag/Alternative_CrushedSlag.Alternative_CrushedSlag_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Rubyte.Alternative_MixedCrushing_Rubyte_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Saperite.Alternative_MixedCrushing_Saperite_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Satmonium.Alternative_MixedCrushing_Satmonium_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_0.Schematic_Trees_Satmonium_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Stritarite.Alternative_MixedCrushing_Stritarite_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_4.Schematic_Trees_Satmonium_3_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_1.Schematic_Trees_Cryolit_3_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_6.Schematic_SF+_4_6_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_Sand.Recipe_Crusher_Sand_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
-					"time": 4,
-					"amount": 4
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Sand.Desc_Sand_C",
-					"time": 4,
-					"amount": 2
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3_0.SF+_Schematic_Tutorial3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2_0.Schematic_SF+_2_2_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedSlag/Alternative_CrushedSlag.Alternative_CrushedSlag_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Rubyte.Alternative_MixedCrushing_Rubyte_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Saperite.Alternative_MixedCrushing_Saperite_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Satmonium.Alternative_MixedCrushing_Satmonium_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_0.Schematic_Trees_Satmonium_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Stritarite.Alternative_MixedCrushing_Stritarite_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_4.Schematic_Trees_Satmonium_3_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_1.Schematic_Trees_Cryolit_3_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_6.Schematic_SF+_4_6_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_Cement.Recipe_Constructor_Cement_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
-					"time": 3,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 3,
-					"amount": 1
 				}
 			],
 			"schematics": [
@@ -1415,6 +1376,45 @@
 					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
 					"time": 4,
 					"amount": 4
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3_0.SF+_Schematic_Tutorial3_0_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2_0.Schematic_SF+_2_2_0_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedSlag/Alternative_CrushedSlag.Alternative_CrushedSlag_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Rubyte.Alternative_MixedCrushing_Rubyte_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Saperite.Alternative_MixedCrushing_Saperite_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Satmonium.Alternative_MixedCrushing_Satmonium_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_0.Schematic_Trees_Satmonium_3_0_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Stritarite.Alternative_MixedCrushing_Stritarite_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_4.Schematic_Trees_Satmonium_3_4_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_1.Schematic_Trees_Cryolit_3_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_6.Schematic_SF+_4_6_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_Sand.Recipe_Crusher_Sand_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+					"time": 4,
+					"amount": 4
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Sand.Desc_Sand_C",
+					"time": 4,
+					"amount": 2
 				}
 			],
 			"schematics": [

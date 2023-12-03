@@ -1,0 +1,29 @@
+﻿{
+	"path": "/PneumaticFrackingMachine/BuildDesc_PneuMk1.BuildDesc_PneuMk1_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 80,
+	"descriptorType": 0,
+	"name": "Mk1  Pneumatic Fracking Machine",
+	"description": "240m³/min outputs at 100% node purity as Aerated Crude Oil\r\nAerated Crude Oil must be de-gassed in a refinery.\r\n\r\n80MW power required\r\n\r\nThe Pneumatic Fracking Machine (PFM) uses atmospheric gasses to inject pressurised air deep into an oil deposit to boost the extraction rate.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/PneumaticFrackingMachine/Schema_Mk1.Schema_Mk1_C"
+	],
+	"image": "/PneumaticFrackingMachine/Icon_PneuMk1.Icon_PneuMk1",
+	"category": "Production",
+	"subCategory": "Fluid Extractors",
+	"buildingPath": "/PneumaticFrackingMachine/Build_PneuMk1.Build_PneuMk1_C",
+	"dataType": "buildable"
+}

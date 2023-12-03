@@ -1,0 +1,34 @@
+﻿{
+	"path": "/PneumaticFrackingMachine/Recipe_PneuMk1_NEW.Recipe_PneuMk1_NEW_C",
+	"name": "Mk1  Pneumatic Fracking Machine",
+	"image": "/PneumaticFrackingMachine/Icon_PneuMk1.Icon_PneuMk1",
+	"input": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C",
+			"amount": 15
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SteelPlateReinforced/Desc_SteelPlateReinforced.Desc_SteelPlateReinforced_C",
+			"amount": 20
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+			"amount": 60
+		}
+	],
+	"output": [
+		{
+			"item": "/PneumaticFrackingMachine/BuildDesc_PneuMk1.BuildDesc_PneuMk1_C",
+			"amount": 1
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [],
+	"schematics": [
+		"/PneumaticFrackingMachine/Schema_Mk1.Schema_Mk1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

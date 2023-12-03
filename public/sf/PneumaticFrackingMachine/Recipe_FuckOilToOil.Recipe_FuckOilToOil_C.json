@@ -1,0 +1,28 @@
+﻿{
+	"path": "/PneumaticFrackingMachine/Recipe_FuckOilToOil.Recipe_FuckOilToOil_C",
+	"name": "Crude Oil",
+	"image": "/Game/FactoryGame/Resource/RawResources/CrudeOil/UI/LiquidOil_Pipe_512.LiquidOil_Pipe_512",
+	"input": [
+		{
+			"item": "/PneumaticFrackingMachine/Desc_AeratedOil.Desc_AeratedOil_C",
+			"amount": 5000
+		}
+	],
+	"output": [
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C",
+			"amount": 5000
+		}
+	],
+	"category": "",
+	"duration": 1,
+	"manuelDuration": 0.10000000149011612,
+	"producedIn": [
+		"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C"
+	],
+	"schematics": [
+		"/PneumaticFrackingMachine/Schema_Mk1.Schema_Mk1_C"
+	],
+	"isAlternate": false,
+	"dataType": "recipe"
+}

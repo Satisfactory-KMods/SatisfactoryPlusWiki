@@ -38,6 +38,40 @@
 		{
 			"isRecipe": true,
 			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_NobeliskDetonator.Recipe_NobeliskDetonator_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Equipment/GemstoneScanner/BP_EquipmentDescriptorObjectScanner.BP_EquipmentDescriptorObjectScanner_C",
+					"time": 80,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"time": 80,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+					"time": 80,
+					"amount": 50
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Equipment/NobeliskDetonator/BP_EquipmentDescriptorNobeliskDetonator.BP_EquipmentDescriptorNobeliskDetonator_C",
+					"time": 80,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_8x4_02.Recipe_Wall_8x4_02_C",
 			"wasteProducer": "",
@@ -819,23 +853,13 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_Ramp_DownCorner_Metal_8x1.Recipe_Ramp_DownCorner_Metal_8x1_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_QuarterPipeMiddle_Grip_8x1.Recipe_QuarterPipeMiddle_Grip_8x1_C",
 			"wasteProducer": "",
 			"input": [
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
 					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
+					"amount": 5
 				},
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
@@ -845,7 +869,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_Ramp_DownCorner_Metal_8x1.Desc_Ramp_DownCorner_Metal_8x1_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_QuarterPipeMiddle_Grip_8x1.Desc_QuarterPipeMiddle_Grip_8x1_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -858,23 +882,13 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_Ramp_DownCorner_Metal_8x2.Recipe_Ramp_DownCorner_Metal_8x2_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_QuarterPipeMiddle_Grip_8x2.Recipe_QuarterPipeMiddle_Grip_8x2_C",
 			"wasteProducer": "",
 			"input": [
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
 					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
+					"amount": 5
 				},
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
@@ -884,7 +898,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_Ramp_DownCorner_Metal_8x2.Desc_Ramp_DownCorner_Metal_8x2_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_QuarterPipeMiddle_Grip_8x2.Desc_QuarterPipeMiddle_Grip_8x2_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -897,23 +911,13 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_Ramp_DownCorner_Metal_8x4.Recipe_Ramp_DownCorner_Metal_8x4_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_QuarterPipeMiddle_Grip_8x4.Recipe_QuarterPipeMiddle_Grip_8x4_C",
 			"wasteProducer": "",
 			"input": [
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
 					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
+					"amount": 5
 				},
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
@@ -923,124 +927,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_Ramp_DownCorner_Metal_8x4.Desc_Ramp_DownCorner_Metal_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_Ramp_UpCorner_Metal_8x1.Recipe_Ramp_UpCorner_Metal_8x1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_Ramp_UpCorner_Metal_8x1.Desc_Ramp_UpCorner_Metal_8x1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_Ramp_UpCorner_Metal_8x2.Recipe_Ramp_UpCorner_Metal_8x2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_Ramp_UpCorner_Metal_8x2.Desc_Ramp_UpCorner_Metal_8x2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_Ramp_UpCorner_Metal_8x4.Recipe_Ramp_UpCorner_Metal_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_Ramp_UpCorner_Metal_8x4.Desc_Ramp_UpCorner_Metal_8x4_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_QuarterPipeMiddle_Grip_8x4.Desc_QuarterPipeMiddle_Grip_8x4_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -1635,13 +1522,23 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_QuarterPipeMiddle_Grip_8x1.Recipe_QuarterPipeMiddle_Grip_8x1_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_Ramp_DownCorner_Metal_8x1.Recipe_Ramp_DownCorner_Metal_8x1_C",
 			"wasteProducer": "",
 			"input": [
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
 					"time": 1,
-					"amount": 5
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
 				},
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
@@ -1651,7 +1548,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_QuarterPipeMiddle_Grip_8x1.Desc_QuarterPipeMiddle_Grip_8x1_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_Ramp_DownCorner_Metal_8x1.Desc_Ramp_DownCorner_Metal_8x1_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -1664,13 +1561,23 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_QuarterPipeMiddle_Grip_8x2.Recipe_QuarterPipeMiddle_Grip_8x2_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_Ramp_DownCorner_Metal_8x2.Recipe_Ramp_DownCorner_Metal_8x2_C",
 			"wasteProducer": "",
 			"input": [
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
 					"time": 1,
-					"amount": 5
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
 				},
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
@@ -1680,7 +1587,7 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_QuarterPipeMiddle_Grip_8x2.Desc_QuarterPipeMiddle_Grip_8x2_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_Ramp_DownCorner_Metal_8x2.Desc_Ramp_DownCorner_Metal_8x2_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -1693,13 +1600,23 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_QuarterPipeMiddle_Grip_8x4.Recipe_QuarterPipeMiddle_Grip_8x4_C",
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_Ramp_DownCorner_Metal_8x4.Recipe_Ramp_DownCorner_Metal_8x4_C",
 			"wasteProducer": "",
 			"input": [
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
 					"time": 1,
-					"amount": 5
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
 				},
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
@@ -1709,7 +1626,124 @@
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_QuarterPipeMiddle_Grip_8x4.Desc_QuarterPipeMiddle_Grip_8x4_C",
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_Ramp_DownCorner_Metal_8x4.Desc_Ramp_DownCorner_Metal_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_Ramp_UpCorner_Metal_8x1.Recipe_Ramp_UpCorner_Metal_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_Ramp_UpCorner_Metal_8x1.Desc_Ramp_UpCorner_Metal_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_Ramp_UpCorner_Metal_8x2.Recipe_Ramp_UpCorner_Metal_8x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_Ramp_UpCorner_Metal_8x2.Desc_Ramp_UpCorner_Metal_8x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_Ramp_UpCorner_Metal_8x4.Recipe_Ramp_UpCorner_Metal_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_Ramp_UpCorner_Metal_8x4.Desc_Ramp_UpCorner_Metal_8x4_C",
 					"time": 1,
 					"amount": 1
 				}
@@ -2393,40 +2427,6 @@
 				{
 					"item": "/Game/FactoryGame/Buildable/Building/Wall/Desc_Wall_Conveyor_8x4_03_Steel.Desc_Wall_Conveyor_8x4_03_Steel_C",
 					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_NobeliskDetonator.Recipe_NobeliskDetonator_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Equipment/GemstoneScanner/BP_EquipmentDescriptorObjectScanner.BP_EquipmentDescriptorObjectScanner_C",
-					"time": 80,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
-					"time": 80,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
-					"time": 80,
-					"amount": 50
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/Equipment/NobeliskDetonator/BP_EquipmentDescriptorNobeliskDetonator.BP_EquipmentDescriptorNobeliskDetonator_C",
-					"time": 80,
 					"amount": 1
 				}
 			],

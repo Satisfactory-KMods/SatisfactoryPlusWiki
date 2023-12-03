@@ -59,79 +59,6 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Alloy/Recipe_FBFS_Alloy_Steel.Recipe_FBFS_Alloy_Steel_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidIron.Desc_LiquidIron_C",
-					"time": 3,
-					"amount": 1500
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C",
-					"time": 3,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Air.Desc_Air_C",
-					"time": 3,
-					"amount": 750
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSteel.Desc_LiquidSteel_C",
-					"time": 3,
-					"amount": 1500
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
-					"time": 3,
-					"amount": 500
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Recipe_FBFS_Oil_Purification.Recipe_FBFS_Oil_Purification_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C",
-					"time": 3,
-					"amount": 3750
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Sand.Desc_Sand_C",
-					"time": 3,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_PurifiedCrudeOil.Desc_PurifiedCrudeOil_C",
-					"time": 3,
-					"amount": 3750
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidRawSludge.Desc_LiquidRawSludge_C",
-					"time": 3,
-					"amount": 500
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Alloy/Recipe_FBFS_Alloy_Bronze.Recipe_FBFS_Alloy_Bronze_C",
 			"wasteProducer": "",
 			"input": [
@@ -437,6 +364,45 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Alloy/Recipe_FBFS_Alloy_Steel.Recipe_FBFS_Alloy_Steel_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidIron.Desc_LiquidIron_C",
+					"time": 3,
+					"amount": 1500
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C",
+					"time": 3,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Air.Desc_Air_C",
+					"time": 3,
+					"amount": 750
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSteel.Desc_LiquidSteel_C",
+					"time": 3,
+					"amount": 1500
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
+					"time": 3,
+					"amount": 500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Recipe_Alternative_LimeSteel.Recipe_Alternative_LimeSteel_C",
 			"wasteProducer": "",
 			"input": [
@@ -537,6 +503,40 @@
 				},
 				{
 					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
+					"time": 3,
+					"amount": 500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Recipe_FBFS_Oil_Purification.Recipe_FBFS_Oil_Purification_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C",
+					"time": 3,
+					"amount": 3750
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Sand.Desc_Sand_C",
+					"time": 3,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_PurifiedCrudeOil.Desc_PurifiedCrudeOil_C",
+					"time": 3,
+					"amount": 3750
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidRawSludge.Desc_LiquidRawSludge_C",
 					"time": 3,
 					"amount": 500
 				}

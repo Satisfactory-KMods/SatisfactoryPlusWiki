@@ -59,103 +59,6 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Ingots/Recipe_SAC_Ingots_Steel.Recipe_SAC_Ingots_Steel_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSteel.Desc_LiquidSteel_C",
-					"time": 3,
-					"amount": 1500
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
-					"time": 3,
-					"amount": 500
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C",
-					"time": 3,
-					"amount": 6
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Steam.Desc_Gas_Steam_C",
-					"time": 3,
-					"amount": 750
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Parts/Recipe_SAC_Parts_SteelRods.Recipe_SAC_Parts_SteelRods_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSteel.Desc_LiquidSteel_C",
-					"time": 3,
-					"amount": 1500
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
-					"time": 3,
-					"amount": 750
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_SteelRod.Desc_SteelRod_C",
-					"time": 3,
-					"amount": 6
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Steam.Desc_Gas_Steam_C",
-					"time": 3,
-					"amount": 1125
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Recipe_SAC_OilPlasticRubber.Recipe_SAC_OilPlasticRubber_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidRefinedHydrocarbons.Desc_LiquidRefinedHydrocarbons_C",
-					"time": 6,
-					"amount": 2500
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
-					"time": 6,
-					"amount": 4
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C",
-					"time": 6,
-					"amount": 4
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Recipe_SAC_SteamWater.Recipe_SAC_SteamWater_C",
 			"wasteProducer": "",
 			"input": [
@@ -418,6 +321,74 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Ingots/Recipe_SAC_Ingots_Steel.Recipe_SAC_Ingots_Steel_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSteel.Desc_LiquidSteel_C",
+					"time": 3,
+					"amount": 1500
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 3,
+					"amount": 500
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C",
+					"time": 3,
+					"amount": 6
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Steam.Desc_Gas_Steam_C",
+					"time": 3,
+					"amount": 750
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Parts/Recipe_SAC_Parts_SteelRods.Recipe_SAC_Parts_SteelRods_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSteel.Desc_LiquidSteel_C",
+					"time": 3,
+					"amount": 1500
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 3,
+					"amount": 750
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_SteelRod.Desc_SteelRod_C",
+					"time": 3,
+					"amount": 6
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Steam.Desc_Gas_Steam_C",
+					"time": 3,
+					"amount": 1125
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Ingots/Recipe_SAC_Ingots_Brass.Recipe_SAC_Ingots_Brass_C",
 			"wasteProducer": "",
 			"input": [
@@ -442,6 +413,35 @@
 					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Steam.Desc_Gas_Steam_C",
 					"time": 3,
 					"amount": 750
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Recipe_SAC_OilPlasticRubber.Recipe_SAC_OilPlasticRubber_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidRefinedHydrocarbons.Desc_LiquidRefinedHydrocarbons_C",
+					"time": 6,
+					"amount": 2500
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+					"time": 6,
+					"amount": 4
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C",
+					"time": 6,
+					"amount": 4
 				}
 			],
 			"schematics": [

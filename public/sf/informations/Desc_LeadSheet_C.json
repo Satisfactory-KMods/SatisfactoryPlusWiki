@@ -38,6 +38,35 @@
 		{
 			"isRecipe": true,
 			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_Rotor.Recipe_Assamble_Rotor_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_CopperPlates.Desc_CopperPlates_C",
+					"time": 12,
+					"amount": 4
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_LeadSheet.Desc_LeadSheet_C",
+					"time": 12,
+					"amount": 6
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
+					"time": 12,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_6.Schematic_SF+_1_6_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_WaterPump.Recipe_WaterPump_C",
 			"wasteProducer": "",
@@ -243,35 +272,6 @@
 				{
 					"item": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Atmosphere/BuildDesc_CoolerSteam.BuildDesc_CoolerSteam_C",
 					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_6.Schematic_SF+_1_6_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_Rotor.Recipe_Assamble_Rotor_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_CopperPlates.Desc_CopperPlates_C",
-					"time": 12,
-					"amount": 4
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_LeadSheet.Desc_LeadSheet_C",
-					"time": 12,
-					"amount": 6
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
-					"time": 12,
 					"amount": 1
 				}
 			],

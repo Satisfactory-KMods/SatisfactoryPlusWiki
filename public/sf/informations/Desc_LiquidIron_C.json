@@ -215,51 +215,6 @@
 			"isRecipe": true,
 			"type": 0,
 			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Alloy/Recipe_FBFS_Alloy_Steel.Recipe_FBFS_Alloy_Steel_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidIron.Desc_LiquidIron_C",
-					"time": 3,
-					"amount": 1500
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C",
-					"time": 3,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Air.Desc_Air_C",
-					"time": 3,
-					"amount": 750
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSteel.Desc_LiquidSteel_C",
-					"time": 3,
-					"amount": 1500
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
-					"time": 3,
-					"amount": 500
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_1.Schematic_SF+_8_1_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Ingots/Recipe_SAC_Ingots_Iron.Recipe_SAC_Ingots_Iron_C",
 			"wasteProducer": "",
 			"input": [
@@ -319,6 +274,51 @@
 					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidCopper.Desc_LiquidCopper_C",
 					"time": 3,
 					"amount": 2250
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
+					"time": 3,
+					"amount": 500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
+				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_1.Schematic_SF+_8_1_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Alloy/Recipe_FBFS_Alloy_Steel.Recipe_FBFS_Alloy_Steel_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidIron.Desc_LiquidIron_C",
+					"time": 3,
+					"amount": 1500
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C",
+					"time": 3,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Air.Desc_Air_C",
+					"time": 3,
+					"amount": 750
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSteel.Desc_LiquidSteel_C",
+					"time": 3,
+					"amount": 1500
 				},
 				{
 					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
