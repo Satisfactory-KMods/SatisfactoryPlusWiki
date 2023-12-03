@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /**
  * vue directive to detect click outside of an element
  * use v-click-outside="function" or v-click-outside="{active: true, fn: function}"

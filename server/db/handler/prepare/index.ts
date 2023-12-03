@@ -1,6 +1,7 @@
 import { log } from '~/utils/logger';
 import { buildables, db, items, researchTree, schematics } from '../..';
 import { recipes } from '../../schema/recipes';
+import { wikiElement } from './../../schema/wiki';
 
 export async function prepareItems(data: any) {
 	await db
@@ -9,6 +10,12 @@ export async function prepareItems(data: any) {
 		.catch((err) => {
 			log('warn', data.name, err.message);
 		});
+	await db
+		.insert(wikiElement)
+		.values({
+			elPath: data.path
+		})
+		.catch(() => {});
 	return await Promise.resolve(data);
 }
 
@@ -19,6 +26,12 @@ export async function prepareResearchTree(data: any) {
 		.catch((err) => {
 			log('warn', data.name, err.message);
 		});
+	await db
+		.insert(wikiElement)
+		.values({
+			elPath: data.path
+		})
+		.catch(() => {});
 	return await Promise.resolve(data);
 }
 
@@ -34,6 +47,12 @@ export async function prepareBuildable(data: any) {
 		.catch((err) => {
 			log('warn', data.name, err.message);
 		});
+	await db
+		.insert(wikiElement)
+		.values({
+			elPath: data.path
+		})
+		.catch(() => {});
 	return await Promise.resolve(data);
 }
 
@@ -44,6 +63,12 @@ export async function prepareRecipe(data: any) {
 		.catch((err) => {
 			log('warn', data.name, err.message);
 		});
+	await db
+		.insert(wikiElement)
+		.values({
+			elPath: data.path
+		})
+		.catch(() => {});
 	return await Promise.resolve(data);
 }
 
@@ -58,6 +83,12 @@ export async function prepareSchematic(data: any) {
 		.catch((err) => {
 			log('warn', data.name, err.message);
 		});
+	await db
+		.insert(wikiElement)
+		.values({
+			elPath: data.path
+		})
+		.catch(() => {});
 	return await Promise.resolve(data);
 }
 

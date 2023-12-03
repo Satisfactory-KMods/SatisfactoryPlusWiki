@@ -6,6 +6,7 @@ import { mapTable } from './map';
 import { recipes } from './recipes';
 import { dataTypeEnum, dbSchema, descriptorType, itemFormEnum } from './schema';
 import { schematics } from './schematics';
+import { wikiElement } from './wiki';
 
 export const items = dbSchema.table(
 	'items',
@@ -41,11 +42,15 @@ export const items = dbSchema.table(
 export type ItemInsert = typeof items.$inferInsert;
 export type ItemSelect = typeof items.$inferSelect;
 
-export const itemsRelations = relations(items, ({ many }) => {
+export const itemsRelations = relations(items, ({ many, one }) => {
 	return {
 		schematics: many(schematics),
 		recipes: many(recipes),
 		cleaners: many(cleaner),
-		mapLocations: many(mapTable)
+		mapLocations: many(mapTable),
+		wikiEl: one(wikiElement, {
+			fields: [items.id],
+			references: [wikiElement.elPath]
+		})
 	};
 });

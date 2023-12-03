@@ -1,3 +1,5 @@
+import isEqual from 'lodash/isEqual';
+
 export type LastVisitElement = {
 	name: string;
 	path: string;
@@ -9,7 +11,11 @@ export const useLastVisit = defineStore(
 		const lastVisitArray = ref<LastVisitElement[]>([]);
 
 		const addVisit = (path: LastVisitElement) => {
-			if (lastVisitArray.value.find((v) => isEqual(v, path))) {
+			if (
+				lastVisitArray.value.find((v) => {
+					return isEqual(v, path);
+				})
+			) {
 				return;
 			}
 

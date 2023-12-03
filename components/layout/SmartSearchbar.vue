@@ -19,9 +19,14 @@
 				search: search.value
 			}
 		});
-		display.value = false;
 		search.value = '';
 		input.value = '';
+		results.value = {
+			item: [],
+			schematic: [],
+			recipe: [],
+			building: []
+		};
 	}
 
 	async function doSearch() {
@@ -44,10 +49,14 @@
 	}
 
 	const showPopover = computed(() => {
-		return Object.values(results.value).some((v) => v.length > 0) && display.value;
+		return (
+			Object.values(results.value).some((v) => {
+				return v.length > 0;
+			}) && display.value
+		);
 	});
 
-	async function clickOutsideOfPopover() {
+	function clickOutsideOfPopover() {
 		const el: HTMLInputElement = inputRef.value.$el.querySelector('input');
 		if (document.activeElement === el) {
 			return;
@@ -77,20 +86,30 @@
 				<UPopover :popper="{ arrow: true }" :open="showPopover">
 					<div />
 					<template #panel>
-						<div class="pointer-events-auto grid grid-cols-2 gap-2 p-2" v-click-outside="clickOutsideOfPopover">
-							<div class="flex h-full flex-col gap-1 rounded border bg-gray-50 p-1 dark:border-gray-600 dark:bg-gray-800">
+						<div
+							v-click-outside="{ active: showPopover, fn: clickOutsideOfPopover }"
+							class="pointer-events-auto grid grid-cols-2 gap-2 p-2">
+							<div
+								v-if="!!results.item.length"
+								class="flex h-full flex-col gap-1 rounded border bg-gray-50 p-1 dark:border-gray-600 dark:bg-gray-800">
 								<div class="font-semibolt py-1 text-center text-lg">Items</div>
 								<LayoutSmartSearchBarElement v-for="e in results.item" :key="e.id" :data="e" />
 							</div>
-							<div class="flex h-full flex-col gap-1 rounded border bg-gray-50 p-1 dark:border-gray-600 dark:bg-gray-800">
+							<div
+								v-if="!!results.building.length"
+								class="flex h-full flex-col gap-1 rounded border bg-gray-50 p-1 dark:border-gray-600 dark:bg-gray-800">
 								<div class="font-semibolt py-1 text-center text-lg">Buildings</div>
 								<LayoutSmartSearchBarElement v-for="e in results.building" :key="e.id" :data="e" />
 							</div>
-							<div class="flex h-full flex-col gap-1 rounded border bg-gray-50 p-1 dark:border-gray-600 dark:bg-gray-800">
+							<div
+								v-if="!!results.schematic.length"
+								class="flex h-full flex-col gap-1 rounded border bg-gray-50 p-1 dark:border-gray-600 dark:bg-gray-800">
 								<div class="font-semibolt py-1 text-center text-lg">Schematics</div>
 								<LayoutSmartSearchBarElement v-for="e in results.schematic" :key="e.id" :data="e" />
 							</div>
-							<div class="flex h-full flex-col gap-1 rounded border bg-gray-50 p-1 dark:border-gray-600 dark:bg-gray-800">
+							<div
+								v-if="!!results.recipe.length"
+								class="flex h-full flex-col gap-1 rounded border bg-gray-50 p-1 dark:border-gray-600 dark:bg-gray-800">
 								<div class="font-semibolt py-1 text-center text-lg">Recipes</div>
 								<LayoutSmartSearchBarElement v-for="e in results.recipe" :key="e.id" :data="e" />
 							</div>

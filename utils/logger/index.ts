@@ -273,8 +273,5 @@ export class Logger<T extends CustomLogs> {
 	}
 }
 
-export const logger = new Logger(
-	{},
-	{ colors: true }
-);
+export const logger = new Logger({}, { colors: true });
 export const log = logger.log.bind(logger);

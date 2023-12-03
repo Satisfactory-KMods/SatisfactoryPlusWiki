@@ -4,6 +4,7 @@ import { log } from '~/utils/logger/index';
 import { cleaner, cleanerByPass, db, researchTree, researchTreeNodes, researchTreeSchematics } from '../..';
 import { producedIn, recipes, recipesInput, recipesOutput } from '../../schema/recipes';
 import { recipeUnlocks, scannerUnlocks, schematics, schematicsCosts, subSchematics } from '../../schema/schematics';
+import { wikiElement } from '../../schema/wiki';
 import { extraInformations, extraRecipe, extraRecipeInput, extraRecipeOutput, extraRecipeSchematics } from './../../schema/extraInformations';
 
 export async function prepareItems(data: any) {
@@ -117,6 +118,13 @@ export async function prepareCleaner(data: any) {
 		});
 
 	if (result) {
+		await db
+			.insert(wikiElement)
+			.values({
+				elPath: data.path
+			})
+			.catch(() => {});
+
 		for (const bypass of data.bypass) {
 			await db
 				.insert(cleanerByPass)

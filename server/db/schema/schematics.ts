@@ -5,6 +5,7 @@ import { cleaner } from './cleaners';
 import { items } from './items';
 import { recipes } from './recipes';
 import { dataTypeEnum, dbSchema, schematicType } from './schema';
+import { wikiElement } from './wiki';
 
 // -----------------------------------------------------
 // schematics
@@ -37,14 +38,18 @@ export const schematics = dbSchema.table(
 export type SchematicInsert = typeof schematics.$inferInsert;
 export type SchematicSelect = typeof schematics.$inferSelect;
 
-export const schematicsRelations = relations(schematics, ({ many }) => {
+export const schematicsRelations = relations(schematics, ({ many, one }) => {
 	return {
 		schematics: many(schematics),
 		recipeUnlocks: many(recipes),
 		subSchematics: many(schematics),
 		scannerUnlocks: many(items),
 		cleanerDesc: many(cleaner),
-		costs: many(schematicsCosts)
+		costs: many(schematicsCosts),
+		wikiEl: one(wikiElement, {
+			fields: [schematics.id],
+			references: [wikiElement.elPath]
+		})
 	};
 });
 

@@ -8,7 +8,8 @@
 		"generate": "nuxt generate",
 		"preview": "nuxt preview",
 		"postinstall": "nuxt prepare",
-		"lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore . && nuxi typecheck",
+		"lint": "eslint . --ext .ts,.js,.vue --ignore-path .gitignore . && nuxi typecheck",
+		"lintfix": "eslint . --fix --ignore-path .gitignore && prettier --write .",
 		"db": "pnpm drizzle-kit generate:pg",
 		"prepare": "husky install"
 	},

@@ -3,6 +3,7 @@ import { index, json, text, unique, uuid } from 'drizzle-orm/pg-core';
 import type { NodeCoords, SFDataType, SFTreeUnlockElement } from '~/utils/satisfactoryExtractorTypes';
 import { dataTypeEnum, dbSchema } from './schema';
 import { schematics } from './schematics';
+import { wikiElement } from './wiki';
 
 // -----------------------------------------------------
 // researchTree
@@ -28,10 +29,14 @@ export const researchTree = dbSchema.table(
 export type ResearchTreeInsert = typeof researchTree.$inferInsert;
 export type ResearchTreeSelect = typeof researchTree.$inferSelect;
 
-export const researchTreeRelations = relations(researchTree, ({ many }) => {
+export const researchTreeRelations = relations(researchTree, ({ many, one }) => {
 	return {
 		schematics: many(schematics),
-		nodes: many(researchTreeNodes)
+		nodes: many(researchTreeNodes),
+		wikiEl: one(wikiElement, {
+			fields: [researchTree.id],
+			references: [wikiElement.elPath]
+		})
 	};
 });
 

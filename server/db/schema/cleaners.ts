@@ -4,6 +4,7 @@ import type { SFDataType } from '~/utils/satisfactoryExtractorTypes';
 import { items } from './items';
 import { dataTypeEnum, dbSchema } from './schema';
 import { schematics } from './schematics';
+import { wikiElement } from './wiki';
 
 // -----------------------------------------------------
 // cleaner
@@ -89,7 +90,11 @@ export const cleanerRelations = relations(cleaner, ({ many, one }) => {
 			fields: [cleaner.outFluid],
 			references: [items.path]
 		}),
-		byPass: many(cleanerByPass)
+		byPass: many(cleanerByPass),
+		wikiEl: one(wikiElement, {
+			fields: [cleaner.id],
+			references: [wikiElement.elPath]
+		})
 	};
 });
 

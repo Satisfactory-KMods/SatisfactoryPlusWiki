@@ -5,6 +5,7 @@ import { buildables } from './buildables';
 import { items } from './items';
 import { dataTypeEnum, dbSchema } from './schema';
 import { schematics } from './schematics';
+import { wikiElement } from './wiki';
 
 // -----------------------------------------------------
 // recipes
@@ -33,12 +34,16 @@ export const recipes = dbSchema.table(
 export type RecipeInsert = typeof recipes.$inferInsert;
 export type RecipeSelect = typeof recipes.$inferSelect;
 
-export const recipesRelations = relations(recipes, ({ many }) => {
+export const recipesRelations = relations(recipes, ({ many, one }) => {
 	return {
 		inputs: many(recipesInput),
 		outputs: many(recipesOutput),
 		producedIn: many(buildables),
-		schematics: many(schematics)
+		schematics: many(schematics),
+		wikiEl: one(wikiElement, {
+			fields: [recipes.id],
+			references: [wikiElement.elPath]
+		})
 	};
 });
 

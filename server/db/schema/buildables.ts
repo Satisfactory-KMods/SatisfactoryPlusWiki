@@ -3,6 +3,7 @@ import { boolean, index, integer, numeric, text, uuid, varchar } from 'drizzle-o
 import type { SFDataType, SFDescType, SFItemForm } from '~/utils/satisfactoryExtractorTypes';
 import { dataTypeEnum, dbSchema, descriptorType, itemFormEnum } from './schema';
 import { schematics } from './schematics';
+import { wikiElement } from './wiki';
 
 export const buildables = dbSchema.table(
 	'buildables',
@@ -42,9 +43,13 @@ export const buildables = dbSchema.table(
 export type BuildableInsert = typeof buildables.$inferInsert;
 export type BuildableSelect = typeof buildables.$inferSelect;
 
-export const buildablesRelations = relations(buildables, ({ many }) => {
+export const buildablesRelations = relations(buildables, ({ many, one }) => {
 	return {
 		schematics: many(schematics),
-		recipes: many(buildables)
+		recipes: many(buildables),
+		wikiEl: one(wikiElement, {
+			fields: [buildables.id],
+			references: [wikiElement.elPath]
+		})
 	};
 });

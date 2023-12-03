@@ -1,5 +1,5 @@
 {
-  "id": "0fee4b85-3d84-4226-8066-d31b1825d708",
+  "id": "5d84ea33-d9ef-444f-9b8e-6612559a0fe2",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "5",
   "dialect": "pg",
@@ -647,6 +647,18 @@
           "type": "text",
           "primaryKey": false,
           "notNull": true
+        },
+        "amount": {
+          "name": "amount",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "time": {
+          "name": "time",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
         }
       },
       "indexes": {},
@@ -664,10 +676,10 @@
           "onDelete": "cascade",
           "onUpdate": "no action"
         },
-        "extra_recipe_input_item_path_schematics_path_fk": {
-          "name": "extra_recipe_input_item_path_schematics_path_fk",
+        "extra_recipe_input_item_path_items_path_fk": {
+          "name": "extra_recipe_input_item_path_items_path_fk",
           "tableFrom": "extra_recipe_input",
-          "tableTo": "schematics",
+          "tableTo": "items",
           "columnsFrom": [
             "item_path"
           ],
@@ -759,6 +771,71 @@
       "uniqueConstraints": {
         "extra_recipe_output_extra_recipe_item_path_unique": {
           "name": "extra_recipe_output_extra_recipe_item_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "extra_recipe",
+            "item_path"
+          ]
+        }
+      }
+    },
+    "extra_recipe_schematics": {
+      "name": "extra_recipe_schematics",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "extra_recipe": {
+          "name": "extra_recipe",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "item_path": {
+          "name": "item_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "extra_recipe_schematics_extra_recipe_extra_recipe_id_fk": {
+          "name": "extra_recipe_schematics_extra_recipe_extra_recipe_id_fk",
+          "tableFrom": "extra_recipe_schematics",
+          "tableTo": "extra_recipe",
+          "columnsFrom": [
+            "extra_recipe"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "extra_recipe_schematics_item_path_schematics_path_fk": {
+          "name": "extra_recipe_schematics_item_path_schematics_path_fk",
+          "tableFrom": "extra_recipe_schematics",
+          "tableTo": "schematics",
+          "columnsFrom": [
+            "item_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "extra_recipe_schematics_extra_recipe_item_path_unique": {
+          "name": "extra_recipe_schematics_extra_recipe_item_path_unique",
           "nullsNotDistinct": false,
           "columns": [
             "extra_recipe",
@@ -2112,6 +2189,101 @@
       },
       "compositePrimaryKeys": {},
       "uniqueConstraints": {}
+    },
+    "wiki_desc": {
+      "name": "wiki_desc",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "el_id": {
+          "name": "el_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "active": {
+          "name": "active",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        },
+        "text": {
+          "name": "text",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "new": {
+          "name": "new",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "wiki_desc_el_id_wiki_element_id_fk": {
+          "name": "wiki_desc_el_id_wiki_element_id_fk",
+          "tableFrom": "wiki_desc",
+          "tableTo": "wiki_element",
+          "columnsFrom": [
+            "el_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "wiki_element": {
+      "name": "wiki_element",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "el_path": {
+          "name": "el_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "views": {
+          "name": "views",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 0
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "wiki_element_el_path_unique": {
+          "name": "wiki_element_el_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "el_path"
+          ]
+        }
+      }
     }
   },
   "enums": {
