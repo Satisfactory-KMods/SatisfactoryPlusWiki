@@ -33,15 +33,27 @@ async function read(path) {
 				item.name.toLowerCase().startsWith('T_'.toLowerCase()) ||
 				item.name.toLowerCase().startsWith('MI_'.toLowerCase()) ||
 				item.name.toLowerCase().startsWith('TXUI_'.toLowerCase()) ||
+				item.name.toLowerCase().startsWith('tex_'.toLowerCase()) ||
 				item.name.toLowerCase().endsWith('_AO.png'.toLowerCase()) ||
+				item.name.toLowerCase().endsWith('_AOMasks.png'.toLowerCase()) ||
 				item.name.toLowerCase().endsWith('_ORMA.png'.toLowerCase()) ||
 				item.name.toLowerCase().endsWith('_MREA.png'.toLowerCase()) ||
+				item.name.toLowerCase().endsWith('_MREO.png'.toLowerCase()) ||
+				item.name.toLowerCase().endsWith('_Rough.png'.toLowerCase()) ||
+				item.name.toLowerCase().endsWith('_Emissive.png'.toLowerCase()) ||
+				item.name.toLowerCase().endsWith('_Mask.png'.toLowerCase()) ||
 				item.name.toLowerCase().endsWith('_BaseColor.png'.toLowerCase()) ||
 				item.name.toLowerCase().endsWith('_Reflection.png'.toLowerCase()) ||
 				item.name.toLowerCase().endsWith('_BlackMask.png'.toLowerCase()) ||
 				item.name.toLowerCase().endsWith('_NORM.png'.toLowerCase()) ||
 				item.name.toLowerCase().endsWith('_BC.png'.toLowerCase()) ||
 				item.name.toLowerCase().endsWith('_AlphaMap.png'.toLowerCase()) ||
+				item.name.toLowerCase().endsWith('_Tex.png'.toLowerCase()) ||
+				item.name.toLowerCase().endsWith('_BC_2.png'.toLowerCase()) ||
+				item.name.toLowerCase().endsWith('_N_2.png'.toLowerCase()) ||
+				item.name.toLowerCase().endsWith('_Refl_2.png'.toLowerCase()) ||
+				item.name.toLowerCase().endsWith('_Refl.png'.toLowerCase()) ||
+				item.name.toLowerCase().endsWith('_metallic.png'.toLowerCase()) ||
 				item.name.toLowerCase().endsWith('_Normal.png'.toLowerCase()) ||
 				item.name.toLowerCase().endsWith('_Roughness.png'.toLowerCase()) ||
 				item.name.toLowerCase().endsWith('_N.png'.toLowerCase()) ||
@@ -61,7 +73,7 @@ async function read(path) {
 			const img = await Jimp.read(join(path, item.name)).catch(() => null);
 			if (!img) continue;
 			await fs.unlink(join(path, item.name));
-			if (img.bitmap.width === img.bitmap.height) {
+			if (img.bitmap.width === img.bitmap.height && img.bitmap.width <= 1024) {
 				if (img.bitmap.width > 256) {
 					console.log('resize', join(path, item.name));
 					await img.resize(256, 256).quality(80).writeAsync(join(path, item.name));
