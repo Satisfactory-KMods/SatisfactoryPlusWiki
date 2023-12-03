@@ -10,6 +10,7 @@ export const buildables = dbSchema.table(
 	{
 		id: uuid('id').defaultRandom().primaryKey(),
 		path: text('path').notNull().unique(),
+		buildingPath: text('building_path').notNull().unique(),
 		name: text('name').notNull(),
 		description: text('description').notNull(),
 		image: text('image').notNull(),
@@ -35,7 +36,8 @@ export const buildables = dbSchema.table(
 	},
 	(t) => {
 		return {
-			pathIdx: index('name_idx').on(t.path)
+			pathIdx: index('name_idx').on(t.path),
+			buildingPathIdx: index('building_path_idx').on(t.buildingPath)
 		};
 	}
 );

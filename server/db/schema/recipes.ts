@@ -161,16 +161,7 @@ export const recipesOutput = dbSchema.table(
 					onDelete: 'cascade'
 				}
 			),
-		itemPath: text('item_path')
-			.notNull()
-			.references(
-				() => {
-					return items.path;
-				},
-				{
-					onDelete: 'cascade'
-				}
-			),
+		itemPath: text('item_path').notNull(),
 		amount: integer('amount').notNull()
 	},
 	(t) => {
@@ -189,6 +180,10 @@ export const recipesOutputRelations = relations(recipesOutput, ({ one }) => {
 		item: one(items, {
 			fields: [recipesOutput.itemPath],
 			references: [items.path]
+		}),
+		buildable: one(buildables, {
+			fields: [recipesOutput.itemPath],
+			references: [buildables.path]
 		})
 	};
 });

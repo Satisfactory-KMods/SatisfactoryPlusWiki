@@ -35,18 +35,19 @@ export async function prepareResourceMap(data: any) {
 }
 
 export async function prepareBuildable(data: any) {
-	data.path = data.buildingPath ?? data.path;
-	await db
-		.insert(buildables)
-		.values(data)
-		.catch(() => {});
-	await db
-		.insert(wikiElement)
-		.values({
-			elPath: data.path
-		})
-		.catch(() => {});
-	return await Promise.resolve(data);
+	if (data.buildingPath !== data.path && !!data.buildingPath) {
+		await db
+			.insert(buildables)
+			.values(data)
+			.catch(() => {});
+		await db
+			.insert(wikiElement)
+			.values({
+				elPath: data.path
+			})
+			.catch(() => {});
+		return await Promise.resolve(data);
+	}
 }
 
 export async function prepareRecipe(data: any) {

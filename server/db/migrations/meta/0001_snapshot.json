@@ -1,0 +1,2355 @@
+{
+  "id": "2a4a2f73-54ba-4f0c-8a20-75df864ffc3b",
+  "prevId": "5d84ea33-d9ef-444f-9b8e-6612559a0fe2",
+  "version": "5",
+  "dialect": "pg",
+  "tables": {
+    "buildables": {
+      "name": "buildables",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "path": {
+          "name": "path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "building_path": {
+          "name": "building_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "image": {
+          "name": "image",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "is_vehicle": {
+          "name": "is_vehicle",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "is_cleaner": {
+          "name": "is_cleaner",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "is_miner": {
+          "name": "is_miner",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "is_modul": {
+          "name": "is_modul",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "is_hatchery": {
+          "name": "is_hatchery",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "is_hatchery_modul": {
+          "name": "is_hatchery_modul",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "power_consume": {
+          "name": "power_consume",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "descriptor_type": {
+          "name": "descriptor_type",
+          "type": "desc_type",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "gas_color": {
+          "name": "gas_color",
+          "type": "varchar(8)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "fluid_color": {
+          "name": "fluid_color",
+          "type": "varchar(8)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "radio": {
+          "name": "radio",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "radio_active": {
+          "name": "radio_active",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "can_delete": {
+          "name": "can_delete",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "energy_value": {
+          "name": "energy_value",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "stack_size": {
+          "name": "stack_size",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "category": {
+          "name": "category",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "subCategory": {
+          "name": "subCategory",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "form": {
+          "name": "form",
+          "type": "item_form",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "data_type": {
+          "name": "data_type",
+          "type": "data_type",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {
+        "name_idx": {
+          "name": "name_idx",
+          "columns": [
+            "path"
+          ],
+          "isUnique": false
+        },
+        "building_path_idx": {
+          "name": "building_path_idx",
+          "columns": [
+            "building_path"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "buildables_path_unique": {
+          "name": "buildables_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "path"
+          ]
+        },
+        "buildables_building_path_unique": {
+          "name": "buildables_building_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "building_path"
+          ]
+        }
+      }
+    },
+    "cleaner": {
+      "name": "cleaner",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "path": {
+          "name": "path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "image": {
+          "name": "image",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "data_type": {
+          "name": "data_type",
+          "type": "data_type",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "schematic": {
+          "name": "schematic",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "in_fluid": {
+          "name": "in_fluid",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "out_fluid": {
+          "name": "out_fluid",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "in_amount": {
+          "name": "in_amount",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "out_amount": {
+          "name": "out_amount",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "filter_item": {
+          "name": "filter_item",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "filter_need": {
+          "name": "filter_need",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "filter_time": {
+          "name": "filter_time",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "filter_amount": {
+          "name": "filter_amount",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {
+        "name_idx": {
+          "name": "name_idx",
+          "columns": [
+            "path"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {
+        "cleaner_schematic_schematics_path_fk": {
+          "name": "cleaner_schematic_schematics_path_fk",
+          "tableFrom": "cleaner",
+          "tableTo": "schematics",
+          "columnsFrom": [
+            "schematic"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "cleaner_in_fluid_items_path_fk": {
+          "name": "cleaner_in_fluid_items_path_fk",
+          "tableFrom": "cleaner",
+          "tableTo": "items",
+          "columnsFrom": [
+            "in_fluid"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "cleaner_out_fluid_items_path_fk": {
+          "name": "cleaner_out_fluid_items_path_fk",
+          "tableFrom": "cleaner",
+          "tableTo": "items",
+          "columnsFrom": [
+            "out_fluid"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "cleaner_filter_item_items_path_fk": {
+          "name": "cleaner_filter_item_items_path_fk",
+          "tableFrom": "cleaner",
+          "tableTo": "items",
+          "columnsFrom": [
+            "filter_item"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "cleaner_path_unique": {
+          "name": "cleaner_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "path"
+          ]
+        }
+      }
+    },
+    "cleaner_bypass": {
+      "name": "cleaner_bypass",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "cleaner_path": {
+          "name": "cleaner_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "item_path": {
+          "name": "item_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "time": {
+          "name": "time",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "amount": {
+          "name": "amount",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "cleaner_bypass_cleaner_path_cleaner_path_fk": {
+          "name": "cleaner_bypass_cleaner_path_cleaner_path_fk",
+          "tableFrom": "cleaner_bypass",
+          "tableTo": "cleaner",
+          "columnsFrom": [
+            "cleaner_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "cleaner_bypass_item_path_items_path_fk": {
+          "name": "cleaner_bypass_item_path_items_path_fk",
+          "tableFrom": "cleaner_bypass",
+          "tableTo": "items",
+          "columnsFrom": [
+            "item_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "cleaner_bypass_cleaner_path_item_path_unique": {
+          "name": "cleaner_bypass_cleaner_path_item_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "cleaner_path",
+            "item_path"
+          ]
+        }
+      }
+    },
+    "extra_informations": {
+      "name": "extra_informations",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "buildable_path": {
+          "name": "buildable_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "item_path": {
+          "name": "item_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "is_vehicle": {
+          "name": "is_vehicle",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        },
+        "is_cleaner": {
+          "name": "is_cleaner",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        },
+        "is_miner": {
+          "name": "is_miner",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        },
+        "is_modul": {
+          "name": "is_modul",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        },
+        "is_hatchery": {
+          "name": "is_hatchery",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        },
+        "is_hatchery_modul": {
+          "name": "is_hatchery_modul",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "extra_informations_buildable_path_buildables_path_fk": {
+          "name": "extra_informations_buildable_path_buildables_path_fk",
+          "tableFrom": "extra_informations",
+          "tableTo": "buildables",
+          "columnsFrom": [
+            "buildable_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "extra_informations_item_path_items_path_fk": {
+          "name": "extra_informations_item_path_items_path_fk",
+          "tableFrom": "extra_informations",
+          "tableTo": "items",
+          "columnsFrom": [
+            "item_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "extra_informations_buildable_path_unique": {
+          "name": "extra_informations_buildable_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "buildable_path"
+          ]
+        },
+        "extra_informations_item_path_unique": {
+          "name": "extra_informations_item_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "item_path"
+          ]
+        }
+      }
+    },
+    "extra_recipe": {
+      "name": "extra_recipe",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "used_in": {
+          "name": "used_in",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "produced_in": {
+          "name": "produced_in",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "building_recipe": {
+          "name": "building_recipe",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        },
+        "waste_producer": {
+          "name": "waste_producer",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "''"
+        },
+        "production_element": {
+          "name": "production_element",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "''"
+        },
+        "type": {
+          "name": "type",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 0
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "extra_recipe_used_in_extra_informations_id_fk": {
+          "name": "extra_recipe_used_in_extra_informations_id_fk",
+          "tableFrom": "extra_recipe",
+          "tableTo": "extra_informations",
+          "columnsFrom": [
+            "used_in"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "extra_recipe_produced_in_extra_informations_id_fk": {
+          "name": "extra_recipe_produced_in_extra_informations_id_fk",
+          "tableFrom": "extra_recipe",
+          "tableTo": "extra_informations",
+          "columnsFrom": [
+            "produced_in"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "extra_recipe_input": {
+      "name": "extra_recipe_input",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "extra_recipe": {
+          "name": "extra_recipe",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "item_path": {
+          "name": "item_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "amount": {
+          "name": "amount",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "time": {
+          "name": "time",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "extra_recipe_input_extra_recipe_extra_recipe_id_fk": {
+          "name": "extra_recipe_input_extra_recipe_extra_recipe_id_fk",
+          "tableFrom": "extra_recipe_input",
+          "tableTo": "extra_recipe",
+          "columnsFrom": [
+            "extra_recipe"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "extra_recipe_input_item_path_items_path_fk": {
+          "name": "extra_recipe_input_item_path_items_path_fk",
+          "tableFrom": "extra_recipe_input",
+          "tableTo": "items",
+          "columnsFrom": [
+            "item_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "extra_recipe_input_extra_recipe_item_path_unique": {
+          "name": "extra_recipe_input_extra_recipe_item_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "extra_recipe",
+            "item_path"
+          ]
+        }
+      }
+    },
+    "extra_recipe_output": {
+      "name": "extra_recipe_output",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "extra_recipe": {
+          "name": "extra_recipe",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "item_path": {
+          "name": "item_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "amount": {
+          "name": "amount",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "time": {
+          "name": "time",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "extra_recipe_output_extra_recipe_extra_recipe_id_fk": {
+          "name": "extra_recipe_output_extra_recipe_extra_recipe_id_fk",
+          "tableFrom": "extra_recipe_output",
+          "tableTo": "extra_recipe",
+          "columnsFrom": [
+            "extra_recipe"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "extra_recipe_output_extra_recipe_item_path_unique": {
+          "name": "extra_recipe_output_extra_recipe_item_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "extra_recipe",
+            "item_path"
+          ]
+        }
+      }
+    },
+    "extra_recipe_schematics": {
+      "name": "extra_recipe_schematics",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "extra_recipe": {
+          "name": "extra_recipe",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "item_path": {
+          "name": "item_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "extra_recipe_schematics_extra_recipe_extra_recipe_id_fk": {
+          "name": "extra_recipe_schematics_extra_recipe_extra_recipe_id_fk",
+          "tableFrom": "extra_recipe_schematics",
+          "tableTo": "extra_recipe",
+          "columnsFrom": [
+            "extra_recipe"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "extra_recipe_schematics_item_path_schematics_path_fk": {
+          "name": "extra_recipe_schematics_item_path_schematics_path_fk",
+          "tableFrom": "extra_recipe_schematics",
+          "tableTo": "schematics",
+          "columnsFrom": [
+            "item_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "extra_recipe_schematics_extra_recipe_item_path_unique": {
+          "name": "extra_recipe_schematics_extra_recipe_item_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "extra_recipe",
+            "item_path"
+          ]
+        }
+      }
+    },
+    "items": {
+      "name": "items",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "path": {
+          "name": "path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "gas_color": {
+          "name": "gas_color",
+          "type": "varchar(8)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "fluid_color": {
+          "name": "fluid_color",
+          "type": "varchar(8)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "can_be_sink": {
+          "name": "can_be_sink",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sink_points": {
+          "name": "sink_points",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "radio": {
+          "name": "radio",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "radio_active": {
+          "name": "radio_active",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "descriptor_type": {
+          "name": "descriptor_type",
+          "type": "desc_type",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "can_delete": {
+          "name": "can_delete",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "energy_value": {
+          "name": "energy_value",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "form": {
+          "name": "form",
+          "type": "item_form",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "stack_size": {
+          "name": "stack_size",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "item_type_information": {
+          "name": "item_type_information",
+          "type": "json",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "image": {
+          "name": "image",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "category": {
+          "name": "category",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "subCategory": {
+          "name": "subCategory",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "data_type": {
+          "name": "data_type",
+          "type": "data_type",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {
+        "name_idx": {
+          "name": "name_idx",
+          "columns": [
+            "path"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "items_path_unique": {
+          "name": "items_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "path"
+          ]
+        }
+      }
+    },
+    "produced_in": {
+      "name": "produced_in",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "recipe_path": {
+          "name": "recipe_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "building_path": {
+          "name": "building_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "produced_in_recipe_path_recipes_path_fk": {
+          "name": "produced_in_recipe_path_recipes_path_fk",
+          "tableFrom": "produced_in",
+          "tableTo": "recipes",
+          "columnsFrom": [
+            "recipe_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "produced_in_building_path_buildables_path_fk": {
+          "name": "produced_in_building_path_buildables_path_fk",
+          "tableFrom": "produced_in",
+          "tableTo": "buildables",
+          "columnsFrom": [
+            "building_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "produced_in_recipe_path_building_path_unique": {
+          "name": "produced_in_recipe_path_building_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "recipe_path",
+            "building_path"
+          ]
+        }
+      }
+    },
+    "recipes": {
+      "name": "recipes",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "path": {
+          "name": "path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "image": {
+          "name": "image",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "category": {
+          "name": "category",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "duration": {
+          "name": "duration",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "manuel_duration": {
+          "name": "manuel_duration",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "is_alternate": {
+          "name": "is_alternate",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "is_buildable_recipe": {
+          "name": "is_buildable_recipe",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        },
+        "data_type": {
+          "name": "data_type",
+          "type": "data_type",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {
+        "name_idx": {
+          "name": "name_idx",
+          "columns": [
+            "path"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "recipes_path_unique": {
+          "name": "recipes_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "path"
+          ]
+        }
+      }
+    },
+    "recipes_input": {
+      "name": "recipes_input",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "recipe_path": {
+          "name": "recipe_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "item_path": {
+          "name": "item_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "amount": {
+          "name": "amount",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "recipes_input_recipe_path_recipes_path_fk": {
+          "name": "recipes_input_recipe_path_recipes_path_fk",
+          "tableFrom": "recipes_input",
+          "tableTo": "recipes",
+          "columnsFrom": [
+            "recipe_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "recipes_input_item_path_items_path_fk": {
+          "name": "recipes_input_item_path_items_path_fk",
+          "tableFrom": "recipes_input",
+          "tableTo": "items",
+          "columnsFrom": [
+            "item_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "recipes_input_recipe_path_item_path_unique": {
+          "name": "recipes_input_recipe_path_item_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "recipe_path",
+            "item_path"
+          ]
+        }
+      }
+    },
+    "recipes_output": {
+      "name": "recipes_output",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "recipe_path": {
+          "name": "recipe_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "item_path": {
+          "name": "item_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "amount": {
+          "name": "amount",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "recipes_output_recipe_path_recipes_path_fk": {
+          "name": "recipes_output_recipe_path_recipes_path_fk",
+          "tableFrom": "recipes_output",
+          "tableTo": "recipes",
+          "columnsFrom": [
+            "recipe_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "recipes_output_recipe_path_item_path_unique": {
+          "name": "recipes_output_recipe_path_item_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "recipe_path",
+            "item_path"
+          ]
+        }
+      }
+    },
+    "research_tree": {
+      "name": "research_tree",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "path": {
+          "name": "path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "image": {
+          "name": "image",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "tree_unlocks": {
+          "name": "tree_unlocks",
+          "type": "json",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "data_type": {
+          "name": "data_type",
+          "type": "data_type",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {
+        "name_idx": {
+          "name": "name_idx",
+          "columns": [
+            "path"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "research_tree_path_unique": {
+          "name": "research_tree_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "path"
+          ]
+        }
+      }
+    },
+    "research_tree_nodes": {
+      "name": "research_tree_nodes",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "tree_path": {
+          "name": "tree_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "schematic_path": {
+          "name": "schematic_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "coordinates": {
+          "name": "coordinates",
+          "type": "json",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "unhidden_by": {
+          "name": "unhidden_by",
+          "type": "json",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::json"
+        },
+        "nodes_to_unhide": {
+          "name": "nodes_to_unhide",
+          "type": "json",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::json"
+        },
+        "parents": {
+          "name": "parents",
+          "type": "json",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::json"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "research_tree_nodes_tree_path_research_tree_path_fk": {
+          "name": "research_tree_nodes_tree_path_research_tree_path_fk",
+          "tableFrom": "research_tree_nodes",
+          "tableTo": "research_tree",
+          "columnsFrom": [
+            "tree_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "research_tree_nodes_schematic_path_schematics_path_fk": {
+          "name": "research_tree_nodes_schematic_path_schematics_path_fk",
+          "tableFrom": "research_tree_nodes",
+          "tableTo": "schematics",
+          "columnsFrom": [
+            "schematic_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "research_tree_nodes_tree_path_schematic_path_unique": {
+          "name": "research_tree_nodes_tree_path_schematic_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "tree_path",
+            "schematic_path"
+          ]
+        }
+      }
+    },
+    "research_tree_schematics": {
+      "name": "research_tree_schematics",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "tree_path": {
+          "name": "tree_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "schematic_path": {
+          "name": "schematic_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "research_tree_schematics_tree_path_research_tree_path_fk": {
+          "name": "research_tree_schematics_tree_path_research_tree_path_fk",
+          "tableFrom": "research_tree_schematics",
+          "tableTo": "research_tree",
+          "columnsFrom": [
+            "tree_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "research_tree_schematics_schematic_path_schematics_path_fk": {
+          "name": "research_tree_schematics_schematic_path_schematics_path_fk",
+          "tableFrom": "research_tree_schematics",
+          "tableTo": "schematics",
+          "columnsFrom": [
+            "schematic_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "research_tree_schematics_tree_path_schematic_path_unique": {
+          "name": "research_tree_schematics_tree_path_schematic_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "tree_path",
+            "schematic_path"
+          ]
+        }
+      }
+    },
+    "recipe_unlocks": {
+      "name": "recipe_unlocks",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "schematic_path": {
+          "name": "schematic_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "recipe_path": {
+          "name": "recipe_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "recipe_unlocks_schematic_path_schematics_path_fk": {
+          "name": "recipe_unlocks_schematic_path_schematics_path_fk",
+          "tableFrom": "recipe_unlocks",
+          "tableTo": "schematics",
+          "columnsFrom": [
+            "schematic_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "recipe_unlocks_recipe_path_recipes_path_fk": {
+          "name": "recipe_unlocks_recipe_path_recipes_path_fk",
+          "tableFrom": "recipe_unlocks",
+          "tableTo": "recipes",
+          "columnsFrom": [
+            "recipe_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "recipe_unlocks_schematic_path_recipe_path_unique": {
+          "name": "recipe_unlocks_schematic_path_recipe_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "schematic_path",
+            "recipe_path"
+          ]
+        }
+      }
+    },
+    "scanner_unlocks": {
+      "name": "scanner_unlocks",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "schematic_path": {
+          "name": "schematic_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "item_path": {
+          "name": "item_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "scanner_unlocks_schematic_path_schematics_path_fk": {
+          "name": "scanner_unlocks_schematic_path_schematics_path_fk",
+          "tableFrom": "scanner_unlocks",
+          "tableTo": "schematics",
+          "columnsFrom": [
+            "schematic_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "scanner_unlocks_item_path_items_path_fk": {
+          "name": "scanner_unlocks_item_path_items_path_fk",
+          "tableFrom": "scanner_unlocks",
+          "tableTo": "items",
+          "columnsFrom": [
+            "item_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "scanner_unlocks_schematic_path_item_path_unique": {
+          "name": "scanner_unlocks_schematic_path_item_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "schematic_path",
+            "item_path"
+          ]
+        }
+      }
+    },
+    "schematics": {
+      "name": "schematics",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "path": {
+          "name": "path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "image": {
+          "name": "image",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "small_image": {
+          "name": "small_image",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "category": {
+          "name": "category",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sub_category": {
+          "name": "sub_category",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "type": {
+          "name": "type",
+          "type": "schematic_type",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "tier": {
+          "name": "tier",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "time": {
+          "name": "time",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "hand_slots": {
+          "name": "hand_slots",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "inventory_slots": {
+          "name": "inventory_slots",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "data_type": {
+          "name": "data_type",
+          "type": "data_type",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {
+        "name_idx": {
+          "name": "name_idx",
+          "columns": [
+            "path"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "schematics_path_unique": {
+          "name": "schematics_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "path"
+          ]
+        }
+      }
+    },
+    "schematic_costs": {
+      "name": "schematic_costs",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "schematic_path": {
+          "name": "schematic_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "item_path": {
+          "name": "item_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "amount": {
+          "name": "amount",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "schematic_costs_schematic_path_schematics_path_fk": {
+          "name": "schematic_costs_schematic_path_schematics_path_fk",
+          "tableFrom": "schematic_costs",
+          "tableTo": "schematics",
+          "columnsFrom": [
+            "schematic_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "schematic_costs_item_path_items_path_fk": {
+          "name": "schematic_costs_item_path_items_path_fk",
+          "tableFrom": "schematic_costs",
+          "tableTo": "items",
+          "columnsFrom": [
+            "item_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "schematic_costs_schematic_path_item_path_unique": {
+          "name": "schematic_costs_schematic_path_item_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "schematic_path",
+            "item_path"
+          ]
+        }
+      }
+    },
+    "sub_schematics": {
+      "name": "sub_schematics",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "schematic_path": {
+          "name": "schematic_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sub_schematic_path": {
+          "name": "sub_schematic_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "sub_schematics_schematic_path_schematics_path_fk": {
+          "name": "sub_schematics_schematic_path_schematics_path_fk",
+          "tableFrom": "sub_schematics",
+          "tableTo": "schematics",
+          "columnsFrom": [
+            "schematic_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "sub_schematics_sub_schematic_path_schematics_path_fk": {
+          "name": "sub_schematics_sub_schematic_path_schematics_path_fk",
+          "tableFrom": "sub_schematics",
+          "tableTo": "schematics",
+          "columnsFrom": [
+            "sub_schematic_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "sub_schematics_sub_schematic_path_schematic_path_unique": {
+          "name": "sub_schematics_sub_schematic_path_schematic_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "sub_schematic_path",
+            "schematic_path"
+          ]
+        }
+      }
+    },
+    "account": {
+      "name": "account",
+      "schema": "sfp-wiki",
+      "columns": {
+        "userId": {
+          "name": "userId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "type": {
+          "name": "type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "provider": {
+          "name": "provider",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "providerAccountId": {
+          "name": "providerAccountId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "refresh_token": {
+          "name": "refresh_token",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "access_token": {
+          "name": "access_token",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "expires_at": {
+          "name": "expires_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "token_type": {
+          "name": "token_type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "scope": {
+          "name": "scope",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "id_token": {
+          "name": "id_token",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "session_state": {
+          "name": "session_state",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "account_userId_user_id_fk": {
+          "name": "account_userId_user_id_fk",
+          "tableFrom": "account",
+          "tableTo": "user",
+          "columnsFrom": [
+            "userId"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {
+        "account_provider_providerAccountId_pk": {
+          "name": "account_provider_providerAccountId_pk",
+          "columns": [
+            "provider",
+            "providerAccountId"
+          ]
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "session": {
+      "name": "session",
+      "schema": "sfp-wiki",
+      "columns": {
+        "sessionToken": {
+          "name": "sessionToken",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "userId": {
+          "name": "userId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "expires": {
+          "name": "expires",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "session_userId_user_id_fk": {
+          "name": "session_userId_user_id_fk",
+          "tableFrom": "session",
+          "tableTo": "user",
+          "columnsFrom": [
+            "userId"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "user": {
+      "name": "user",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "email": {
+          "name": "email",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "emailVerified": {
+          "name": "emailVerified",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "image": {
+          "name": "image",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "verificationToken": {
+      "name": "verificationToken",
+      "schema": "sfp-wiki",
+      "columns": {
+        "identifier": {
+          "name": "identifier",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "token": {
+          "name": "token",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "expires": {
+          "name": "expires",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {
+        "verificationToken_identifier_token_pk": {
+          "name": "verificationToken_identifier_token_pk",
+          "columns": [
+            "identifier",
+            "token"
+          ]
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "map": {
+      "name": "map",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "item_path": {
+          "name": "item_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "raw_item_path": {
+          "name": "raw_item_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "type": {
+          "name": "type",
+          "type": "resource_node_type",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "x": {
+          "name": "x",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "y": {
+          "name": "y",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "z": {
+          "name": "z",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "purity": {
+          "name": "purity",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "item_amounts": {
+          "name": "item_amounts",
+          "type": "json",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "satelites": {
+          "name": "satelites",
+          "type": "json",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "map_item_path_items_path_fk": {
+          "name": "map_item_path_items_path_fk",
+          "tableFrom": "map",
+          "tableTo": "items",
+          "columnsFrom": [
+            "item_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "wiki_desc": {
+      "name": "wiki_desc",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "el_id": {
+          "name": "el_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "active": {
+          "name": "active",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        },
+        "text": {
+          "name": "text",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "new": {
+          "name": "new",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "wiki_desc_el_id_wiki_element_id_fk": {
+          "name": "wiki_desc_el_id_wiki_element_id_fk",
+          "tableFrom": "wiki_desc",
+          "tableTo": "wiki_element",
+          "columnsFrom": [
+            "el_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "wiki_element": {
+      "name": "wiki_element",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "el_path": {
+          "name": "el_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "views": {
+          "name": "views",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 0
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "wiki_element_el_path_unique": {
+          "name": "wiki_element_el_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "el_path"
+          ]
+        }
+      }
+    }
+  },
+  "enums": {
+    "data_type": {
+      "name": "data_type",
+      "values": {
+        "buildable": "buildable",
+        "recipe": "recipe",
+        "cleaner": "cleaner",
+        "schematic": "schematic",
+        "informations": "informations",
+        "itemDescriptor": "itemDescriptor",
+        "food": "food",
+        "resourceMap": "resourceMap",
+        "researchTree": "researchTree"
+      }
+    },
+    "desc_type": {
+      "name": "desc_type",
+      "values": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      }
+    },
+    "item_form": {
+      "name": "item_form",
+      "values": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      }
+    },
+    "resource_node_type": {
+      "name": "resource_node_type",
+      "values": {
+        "deposits": "deposits",
+        "resourceWells": "resourceWells",
+        "geysers": "geysers",
+        "lootChests": "lootChests",
+        "pickup": "pickup",
+        "resourceNodes": "resourceNodes"
+      }
+    },
+    "schematic_type": {
+      "name": "schematic_type",
+      "values": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9"
+      }
+    }
+  },
+  "schemas": {
+    "sfp-wiki": "sfp-wiki"
+  },
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  }
+}
