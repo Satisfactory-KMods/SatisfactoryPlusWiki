@@ -1,6 +1,6 @@
 export default defineNuxtRouteMiddleware(async (to) => {
 	const id = String(to.params.id);
-	const getData = await $fetch('/api/lastVisit/:id', { params: { id } }).catch(() => {
+	const getData = await $fetch(`/api/last-visit/${id}`).catch(() => {
 		return null;
 	});
 
@@ -9,6 +9,6 @@ export default defineNuxtRouteMiddleware(async (to) => {
 	}
 
 	if (to.path.endsWith(id)) {
-		return navigateTo(`/show/${id}/${getData.type}`);
+		return navigateTo(`/show/${id}/${getData.type}` as any);
 	}
 });
