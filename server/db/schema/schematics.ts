@@ -1,5 +1,5 @@
 import { relations } from 'drizzle-orm';
-import { index, integer, numeric, text, unique, uuid } from 'drizzle-orm/pg-core';
+import { integer, numeric, text, unique, uuid } from 'drizzle-orm/pg-core';
 import type { SFDataType, SFSchematicType } from '~/utils/satisfactoryExtractorTypes';
 import { cleaner } from './cleaners';
 import { items } from './items';
@@ -10,30 +10,22 @@ import { wikiElement } from './wiki';
 // -----------------------------------------------------
 // schematics
 // -----------------------------------------------------
-export const schematics = dbSchema.table(
-	'schematics',
-	{
-		id: uuid('id').defaultRandom().primaryKey(),
-		path: text('path').notNull().unique(),
-		name: text('name').notNull(),
-		description: text('description').notNull(),
-		image: text('image').notNull(),
-		smallImage: text('small_image').notNull(),
-		category: text('category').notNull(),
-		subCategory: text('sub_category').notNull(),
-		type: schematicType('type').$type<SFSchematicType>().notNull(),
-		tier: integer('tier').notNull(),
-		time: numeric('time').notNull(),
-		handSlots: integer('hand_slots').notNull(),
-		inventorySlots: integer('inventory_slots').notNull(),
-		dataType: dataTypeEnum('data_type').$type<SFDataType>().notNull()
-	},
-	(t) => {
-		return {
-			pathIdx: index('name_idx').on(t.path)
-		};
-	}
-);
+export const schematics = dbSchema.table('schematics', {
+	id: uuid('id').defaultRandom().primaryKey(),
+	path: text('path').notNull().unique(),
+	name: text('name').notNull(),
+	description: text('description').notNull(),
+	image: text('image').notNull(),
+	smallImage: text('small_image').notNull(),
+	category: text('category').notNull(),
+	subCategory: text('sub_category').notNull(),
+	type: schematicType('type').$type<SFSchematicType>().notNull(),
+	tier: integer('tier').notNull(),
+	time: numeric('time').notNull(),
+	handSlots: integer('hand_slots').notNull(),
+	inventorySlots: integer('inventory_slots').notNull(),
+	dataType: dataTypeEnum('data_type').$type<SFDataType>().notNull()
+});
 
 export type SchematicInsert = typeof schematics.$inferInsert;
 export type SchematicSelect = typeof schematics.$inferSelect;

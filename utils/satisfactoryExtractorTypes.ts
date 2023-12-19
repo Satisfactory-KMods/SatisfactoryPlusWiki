@@ -7,7 +7,8 @@ export enum SFDataType {
 	itemDescriptor = 'itemDescriptor',
 	food = 'food',
 	resourceMap = 'resourceMap',
-	researchTree = 'researchTree'
+	researchTree = 'researchTree',
+	map = 'map'
 }
 
 export enum SFSchematicType {

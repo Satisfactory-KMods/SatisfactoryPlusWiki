@@ -1,7 +1,8 @@
 import { eq } from 'drizzle-orm';
 import type { Nullish } from '~/utils/logger/index';
 import { log } from '~/utils/logger/index';
-import { cleaner, cleanerByPass, db, researchTree, researchTreeNodes, researchTreeSchematics } from '../..';
+import { SFDataType } from '~/utils/satisfactoryExtractorTypes';
+import { cleaner, cleanerByPass, db, mapping, researchTree, researchTreeNodes, researchTreeSchematics } from '../..';
 import { producedIn, recipes, recipesInput, recipesOutput } from '../../schema/recipes';
 import { recipeUnlocks, scannerUnlocks, schematics, schematicsCosts, subSchematics } from '../../schema/schematics';
 import { wikiElement } from '../../schema/wiki';
@@ -118,6 +119,14 @@ export async function bindCleaner(data: any) {
 		});
 
 	if (result) {
+		await db
+			.insert(mapping)
+			.values({
+				dataId: result.id,
+				type: SFDataType.cleaner
+			})
+			.catch(() => {});
+
 		await db
 			.insert(wikiElement)
 			.values({

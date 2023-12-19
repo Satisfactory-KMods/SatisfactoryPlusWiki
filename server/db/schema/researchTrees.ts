@@ -1,5 +1,5 @@
 import { relations } from 'drizzle-orm';
-import { index, json, text, unique, uuid } from 'drizzle-orm/pg-core';
+import { json, text, unique, uuid } from 'drizzle-orm/pg-core';
 import type { NodeCoords, SFDataType, SFTreeUnlockElement } from '~/utils/satisfactoryExtractorTypes';
 import { dataTypeEnum, dbSchema } from './schema';
 import { schematics } from './schematics';
@@ -8,23 +8,15 @@ import { wikiElement } from './wiki';
 // -----------------------------------------------------
 // researchTree
 // -----------------------------------------------------
-export const researchTree = dbSchema.table(
-	'research_tree',
-	{
-		id: uuid('id').defaultRandom().primaryKey(),
-		path: text('path').notNull().unique(),
-		name: text('name').notNull(),
-		description: text('description').notNull(),
-		image: text('image').notNull(),
-		treeUnlocks: json('tree_unlocks').$type<SFTreeUnlockElement[]>().notNull(),
-		dataType: dataTypeEnum('data_type').$type<SFDataType>().notNull()
-	},
-	(t) => {
-		return {
-			pathIdx: index('name_idx').on(t.path)
-		};
-	}
-);
+export const researchTree = dbSchema.table('research_tree', {
+	id: uuid('id').defaultRandom().primaryKey(),
+	path: text('path').notNull().unique(),
+	name: text('name').notNull(),
+	description: text('description').notNull(),
+	image: text('image').notNull(),
+	treeUnlocks: json('tree_unlocks').$type<SFTreeUnlockElement[]>().notNull(),
+	dataType: dataTypeEnum('data_type').$type<SFDataType>().notNull()
+});
 
 export type ResearchTreeInsert = typeof researchTree.$inferInsert;
 export type ResearchTreeSelect = typeof researchTree.$inferSelect;
