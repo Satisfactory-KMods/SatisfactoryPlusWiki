@@ -1,6 +1,6 @@
 import { db } from '~/server/db/index';
 export default defineEventHandler(async (event) => {
-	const id = event.context.params?.id as string;
+	const id = String(event.context.params?.id);
 
 	if (!id) {
 		throw createError({
@@ -9,12 +9,13 @@ export default defineEventHandler(async (event) => {
 		});
 	}
 
-	return db.query.buildables.findUnique({
-		where: {
-			id
-		},
-		select: {
-			updatedAt: true
-		}
-	});
+	return await db.query.mapping
+		.findFirst({
+			where: (t, { eq }) => {
+				return eq(t.shortPath, id);
+			}
+		})
+		.catch(() => {
+			return null;
+		});
 });

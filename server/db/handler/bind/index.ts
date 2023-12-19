@@ -2,6 +2,7 @@ import { eq } from 'drizzle-orm';
 import type { Nullish } from '~/utils/logger/index';
 import { log } from '~/utils/logger/index';
 import { SFDataType } from '~/utils/satisfactoryExtractorTypes';
+import { blueprintPathToShort } from '~/utils/utils';
 import { cleaner, cleanerByPass, db, mapping, researchTree, researchTreeNodes, researchTreeSchematics } from '../..';
 import { producedIn, recipes, recipesInput, recipesOutput } from '../../schema/recipes';
 import { recipeUnlocks, scannerUnlocks, schematics, schematicsCosts, subSchematics } from '../../schema/schematics';
@@ -123,6 +124,7 @@ export async function bindCleaner(data: any) {
 			.insert(mapping)
 			.values({
 				dataId: result.id,
+				shortPath: blueprintPathToShort(result.path),
 				type: SFDataType.cleaner
 			})
 			.catch(() => {});

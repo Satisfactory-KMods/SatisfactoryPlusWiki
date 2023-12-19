@@ -1,4 +1,8 @@
-<script lang="ts" setup></script>
+<script setup lang="ts">
+	definePageMeta({
+		middleware: ['navigation']
+	});
+</script>
 
 <template>
 	<div />

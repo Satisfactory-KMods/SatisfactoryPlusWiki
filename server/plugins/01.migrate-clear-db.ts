@@ -3,6 +3,7 @@ import {
 	buildables,
 	db,
 	items,
+	mapping,
 	producedIn,
 	recipeUnlocks,
 	recipes,
@@ -44,6 +45,7 @@ export default defineNitroPlugin(async () => {
 		await db.delete(schematics);
 		await db.delete(mapTable);
 		await db.delete(items);
+		await db.delete(mapping);
 
 		log('info', `Finished clearing database!`);
 		await startReadingData();

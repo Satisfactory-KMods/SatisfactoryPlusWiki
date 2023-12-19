@@ -3,10 +3,10 @@ import { buildables, db, items, recipes, schematics } from '~/server/db/index';
 import type { ItemInsert } from './../db/schema/items';
 
 export type ApiSearchResponse = {
-	item: Pick<ItemInsert, 'name' | 'id' | 'image'>[];
-	schematic: Pick<ItemInsert, 'name' | 'id' | 'image'>[];
-	recipe: Pick<ItemInsert, 'name' | 'id' | 'image'>[];
-	building: Pick<ItemInsert, 'name' | 'id' | 'image'>[];
+	item: Pick<ItemInsert, 'name' | 'id' | 'image' | 'path'>[];
+	schematic: Pick<ItemInsert, 'name' | 'id' | 'image' | 'path'>[];
+	recipe: Pick<ItemInsert, 'name' | 'id' | 'image' | 'path'>[];
+	building: Pick<ItemInsert, 'name' | 'id' | 'image' | 'path'>[];
 };
 
 export default defineEventHandler(async (event) => {
@@ -24,7 +24,8 @@ export default defineEventHandler(async (event) => {
 			columns: {
 				name: true,
 				id: true,
-				image: true
+				image: true,
+				path: true
 			},
 			limit: 5
 		}),
@@ -36,7 +37,8 @@ export default defineEventHandler(async (event) => {
 			columns: {
 				name: true,
 				id: true,
-				image: true
+				image: true,
+				path: true
 			},
 			limit: 5
 		}),
@@ -48,7 +50,8 @@ export default defineEventHandler(async (event) => {
 			columns: {
 				name: true,
 				id: true,
-				image: true
+				image: true,
+				path: true
 			},
 			limit: 5
 		}),
@@ -60,7 +63,8 @@ export default defineEventHandler(async (event) => {
 			columns: {
 				name: true,
 				id: true,
-				image: true
+				image: true,
+				path: true
 			},
 			limit: 5
 		})

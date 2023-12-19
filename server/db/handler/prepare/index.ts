@@ -1,4 +1,5 @@
 import { SFDataType } from '~/utils/satisfactoryExtractorTypes';
+import { blueprintPathToShort } from '~/utils/utils';
 import { buildables, db, items, mapping, researchTree, schematics } from '../..';
 import { recipes } from '../../schema/recipes';
 import { wikiElement } from './../../schema/wiki';
@@ -16,6 +17,7 @@ export async function prepareItems(data: any) {
 				.insert(mapping)
 				.values({
 					dataId: d.id,
+					shortPath: blueprintPathToShort(d.path),
 					type: SFDataType.itemDescriptor
 				})
 				.catch(() => {});
@@ -43,6 +45,7 @@ export async function prepareResearchTree(data: any) {
 				.insert(mapping)
 				.values({
 					dataId: d.id,
+					shortPath: blueprintPathToShort(d.path),
 					type: SFDataType.researchTree
 				})
 				.catch(() => {});
@@ -75,6 +78,7 @@ export async function prepareBuildable(data: any) {
 					.insert(mapping)
 					.values({
 						dataId: d.id,
+						shortPath: blueprintPathToShort(d.path),
 						type: SFDataType.buildable
 					})
 					.catch(() => {});
@@ -103,6 +107,7 @@ export async function prepareRecipe(data: any) {
 				.insert(mapping)
 				.values({
 					dataId: d.id,
+					shortPath: blueprintPathToShort(d.path),
 					type: SFDataType.recipe
 				})
 				.catch(() => {});
@@ -134,6 +139,7 @@ export async function prepareSchematic(data: any) {
 				.insert(mapping)
 				.values({
 					dataId: d.id,
+					shortPath: blueprintPathToShort(d.path),
 					type: SFDataType.schematic
 				})
 				.catch(() => {});

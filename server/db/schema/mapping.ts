@@ -5,5 +5,6 @@ import { dbSchema } from './schema';
 export const mapping = dbSchema.table('mapping', {
 	id: uuid('id').defaultRandom().primaryKey(),
 	dataId: text('data_id').unique(),
+	shortPath: text('short_path').unique(),
 	type: text('type').$type<SFDataType>().notNull()
 });

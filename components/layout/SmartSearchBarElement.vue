@@ -14,7 +14,7 @@
 		:to="{
 			name: 'show-id',
 			params: {
-				id: String(data.id)
+				id: String(blueprintPathToShort(data.path))
 			}
 		}"
 		class="flex w-full items-center gap-2 rounded border bg-gray-100 p-1 hover:bg-gray-200 dark:border-gray-500 dark:bg-gray-600 hover:dark:bg-gray-700">
