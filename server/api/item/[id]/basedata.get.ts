@@ -1,4 +1,4 @@
-export default defineEventHandler(async (event) => {
+export default defineEventHandler((event) => {
 	const id = getRouterParam(event, 'id');
 
 	if (!id) {
@@ -8,5 +8,5 @@ export default defineEventHandler(async (event) => {
 		});
 	}
 
-	return await getItemData(id);
+	return { wip: true };
 });
