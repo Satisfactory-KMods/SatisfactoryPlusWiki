@@ -1,6 +1,5 @@
 <script setup lang="ts">
 	import type { NuxtError } from '@nuxt/types';
-	useDarkMode();
 
 	const props = defineProps({
 		error: {
@@ -12,7 +11,7 @@
 	useHead({
 		title: `SFP-Wiki | Error ${props.error.statusCode}`,
 		htmlAttrs: {
-			class: 'nuxt-ui-scrollbars'
+			class: `nuxt-ui-scrollbars`
 		}
 	});
 

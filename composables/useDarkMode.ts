@@ -1,12 +1,22 @@
 export const useDarkMode = () => {
 	const colorMode = useColorMode();
+	const cookie = useCookie('color-mode');
+
+	if (!cookie.value) {
+		cookie.value = colorMode.value ?? colorMode.preference;
+	} else {
+		colorMode.value = cookie.value;
+		colorMode.preference = cookie.value;
+	}
 
 	const active = computed({
 		get() {
-			return (colorMode.value ?? colorMode.preference) === 'dark';
+			return (cookie.value ?? colorMode.value ?? colorMode.preference) === 'dark';
 		},
 		set(v) {
 			colorMode.value = !v ? 'light' : 'dark';
+			cookie.value = !v ? 'light' : 'dark';
+			colorMode.preference = !v ? 'light' : 'dark';
 		}
 	});
 

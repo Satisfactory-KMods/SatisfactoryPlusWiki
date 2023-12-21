@@ -103,28 +103,32 @@
 						<div
 							v-click-outside="{ active: showPopover, fn: clickOutsideOfPopover }"
 							class="pointer-events-auto grid grid-cols-2 gap-2 p-2">
-							<div
-								v-if="!!results.item.count"
-								class="flex h-full flex-col gap-1 rounded border bg-gray-50 p-1 dark:border-gray-600 dark:bg-gray-800">
-								<div class="font-semibolt py-1 text-center text-lg">Items</div>
+							<div v-if="!!results.item.count" class="flex h-full flex-col gap-1">
+								<div
+									class="font-semibolt rounded border bg-gray-100 p-1 py-1 text-center text-lg hover:bg-gray-200 dark:border-gray-950 dark:bg-gray-800 hover:dark:bg-gray-700">
+									Items
+								</div>
 								<LayoutSmartSearchBarElement v-for="e in results.item.result" :key="e.id" :data="e" />
 							</div>
-							<div
-								v-if="!!results.building.count"
-								class="flex h-full flex-col gap-1 rounded border bg-gray-50 p-1 dark:border-gray-600 dark:bg-gray-800">
-								<div class="font-semibolt py-1 text-center text-lg">Buildings</div>
+							<div v-if="!!results.building.count" class="flex h-full flex-col gap-1">
+								<div
+									class="font-semibolt rounded border bg-gray-100 p-1 py-1 text-center text-lg hover:bg-gray-200 dark:border-gray-950 dark:bg-gray-800 hover:dark:bg-gray-700">
+									Buildings
+								</div>
 								<LayoutSmartSearchBarElement v-for="e in results.building.result" :key="e.id" :data="e" />
 							</div>
-							<div
-								v-if="!!results.schematic.count"
-								class="flex h-full flex-col gap-1 rounded border bg-gray-50 p-1 dark:border-gray-600 dark:bg-gray-800">
-								<div class="font-semibolt py-1 text-center text-lg">Schematics</div>
+							<div v-if="!!results.schematic.count" class="flex h-full flex-col gap-1">
+								<div
+									class="font-semibolt rounded border bg-gray-100 p-1 py-1 text-center text-lg hover:bg-gray-200 dark:border-gray-950 dark:bg-gray-800 hover:dark:bg-gray-700">
+									Schematics
+								</div>
 								<LayoutSmartSearchBarElement v-for="e in results.schematic.result" :key="e.id" :data="e" />
 							</div>
-							<div
-								v-if="!!results.recipe.count"
-								class="flex h-full flex-col gap-1 rounded border bg-gray-50 p-1 dark:border-gray-600 dark:bg-gray-800">
-								<div class="font-semibolt py-1 text-center text-lg">Recipes</div>
+							<div v-if="!!results.recipe.count" class="flex h-full flex-col gap-1">
+								<div
+									class="font-semibolt rounded border bg-gray-100 p-1 py-1 text-center text-lg hover:bg-gray-200 dark:border-gray-950 dark:bg-gray-800 hover:dark:bg-gray-700">
+									Recipes
+								</div>
 								<LayoutSmartSearchBarElement v-for="e in results.recipe.result" :key="e.id" :data="e" />
 							</div>
 						</div>
