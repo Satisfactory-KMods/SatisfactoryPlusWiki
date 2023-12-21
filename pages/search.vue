@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-	const { params, reffer } = useQueryParams(
+	const { reffer } = useQueryParams(
 		{
 			search: String()
 		},
@@ -10,17 +10,13 @@
 	const {
 		data: result,
 		status,
-		error
+		error,
+		refresh
 	} = useFetch('/api/search', {
 		query: {
-			search: params.search,
+			search: reffer.search,
 			limit: 20
-		},
-		watch: [
-			() => {
-				return [params.search];
-			}
-		]
+		}
 	});
 
 	function keyToString(key: string) {
@@ -51,22 +47,9 @@
 			</template>
 		</UInput>
 
-		<template v-if="status === 'pending'">
-			<div class="mt-2 w-full">
-				<UIcon name="i-heroicons-refresh" spin />
-			</div>
-		</template>
+		<LoadingRequest v-if="!result" :status="status" :error="error" :refresh="refresh" />
 
-		<template v-else-if="status === 'error'">
-			<div class="mt-2 w-full">
-				<UIcon name="i-heroicons-x-circle" />
-				<div>
-					{{ error }}
-				</div>
-			</div>
-		</template>
-
-		<template v-else-if="status === 'success' && result">
+		<template v-else>
 			<div v-for="[key, category] of Object.entries(result).filter(([, { count }]) => !!count)" :key="key" class="flex flex-col gap-2">
 				<div class="flex flex-col gap-1">
 					<div
