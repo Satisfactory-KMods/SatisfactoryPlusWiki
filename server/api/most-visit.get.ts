@@ -9,6 +9,6 @@ export default defineEventHandler(async (event) => {
 		throw createError({ statusCode: 400, statusMessage: 'missing search parameter' });
 	}
 
-	const limit = z.number().parse(parseInt(query.limit));
+	const limit = z.number().min(1).max(100).parse(parseInt(query.limit));
 	return await getMostVisits(limit);
 });

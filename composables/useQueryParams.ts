@@ -19,7 +19,17 @@ export function useQueryParams<T extends RouteParamsRaw>(defaults: Partial<T>, e
 	const router = useRouter();
 	const params = reactive<T>({ ...defaults, ...(route.query as any) });
 	const onParamsUpdated = ref(event);
-	const refs = toRefs(params);
+	const reffer = toRefs(params);
+
+	watch(
+		() => {
+			return params;
+		},
+		() => {
+			return setParams(params as any);
+		},
+		{ deep: true }
+	);
 
 	watch(
 		() => {
@@ -54,5 +64,5 @@ export function useQueryParams<T extends RouteParamsRaw>(defaults: Partial<T>, e
 		updateRoute();
 	}
 
-	return { params: readonly(params), refs, onParamsUpdated, updateRoute, setParams };
+	return { params: readonly(params), reffer, onParamsUpdated, updateRoute, setParams };
 }

@@ -1,16 +1,43 @@
 <script lang="ts" setup>
 	import type { ApiSearchResponse } from '~/server/api/search.get';
+	import cloneDeep from 'lodash/cloneDeep';
 
 	const display = ref(false);
 	const inputRef = ref();
 	const router = useRouter();
 	const { input, output: search } = useRefDelay('', doSearch, 500);
-	const results = ref<ApiSearchResponse>({
-		item: [],
-		schematic: [],
-		recipe: [],
-		building: []
-	});
+
+	function getDefaults() {
+		return cloneDeep<ApiSearchResponse>({
+			item: {
+				count: 0,
+				result: [],
+				totalViews: 0
+			},
+			schematic: {
+				count: 0,
+				result: [],
+				totalViews: 0
+			},
+			recipe: {
+				count: 0,
+				result: [],
+				totalViews: 0
+			},
+			building: {
+				count: 0,
+				result: [],
+				totalViews: 0
+			},
+			researchTree: {
+				count: 0,
+				result: [],
+				totalViews: 0
+			}
+		});
+	}
+
+	const results = ref<ApiSearchResponse>(getDefaults());
 
 	async function submitSearch() {
 		await router.push({
@@ -21,37 +48,24 @@
 		});
 		search.value = '';
 		input.value = '';
-		results.value = {
-			item: [],
-			schematic: [],
-			recipe: [],
-			building: []
-		};
+		results.value = getDefaults();
 	}
 
 	async function doSearch() {
 		if (search.value.length < 1) {
-			results.value.building = [];
-			results.value.schematic = [];
-			results.value.recipe = [];
-			results.value.item = [];
+			results.value = getDefaults();
 			return;
 		}
 
 		results.value = await $fetch('/api/search', { query: { search: input.value } }).catch(() => {
-			return {
-				item: [],
-				schematic: [],
-				recipe: [],
-				building: []
-			};
+			return getDefaults();
 		});
 	}
 
 	const showPopover = computed(() => {
 		return (
 			Object.values(results.value).some((v) => {
-				return v.length > 0;
+				return v.count > 0;
 			}) && display.value
 		);
 	});
@@ -90,28 +104,28 @@
 							v-click-outside="{ active: showPopover, fn: clickOutsideOfPopover }"
 							class="pointer-events-auto grid grid-cols-2 gap-2 p-2">
 							<div
-								v-if="!!results.item.length"
+								v-if="!!results.item.count"
 								class="flex h-full flex-col gap-1 rounded border bg-gray-50 p-1 dark:border-gray-600 dark:bg-gray-800">
 								<div class="font-semibolt py-1 text-center text-lg">Items</div>
-								<LayoutSmartSearchBarElement v-for="e in results.item" :key="e.id" :data="e" />
+								<LayoutSmartSearchBarElement v-for="e in results.item.result" :key="e.id" :data="e" />
 							</div>
 							<div
-								v-if="!!results.building.length"
+								v-if="!!results.building.count"
 								class="flex h-full flex-col gap-1 rounded border bg-gray-50 p-1 dark:border-gray-600 dark:bg-gray-800">
 								<div class="font-semibolt py-1 text-center text-lg">Buildings</div>
-								<LayoutSmartSearchBarElement v-for="e in results.building" :key="e.id" :data="e" />
+								<LayoutSmartSearchBarElement v-for="e in results.building.result" :key="e.id" :data="e" />
 							</div>
 							<div
-								v-if="!!results.schematic.length"
+								v-if="!!results.schematic.count"
 								class="flex h-full flex-col gap-1 rounded border bg-gray-50 p-1 dark:border-gray-600 dark:bg-gray-800">
 								<div class="font-semibolt py-1 text-center text-lg">Schematics</div>
-								<LayoutSmartSearchBarElement v-for="e in results.schematic" :key="e.id" :data="e" />
+								<LayoutSmartSearchBarElement v-for="e in results.schematic.result" :key="e.id" :data="e" />
 							</div>
 							<div
-								v-if="!!results.recipe.length"
+								v-if="!!results.recipe.count"
 								class="flex h-full flex-col gap-1 rounded border bg-gray-50 p-1 dark:border-gray-600 dark:bg-gray-800">
 								<div class="font-semibolt py-1 text-center text-lg">Recipes</div>
-								<LayoutSmartSearchBarElement v-for="e in results.recipe" :key="e.id" :data="e" />
+								<LayoutSmartSearchBarElement v-for="e in results.recipe.result" :key="e.id" :data="e" />
 							</div>
 						</div>
 					</template>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-	const darkmode = useDarkMode();
+	const { toggle, modeIcon } = useDarkMode();
 </script>
 
 <template>
@@ -11,12 +11,7 @@
 					<div class="flex-1 text-xl font-bold">Satisfactory Plus <span class="text-blue-500">Wiki</span></div>
 					<div class="flex gap-2">
 						<LayoutSmartSearchbar />
-						<UButton
-							size="lg"
-							class="float-right"
-							variant="ghost"
-							:icon="darkmode ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'"
-							@click="darkmode = !darkmode" />
+						<UButton :key="modeIcon" size="lg" class="float-right" variant="ghost" :icon="modeIcon" @click="toggle" />
 					</div>
 				</div>
 			</UContainer>

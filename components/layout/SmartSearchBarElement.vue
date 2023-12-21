@@ -3,7 +3,7 @@
 
 	defineProps({
 		data: {
-			type: Object as PropType<ApiSearchResponse['building'][0]>,
+			type: Object as PropType<ApiSearchResponse['building']['result'][0]>,
 			required: true
 		}
 	});
@@ -24,6 +24,12 @@
 			width="50"
 			height="50"
 			class="rounded border border-gray-500 bg-gray-700 p-1" />
-		<span class="flex-1 font-semibold">{{ data.name }}</span>
+		<div class="flex flex-1 flex-col">
+			<span class="font-semibold">{{ data.name }}</span>
+			<span class="flex items-center text-xs">
+				<Icon name="i-heroicons-eye" class="me-1 inline-block h-3 w-3" />
+				Views: {{ data.views ?? 0 }}
+			</span>
+		</div>
 	</NuxtLink>
 </template>

@@ -1,23 +1,111 @@
 <script setup lang="ts">
 	import { useLastVisit } from '~/stores/useLastVisit';
 
-	const { signIn, signOut, session, status, cookies, getProviders } = useAuth();
+	const { signIn, signOut, session } = useAuth();
 	const visitStore = useLastVisit();
 
 	const general = [
 		{
-			label: 'Dashboard',
+			label: 'Home',
 			icon: 'i-heroicons-home',
 			to: '/',
 			exact: false,
 			exactMatch: false
 		},
 		{
-			label: 'User Management',
-			icon: 'i-heroicons-users',
-			to: '/user/management',
+			label: 'Search',
+			icon: 'i-heroicons-magnifying-glass-16-solid',
+			to: '/search',
 			exact: false,
 			exactMatch: false
+		},
+		{
+			label: 'Milestones',
+			icon: 'i-mdi-progress-upload',
+			to: '/milestones/tier-1',
+			exact: false,
+			exactMatch: false
+		},
+		{
+			label: 'Awsome Shop',
+			icon: 'i-mdi-shopping-outline',
+			to: '/awsome-shop',
+			exact: false,
+			exactMatch: false
+		},
+		{
+			label: 'Research Trees',
+			icon: 'i-heroicons-academic-cap',
+			to: '/research-trees',
+			exact: false,
+			exactMatch: false
+		},
+		{
+			label: 'Resource Map',
+			icon: 'i-heroicons-map',
+			to: '/map',
+			exact: false,
+			exactMatch: false
+		}
+	];
+
+	const about = [
+		{
+			label: 'About',
+			icon: 'i-heroicons-information-circle',
+			to: '/about',
+			exact: false,
+			exactMatch: false
+		},
+		{
+			label: 'Changelog',
+			icon: 'i-heroicons-document-text',
+			to: '/changelog',
+			exact: false,
+			exactMatch: false
+		},
+		{
+			label: 'Satisfactory Plus',
+			icon: 'i-mdi-factory',
+			to: 'https://ficsit.app/mod/SatisfactoryPlus',
+			exact: false,
+			exactMatch: false,
+			target: '_blank'
+		}
+	];
+
+	const more = [
+		{
+			label: 'Contribute',
+			icon: 'i-mdi-github-face',
+			to: 'https://github.com/Satisfactory-KMods/SatisfactoryPlusWiki',
+			exact: false,
+			exactMatch: false,
+			target: '_blank'
+		},
+		{
+			label: 'Our Mods',
+			icon: 'i-mdi-factory',
+			to: 'https://ficsit.app/user/9uvZtCA4cM6H4q',
+			exact: false,
+			exactMatch: false,
+			target: '_blank'
+		},
+		{
+			label: 'Discord',
+			icon: 'i-mdi-discord',
+			to: 'https://discord.gg/7mePXyfsJd',
+			exact: false,
+			exactMatch: false,
+			target: '_blank'
+		},
+		{
+			label: 'Patreon',
+			icon: 'i-mdi-patreon',
+			to: 'https://www.patreon.com/kmods',
+			exact: false,
+			exactMatch: false,
+			target: '_blank'
 		}
 	];
 
@@ -57,17 +145,23 @@
 
 			<template v-if="session?.user?.name">
 				<span div class="block flex-1 px-2 font-semibold">{{ capitalizeFirstLetter(session.user.name) }}</span>
-				<UButton variant="ghost" size="sm" icon="i-heroicons-arrow-right-on-rectangle" @click="signOut" />
+				<UButton variant="ghost" size="sm" icon="i-heroicons-arrow-left-start-on-rectangle-20-solid" @click="signOut" />
 			</template>
 
 			<template v-else>
 				<span div class="block flex-1 px-2 font-semibold">Welcome Guest</span>
-				<UButton variant="ghost" size="sm" icon="i-heroicons-arrow-left-on-rectangle" @click="signIn('discord')" />
+				<UButton variant="ghost" size="sm" icon="i-heroicons-arrow-left-end-on-rectangle-20-solid" @click="signIn('discord')" />
 			</template>
 		</div>
 
 		<div class="font-semibold">Overview</div>
 		<UVerticalNavigation :links="general" :ui="ui" />
+
+		<div class="mt-3 font-semibold">About</div>
+		<UVerticalNavigation :links="about" :ui="ui" />
+
+		<div class="mt-3 font-semibold">More</div>
+		<UVerticalNavigation :links="more" :ui="ui" />
 
 		<template v-if="lastVisit.length">
 			<div class="font-semibold">Last Visits</div>

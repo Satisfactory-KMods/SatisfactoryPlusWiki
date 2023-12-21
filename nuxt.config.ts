@@ -16,7 +16,8 @@ export default defineNuxtConfig({
 	ssr: true,
 	css: ['vue-final-modal/style.css'],
 	ui: {
-		icons: 'all',
+		icons: ['heroicons', 'mdi'],
+		safelistColors: ['sky', 'cool', 'warm', 'red', 'green', 'blue', 'purple', 'pink', 'yellow', 'orange', 'gray', 'white', 'black'],
 		global: true
 	},
 	pinia: {

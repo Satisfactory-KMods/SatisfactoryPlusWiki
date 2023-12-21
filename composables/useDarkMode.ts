@@ -1,14 +1,22 @@
-export function useDarkMode() {
+export const useDarkMode = () => {
 	const colorMode = useColorMode();
 
-	const isDark = computed({
+	const active = computed({
 		get() {
-			return colorMode.value === 'dark';
+			return (colorMode.value ?? colorMode.preference) === 'dark';
 		},
-		set() {
-			colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark';
+		set(v) {
+			colorMode.value = !v ? 'light' : 'dark';
 		}
 	});
 
-	return isDark;
-}
+	const toggle = () => {
+		active.value = !active.value;
+	};
+
+	const modeIcon = computed(() => {
+		return active.value ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid';
+	});
+
+	return { active, modeIcon, toggle };
+};
