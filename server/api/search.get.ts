@@ -1,11 +1,6 @@
-import type { ItemInsert } from './../db/schema/items';
+import type { InferReturn } from '~/utils/typeUtils';
 
-export type ApiSearchResponse = {
-	item: Pick<ItemInsert, 'name' | 'id' | 'image' | 'path'>[];
-	schematic: Pick<ItemInsert, 'name' | 'id' | 'image' | 'path'>[];
-	recipe: Pick<ItemInsert, 'name' | 'id' | 'image' | 'path'>[];
-	building: Pick<ItemInsert, 'name' | 'id' | 'image' | 'path'>[];
-};
+export type ApiSearchResponse = InferReturn<typeof getSearchResult>;
 
 export default defineEventHandler(async (event) => {
 	const query = getQuery<{ search: string }>(event);

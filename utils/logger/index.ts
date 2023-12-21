@@ -87,9 +87,6 @@ export type CustomLogs = Record<string, LogLevel>;
 
 export type Nullish<T = any> = T | null | undefined;
 
-export type InferReturn<T extends (...args: any) => any> = Exclude<Awaited<ReturnType<T>>, undefined | null>;
-export type InferReturnArray<T extends (...args: any) => any> = Exclude<Awaited<ReturnType<T>>, undefined | null>[0];
-
 /* eslint-disable no-console */
 /**
  * the default log levels

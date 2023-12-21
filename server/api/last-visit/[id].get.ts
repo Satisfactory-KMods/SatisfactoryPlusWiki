@@ -1,3 +1,7 @@
+import type { InferReturn } from '~/utils/typeUtils';
+
+export type LastVisitResponse = InferReturn<typeof getMappingData>;
+
 export default defineEventHandler(async (event) => {
 	const id = getRouterParam(event, 'id');
 

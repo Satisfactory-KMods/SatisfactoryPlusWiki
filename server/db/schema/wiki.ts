@@ -17,6 +17,9 @@ export const wikiElementRelations = relations(wikiElement, ({ many }) => {
 	};
 });
 
+export type WikiElement = typeof wikiElement.$inferSelect;
+export type WikiElementInsert = typeof wikiElement.$inferInsert;
+
 // -----------------------------------------------------
 // recipes
 // -----------------------------------------------------

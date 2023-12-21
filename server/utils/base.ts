@@ -1,5 +1,6 @@
-import { asc, desc } from 'drizzle-orm';
-import { buildables, db, items, recipes, schematics } from '~/server/db/index';
+import { asc, desc, eq, not } from 'drizzle-orm';
+import { buildables, db, items, recipes, researchTree, schematics } from '~/server/db/index';
+import { wikiElement } from '../db/schema/wiki';
 
 export function getMappingData(id: string) {
 	return db.query.mapping
@@ -31,6 +32,9 @@ export async function getSearchResult(search: string) {
 				image: true,
 				path: true
 			},
+			with: {
+				wikiEl: true
+			},
 			limit: 5
 		}),
 		db.query.items.findMany({
@@ -43,6 +47,9 @@ export async function getSearchResult(search: string) {
 				id: true,
 				image: true,
 				path: true
+			},
+			with: {
+				wikiEl: true
 			},
 			limit: 5
 		}),
@@ -57,6 +64,9 @@ export async function getSearchResult(search: string) {
 				image: true,
 				path: true
 			},
+			with: {
+				wikiEl: true
+			},
 			limit: 5
 		}),
 		db.query.recipes.findMany({
@@ -70,9 +80,45 @@ export async function getSearchResult(search: string) {
 				image: true,
 				path: true
 			},
+			with: {
+				wikiEl: true
+			},
 			limit: 5
 		})
 	]);
 
 	return { item, schematic, recipe, building };
+}
+
+export type MostVisitResult = {
+	name: string;
+	id: string;
+	image: string;
+	path: string;
+	views: number;
+};
+
+export function getMostVisitsFor<T extends typeof recipes | typeof researchTree | typeof schematics | typeof buildables | typeof items>(
+	table: T,
+	limit = 5
+) {
+	return db
+		.select({ name: table.name, id: table.id, image: table.image, path: table.path, views: wikiElement.views })
+		.from(table)
+		.leftJoin(wikiElement, eq(table.path, wikiElement.elPath))
+		.orderBy(desc(wikiElement.views), asc(table.name))
+		.where(not(eq(table.name, '')))
+		.limit(limit);
+}
+
+export async function getMostVisits(limit = 5) {
+	const [building, item, schematic, recipe, researchTrees] = await Promise.all([
+		getMostVisitsFor(buildables, limit),
+		getMostVisitsFor(items, limit),
+		getMostVisitsFor(schematics, limit),
+		getMostVisitsFor(recipes, limit),
+		getMostVisitsFor(researchTree, limit)
+	]);
+
+	return { item, schematic, recipe, building, researchTree: researchTrees };
 }
