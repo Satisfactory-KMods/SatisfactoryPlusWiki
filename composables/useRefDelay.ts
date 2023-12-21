@@ -1,8 +1,8 @@
 import cloneDeep from 'lodash/cloneDeep';
 import type { UnwrapRef } from 'vue';
 
-export function useRefDelay<T = any>(value: T, onChange: (value: UnwrapRef<T>) => any = () => {}, timeout = 500) {
-	const refValue = ref(value);
+export function useRefDelay<T = any>(value: T | Ref<T>, onChange: (value: UnwrapRef<T>) => any = () => {}, timeout = 500) {
+	const refValue: any = isRef(value) ? value : ref(value);
 	const cached = ref(cloneDeep(refValue.value)!);
 	const lastTimeout = ref<any>(null);
 

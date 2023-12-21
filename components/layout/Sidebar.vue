@@ -14,7 +14,7 @@
 		},
 		{
 			label: 'Search',
-			icon: 'i-heroicons-magnifying-glass-16-solid',
+			icon: 'i-heroicons-magnifying-glass',
 			to: '/search',
 			exact: false,
 			exactMatch: false
@@ -46,6 +46,27 @@
 			to: '/map',
 			exact: false,
 			exactMatch: false
+		},
+		{
+			label: 'Items',
+			icon: 'i-heroicons-archive-box',
+			to: '/items',
+			exact: false,
+			exactMatch: false
+		},
+		{
+			label: 'Recipes',
+			icon: 'i-heroicons-book-open',
+			to: '/recipes',
+			exact: false,
+			exactMatch: false
+		},
+		{
+			label: 'Buildings',
+			icon: 'i-mdi-factory',
+			to: '/buildings',
+			exact: false,
+			exactMatch: false
 		}
 	];
 
@@ -60,9 +81,10 @@
 		{
 			label: 'Changelog',
 			icon: 'i-heroicons-document-text',
-			to: '/changelog',
+			to: 'https://github.com/Satisfactory-KMods/SatisfactoryPlusWiki/releases',
 			exact: false,
-			exactMatch: false
+			exactMatch: false,
+			target: '_blank'
 		},
 		{
 			label: 'Satisfactory Plus',
