@@ -1,0 +1,49 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk1/Build_PowerPoleMk1.Build_PowerPoleMk1_C",
+	"path": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk1/Desc_PowerPoleMk1.Desc_PowerPoleMk1_C",
+	"name": "Power Pole Mk.1",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleMk1.Recipe_PowerPoleMk1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+					"time": 1,
+					"amount": 4
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CopperRod.Desc_CopperRod_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk1/Desc_PowerPoleMk1.Desc_PowerPoleMk1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

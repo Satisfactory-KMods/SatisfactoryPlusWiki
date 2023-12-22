@@ -2,7 +2,24 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_3.Schematic_SF+_8_3_C",
 	"name": "[WIP] Drone Technology",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_TitanPipe.Desc_TitanPipe_C",
+			"amount": 1000
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_4.Desc_SpaceElevatorPart_4_C",
+			"amount": 100
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Sulfur/Desc_Sulfur.Desc_Sulfur_C",
+			"amount": 2000
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C",
+			"amount": 250
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 3,

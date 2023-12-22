@@ -1,0 +1,59 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/KLib/Assets/Buildings/SinkStorage/Build_StorageContainerMk2.Build_StorageContainerMk2_C",
+	"path": "/KLib/Assets/Buildings/SinkStorage/Desc_SinkStorageMk2.Desc_SinkStorageMk2_C",
+	"name": "Awesome Sink Storage Mk.2",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/SinkStorage/Recipe_SinkStorageMk2.Recipe_SinkStorageMk2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+					"time": 1,
+					"amount": 100
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 50
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 100
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/SinkStorage/Desc_SinkStorageMk2.Desc_SinkStorageMk2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_3.Schematic_SF+_4_3_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

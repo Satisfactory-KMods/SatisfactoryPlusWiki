@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1.SF+_Schematic_Tutorial1_C",
 	"name": "Hub Upgrade 1",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+			"amount": 10
+		}
+	],
 	"category": "Logistics",
 	"subCategory": "",
 	"type": 2,

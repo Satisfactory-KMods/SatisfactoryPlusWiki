@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Events/Christmas/Buildings/PowerLineLights/Desc_xmassLights.Desc_xmassLights_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "FICSMAS Power Light",
+	"description": "Used to connect Power Poles, Power Generators and Factory buildings. Has pretty lights to boot!",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_3-1.Research_XMas_3-1_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/PowerLine/UI/Powerline_256.Powerline_256",
+	"category": "FICSMAS",
+	"subCategory": "Event",
+	"buildingPath": "/Game/FactoryGame/Events/Christmas/Buildings/PowerLineLights/Build_XmassLightsLine.Build_XmassLightsLine_C",
+	"dataType": "buildable"
+}

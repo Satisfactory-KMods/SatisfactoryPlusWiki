@@ -1,0 +1,29 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/SlugHatching/Modular/Hatchery/Descriptor/BuildDesc_Hatchery_Small_Module.BuildDesc_Hatchery_Small_Module_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 5,
+	"descriptorType": 0,
+	"name": "Incubator Module",
+	"description": "This module is required to hatch eggs. Increasing more modules decreases the time required for an egg. \r\n\r\nNote: This module can be built more than once on a Hatchery. This increase the production speed!",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_1_NEW.Schematic_Trees_Slugs_3_1_NEW_C"
+	],
+	"image": "/KLib/Assets/Buildings/SlugHatching/UI/Icon_Hatchery_Small_Module.Icon_Hatchery_Small_Module",
+	"category": "Special",
+	"subCategory": "Cultivation",
+	"buildingPath": "/KLib/Assets/Buildings/SlugHatching/Modular/Hatchery/Build_Hatchery_Small_Module.Build_Hatchery_Small_Module_C",
+	"dataType": "buildable"
+}

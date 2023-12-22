@@ -1,0 +1,29 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/ModularExtractor/Desc/BuildDesc_Module_Smelter.BuildDesc_Module_Smelter_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 20,
+	"descriptorType": 0,
+	"name": "Smelter Module",
+	"description": "Attached to the Modular Miner.\r\n\r\nSmelts the extracted ore instantly, outputting ingots and molten slag.\r\nSmelt only the first ingot types (like iron, copper or tin)\r\n\r\nIncreases the power required by the modular miner. ",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_4.Schematic_SF+_2_4_C"
+	],
+	"image": "/KLib/Assets/Buildings/ModularExtractor/UI/Icons/Icon_SmelterModule.Icon_SmelterModule",
+	"category": "Production",
+	"subCategory": "Miner",
+	"buildingPath": "/KLib/Assets/Buildings/ModularExtractor/Modules/Smelter/Build_SmelterModule.Build_SmelterModule_C",
+	"dataType": "buildable"
+}

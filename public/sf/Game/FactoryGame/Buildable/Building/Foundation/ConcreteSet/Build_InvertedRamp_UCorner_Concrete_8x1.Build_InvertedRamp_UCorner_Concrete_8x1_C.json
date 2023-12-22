@@ -1,0 +1,31 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_UCorner_Concrete_8x1.Desc_InvertedRamp_UCorner_Concrete_8x1_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Inv. Up Corner 1m",
+	"description": "Provides a flat floor to build your factory on.\r\n\r\nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.\r\n\r\nSize: 8m x 1m",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_Concrete_FoundationMaterial.ResourceSink_Customizer_Concrete_FoundationMaterial_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_InvertedCornerRamps.ResourceSink_InvertedCornerRamps_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Ramps_InvCorners_Concrete.CBG_Ramps_InvCorners_Concrete_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Building/Ramp/UI/InvertedUp/IconDesc_ConcInvURamp1m_512.IconDesc_ConcInvURamp1m_512",
+	"category": "Foundations",
+	"subCategory": "Inverted Ramps",
+	"buildingPath": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Build_InvertedRamp_UCorner_Concrete_8x1.Build_InvertedRamp_UCorner_Concrete_8x1_C",
+	"dataType": "buildable"
+}

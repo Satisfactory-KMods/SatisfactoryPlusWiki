@@ -1,0 +1,59 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": true,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/KLib/Assets/Buildings/ModularExtractor/Modules/Batta/Build_Module_Energy_Tier2.Build_Module_Energy_Tier2_C",
+	"path": "/KLib/Assets/Buildings/ModularExtractor/Desc/BuildDesc_Module_Energy_Mk2.BuildDesc_Module_Energy_Mk2_C",
+	"name": "High Energy Module",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_Module_Energy_Mk2.Recipe_Module_Energy_Mk2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+					"time": 1,
+					"amount": 50
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
+					"time": 1,
+					"amount": 100
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C",
+					"time": 1,
+					"amount": 30
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Stator/Desc_Stator.Desc_Stator_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C",
+					"time": 1,
+					"amount": 5
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/ModularExtractor/Desc/BuildDesc_Module_Energy_Mk2.BuildDesc_Module_Energy_Mk2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_4_4_NEW.Schematic_Trees_Slugs_4_4_NEW_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

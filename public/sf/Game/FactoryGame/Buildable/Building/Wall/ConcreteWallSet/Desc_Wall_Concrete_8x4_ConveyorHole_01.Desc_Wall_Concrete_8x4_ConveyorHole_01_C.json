@@ -1,0 +1,31 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x4_ConveyorHole_01.Desc_Wall_Concrete_8x4_ConveyorHole_01_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Conveyor Wall x1",
+	"description": "Has 1 Conveyor Belt connection.\r\nSnaps to Foundations and other Walls.\r\n\r\nSize: 8m x 4m",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_ConcreteWallMaterial.ResourceSink_Customizer_ConcreteWallMaterial_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Concrete_Walls_Conveyor.CBG_Concrete_Walls_Conveyor_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_ConveryWalls_Normal.ResourceSink_ConveryWalls_Normal_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Building/Wall/UI/ConveyorHole/IconDesc_WallConcCovHole1_512.IconDesc_WallConcCovHole1_512",
+	"category": "Walls",
+	"subCategory": "Conveyor Connections",
+	"buildingPath": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Build_Wall_Concrete_8x4_ConveyorHole_01.Build_Wall_Concrete_8x4_ConveyorHole_01_C",
+	"dataType": "buildable"
+}

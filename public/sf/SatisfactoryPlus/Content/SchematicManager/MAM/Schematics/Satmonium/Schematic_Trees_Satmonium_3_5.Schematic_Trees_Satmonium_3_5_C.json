@@ -2,7 +2,24 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_5.Schematic_Trees_Satmonium_3_5_C",
 	"name": "Hight Speed",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C",
+			"amount": 100
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C",
+			"amount": 400
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+			"amount": 400
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_SolderWire.Desc_SolderWire_C",
+			"amount": 2500
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,

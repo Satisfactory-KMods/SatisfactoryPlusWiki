@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk3/Desc_PowerPoleMk3.Desc_PowerPoleMk3_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Power Pole Mk.3",
+	"description": "Can handle up to 10 Power Line connections.\r\n\r\nConnect Power Poles, Power Generators and factory buildings together with Power Lines to create a power grid. The power grid supplies the connected buildings with power.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_4_5.Schematic_Trees_Satmonium_4_5_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk3/UI/PowerPoleMk3_512.PowerPoleMk3_512",
+	"category": "Power",
+	"subCategory": "Power Poles",
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk3/Build_PowerPoleMk3.Build_PowerPoleMk3_C",
+	"dataType": "buildable"
+}

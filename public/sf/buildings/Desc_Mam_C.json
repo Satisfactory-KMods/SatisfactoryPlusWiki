@@ -1,0 +1,59 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/Mam/Build_Mam.Build_Mam_C",
+	"path": "/Game/FactoryGame/Buildable/Factory/Mam/Desc_Mam.Desc_Mam_C",
+	"name": "MAM",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_Mam.Recipe_Mam_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+					"time": 1,
+					"amount": 30
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 25
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/Mam/Desc_Mam.Desc_Mam_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_4.Schematic_SF+_1_4_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

@@ -1,0 +1,44 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/Workshop/Build_Workshop.Build_Workshop_C",
+	"path": "/Game/FactoryGame/Buildable/Factory/Workshop/Desc_Workshop.Desc_Workshop_C",
+	"name": "Equipment Workshop",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_Workshop.Recipe_Workshop_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 1,
+					"amount": 5
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/Workshop/Desc_Workshop.Desc_Workshop_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1.SF+_Schematic_Tutorial1_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

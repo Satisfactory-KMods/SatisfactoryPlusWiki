@@ -1,0 +1,50 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/ResourceSinkShop/Build_ResourceSinkShop.Build_ResourceSinkShop_C",
+	"path": "/Game/FactoryGame/Buildable/Factory/ResourceSinkShop/Desc_ResourceSinkShop.Desc_ResourceSinkShop_C",
+	"name": "AWESOME Shop",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ResourceSinkShop.Recipe_ResourceSinkShop_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 100
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_LeadSheet.Desc_LeadSheet_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+					"time": 1,
+					"amount": 25
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/ResourceSinkShop/Desc_ResourceSinkShop.Desc_ResourceSinkShop_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_3.Schematic_SF+_2_3_C",
+				"/Game/FactoryGame/Schematics/Progression/Schematic_2-5.Schematic_2-5_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

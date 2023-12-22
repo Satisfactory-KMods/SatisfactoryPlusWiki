@@ -1,0 +1,49 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/CA_Splitter/Build_ConveyorAttachmentSplitter.Build_ConveyorAttachmentSplitter_C",
+	"path": "/Game/FactoryGame/Buildable/Factory/CA_Splitter/Desc_ConveyorAttachmentSplitter.Desc_ConveyorAttachmentSplitter_C",
+	"name": "Conveyor Splitter",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorAttachmentSplitter.Recipe_ConveyorAttachmentSplitter_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Belt/Desc_BeltItemMk1.Desc_BeltItemMk1_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/CA_Splitter/Desc_ConveyorAttachmentSplitter.Desc_ConveyorAttachmentSplitter_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_0.Schematic_SF+_1_0_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

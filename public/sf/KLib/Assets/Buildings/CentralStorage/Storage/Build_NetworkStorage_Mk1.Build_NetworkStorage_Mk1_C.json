@@ -1,0 +1,29 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_NetworkStorage_Mk1.BuildDesc_NetworkStorage_Mk1_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 5,
+	"descriptorType": 0,
+	"name": "Server Rack",
+	"description": "This server can be built into a server rack and increases the storage capacity of the network.\r\n\r\nTo Increase the bytes in the network place Hard Drive in the server.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C"
+	],
+	"image": "/KLib/Assets/Buildings/CentralStorage/UI/Icon_NetworkStorage_Mk1.Icon_NetworkStorage_Mk1",
+	"category": "Storage Network",
+	"subCategory": "Network Buildings",
+	"buildingPath": "/KLib/Assets/Buildings/CentralStorage/Storage/Build_NetworkStorage_Mk1.Build_NetworkStorage_Mk1_C",
+	"dataType": "buildable"
+}

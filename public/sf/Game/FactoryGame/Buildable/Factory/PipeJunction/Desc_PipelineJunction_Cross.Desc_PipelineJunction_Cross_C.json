@@ -1,0 +1,30 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Desc_PipelineJunction_Cross.Desc_PipelineJunction_Cross_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Pipeline Junction Cross",
+	"description": "Can be attached to a pipeline to split it 3-way.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8_0.Schematic_SF+_2_8_0_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/PipeJunction/UI/PipelineJunction_512.PipelineJunction_512",
+	"category": "Logistics",
+	"subCategory": "Pipelines",
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/PipeJunction/Build_PipelineJunction_Cross.Build_PipelineJunction_Cross_C",
+	"dataType": "buildable"
+}

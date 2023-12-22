@@ -1,0 +1,31 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Wall/SteelWallSet/Desc_WallSet_Steel_Angular_8x4.Desc_WallSet_Steel_Angular_8x4_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Tilted Wall 4m",
+	"description": "Snaps to foundations and other walls.\r\nUseful for building multi-floor structures.\r\n\r\nSize: 8m x 4m",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_SteelWallMaterial.ResourceSink_Customizer_SteelWallMaterial_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Steel_Walls_Tilted.CBG_Steel_Walls_Tilted_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_Tilted_Walls.ResourceSink_Tilted_Walls_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Building/Wall/UI/Angular/IconDesc_SteelAngWall4m_512.IconDesc_SteelAngWall4m_512",
+	"category": "Walls",
+	"subCategory": "Tilted Walls",
+	"buildingPath": "/Game/FactoryGame/Buildable/Building/Wall/SteelWallSet/Build_WallSet_Steel_Angular_8x4.Build_WallSet_Steel_Angular_8x4_C",
+	"dataType": "buildable"
+}

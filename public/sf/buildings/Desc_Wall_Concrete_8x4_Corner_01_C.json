@@ -1,0 +1,56 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Build_Wall_Concrete_8x4_Corner_01.Build_Wall_Concrete_8x4_Corner_01_C",
+	"path": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x4_Corner_01.Desc_Wall_Concrete_8x4_Corner_01_C",
+	"name": "Tilted Corner Wall 4m",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_Corner_01.Recipe_Wall_Concrete_8x4_Corner_01_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x4_Corner_01.Desc_Wall_Concrete_8x4_Corner_01_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_ConcreteWallMaterial.ResourceSink_Customizer_ConcreteWallMaterial_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_Tilted_Walls.ResourceSink_Tilted_Walls_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Concrete_Walls_Tilted.CBG_Concrete_Walls_Tilted_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

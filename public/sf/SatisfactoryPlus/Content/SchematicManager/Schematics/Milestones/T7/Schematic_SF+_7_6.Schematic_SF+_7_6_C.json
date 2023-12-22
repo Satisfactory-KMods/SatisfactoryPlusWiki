@@ -2,7 +2,28 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_6.Schematic_SF+_7_6_C",
 	"name": "FICSIT Inc. Assembly project Part 4",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_AlumniumSheet.Desc_AlumniumSheet_C",
+			"amount": 2000
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C",
+			"amount": 500
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/AluminumPlateReinforced/Desc_AluminumPlateReinforced.Desc_AluminumPlateReinforced_C",
+			"amount": 1000
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+			"amount": 2500
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_QuantumProcessor.Desc_TimeC_QuantumProcessor_C",
+			"amount": 250
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 3,

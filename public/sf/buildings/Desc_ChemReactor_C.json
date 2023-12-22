@@ -1,0 +1,847 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/KLib/Assets/Buildings/ChemReactor/Build_ChemReactor.Build_ChemReactor_C",
+	"path": "/KLib/Assets/Buildings/ChemReactor/Desc_ChemReactor.Desc_ChemReactor_C",
+	"name": "Chemical Reactor",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/ChemReactor/Recipe_ChemReactor.Recipe_ChemReactor_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+					"time": 1,
+					"amount": 50
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 50
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 20
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/ChemReactor/Desc_ChemReactor.Desc_ChemReactor_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		}
+	],
+	"produced": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Recipe_Alternative_TurboFuel.Recipe_Alternative_TurboFuel_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/GunPowder/Desc_Gunpowder.Desc_Gunpowder_C",
+					"time": 16,
+					"amount": 5
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Fuel/Desc_LiquidFuel.Desc_LiquidFuel_C",
+					"time": 16,
+					"amount": 4000
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Turbofuel/Desc_LiquidTurboFuel.Desc_LiquidTurboFuel_C",
+					"time": 16,
+					"amount": 4000
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/OilProcessing/Recipe_ChemReactor_Oil_Destila.Recipe_ChemReactor_Oil_Destila_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_PurifiedCrudeOil.Desc_PurifiedCrudeOil_C",
+					"time": 3,
+					"amount": 3000
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidHydrocarbons.Desc_LiquidHydrocarbons_C",
+					"time": 3,
+					"amount": 2000
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/HeavyOilResidue/Desc_HeavyOilResidue.Desc_HeavyOilResidue_C",
+					"time": 3,
+					"amount": 2500
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Asphalt/Desc_Asphalt.Desc_Asphalt_C",
+					"time": 3,
+					"amount": 2
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/OilProcessing/Recipe_ChemReactor_Oil_Desulfurization.Recipe_ChemReactor_Oil_Desulfurization_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidHydrocarbons.Desc_LiquidHydrocarbons_C",
+					"time": 3,
+					"amount": 3000
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidRefinedHydrocarbons.Desc_LiquidRefinedHydrocarbons_C",
+					"time": 3,
+					"amount": 2000
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Fuel/Desc_LiquidFuel.Desc_LiquidFuel_C",
+					"time": 3,
+					"amount": 1000
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/PolymerResin/Desc_PolymerResin.Desc_PolymerResin_C",
+					"time": 3,
+					"amount": 6
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Sulfur/Desc_Sulfur.Desc_Sulfur_C",
+					"time": 3,
+					"amount": 3
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/OilProcessing/Recipe_ChemReactor_Oil_Petroleum.Recipe_ChemReactor_Oil_Petroleum_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/HeavyOilResidue/Desc_HeavyOilResidue.Desc_HeavyOilResidue_C",
+					"time": 6,
+					"amount": 2000
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/PetroleumCoke/Desc_PetroleumCoke.Desc_PetroleumCoke_C",
+					"time": 6,
+					"amount": 12
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_LiquidBiofuel.Recipe_ChemReactor_LiquidBiofuel_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/BioFuel/Desc_Biofuel.Desc_Biofuel_C",
+					"time": 6,
+					"amount": 3
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 6,
+					"amount": 4000
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Methane.Desc_Methane_C",
+					"time": 6,
+					"amount": 3000
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/BioFuel/Desc_LiquidBiofuel.Desc_LiquidBiofuel_C",
+					"time": 6,
+					"amount": 6000
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_Diesel.Recipe_ChemReactor_Diesel_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/HeavyOilResidue/Desc_HeavyOilResidue.Desc_HeavyOilResidue_C",
+					"time": 3,
+					"amount": 3000
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_DieselOil.Desc_DieselOil_C",
+					"time": 3,
+					"amount": 2000
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_NaturalGas.Recipe_ChemReactor_NaturalGas_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_KLIB_NaturalGas.Desc_KLIB_NaturalGas_C",
+					"time": 6,
+					"amount": 3000
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Fabric.Desc_Fabric_C",
+					"time": 6,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_CarbonDioxide.Desc_Gas_CarbonDioxide_C",
+					"time": 6,
+					"amount": 1250
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Methane.Desc_Methane_C",
+					"time": 6,
+					"amount": 1750
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/OilProcessing/Recipe_ChemReactor_Oil_Destila_2.Recipe_ChemReactor_Oil_Destila_2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_PurifiedCrudeOil.Desc_PurifiedCrudeOil_C",
+					"time": 3,
+					"amount": 3000
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/GasTank/Desc_GasTank.Desc_GasTank_C",
+					"time": 3,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidHydrocarbons.Desc_LiquidHydrocarbons_C",
+					"time": 3,
+					"amount": 2000
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/HeavyOilResidue/Desc_HeavyOilResidue.Desc_HeavyOilResidue_C",
+					"time": 3,
+					"amount": 2500
+				},
+				{
+					"item": "/KLib/Assets/Parts/Packaged/Items/Gas/Desc_PackagedNaturalGas.Desc_PackagedNaturalGas_C",
+					"time": 3,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_Paint.Recipe_ChemReactor_Paint_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_GenericBiomass.Desc_GenericBiomass_C",
+					"time": 6,
+					"amount": 6
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 6,
+					"amount": 1500
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_Paint.Desc_Paint_C",
+					"time": 6,
+					"amount": 500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Recipe_SAC_PowerShard.Recipe_SAC_PowerShard_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Parts/PowerShardFrame/Desc_PowerShardFrame.Desc_PowerShardFrame_C",
+					"time": 60,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Mid.Desc_SlugSlime_Mid_C",
+					"time": 60,
+					"amount": 20000
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Slugs/Desc_SlugSlime_Low.Desc_SlugSlime_Low_C",
+					"time": 60,
+					"amount": 7500
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C",
+					"time": 60,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_GunpowderMk2.Recipe_ChemReactor_GunpowderMk2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/GunPowder/Desc_Gunpowder.Desc_Gunpowder_C",
+					"time": 15,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/HeavyOilResidue/Desc_HeavyOilResidue.Desc_HeavyOilResidue_C",
+					"time": 15,
+					"amount": 6250
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Fuel/Desc_LiquidFuel.Desc_LiquidFuel_C",
+					"time": 15,
+					"amount": 3750
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/GunPowder/Desc_GunpowderMK2.Desc_GunpowderMK2_C",
+					"time": 15,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Hydrogen.Desc_Gas_Hydrogen_C",
+					"time": 15,
+					"amount": 2000
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_SulfurAcid.Recipe_ChemReactor_SulfurAcid_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 3,
+					"amount": 3000
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Sulfurtrixid.Desc_Sulfurtrixid_C",
+					"time": 3,
+					"amount": 2250
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SulfuricAcid/Desc_SulfuricAcid.Desc_SulfuricAcid_C",
+					"time": 3,
+					"amount": 3000
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_HydroAcid.Recipe_ChemReactor_HydroAcid_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Salt.Desc_Salt_C",
+					"time": 6,
+					"amount": 12
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 6,
+					"amount": 1000
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SulfuricAcid/Desc_SulfuricAcid.Desc_SulfuricAcid_C",
+					"time": 6,
+					"amount": 1500
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidHydrochloricAcid.Desc_LiquidHydrochloricAcid_C",
+					"time": 6,
+					"amount": 6000
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_Air.Recipe_ChemReactor_Air_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Air.Desc_Air_C",
+					"time": 6,
+					"amount": 5000
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Fabric.Desc_Fabric_C",
+					"time": 6,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Ores/Gasses/Oxygen/Res_GasOxygen.Res_GasOxygen_C",
+					"time": 6,
+					"amount": 3000
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Methane.Desc_Methane_C",
+					"time": 6,
+					"amount": 1000
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C",
+					"time": 6,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_ToxicAir.Recipe_ChemReactor_ToxicAir_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_ToxicAir.Desc_ToxicAir_C",
+					"time": 6,
+					"amount": 5000
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Fabric.Desc_Fabric_C",
+					"time": 6,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Methane.Desc_Methane_C",
+					"time": 6,
+					"amount": 2000
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Hydrogen.Desc_Gas_Hydrogen_C",
+					"time": 6,
+					"amount": 2000
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_OxyHdrogen.Recipe_ChemReactor_OxyHdrogen_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Ores/Gasses/Oxygen/Res_GasOxygen.Res_GasOxygen_C",
+					"time": 3,
+					"amount": 1000
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Hydrogen.Desc_Gas_Hydrogen_C",
+					"time": 3,
+					"amount": 1500
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Oxyhydrogen.Desc_Gas_Oxyhydrogen_C",
+					"time": 3,
+					"amount": 1500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_NatriumHot.Recipe_ChemReactor_NatriumHot_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Ores/Cryolit/Res_Cryolit.Res_Cryolit_C",
+					"time": 6,
+					"amount": 6
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 6,
+					"amount": 9000
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_CausticSoda.Desc_CausticSoda_C",
+					"time": 6,
+					"amount": 9000
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Salt.Desc_Salt_C",
+					"time": 6,
+					"amount": 2
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_NitricAcid.Recipe_ChemReactor_NitricAcid_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/NitrogenGas/Desc_NitrogenGas.Desc_NitrogenGas_C",
+					"time": 6,
+					"amount": 6000
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 6,
+					"amount": 1500
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedIron.Desc_PurifiedIron_C",
+					"time": 6,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/NitricAcid/Desc_NitricAcid.Desc_NitricAcid_C",
+					"time": 6,
+					"amount": 1500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_Titantetrachlorid.Recipe_ChemReactor_Titantetrachlorid_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Chlor.Desc_Gas_Chlor_C",
+					"time": 6,
+					"amount": 4000
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Sulfurtrixid.Desc_Sulfurtrixid_C",
+					"time": 6,
+					"amount": 2750
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedTitan.Desc_PurifiedTitan_C",
+					"time": 6,
+					"amount": 8
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Titantetrachlorid.Desc_Gas_Titantetrachlorid_C",
+					"time": 6,
+					"amount": 4000
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidIron.Desc_LiquidIron_C",
+					"time": 6,
+					"amount": 1000
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_Titan.Recipe_ChemReactor_Titan_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidMagnesium.Desc_LiquidMagnesium_C",
+					"time": 6,
+					"amount": 2250
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Titantetrachlorid.Desc_Gas_Titantetrachlorid_C",
+					"time": 6,
+					"amount": 2750
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/PetroleumCoke/Desc_PetroleumCoke.Desc_PetroleumCoke_C",
+					"time": 6,
+					"amount": 8
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidTitan.Desc_LiquidTitan_C",
+					"time": 6,
+					"amount": 2000
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_CarbonDioxide.Desc_Gas_CarbonDioxide_C",
+					"time": 6,
+					"amount": 1000
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_Bata.Recipe_ChemReactor_Bata_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SulfuricAcid/Desc_SulfuricAcid.Desc_SulfuricAcid_C",
+					"time": 3,
+					"amount": 1500
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidRefinedHydrocarbons.Desc_LiquidRefinedHydrocarbons_C",
+					"time": 3,
+					"amount": 750
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C",
+					"time": 3,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Battery/Desc_Battery.Desc_Battery_C",
+					"time": 3,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 3,
+					"amount": 2000
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_Chem_Lift_8.Recipe_Chem_Lift_8_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_Fluid_RocketFuel.Desc_Fluid_RocketFuel_C",
+					"time": 120,
+					"amount": 25000
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidTitan.Desc_LiquidTitan_C",
+					"time": 120,
+					"amount": 25000
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_5.Desc_SpaceElevatorPart_5_C",
+					"time": 120,
+					"amount": 20
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_8.Desc_SpaceElevatorPart_8_C",
+					"time": 120,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_CarbonDioxide.Desc_Gas_CarbonDioxide_C",
+					"time": 120,
+					"amount": 20000
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_RocketFuel.Recipe_ChemReactor_RocketFuel_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/NitricAcid/Desc_NitricAcid.Desc_NitricAcid_C",
+					"time": 6,
+					"amount": 6000
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_LiquidHydrochloricAcid.Desc_LiquidHydrochloricAcid_C",
+					"time": 6,
+					"amount": 6000
+				},
+				{
+					"item": "/KLib/Assets/Parts/Packaged/Items/Gas/Desc_PackagedGasOxygen.Desc_PackagedGasOxygen_C",
+					"time": 6,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_Fluid_RocketFuel.Desc_Fluid_RocketFuel_C",
+					"time": 6,
+					"amount": 1000
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/GasTank/Desc_GasTank.Desc_GasTank_C",
+					"time": 6,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		}
+	],
+	"dataType": "buildings"
+}

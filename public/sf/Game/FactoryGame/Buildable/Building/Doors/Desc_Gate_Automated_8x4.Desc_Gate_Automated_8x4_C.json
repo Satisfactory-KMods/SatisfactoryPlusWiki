@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Doors/Desc_Gate_Automated_8x4.Desc_Gate_Automated_8x4_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Automated Gate",
+	"description": "Automatically opens when living beings or vehicles approach it.\r\nGate settings can be configured.\r\nSnaps to foundations and walls.\r\n\r\nSize: 8m x 4m",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_GateWalls.ResourceSink_GateWalls_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Building/Doors/UI/IconDesc_AutomatedGate_512.IconDesc_AutomatedGate_512",
+	"category": "Walls",
+	"subCategory": "Doors",
+	"buildingPath": "/Game/FactoryGame/Buildable/Building/Doors/Build_Gate_Automated_8x4.Build_Gate_Automated_8x4_C",
+	"dataType": "buildable"
+}

@@ -1,0 +1,29 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Heater/BuildDesc_CoalHeater.BuildDesc_CoalHeater_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Coal Heater",
+	"description": "Used to burn any type of solid carbon based fuel to be turned into heat and makes a waste product of carbon dioxide that needs to be vented out or used in recipes.\r\n\r\nCan produce up to 500°C heat.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_0.Schematic_SF+_4_0_C"
+	],
+	"image": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Heaters/CoalHeater/UI/Icon_CoalHeater.Icon_CoalHeater",
+	"category": "Power",
+	"subCategory": "Modular Power: Heater",
+	"buildingPath": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Heater/SF+_Build_RP_MP_CoalHeater.SF+_Build_RP_MP_CoalHeater_C",
+	"dataType": "buildable"
+}

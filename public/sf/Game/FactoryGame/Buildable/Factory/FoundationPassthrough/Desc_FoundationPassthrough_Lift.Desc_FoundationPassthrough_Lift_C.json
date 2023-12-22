@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Desc_FoundationPassthrough_Lift.Desc_FoundationPassthrough_Lift_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Conveyor Lift Floor Hole",
+	"description": "Can be attached to Foundations, allowing Conveyor Lifts to pass through them.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_ConveyorLiftHole.ResourceSink_ConveyorLiftHole_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/UI/IconDesc_ConveyorFloorHole_512.IconDesc_ConveyorFloorHole_512",
+	"category": "Logistics",
+	"subCategory": "Conveyor Supports",
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Build_FoundationPassthrough_Lift.Build_FoundationPassthrough_Lift_C",
+	"dataType": "buildable"
+}

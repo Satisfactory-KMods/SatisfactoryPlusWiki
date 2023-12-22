@@ -2,7 +2,16 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Cable_01.Schematic_Trees_TimeCrystak_Cable_01_C",
 	"name": "More Network Cables",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
+			"amount": 200
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ColorCartridge/Desc_ColorCartridge.Desc_ColorCartridge_C",
+			"amount": 200
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,

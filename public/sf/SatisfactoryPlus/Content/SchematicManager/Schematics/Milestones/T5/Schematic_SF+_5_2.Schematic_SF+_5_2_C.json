@@ -2,7 +2,20 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_2.Schematic_SF+_5_2_C",
 	"name": "Trucks",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C",
+			"amount": 1000
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+			"amount": 1000
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Frames/Fused/Desc_LeadFrame.Desc_LeadFrame_C",
+			"amount": 100
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 3,

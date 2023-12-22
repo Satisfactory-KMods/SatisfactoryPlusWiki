@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_PolishedConcrete_FoundationMaterial.ResourceSink_Customizer_PolishedConcrete_FoundationMaterial_C",
 	"name": "Coated Concrete Foundation Material",
 	"description": "Adds the Coated Concrete Foundation Material to the Customizer, from where it can be applied to any Foundation or Ramp.",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 6
+		}
+	],
 	"category": "Customizer",
 	"subCategory": "Foundation Materials",
 	"type": 7,

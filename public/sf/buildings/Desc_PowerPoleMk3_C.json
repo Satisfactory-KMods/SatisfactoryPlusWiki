@@ -1,0 +1,49 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk3/Build_PowerPoleMk3.Build_PowerPoleMk3_C",
+	"path": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk3/Desc_PowerPoleMk3.Desc_PowerPoleMk3_C",
+	"name": "Power Pole Mk.3",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleMk3.Recipe_PowerPoleMk3_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+					"time": 1,
+					"amount": 4
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CateriumRod.Desc_CateriumRod_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk3/Desc_PowerPoleMk3.Desc_PowerPoleMk3_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_4_5.Schematic_Trees_Satmonium_4_5_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

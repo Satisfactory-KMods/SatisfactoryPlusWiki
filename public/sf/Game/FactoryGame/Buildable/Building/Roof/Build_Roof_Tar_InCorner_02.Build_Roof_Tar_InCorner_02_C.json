@@ -1,0 +1,30 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Tar_InCorner_02.Desc_Roof_Tar_InCorner_02_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Inner Corner Roof 2m",
+	"description": "Snaps to Foundations, Walls, and other Roofs.\r\n\r\nSize: 8m x 2m",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_TarRoofMaterial.ResourceSink_Customizer_TarRoofMaterial_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Roofs_Corners_Tar.CBG_Roofs_Corners_Tar_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Building/Roof/UI/IconDesc_RoofTarInCorner_02_512.IconDesc_RoofTarInCorner_02_512",
+	"category": "Architecture",
+	"subCategory": "Roofs",
+	"buildingPath": "/Game/FactoryGame/Buildable/Building/Roof/Build_Roof_Tar_InCorner_02.Build_Roof_Tar_InCorner_02_C",
+	"dataType": "buildable"
+}

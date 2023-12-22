@@ -2,7 +2,16 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_0.Schematic_SF+_1_0_C",
 	"name": "Simple Logistics",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_TinSheet.Desc_TinSheet_C",
+			"amount": 100
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+			"amount": 50
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 3,

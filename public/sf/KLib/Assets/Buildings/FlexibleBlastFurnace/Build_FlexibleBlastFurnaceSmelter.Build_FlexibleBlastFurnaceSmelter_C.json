@@ -1,0 +1,29 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/FlexibleBlastFurnace/BuildDesc_FlexibleBlastFurnaceSmelter.BuildDesc_FlexibleBlastFurnaceSmelter_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 15,
+	"descriptorType": 0,
+	"name": "Flexible Blast Furnace",
+	"description": "Uses high temperatures to produce molten metal, as well as mix molten metals and other ingredients.  Molten metals must be cooled in a Solidifier to produce ingots.\r\n\r\nWARNING: HOT!",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C"
+	],
+	"image": "/KLib/Assets/Buildings/FlexibleBlastFurnace/UI/Icon_FlexibleBlastFurnaceSmelter.Icon_FlexibleBlastFurnaceSmelter",
+	"category": "Production",
+	"subCategory": "Smelters",
+	"buildingPath": "/KLib/Assets/Buildings/FlexibleBlastFurnace/Build_FlexibleBlastFurnaceSmelter.Build_FlexibleBlastFurnaceSmelter_C",
+	"dataType": "buildable"
+}

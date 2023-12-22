@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/PipePumpMk2/Desc_PipelinePumpMK2.Desc_PipelinePumpMk2_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 8,
+	"descriptorType": 0,
+	"name": "Pipeline Pump Mk.2",
+	"description": "Can be attached to a Pipeline to apply Head Lift.\r\nMaximum Head Lift: 50 meters\r\n(Allows fluids to be transported 50 meters upwards.)\r\n\r\nNOTE: Has an in- and output direction.\r\nNOTE: Head Lift does not stack, so space between Pumps is recommended.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_9.Schematic_SF+_4_9_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/PipePumpMk2/UI/IconDesc_PipePumpMK2_512.IconDesc_PipePumpMK2_512",
+	"category": "Logistics",
+	"subCategory": "Pipelines",
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/PipePumpMk2/Build_PipelinePumpMK2.Build_PipelinePumpMk2_C",
+	"dataType": "buildable"
+}

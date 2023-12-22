@@ -1,0 +1,29 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_CS_Output_Solid.BuildDesc_CS_Output_Solid_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 10,
+	"descriptorType": 0,
+	"name": "Faxit Item Sender",
+	"description": "This building is responsible for the transfer of resources in the network. The maximum rate depends on the Nexus each fax machine can have.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_Out_Item.Schematic_Trees_TimeCrystak_Transport_Out_Item_C"
+	],
+	"image": "/KLib/Assets/Buildings/CentralStorage/UI/Icon_BuildS_Output_Solid.Icon_BuildS_Output_Solid",
+	"category": "Storage Network",
+	"subCategory": "Network Buildings",
+	"buildingPath": "/KLib/Assets/Buildings/CentralStorage/Build_CS_Output_Solid.Build_CS_Output_Solid_C",
+	"dataType": "buildable"
+}

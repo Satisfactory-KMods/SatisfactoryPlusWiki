@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/WaterPump/Desc_WaterPump.Desc_WaterPump_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 20,
+	"descriptorType": 0,
+	"name": "Water Extractor",
+	"description": "Default extraction rate: 60m³ water per minute.\r\nHead Lift: 10 meters.\r\n(Allows fluids to be transported 10 meters upwards.)\r\n\r\nExtracts water from the body of water it is built on.\r\nNote that the water needs to be deep enough and that rivers do not commonly suffice.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/WaterPump/UI/Waterpump_512.Waterpump_512",
+	"category": "Production",
+	"subCategory": "Fluid Extractors",
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/WaterPump/Build_WaterPump.Build_WaterPump_C",
+	"dataType": "buildable"
+}

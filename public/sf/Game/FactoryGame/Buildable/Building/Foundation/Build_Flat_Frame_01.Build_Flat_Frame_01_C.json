@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Foundation/Desc_Flat_Frame_01.Desc_Flat_Frame_01_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Frame Floor",
+	"description": "Snaps to other structural buildings.\r\nFrames provide a more open factory aesthetic.\r\n\r\nSize: 8m x 0.5m",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_FrameworkFoundations.ResourceSink_FrameworkFoundations_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Building/Foundation/UI/U5/IconDesc_FlatFrame_512.IconDesc_FlatFrame_512",
+	"category": "Architecture",
+	"subCategory": "Frames",
+	"buildingPath": "/Game/FactoryGame/Buildable/Building/Foundation/Build_Flat_Frame_01.Build_Flat_Frame_01_C",
+	"dataType": "buildable"
+}

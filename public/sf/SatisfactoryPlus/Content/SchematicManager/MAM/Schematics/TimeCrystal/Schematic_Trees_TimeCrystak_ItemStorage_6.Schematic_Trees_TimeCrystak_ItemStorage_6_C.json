@@ -2,7 +2,20 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_6.Schematic_Trees_TimeCrystak_ItemStorage_6_C",
 	"name": "Drive Mk.6",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/NetworkHardDrives/Drive_Solid_Mk5.Drive_Solid_Mk5_C",
+			"amount": 2
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_5.Desc_SpaceElevatorPart_5_C",
+			"amount": 100
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_CobaltPlates.Desc_CobaltPlates_C",
+			"amount": 250
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,

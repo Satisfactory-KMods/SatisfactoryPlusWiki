@@ -1,0 +1,44 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/Game/FactoryGame/Events/Christmas/Buildings/CandyCaneDecor/Build_CandyCaneDecor.Build_CandyCaneDecor_C",
+	"path": "/Game/FactoryGame/Events/Christmas/Buildings/CandyCaneDecor/Desc_CandyCaneDecor.Desc_CandyCaneDecor_C",
+	"name": "Candy Cane",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Events/Christmas/Buildings/CandyCaneDecor/Recipe_CandyCaneDecor.Recipe_CandyCaneDecor_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_CandyCane.Desc_CandyCane_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBow.Desc_XmasBow_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Events/Christmas/Buildings/CandyCaneDecor/Desc_CandyCaneDecor.Desc_CandyCaneDecor_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_1-2.Research_XMas_1-2_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

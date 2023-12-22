@@ -1,0 +1,31 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Wall/SteelWallSet/Desc_SteelWall_FlipTris_8x4.Desc_SteelWall_FlipTris_8x4_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Inv. Ramp Wall 4m",
+	"description": "Snaps to foundations and other walls.\r\nUseful for building multi-floor structures.\r\n\r\nSize: 8m x 4m",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_SteelWallMaterial.ResourceSink_Customizer_SteelWallMaterial_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Steel_Walls_DiagonalDown.CBG_Steel_Walls_DiagonalDown_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_Diagonal_Down_Wallset.ResourceSink_Diagonal_Down_Wallset_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Building/Wall/UI/DownDiagonal/IconDesc_SteelDownDiag4m_512.IconDesc_SteelDownDiag4m_512",
+	"category": "Walls",
+	"subCategory": "Inverted Ramp Walls",
+	"buildingPath": "/Game/FactoryGame/Buildable/Building/Wall/SteelWallSet/Build_SteelWall_FlipTris_8x4.Build_SteelWall_FlipTris_8x4_C",
+	"dataType": "buildable"
+}

@@ -2,7 +2,20 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_2_NEW.Schematic_Trees_Slugs_3_2_NEW_C",
 	"name": "Breeding",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Frames/Fused/Desc_LeadFrame.Desc_LeadFrame_C",
+			"amount": 200
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 1000
+		},
+		{
+			"item": "/FicsitFarming/Resources/Crops/Wheat/Desc_FF_Crop_Wheat.Desc_FF_Crop_Wheat_C",
+			"amount": 250
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,

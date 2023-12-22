@@ -1,0 +1,86 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Boiler/SF+_Build_RP_MP_BoilerMk1.SF+_Build_RP_MP_BoilerMk1_C",
+	"path": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Boiler/BuildDesc_BoilerMk1.BuildDesc_BoilerMk1_C",
+	"name": "Boiler Mk1",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Boilers/BoilerMk1/Recipe_RP_MP_BoilerMk1.Recipe_RP_MP_BoilerMk1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CopperRod.Desc_CopperRod_C",
+					"time": 1,
+					"amount": 15
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 20
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
+					"time": 1,
+					"amount": 5
+				}
+			],
+			"output": [
+				{
+					"item": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Boiler/BuildDesc_BoilerMk1.BuildDesc_BoilerMk1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8_0.Schematic_SF+_2_8_0_C"
+			]
+		}
+	],
+	"produced": [
+		{
+			"isRecipe": false,
+			"type": 1,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Boiler/SF+_Build_RP_MP_BoilerMk1.SF+_Build_RP_MP_BoilerMk1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 3,
+					"amount": 1125
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Steam_Hot.Desc_Gas_Steam_Hot_C",
+					"time": 3,
+					"amount": 1500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8_0.Schematic_SF+_2_8_0_C"
+			]
+		}
+	],
+	"dataType": "buildings"
+}

@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/PowerSwitch/Desc_PowerSwitch.Desc_PowerSwitch_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Power Switch",
+	"description": "Can be switched ON/OFF to enable/disable the connection between two Power Grids.\r\n\r\nNote the location of the A and B connections.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_4_4_U6.Schematic_Trees_Satmonium_4_4_U6_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/PowerSwitch/UI/IconDesc_PowerSwitch_512.IconDesc_PowerSwitch_512",
+	"category": "Power",
+	"subCategory": "Power Poles",
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/PowerSwitch/Build_PowerSwitch.Build_PowerSwitch_C",
+	"dataType": "buildable"
+}

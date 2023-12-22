@@ -1,0 +1,734 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/FicsitFarming/Buildings/Plots/CropPlot/Build_FF_CropPlot.Build_FF_CropPlot_C",
+	"path": "/FicsitFarming/Buildings/Plots/CropPlot/Desc_FF_CropPlot.Desc_FF_CropPlot_C",
+	"name": "Crop Plot",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/FicsitFarming/Buildings/Plots/CropPlot/Recipe_FF_CropPlot.Recipe_FF_CropPlot_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt.Desc_FF_Dirt_C",
+					"time": 1,
+					"amount": 200
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 20
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Buildings/Plots/CropPlot/Desc_FF_CropPlot.Desc_FF_CropPlot_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		}
+	],
+	"produced": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_Wheat.Recipe_SF+_Crop_Wheat_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_WheatSeed.Desc_FF_WheatSeed_C",
+					"time": 30,
+					"amount": 5
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Wheat/Desc_FF_Crop_Wheat.Desc_FF_Crop_Wheat_C",
+					"time": 30,
+					"amount": 5
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 30,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_Carrot.Recipe_SF+_Crop_Carrot_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_CarrotSeed.Desc_FF_CarrotSeed_C",
+					"time": 30,
+					"amount": 5
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Carrots/Desc_FF_Crop_Carrot.Desc_FF_Crop_Carrot_C",
+					"time": 30,
+					"amount": 5
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 30,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_Potato.Recipe_SF+_Crop_Potato_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_PotatoSeed.Desc_FF_PotatoSeed_C",
+					"time": 30,
+					"amount": 5
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Potato/Desc_FF_Crop_Potato.Desc_FF_Crop_Potato_C",
+					"time": 30,
+					"amount": 5
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 30,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_Corn.Recipe_SF+_Crop_Corn_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_CornSeed.Desc_FF_CornSeed_C",
+					"time": 30,
+					"amount": 5
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Corn/Desc_FF_Crop_Corn.Desc_FF_Crop_Corn_C",
+					"time": 30,
+					"amount": 5
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 30,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_Wheat2.Recipe_SF+_Alt_Crop_Wheat2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_WheatSeed.Desc_FF_WheatSeed_C",
+					"time": 30,
+					"amount": 25
+				},
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Fertilizer/Desc_FF_Fertilizer.Desc_FF_Fertilizer_C",
+					"time": 30,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Wheat/Desc_FF_Crop_Wheat.Desc_FF_Crop_Wheat_C",
+					"time": 30,
+					"amount": 25
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 30,
+					"amount": 5
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_Carrot2.Recipe_SF+_Alt_Crop_Carrot2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_CarrotSeed.Desc_FF_CarrotSeed_C",
+					"time": 30,
+					"amount": 25
+				},
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Fertilizer/Desc_FF_Fertilizer.Desc_FF_Fertilizer_C",
+					"time": 30,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Carrots/Desc_FF_Crop_Carrot.Desc_FF_Crop_Carrot_C",
+					"time": 30,
+					"amount": 25
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 30,
+					"amount": 5
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_Potato2.Recipe_SF+_Alt_Crop_Potato2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_PotatoSeed.Desc_FF_PotatoSeed_C",
+					"time": 30,
+					"amount": 25
+				},
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Fertilizer/Desc_FF_Fertilizer.Desc_FF_Fertilizer_C",
+					"time": 30,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Potato/Desc_FF_Crop_Potato.Desc_FF_Crop_Potato_C",
+					"time": 30,
+					"amount": 25
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 30,
+					"amount": 5
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_Corn2.Recipe_SF+_Alt_Crop_Corn2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_CornSeed.Desc_FF_CornSeed_C",
+					"time": 30,
+					"amount": 25
+				},
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Fertilizer/Desc_FF_Fertilizer.Desc_FF_Fertilizer_C",
+					"time": 30,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Corn/Desc_FF_Crop_Corn.Desc_FF_Crop_Corn_C",
+					"time": 30,
+					"amount": 25
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 30,
+					"amount": 5
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_Wheat.Recipe_SF+_Alt_Crop_Wheat_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_WheatSeed.Desc_FF_WheatSeed_C",
+					"time": 10,
+					"amount": 5
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 10,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Wheat/Desc_FF_Crop_Wheat.Desc_FF_Crop_Wheat_C",
+					"time": 10,
+					"amount": 5
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 10,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_Carrot.Recipe_SF+_Alt_Crop_Carrot_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_CarrotSeed.Desc_FF_CarrotSeed_C",
+					"time": 10,
+					"amount": 5
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 10,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Carrots/Desc_FF_Crop_Carrot.Desc_FF_Crop_Carrot_C",
+					"time": 10,
+					"amount": 5
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 10,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_Potato.Recipe_SF+_Alt_Crop_Potato_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_PotatoSeed.Desc_FF_PotatoSeed_C",
+					"time": 10,
+					"amount": 5
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 10,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Potato/Desc_FF_Crop_Potato.Desc_FF_Crop_Potato_C",
+					"time": 10,
+					"amount": 5
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 10,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_Corn.Recipe_SF+_Alt_Crop_Corn_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_CornSeed.Desc_FF_CornSeed_C",
+					"time": 10,
+					"amount": 5
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 10,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Corn/Desc_FF_Crop_Corn.Desc_FF_Crop_Corn_C",
+					"time": 10,
+					"amount": 5
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 10,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_Pumpkin.Recipe_SF+_Crop_Pumpkin_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_PumpkinSeed.Desc_FF_PumpkinSeed_C",
+					"time": 30,
+					"amount": 5
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Pumpkin/Desc_FF_Crop_Pumpkin.Desc_FF_Crop_Pumpkin_C",
+					"time": 30,
+					"amount": 5
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 30,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_YosseBerry.Recipe_SF+_Crop_YosseBerry_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_YosseSeed.Desc_FF_YosseSeed_C",
+					"time": 30,
+					"amount": 5
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/YosseBerry/Desc_FF_Crop_YosseBerry.Desc_FF_Crop_YosseBerry_C",
+					"time": 30,
+					"amount": 5
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 30,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_Pumpkin2.Recipe_SF+_Alt_Crop_Pumpkin2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_PumpkinSeed.Desc_FF_PumpkinSeed_C",
+					"time": 30,
+					"amount": 25
+				},
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Fertilizer/Desc_FF_Fertilizer.Desc_FF_Fertilizer_C",
+					"time": 30,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Pumpkin/Desc_FF_Crop_Pumpkin.Desc_FF_Crop_Pumpkin_C",
+					"time": 30,
+					"amount": 25
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 30,
+					"amount": 5
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_YosseBerry2.Recipe_SF+_Alt_Crop_YosseBerry2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_YosseSeed.Desc_FF_YosseSeed_C",
+					"time": 30,
+					"amount": 25
+				},
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Fertilizer/Desc_FF_Fertilizer.Desc_FF_Fertilizer_C",
+					"time": 30,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/YosseBerry/Desc_FF_Crop_YosseBerry.Desc_FF_Crop_YosseBerry_C",
+					"time": 30,
+					"amount": 25
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 30,
+					"amount": 5
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_Pumpkin.Recipe_SF+_Alt_Crop_Pumpkin_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_PumpkinSeed.Desc_FF_PumpkinSeed_C",
+					"time": 10,
+					"amount": 5
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 10,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Pumpkin/Desc_FF_Crop_Pumpkin.Desc_FF_Crop_Pumpkin_C",
+					"time": 10,
+					"amount": 5
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 10,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_YosseBerry.Recipe_SF+_Alt_Crop_YosseBerry_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_YosseSeed.Desc_FF_YosseSeed_C",
+					"time": 10,
+					"amount": 5
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 10,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/YosseBerry/Desc_FF_Crop_YosseBerry.Desc_FF_Crop_YosseBerry_C",
+					"time": 10,
+					"amount": 5
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 10,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_Cotton.Recipe_SF+_Crop_Cotton_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_CottonSeed.Desc_FF_CottonSeed_C",
+					"time": 30,
+					"amount": 5
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Cotton/Desc_FF_Crop_Cotton.Desc_FF_Crop_Cotton_C",
+					"time": 30,
+					"amount": 5
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 30,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_Cotton.Recipe_SF+_Alt_Crop_Cotton_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_CottonSeed.Desc_FF_CottonSeed_C",
+					"time": 10,
+					"amount": 5
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 10,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Cotton/Desc_FF_Crop_Cotton.Desc_FF_Crop_Cotton_C",
+					"time": 10,
+					"amount": 5
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 10,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_Cotton2.Recipe_SF+_Alt_Crop_Cotton2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Seeds/Desc_FF_CottonSeed.Desc_FF_CottonSeed_C",
+					"time": 30,
+					"amount": 25
+				},
+				{
+					"item": "/FicsitFarming/Resources/RawResources/Fertilizer/Desc_FF_Fertilizer.Desc_FF_Fertilizer_C",
+					"time": 30,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/FicsitFarming/Resources/Crops/Cotton/Desc_FF_Crop_Cotton.Desc_FF_Crop_Cotton_C",
+					"time": 30,
+					"amount": 25
+				},
+				{
+					"item": "/FicsitFarming/Resources/BiomassCapsule/Desc_FF_BiomassCapsule.Desc_FF_BiomassCapsule_C",
+					"time": 30,
+					"amount": 5
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
+			]
+		}
+	],
+	"dataType": "buildings"
+}

@@ -1,0 +1,182 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/Blender/Build_Blender.Build_Blender_C",
+	"path": "/Game/FactoryGame/Buildable/Factory/Blender/Desc_Blender.Desc_Blender_C",
+	"name": "Blender",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_Blender.Recipe_Blender_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C",
+					"time": 1,
+					"amount": 20
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_InvarPipe.Desc_InvarPipe_C",
+					"time": 1,
+					"amount": 75
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C",
+					"time": 1,
+					"amount": 20
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+					"time": 1,
+					"amount": 100
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/Blender/Desc_Blender.Desc_Blender_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C"
+			]
+		}
+	],
+	"produced": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Blender/Recipe_Blender_Aluminiumoxid.Recipe_Blender_Aluminiumoxid_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 7.5,
+					"amount": 4
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedBauxite.Desc_CrushedBauxite_C",
+					"time": 7.5,
+					"amount": 8
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Desc_CausticSoda.Desc_CausticSoda_C",
+					"time": 7.5,
+					"amount": 3750
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 7.5,
+					"amount": 2500
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Alumina/Desc_AluminaSolution.Desc_AluminaSolution_C",
+					"time": 7.5,
+					"amount": 5000
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Blender/Recipe_Blender_Beltr_Mk4.Recipe_Blender_Beltr_Mk4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C",
+					"time": 12,
+					"amount": 6
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Belt/Desc_BeltItemMk3.Desc_BeltItemMk3_C",
+					"time": 12,
+					"amount": 3
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/NitricAcid/Desc_NitricAcid.Desc_NitricAcid_C",
+					"time": 12,
+					"amount": 10000
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+					"time": 12,
+					"amount": 10000
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Belt/Desc_BeltItemMk4.Desc_BeltItemMk4_C",
+					"time": 12,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Gas/Desc_Gas_Steam.Desc_Gas_Steam_C",
+					"time": 12,
+					"amount": 7500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Blender/Recipe_Blender_FusedFrame.Recipe_Blender_FusedFrame_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C",
+					"time": 16,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
+					"time": 16,
+					"amount": 20
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/RawResources/NitrogenGas/Desc_NitrogenGas.Desc_NitrogenGas_C",
+					"time": 16,
+					"amount": 12500
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidTin.Desc_LiquidTin_C",
+					"time": 16,
+					"amount": 5000
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C",
+					"time": 16,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C"
+			]
+		}
+	],
+	"dataType": "buildings"
+}

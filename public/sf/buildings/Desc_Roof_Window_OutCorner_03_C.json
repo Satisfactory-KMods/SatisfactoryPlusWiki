@@ -1,0 +1,45 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/Game/FactoryGame/Buildable/Building/Roof/Build_Roof_Window_OutCorner_03.Build_Roof_Window_OutCorner_03_C",
+	"path": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Window_OutCorner_03.Desc_Roof_Window_OutCorner_03_C",
+	"name": "Outer Corner Roof 4m",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Window_OutCorner_03.Recipe_Roof_Window_OutCorner_03_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
+					"time": 1,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Roof/Desc_Roof_Window_OutCorner_03.Desc_Roof_Window_OutCorner_03_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_GlassRoofMaterial.ResourceSink_Customizer_GlassRoofMaterial_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Roofs_Corners_Glass.CBG_Roofs_Corners_Glass_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

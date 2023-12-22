@@ -1,0 +1,56 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Build_InvertedRamp_UCorner_Metal_8x2.Build_InvertedRamp_UCorner_Metal_8x2_C",
+	"path": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_UCorner_Metal_8x2.Desc_InvertedRamp_UCorner_Metal_8x2_C",
+	"name": "Inv. Up Corner 2m",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_InvertedRamp_UCorner_Metal_8x2.Recipe_InvertedRamp_UCorner_Metal_8x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_InvertedRamp_UCorner_Metal_8x2.Desc_InvertedRamp_UCorner_Metal_8x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_GripMetal_FoundationMaterial.ResourceSink_Customizer_GripMetal_FoundationMaterial_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Ramps_InvCorners_Metal.CBG_Ramps_InvCorners_Metal_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_InvertedCornerRamps.ResourceSink_InvertedCornerRamps_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Patterns/ResourceSink_DotLines_FoundationPatterns.ResourceSink_DotLines_FoundationPatterns_C",
 	"name": "Dotted Line Patterns",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 4
+		}
+	],
 	"category": "Customizer",
 	"subCategory": "Foundation Patterns",
 	"type": 7,

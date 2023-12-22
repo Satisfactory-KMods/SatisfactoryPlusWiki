@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Pillars/Desc_Pillar_Small_Concrete.Desc_Pillar_Small_Concrete_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Small Concrete Pillar",
+	"description": "Snaps to other Pillars and can be placed on, for example, Foundations and Walls.\r\n\r\nSize: 2m x 4m",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_ConcretePillarSet.ResourceSink_ConcretePillarSet_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Building/Pillars/UI/IconDesc_PillarConcSmall_512.IconDesc_PillarConcSmall_512",
+	"category": "Architecture",
+	"subCategory": "Pillars",
+	"buildingPath": "/Game/FactoryGame/Buildable/Building/Pillars/Build_Pillar_Small_Concrete.Build_Pillar_Small_Concrete_C",
+	"dataType": "buildable"
+}

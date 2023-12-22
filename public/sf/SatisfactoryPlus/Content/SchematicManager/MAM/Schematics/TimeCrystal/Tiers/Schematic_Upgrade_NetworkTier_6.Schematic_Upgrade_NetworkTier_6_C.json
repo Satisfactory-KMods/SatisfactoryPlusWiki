@@ -2,7 +2,20 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Tiers/Schematic_Upgrade_NetworkTier_6.Schematic_Upgrade_NetworkTier_6_C",
 	"name": "Unlock a new network tier",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Copper.SlugDesc_Copper_C",
+			"amount": 10
+		},
+		{
+			"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Iron.SlugDesc_Iron_C",
+			"amount": 10
+		},
+		{
+			"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_BloodRed.SlugDesc_BloodRed_C",
+			"amount": 10
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,

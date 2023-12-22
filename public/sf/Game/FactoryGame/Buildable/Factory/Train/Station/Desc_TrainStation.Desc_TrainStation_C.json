@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/Train/Station/Desc_TrainStation.Desc_TrainStation_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 50,
+	"descriptorType": 0,
+	"name": "Train Station",
+	"description": "Locomotives can be set to drive to and stop at the Train Station.\r\nYou can connect power to the train station to power up the trains on the railway as well as transport the power to other stations.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_7.Schematic_SF+_5_7_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/Train/Station/UI/IconDesc_TrainStation_512.IconDesc_TrainStation_512",
+	"category": "Transport",
+	"subCategory": "Railway Transport",
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/Train/Station/Build_TrainStation.Build_TrainStation_C",
+	"dataType": "buildable"
+}

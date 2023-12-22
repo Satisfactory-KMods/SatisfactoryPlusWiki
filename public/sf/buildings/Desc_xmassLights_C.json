@@ -1,0 +1,44 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/Game/FactoryGame/Events/Christmas/Buildings/PowerLineLights/Build_XmassLightsLine.Build_XmassLightsLine_C",
+	"path": "/Game/FactoryGame/Events/Christmas/Buildings/PowerLineLights/Desc_xmassLights.Desc_xmassLights_C",
+	"name": "FICSMAS Power Light",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Events/Christmas/Buildings/PowerLineLights/Recipe_xmassLights.Recipe_xmassLights_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBallCluster.Desc_XmasBallCluster_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Events/Christmas/Buildings/PowerLineLights/Desc_xmassLights.Desc_xmassLights_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_3-1.Research_XMas_3-1_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

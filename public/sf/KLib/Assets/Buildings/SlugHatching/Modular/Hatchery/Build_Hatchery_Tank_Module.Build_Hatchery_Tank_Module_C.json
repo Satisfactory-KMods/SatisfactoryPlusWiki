@@ -1,0 +1,29 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/SlugHatching/Modular/Hatchery/Descriptor/BuildDesc_Hatchery_Tank_Module.BuildDesc_Hatchery_Tank_Module_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 5,
+	"descriptorType": 0,
+	"name": "Fluid Tank Module",
+	"description": "This module is used to collect liquids in the hatchery. For example, food for the babies. \r\n\r\nNote: This module can be built more than once on a Hatchery. (but why?)",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_2_3_NEW.Schematic_Trees_Slugs_2_3_NEW_C"
+	],
+	"image": "/KLib/Assets/Buildings/SlugHatching/UI/Icon_Hatchery_Tank_Module.Icon_Hatchery_Tank_Module",
+	"category": "Special",
+	"subCategory": "Cultivation",
+	"buildingPath": "/KLib/Assets/Buildings/SlugHatching/Modular/Hatchery/Build_Hatchery_Tank_Module.Build_Hatchery_Tank_Module_C",
+	"dataType": "buildable"
+}

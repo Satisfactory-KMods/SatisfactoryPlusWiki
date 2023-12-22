@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Enemy/Schematic_Trees_Enemy_2_0.Schematic_Trees_Enemy_2_0_C",
 	"name": "Hatcher Research",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/AnimalParts/Desc_HatcherParts.Desc_HatcherParts_C",
+			"amount": 10
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,

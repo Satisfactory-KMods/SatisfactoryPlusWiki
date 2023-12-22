@@ -1,0 +1,30 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/StorageTank/Desc_PipeStorageTank.Desc_PipeStorageTank_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Fluid Buffer",
+	"description": "Can contain up to 400m³ of fluid.\r\nHas an input and output for pipes.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8_0.Schematic_SF+_2_8_0_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/StorageTank/UI/IconDesc_FluidStorage_512.IconDesc_FluidStorage_512",
+	"category": "Organization",
+	"subCategory": "Storage",
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/StorageTank/Build_PipeStorageTank.Build_PipeStorageTank_C",
+	"dataType": "buildable"
+}

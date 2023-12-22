@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/RadarTower/Desc_RadarTower.Desc_RadarTower_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 30,
+	"descriptorType": 0,
+	"name": "Radar Tower",
+	"description": "Radar Towers scan their surrounding area to display additional information on the Map.\r\n\r\nThe information revealed on the Map includes:\r\n- Resource Node locations\r\n- Terrain data\r\n- Flora & fauna information\r\n- Notable signal readings",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_4_4.Schematic_Trees_Cryolit_4_4_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/RadarTower/UI/RadarTower_512.RadarTower_512",
+	"category": "Organization",
+	"subCategory": "Towers",
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/RadarTower/Build_RadarTower.Build_RadarTower_C",
+	"dataType": "buildable"
+}

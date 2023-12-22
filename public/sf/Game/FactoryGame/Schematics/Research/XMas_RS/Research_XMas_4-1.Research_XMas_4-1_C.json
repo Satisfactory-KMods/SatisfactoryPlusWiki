@@ -2,7 +2,20 @@
 	"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_4-1.Research_XMas_4-1_C",
 	"name": "FICSMAS Wreath",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasWreath.Desc_XmasWreath_C",
+			"amount": 100
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBallCluster.Desc_XmasBallCluster_C",
+			"amount": 200
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBow.Desc_XmasBow_C",
+			"amount": 500
+		}
+	],
 	"category": "Organisation",
 	"subCategory": "",
 	"type": 6,

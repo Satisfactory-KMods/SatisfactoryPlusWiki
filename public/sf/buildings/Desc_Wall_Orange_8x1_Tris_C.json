@@ -1,0 +1,54 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Build_Wall_Orange_Tris_8x1.Build_Wall_Orange_Tris_8x1_C",
+	"path": "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x1_Tris.Desc_Wall_Orange_8x1_Tris_C",
+	"name": "Ramp Wall 1m",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Orange_Tris_8x1.Recipe_Wall_Orange_Tris_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Wall/FicsitWallSet/Desc_Wall_Orange_8x1_Tris.Desc_Wall_Orange_8x1_Tris_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_Diagonal_Up_WallSet.ResourceSink_Diagonal_Up_WallSet_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

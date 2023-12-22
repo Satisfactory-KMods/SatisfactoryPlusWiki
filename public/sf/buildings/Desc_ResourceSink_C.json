@@ -1,0 +1,60 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/ResourceSink/Build_ResourceSink.Build_ResourceSink_C",
+	"path": "/Game/FactoryGame/Buildable/Factory/ResourceSink/Desc_ResourceSink.Desc_ResourceSink_C",
+	"name": "AWESOME Sink",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ResourceSink.Recipe_ResourceSink_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_LeadSheet.Desc_LeadSheet_C",
+					"time": 1,
+					"amount": 50
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 150
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 35
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_TinWire.Desc_TinWire_C",
+					"time": 1,
+					"amount": 100
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
+					"time": 1,
+					"amount": 5
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/ResourceSink/Desc_ResourceSink.Desc_ResourceSink_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_3.Schematic_SF+_2_3_C",
+				"/Game/FactoryGame/Schematics/Progression/Schematic_2-5.Schematic_2-5_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

@@ -1,0 +1,44 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/Game/FactoryGame/Events/Christmas/Buildings/WreathDecor/Build_WreathDecor.Build_WreathDecor_C",
+	"path": "/Game/FactoryGame/Events/Christmas/Buildings/WreathDecor/Desc_WreathDecor.Desc_WreathDecor_C",
+	"name": "FICSMAS Wreath",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Events/Christmas/Buildings/WreathDecor/Recipe_WreathDecor.Recipe_WreathDecor_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasWreath.Desc_XmasWreath_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBow.Desc_XmasBow_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Events/Christmas/Buildings/WreathDecor/Desc_WreathDecor.Desc_WreathDecor_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_4-1.Research_XMas_4-1_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/PipeHyperStart/Desc_PipeHyperStart.Desc_PipeHyperStart_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 10,
+	"descriptorType": 0,
+	"name": "Hypertube Entrance",
+	"description": "Used to enter and power a Hypertube.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_2.Schematic_SF+_4_2_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/PipeHyperStart/UI/HyperTubeStart_512.HyperTubeStart_512",
+	"category": "Transport",
+	"subCategory": "Hypertubes",
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/PipeHyperStart/Build_PipeHyperStart.Build_PipeHyperStart_C",
+	"dataType": "buildable"
+}

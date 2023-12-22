@@ -1,0 +1,29 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_NetworkStorageUnit_Fluid_1.BuildDesc_NetworkStorageUnit_Fluid_1_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 5,
+	"descriptorType": 0,
+	"name": "Fluid Server",
+	"description": "This server can be built into a server rack and increases the storage capacity of the network.\r\n\r\nTo Increase the bytes in the network place Hard Drive in the server.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_FluidStorage_1.Schematic_Trees_TimeCrystak_FluidStorage_1_C"
+	],
+	"image": "/KLib/Assets/Buildings/CentralStorage/UI/Icon_NetworkStorageUnit_Fluid.Icon_NetworkStorageUnit_Fluid",
+	"category": "Storage Network",
+	"subCategory": "Network Buildings",
+	"buildingPath": "/KLib/Assets/Buildings/CentralStorage/Storage/Build_NetworkStorageUnit_Fluid_1.Build_NetworkStorageUnit_Fluid_1_C",
+	"dataType": "buildable"
+}

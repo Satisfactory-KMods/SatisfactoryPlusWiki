@@ -1,0 +1,49 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": true,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/KLib/Assets/Buildings/ModularExtractor/Modules/MiningHead/Build_MiningHead_Mk1.Build_MiningHead_Mk1_C",
+	"path": "/KLib/Assets/Buildings/ModularExtractor/Desc/BuildDesc_Module_Drill_T1.BuildDesc_Module_Drill_T1_C",
+	"name": "Metal Mining Head",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_Module_Drill_T1.Recipe_Module_Drill_T1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Equipment/PortableMiner/BP_ItemDescriptorPortableMiner.BP_ItemDescriptorPortableMiner_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 1,
+					"amount": 15
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 25
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/ModularExtractor/Desc/BuildDesc_Module_Drill_T1.BuildDesc_Module_Drill_T1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial4.SF+_Schematic_Tutorial4_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

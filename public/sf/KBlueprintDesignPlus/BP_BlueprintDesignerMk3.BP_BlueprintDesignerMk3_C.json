@@ -1,0 +1,29 @@
+﻿{
+	"path": "/KBlueprintDesignPlus/Desc/Desc_BlueprintDesignerMk3.Desc_BlueprintDesignerMk3_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Blueprint Designer Mk.3",
+	"description": "The Blueprint Designer is used to create custom factory designs and save them as Blueprints.\r\nBlueprints can be accessed from the Build Menu - Blueprint tab.\r\n\r\nNote that buildings can only be placed within the Blueprint Designer if they are fully within the boundry frame.\r\n\r\nDesigner Dimensions: 64m x 64m x 64m",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_8.Schematic_SF+_4_8_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/BlueprintDesigner/UI/IconDesc_BlueprintDesigner_512.IconDesc_BlueprintDesigner_512",
+	"category": "Special",
+	"subCategory": "Progression",
+	"buildingPath": "/KBlueprintDesignPlus/BP_BlueprintDesignerMk3.BP_BlueprintDesignerMk3_C",
+	"dataType": "buildable"
+}

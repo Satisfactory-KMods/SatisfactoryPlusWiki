@@ -1,0 +1,29 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/CentralStorage/BuildDesc/BuildDesc_NetworkStorageUnit_Solid_1.BuildDesc_NetworkStorageUnit_Solid_1_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 5,
+	"descriptorType": 0,
+	"name": "Item Server",
+	"description": "This server can be built into a server rack and increases the storage capacity of the network.This server can store all solid items.\r\n\r\nThis server has a memory of 1 ficsit byte. (FB)",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_1.Schematic_Trees_TimeCrystak_ItemStorage_1_C"
+	],
+	"image": "/KLib/Assets/Buildings/CentralStorage/UI/Icon_NetworkStorageUnit_Solid.Icon_NetworkStorageUnit_Solid",
+	"category": "Storage Network",
+	"subCategory": "Network Buildings",
+	"buildingPath": "/KLib/Assets/Buildings/CentralStorage/Storage/Build_NetworkStorageUnit_Solid_1.Build_NetworkStorageUnit_Solid_1_C",
+	"dataType": "buildable"
+}

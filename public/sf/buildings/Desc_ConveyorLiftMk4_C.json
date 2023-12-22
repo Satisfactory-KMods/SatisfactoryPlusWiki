@@ -1,0 +1,49 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk4/Build_ConveyorLiftMk4.Build_ConveyorLiftMk4_C",
+	"path": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk4/Desc_ConveyorLiftMk4.Desc_ConveyorLiftMk4_C",
+	"name": "Conveyor Lift Mk.4",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk4.Recipe_ConveyorLiftMk4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Belt/Desc_BeltItemMk3.Desc_BeltItemMk3_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_SolderWire.Desc_SolderWire_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk4/Desc_ConveyorLiftMk4.Desc_ConveyorLiftMk4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_5.Schematic_SF+_5_5_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

@@ -1,0 +1,44 @@
+﻿{
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"buildingPath": "/Game/FactoryGame/Prototype/Buildable/Beams/Build_Beam_Connector_Double.Build_Beam_Connector_Double_C",
+	"path": "/Game/FactoryGame/Prototype/Buildable/Beams/Desc_Beam_Connector_Double.Desc_Beam_Connector_Double_C",
+	"name": "Beam Connector Double",
+	"consumed": [
+		{
+			"isRecipe": true,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Prototype/Buildable/Beams/Recipe_Beam_Connector_Double.Recipe_Beam_Connector_Double_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Prototype/Buildable/Beams/Desc_Beam_Connector_Double.Desc_Beam_Connector_Double_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_BeamSet.ResourceSink_BeamSet_C"
+			]
+		}
+	],
+	"produced": [],
+	"dataType": "buildings"
+}

@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Factory/GeneratorGeoThermal/Desc_GeneratorGeoThermal.Desc_GeneratorGeoThermal_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Geothermal Generator",
+	"description": "Has to be built on a Geyser. Generates power.\r\n\r\nCaution: Power production fluctuates.\r\n\r\nPower Production:\r\nImpure 50-150 MW (100 MW average)\r\nNormal 100-300 MW (200 MW average)\r\nPure 200-600 MW (400 MW average)",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_2_6_U6.Schematic_Trees_Satmonium_2_6_U6_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/GeneratorGeoThermal/UI/GeoThermalPowerGenerator_512.GeoThermalPowerGenerator_512",
+	"category": "Power",
+	"subCategory": "Generators",
+	"buildingPath": "/Game/FactoryGame/Buildable/Factory/GeneratorGeoThermal/Build_GeneratorGeoThermal.Build_GeneratorGeoThermal_C",
+	"dataType": "buildable"
+}

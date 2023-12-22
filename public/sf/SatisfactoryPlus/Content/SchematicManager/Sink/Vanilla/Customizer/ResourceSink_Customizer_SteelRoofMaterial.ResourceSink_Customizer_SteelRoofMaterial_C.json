@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_SteelRoofMaterial.ResourceSink_Customizer_SteelRoofMaterial_C",
 	"name": "Steel Roof Material",
 	"description": "Adds the Steel Roof Material to the Customizer, from where it can be applied to any Roof.",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 3
+		}
+	],
 	"category": "Customizer",
 	"subCategory": "Roof Materials",
 	"type": 7,

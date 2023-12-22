@@ -2,7 +2,16 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Tiers/Schematic_Upgrade_NetworkTier_4.Schematic_Upgrade_NetworkTier_4_C",
 	"name": "Unlock a new network tier",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C",
+			"amount": 10
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 5
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,

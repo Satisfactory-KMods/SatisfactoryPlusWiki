@@ -1,0 +1,31 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Desc_QuarterPipeMiddleOutCorner_Grip_4x4.Desc_QuarterPipeMiddleOutCorner_Grip_4x4_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Outer Corner Extension 4m",
+	"description": "Provides an optional factory look that is smoother and offers possibilities for recreational activities. \r\nStill utilizes the standard foundation building grid for improved building placement.\r\n\r\nSize: 4m x 4m",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_GripMetal_FoundationMaterial.ResourceSink_Customizer_GripMetal_FoundationMaterial_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_QuarterPipeExtensions.ResourceSink_QuarterPipeExtensions_C",
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_ExtensionQuarterPipes_GripMetal.CBG_ExtensionQuarterPipes_GripMetal_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Building/Foundation/UI/QuarterPipe/IconDesc_QP_Grip_MidOutCorner_8x4_512.IconDesc_QP_Grip_MidOutCorner_8x4_512",
+	"category": "Foundations",
+	"subCategory": "Quarter Pipes",
+	"buildingPath": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Build_QuarterPipeMiddleOutCorner_Grip_4x4.Build_QuarterPipeMiddleOutCorner_Grip_4x4_C",
+	"dataType": "buildable"
+}

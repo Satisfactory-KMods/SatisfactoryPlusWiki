@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Patterns/ResourceSink_Zones_FoundationPatterns.ResourceSink_Zones_FoundationPatterns_C",
 	"name": "Factory Zone Patterns",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 2
+		}
+	],
 	"category": "Customizer",
 	"subCategory": "Foundation Patterns",
 	"type": 7,

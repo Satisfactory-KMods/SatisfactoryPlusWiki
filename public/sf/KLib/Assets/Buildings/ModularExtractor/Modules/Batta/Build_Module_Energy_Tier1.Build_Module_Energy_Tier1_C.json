@@ -1,0 +1,29 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/ModularExtractor/Desc/BuildDesc_Module_Energy.BuildDesc_Module_Energy_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 7.5,
+	"descriptorType": 0,
+	"name": "Low Energy Module",
+	"description": "Attached to the Modular Miner.\r\n\r\nThe energy consumption fluctuates now! (8-18 MW per Module) \r\nGive the miner more power to extract resources faster.\r\n\r\nIncreases the power required by the modular miner.\r\n\r\nBonus to production: 25%",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_4_2_NEW.Schematic_Trees_Slugs_4_2_NEW_C"
+	],
+	"image": "/KLib/Assets/Buildings/ModularExtractor/UI/Icons/Icon_PowerModuleMk1.Icon_PowerModuleMk1",
+	"category": "Production",
+	"subCategory": "Miner",
+	"buildingPath": "/KLib/Assets/Buildings/ModularExtractor/Modules/Batta/Build_Module_Energy_Tier1.Build_Module_Energy_Tier1_C",
+	"dataType": "buildable"
+}

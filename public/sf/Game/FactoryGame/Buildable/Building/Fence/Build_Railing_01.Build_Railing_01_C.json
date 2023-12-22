@@ -1,0 +1,29 @@
+﻿{
+	"path": "/Game/FactoryGame/Buildable/Building/Fence/Desc_Railing_01.Desc_Railing_01_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 0,
+	"descriptorType": 0,
+	"name": "Modern Railing",
+	"description": "Railings can be built on Foundations to create a safer working environment.\r\n\r\nThis particular Railing is 4 meters long and angles automatically when built on Ramps.",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_FactoryFence.ResourceSink_FactoryFence_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Building/Fence/UI/IconDesc_Railing_512.IconDesc_Railing_512",
+	"category": "Architecture",
+	"subCategory": "Attachments",
+	"buildingPath": "/Game/FactoryGame/Buildable/Building/Fence/Build_Railing_01.Build_Railing_01_C",
+	"dataType": "buildable"
+}

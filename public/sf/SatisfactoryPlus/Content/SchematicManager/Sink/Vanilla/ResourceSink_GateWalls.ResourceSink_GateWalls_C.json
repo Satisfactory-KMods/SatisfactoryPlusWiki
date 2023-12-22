@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_GateWalls.ResourceSink_GateWalls_C",
 	"name": "Gates",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 3
+		}
+	],
 	"category": "Walls",
 	"subCategory": "Walls",
 	"type": 7,

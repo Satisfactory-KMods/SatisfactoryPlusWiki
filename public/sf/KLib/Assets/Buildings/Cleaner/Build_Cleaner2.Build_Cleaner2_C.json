@@ -1,0 +1,29 @@
+﻿{
+	"path": "/KLib/Assets/Buildings/Cleaner/BuildDesc_Cleaner_2.BuildDesc_Cleaner_2_C",
+	"isVehicle": false,
+	"isCleaner": false,
+	"isMiner": false,
+	"isModul": false,
+	"isHatchery": false,
+	"isHatcheryModul": false,
+	"powerConsume": 10,
+	"descriptorType": 0,
+	"name": "Fluid Conditioner ",
+	"description": "Can purify fluids and extract resources from them.\r\n\r\nHas one output but many products.\r\nThe products depend on which liquid is being processed.\r\n\r\nSorting systems are recommended! ",
+	"gasColor": "00000000",
+	"fluidColor": "00000000",
+	"radio": 0,
+	"radioActive": false,
+	"canDelete": true,
+	"energyValue": 0,
+	"form": 0,
+	"stackSize": 100,
+	"schematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
+	],
+	"image": "/Game/FactoryGame/Buildable/Factory/Packager/UI/IconDesc_Packager_512.IconDesc_Packager_512",
+	"category": "Production",
+	"subCategory": "Manufacturers",
+	"buildingPath": "/KLib/Assets/Buildings/Cleaner/Build_Cleaner2.Build_Cleaner2_C",
+	"dataType": "buildable"
+}
