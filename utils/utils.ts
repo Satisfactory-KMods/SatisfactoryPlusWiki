@@ -14,3 +14,40 @@ export function blueprintPathToShort(path: string) {
 	// replace _ with - and return
 	return `${modName}-${cache.replace(/_/g, '-')}`.toLowerCase();
 }
+
+export function typeToString(key: string, { suffix, prefix, single = false }: { suffix?: string; prefix?: string; single?: boolean } = {}) {
+	let str = key;
+	switch (key) {
+		case 'item':
+			str = 'Item';
+			break;
+		case 'schematic':
+			str = 'Schematic';
+			break;
+		case 'recipe':
+			str = 'Recipe';
+			break;
+		case 'building':
+			str = 'Building';
+			break;
+		case 'researchTree':
+			str = 'Research Tree';
+			break;
+		default:
+			break;
+	}
+
+	if (!single) {
+		str = `${str}s`;
+	}
+
+	if (suffix) {
+		str += ` ${suffix}`;
+	}
+
+	if (prefix) {
+		str = `${prefix} ${str}`;
+	}
+
+	return str;
+}

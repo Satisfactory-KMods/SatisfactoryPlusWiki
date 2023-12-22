@@ -43,7 +43,7 @@
 		await router.push({
 			path: '/search',
 			query: {
-				search: search.value
+				search: input.value
 			}
 		});
 		search.value = '';
@@ -56,7 +56,6 @@
 			results.value = getDefaults();
 			return;
 		}
-
 		results.value = await $fetch('/api/search', { query: { search: input.value } }).catch(() => {
 			return getDefaults();
 		});

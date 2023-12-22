@@ -8,6 +8,16 @@ export function useRefDelay<T = any>(value: T | Ref<T>, onChange: (value: Unwrap
 
 	watch(
 		() => {
+			return refValue.value;
+		},
+		() => {
+			cached.value = cloneDeep(unref(refValue.value))!;
+		},
+		{ deep: true }
+	);
+
+	watch(
+		() => {
 			return cached;
 		},
 		() => {

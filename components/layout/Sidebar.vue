@@ -62,6 +62,13 @@
 			exactMatch: false
 		},
 		{
+			label: 'Alternate Recipes',
+			icon: 'i-heroicons-book-open',
+			to: '/recipes/alternate',
+			exact: false,
+			exactMatch: false
+		},
+		{
 			label: 'Buildings',
 			icon: 'i-mdi-factory',
 			to: '/buildings',

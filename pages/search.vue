@@ -18,23 +18,6 @@
 			limit: 20
 		}
 	});
-
-	function keyToString(key: string) {
-		switch (key) {
-			case 'item':
-				return 'Items';
-			case 'schematic':
-				return 'Schematics';
-			case 'recipe':
-				return 'Recipes';
-			case 'building':
-				return 'Buildings';
-			case 'researchTree':
-				return 'Research Trees';
-			default:
-				return key;
-		}
-	}
 </script>
 
 <template>
@@ -54,7 +37,7 @@
 				<div class="flex flex-col gap-1">
 					<div
 						class="rounded-lg border bg-gray-100 p-1 text-center text-2xl font-semibold text-gray-500 dark:border-gray-900 dark:bg-gray-800 dark:text-gray-400">
-						{{ keyToString(key) }}
+						{{ typeToString(key) }}
 					</div>
 				</div>
 				<div class="grid grid-cols-1 gap-1 md:grid-cols-2">
