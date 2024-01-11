@@ -32,3 +32,9 @@ export const mapTableRelations = relations(mapTable, ({ one }) => {
 		})
 	};
 });
+
+export type MapTableInsert = typeof mapTable.$inferInsert;
+export type MapTable = typeof mapTable.$inferSelect;
+export type MapTableFull = typeof mapTable.$inferSelect & {
+	item: typeof items.$inferSelect;
+};

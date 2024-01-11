@@ -14,11 +14,14 @@ export default defineNuxtConfig({
 		'@nuxt/image'
 	],
 	ssr: true,
-	css: ['vue-final-modal/style.css'],
+	css: ['leaflet/dist/leaflet.css', 'vue-final-modal/style.css'],
 	ui: {
 		icons: ['heroicons', 'mdi'],
 		safelistColors: ['sky', 'cool', 'warm', 'red', 'green', 'blue', 'purple', 'pink', 'yellow', 'orange', 'gray', 'white', 'black'],
 		global: true
+	},
+	routeRules: {
+		'/map': { ssr: false }
 	},
 	pinia: {
 		storesDirs: ['./stores/**']

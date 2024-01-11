@@ -33,6 +33,7 @@ END $$;
 CREATE TABLE IF NOT EXISTS "sfp-wiki"."buildables" (
 	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
 	"path" text NOT NULL,
+	"building_path" text NOT NULL,
 	"name" text NOT NULL,
 	"description" text NOT NULL,
 	"image" text NOT NULL,
@@ -55,7 +56,8 @@ CREATE TABLE IF NOT EXISTS "sfp-wiki"."buildables" (
 	"subCategory" text NOT NULL,
 	"form" "item_form" NOT NULL,
 	"data_type" "data_type" NOT NULL,
-	CONSTRAINT "buildables_path_unique" UNIQUE("path")
+	CONSTRAINT "buildables_path_unique" UNIQUE("path"),
+	CONSTRAINT "buildables_building_path_unique" UNIQUE("building_path")
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "sfp-wiki"."cleaner" (
@@ -158,6 +160,28 @@ CREATE TABLE IF NOT EXISTS "sfp-wiki"."items" (
 	"subCategory" text NOT NULL,
 	"data_type" "data_type" NOT NULL,
 	CONSTRAINT "items_path_unique" UNIQUE("path")
+);
+--> statement-breakpoint
+CREATE TABLE IF NOT EXISTS "sfp-wiki"."map" (
+	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
+	"item_path" text,
+	"raw_item_path" text NOT NULL,
+	"type" "resource_node_type" NOT NULL,
+	"x" numeric NOT NULL,
+	"y" numeric NOT NULL,
+	"z" numeric NOT NULL,
+	"purity" integer NOT NULL,
+	"item_amounts" json NOT NULL,
+	"satelites" json NOT NULL
+);
+--> statement-breakpoint
+CREATE TABLE IF NOT EXISTS "sfp-wiki"."mapping" (
+	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
+	"data_id" text,
+	"short_path" text,
+	"type" text NOT NULL,
+	CONSTRAINT "mapping_data_id_unique" UNIQUE("data_id"),
+	CONSTRAINT "mapping_short_path_unique" UNIQUE("short_path")
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "sfp-wiki"."produced_in" (
@@ -285,7 +309,7 @@ CREATE TABLE IF NOT EXISTS "sfp-wiki"."account" (
 	"scope" text,
 	"id_token" text,
 	"session_state" text,
-	CONSTRAINT account_provider_providerAccountId_pk PRIMARY KEY("provider","providerAccountId")
+	CONSTRAINT "account_provider_providerAccountId_pk" PRIMARY KEY("provider","providerAccountId")
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "sfp-wiki"."session" (
@@ -306,20 +330,7 @@ CREATE TABLE IF NOT EXISTS "sfp-wiki"."verificationToken" (
 	"identifier" text NOT NULL,
 	"token" text NOT NULL,
 	"expires" timestamp NOT NULL,
-	CONSTRAINT verificationToken_identifier_token_pk PRIMARY KEY("identifier","token")
-);
---> statement-breakpoint
-CREATE TABLE IF NOT EXISTS "sfp-wiki"."map" (
-	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
-	"item_path" text,
-	"raw_item_path" text NOT NULL,
-	"type" "resource_node_type" NOT NULL,
-	"x" numeric NOT NULL,
-	"y" numeric NOT NULL,
-	"z" numeric NOT NULL,
-	"purity" integer NOT NULL,
-	"item_amounts" json NOT NULL,
-	"satelites" json NOT NULL
+	CONSTRAINT "verificationToken_identifier_token_pk" PRIMARY KEY("identifier","token")
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "sfp-wiki"."wiki_desc" (
@@ -337,12 +348,6 @@ CREATE TABLE IF NOT EXISTS "sfp-wiki"."wiki_element" (
 	CONSTRAINT "wiki_element_el_path_unique" UNIQUE("el_path")
 );
 --> statement-breakpoint
-CREATE INDEX IF NOT EXISTS "name_idx" ON "sfp-wiki"."buildables" ("path");--> statement-breakpoint
-CREATE INDEX IF NOT EXISTS "name_idx" ON "sfp-wiki"."cleaner" ("path");--> statement-breakpoint
-CREATE INDEX IF NOT EXISTS "name_idx" ON "sfp-wiki"."items" ("path");--> statement-breakpoint
-CREATE INDEX IF NOT EXISTS "name_idx" ON "sfp-wiki"."recipes" ("path");--> statement-breakpoint
-CREATE INDEX IF NOT EXISTS "name_idx" ON "sfp-wiki"."research_tree" ("path");--> statement-breakpoint
-CREATE INDEX IF NOT EXISTS "name_idx" ON "sfp-wiki"."schematics" ("path");--> statement-breakpoint
 DO $$ BEGIN
  ALTER TABLE "sfp-wiki"."cleaner" ADD CONSTRAINT "cleaner_schematic_schematics_path_fk" FOREIGN KEY ("schematic") REFERENCES "sfp-wiki"."schematics"("path") ON DELETE cascade ON UPDATE no action;
 EXCEPTION
@@ -422,12 +427,6 @@ EXCEPTION
 END $$;
 --> statement-breakpoint
 DO $$ BEGIN
- ALTER TABLE "sfp-wiki"."extra_recipe_output" ADD CONSTRAINT "extra_recipe_output_item_path_items_path_fk" FOREIGN KEY ("item_path") REFERENCES "sfp-wiki"."items"("path") ON DELETE cascade ON UPDATE no action;
-EXCEPTION
- WHEN duplicate_object THEN null;
-END $$;
---> statement-breakpoint
-DO $$ BEGIN
  ALTER TABLE "sfp-wiki"."extra_recipe_schematics" ADD CONSTRAINT "extra_recipe_schematics_extra_recipe_extra_recipe_id_fk" FOREIGN KEY ("extra_recipe") REFERENCES "sfp-wiki"."extra_recipe"("id") ON DELETE cascade ON UPDATE no action;
 EXCEPTION
  WHEN duplicate_object THEN null;
@@ -435,6 +434,12 @@ END $$;
 --> statement-breakpoint
 DO $$ BEGIN
  ALTER TABLE "sfp-wiki"."extra_recipe_schematics" ADD CONSTRAINT "extra_recipe_schematics_item_path_schematics_path_fk" FOREIGN KEY ("item_path") REFERENCES "sfp-wiki"."schematics"("path") ON DELETE cascade ON UPDATE no action;
+EXCEPTION
+ WHEN duplicate_object THEN null;
+END $$;
+--> statement-breakpoint
+DO $$ BEGIN
+ ALTER TABLE "sfp-wiki"."map" ADD CONSTRAINT "map_item_path_items_path_fk" FOREIGN KEY ("item_path") REFERENCES "sfp-wiki"."items"("path") ON DELETE cascade ON UPDATE no action;
 EXCEPTION
  WHEN duplicate_object THEN null;
 END $$;
@@ -465,12 +470,6 @@ END $$;
 --> statement-breakpoint
 DO $$ BEGIN
  ALTER TABLE "sfp-wiki"."recipes_output" ADD CONSTRAINT "recipes_output_recipe_path_recipes_path_fk" FOREIGN KEY ("recipe_path") REFERENCES "sfp-wiki"."recipes"("path") ON DELETE cascade ON UPDATE no action;
-EXCEPTION
- WHEN duplicate_object THEN null;
-END $$;
---> statement-breakpoint
-DO $$ BEGIN
- ALTER TABLE "sfp-wiki"."recipes_output" ADD CONSTRAINT "recipes_output_item_path_items_path_fk" FOREIGN KEY ("item_path") REFERENCES "sfp-wiki"."items"("path") ON DELETE cascade ON UPDATE no action;
 EXCEPTION
  WHEN duplicate_object THEN null;
 END $$;
@@ -555,12 +554,6 @@ END $$;
 --> statement-breakpoint
 DO $$ BEGIN
  ALTER TABLE "sfp-wiki"."session" ADD CONSTRAINT "session_userId_user_id_fk" FOREIGN KEY ("userId") REFERENCES "sfp-wiki"."user"("id") ON DELETE cascade ON UPDATE no action;
-EXCEPTION
- WHEN duplicate_object THEN null;
-END $$;
---> statement-breakpoint
-DO $$ BEGIN
- ALTER TABLE "sfp-wiki"."map" ADD CONSTRAINT "map_item_path_items_path_fk" FOREIGN KEY ("item_path") REFERENCES "sfp-wiki"."items"("path") ON DELETE cascade ON UPDATE no action;
 EXCEPTION
  WHEN duplicate_object THEN null;
 END $$;

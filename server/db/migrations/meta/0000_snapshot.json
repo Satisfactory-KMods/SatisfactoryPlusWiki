@@ -1,5 +1,5 @@
 {
-  "id": "5d84ea33-d9ef-444f-9b8e-6612559a0fe2",
+  "id": "98bceca9-2c4d-4b59-866f-4ddd5bb0b51f",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "5",
   "dialect": "pg",
@@ -17,6 +17,12 @@
         },
         "path": {
           "name": "path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "building_path": {
+          "name": "building_path",
           "type": "text",
           "primaryKey": false,
           "notNull": true
@@ -154,15 +160,7 @@
           "notNull": true
         }
       },
-      "indexes": {
-        "name_idx": {
-          "name": "name_idx",
-          "columns": [
-            "path"
-          ],
-          "isUnique": false
-        }
-      },
+      "indexes": {},
       "foreignKeys": {},
       "compositePrimaryKeys": {},
       "uniqueConstraints": {
@@ -171,6 +169,13 @@
           "nullsNotDistinct": false,
           "columns": [
             "path"
+          ]
+        },
+        "buildables_building_path_unique": {
+          "name": "buildables_building_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "building_path"
           ]
         }
       }
@@ -271,20 +276,13 @@
           "notNull": true
         }
       },
-      "indexes": {
-        "name_idx": {
-          "name": "name_idx",
-          "columns": [
-            "path"
-          ],
-          "isUnique": false
-        }
-      },
+      "indexes": {},
       "foreignKeys": {
         "cleaner_schematic_schematics_path_fk": {
           "name": "cleaner_schematic_schematics_path_fk",
           "tableFrom": "cleaner",
           "tableTo": "schematics",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "schematic"
           ],
@@ -298,6 +296,7 @@
           "name": "cleaner_in_fluid_items_path_fk",
           "tableFrom": "cleaner",
           "tableTo": "items",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "in_fluid"
           ],
@@ -311,6 +310,7 @@
           "name": "cleaner_out_fluid_items_path_fk",
           "tableFrom": "cleaner",
           "tableTo": "items",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "out_fluid"
           ],
@@ -324,6 +324,7 @@
           "name": "cleaner_filter_item_items_path_fk",
           "tableFrom": "cleaner",
           "tableTo": "items",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "filter_item"
           ],
@@ -387,6 +388,7 @@
           "name": "cleaner_bypass_cleaner_path_cleaner_path_fk",
           "tableFrom": "cleaner_bypass",
           "tableTo": "cleaner",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "cleaner_path"
           ],
@@ -400,6 +402,7 @@
           "name": "cleaner_bypass_item_path_items_path_fk",
           "tableFrom": "cleaner_bypass",
           "tableTo": "items",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "item_path"
           ],
@@ -500,6 +503,7 @@
           "name": "extra_informations_buildable_path_buildables_path_fk",
           "tableFrom": "extra_informations",
           "tableTo": "buildables",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "buildable_path"
           ],
@@ -513,6 +517,7 @@
           "name": "extra_informations_item_path_items_path_fk",
           "tableFrom": "extra_informations",
           "tableTo": "items",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "item_path"
           ],
@@ -599,6 +604,7 @@
           "name": "extra_recipe_used_in_extra_informations_id_fk",
           "tableFrom": "extra_recipe",
           "tableTo": "extra_informations",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "used_in"
           ],
@@ -612,6 +618,7 @@
           "name": "extra_recipe_produced_in_extra_informations_id_fk",
           "tableFrom": "extra_recipe",
           "tableTo": "extra_informations",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "produced_in"
           ],
@@ -667,6 +674,7 @@
           "name": "extra_recipe_input_extra_recipe_extra_recipe_id_fk",
           "tableFrom": "extra_recipe_input",
           "tableTo": "extra_recipe",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "extra_recipe"
           ],
@@ -680,6 +688,7 @@
           "name": "extra_recipe_input_item_path_items_path_fk",
           "tableFrom": "extra_recipe_input",
           "tableTo": "items",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "item_path"
           ],
@@ -744,24 +753,12 @@
           "name": "extra_recipe_output_extra_recipe_extra_recipe_id_fk",
           "tableFrom": "extra_recipe_output",
           "tableTo": "extra_recipe",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "extra_recipe"
           ],
           "columnsTo": [
             "id"
-          ],
-          "onDelete": "cascade",
-          "onUpdate": "no action"
-        },
-        "extra_recipe_output_item_path_items_path_fk": {
-          "name": "extra_recipe_output_item_path_items_path_fk",
-          "tableFrom": "extra_recipe_output",
-          "tableTo": "items",
-          "columnsFrom": [
-            "item_path"
-          ],
-          "columnsTo": [
-            "path"
           ],
           "onDelete": "cascade",
           "onUpdate": "no action"
@@ -809,6 +806,7 @@
           "name": "extra_recipe_schematics_extra_recipe_extra_recipe_id_fk",
           "tableFrom": "extra_recipe_schematics",
           "tableTo": "extra_recipe",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "extra_recipe"
           ],
@@ -822,6 +820,7 @@
           "name": "extra_recipe_schematics_item_path_schematics_path_fk",
           "tableFrom": "extra_recipe_schematics",
           "tableTo": "schematics",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "item_path"
           ],
@@ -970,15 +969,7 @@
           "notNull": true
         }
       },
-      "indexes": {
-        "name_idx": {
-          "name": "name_idx",
-          "columns": [
-            "path"
-          ],
-          "isUnique": false
-        }
-      },
+      "indexes": {},
       "foreignKeys": {},
       "compositePrimaryKeys": {},
       "uniqueConstraints": {
@@ -987,6 +978,142 @@
           "nullsNotDistinct": false,
           "columns": [
             "path"
+          ]
+        }
+      }
+    },
+    "map": {
+      "name": "map",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "item_path": {
+          "name": "item_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "raw_item_path": {
+          "name": "raw_item_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "type": {
+          "name": "type",
+          "type": "resource_node_type",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "x": {
+          "name": "x",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "y": {
+          "name": "y",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "z": {
+          "name": "z",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "purity": {
+          "name": "purity",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "item_amounts": {
+          "name": "item_amounts",
+          "type": "json",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "satelites": {
+          "name": "satelites",
+          "type": "json",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "map_item_path_items_path_fk": {
+          "name": "map_item_path_items_path_fk",
+          "tableFrom": "map",
+          "tableTo": "items",
+          "schemaTo": "sfp-wiki",
+          "columnsFrom": [
+            "item_path"
+          ],
+          "columnsTo": [
+            "path"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "mapping": {
+      "name": "mapping",
+      "schema": "sfp-wiki",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "data_id": {
+          "name": "data_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "short_path": {
+          "name": "short_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "type": {
+          "name": "type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "mapping_data_id_unique": {
+          "name": "mapping_data_id_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "data_id"
+          ]
+        },
+        "mapping_short_path_unique": {
+          "name": "mapping_short_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "short_path"
           ]
         }
       }
@@ -1021,6 +1148,7 @@
           "name": "produced_in_recipe_path_recipes_path_fk",
           "tableFrom": "produced_in",
           "tableTo": "recipes",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "recipe_path"
           ],
@@ -1034,6 +1162,7 @@
           "name": "produced_in_building_path_buildables_path_fk",
           "tableFrom": "produced_in",
           "tableTo": "buildables",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "building_path"
           ],
@@ -1123,15 +1252,7 @@
           "notNull": true
         }
       },
-      "indexes": {
-        "name_idx": {
-          "name": "name_idx",
-          "columns": [
-            "path"
-          ],
-          "isUnique": false
-        }
-      },
+      "indexes": {},
       "foreignKeys": {},
       "compositePrimaryKeys": {},
       "uniqueConstraints": {
@@ -1180,6 +1301,7 @@
           "name": "recipes_input_recipe_path_recipes_path_fk",
           "tableFrom": "recipes_input",
           "tableTo": "recipes",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "recipe_path"
           ],
@@ -1193,6 +1315,7 @@
           "name": "recipes_input_item_path_items_path_fk",
           "tableFrom": "recipes_input",
           "tableTo": "items",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "item_path"
           ],
@@ -1251,21 +1374,9 @@
           "name": "recipes_output_recipe_path_recipes_path_fk",
           "tableFrom": "recipes_output",
           "tableTo": "recipes",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "recipe_path"
-          ],
-          "columnsTo": [
-            "path"
-          ],
-          "onDelete": "cascade",
-          "onUpdate": "no action"
-        },
-        "recipes_output_item_path_items_path_fk": {
-          "name": "recipes_output_item_path_items_path_fk",
-          "tableFrom": "recipes_output",
-          "tableTo": "items",
-          "columnsFrom": [
-            "item_path"
           ],
           "columnsTo": [
             "path"
@@ -1334,15 +1445,7 @@
           "notNull": true
         }
       },
-      "indexes": {
-        "name_idx": {
-          "name": "name_idx",
-          "columns": [
-            "path"
-          ],
-          "isUnique": false
-        }
-      },
+      "indexes": {},
       "foreignKeys": {},
       "compositePrimaryKeys": {},
       "uniqueConstraints": {
@@ -1412,6 +1515,7 @@
           "name": "research_tree_nodes_tree_path_research_tree_path_fk",
           "tableFrom": "research_tree_nodes",
           "tableTo": "research_tree",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "tree_path"
           ],
@@ -1425,6 +1529,7 @@
           "name": "research_tree_nodes_schematic_path_schematics_path_fk",
           "tableFrom": "research_tree_nodes",
           "tableTo": "schematics",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "schematic_path"
           ],
@@ -1477,6 +1582,7 @@
           "name": "research_tree_schematics_tree_path_research_tree_path_fk",
           "tableFrom": "research_tree_schematics",
           "tableTo": "research_tree",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "tree_path"
           ],
@@ -1490,6 +1596,7 @@
           "name": "research_tree_schematics_schematic_path_schematics_path_fk",
           "tableFrom": "research_tree_schematics",
           "tableTo": "schematics",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "schematic_path"
           ],
@@ -1542,6 +1649,7 @@
           "name": "recipe_unlocks_schematic_path_schematics_path_fk",
           "tableFrom": "recipe_unlocks",
           "tableTo": "schematics",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "schematic_path"
           ],
@@ -1555,6 +1663,7 @@
           "name": "recipe_unlocks_recipe_path_recipes_path_fk",
           "tableFrom": "recipe_unlocks",
           "tableTo": "recipes",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "recipe_path"
           ],
@@ -1607,6 +1716,7 @@
           "name": "scanner_unlocks_schematic_path_schematics_path_fk",
           "tableFrom": "scanner_unlocks",
           "tableTo": "schematics",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "schematic_path"
           ],
@@ -1620,6 +1730,7 @@
           "name": "scanner_unlocks_item_path_items_path_fk",
           "tableFrom": "scanner_unlocks",
           "tableTo": "items",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "item_path"
           ],
@@ -1732,15 +1843,7 @@
           "notNull": true
         }
       },
-      "indexes": {
-        "name_idx": {
-          "name": "name_idx",
-          "columns": [
-            "path"
-          ],
-          "isUnique": false
-        }
-      },
+      "indexes": {},
       "foreignKeys": {},
       "compositePrimaryKeys": {},
       "uniqueConstraints": {
@@ -1789,6 +1892,7 @@
           "name": "schematic_costs_schematic_path_schematics_path_fk",
           "tableFrom": "schematic_costs",
           "tableTo": "schematics",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "schematic_path"
           ],
@@ -1802,6 +1906,7 @@
           "name": "schematic_costs_item_path_items_path_fk",
           "tableFrom": "schematic_costs",
           "tableTo": "items",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "item_path"
           ],
@@ -1854,6 +1959,7 @@
           "name": "sub_schematics_schematic_path_schematics_path_fk",
           "tableFrom": "sub_schematics",
           "tableTo": "schematics",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "schematic_path"
           ],
@@ -1867,6 +1973,7 @@
           "name": "sub_schematics_sub_schematic_path_schematics_path_fk",
           "tableFrom": "sub_schematics",
           "tableTo": "schematics",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "sub_schematic_path"
           ],
@@ -1966,6 +2073,7 @@
           "name": "account_userId_user_id_fk",
           "tableFrom": "account",
           "tableTo": "user",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "userId"
           ],
@@ -2016,6 +2124,7 @@
           "name": "session_userId_user_id_fk",
           "tableFrom": "session",
           "tableTo": "user",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "userId"
           ],
@@ -2105,91 +2214,6 @@
       },
       "uniqueConstraints": {}
     },
-    "map": {
-      "name": "map",
-      "schema": "sfp-wiki",
-      "columns": {
-        "id": {
-          "name": "id",
-          "type": "uuid",
-          "primaryKey": true,
-          "notNull": true,
-          "default": "gen_random_uuid()"
-        },
-        "item_path": {
-          "name": "item_path",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": false
-        },
-        "raw_item_path": {
-          "name": "raw_item_path",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "type": {
-          "name": "type",
-          "type": "resource_node_type",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "x": {
-          "name": "x",
-          "type": "numeric",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "y": {
-          "name": "y",
-          "type": "numeric",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "z": {
-          "name": "z",
-          "type": "numeric",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "purity": {
-          "name": "purity",
-          "type": "integer",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "item_amounts": {
-          "name": "item_amounts",
-          "type": "json",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "satelites": {
-          "name": "satelites",
-          "type": "json",
-          "primaryKey": false,
-          "notNull": true
-        }
-      },
-      "indexes": {},
-      "foreignKeys": {
-        "map_item_path_items_path_fk": {
-          "name": "map_item_path_items_path_fk",
-          "tableFrom": "map",
-          "tableTo": "items",
-          "columnsFrom": [
-            "item_path"
-          ],
-          "columnsTo": [
-            "path"
-          ],
-          "onDelete": "cascade",
-          "onUpdate": "no action"
-        }
-      },
-      "compositePrimaryKeys": {},
-      "uniqueConstraints": {}
-    },
     "wiki_desc": {
       "name": "wiki_desc",
       "schema": "sfp-wiki",
@@ -2234,6 +2258,7 @@
           "name": "wiki_desc_el_id_wiki_element_id_fk",
           "tableFrom": "wiki_desc",
           "tableTo": "wiki_element",
+          "schemaTo": "sfp-wiki",
           "columnsFrom": [
             "el_id"
           ],
@@ -2354,8 +2379,8 @@
     "sfp-wiki": "sfp-wiki"
   },
   "_meta": {
+    "columns": {},
     "schemas": {},
-    "tables": {},
-    "columns": {}
+    "tables": {}
   }
 }
