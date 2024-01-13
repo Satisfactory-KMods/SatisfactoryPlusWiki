@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 	import { CRS, LatLngBounds } from 'leaflet';
 
-	const {data, status, error} = useFetch('/api/resource-map/data');
+	const { data, status, error } = useFetch('/api/resource-map/data');
 
 	const readyForMarkers = ref(false);
 	const map = ref();
@@ -86,7 +86,7 @@
 		t = (s - mappingBoundEast + t) * i;
 		a = (r - mappingBoundNorth + a) * o - backgroundSize;
 
-		return map.unproject([t, a], zoomRatio);
+		return map.value?.leafletObject?.unproject([t, a], zoomRatio);
 	}
 
 	onMounted(() => {
