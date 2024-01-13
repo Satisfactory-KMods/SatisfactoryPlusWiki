@@ -23,16 +23,11 @@
 			</UContainer>
 		</div>
 		<div class="flex-1 overflow-hidden">
-			<UContainer class="h-full">
-				<div class="grid h-full grid-cols-12 overflow-hidden">
-					<div class="col-span-3 overflow-y-auto border-e dark:border-gray-800">
-						<LayoutSidebar />
-					</div>
-					<div class="col-span-9 overflow-y-auto p-2">
-						<slot />
-					</div>
+			<div class="grid h-full grid-cols-12 overflow-hidden">
+				<div class="col-span-12 overflow-y-auto p-2">
+					<slot />
 				</div>
-			</UContainer>
+			</div>
 		</div>
 	</div>
 </template>

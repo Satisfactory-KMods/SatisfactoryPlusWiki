@@ -1,25 +1,34 @@
-import type { MapTableFull } from '../db/index';
 import { db } from '../db/index';
-export function getMapData() {
-	return db.query.mapTable
-		.findMany({
-			with: {
-				item: true
-			}
-		})
-		.then((mapData) => {
-			// we group the map data by itempath
-			return mapData.reduce<Record<string, MapTableFull[]>>((acc, mapData) => {
-				const itemPath = mapData.itemPath;
-				if (!itemPath) {
-					return acc;
-				}
 
-				if (!acc[itemPath]) {
-					acc[itemPath] = [];
+export async function getMapData() {
+	const mapData = await db.query.mapTable.findMany({
+		columns: {
+			itemPath: false,
+			noRelItemPath: false
+		},
+		with: {
+			item: {
+				columns: {
+					id: true,
+					image: true,
+					path: true,
+					name: true,
+					form: true
 				}
-				acc[itemPath].push(mapData as any);
-				return acc;
-			}, {});
-		});
+			}
+		}
+	});
+
+	return mapData.reduce<Record<string, (typeof mapData)[0][]>>((acc, mapData) => {
+		const itemPath = mapData.item?.path;
+		if (!itemPath) {
+			return acc;
+		}
+
+		if (!acc[itemPath]) {
+			acc[itemPath] = [];
+		}
+		acc[itemPath].push(mapData as any);
+		return acc;
+	}, {});
 }
