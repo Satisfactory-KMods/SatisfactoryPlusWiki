@@ -365,12 +365,28 @@
 				<template v-for="marker of showMarkers" :key="marker.id">
 					<LMarker
 						:icon="createMapMarkerIcon(marker.item, convertPurity(marker.purity))"
-						:lat-lng="convertToRasterCoordinates([marker.x, marker.y])" />
+						:lat-lng="convertToRasterCoordinates([marker.x, marker.y])"
+						@click="
+							$router.push({
+								name: 'show-id',
+								params: {
+									id: String(blueprintPathToShort(marker.item!.path))
+								}
+							})
+						" />
 					<LMarker
 						v-for="(sat, idx) of marker.satelites"
 						:key="`${marker.id}${idx}`"
 						:icon="createMapMarkerIcon(marker.item, convertPurity(sat.purity), true)"
-						:lat-lng="convertToRasterCoordinates([sat.x, sat.y])" />
+						:lat-lng="convertToRasterCoordinates([sat.x, sat.y])"
+						@click="
+							$router.push({
+								name: 'show-id',
+								params: {
+									id: String(blueprintPathToShort(marker.item!.path))
+								}
+							})
+						" />
 				</template>
 			</LMap>
 		</div>
