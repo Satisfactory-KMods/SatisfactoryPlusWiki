@@ -34,5 +34,6 @@
 				</div>
 			</UContainer>
 		</div>
+		<Footer />
 	</div>
 </template>

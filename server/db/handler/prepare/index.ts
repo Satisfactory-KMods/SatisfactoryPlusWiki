@@ -16,7 +16,9 @@ export async function prepareItems(data: any) {
 			await db
 				.insert(mapping)
 				.values({
+					displayName: d.name,
 					dataId: d.id,
+					elPath: d.path,
 					shortPath: blueprintPathToShort(d.path),
 					type: SFDataType.itemDescriptor
 				})
@@ -44,7 +46,9 @@ export async function prepareResearchTree(data: any) {
 			await db
 				.insert(mapping)
 				.values({
+					displayName: d.name,
 					dataId: d.id,
+					elPath: d.path,
 					shortPath: blueprintPathToShort(d.path),
 					type: SFDataType.researchTree
 				})
@@ -77,7 +81,9 @@ export async function prepareBuildable(data: any) {
 				await db
 					.insert(mapping)
 					.values({
+						displayName: d.name,
 						dataId: d.id,
+						elPath: d.path,
 						shortPath: blueprintPathToShort(d.path),
 						type: SFDataType.buildable
 					})
@@ -106,7 +112,9 @@ export async function prepareRecipe(data: any) {
 			await db
 				.insert(mapping)
 				.values({
+					displayName: d.name,
 					dataId: d.id,
+					elPath: d.path,
 					shortPath: blueprintPathToShort(d.path),
 					type: SFDataType.recipe
 				})
@@ -138,7 +146,9 @@ export async function prepareSchematic(data: any) {
 			await db
 				.insert(mapping)
 				.values({
+					displayName: d.name,
 					dataId: d.id,
+					elPath: d.path,
 					shortPath: blueprintPathToShort(d.path),
 					type: SFDataType.schematic
 				})

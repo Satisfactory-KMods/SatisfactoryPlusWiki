@@ -456,7 +456,7 @@
 							<template v-for="[k, resource] of Object.entries(selectOptions[item.key as keyof typeof selectOptions])" :key="k">
 								<div
 									v-if="resource.item"
-									class="relative flex h-fit w-full flex-col justify-items-center gap-2 overflow-hidden rounded border bg-gray-100 p-1 p-2 dark:border-gray-950 dark:bg-gray-800">
+									class="relative flex h-fit w-full flex-col justify-items-center gap-2 overflow-hidden rounded border bg-gray-100 p-1 dark:border-gray-950 dark:bg-gray-800">
 									<NuxtLink
 										:to="{
 											name: 'show-id',

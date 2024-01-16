@@ -1,9 +1,9 @@
-import { and, asc, desc, eq, ilike, isNotNull, not } from 'drizzle-orm';
+import { and, asc, desc, eq, ilike, isNotNull, not, sql } from 'drizzle-orm';
 import { buildables, db, items, recipes, researchTree, schematics } from '~/server/db/index';
 import { wikiElement } from '../db/schema/wiki';
 
-export function getMappingData(id: string) {
-	return db.query.mapping
+export async function getMappingData(id: string) {
+	const result = await db.query.mapping
 		.findFirst({
 			where: (t, { eq }) => {
 				return eq(t.shortPath, id);
@@ -11,12 +11,27 @@ export function getMappingData(id: string) {
 			columns: {
 				dataId: true,
 				type: true,
-				shortPath: true
+				shortPath: true,
+				displayName: true,
+				elPath: true
 			}
 		})
 		.catch(() => {
 			return null;
 		});
+
+	if (result) {
+		const { elPath, ...rest } = result;
+		if (!elPath) return rest;
+
+		await db
+			.update(wikiElement)
+			.set({ views: sql`${wikiElement.views} += 1` })
+			.where(eq(wikiElement.elPath, elPath))
+			.catch(() => {});
+		return rest;
+	}
+	return result;
 }
 
 export async function getSearchResultForTable<T extends typeof recipes | typeof researchTree | typeof schematics | typeof buildables | typeof items>(

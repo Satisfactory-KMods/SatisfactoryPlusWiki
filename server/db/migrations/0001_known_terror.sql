@@ -1,0 +1,1 @@
+ALTER TABLE "sfp-wiki"."mapping" ADD COLUMN "display_name" text;
