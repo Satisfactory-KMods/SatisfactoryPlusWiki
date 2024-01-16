@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 	import { SFResourceNodePurity } from '#imports';
+	import type { TabItem } from '@nuxt/ui/dist/runtime/types';
 	import L, { CRS, LatLngBounds } from 'leaflet';
 	import type { ResourceMapData } from '~/server/api/resource-map/data.get';
 	import type { SecondGeneric } from '~/utils/typeUtils';
@@ -316,7 +317,7 @@
 		}
 	}
 
-	const items = [
+	const items = ref<TabItem[]>([
 		{
 			key: 'resourceNodes' as keyof typeof selectOptions,
 			label: keyToString('resourceNodes')
@@ -329,7 +330,7 @@
 			key: 'other' as keyof typeof selectOptions,
 			label: keyToString('other')
 		}
-	];
+	]);
 
 	function toggleAllInCategory(key: keyof typeof selectOptions, to: boolean, purity: SFResourceNodePurity) {
 		for (const k of Object.keys(selectOptions[key])) {
@@ -347,6 +348,12 @@
 			iconAnchor: [16, 32]
 		});
 	}
+
+	const tabUi /*ui*/ = {
+		base: 'focus:outline-none h-full',
+		wrapper: 'relative h-full flex flex-col overflow-hidden',
+		container: 'relative w-full h-full flex flex-col overflow-hidden p-1'
+	};
 </script>
 
 <template>
@@ -392,12 +399,13 @@
 		</div>
 
 		<div class="flex h-full flex-[0.25] flex-col items-center justify-items-center gap-2 overflow-hidden px-1">
-			<UTabs :items="items" class="w-full">
+			<UTabs :ui="tabUi" :items="items" class="w-full">
 				<template #item="{ item }">
 					<UCard
 						:ui="{
+							base: 'flex flex-col h-full overflow-hidden',
 							body: {
-								padding: 'p-2 sm:p-2 overflow-auto flex flex-col gap-2 h-[80.0vh]'
+								padding: 'p-0 sm:p-0 overflow-auto flex flex-col gap-2 h-full max-h-full relative'
 							}
 						}">
 						<template #header>
@@ -444,70 +452,79 @@
 							</div>
 						</template>
 
-						<template v-for="[k, resource] of Object.entries(selectOptions[item.key as keyof typeof selectOptions])" :key="k">
-							<div
-								v-if="resource.item"
-								class="relative flex w-full flex-col justify-items-center gap-2 rounded border bg-gray-100 p-1 dark:border-gray-950 dark:bg-gray-800">
-								<NuxtLink
-									:to="{
-										name: 'show-id',
-										params: {
-											id: String(blueprintPathToShort(resource.item.path))
-										}
-									}">
-									<Icon name="i-heroicons-link" class="absolute right-2 top-2 h-4 w-4" />
-								</NuxtLink>
-								<div class="flex gap-2">
-									<NuxtImg
-										:src="`/sf${resource.item.image.split('.')[0]}.png`"
-										:alt="resource.item.name"
-										width="50"
-										height="50"
-										class="rounded border border-gray-700 bg-gray-900 p-1" />
-									<div class="flex flex-1 flex-col">
-										<span class="font-semibold">{{ resource.item.name }}</span>
-										<span class="flex items-center text-xs text-gray-600 dark:text-gray-400">
-											{{ item.label }}
-										</span>
+						<div class="relative overflow-auto p-2">
+							<template v-for="[k, resource] of Object.entries(selectOptions[item.key as keyof typeof selectOptions])" :key="k">
+								<div
+									v-if="resource.item"
+									class="relative flex h-fit w-full flex-col justify-items-center gap-2 overflow-hidden rounded border bg-gray-100 p-1 p-2 dark:border-gray-950 dark:bg-gray-800">
+									<NuxtLink
+										:to="{
+											name: 'show-id',
+											params: {
+												id: String(blueprintPathToShort(resource.item.path))
+											}
+										}">
+										<Icon name="i-heroicons-link" class="absolute right-2 top-2 h-4 w-4" />
+									</NuxtLink>
+									<div class="flex gap-2">
+										<NuxtImg
+											:src="`/sf${resource.item.image.split('.')[0]}.png`"
+											:alt="resource.item.name"
+											width="50"
+											height="50"
+											class="rounded border border-gray-700 bg-gray-900 p-1" />
+										<div class="flex flex-1 flex-col">
+											<span class="font-semibold">{{ resource.item.name }}</span>
+											<span class="flex items-center text-xs text-gray-600 dark:text-gray-400">
+												{{ item.label }}
+											</span>
+										</div>
+									</div>
+									<div class="flex gap-2">
+										<UButton
+											v-if="!!resource.purity[SFResourceNodePurity.impure].count"
+											class="flex-1"
+											color="orange"
+											:variant="IsPuritySelected(SFResourceNodePurity.impure, resource.purity) ? 'solid' : 'outline'"
+											@click="
+												selectOptions[item.key as keyof typeof selectOptions][k].purity[
+													SFResourceNodePurity.impure
+												].selected =
+													!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.impure]
+														.selected
+											"
+											>Impure ({{ resource.purity[SFResourceNodePurity.impure].count }})</UButton
+										>
+										<UButton
+											v-if="!!resource.purity[SFResourceNodePurity.normal].count"
+											class="flex-1"
+											color="yellow"
+											:variant="IsPuritySelected(SFResourceNodePurity.normal, resource.purity) ? 'solid' : 'outline'"
+											@click="
+												selectOptions[item.key as keyof typeof selectOptions][k].purity[
+													SFResourceNodePurity.normal
+												].selected =
+													!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.normal]
+														.selected
+											"
+											>Normal ({{ resource.purity[SFResourceNodePurity.normal].count }})</UButton
+										>
+										<UButton
+											v-if="!!resource.purity[SFResourceNodePurity.pure].count"
+											class="flex-1"
+											color="green"
+											:variant="IsPuritySelected(SFResourceNodePurity.pure, resource.purity) ? 'solid' : 'outline'"
+											@click="
+												selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.pure].selected =
+													!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.pure]
+														.selected
+											"
+											>Pure ({{ resource.purity[SFResourceNodePurity.pure].count }})</UButton
+										>
 									</div>
 								</div>
-								<div class="flex gap-2">
-									<UButton
-										v-if="!!resource.purity[SFResourceNodePurity.impure].count"
-										class="flex-1"
-										color="orange"
-										:variant="IsPuritySelected(SFResourceNodePurity.impure, resource.purity) ? 'solid' : 'outline'"
-										@click="
-											selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.impure].selected =
-												!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.impure].selected
-										"
-										>Impure ({{ resource.purity[SFResourceNodePurity.impure].count }})</UButton
-									>
-									<UButton
-										v-if="!!resource.purity[SFResourceNodePurity.normal].count"
-										class="flex-1"
-										color="yellow"
-										:variant="IsPuritySelected(SFResourceNodePurity.normal, resource.purity) ? 'solid' : 'outline'"
-										@click="
-											selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.normal].selected =
-												!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.normal].selected
-										"
-										>Normal ({{ resource.purity[SFResourceNodePurity.normal].count }})</UButton
-									>
-									<UButton
-										v-if="!!resource.purity[SFResourceNodePurity.pure].count"
-										class="flex-1"
-										color="green"
-										:variant="IsPuritySelected(SFResourceNodePurity.pure, resource.purity) ? 'solid' : 'outline'"
-										@click="
-											selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.pure].selected =
-												!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.pure].selected
-										"
-										>Pure ({{ resource.purity[SFResourceNodePurity.pure].count }})</UButton
-									>
-								</div>
-							</div>
-						</template>
+							</template>
+						</div>
 					</UCard>
 				</template>
 			</UTabs>

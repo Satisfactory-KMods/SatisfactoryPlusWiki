@@ -22,9 +22,9 @@
 				</div>
 			</UContainer>
 		</div>
-		<div class="flex-1 overflow-hidden">
-			<div class="grid h-full grid-cols-12 overflow-hidden">
-				<div class="col-span-12 overflow-y-auto p-2">
+		<div class="flex flex-1 overflow-hidden">
+			<div class="grid h-full flex-1 grid-cols-12 overflow-hidden">
+				<div class="col-span-12 overflow-hidden p-2">
 					<slot />
 				</div>
 			</div>
