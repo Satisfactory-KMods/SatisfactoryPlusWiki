@@ -1,8 +1,9 @@
 import { and, asc, desc, eq, ilike, isNotNull, not, sql } from 'drizzle-orm';
 import { buildables, db, items, recipes, researchTree, schematics } from '~/server/db/index';
 import { wikiElement } from '../db/schema/wiki';
+import { hasReaded, setReaded } from '../plugins/02.schedules';
 
-export async function getMappingData(id: string) {
+export async function getMappingData(id: string, user: string) {
 	const result = await db.query.mapping
 		.findFirst({
 			where: (t, { eq }) => {
@@ -22,12 +23,15 @@ export async function getMappingData(id: string) {
 
 	if (result) {
 		const { elPath, ...rest } = result;
-		if (!elPath) return rest;
+		if (!elPath || hasReaded(elPath, user)) return rest;
 
 		await db
 			.update(wikiElement)
 			.set({ views: sql`${wikiElement.views} += 1` })
 			.where(eq(wikiElement.elPath, elPath))
+			.then(() => {
+				setReaded(elPath, user);
+			})
 			.catch(() => {});
 		return rest;
 	}
