@@ -1,12 +1,12 @@
 <script lang="ts" setup>
-	import { SFResourceNodePurity } from '#imports';
-	import type { TabItem } from '@nuxt/ui/dist/runtime/types';
+	import { SFResourceNodePurity, SFResourceNodeType } from '#imports';
 	import L, { CRS, LatLngBounds } from 'leaflet';
 	import type { ResourceMapData } from '~/server/api/resource-map/data.get';
 	import type { SecondGeneric } from '~/utils/typeUtils';
 
 	definePageMeta({
-		layout: 'expanded'
+		layout: 'expanded',
+		ssr: false
 	});
 
 	const { data: asyncData } = useFetch('/api/resource-map/data');
@@ -137,9 +137,7 @@
 
 		for (const v of Object.values(asyncData.value)) {
 			for (const row of v) {
-				if (!row.item) continue;
-
-				const path = row.item.path;
+				const path = row.item?.path ?? row.type;
 
 				if (SFResourceNodeType.deposits === row.type) {
 					continue;
@@ -317,7 +315,12 @@
 		}
 	}
 
-	const items = ref<TabItem[]>([
+	const items = ref<
+		{
+			key: string;
+			label: string;
+		}[]
+	>([
 		{
 			key: 'resourceNodes' as keyof typeof selectOptions,
 			label: keyToString('resourceNodes')
@@ -339,10 +342,15 @@
 		}
 	}
 
-	function createMapMarkerIcon(item: SecondGeneric<ResourceMapData>[0]['item'], purity: SFResourceNodePurity, rounded = false) {
+	function createMapMarkerIcon(
+		item: SecondGeneric<ResourceMapData>[0]['item'],
+		type: SFResourceNodeType,
+		purity: SFResourceNodePurity,
+		rounded = false
+	) {
 		// eslint-disable-next-line import/no-named-as-default-member
 		return new L.Icon({
-			iconUrl: `/_ipx/s_50x50/sf${item!.image.split('.')[0]}.png`,
+			iconUrl: item ? `/_ipx/s_50x50/sf${item.image.split('.')[0]}.png` : `/map/${type}.png`,
 			className: `bg-${convertPurityToColor(purity)}-500 ${rounded ? 'rounded-full' : 'rounded'} shadow-md border border-gray-200 p-1`,
 			iconSize: [32, 32],
 			iconAnchor: [16, 32]
@@ -359,43 +367,45 @@
 <template>
 	<div class="flex h-full gap-4 overflow-hidden">
 		<div class="h-full w-full flex-[0.75]">
-			<LMap
-				ref="map"
-				:zoom="mapConfig.zoom"
-				:center="[0, 0]"
-				:min-zoom="config.minTileZoom"
-				:max-zoom="config.maxTileZoom"
-				:bounds="mapConfig.bounds"
-				:max-bounds="mapConfig.maxBounds">
-				<LTileLayer url="https://kyrium.space/static/new-map/prod/{z}/{x}/{y}.png"></LTileLayer>
+			<ClientOnly>
+				<LMap
+					ref="map"
+					:zoom="mapConfig.zoom"
+					:center="[0, 0]"
+					:min-zoom="config.minTileZoom"
+					:max-zoom="config.maxTileZoom"
+					:bounds="mapConfig.bounds"
+					:max-bounds="mapConfig.maxBounds">
+					<LTileLayer url="https://kyrium.space/static/new-map/prod/{z}/{x}/{y}.png"></LTileLayer>
 
-				<template v-for="marker of showMarkers" :key="marker.id">
-					<LMarker
-						:icon="createMapMarkerIcon(marker.item, convertPurity(marker.purity))"
-						:lat-lng="convertToRasterCoordinates([marker.x, marker.y])"
-						@click="
-							$router.push({
-								name: 'show-id',
-								params: {
-									id: String(blueprintPathToShort(marker.item!.path))
-								}
-							})
-						" />
-					<LMarker
-						v-for="(sat, idx) of marker.satelites"
-						:key="`${marker.id}${idx}`"
-						:icon="createMapMarkerIcon(marker.item, convertPurity(sat.purity), true)"
-						:lat-lng="convertToRasterCoordinates([sat.x, sat.y])"
-						@click="
-							$router.push({
-								name: 'show-id',
-								params: {
-									id: String(blueprintPathToShort(marker.item!.path))
-								}
-							})
-						" />
-				</template>
-			</LMap>
+					<template v-for="marker of showMarkers" :key="marker.id">
+						<LMarker
+							:icon="createMapMarkerIcon(marker.item, marker.type, convertPurity(marker.purity))"
+							:lat-lng="convertToRasterCoordinates([marker.x, marker.y])"
+							@click="
+								$router.push({
+									name: 'show-id',
+									params: {
+										id: String(marker.item ? blueprintPathToShort(marker.item.path) : `/map/${marker.type}.png`)
+									}
+								})
+							" />
+						<LMarker
+							v-for="(sat, idx) of marker.satelites"
+							:key="`${marker.id}${idx}`"
+							:icon="createMapMarkerIcon(marker.item, marker.type, convertPurity(sat.purity), true)"
+							:lat-lng="convertToRasterCoordinates([sat.x, sat.y])"
+							@click="
+								$router.push({
+									name: 'show-id',
+									params: {
+										id: String(marker.item ? blueprintPathToShort(marker.item.path) : `/map/${marker.type}.png`)
+									}
+								})
+							" />
+					</template>
+				</LMap>
+			</ClientOnly>
 		</div>
 
 		<div class="flex h-full flex-[0.25] flex-col items-center justify-items-center gap-2 overflow-hidden px-1">
@@ -456,71 +466,144 @@
 							<template v-for="[k, resource] of Object.entries(selectOptions[item.key as keyof typeof selectOptions])" :key="k">
 								<div
 									v-if="resource.item"
-									class="relative flex h-fit w-full flex-col justify-items-center gap-2 overflow-hidden rounded border bg-gray-100 p-1 dark:border-gray-950 dark:bg-gray-800">
-									<NuxtLink
+									class="relative flex h-fit w-full flex-col justify-items-center overflow-hidden rounded border bg-gray-100 p-1 dark:border-gray-950 dark:bg-gray-800">
+									<UButton
+										square
+										variant="link"
+										size="2xs"
+										class="absolute right-2 top-2"
+										icon="i-heroicons-link"
 										:to="{
 											name: 'show-id',
 											params: {
 												id: String(blueprintPathToShort(resource.item.path))
 											}
 										}">
-										<Icon name="i-heroicons-link" class="absolute right-2 top-2 h-4 w-4" />
-									</NuxtLink>
-									<div class="flex gap-2">
-										<NuxtImg
-											:src="`/sf${resource.item.image.split('.')[0]}.png`"
-											:alt="resource.item.name"
-											width="50"
-											height="50"
-											class="rounded border border-gray-700 bg-gray-900 p-1" />
-										<div class="flex flex-1 flex-col">
-											<span class="font-semibold">{{ resource.item.name }}</span>
-											<span class="flex items-center text-xs text-gray-600 dark:text-gray-400">
-												{{ item.label }}
-											</span>
+									</UButton>
+									<div class="flex flex-col gap-2">
+										<div class="flex gap-2">
+											<NuxtImg
+												:src="`/sf${resource.item.image.split('.')[0]}.png`"
+												:alt="resource.item.name"
+												width="50"
+												height="50"
+												class="rounded border border-gray-700 bg-gray-900 p-1" />
+											<div class="flex flex-1 flex-col">
+												<span class="font-semibold">{{ resource.item.name }}</span>
+												<span class="flex items-center text-xs text-gray-600 dark:text-gray-400">
+													{{ item.label }}
+												</span>
+											</div>
+										</div>
+										<div class="flex gap-2">
+											<UButton
+												v-if="!!resource.purity[SFResourceNodePurity.impure].count"
+												class="flex-1"
+												color="orange"
+												:variant="IsPuritySelected(SFResourceNodePurity.impure, resource.purity) ? 'solid' : 'outline'"
+												@click="
+													selectOptions[item.key as keyof typeof selectOptions][k].purity[
+														SFResourceNodePurity.impure
+													].selected =
+														!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.impure]
+															.selected
+												"
+												>Impure ({{ resource.purity[SFResourceNodePurity.impure].count }})</UButton
+											>
+											<UButton
+												v-if="!!resource.purity[SFResourceNodePurity.normal].count"
+												class="flex-1"
+												color="yellow"
+												:variant="IsPuritySelected(SFResourceNodePurity.normal, resource.purity) ? 'solid' : 'outline'"
+												@click="
+													selectOptions[item.key as keyof typeof selectOptions][k].purity[
+														SFResourceNodePurity.normal
+													].selected =
+														!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.normal]
+															.selected
+												"
+												>Normal ({{ resource.purity[SFResourceNodePurity.normal].count }})</UButton
+											>
+											<UButton
+												v-if="!!resource.purity[SFResourceNodePurity.pure].count"
+												class="flex-1"
+												color="green"
+												:variant="IsPuritySelected(SFResourceNodePurity.pure, resource.purity) ? 'solid' : 'outline'"
+												@click="
+													selectOptions[item.key as keyof typeof selectOptions][k].purity[
+														SFResourceNodePurity.pure
+													].selected =
+														!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.pure]
+															.selected
+												"
+												>Pure ({{ resource.purity[SFResourceNodePurity.pure].count }})</UButton
+											>
 										</div>
 									</div>
-									<div class="flex gap-2">
-										<UButton
-											v-if="!!resource.purity[SFResourceNodePurity.impure].count"
-											class="flex-1"
-											color="orange"
-											:variant="IsPuritySelected(SFResourceNodePurity.impure, resource.purity) ? 'solid' : 'outline'"
-											@click="
-												selectOptions[item.key as keyof typeof selectOptions][k].purity[
-													SFResourceNodePurity.impure
-												].selected =
-													!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.impure]
-														.selected
-											"
-											>Impure ({{ resource.purity[SFResourceNodePurity.impure].count }})</UButton
-										>
-										<UButton
-											v-if="!!resource.purity[SFResourceNodePurity.normal].count"
-											class="flex-1"
-											color="yellow"
-											:variant="IsPuritySelected(SFResourceNodePurity.normal, resource.purity) ? 'solid' : 'outline'"
-											@click="
-												selectOptions[item.key as keyof typeof selectOptions][k].purity[
-													SFResourceNodePurity.normal
-												].selected =
-													!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.normal]
-														.selected
-											"
-											>Normal ({{ resource.purity[SFResourceNodePurity.normal].count }})</UButton
-										>
-										<UButton
-											v-if="!!resource.purity[SFResourceNodePurity.pure].count"
-											class="flex-1"
-											color="green"
-											:variant="IsPuritySelected(SFResourceNodePurity.pure, resource.purity) ? 'solid' : 'outline'"
-											@click="
-												selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.pure].selected =
-													!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.pure]
-														.selected
-											"
-											>Pure ({{ resource.purity[SFResourceNodePurity.pure].count }})</UButton
-										>
+								</div>
+
+								<div
+									v-else
+									class="relative flex h-fit w-full flex-col justify-items-center overflow-hidden rounded border bg-gray-100 p-1 dark:border-gray-950 dark:bg-gray-800">
+									<div class="flex flex-col gap-2">
+										<div class="flex gap-2">
+											<NuxtImg
+												:src="`/map/${k}.png`"
+												:alt="k"
+												width="50"
+												height="50"
+												class="rounded border border-gray-700 bg-gray-900 p-1" />
+											<div class="flex flex-1 flex-col">
+												<span class="font-semibold">{{ typeToString(k as any) }}</span>
+												<span class="flex items-center text-xs text-gray-600 dark:text-gray-400">
+													{{ item.label }}
+												</span>
+											</div>
+										</div>
+										<div class="flex gap-2">
+											<UButton
+												v-if="!!resource.purity[SFResourceNodePurity.impure].count"
+												class="flex-1"
+												color="orange"
+												:variant="IsPuritySelected(SFResourceNodePurity.impure, resource.purity) ? 'solid' : 'outline'"
+												@click="
+													selectOptions[item.key as keyof typeof selectOptions][k].purity[
+														SFResourceNodePurity.impure
+													].selected =
+														!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.impure]
+															.selected
+												"
+												>Impure ({{ resource.purity[SFResourceNodePurity.impure].count }})</UButton
+											>
+											<UButton
+												v-if="!!resource.purity[SFResourceNodePurity.normal].count"
+												class="flex-1"
+												color="yellow"
+												:variant="IsPuritySelected(SFResourceNodePurity.normal, resource.purity) ? 'solid' : 'outline'"
+												@click="
+													selectOptions[item.key as keyof typeof selectOptions][k].purity[
+														SFResourceNodePurity.normal
+													].selected =
+														!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.normal]
+															.selected
+												"
+												>Normal ({{ resource.purity[SFResourceNodePurity.normal].count }})</UButton
+											>
+											<UButton
+												v-if="!!resource.purity[SFResourceNodePurity.pure].count"
+												class="flex-1"
+												color="green"
+												:variant="IsPuritySelected(SFResourceNodePurity.pure, resource.purity) ? 'solid' : 'outline'"
+												@click="
+													selectOptions[item.key as keyof typeof selectOptions][k].purity[
+														SFResourceNodePurity.pure
+													].selected =
+														!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.pure]
+															.selected
+												"
+												>Pure ({{ resource.purity[SFResourceNodePurity.pure].count }})</UButton
+											>
+										</div>
 									</div>
 								</div>
 							</template>

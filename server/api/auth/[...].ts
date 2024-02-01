@@ -1,15 +1,20 @@
 import { NuxtAuthHandler } from '#auth';
-import DiscordProvider from '@auth/core/providers/discord';
-import type { AuthConfig } from '@auth/core/types';
 import { DrizzleAdapter } from '@auth/drizzle-adapter';
+import DiscordProvider from 'next-auth/providers/discord';
 import { db, dbSchema } from '~/server/db';
 
 const runtimeConfig = useRuntimeConfig();
 
-export const authOptions: AuthConfig = {
+/**
+ * https://github.com/nuxt/nuxt/issues/20576#issuecomment-1712859008
+ * we need to use .default because of a random issue here
+ * also ignore the TS error because it's not actually an error and it works fine
+ */
+export default NuxtAuthHandler({
 	secret: runtimeConfig.authJs.secret,
 	providers: [
-		DiscordProvider({
+		// @ts-ignore
+		DiscordProvider.default({
 			clientId: runtimeConfig.discord.clientId,
 			clientSecret: runtimeConfig.discord.clientSecret
 		})
@@ -18,7 +23,6 @@ export const authOptions: AuthConfig = {
 		strategy: 'database',
 		updateAge: 60 * 60 * 2
 	},
+	// @ts-ignore
 	adapter: DrizzleAdapter(db, dbSchema.table as any)
-};
-
-export default NuxtAuthHandler(authOptions, runtimeConfig);
+});

@@ -3,6 +3,7 @@ import { env } from './env.mjs';
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	modules: [
+		'@sidebase/nuxt-auth',
 		'@vueuse/nuxt',
 		'@pinia/nuxt',
 		'@pinia-plugin-persistedstate/nuxt',
@@ -10,7 +11,6 @@ export default defineNuxtConfig({
 		'@nuxt/ui',
 		'nuxt-icon',
 		'nuxt3-leaflet',
-		'@hebilicious/authjs-nuxt',
 		'@nuxt/image'
 	],
 	ssr: true,
