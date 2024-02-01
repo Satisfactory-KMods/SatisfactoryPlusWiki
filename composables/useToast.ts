@@ -1,9 +1,7 @@
-import type { Notification, NotificationColor } from '@nuxt/ui/dist/runtime/types/notification';
-
 export function useToastNotify() {
 	const toast = useToast();
 
-	function createToastNotification(notification: Partial<Omit<Notification, 'color' | 'icon'>> | string, color: NotificationColor, icon: string) {
+	function createToastNotification(notification: Partial<Omit<Notification, 'color' | 'icon'>> | string, color: string, icon: string) {
 		if (typeof notification === 'string') {
 			notification = {
 				title: notification
@@ -12,7 +10,7 @@ export function useToastNotify() {
 
 		return toast.add({
 			...notification,
-			color,
+			color: color as any,
 			icon
 		});
 	}

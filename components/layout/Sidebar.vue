@@ -1,8 +1,9 @@
 <script setup lang="ts">
 	import { useLastVisit } from '~/stores/useLastVisit';
 
-	const { signIn, signOut, session } = useAuth();
+	const { signIn, signOut, getSession } = useAuth();
 	const visitStore = useLastVisit();
+	const session = await getSession();
 
 	const general = [
 		{
