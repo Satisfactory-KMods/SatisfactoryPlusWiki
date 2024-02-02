@@ -5,8 +5,7 @@
 	import type { SecondGeneric } from '~/utils/typeUtils';
 
 	definePageMeta({
-		layout: 'expanded',
-		ssr: false
+		layout: 'expanded'
 	});
 
 	const { data: asyncData } = useFetch('/api/resource-map/data');
@@ -315,25 +314,23 @@
 		}
 	}
 
-	const items = ref<
+	const items: {
+		content: string;
+		label: string;
+	}[] = [
 		{
-			key: string;
-			label: string;
-		}[]
-	>([
-		{
-			key: 'resourceNodes' as keyof typeof selectOptions,
+			content: 'resourceNodes' as keyof typeof selectOptions,
 			label: keyToString('resourceNodes')
 		},
 		{
-			key: 'resourceWells' as keyof typeof selectOptions,
+			content: 'resourceWells' as keyof typeof selectOptions,
 			label: keyToString('resourceWells')
 		},
 		{
-			key: 'other' as keyof typeof selectOptions,
+			content: 'other' as keyof typeof selectOptions,
 			label: keyToString('other')
 		}
-	]);
+	];
 
 	function toggleAllInCategory(key: keyof typeof selectOptions, to: boolean, purity: SFResourceNodePurity) {
 		for (const k of Object.keys(selectOptions[key])) {
@@ -362,6 +359,25 @@
 		wrapper: 'relative h-full flex flex-col overflow-hidden',
 		container: 'relative w-full h-full flex flex-col overflow-hidden p-1'
 	};
+
+	const route = useRoute();
+	const router = useRouter();
+	const selected = computed({
+		get() {
+			const index = items.findIndex((item) => {
+				return item.label === route.query.tab;
+			});
+			if (index === -1) {
+				return 0;
+			}
+
+			return index;
+		},
+		set(value) {
+			// Hash is specified here to prevent the page from scrolling to the top
+			router.replace({ query: { tab: items[value].label } });
+		}
+	});
 </script>
 
 <template>
@@ -409,7 +425,7 @@
 		</div>
 
 		<div class="flex h-full flex-[0.25] flex-col items-center justify-items-center gap-2 overflow-hidden px-1">
-			<UTabs :ui="tabUi" :items="items" class="w-full">
+			<UTabs v-model="selected" :ui="tabUi" :items="items">
 				<template #item="{ item }">
 					<UCard
 						:ui="{
@@ -423,19 +439,19 @@
 								<UButton
 									class="flex-1"
 									color="orange"
-									@click="toggleAllInCategory(item.key as keyof typeof selectOptions, true, SFResourceNodePurity.impure)"
+									@click="toggleAllInCategory(item.content as keyof typeof selectOptions, true, SFResourceNodePurity.impure)"
 									>Select all Impure</UButton
 								>
 								<UButton
 									class="flex-1"
 									color="yellow"
-									@click="toggleAllInCategory(item.key as keyof typeof selectOptions, true, SFResourceNodePurity.normal)"
+									@click="toggleAllInCategory(item.content as keyof typeof selectOptions, true, SFResourceNodePurity.normal)"
 									>Select all Normal</UButton
 								>
 								<UButton
 									class="flex-1"
 									color="green"
-									@click="toggleAllInCategory(item.key as keyof typeof selectOptions, true, SFResourceNodePurity.pure)"
+									@click="toggleAllInCategory(item.content as keyof typeof selectOptions, true, SFResourceNodePurity.pure)"
 									>Select all Pure</UButton
 								>
 							</div>
@@ -444,26 +460,26 @@
 								<UButton
 									class="flex-1"
 									color="red"
-									@click="toggleAllInCategory(item.key as keyof typeof selectOptions, false, SFResourceNodePurity.impure)"
+									@click="toggleAllInCategory(item.content as keyof typeof selectOptions, false, SFResourceNodePurity.impure)"
 									>Clear all Impure</UButton
 								>
 								<UButton
 									class="flex-1"
 									color="red"
-									@click="toggleAllInCategory(item.key as keyof typeof selectOptions, false, SFResourceNodePurity.normal)"
+									@click="toggleAllInCategory(item.content as keyof typeof selectOptions, false, SFResourceNodePurity.normal)"
 									>Clear all Normal</UButton
 								>
 								<UButton
 									class="flex-1"
 									color="red"
-									@click="toggleAllInCategory(item.key as keyof typeof selectOptions, false, SFResourceNodePurity.pure)"
+									@click="toggleAllInCategory(item.content as keyof typeof selectOptions, false, SFResourceNodePurity.pure)"
 									>Clear all Pure</UButton
 								>
 							</div>
 						</template>
 
 						<div class="relative overflow-auto p-2">
-							<template v-for="[k, resource] of Object.entries(selectOptions[item.key as keyof typeof selectOptions])" :key="k">
+							<template v-for="[k, resource] of Object.entries(selectOptions[item.content as keyof typeof selectOptions])" :key="k">
 								<div
 									v-if="resource.item"
 									class="relative flex h-fit w-full flex-col justify-items-center overflow-hidden rounded border bg-gray-100 p-1 dark:border-gray-950 dark:bg-gray-800">
@@ -502,11 +518,12 @@
 												color="orange"
 												:variant="IsPuritySelected(SFResourceNodePurity.impure, resource.purity) ? 'solid' : 'outline'"
 												@click="
-													selectOptions[item.key as keyof typeof selectOptions][k].purity[
+													selectOptions[item.content as keyof typeof selectOptions][k].purity[
 														SFResourceNodePurity.impure
 													].selected =
-														!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.impure]
-															.selected
+														!selectOptions[item.content as keyof typeof selectOptions][k].purity[
+															SFResourceNodePurity.impure
+														].selected
 												"
 												>Impure ({{ resource.purity[SFResourceNodePurity.impure].count }})</UButton
 											>
@@ -516,11 +533,12 @@
 												color="yellow"
 												:variant="IsPuritySelected(SFResourceNodePurity.normal, resource.purity) ? 'solid' : 'outline'"
 												@click="
-													selectOptions[item.key as keyof typeof selectOptions][k].purity[
+													selectOptions[item.content as keyof typeof selectOptions][k].purity[
 														SFResourceNodePurity.normal
 													].selected =
-														!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.normal]
-															.selected
+														!selectOptions[item.content as keyof typeof selectOptions][k].purity[
+															SFResourceNodePurity.normal
+														].selected
 												"
 												>Normal ({{ resource.purity[SFResourceNodePurity.normal].count }})</UButton
 											>
@@ -530,11 +548,12 @@
 												color="green"
 												:variant="IsPuritySelected(SFResourceNodePurity.pure, resource.purity) ? 'solid' : 'outline'"
 												@click="
-													selectOptions[item.key as keyof typeof selectOptions][k].purity[
+													selectOptions[item.content as keyof typeof selectOptions][k].purity[
 														SFResourceNodePurity.pure
 													].selected =
-														!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.pure]
-															.selected
+														!selectOptions[item.content as keyof typeof selectOptions][k].purity[
+															SFResourceNodePurity.pure
+														].selected
 												"
 												>Pure ({{ resource.purity[SFResourceNodePurity.pure].count }})</UButton
 											>
@@ -567,11 +586,12 @@
 												color="orange"
 												:variant="IsPuritySelected(SFResourceNodePurity.impure, resource.purity) ? 'solid' : 'outline'"
 												@click="
-													selectOptions[item.key as keyof typeof selectOptions][k].purity[
+													selectOptions[item.content as keyof typeof selectOptions][k].purity[
 														SFResourceNodePurity.impure
 													].selected =
-														!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.impure]
-															.selected
+														!selectOptions[item.content as keyof typeof selectOptions][k].purity[
+															SFResourceNodePurity.impure
+														].selected
 												"
 												>Impure ({{ resource.purity[SFResourceNodePurity.impure].count }})</UButton
 											>
@@ -581,11 +601,12 @@
 												color="yellow"
 												:variant="IsPuritySelected(SFResourceNodePurity.normal, resource.purity) ? 'solid' : 'outline'"
 												@click="
-													selectOptions[item.key as keyof typeof selectOptions][k].purity[
+													selectOptions[item.content as keyof typeof selectOptions][k].purity[
 														SFResourceNodePurity.normal
 													].selected =
-														!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.normal]
-															.selected
+														!selectOptions[item.content as keyof typeof selectOptions][k].purity[
+															SFResourceNodePurity.normal
+														].selected
 												"
 												>Normal ({{ resource.purity[SFResourceNodePurity.normal].count }})</UButton
 											>
@@ -595,11 +616,12 @@
 												color="green"
 												:variant="IsPuritySelected(SFResourceNodePurity.pure, resource.purity) ? 'solid' : 'outline'"
 												@click="
-													selectOptions[item.key as keyof typeof selectOptions][k].purity[
+													selectOptions[item.content as keyof typeof selectOptions][k].purity[
 														SFResourceNodePurity.pure
 													].selected =
-														!selectOptions[item.key as keyof typeof selectOptions][k].purity[SFResourceNodePurity.pure]
-															.selected
+														!selectOptions[item.content as keyof typeof selectOptions][k].purity[
+															SFResourceNodePurity.pure
+														].selected
 												"
 												>Pure ({{ resource.purity[SFResourceNodePurity.pure].count }})</UButton
 											>

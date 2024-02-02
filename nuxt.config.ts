@@ -3,13 +3,12 @@ import { env } from './env.mjs';
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	modules: [
+		'@nuxt/ui',
 		'@sidebase/nuxt-auth',
 		'@vueuse/nuxt',
 		'@pinia/nuxt',
 		'@pinia-plugin-persistedstate/nuxt',
 		'nuxt-typed-router',
-		'@nuxt/ui',
-		'nuxt-icon',
 		'nuxt3-leaflet',
 		'@nuxt/image'
 	],
@@ -21,7 +20,9 @@ export default defineNuxtConfig({
 		global: true
 	},
 	routeRules: {
-		'/map': { ssr: false }
+		'/map/**': { prerender: false, ssr: false },
+		'/map**': { prerender: false, ssr: false },
+		'/map': { prerender: false, ssr: false }
 	},
 	pinia: {
 		storesDirs: ['./stores/**']
