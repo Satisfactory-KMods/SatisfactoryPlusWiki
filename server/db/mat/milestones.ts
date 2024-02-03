@@ -74,6 +74,7 @@ const query = db
 		tier: pgAggMax(schematics.tier).as('tier'),
 		type: pgAggMax(schematics.type).as('type'),
 		category: pgAggMax(schematics.category).as('category'),
+		subCategory: pgAggMax(schematics.subCategory).as('subCategory'),
 		views: pgAggMax(wikiElement.views).as('views'),
 		handslots: pgCast(
 			sql`${pgCaseNumberNull(pgAggSum(subSchemas.handslots))} + ${pgCaseNumberNull(pgAggMax(schematics.handSlots))}`,
@@ -116,6 +117,7 @@ export const matMilestones = createAutomaticMaterilizedView(
 				tier: query.tier,
 				type: query.type,
 				category: query.category,
+				subCategory: query.subCategory,
 				views: query.views,
 				handslots: query.handslots,
 				inventorySlots: query.inventorySlots,
