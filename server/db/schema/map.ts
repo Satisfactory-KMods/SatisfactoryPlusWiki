@@ -1,9 +1,9 @@
 import { relations } from 'drizzle-orm';
-import { integer, json, numeric, text, uuid } from 'drizzle-orm/pg-core';
+import { integer, numeric, text, uuid } from 'drizzle-orm/pg-core';
 import type { SFNodeCoords, SFResourceNodeType } from '~/utils/satisfactoryExtractorTypes';
+import { safeJson } from '../../utils/db';
 import { items } from './items';
 import { dbSchema, resourceNodeType } from './schema';
-import { safeJson } from '../../utils/db';
 
 export const mapTable = dbSchema.table('map', {
 	id: uuid('id').defaultRandom().primaryKey(),

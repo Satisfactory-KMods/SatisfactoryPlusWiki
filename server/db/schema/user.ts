@@ -1,8 +1,8 @@
 import type { AdapterAccount } from '@auth/core/adapters';
 import { relations } from 'drizzle-orm';
-import { integer, primaryKey, text, timestamp } from 'drizzle-orm/pg-core';
-import { dbSchema } from './schema';
+import { integer, primaryKey, text } from 'drizzle-orm/pg-core';
 import { momentTimestamp } from '../../utils/db/table';
+import { dbSchema } from './schema';
 
 export const users = dbSchema.table('user', {
 	id: text('id').notNull().primaryKey(),
@@ -43,7 +43,7 @@ export const accounts = dbSchema.table(
 	},
 	(account) => {
 		return {
-			compoundKey: primaryKey({columns:[account.provider, account.providerAccountId]})
+			compoundKey: primaryKey({ columns: [account.provider, account.providerAccountId] })
 		};
 	}
 );
@@ -88,7 +88,7 @@ export const verificationTokens = dbSchema.table(
 	},
 	(vt) => {
 		return {
-			compoundKey: primaryKey({ columns: [vt.identifier, vt.token]})
+			compoundKey: primaryKey({ columns: [vt.identifier, vt.token] })
 		};
 	}
 );

@@ -1,13 +1,13 @@
 import { relations } from 'drizzle-orm';
-import { boolean, integer, json, numeric, text, uuid, varchar } from 'drizzle-orm/pg-core';
+import { boolean, integer, numeric, text, uuid, varchar } from 'drizzle-orm/pg-core';
 import type { SFDataItemType, SFDataType, SFDescType, SFItemForm } from '~/utils/satisfactoryExtractorTypes';
+import { safeJson } from '../../utils/db';
 import { cleaner } from './cleaners';
 import { mapTable } from './map';
 import { recipes } from './recipes';
 import { dataTypeEnum, dbSchema, descriptorType, itemFormEnum } from './schema';
 import { schematics } from './schematics';
 import { wikiElement } from './wiki';
-import { safeJson } from '../../utils/db';
 
 export const items = dbSchema.table('items', {
 	id: uuid('id').defaultRandom().primaryKey(),

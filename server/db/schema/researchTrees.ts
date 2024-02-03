@@ -1,8 +1,8 @@
 import { relations } from 'drizzle-orm';
-import { json, text, unique, uuid } from 'drizzle-orm/pg-core';
+import { text, unique, uuid } from 'drizzle-orm/pg-core';
 import type { NodeCoords, SFDataType, SFTreeUnlockElement } from '~/utils/satisfactoryExtractorTypes';
-import { dataTypeEnum, dbSchema } from './schema';
 import { safeJson } from '../../utils/db';
+import { dataTypeEnum, dbSchema } from './schema';
 import { schematics } from './schematics';
 import { wikiElement } from './wiki';
 
