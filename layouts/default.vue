@@ -8,7 +8,7 @@
 			<UContainer>
 				<div class="flex items-center gap-3 p-1">
 					<NuxtLink to="/" class="flex flex-1 items-center gap-2">
-						<NuxtImg src="/img/logo.webp" width="40" height="40" class="rounded" />
+						<NuxtImg src="/img/logo.webp" width="40" height="40" class="rounded" placeholder="/sf.png" />
 						<div class="flex flex-col">
 							<span class="font-bold">Satisfactory Plus</span>
 							<span class="text-xs text-gray-600 dark:text-gray-400">Wiki</span>

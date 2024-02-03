@@ -19,6 +19,7 @@
 		}"
 		class="flex w-full items-center gap-2 rounded border bg-gray-100 p-1 hover:bg-gray-200 dark:border-gray-950 dark:bg-gray-800 hover:dark:bg-gray-700">
 		<NuxtImg
+			placeholder="/sf.png"
 			:src="`/sf${data.image.split('.')[0]}.png`"
 			:alt="data.name"
 			width="50"

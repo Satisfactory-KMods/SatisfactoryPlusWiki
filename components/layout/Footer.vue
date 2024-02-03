@@ -6,8 +6,8 @@
 	<div class="border py-2 dark:border-gray-800">
 		<UContainer>
 			<div class="flex items-center gap-3 p-1">
-				<NuxtLink to="/" class="flex flex-1 items-center gap-2">
-					<NuxtImg src="/img/avatar.webp" width="40" height="40" class="rounded" />
+				<div class="flex flex-1 items-center gap-4">
+					<NuxtImg src="/img/avatar.webp" width="64" height="64" class="rounded" placeholder="/sf.png" />
 					<div class="flex flex-col">
 						<span class="font-bold">KMods</span>
 						<span class="text-xs text-gray-600 dark:text-gray-400"
@@ -15,16 +15,19 @@
 							Satisfactory. All trademarks and registered trademarks present in the image are proprietary to Coffee Stain Studios.</span
 						>
 					</div>
-				</NuxtLink>
+				</div>
 				<div class="flex-1">
 					<div class="flex justify-end gap-3">
-						<UButton icon="i-mdi-github" target="_blank" variant="ghost" to="/contact"> </UButton>
-						<UButton icon="i-mdi-patreon" target="_blank" variant="ghost"></UButton>
+						<UButton icon="i-mdi-github" target="_blank" variant="link" to="https://github.com/Satisfactory-KMods/SatisfactoryPlusWiki">
+						</UButton>
+						<UButton icon="i-mdi-patreon" target="_blank" variant="link" to="https://www.patreon.com/kmods"></UButton>
+						<UButton icon="i-mdi-discord" target="_blank" variant="link" to="https://discord.gg/7mePXyfsJd"></UButton>
+						<UButton icon="i-mdi-factory" target="_blank" variant="link" to="https://ficsit.app/user/9uvZtCA4cM6H4q"></UButton>
 						<UButton
 							icon="i-mdi-book"
 							target="_blank"
 							to="https://github.com/Satisfactory-KMods/SatisfactoryPlusWiki/releases"
-							variant="ghost">
+							variant="link">
 							{{ pkg.version }}
 						</UButton>
 					</div>
@@ -34,7 +37,7 @@
 			<div class="flex items-center gap-3 p-1">
 				<div class="flex-1">
 					<div class="flex justify-start gap-3">
-						<div class="text-sm">© 2023Oliver Kaufmann | KMods</div>
+						<div class="text-sm">© 2023 - Oliver Kaufmann | KMods</div>
 					</div>
 				</div>
 				<div class="flex-1">

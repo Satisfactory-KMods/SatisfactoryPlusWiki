@@ -23,7 +23,7 @@
 		{
 			label: 'Milestones',
 			icon: 'i-mdi-progress-upload',
-			to: '/milestones/tier-1',
+			to: '/milestones',
 			exact: false,
 			exactMatch: false
 		},

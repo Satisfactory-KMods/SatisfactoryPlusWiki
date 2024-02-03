@@ -571,6 +571,7 @@
 									<div class="flex flex-col gap-2">
 										<div class="flex gap-2">
 											<NuxtImg
+												placeholder="/sf.png"
 												:src="`/sf${resource.item.image.split('.')[0]}.png`"
 												:alt="resource.item.name"
 												width="50"
@@ -630,6 +631,7 @@
 									<div class="flex flex-col gap-2">
 										<div class="flex gap-2">
 											<NuxtImg
+												placeholder="/sf.png"
 												:src="`/map/${k}.png`"
 												:alt="k"
 												width="50"
