@@ -1,7 +1,9 @@
 <script lang="ts" setup>
 	import { SFResourceNodePurity, SFResourceNodeType } from '#imports';
 	import L, { CRS, LatLngBounds } from 'leaflet';
+	import cloneDeep from 'lodash/cloneDeep';
 	import type { ResourceMapData } from '~/server/api/resource-map/data.get';
+	import { log } from '~/utils/logger';
 	import type { SecondGeneric } from '~/utils/typeUtils';
 
 	definePageMeta({
@@ -117,6 +119,8 @@
 		return map.value?.leafletObject?.unproject([t, a], zoomRatio);
 	}
 
+	const route = useRoute();
+	const router = useRouter();
 	onMounted(() => {
 		const timer = setInterval(() => {
 			if (!map.value?.leafletObject) return;
@@ -125,6 +129,25 @@
 			clearInterval(timer);
 			updateSelections();
 		});
+	});
+
+	const selectedPurs = computed<[string, SFResourceNodePurity[], SFResourceNodeType][]>({
+		get() {
+			const { sel } = route.query ?? {};
+
+			if (sel) {
+				try {
+					return Array.from(JSON.parse(decodeURIComponent(String(sel))));
+				} catch (e) {
+					log('error', e);
+				}
+			}
+
+			return [];
+		},
+		set(value) {
+			router.replace({ query: { ...route.query, sel: encodeURIComponent(JSON.stringify(value)) } });
+		}
 	});
 
 	function updateSelections() {
@@ -253,14 +276,9 @@
 		}
 	}
 
-	function IsPuritySelected(purity: SFResourceNodePurity, options: SelectOption['purity']) {
-		if (!options[purity]) return false;
-		return options[purity].selected && options[purity].count > 0;
-	}
-
-	function isRowSelected(row: SelectOption['purity']) {
-		return Object.values(row).some((v) => {
-			return v.selected && v.count > 0;
+	function IsPuritySelected(key: string, type: SFResourceNodeType, purity: SFResourceNodePurity) {
+		return selectedPurs.value.some(([k, p, t]) => {
+			return k === key && p.includes(purity) && type === t;
 		});
 	}
 
@@ -287,21 +305,6 @@
 				return SFResourceNodePurity.normal;
 		}
 	}
-
-	const showMarkers = computed<SelectOption['locations']>(() => {
-		if (!readyForMarkers.value) return [];
-		const arr: SelectOption['locations'] = [];
-		for (const r of Object.values(selectOptions)) {
-			for (const z of Object.values(r)) {
-				if (!isRowSelected(z.purity)) continue;
-				for (const location of z.locations) {
-					if (!IsPuritySelected(convertPurity(location.purity), z.purity)) continue;
-					arr.push(location);
-				}
-			}
-		}
-		return arr;
-	});
 
 	function keyToString(key: keyof typeof selectOptions) {
 		switch (key) {
@@ -332,11 +335,52 @@
 		}
 	];
 
-	function toggleAllInCategory(key: keyof typeof selectOptions, to: boolean, purity: SFResourceNodePurity) {
-		for (const k of Object.keys(selectOptions[key])) {
-			// @ts-ignore
-			selectOptions[key][k].purity[purity].selected = to;
+	const showMarkers = computed<SelectOption['locations']>(() => {
+		if (!readyForMarkers.value) return [];
+		const arr: SelectOption['locations'] = [];
+		for (const [key, r] of Object.entries(selectOptions)) {
+			for (const z of Object.values(r)) {
+				for (const location of z.locations) {
+					if (!IsPuritySelected(z.item?.path ?? 'lootChests', key as SFResourceNodeType, convertPurity(location.purity))) continue;
+					arr.push(location);
+				}
+			}
 		}
+		return arr;
+	});
+
+	function toggleAllInCategory(key: keyof typeof selectOptions, force: boolean, purity: SFResourceNodePurity) {
+		const copy = {
+			value: cloneDeep(selectedPurs.value)
+		};
+		for (const type of Object.keys(selectOptions[key])) {
+			const idx = copy.value.findIndex(([k, , t]) => {
+				return t === key && type === k;
+			});
+			const item = copy.value[idx];
+			if (item) {
+				if (item[1].includes(purity)) {
+					if (force && typeof force !== 'undefined') continue;
+					item[1] = item[1].filter((p) => {
+						return p !== purity;
+					});
+				} else {
+					if (!force && typeof force !== 'undefined') continue;
+					item[1].push(purity);
+				}
+
+				if (item[1].length === 0) {
+					copy.value = copy.value.filter(([k, , t]) => {
+						return !(t === key && type === k);
+					});
+				}
+			} else {
+				if (!force && typeof force !== 'undefined') continue;
+				copy.value = [...copy.value, [type, [purity], key as SFResourceNodeType]];
+			}
+		}
+
+		selectedPurs.value = copy.value;
 	}
 
 	function createMapMarkerIcon(
@@ -360,8 +404,6 @@
 		container: 'relative w-full h-full flex flex-col overflow-hidden p-1'
 	};
 
-	const route = useRoute();
-	const router = useRouter();
 	const selected = computed({
 		get() {
 			const index = items.findIndex((item) => {
@@ -374,14 +416,44 @@
 			return index;
 		},
 		set(value) {
-			// Hash is specified here to prevent the page from scrolling to the top
-			router.replace({ query: { tab: items[value].label } });
+			router.replace({ query: { ...route.query, tab: items[value].label } });
 		}
 	});
+
+	function selectResourceAndPurity(key: string = 'lootChests', type: SFResourceNodeType, purity: SFResourceNodePurity, force?: boolean) {
+		const idx = selectedPurs.value.findIndex(([k, , t]) => {
+			return k === key && type === t;
+		});
+		const item = cloneDeep(selectedPurs.value[idx]);
+		if (item) {
+			if (item[1].includes(purity)) {
+				if (force && typeof force !== 'undefined') return;
+				item[1] = item[1].filter((p) => {
+					return p !== purity;
+				});
+			} else {
+				if (!force && typeof force !== 'undefined') return;
+				item[1].push(purity);
+			}
+
+			if (item[1].length === 0) {
+				selectedPurs.value = selectedPurs.value.filter(([k, , t]) => {
+					return !(k === key && type === t);
+				});
+			} else {
+				const copy = cloneDeep(selectedPurs.value);
+				copy[idx] = item;
+				selectedPurs.value = copy;
+			}
+		} else {
+			if (!force && typeof force !== 'undefined') return;
+			selectedPurs.value = [...selectedPurs.value, [key, [purity], type]];
+		}
+	}
 </script>
 
 <template>
-	<div class="flex h-full gap-4 overflow-hidden">
+	<div class="flex h-full gap-1 overflow-hidden">
 		<div class="h-full w-full flex-[0.75]">
 			<ClientOnly>
 				<LMap
@@ -425,7 +497,7 @@
 		</div>
 
 		<div class="flex h-full flex-[0.25] flex-col items-center justify-items-center gap-2 overflow-hidden px-1">
-			<UTabs v-model="selected" :ui="tabUi" :items="items">
+			<UTabs v-model="selected" :ui="tabUi" :items="items" class="w-full">
 				<template #item="{ item }">
 					<UCard
 						:ui="{
@@ -516,46 +588,37 @@
 												v-if="!!resource.purity[SFResourceNodePurity.impure].count"
 												class="flex-1"
 												color="orange"
-												:variant="IsPuritySelected(SFResourceNodePurity.impure, resource.purity) ? 'solid' : 'outline'"
-												@click="
-													selectOptions[item.content as keyof typeof selectOptions][k].purity[
-														SFResourceNodePurity.impure
-													].selected =
-														!selectOptions[item.content as keyof typeof selectOptions][k].purity[
-															SFResourceNodePurity.impure
-														].selected
+												:variant="
+													IsPuritySelected(k, item.content as SFResourceNodeType, SFResourceNodePurity.impure)
+														? 'solid'
+														: 'outline'
 												"
-												>Impure ({{ resource.purity[SFResourceNodePurity.impure].count }})</UButton
+												@click="selectResourceAndPurity(k, item.content as SFResourceNodeType, SFResourceNodePurity.impure)">
+												Impure ({{ resource.purity[SFResourceNodePurity.impure].count }})</UButton
 											>
 											<UButton
 												v-if="!!resource.purity[SFResourceNodePurity.normal].count"
 												class="flex-1"
 												color="yellow"
-												:variant="IsPuritySelected(SFResourceNodePurity.normal, resource.purity) ? 'solid' : 'outline'"
-												@click="
-													selectOptions[item.content as keyof typeof selectOptions][k].purity[
-														SFResourceNodePurity.normal
-													].selected =
-														!selectOptions[item.content as keyof typeof selectOptions][k].purity[
-															SFResourceNodePurity.normal
-														].selected
+												:variant="
+													IsPuritySelected(k, item.content as SFResourceNodeType, SFResourceNodePurity.normal)
+														? 'solid'
+														: 'outline'
 												"
-												>Normal ({{ resource.purity[SFResourceNodePurity.normal].count }})</UButton
+												@click="selectResourceAndPurity(k, item.content as SFResourceNodeType, SFResourceNodePurity.normal)">
+												Normal ({{ resource.purity[SFResourceNodePurity.normal].count }})</UButton
 											>
 											<UButton
 												v-if="!!resource.purity[SFResourceNodePurity.pure].count"
 												class="flex-1"
 												color="green"
-												:variant="IsPuritySelected(SFResourceNodePurity.pure, resource.purity) ? 'solid' : 'outline'"
-												@click="
-													selectOptions[item.content as keyof typeof selectOptions][k].purity[
-														SFResourceNodePurity.pure
-													].selected =
-														!selectOptions[item.content as keyof typeof selectOptions][k].purity[
-															SFResourceNodePurity.pure
-														].selected
+												:variant="
+													IsPuritySelected(k, item.content as SFResourceNodeType, SFResourceNodePurity.pure)
+														? 'solid'
+														: 'outline'
 												"
-												>Pure ({{ resource.purity[SFResourceNodePurity.pure].count }})</UButton
+												@click="selectResourceAndPurity(k, item.content as SFResourceNodeType, SFResourceNodePurity.pure)">
+												Pure ({{ resource.purity[SFResourceNodePurity.pure].count }})</UButton
 											>
 										</div>
 									</div>
@@ -584,47 +647,38 @@
 												v-if="!!resource.purity[SFResourceNodePurity.impure].count"
 												class="flex-1"
 												color="orange"
-												:variant="IsPuritySelected(SFResourceNodePurity.impure, resource.purity) ? 'solid' : 'outline'"
-												@click="
-													selectOptions[item.content as keyof typeof selectOptions][k].purity[
-														SFResourceNodePurity.impure
-													].selected =
-														!selectOptions[item.content as keyof typeof selectOptions][k].purity[
-															SFResourceNodePurity.impure
-														].selected
+												:variant="
+													IsPuritySelected(k, item.content as SFResourceNodeType, SFResourceNodePurity.impure)
+														? 'solid'
+														: 'outline'
 												"
-												>Impure ({{ resource.purity[SFResourceNodePurity.impure].count }})</UButton
-											>
+												@click="selectResourceAndPurity(k, item.content as SFResourceNodeType, SFResourceNodePurity.impure)">
+												Impure ({{ resource.purity[SFResourceNodePurity.impure].count }})
+											</UButton>
 											<UButton
 												v-if="!!resource.purity[SFResourceNodePurity.normal].count"
 												class="flex-1"
 												color="yellow"
-												:variant="IsPuritySelected(SFResourceNodePurity.normal, resource.purity) ? 'solid' : 'outline'"
-												@click="
-													selectOptions[item.content as keyof typeof selectOptions][k].purity[
-														SFResourceNodePurity.normal
-													].selected =
-														!selectOptions[item.content as keyof typeof selectOptions][k].purity[
-															SFResourceNodePurity.normal
-														].selected
+												:variant="
+													IsPuritySelected(k, item.content as SFResourceNodeType, SFResourceNodePurity.normal)
+														? 'solid'
+														: 'outline'
 												"
-												>Normal ({{ resource.purity[SFResourceNodePurity.normal].count }})</UButton
-											>
+												@click="selectResourceAndPurity(k, item.content as SFResourceNodeType, SFResourceNodePurity.normal)">
+												Normal ({{ resource.purity[SFResourceNodePurity.normal].count }})
+											</UButton>
 											<UButton
 												v-if="!!resource.purity[SFResourceNodePurity.pure].count"
 												class="flex-1"
 												color="green"
-												:variant="IsPuritySelected(SFResourceNodePurity.pure, resource.purity) ? 'solid' : 'outline'"
-												@click="
-													selectOptions[item.content as keyof typeof selectOptions][k].purity[
-														SFResourceNodePurity.pure
-													].selected =
-														!selectOptions[item.content as keyof typeof selectOptions][k].purity[
-															SFResourceNodePurity.pure
-														].selected
+												:variant="
+													IsPuritySelected(k, item.content as SFResourceNodeType, SFResourceNodePurity.pure)
+														? 'solid'
+														: 'outline'
 												"
-												>Pure ({{ resource.purity[SFResourceNodePurity.pure].count }})</UButton
-											>
+												@click="selectResourceAndPurity(k, item.content as SFResourceNodeType, SFResourceNodePurity.pure)">
+												Pure ({{ resource.purity[SFResourceNodePurity.pure].count }})
+											</UButton>
 										</div>
 									</div>
 								</div>
