@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
 import { ViewBaseConfig, sql } from 'drizzle-orm';
 import { PgDialect, PgMaterializedView } from 'drizzle-orm/pg-core';
 import type { PostgresJsDatabase } from 'drizzle-orm/postgres-js/driver';
@@ -9,23 +8,16 @@ import { queryToFullSQLString } from './utils';
 export interface MaterializedMigration {
 	migrationDb: PostgresJsDatabase<any>;
 	service: string;
-	folder: string;
+	imports: any;
 	logQuerys?: boolean;
 }
 
 const matTable = sql.raw('"drizzle"."__materialized_migrations"');
 
-export async function migrateMaterialized({ migrationDb, service, folder, logQuerys = false }: MaterializedMigration) {
-	let builders: PgMaterializedView[];
-	try {
-		const migrations = require(folder);
-		builders = Object.values<PgMaterializedView>(migrations).filter((it) => {
-			return it instanceof PgMaterializedView;
-		});
-	} catch (e) {
-		log('error', e);
-		builders = [];
-	}
+export async function migrateMaterialized({ migrationDb, service, imports, logQuerys = false }: MaterializedMigration) {
+	const builders = Object.values<PgMaterializedView>(imports).filter((it) => {
+		return it instanceof PgMaterializedView;
+	});
 
 	log('drizzle', 'Creating materialized view schema and table if not exists');
 	await migrationDb.execute<any>(

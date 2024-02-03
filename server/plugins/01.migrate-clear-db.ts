@@ -15,6 +15,7 @@ import {
 	scannerUnlocks,
 	schematics,
 	schematicsCosts,
+	startMat,
 	startMigrate,
 	subSchematics
 } from '~/server/db';
@@ -50,4 +51,5 @@ export default defineNitroPlugin(async () => {
 		log('info', `Finished clearing database!`);
 		await startReadingData();
 	}
+	await startMat();
 });

@@ -34,4 +34,13 @@ export function startMigrate() {
 		});
 }
 
+export async function startMat() {
+	const imports = await import('./mat');
+	return migrateMaterialized({
+		imports,
+		service: 'wiki',
+		migrationDb: db
+	});
+}
+
 export * from './schema';
