@@ -2,12 +2,13 @@ import type { AdapterAccount } from '@auth/core/adapters';
 import { relations } from 'drizzle-orm';
 import { integer, primaryKey, text, timestamp } from 'drizzle-orm/pg-core';
 import { dbSchema } from './schema';
+import { momentTimestamp } from '../../utils/db/table';
 
 export const users = dbSchema.table('user', {
 	id: text('id').notNull().primaryKey(),
 	name: text('name'),
 	email: text('email').notNull(),
-	emailVerified: timestamp('emailVerified', { mode: 'date' }),
+	emailVerified: momentTimestamp('emailVerified'),
 	image: text('image')
 });
 
@@ -42,7 +43,7 @@ export const accounts = dbSchema.table(
 	},
 	(account) => {
 		return {
-			compoundKey: primaryKey(account.provider, account.providerAccountId)
+			compoundKey: primaryKey({columns:[account.provider, account.providerAccountId]})
 		};
 	}
 );
@@ -66,7 +67,7 @@ export const sessions = dbSchema.table('session', {
 			},
 			{ onDelete: 'cascade' }
 		),
-	expires: timestamp('expires', { mode: 'date' }).notNull()
+	expires: momentTimestamp('expires').notNull()
 });
 
 export const sessionsRelations = relations(sessions, ({ one }) => {
@@ -83,11 +84,11 @@ export const verificationTokens = dbSchema.table(
 	{
 		identifier: text('identifier').notNull(),
 		token: text('token').notNull(),
-		expires: timestamp('expires', { mode: 'date' }).notNull()
+		expires: momentTimestamp('expires').notNull()
 	},
 	(vt) => {
 		return {
-			compoundKey: primaryKey(vt.identifier, vt.token)
+			compoundKey: primaryKey({ columns: [vt.identifier, vt.token]})
 		};
 	}
 );

@@ -28,6 +28,7 @@ export enum LogLevel {
 	/**
 	 * Log level for debug
 	 */
+	DRIZZLE,
 	DEBUG,
 	/**
 	 * Log level for warnings
@@ -99,6 +100,7 @@ export const defaultLogLevel = {
 	debug: LogLevel.DEBUG,
 	warn: LogLevel.WARN,
 	error: LogLevel.ERROR,
+	drizzle: LogLevel.DRIZZLE,
 	fatal: LogLevel.FATAL
 };
 
@@ -169,6 +171,7 @@ export class Logger<T extends CustomLogs> {
 	private consoleFn(logLevel: LogLevel): (message?: any, ...optionalParams: any[]) => void {
 		switch (logLevel) {
 			case LogLevel.LOG:
+			case LogLevel.DRIZZLE:
 				return console.log;
 			case LogLevel.INFO:
 				return console.info;
@@ -201,6 +204,8 @@ export class Logger<T extends CustomLogs> {
 				return 'FATAL';
 			case LogLevel.SILENT:
 				return 'SILENT';
+			case LogLevel.DRIZZLE:
+				return 'DRIZZLE';
 			default:
 				return 'log';
 		}
@@ -227,6 +232,7 @@ export class Logger<T extends CustomLogs> {
 			case LogLevel.INFO:
 				return LogColor.green;
 			case LogLevel.DEBUG:
+			case LogLevel.DRIZZLE:
 				return LogColor.blue;
 			case LogLevel.WARN:
 				return LogColor.yellow;

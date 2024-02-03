@@ -7,6 +7,7 @@ import { recipes } from './recipes';
 import { dataTypeEnum, dbSchema, descriptorType, itemFormEnum } from './schema';
 import { schematics } from './schematics';
 import { wikiElement } from './wiki';
+import { safeJson } from '../../utils/db';
 
 export const items = dbSchema.table('items', {
 	id: uuid('id').defaultRandom().primaryKey(),
@@ -24,7 +25,7 @@ export const items = dbSchema.table('items', {
 	energyValue: numeric('energy_value').notNull(),
 	form: itemFormEnum('form').$type<SFItemForm>().notNull(),
 	stackSize: integer('stack_size').notNull(),
-	itemTypeInformation: json('item_type_information').$type<SFDataItemType>().notNull(),
+	itemTypeInformation: safeJson<SFDataItemType>()('item_type_information').notNull(),
 	image: text('image').notNull(),
 	category: text('category').notNull(),
 	subCategory: text('subCategory').notNull(),
