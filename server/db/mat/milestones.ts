@@ -8,6 +8,7 @@ const subCosts = db.$with('subCosts').as(
 		.select({
 			schematic_path: schematicsCosts.schematicPath,
 			item_path: schematicsCosts.itemPath,
+			form: items.form,
 			amount: schematicsCosts.amount,
 			image: items.image,
 			name: items.name
@@ -134,7 +135,7 @@ export const matMilestones = createAutomaticMaterilizedView(
 			.orderBy(query.name);
 	}),
 	{
-		cron: '* */1 * * *',
+		cron: '* * */1 * *',
 		db,
 		concurrently: false
 	}

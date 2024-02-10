@@ -1,0 +1,74 @@
+<script lang="ts" setup>
+	const slots = useSlots();
+	const props = defineProps({
+		item: {
+			type: Object as PropType<ItemDisplay>,
+			required: true
+		},
+		amount: {
+			type: Number,
+			default: () => {
+				return undefined;
+			},
+			required: false
+		},
+		perMinute: {
+			type: Number,
+			default: () => {
+				return undefined;
+			},
+			required: false
+		}
+	});
+
+	const showItemsPerMinute = computed(() => {
+		return (!!props.perMinute && props.perMinute > 0) || !!slots['per-minute'];
+	});
+
+	const showAmount = computed(() => {
+		return (!!props.amount && props.amount > 0) || !!slots.amount;
+	});
+
+	const isSolid = computed(() => {
+		return props.item.form === SFItemForm.SOLID;
+	});
+</script>
+
+<template>
+	<NuxtLink
+		:to="{
+			name: 'show-id',
+			params: {
+				id: String(blueprintPathToShort($props.item.path))
+			}
+		}"
+		class="flex min-w-[100px] max-w-[100px] flex-col items-center rounded border bg-gray-100 hover:bg-gray-200 dark:border-gray-700 dark:bg-gray-900 hover:dark:bg-gray-950"
+		@click.stop>
+		<div class="w-full truncate border-b bg-slate-200 bg-opacity-50 px-2 py-1 text-center dark:border-gray-700 dark:bg-slate-900">
+			{{ $props.item.name }}
+		</div>
+		<div class="relative">
+			<div v-if="showAmount" class="absolute right-1 top-1 rounded-full bg-orange-500 px-1 text-xs font-semibold text-white dark:bg-orange-700">
+				<slot name="amount">
+					{{ $props.amount }}
+				</slot>
+			</div>
+			<NuxtImg
+				placeholder="/sf.png"
+				:src="`/sf${$props.item.image.split('.')[0]}.png`"
+				:alt="$props.item.name"
+				width="64"
+				height="64"
+				class="m-2"
+				:class="{
+					'rounded': isSolid,
+					'rounded-full': !isSolid
+				}" />
+		</div>
+		<div
+			v-if="showItemsPerMinute"
+			class="w-full truncate border-t bg-slate-200 bg-opacity-50 px-2 py-1 text-center dark:border-gray-700 dark:bg-slate-900">
+			<slot name="per-minute"> {{ $props.perMinute }}{{ !isSolid ? 'm³' : '' }} / min </slot>
+		</div>
+	</NuxtLink>
+</template>
