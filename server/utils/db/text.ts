@@ -1,32 +1,32 @@
-import type { SQL } from 'drizzle-orm';
+import type { SQL, SQLWrapper } from 'drizzle-orm';
 import { sql } from 'drizzle-orm';
-import type { InferDynamic, InferExtendsTypes } from './types';
+import type { SelectResultField } from 'drizzle-orm/query-builders/select.types';
 import { pgCast } from './utils';
 
-export function pgTextLength(column: InferExtendsTypes) {
+export function pgTextLength(column: SQLWrapper) {
 	return pgCast(sql`LENGTH(${column})`, 'integer');
 }
 
-export function pgUpper(column: InferExtendsTypes) {
+export function pgUpper(column: SQLWrapper) {
 	return sql<string>`UPPER(${column})`;
 }
 
-export function pgLower(column: InferExtendsTypes) {
+export function pgLower(column: SQLWrapper) {
 	return sql<string>`LOWER(${column})`;
 }
 
-export function pgInitcap<T extends InferExtendsTypes>(column: T): SQL<InferDynamic<T>> {
+export function pgInitcap<T extends SQLWrapper>(column: T): SQL<SelectResultField<T>> {
 	return sql<any>`INITCAP(${column})`;
 }
 
-export function pgStrLen<T extends InferExtendsTypes>(column: T) {
-	return sql<string>`OCTET_LENGTH(${column})`;
+export function pgStrLen<T extends SQLWrapper>(column: T) {
+	return pgCast(sql`OCTET_LENGTH(${column})`, 'integer');
 }
 
-export function pgTrim<T extends InferExtendsTypes>(column: T): SQL<InferDynamic<T>> {
-	return sql<any>`TRIM(${column})`;
+export function pgTrim<T extends SQLWrapper>(column: T) {
+	return sql<string>`TRIM(${column})`;
 }
 
-export function pgReverse<T extends InferExtendsTypes>(column: T): SQL<InferDynamic<T>> {
+export function pgReverse<T extends SQLWrapper>(column: T): SQL<SelectResultField<T>> {
 	return sql<any>`reverse(${column})`;
 }

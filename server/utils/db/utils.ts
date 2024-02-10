@@ -1,22 +1,26 @@
-import type { Query, SQL } from 'drizzle-orm';
+import type { Query, SQL, SQLWrapper } from 'drizzle-orm';
 import { sql } from 'drizzle-orm';
-import type moment from 'moment-timezone';
-import { log } from '../../../utils/logger';
+import type { SelectResultField } from 'drizzle-orm/query-builders/select.types';
+import { log } from './../../../utils/logger/index';
+import type { InferDynamic } from './types';
 
-export function now() {
+export function now(): SQL<moment.MomentInput> {
 	return sql`now()`;
 }
 
-export function pgCaseNumberNull<T>(condition: SQL<T>, then: number = 0): SQL<T> {
-	return sql<T>`case when ${condition} is null then ${sql.raw(String(then))} else ${condition} end`;
+export function pgCaseNumberNull(condition: SQLWrapper, then: number = 0) {
+	return sql<number>`case when ${condition} is null then ${sql.raw(String(then))} else ${condition} end`;
 }
 
-export function pgCaseNull<T>(condition: SQL<T>, then: string = '0'): SQL<T> {
-	return sql<T>`case when ${condition} is null then ${sql.raw(then)} else ${condition} end`;
+export function pgCaseNull<T extends SQLWrapper, D extends SQLWrapper = SQL<number>>(
+	condition: T,
+	then?: D
+): SQL<SelectResultField<T> | SelectResultField<D>> {
+	return sql<any>`case when ${condition} is null then ${then ?? sql.raw('0')} else ${condition} end`;
 }
 
-export function pgCase<T>(condition: SQL, then: SQL, otherwise: SQL): SQL<T> {
-	return sql<T>`case when ${condition} then ${then} else ${otherwise} end`;
+export function pgCase<T extends SQL, D extends SQL>(condition: SQL, then: T, otherwise: D): SQL<InferDynamic<T> | InferDynamic<D>> {
+	return sql<any>`case when ${condition} then ${then} else ${otherwise} end`;
 }
 
 export type PgCastTypes<T> = {
@@ -36,7 +40,7 @@ export type PgCastTypes<T> = {
 	'jsonb': T;
 };
 
-export function pgCast<T, Key extends keyof PgCastTypes<T>>(statement: SQL<T>, type: Key): SQL<PgCastTypes<T>[Key]> {
+export function pgCast<T extends SQLWrapper, Key extends keyof PgCastTypes<T>>(statement: T, type: Key): SQL<PgCastTypes<SelectResultField<T>>[Key]> {
 	return sql<any>`cast(${statement} as ${sql.raw(String(type))})`;
 }
 

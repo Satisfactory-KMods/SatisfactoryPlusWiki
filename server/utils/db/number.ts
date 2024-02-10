@@ -1,27 +1,27 @@
-import type { SQL } from 'drizzle-orm';
+import type { SQLWrapper } from 'drizzle-orm';
 import { sql } from 'drizzle-orm';
-import type { InferDynamic, InferExtendsTypes } from './types';
+import { pgCast } from './utils';
 
-export function pgTrunc<T extends InferExtendsTypes>(column: T): SQL<string> {
-	return sql<any>`trunc(${column})`;
+export function pgTrunc<T extends SQLWrapper>(column: T) {
+	return pgCast(sql`trunc(${column})`, 'integer');
 }
 
-export function pgMd5<T extends InferExtendsTypes>(column: T): SQL<string> {
-	return sql<any>`md5(${column})`;
+export function pgMd5<T extends SQLWrapper>(column: T) {
+	return sql<string>`md5(${column})`;
 }
 
-export function pgSqrl<T extends InferExtendsTypes>(column: T): SQL<InferDynamic<T>> {
-	return sql<any>`sqrt(${column})`;
+export function pgSqrl<T extends SQLWrapper>(column: T) {
+	return pgCast(sql<any>`sqrt(${column})`, 'float');
 }
 
-export function pgFloor<T extends InferExtendsTypes>(column: T): SQL<InferDynamic<T>> {
-	return sql<any>`floor(${column})`;
+export function pgFloor<T extends SQLWrapper>(column: T) {
+	return pgCast(sql<any>`floor(${column})`, 'float');
 }
 
-export function pgCeil<T extends InferExtendsTypes>(column: T): SQL<InferDynamic<T>> {
-	return sql<any>`ceil(${column})`;
+export function pgCeil<T extends SQLWrapper>(column: T) {
+	return pgCast(sql<any>`ceil(${column})`, 'integer');
 }
 
-export function pgAbs<T extends InferExtendsTypes>(column: T): SQL<InferDynamic<T>> {
-	return sql<any>`abs(${column})`;
+export function pgAbs<T extends SQLWrapper>(column: T) {
+	return pgCast(sql<any>`abs(${column})`, 'float');
 }

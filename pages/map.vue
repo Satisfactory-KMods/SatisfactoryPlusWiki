@@ -10,7 +10,7 @@
 		layout: 'expanded'
 	});
 
-	const { data: asyncData } = useFetch('/api/resource-map/data');
+	const { data: asyncData } = await useFetch('/api/resource-map/data');
 
 	watch(
 		() => {

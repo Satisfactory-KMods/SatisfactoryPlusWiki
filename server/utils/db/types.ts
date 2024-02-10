@@ -1,15 +1,23 @@
 /* eslint-disable no-use-before-define */
-import type { SQL, WithSubquery } from 'drizzle-orm';
+import type { SQL, Subquery, WithSubquery } from 'drizzle-orm';
 import type { PgColumn, PgCustomColumn, PgTable, SubqueryWithSelection, WithSubqueryWithSelection } from 'drizzle-orm/pg-core';
 
-export type InferAliasSubquery<T> =
-	T extends WithSubquery<infer _TAlias, infer TSelection>
+export type InferSubquery<T extends WithSubquery | Subquery> =
+	T extends WithSubquery<infer _Z, infer TSelection>
 		? {
 				[K in keyof TSelection as TSelection[K] extends InferExtendsTypes
 					? InferFieldName<TSelection[K], K>
 					: K]: TSelection[K] extends InferExtendsTypes ? InferDynamic<TSelection[K]> : TSelection[K];
 			}
-		: never;
+		: T extends Subquery<infer _Z, infer TSelection>
+			? {
+					[K in keyof TSelection as TSelection[K] extends InferExtendsTypes
+						? InferFieldName<TSelection[K], K>
+						: K]: TSelection[K] extends InferExtendsTypes ? InferDynamic<TSelection[K]> : TSelection[K];
+				}
+			: never;
+
+export type InferExtendsTypesNoTable = PgColumn | PgCustomColumn<any> | SQL | SQL.Aliased;
 
 export type InferExtendsTypes =
 	| PgColumn
@@ -19,7 +27,8 @@ export type InferExtendsTypes =
 	| SQL.Aliased
 	| WithSubqueryWithSelection<any, any>
 	| SubqueryWithSelection<any, any>
-	| WithSubquery;
+	| WithSubquery
+	| Subquery;
 
 export type InferFieldName<T extends InferExtendsTypes, Fallback> =
 	T extends PgCustomColumn<infer D>
@@ -33,21 +42,23 @@ export type InferFieldName<T extends InferExtendsTypes, Fallback> =
 					: Fallback;
 
 export type InferDynamic<TDataType extends InferExtendsTypes> = TDataType extends WithSubquery
-	? InferAliasSubquery<TDataType>
-	: TDataType extends PgTable<infer D>
-		? {
-				[K in keyof D['columns'] as D['columns'][K] extends InferExtendsTypes
-					? InferFieldName<D['columns'][K], K>
-					: K]: D['columns'][K] extends InferExtendsTypes ? InferDynamic<D['columns'][K]> : D['columns'][K];
-			}
-		: TDataType extends PgColumn
-			? TDataType['_']['notNull'] extends true
-				? TDataType['_']['data']
-				: TDataType['_']['hasDefault'] extends true
+	? InferSubquery<TDataType>
+	: TDataType extends WithSubquery
+		? InferSubquery<TDataType>
+		: TDataType extends PgTable<infer D>
+			? {
+					[K in keyof D['columns'] as D['columns'][K] extends InferExtendsTypes
+						? InferFieldName<D['columns'][K], K>
+						: K]: D['columns'][K] extends InferExtendsTypes ? InferDynamic<D['columns'][K]> : D['columns'][K];
+				}
+			: TDataType extends PgColumn
+				? TDataType['_']['notNull'] extends true
 					? TDataType['_']['data']
-					: TDataType['_']['data'] | null
-			: TDataType extends SQL.Aliased<infer TData>
-				? TData
-				: TDataType extends SQL<infer TData>
+					: TDataType['_']['hasDefault'] extends true
+						? TDataType['_']['data']
+						: TDataType['_']['data'] | null
+				: TDataType extends SQL.Aliased<infer TData>
 					? TData
-					: never;
+					: TDataType extends SQL<infer TData>
+						? TData
+						: never;

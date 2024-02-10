@@ -4,7 +4,7 @@ import type { PostgresJsDatabase } from 'drizzle-orm/postgres-js/driver';
 import { migrate } from 'drizzle-orm/postgres-js/migrator';
 import fs from 'fs';
 import type postgres from 'postgres';
-import { log } from './../../../utils/logger/index';
+import { log } from '~/utils/logger';
 
 export async function safeMigrate(migrationDb: PostgresJsDatabase<any>, migrationConnection: postgres.Sql<any>, migrationFolderTo: string) {
 	await migrate(migrationDb, {

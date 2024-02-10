@@ -57,11 +57,17 @@
 		return 1;
 	});
 
-	onMounted(() => {
+	function checkRoute() {
 		if (!((route.params as { tier: string }) ?? {}).tier) {
 			router.replace('/milestones/tier-1');
 		}
-	});
+	}
+
+	onMounted(checkRoute);
+
+	watch(() => {
+		return route.params;
+	}, checkRoute);
 </script>
 
 <template>

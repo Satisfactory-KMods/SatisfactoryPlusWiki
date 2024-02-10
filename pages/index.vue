@@ -32,7 +32,7 @@
 		status,
 		error,
 		refresh
-	} = useFetch('/api/most-visit', {
+	} = await useFetch('/api/most-visit', {
 		query: {
 			limit: 10
 		}

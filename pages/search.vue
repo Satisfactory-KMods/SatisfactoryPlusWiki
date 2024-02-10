@@ -12,7 +12,7 @@
 		status,
 		error,
 		refresh
-	} = useFetch('/api/search', {
+	} = await useFetch('/api/search', {
 		query: {
 			search: reffer.search,
 			limit: 20
