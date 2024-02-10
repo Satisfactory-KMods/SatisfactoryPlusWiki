@@ -125,7 +125,9 @@ export async function bindCleaner(data: any) {
 			.values({
 				dataId: result.id,
 				shortPath: blueprintPathToShort(result.path),
-				type: SFDataType.cleaner
+				type: SFDataType.cleaner,
+				elPath: data.path,
+				displayName: data.name ?? SFDataType.cleaner
 			})
 			.catch(() => {});
 

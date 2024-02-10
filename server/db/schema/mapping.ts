@@ -4,9 +4,9 @@ import { dbSchema } from './schema';
 
 export const mapping = dbSchema.table('mapping', {
 	id: uuid('id').defaultRandom().primaryKey(),
-	dataId: text('data_id').unique(),
-	shortPath: text('short_path').unique(),
-	displayName: text('display_name'),
-	elPath: text('el_path'),
+	dataId: text('data_id').unique().notNull(),
+	shortPath: text('short_path').unique().notNull(),
+	displayName: text('display_name').notNull(),
+	elPath: text('el_path').notNull(),
 	type: text('type').$type<SFDataType>().notNull()
 });

@@ -1,17 +1,19 @@
 import { count, eq, isNull, notInArray, sql } from 'drizzle-orm';
+import type { SFItemForm } from '~/utils/satisfactoryExtractorTypes';
 import { SFSchematicType } from '~/utils/satisfactoryExtractorTypes';
 import { db, dbSchema, items, mapping, recipeUnlocks, scannerUnlocks, schematics, schematicsCosts, subSchematics } from '..';
 import { wikiElement } from '../schema/wiki';
 
 const subCosts = db.$with('subCosts').as(
+	// we use sql for items to remove nulls
 	db
 		.select({
 			schematic_path: schematicsCosts.schematicPath,
 			item_path: schematicsCosts.itemPath,
-			form: items.form,
+			form: sql<SFItemForm>`${items.form}`.as('form'),
 			amount: schematicsCosts.amount,
-			image: items.image,
-			name: items.name
+			image: sql<string>`${items.image}`.as('image'),
+			name: sql<string>`${items.name}`.as('name')
 		})
 		.from(schematicsCosts)
 		.leftJoin(items, eq(schematicsCosts.itemPath, items.path))
