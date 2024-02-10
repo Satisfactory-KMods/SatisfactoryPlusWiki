@@ -94,7 +94,7 @@ const query = db
 			'integer'
 		).as('scannerUnlockCount'),
 		short: pgAggMax(mapping.shortPath).as('short'),
-		costs: pgCase<typeof cost>(isNull(cost), sql`'[]'::json`, cost).as('costs')
+		costs: pgCase<typeof cost, typeof cost>(isNull(cost), sql`'[]'::json`, cost).as('costs')
 	})
 	.from(schematics)
 	.leftJoin(subSchematics, eq(schematics.path, subSchematics.schematicPath))
@@ -125,7 +125,9 @@ export const matMilestones = createAutomaticMaterilizedView(
 				recipeCount: query.recipeCount,
 				scannerUnlockCount: query.scannerUnlockCount,
 				short: query.short,
-				costs: pgCase<typeof query.costs>(eq(pgCast(sql`${query.costs}`, 'text'), 'null'), sql`'[]'::json`, sql`${query.costs}`).as('costs')
+				costs: pgCase<typeof cost, typeof cost>(eq(pgCast(sql`${query.costs}`, 'text'), 'null'), sql`'[]'::json`, sql`${query.costs}`).as(
+					'costs'
+				)
 			})
 			.from(query)
 			.where(notInArray(query.type, [SFSchematicType.Cheat, SFSchematicType.Custom]))
@@ -133,6 +135,7 @@ export const matMilestones = createAutomaticMaterilizedView(
 	}),
 	{
 		cron: '* */1 * * *',
-		db
+		db,
+		concurrently: false
 	}
 );
