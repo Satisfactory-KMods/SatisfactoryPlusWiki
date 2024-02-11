@@ -63,7 +63,7 @@
 		}
 	}
 
-	onMounted(checkRoute);
+	checkRoute();
 
 	watch(() => {
 		return route.params;

@@ -18,6 +18,11 @@
 				return undefined;
 			},
 			required: false
+		},
+		imageSize: {
+			type: [Number, String],
+			default: 64,
+			required: false
 		}
 	});
 
@@ -57,8 +62,8 @@
 				placeholder="/sf.png"
 				:src="`/sf${$props.item.image.split('.')[0]}.png`"
 				:alt="$props.item.name"
-				width="64"
-				height="64"
+				:width="$props.imageSize"
+				:height="$props.imageSize"
 				class="m-2"
 				:class="{
 					'rounded': isSolid,
