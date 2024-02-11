@@ -1,7 +1,17 @@
 import { count, eq, isNull, notInArray, sql } from 'drizzle-orm';
 import type { SFItemForm } from '~/utils/satisfactoryExtractorTypes';
 import { SFSchematicType } from '~/utils/satisfactoryExtractorTypes';
-import { db, dbSchema, items, mapping, recipeUnlocks, scannerUnlocks, schematics, schematicsCosts, subSchematics } from '..';
+import {
+	db,
+	dbSchema,
+	items,
+	mapping,
+	recipeUnlocks,
+	scannerUnlocks,
+	schematics,
+	schematicsCosts,
+	subSchematics
+} from '..';
 import { wikiElement } from '../schema/wiki';
 
 const subCosts = db.$with('subCosts').as(
@@ -57,8 +67,14 @@ const subSchemas = db.$with('subschematics').as(
 			path: schematics.path,
 			handslots: pgAggMax(schematics.handSlots).as('handslots'),
 			inventorySlots: pgAggMax(schematics.inventorySlots).as('inventorySlots'),
-			recipeCount: pgCast(pgCaseNumberNull(pgAggMax(subqueryRecipes.recipe_count)), 'integer').as('recipeCount'),
-			scannerUnlockCount: pgCast(pgCaseNumberNull(pgAggMax(subqueryScanner.scanner_count)), 'integer').as('scannerUnlockCount')
+			recipeCount: pgCast(
+				pgCaseNumberNull(pgAggMax(subqueryRecipes.recipe_count)),
+				'integer'
+			).as('recipeCount'),
+			scannerUnlockCount: pgCast(
+				pgCaseNumberNull(pgAggMax(subqueryScanner.scanner_count)),
+				'integer'
+			).as('scannerUnlockCount')
 		})
 		.from(schematics)
 		.leftJoin(subqueryRecipes, eq(schematics.path, subqueryRecipes.schematic_path))
@@ -128,16 +144,18 @@ export const matMilestones = createAutomaticMaterilizedView(
 				recipeCount: query.recipeCount,
 				scannerUnlockCount: query.scannerUnlockCount,
 				short: query.short,
-				costs: pgCase<typeof cost, typeof cost>(eq(pgCast(sql`${query.costs}`, 'text'), 'null'), sql`'[]'::json`, sql`${query.costs}`).as(
-					'costs'
-				)
+				costs: pgCase<typeof cost, typeof cost>(
+					eq(pgCast(sql`${query.costs}`, 'text'), 'null'),
+					sql`'[]'::json`,
+					sql`${query.costs}`
+				).as('costs')
 			})
 			.from(query)
 			.where(notInArray(query.type, [SFSchematicType.Cheat, SFSchematicType.Custom]))
 			.orderBy(query.name);
 	}),
 	{
-		cron: '* * */1 * *',
+		cron: '* */5 * * *',
 		db,
 		concurrently: false
 	}
