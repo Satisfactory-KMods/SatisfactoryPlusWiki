@@ -49,11 +49,15 @@
 		}"
 		class="flex min-w-[100px] max-w-[100px] flex-col items-center rounded border bg-gray-100 hover:bg-gray-200 dark:border-gray-700 dark:bg-gray-900 hover:dark:bg-gray-950"
 		@click.stop>
-		<div class="w-full truncate border-b bg-slate-200 bg-opacity-50 px-2 py-1 text-center dark:border-gray-700 dark:bg-slate-900">
-			{{ $props.item.name }}
-		</div>
+		<UTooltip
+			:text="$props.item.name"
+			class="w-full border-b bg-slate-200 bg-opacity-50 px-2 py-1 text-center dark:border-gray-700 dark:bg-slate-900">
+			<div class="flex-1 truncate">{{ $props.item.name }}</div>
+		</UTooltip>
 		<div class="relative">
-			<div v-if="showAmount" class="absolute right-1 top-1 rounded-full bg-orange-500 px-1 text-xs font-semibold text-white dark:bg-orange-700">
+			<div
+				v-if="showAmount"
+				class="absolute right-1 top-1 rounded-full bg-orange-500 px-1 text-xs font-semibold text-white dark:bg-orange-700">
 				<slot name="amount">
 					{{ $props.amount }}
 				</slot>
