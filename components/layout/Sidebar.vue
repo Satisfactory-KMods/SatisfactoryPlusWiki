@@ -47,7 +47,7 @@
 			to: '/map',
 			exact: false,
 			exactMatch: false
-		},
+		} /*,
 		{
 			label: 'Items',
 			icon: 'i-heroicons-archive-box',
@@ -75,7 +75,7 @@
 			to: '/buildings',
 			exact: false,
 			exactMatch: false
-		}
+		}*/
 	];
 
 	const about = [
@@ -171,16 +171,29 @@
 <template>
 	<div class="flex flex-col gap-2">
 		<div class="flex items-center gap-3 p-3">
-			<UAvatar :alt="String(session?.user)" :src="session?.user?.image ?? undefined" size="sm" />
+			<UAvatar
+				:alt="String(session?.user)"
+				:src="session?.user?.image ?? undefined"
+				size="sm" />
 
 			<template v-if="session?.user?.name">
-				<span div class="block flex-1 px-2 font-semibold">{{ capitalizeFirstLetter(session.user.name) }}</span>
-				<UButton variant="ghost" size="sm" icon="i-heroicons-arrow-left-start-on-rectangle-20-solid" @click="signOut" />
+				<span div class="block flex-1 px-2 font-semibold">{{
+					capitalizeFirstLetter(session.user.name)
+				}}</span>
+				<UButton
+					variant="ghost"
+					size="sm"
+					icon="i-heroicons-arrow-left-start-on-rectangle-20-solid"
+					@click="signOut" />
 			</template>
 
 			<template v-else>
 				<span div class="block flex-1 px-2 font-semibold">Welcome Guest</span>
-				<UButton variant="ghost" size="sm" icon="i-heroicons-arrow-left-end-on-rectangle-20-solid" @click="signIn('discord')" />
+				<UButton
+					variant="ghost"
+					size="sm"
+					icon="i-heroicons-arrow-left-end-on-rectangle-20-solid"
+					@click="signIn('discord')" />
 			</template>
 		</div>
 

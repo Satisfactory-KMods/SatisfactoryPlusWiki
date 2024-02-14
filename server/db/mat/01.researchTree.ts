@@ -1,5 +1,5 @@
 import { eq, isNotNull, sql } from 'drizzle-orm';
-import { db, dbSchema, mapping, schematics } from '~/server/db/index';
+import { db, dbSchema, items, mapping, schematics } from '~/server/db/index';
 import { schematicItemCosts } from '../querys/items';
 import { researchTree, researchTreeNodes } from '../schema/researchTrees';
 import { wikiElement } from '../schema/wiki';
@@ -7,8 +7,8 @@ import { wikiElement } from '../schema/wiki';
 const treeItemUnlocksSubquery = db.$with('treeItemUnlocksSubquery').as(
 	db
 		.select({
-			path: sql<string>`json_array_elements(${researchTree.treeUnlocks}->0->'items')::text`.as(
-				'path'
+			ipath: sql`trim(both '"' from json_array_elements(${researchTree.treeUnlocks}->0->'items')::text)`.as(
+				'ipath'
 			),
 			needAll: sql<boolean>`${researchTree.treeUnlocks}->0->'needAll'`.as('needAll'),
 			tree: sql<string>`${researchTree.path}`.as('tree')
@@ -21,12 +21,18 @@ const treeItemUnlocksPrepare = db.$with('treeItemUnlocksPrepare').as(
 		.with(treeItemUnlocksSubquery)
 		.select({
 			tree: treeItemUnlocksSubquery.tree,
-			data: pgAggJsonBuildObject({
-				path: treeItemUnlocksSubquery.path,
-				needAll: treeItemUnlocksSubquery.needAll
-			}).as('data')
+			needAll: eq(pgCast(treeItemUnlocksSubquery.needAll, 'text'), 'true').as('needAll'),
+			items: pgAggJsonBuildObject({
+				name: items.name,
+				form: items.form,
+				image: items.image,
+				short: mapping.shortPath
+			}).as('items')
 		})
 		.from(treeItemUnlocksSubquery)
+		.leftJoin(items, eq(treeItemUnlocksSubquery.ipath, items.path))
+		.leftJoin(mapping, eq(treeItemUnlocksSubquery.ipath, mapping.elPath))
+		.where(isNotNull(items.path))
 );
 
 const treeItemUnlocks = db.$with('treeItemUnlocks').as(
@@ -34,8 +40,8 @@ const treeItemUnlocks = db.$with('treeItemUnlocks').as(
 		.with(treeItemUnlocksPrepare)
 		.select({
 			tree: treeItemUnlocksPrepare.tree,
-			data: pgAggJsonArray(treeItemUnlocksPrepare.data).as('data'),
-			needAll: pgAggBoolAnd(treeItemUnlocksPrepare.needAll).as('needAll')
+			needAll: pgAggBoolOr(treeItemUnlocksPrepare.needAll).as('needAll'),
+			data: pgAggJsonArray(treeItemUnlocksPrepare.items).as('data')
 		})
 		.from(treeItemUnlocksPrepare)
 		.groupBy(treeItemUnlocksPrepare.tree)
@@ -88,6 +94,7 @@ const trees = db.$with('trees').as(
 			name: researchTree.name,
 			description: researchTree.description,
 			image: researchTree.image,
+			needAll: treeItemUnlocks.needAll,
 			treeUnlocks: treeItemUnlocks.data,
 			nodes: treeNodes.nodes,
 			visits: wikiElement.views

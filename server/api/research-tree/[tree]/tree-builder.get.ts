@@ -1,6 +1,7 @@
+import { getResearchTreeData } from '~/server/utils/trees';
 import type { InferReturn } from '~/utils/typeUtils';
 
-export type TreeBuilderResponse = InferReturn<typeof getMappingData>;
+export type TreeBuilderResponse = InferReturn<typeof getResearchTreeData>;
 
 export default defineEventHandler(async (event) => {
 	const tree = getRouterParam(event, 'tree');
@@ -12,5 +13,5 @@ export default defineEventHandler(async (event) => {
 		});
 	}
 
-	return { todo: true };
+	return await getResearchTreeData(tree);
 });
