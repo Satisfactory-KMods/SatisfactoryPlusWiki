@@ -35,9 +35,17 @@ export function startMigrate() {
 }
 
 export async function startMat() {
-	const imports = await import('./mat');
-	return migrateMaterialized({
+	const imports = await import('./views');
+	await migrateMaterialized({
 		imports,
+		service: 'wiki',
+		migrationDb: db,
+		type: 'VIEW'
+	});
+
+	const mats = await import('./mat');
+	return migrateMaterialized({
+		imports: mats,
 		service: 'wiki',
 		migrationDb: db
 	});

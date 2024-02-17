@@ -108,7 +108,7 @@ const trees = db.$with('trees').as(
 );
 
 export const matResearchTree = createAutomaticMaterilizedView(
-	dbSchema.materializedView('research_trees').as(() => {
+	dbSchema.materializedView('mat_research_trees').as(() => {
 		return db.with(trees).select().from(trees);
 	}),
 	{

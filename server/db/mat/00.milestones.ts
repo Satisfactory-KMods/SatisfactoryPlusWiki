@@ -127,7 +127,7 @@ const query = db
 	.as('milestones');
 
 export const matMilestones = createAutomaticMaterilizedView(
-	dbSchema.materializedView('milestones').as(() => {
+	dbSchema.materializedView('mat_milestones').as(() => {
 		return db
 			.select({
 				path: query.path,
