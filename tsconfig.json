@@ -3,5 +3,8 @@
 	"extends": "./.nuxt/tsconfig.json",
 	"compilerOptions": {
 		"types": ["@nuxt/types", "@pinia/nuxt"]
+	},
+	"watchOptions": {
+		"watchFile": "fixedpollinginterval" // or "dynamicPriorityPolling"
 	}
 }

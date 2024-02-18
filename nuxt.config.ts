@@ -2,6 +2,7 @@ import { env } from './env.mjs';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+	typescript: {},
 	modules: [
 		'@nuxt/ui',
 		'@sidebase/nuxt-auth',
@@ -16,7 +17,21 @@ export default defineNuxtConfig({
 	css: ['leaflet/dist/leaflet.css', 'vue-final-modal/style.css'],
 	ui: {
 		icons: ['heroicons', 'mdi'],
-		safelistColors: ['sky', 'cool', 'warm', 'red', 'green', 'blue', 'purple', 'pink', 'yellow', 'orange', 'gray', 'white', 'black'],
+		safelistColors: [
+			'sky',
+			'cool',
+			'warm',
+			'red',
+			'green',
+			'blue',
+			'purple',
+			'pink',
+			'yellow',
+			'orange',
+			'gray',
+			'white',
+			'black'
+		],
 		global: true
 	},
 	routeRules: {

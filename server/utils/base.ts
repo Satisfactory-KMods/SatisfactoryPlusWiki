@@ -1,5 +1,6 @@
 import { and, asc, desc, eq, ilike, isNotNull, not, sql } from 'drizzle-orm';
 import { buildables, db, items, recipes, researchTree, schematics } from '~/server/db/index';
+import { log } from '~/utils/logger';
 import { wikiElement } from '../db/schema/wiki';
 import { hasReaded, setReaded } from '../plugins/02.schedules';
 
@@ -27,28 +28,45 @@ export async function getMappingData(id: string, user: string) {
 
 		await db
 			.update(wikiElement)
-			.set({ views: sql`${wikiElement.views} += 1` })
+			.set({ views: sql`${wikiElement.views} + 1` })
 			.where(eq(wikiElement.elPath, elPath))
 			.then(() => {
 				setReaded(elPath, user);
 			})
-			.catch(() => {});
+			.catch((e: any) => {
+				log('error', `Failed to update views for ${elPath}`, e.message);
+			});
 		return rest;
 	}
 	return result;
 }
 
-export async function getSearchResultForTable<T extends typeof recipes | typeof researchTree | typeof schematics | typeof buildables | typeof items>(
-	table: T,
-	searchString: string,
-	limit = 5
-) {
+export async function getSearchResultForTable<
+	T extends
+		| typeof recipes
+		| typeof researchTree
+		| typeof schematics
+		| typeof buildables
+		| typeof items
+>(table: T, searchString: string, limit = 5) {
 	const result = await db
-		.select({ name: table.name, id: table.id, image: table.image, path: table.path, views: wikiElement.views })
+		.select({
+			name: table.name,
+			id: table.id,
+			image: table.image,
+			path: table.path,
+			views: wikiElement.views
+		})
 		.from(table)
 		.leftJoin(wikiElement, eq(table.path, wikiElement.elPath))
 		.orderBy(asc(table.name), desc(table.id))
-		.where(and(isNotNull(wikiElement.views), not(eq(table.name, '')), ilike(table.name, `%${searchString}%`)))
+		.where(
+			and(
+				isNotNull(wikiElement.views),
+				not(eq(table.name, '')),
+				ilike(table.name, `%${searchString}%`)
+			)
+		)
 		.limit(limit);
 
 	return {
@@ -80,12 +98,22 @@ export type MostVisitResult = {
 	views: number;
 };
 
-export async function getMostVisitsFor<T extends typeof recipes | typeof researchTree | typeof schematics | typeof buildables | typeof items>(
-	table: T,
-	limit = 5
-) {
+export async function getMostVisitsFor<
+	T extends
+		| typeof recipes
+		| typeof researchTree
+		| typeof schematics
+		| typeof buildables
+		| typeof items
+>(table: T, limit = 5) {
 	const result = await db
-		.select({ name: table.name, id: table.id, image: table.image, path: table.path, views: wikiElement.views })
+		.select({
+			name: table.name,
+			id: table.id,
+			image: table.image,
+			path: table.path,
+			views: wikiElement.views
+		})
 		.from(table)
 		.leftJoin(wikiElement, eq(table.path, wikiElement.elPath))
 		.orderBy(desc(wikiElement.views), asc(table.name))
