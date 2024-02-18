@@ -1,13 +1,28 @@
 import { eq } from 'drizzle-orm';
-import type { Nullish } from '~/utils/logger/index';
+import {
+	buildables,
+	cleaner,
+	cleanerByPass,
+	db,
+	items,
+	mapping,
+	researchTree,
+	researchTreeNodes,
+	researchTreeSchematics
+} from '~/server/db/index';
 import { log } from '~/utils/logger/index';
-import { SFDataType } from '~/utils/satisfactoryExtractorTypes';
 import { blueprintPathToShort } from '~/utils/utils';
-import { cleaner, cleanerByPass, db, mapping, researchTree, researchTreeNodes, researchTreeSchematics } from '../..';
 import { producedIn, recipes, recipesInput, recipesOutput } from '../../schema/recipes';
-import { recipeUnlocks, scannerUnlocks, schematics, schematicsCosts, subSchematics } from '../../schema/schematics';
+import {
+	recipeUnlocks,
+	scannerUnlocks,
+	schematics,
+	schematicsCosts,
+	subSchematics
+} from '../../schema/schematics';
 import { wikiElement } from '../../schema/wiki';
-import { extraInformations, extraRecipe, extraRecipeInput, extraRecipeOutput, extraRecipeSchematics } from './../../schema/extraInformations';
+import { SFDataType, WikiInformationType } from './../../../../utils/satisfactoryExtractorTypes';
+import { extraInformations } from './../../schema/extraInformations';
 
 export async function bindItems(data: any) {
 	return await Promise.resolve(data);
@@ -63,7 +78,10 @@ export async function bindRecipe(data: any) {
 
 	if (result) {
 		if (data.producedIn.length === 0) {
-			await db.update(recipes).set({ isBuildableRecipe: true }).where(eq(recipes.path, data.path));
+			await db
+				.update(recipes)
+				.set({ isBuildableRecipe: true })
+				.where(eq(recipes.path, data.path));
 		} else {
 			for (const producedInEl of data.producedIn) {
 				await db
@@ -218,18 +236,106 @@ export async function bindSchematic(data: any) {
 	return await Promise.resolve(data);
 }
 
+export async function tryGetProdElementFromType(type: WikiInformationType) {
+	let buildablePath: string | null = null;
+	switch (type) {
+		case WikiInformationType.ExtractorConsumer:
+			buildablePath =
+				'/KLib/Assets/Buildings/ModularExtractor/Modules/Fluid/Build_Module_Fluid.Build_Module_Fluid_C';
+			break;
+		case WikiInformationType.AirCollector:
+			buildablePath =
+				'/KLib/Assets/Buildings/AirCollector/Build_AirCollector.Build_AirCollector_C';
+			break;
+		default:
+			break;
+	}
+	if (!buildablePath) return null;
+	return await db
+		.select()
+		.from(buildables)
+		.where(eq(buildables.buildingPath, buildablePath))
+		.then((r) => {
+			return r.at(0) ? { type: 'buildable', data: r.at(0) } : null;
+		});
+}
+
 export async function bindInformations(data: any) {
 	if (!data.produced.length && !data.consumed.length) return;
-	let buildablePath: Nullish<string> = null;
-	let itemPath: Nullish<string> = null;
+	let { buildingPath: buildablePath, path: itemPath } = data;
 
-	if (data.buildingPath.length > 0) {
-		buildablePath = data.buildingPath;
-	} else {
-		itemPath = data.path;
-	}
+	if (buildablePath) {
+		buildablePath = itemPath;
+		itemPath = null;
+	} else buildablePath = null;
 
-	const extraInfo = await db
+	const processConsumeProduce = async (data: any) => {
+		return {
+			...data,
+			item: await db
+				.select()
+				.from(items)
+				.where(eq(items.path, data.item))
+				.then((r) => {
+					return r.at(0) ?? {};
+				})
+		};
+	};
+
+	const processData = async (data: any) => {
+		if (data.wasteProducer) {
+			const result = await db
+				.select()
+				.from(recipes)
+				.where(eq(recipes.path, data.wasteProducer))
+				.then((r) => {
+					return r.at(0) ?? null;
+				});
+			if (result) data.wasteProducer = result;
+			else data.wasteProducer = null;
+		} else data.wasteProducer = null;
+
+		const result =
+			(await tryGetProdElementFromType(data.type)) ??
+			(await db
+				.select()
+				.from(recipes)
+				.where(eq(recipes.path, data.wasteProducer))
+				.then(async (r) => {
+					return r.at(0)
+						? { type: 'recipe', data: r.at(0) }
+						: await db
+								.select()
+								.from(buildables)
+								.where(eq(buildables.buildingPath, data.wasteProducer))
+								.then((r) => {
+									return r.at(0) ? { type: 'buildable', data: r.at(0) } : null;
+								});
+				}));
+		if (result) data.productionElement = result;
+		else data.productionElement = null;
+
+		data.input = await Promise.all(data.input.map(processConsumeProduce));
+		data.output = await Promise.all(data.output.map(processConsumeProduce));
+		data.schematics = await Promise.all(
+			data.schematics.map(async (schematicPath: string) => {
+				return await db
+					.select()
+					.from(schematics)
+					.where(eq(schematics.path, schematicPath))
+					.then((r) => {
+						return r.at(0);
+					});
+			})
+		);
+
+		return data;
+	};
+
+	data.consumed = await Promise.all(data.consumed.map(processData));
+	data.produced = await Promise.all(data.produced.map(processData));
+
+	await db
 		.insert(extraInformations)
 		.values({
 			...data,
@@ -243,81 +349,4 @@ export async function bindInformations(data: any) {
 		.catch((err) => {
 			log('error', data.name, err.message);
 		});
-	if (!extraInfo) return;
-
-	const write = async (recipe: any, usedIn: Nullish<string> = null, producedIn: Nullish<string> = null) => {
-		const extraRecipes = await await db
-			.insert(extraRecipe)
-			.values({
-				...recipe,
-				usedIn,
-				producedIn
-			})
-			.returning()
-			.then((r) => {
-				return r.at(0);
-			})
-			.catch((err) => {
-				log('warn', extraInfo.id, recipe.path, data.name, err.message);
-				return null;
-			});
-
-		if (!extraRecipes) return;
-
-		await Promise.all([
-			...recipe.schematics.map((schematicPath: any) => {
-				return db
-					.insert(extraRecipeSchematics)
-					.values({
-						extraRecipe: extraRecipes.id,
-						schematicPath
-					})
-					.catch((err) => {
-						log('warn', extraInfo.id, extraRecipes.id, schematicPath, err.message);
-						return null;
-					});
-			})
-		]);
-		await Promise.all([
-			...recipe.input.map((el: any) => {
-				return db
-					.insert(extraRecipeInput)
-					.values({
-						extraRecipe: extraRecipes.id,
-						itemPath: el.item,
-						...el
-					})
-					.catch((err) => {
-						log('warn', extraInfo.id, extraRecipes.id, el.item, err.message);
-						return null;
-					});
-			})
-		]);
-		await Promise.all([
-			...recipe.output.map((el: any) => {
-				return db
-					.insert(extraRecipeOutput)
-					.values({
-						extraRecipe: extraRecipes.id,
-						itemPath: el.item,
-						...el
-					})
-					.catch((err) => {
-						log('warn', extraInfo.id, extraRecipes.id, el.item, err.message);
-						return null;
-					});
-			})
-		]);
-	};
-
-	await Promise.all([
-		...data.consumed.map((consumed: any) => {
-			return write(consumed, extraInfo.id);
-		}),
-		...data.produced.map((produced: any) => {
-			return write(produced, null, extraInfo.id);
-		})
-	]);
-
-	return await Promise.resolve(data);
 }

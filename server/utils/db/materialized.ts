@@ -6,8 +6,8 @@ import type { PostgresJsDatabase } from 'drizzle-orm/postgres-js/driver';
 import type { ScheduleOptions } from 'node-cron';
 import { schedule } from 'node-cron';
 import { z } from 'zod';
+import { log } from '../../../utils/logger';
 import { queryToFullSQLString } from './utils';
-import { log } from '~/utils/logger';
 
 const matSchema = z.enum(['MATERIALIZED VIEW', 'VIEW']).default('MATERIALIZED VIEW');
 export interface MaterializedMigration {
@@ -21,14 +21,19 @@ export interface MaterializedMigration {
 const pgDialect = new PgDialect();
 const matTable = sql.raw('"drizzle"."__materialized_migrations"');
 
-export async function migrateMaterialized({ migrationDb, service, imports, logQuerys = false, type }: MaterializedMigration) {
+export async function migrateMaterialized({
+	migrationDb,
+	service,
+	imports,
+	logQuerys = false,
+	type
+}: MaterializedMigration) {
 	type = matSchema.parse(type);
 	const typeRaw = sql.raw(type);
 
-	let builders: PgViewBase[] = Object.values<PgViewBase>(imports).filter((it) => {
+	const builders: PgViewBase[] = Object.values<PgViewBase>(imports).filter((it) => {
 		return it instanceof PgViewBase;
 	});
-
 
 	log('drizzle', 'Creating materialized view schema and table if not exists');
 	await migrationDb.execute<any>(
@@ -44,10 +49,17 @@ export async function migrateMaterialized({ migrationDb, service, imports, logQu
 		`
 	);
 
-	const existingTables = await migrationDb.execute<{ table: string; service: string; tabletype: string }>(
+	const existingTables = await migrationDb.execute<{
+		table: string;
+		service: string;
+		tabletype: string;
+	}>(
 		sql`select tablename as table, service, tabletype from ${matTable} where service = ${service} and tabletype = ${type}`
 	);
-	log('drizzle', `Existing ${existingTables.length} mat. tables, to be migrated: ${builders.length}`);
+	log(
+		'drizzle',
+		`Existing ${existingTables.length} mat. tables, to be migrated: ${builders.length}`
+	);
 
 	await migrationDb
 		.transaction(async (tx) => {
@@ -58,7 +70,7 @@ export async function migrateMaterialized({ migrationDb, service, imports, logQu
 				const { query, name: tableName, schema } = builder[ViewBaseConfig];
 				const queryString = queryToFullSQLString(pgDialect.sqlToQuery(query), logQuerys);
 
-				let schemaString = '`${tableName}`';
+				let schemaString = tableName;
 				if (schema) {
 					schemaString = `"${schema}"."${tableName}"`;
 				}
@@ -152,7 +164,7 @@ export function createAutomaticMaterilizedView<T extends PgMaterializedView>(
 						log('drizzle', `Refreshed MAT VIEW ${tableName}`);
 					}
 				})
-				.catch((e:any) => {
+				.catch((e: any) => {
 					log('error', e.message);
 				});
 		},

@@ -1,14 +1,34 @@
+import { type RecipeSelect, type SchematicSelect } from '~/server/db/index';
+import type { BuildableSelect } from './../server/db/schema/buildables';
+import type { ItemSelect } from './../server/db/schema/items';
 export enum SFDataType {
 	buildable = 'buildable',
 	recipe = 'recipe',
 	cleaner = 'cleaner',
 	schematic = 'schematic',
 	informations = 'informations',
+	informationBuildings = 'buildings',
 	itemDescriptor = 'itemDescriptor',
 	food = 'food',
 	resourceMap = 'resourceMap',
 	researchTree = 'researchTree',
 	map = 'map'
+}
+
+export enum WikiInformationType {
+	Recipe = 0,
+	Boiler = 1,
+	Turbine = 2,
+	Heater = 3,
+	Cooler = 4,
+	Cleaner = 5,
+	Extractor = 6,
+	ExtractorWasteProducer = 7,
+	ExtractorConsumer = 8,
+	AirCollector = 9,
+	SeedExtractor = 10,
+	SlugHatcher = 11,
+	SlugTerrarium = 12
 }
 
 export enum SFSchematicType {
@@ -74,23 +94,33 @@ export type SFTreeUnlockElement = {
 
 export type NodeCoords = { X: number; Y: number };
 
+export type SFDataItemBase = {
+	updated?: boolean;
+};
+
 export type SFDataItemTypeNormal = {
 	type: 'normal';
 };
 
 export type FluidInfoItem = {
-	path: string;
+	path: ItemSelect;
 	normalFluidCountPerSecond: number;
 	productionTimeMulti: number;
+};
+
+export type ModulInfo = {
+	path: BuildableSelect;
+	productionItem: ItemSelect;
+	trashItem: ItemSelect;
 };
 
 export type SFDataItemTypeMiner = {
 	type: 'miner';
 	drillTier: 1;
 	scannerTier: 1;
-	modulInformation: [];
-	neededModules: string[];
-	preventModules: string[];
+	modulInformation: ModulInfo[];
+	neededModules: BuildableSelect[];
+	preventModules: BuildableSelect[];
 	fluidInfos: FluidInfoItem[];
 };
 
@@ -104,14 +134,14 @@ export type SFDataItemTypeEgg = {
 	incubatorTier: number;
 	fluidConsume: number;
 	fluidConsumeTime: number;
-	fluid: string;
+	fluid: ItemSelect | null;
 	hatchingTime: number;
 	power: number;
 	realDescription: string;
 	realName: string;
 	hiddenDescription: string;
 	hiddenName: string;
-	possibleSlugs: string[];
+	possibleSlugs: ItemSelect[];
 	tierBasedChance: number[];
 };
 
@@ -128,17 +158,23 @@ export type SFDataItemTypeSlug = {
 	dieTime: number;
 	breedingTime: number;
 	productionCountPerSlug: number;
-	egg: string;
-	food: string;
+	egg: ItemSelect;
+	food: ItemSelect;
 	slugRarity: number;
 	realDescription: string;
 	realName: string;
 	hiddenDescription: string;
 	hiddenName: string;
-	comfortableWith: string[];
+	comfortableWith: ItemSelect[];
 };
 
-export type SFDataItemType = SFDataItemTypeNormal | SFDataItemTypeMiner | SFDataItemTypeSlug | SFDataItemTypeEgg;
+export type SFDataItemType = (
+	| SFDataItemTypeNormal
+	| SFDataItemTypeMiner
+	| SFDataItemTypeSlug
+	| SFDataItemTypeEgg
+) &
+	SFDataItemBase;
 
 export type SFNodeCoordsItemAmount = {
 	item: string;
@@ -156,3 +192,38 @@ export type SFNodeCoords = SFNodeCoordsBase & {
 	satelites: SFNodeCoordsBase[];
 	itemAmounts: SFNodeCoordsItemAmount[];
 };
+
+export type SFInfoItemConsumeAmount = {
+	item: ItemSelect;
+	amount: number;
+	time: number;
+};
+
+export type SFInfoBuildableProduceAmount = {
+	item: BuildableSelect;
+	amount: number;
+	time: number;
+};
+
+export type SFInformationRow = SFNodeCoordsBase & {
+	isRecipe: boolean;
+	type: WikiInformationType;
+	buildingRecipe: boolean;
+	productionElement:
+		| { type: 'recipe'; data: RecipeSelect }
+		| { type: 'buildable'; data: BuildableSelect }
+		| null;
+	wasteProducer: BuildableSelect | null;
+	itemAmounts: SFNodeCoordsItemAmount[];
+	output: SFInfoItemConsumeAmount[];
+	schematics: SchematicSelect[];
+} & (
+		| {
+				buildingRecipe: true;
+				input: SFInfoBuildableProduceAmount[];
+		  }
+		| {
+				buildingRecipe: false;
+				input: SFInfoItemConsumeAmount[];
+		  }
+	);

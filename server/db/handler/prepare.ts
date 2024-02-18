@@ -13,7 +13,7 @@ import {
 	prepareSchematic
 } from './prepare/index';
 
-export async function handleJsonData(data: any) {
+export async function handleJsonData(data: any, postPrepare: any[]) {
 	const dataType: Nullish<SFDataType> = data.dataType;
 	if (dataType) {
 		switch (dataType) {
@@ -30,7 +30,8 @@ export async function handleJsonData(data: any) {
 				await prepareSchematic(data);
 				break;
 			case SFDataType.informations:
-				await prepareInformations(data);
+			case SFDataType.informationBuildings:
+				postPrepare.push(data);
 				break;
 			case SFDataType.itemDescriptor:
 				await prepareItems(data);
@@ -50,6 +51,7 @@ export async function handleJsonData(data: any) {
 
 export async function read(filePath: string) {
 	const paths = await fs.readdir(filePath, { withFileTypes: true });
+	const postPrepare: any[] = [];
 	await Promise.all(
 		paths.map(async (path) => {
 			if (path.isDirectory()) {
@@ -59,10 +61,11 @@ export async function read(filePath: string) {
 				if (data.charCodeAt(0) === 0xfeff) {
 					data = data.substr(1);
 				}
-				await handleJsonData(JSON.parse(data));
+				await handleJsonData(JSON.parse(data), postPrepare);
 			}
 		})
 	);
+	await Promise.all(postPrepare.map(prepareInformations));
 }
 
 export async function prepare() {

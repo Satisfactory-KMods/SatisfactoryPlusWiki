@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-	const router = useRouter();
 	const route = useRoute();
 	const tree = computed(() => {
 		const { tree } = (route.params as { tree: string }) ?? {};

@@ -20,7 +20,7 @@ import {
 	subSchematics
 } from '~/server/db';
 import { log } from '~/utils/logger';
-import { startReadingData } from '../db/handler';
+import { merge, startReadingData } from '../db/handler';
 import { cleaner, cleanerByPass } from '../db/schema/cleaners';
 import { mapTable } from '../db/schema/map';
 
@@ -51,5 +51,7 @@ export default defineNitroPlugin(async () => {
 		log('info', `Finished clearing database!`);
 		await startReadingData();
 	}
+
+	await merge();
 	await startMat();
 });

@@ -1,10 +1,19 @@
 import fs from 'fs/promises';
 import { join } from 'path';
-import type { Nullish } from '~/utils/logger';
+import { type Nullish } from '~/utils/logger';
 import { SFDataType } from '~/utils/satisfactoryExtractorTypes';
-import { bindBuildable, bindCleaner, bindInformations, bindItems, bindRecipe, bindResearchTree, bindResourceMap, bindSchematic } from './bind/index';
+import {
+	bindBuildable,
+	bindCleaner,
+	bindInformations,
+	bindItems,
+	bindRecipe,
+	bindResearchTree,
+	bindResourceMap,
+	bindSchematic
+} from './bind/index';
 
-export async function handleJsonData(data: any) {
+export async function handleJsonData(data: any, postPrepare: any[]) {
 	const dataType: Nullish<SFDataType> = data.dataType;
 	if (dataType) {
 		switch (dataType) {
@@ -20,8 +29,9 @@ export async function handleJsonData(data: any) {
 			case SFDataType.schematic:
 				await bindSchematic(data);
 				break;
+			case SFDataType.informationBuildings:
 			case SFDataType.informations:
-				await bindInformations(data);
+				postPrepare.push(data);
 				break;
 			case SFDataType.itemDescriptor:
 				await bindItems(data);
@@ -41,6 +51,7 @@ export async function handleJsonData(data: any) {
 
 export async function read(filePath: string) {
 	const paths = await fs.readdir(filePath, { withFileTypes: true });
+	const postPrepare: any[] = [];
 	await Promise.all(
 		paths.map(async (path) => {
 			if (path.isDirectory()) {
@@ -50,10 +61,11 @@ export async function read(filePath: string) {
 				if (data.charCodeAt(0) === 0xfeff) {
 					data = data.substr(1);
 				}
-				await handleJsonData(JSON.parse(data));
+				await handleJsonData(JSON.parse(data), postPrepare);
 			}
 		})
 	);
+	await Promise.all(postPrepare.map(bindInformations));
 }
 
 export async function bind() {
