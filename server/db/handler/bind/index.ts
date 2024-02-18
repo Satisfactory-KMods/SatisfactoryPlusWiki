@@ -17,8 +17,7 @@ import {
 	recipeUnlocks,
 	scannerUnlocks,
 	schematics,
-	schematicsCosts,
-	subSchematics
+	schematicsCosts
 } from '../../schema/schematics';
 import { wikiElement } from '../../schema/wiki';
 import { SFDataType, WikiInformationType } from './../../../../utils/satisfactoryExtractorTypes';
@@ -194,18 +193,6 @@ export async function bindSchematic(data: any) {
 				})
 				.catch((err) => {
 					log('warn', data.name, cost.item, err.message);
-				});
-		}
-
-		for (const subSchematic of data.subSchematics) {
-			await db
-				.insert(subSchematics)
-				.values({
-					schematicPath: result.path,
-					subSchematicPath: subSchematic
-				})
-				.catch((err) => {
-					log('warn', data.name, subSchematic, err.message);
 				});
 		}
 

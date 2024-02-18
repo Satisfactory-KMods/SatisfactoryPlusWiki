@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS "sfp-wiki"."sub_schematics" CASCADE;

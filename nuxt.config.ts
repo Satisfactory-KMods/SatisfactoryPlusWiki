@@ -4,7 +4,7 @@ import { env } from './env.mjs';
 export default defineNuxtConfig({
 	modules: [
 		'@nuxt/ui',
-		'@nuxt/content',
+		'@nuxtjs/mdc',
 		'@sidebase/nuxt-auth',
 		'@vueuse/nuxt',
 		'@pinia/nuxt',
@@ -34,9 +34,7 @@ export default defineNuxtConfig({
 		global: true
 	},
 	routeRules: {
-		'/map/**': { prerender: false, ssr: false },
-		'/map**': { prerender: false, ssr: false },
-		'/map': { prerender: false, ssr: false }
+		'/map/**': { prerender: false, ssr: false }
 	},
 	pinia: {
 		storesDirs: ['./stores/**']

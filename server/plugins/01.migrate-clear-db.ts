@@ -16,8 +16,7 @@ import {
 	schematics,
 	schematicsCosts,
 	startMat,
-	startMigrate,
-	subSchematics
+	startMigrate
 } from '~/server/db';
 import { log } from '~/utils/logger';
 import { merge, startReadingData } from '../db/handler';
@@ -38,7 +37,6 @@ export default defineNitroPlugin(async () => {
 		await db.delete(researchTree);
 		await db.delete(researchTreeNodes);
 		await db.delete(researchTreeSchematics);
-		await db.delete(subSchematics);
 		await db.delete(scannerUnlocks);
 		await db.delete(schematicsCosts);
 		await db.delete(recipeUnlocks);

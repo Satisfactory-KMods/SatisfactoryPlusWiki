@@ -9,8 +9,7 @@ import {
 	recipeUnlocks,
 	scannerUnlocks,
 	schematics,
-	schematicsCosts,
-	subSchematics
+	schematicsCosts
 } from '..';
 import { wikiElement } from '../schema/wiki';
 
@@ -60,32 +59,10 @@ const subqueryScanner = db.$with('scanner').as(
 		.groupBy(scannerUnlocks.schematicPath)
 );
 
-const subSchemas = db.$with('subschematics').as(
-	db
-		.with(subquerySchematics, subqueryRecipes, subqueryScanner)
-		.select({
-			path: schematics.path,
-			handslots: pgAggMax(schematics.handSlots).as('handslots'),
-			inventorySlots: pgAggMax(schematics.inventorySlots).as('inventorySlots'),
-			recipeCount: pgCast(
-				pgCaseNumberNull(pgAggMax(subqueryRecipes.recipe_count)),
-				'integer'
-			).as('recipeCount'),
-			scannerUnlockCount: pgCast(
-				pgCaseNumberNull(pgAggMax(subqueryScanner.scanner_count)),
-				'integer'
-			).as('scannerUnlockCount')
-		})
-		.from(schematics)
-		.leftJoin(subqueryRecipes, eq(schematics.path, subqueryRecipes.schematic_path))
-		.leftJoin(subqueryScanner, eq(schematics.path, subqueryScanner.schematic_path))
-		.groupBy(schematics.path)
-);
-
 const cost = pgAggJsonFirst(subquerySchematics.costs);
 
 const query = db
-	.with(subquerySchematics, subqueryRecipes, subqueryScanner, subSchemas)
+	.with(subquerySchematics, subqueryRecipes, subqueryScanner)
 	.select({
 		path: schematics.path,
 		name: pgAggMax(schematics.name).as('name'),
@@ -95,29 +72,15 @@ const query = db
 		category: pgAggMax(schematics.category).as('category'),
 		subCategory: pgAggMax(schematics.subCategory).as('subCategory'),
 		views: pgAggMax(wikiElement.views).as('views'),
-		handslots: pgCast(
-			sql`${pgCaseNumberNull(pgAggSum(subSchemas.handslots))} + ${pgCaseNumberNull(pgAggMax(schematics.handSlots))}`,
-			'integer'
-		).as('handslots'),
-		inventorySlots: pgCast(
-			sql`${pgCaseNumberNull(pgAggSum(subSchemas.inventorySlots))} + ${pgCaseNumberNull(pgAggMax(schematics.inventorySlots))}`,
-			'integer'
-		).as('inventorySlots'),
+		handslots: pgAggMax(schematics.handSlots).as('handslots'),
+		inventorySlots: pgAggMax(schematics.inventorySlots).as('inventorySlots'),
 		time: pgCast(pgAggMax(schematics.time), 'float').as('time'),
-		recipeCount: pgCast(
-			sql`${pgCaseNumberNull(pgAggSum(subSchemas.recipeCount))} + ${pgCaseNumberNull(pgAggMax(subqueryRecipes.recipe_count))}`,
-			'integer'
-		).as('recipeCount'),
-		scannerUnlockCount: pgCast(
-			sql`${pgCaseNumberNull(pgAggSum(subSchemas.scannerUnlockCount))} + ${pgCaseNumberNull(pgAggMax(subqueryScanner.scanner_count))}`,
-			'integer'
-		).as('scannerUnlockCount'),
+		recipeCount: pgAggMax(subqueryRecipes.recipe_count).as('recipeCount'),
+		scannerUnlockCount: pgAggMax(subqueryScanner.scanner_count).as('scannerUnlockCount'),
 		short: pgAggMax(mapping.shortPath).as('short'),
 		costs: pgCase<typeof cost, typeof cost>(isNull(cost), sql`'[]'::json`, cost).as('costs')
 	})
 	.from(schematics)
-	.leftJoin(subSchematics, eq(schematics.path, subSchematics.schematicPath))
-	.leftJoin(subSchemas, eq(subSchematics.subSchematicPath, subSchemas.path))
 	.leftJoin(wikiElement, eq(schematics.path, wikiElement.elPath))
 	.leftJoin(mapping, eq(schematics.path, mapping.elPath))
 	.leftJoin(subquerySchematics, eq(schematics.path, subquerySchematics.schematic_path))

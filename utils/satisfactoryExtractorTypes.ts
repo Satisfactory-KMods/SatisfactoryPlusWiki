@@ -212,6 +212,7 @@ export type SFInformationRow = SFNodeCoordsBase & {
 	isRecipe: boolean;
 	type: WikiInformationType;
 	buildingRecipe: boolean;
+	IsAlternate: boolean;
 	productionElement:
 		| { type: 'recipe'; data: InferReturnArray<typeof getRecipeWithProducedIn> }
 		| { type: 'buildable'; data: BuildableSelect }

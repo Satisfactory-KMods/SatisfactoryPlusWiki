@@ -34,7 +34,6 @@ export const schematicsRelations = relations(schematics, ({ many, one }) => {
 	return {
 		schematics: many(schematics),
 		recipeUnlocks: many(recipes),
-		subSchematics: many(schematics),
 		scannerUnlocks: many(items),
 		cleanerDesc: many(cleaner),
 		costs: many(schematicsCosts),
@@ -42,48 +41,6 @@ export const schematicsRelations = relations(schematics, ({ many, one }) => {
 			fields: [schematics.id],
 			references: [wikiElement.elPath]
 		})
-	};
-});
-
-// -----------------------------------------------------
-// sub-schematics
-// -----------------------------------------------------
-
-export const subSchematics = dbSchema.table(
-	'sub_schematics',
-	{
-		id: uuid('id').defaultRandom().primaryKey(),
-		schematicPath: text('schematic_path')
-			.notNull()
-			.references(
-				() => {
-					return schematics.path;
-				},
-				{
-					onDelete: 'cascade'
-				}
-			),
-		subSchematicPath: text('sub_schematic_path')
-			.notNull()
-			.references(
-				() => {
-					return schematics.path;
-				},
-				{
-					onDelete: 'cascade'
-				}
-			)
-	},
-	(t) => {
-		return {
-			unq: unique().on(t.subSchematicPath, t.schematicPath)
-		};
-	}
-);
-
-export const subSchematicsRelations = relations(subSchematics, ({ many }) => {
-	return {
-		schematics: many(schematics)
 	};
 });
 
