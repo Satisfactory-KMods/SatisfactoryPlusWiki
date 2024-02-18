@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-	import { useSpoilerMode } from '~/stores/useSpoilerMode';
-
 	const { params } = useParams({
 		id: String(),
 		page: String('information')
@@ -13,8 +11,6 @@
 			statusMessage: 'Page Not Found'
 		});
 	}
-
-	const spoilerMode = useSpoilerMode();
 
 	const spoilerData = computed(() => {
 		return {

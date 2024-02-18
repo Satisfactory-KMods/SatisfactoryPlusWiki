@@ -2,9 +2,9 @@ import { env } from './env.mjs';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-	typescript: {},
 	modules: [
 		'@nuxt/ui',
+		'@nuxt/content',
 		'@sidebase/nuxt-auth',
 		'@vueuse/nuxt',
 		'@pinia/nuxt',

@@ -80,9 +80,9 @@
 
 	const about = [
 		{
-			label: 'About',
+			label: 'Privacy Policy',
 			icon: 'i-heroicons-information-circle',
-			to: '/about',
+			to: '/policy',
 			exact: false,
 			exactMatch: false
 		},
