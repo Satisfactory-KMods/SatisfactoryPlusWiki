@@ -26,6 +26,8 @@ import { mapTable } from '../db/schema/map';
 
 export default defineNitroPlugin(async () => {
 	await startMigrate();
+	await startView();
+
 	if (env.NODE_ENV !== 'development' || env.FORCE_CLEAR_DB) {
 		log('info', `Clearing database...`);
 
@@ -48,7 +50,6 @@ export default defineNitroPlugin(async () => {
 		await db.delete(mapping);
 
 		log('info', `Finished clearing database!`);
-		await startView();
 		await startReadingData();
 	}
 

@@ -193,7 +193,7 @@
 
 		if (buildables.value.length) {
 			navigation.push({
-				label: `Buildabled (${buildables.value.length})`,
+				label: `Buildings (${buildables.value.length})`,
 				to: `/show/${params.id}/itemDescriptor/buildables`
 			});
 		}

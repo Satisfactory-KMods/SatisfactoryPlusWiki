@@ -2,7 +2,6 @@ import { count, eq, isNull, notInArray, sql } from 'drizzle-orm';
 import type { SFItemForm } from '~/utils/satisfactoryExtractorTypes';
 import { SFSchematicType } from '~/utils/satisfactoryExtractorTypes';
 import {
-	db,
 	dbSchema,
 	items,
 	mapping,
@@ -11,6 +10,7 @@ import {
 	schematics,
 	schematicsCosts
 } from '..';
+import { db } from '../pg';
 import { wikiElement } from '../schema/wiki';
 
 const subCosts = db.$with('subCosts').as(

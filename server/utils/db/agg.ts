@@ -1,6 +1,14 @@
 import type { SQLWrapper } from 'drizzle-orm';
 import { SQL, Subquery, SubqueryConfig, count, sql } from 'drizzle-orm';
-import { PgColumn, PgMaterializedView, PgTable, PgView, getMaterializedViewConfig, getTableConfig, getViewConfig } from 'drizzle-orm/pg-core';
+import {
+	PgColumn,
+	PgMaterializedView,
+	PgTable,
+	PgView,
+	getMaterializedViewConfig,
+	getTableConfig,
+	getViewConfig
+} from 'drizzle-orm/pg-core';
 import type { SelectResultField } from 'drizzle-orm/query-builders/select.types';
 import type { InferDynamic, InferExtendsTypes, InferExtendsTypesNoTable } from './types';
 import { pgCast } from './utils';
@@ -22,7 +30,10 @@ export function pgCountFalse(statement: SQLWrapper, noCast = false) {
 /**
  * @deprecated use pgAggJsonBuildObject instead
  */
-export function pgAggTable<T extends Exclude<InferExtendsTypes, SQL | SQL.Aliased>, Idx extends number | undefined = undefined>(
+export function pgAggTable<
+	T extends Exclude<InferExtendsTypes, SQL | SQL.Aliased>,
+	Idx extends number | undefined = undefined
+>(
 	table: T,
 	index?: Idx,
 	coalesce = false
@@ -40,14 +51,20 @@ export function pgAggTable<T extends Exclude<InferExtendsTypes, SQL | SQL.Aliase
 /**
  * @deprecated use pgAggJsonBuildObject instead
  */
-export function pgAggTableFirst<T extends Exclude<InferExtendsTypes, SQL | SQL.Aliased>>(table: T, coalesce = false) {
+export function pgAggTableFirst<T extends Exclude<InferExtendsTypes, SQL | SQL.Aliased>>(
+	table: T,
+	coalesce = false
+) {
 	return pgAggTable(table, 0, coalesce);
 }
 
 /**
  * @deprecated use pgAggJsonBuildObject instead
  */
-export function pgAggTableLast<T extends Exclude<InferExtendsTypes, SQL | SQL.Aliased>>(table: T, coalesce = false) {
+export function pgAggTableLast<T extends Exclude<InferExtendsTypes, SQL | SQL.Aliased>>(
+	table: T,
+	coalesce = false
+) {
 	return pgAggTable(table, -1, coalesce);
 }
 
@@ -59,7 +76,10 @@ export function pgAggJsonLast<T extends InferExtendsTypes>(column: T): SQL<Infer
 	return sql<any>`json_agg(${column})->-1`;
 }
 
-export function pgAggJsonArray<T extends InferExtendsTypes, Idx extends number | undefined = undefined>(
+export function pgAggJsonArray<
+	T extends InferExtendsTypes,
+	Idx extends number | undefined = undefined
+>(
 	column: T,
 	index?: Idx,
 	coalesce = true
@@ -121,7 +141,11 @@ export function pgAggXmlAgg<T extends InferExtendsTypes>(column: T): SQL<InferDy
 	return sql<any[]>`xmlagg(${column})`;
 }
 
-export function pgAggJsonField<T extends PgColumn, Field extends keyof T['_']['data'], Idx extends number | undefined = undefined>(
+export function pgAggJsonField<
+	T extends PgColumn,
+	Field extends keyof T['_']['data'],
+	Idx extends number | undefined = undefined
+>(
 	column: T,
 	field: Field,
 	index?: Idx
@@ -142,6 +166,7 @@ export function pgAggJsonBuildObject<
 >(
 	table: T,
 	index?: Index,
+	aggregate = false,
 	coalesce = true
 ): Index extends number
 	? SQL<
@@ -193,9 +218,15 @@ export function pgAggJsonBuildObject<
 	const ent = Object.entries(datas);
 	if (!ent.length) {
 		if (table instanceof PgColumn || table instanceof SQL) {
-			const query = coalesce ? sql`coalesce(json_agg(json_build_object(${table})), '[]'::json)` : sql`json_agg(json_build_array(${table}))`;
+			const query = coalesce
+				? sql`coalesce(json_agg(json_build_object(${table})), '[]'::json)`
+				: sql`json_agg(json_build_array(${table}))`;
 
-			return (typeof index !== 'undefined' ? sql.join([query, sql`->${sql.raw(String(index))}`], sql``) : query) as any;
+			return (
+				typeof index !== 'undefined'
+					? sql.join([query, sql`->${sql.raw(String(index))}`], sql``)
+					: query
+			) as any;
 		}
 
 		throw new TypeError('No columns to aggregate');
@@ -209,8 +240,25 @@ export function pgAggJsonBuildObject<
 		sql`, `
 	);
 
-	const query = coalesce ? sql`coalesce(json_build_object(${joinedSql}), '[]'::json)` : sql`json_build_array(${joinedSql})`;
-	return (typeof index !== 'undefined' ? sql.join([query, sql`->${sql.raw(String(index))}`], sql``) : query) as any;
+	if (aggregate) {
+		const query = coalesce
+			? sql`coalesce(json_agg(json_build_object(${joinedSql})), '[]'::json)`
+			: sql`json_agg(json_build_object(${joinedSql}))`;
+		return (
+			typeof index !== 'undefined'
+				? sql.join([query, sql`->${sql.raw(String(index))}`], sql``)
+				: query
+		) as any;
+	}
+
+	const query = coalesce
+		? sql`coalesce(json_build_object(${joinedSql}), '[]'::json)`
+		: sql`json_build_array(${joinedSql})`;
+	return (
+		typeof index !== 'undefined'
+			? sql.join([query, sql`->${sql.raw(String(index))}`], sql``)
+			: query
+	) as any;
 }
 
 export function pgAggJsonBuildArray<
@@ -247,7 +295,11 @@ export function pgAggJsonBuildArray<
 		? sql`coalesce(json_agg(json_build_array(${joinedSql})${flat}), '[]'::json)`
 		: sql`json_agg(json_build_array(${joinedSql})${flat})`;
 
-	return (typeof index !== 'undefined' ? sql.join([query, sql`->${sql.raw(String(index))}`], sql``) : query) as any;
+	return (
+		typeof index !== 'undefined'
+			? sql.join([query, sql`->${sql.raw(String(index))}`], sql``)
+			: query
+	) as any;
 }
 
 export function pgAggCount(expression?: SQLWrapper) {

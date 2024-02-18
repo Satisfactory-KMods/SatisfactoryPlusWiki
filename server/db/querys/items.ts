@@ -1,5 +1,6 @@
 import { eq } from 'drizzle-orm';
-import { db, items, mapping, schematicsCosts } from '~/server/db/index';
+import { db } from '~/server/db';
+import { items, mapping, schematicsCosts } from '~/server/db/schema';
 
 const itemCostsSubQuery = db.$with('itemCostsSubQuery').as(
 	db
