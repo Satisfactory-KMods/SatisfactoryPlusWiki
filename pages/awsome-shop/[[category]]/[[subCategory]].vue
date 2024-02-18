@@ -4,7 +4,19 @@
 		subCategory: String()
 	});
 
-	const { data: categories } = await useFetch(`/api/milestones/shop/category/${params.category}`);
+	const { data: mainCategories } = await useFetch('/api/milestones/shop');
+
+	const category = computed(() => {
+		return (
+			(mainCategories.value ?? []).find((category) => {
+				return category.category === params.category;
+			})?.category ??
+			mainCategories.value?.at(0)?.category ??
+			''
+		);
+	});
+
+	const { data: categories } = await useFetch(`/api/milestones/shop/category/${category.value}`);
 
 	const navigation = computed(() => {
 		return (categories.value ?? []).map((category) => {
@@ -15,28 +27,10 @@
 		});
 	});
 
-	const router = useRouter();
-	function checkRoute() {
-		if (!params.subCategory) {
-			if (!navigation.value[0]) {
-				createError('No categories found');
-			}
-			router.replace(navigation.value[0].to);
-		}
-	}
-
-	checkRoute();
-
-	watch(() => {
-		return params;
-	}, checkRoute);
-
 	const milestones = computed(() => {
-		return (categories.value ?? [])
-			.filter((category) => {
-				return category.subCategory === params.subCategory;
-			})
-			.at(0);
+		return (params.subCategory ? categories.value?.find((category) => {
+			return category.subCategory ===  params.subCategory;
+		}) : categories.value?.at(0)) ?? null;
 	});
 </script>
 

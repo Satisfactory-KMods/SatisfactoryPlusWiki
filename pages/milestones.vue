@@ -8,7 +8,7 @@
 		{
 			tier: 1,
 			label: 'Tier 1',
-			to: '/milestones/tier-1'
+			to: '/milestones'
 		},
 		{
 			tier: 2,
@@ -47,7 +47,6 @@
 		}
 	]);
 
-	const router = useRouter();
 	const route = useRoute();
 	const tier = computed(() => {
 		const { tier } = (route.params as { tier: string }) ?? {};
@@ -56,23 +55,14 @@
 		}
 		return 1;
 	});
-
-	function checkRoute() {
-		if (!((route.params as { tier: string }) ?? {}).tier) {
-			router.replace('/milestones/tier-1');
-		}
-	}
-
-	checkRoute();
-
-	watch(() => {
-		return route.params;
-	}, checkRoute);
 </script>
 
 <template>
 	<div>
-		<UHorizontalNavigation :links="tiers" :active="tier" class="border-b border-gray-200 dark:border-gray-800" />
+		<UHorizontalNavigation
+			:links="tiers"
+			:active="tier"
+			class="border-b border-gray-200 dark:border-gray-800" />
 		<NuxtPage />
 	</div>
 </template>

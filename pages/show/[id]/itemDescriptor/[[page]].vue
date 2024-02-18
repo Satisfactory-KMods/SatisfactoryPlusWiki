@@ -1,8 +1,11 @@
 <script lang="ts" setup>
 	import { useSpoilerMode } from '~/stores/useSpoilerMode';
-	import { slugDayTimeToString, uePercentToPercent } from '~/utils/satisfactoryExtractorTypes';
-	import { replaceFromRecord } from '~/utils/utils';
-	import { vInfiniteScroll } from '#imports';
+	import {
+		SFItemFormToString,
+		slugDayTimeToString,
+		uePercentToPercent
+	} from '~/utils/satisfactoryExtractorTypes';
+	import { replaceFromRecord, vInfiniteScroll } from '~/utils/utils';
 	import type { ItemDataResult } from '~/server/api/data/[shortPath]/item.get';
 
 	const { params } = useParams({
@@ -144,7 +147,19 @@
 	});
 
 	const consumed = computed(() => {
-		return result.value?.extra_informations?.consumed ?? [];
+		return (
+			(result.value?.extra_informations?.consumed ?? []).filter((e) => {
+				return !e.isAlternate;
+			}) ?? []
+		);
+	});
+
+	const alternateRecipes = computed(() => {
+		return (
+			(result.value?.extra_informations?.consumed ?? []).filter((e) => {
+				return e.isAlternate;
+			}) ?? []
+		);
 	});
 
 	const navigation = computed(() => {
@@ -155,17 +170,24 @@
 			}
 		];
 
-		if (produced.value.length) {
+		if (consumed.value.length) {
 			navigation.push({
-				label: `Produced By (${produced.value.length})`,
-				to: `/show/${params.id}/itemDescriptor/produced-by`
+				label: `Recipes (${consumed.value.length})`,
+				to: `/show/${params.id}/itemDescriptor/consumed-from`
 			});
 		}
 
-		if (consumed.value.length) {
+		if (alternateRecipes.value.length) {
 			navigation.push({
-				label: `Consumed From (${consumed.value.length})`,
-				to: `/show/${params.id}/itemDescriptor/consumed-from`
+				label: `Alternate Recipes (${alternateRecipes.value.length})`,
+				to: `/show/${params.id}/itemDescriptor/alternate-recipes`
+			});
+		}
+
+		if (produced.value.length) {
+			navigation.push({
+				label: `Used For (${produced.value.length})`,
+				to: `/show/${params.id}/itemDescriptor/produced-by`
 			});
 		}
 
@@ -183,6 +205,9 @@
 	const all = computed(() => {
 		let data: ItemDataResult['extra_informations']['produced'] = [];
 		switch (params.page) {
+			case 'alternate-recipes':
+				data = alternateRecipes.value;
+				break;
 			case 'produced-by':
 				data = produced.value;
 				break;
@@ -216,37 +241,122 @@
 		},
 		async () => {
 			await nextTick();
-			console.log('input changed');
 			show.value = all.value.slice(0, 7);
 		}
 	);
+
+	const itemDatas = computed(() => {
+		const rows: {
+			Information: string;
+			Value: any;
+		}[] = [
+			{
+				Information: 'Form',
+				Value: SFItemFormToString(result.value!.items.form)
+			},
+			{
+				Information: 'Can be deleted',
+				Value: result.value!.items.canDelete ? 'Yes' : 'No'
+			},
+			{
+				Information: 'Can be Sinked',
+				Value: result.value!.items.canBeSink ? 'Yes' : 'No'
+			},
+			{
+				Information: 'Sink Points',
+				Value: result.value!.items.sinkPoints
+			},
+			{
+				Information: 'Is Radioactive',
+				Value: result.value!.items.radioActive ? 'Yes' : 'No'
+			},
+			{
+				Information: 'Stack Size',
+				Value:
+					result.value!.items.form === SFItemForm.SOLID
+						? result.value!.items.stackSize
+						: result.value!.items.stackSize / 1000
+			}
+		];
+
+		return rows;
+	});
+
+	const toast = useToast();
+	const { copy } = useClipboard();
+
+	function copyColor(color: string) {
+		copy(`#${color}`);
+		toast.add({
+			title: 'Color copied',
+			description: `The color #${color} has been copied to your clipboard.`
+		});
+	}
 </script>
 
 <template>
 	<div class="flex h-full w-full flex-col overflow-hidden">
-		<DataPageHeader v-bind="headerData" />
+		<DataPageHeader v-bind="{ ...headerData, description: '' }" />
 		<UHorizontalNavigation
 			:links="navigation"
 			class="border-b border-gray-200 dark:border-gray-800" />
 
 		<div v-if="!params.page" class="flex flex-col gap-2 overflow-auto p-2">
+			<div v-if="result?.items.form !== SFItemForm.SOLID" class="flex gap-3">
+				<div
+					class="flex flex-1 items-center gap-2 rounded border p-2 dark:border-slate-700 dark:bg-slate-800">
+					<span class="flex-1 text-lg font-bold">Gas Color</span>
+					<div
+						class="flex h-8 w-40 cursor-pointer flex-col items-center justify-center gap-2 rounded border text-center text-white dark:border-slate-600"
+						:style="{
+							'background-color': `#${result?.items.gasColor}`
+						}"
+						@click="copyColor(result?.items.gasColor ?? '')">
+						<div class="flex items-center gap-2 text-xs text-white">
+							<Icon name="heroicons:clipboard-document" />
+							#{{ result?.items.gasColor }}
+						</div>
+					</div>
+				</div>
+				<div
+					class="flex flex-1 items-center gap-2 rounded border p-2 dark:border-slate-700 dark:bg-slate-800">
+					<span class="flex-1 text-lg font-bold">Fluid Color</span>
+					<div
+						class="flex h-8 w-40 cursor-pointer flex-col items-center justify-center gap-2 rounded border text-center text-white dark:border-slate-600"
+						:style="{
+							'background-color': `#${result?.items.fluidColor}`
+						}"
+						@click="copyColor(result?.items.fluidColor ?? '')">
+						<div class="flex items-center gap-2 text-xs text-white">
+							<Icon name="heroicons:clipboard-document" />
+							#{{ result?.items.fluidColor }}
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<UAlert
 				icon="i-heroicons-information-circle"
 				color="primary"
 				variant="subtle"
-				title="Feature not implemented">
-				<template #description>
-					In the future, users will have the ability to add more information about an item
-					or a building. If you don't see any additional information here, it's because
-					none has been provided yet.
-				</template>
+				title="In the future, users will have the ability to add more information about an item
+				or a building. If you don't see any additional information here, it's because
+				none has been provided yet.">
 			</UAlert>
+
+			<div class="prose dark:prose-invert prose-slate max-w-none p-2">
+				<h3>Description</h3>
+				<span class="whitespace-break-spaces opacity-75" v-html="headerData.description" />
+			</div>
+
+			<UTable :rows="itemDatas" />
 		</div>
 
 		<template
 			v-if="
 				params.page === 'produced-by' ||
 				params.page === 'consumed-from' ||
+				params.page === 'alternate-recipes' ||
 				params.page === 'buildables'
 			">
 			<UInput

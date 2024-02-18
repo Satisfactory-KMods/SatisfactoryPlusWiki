@@ -59,7 +59,11 @@
 				v-if="showAmount"
 				class="absolute right-1 top-1 rounded-full bg-orange-500 p-[0.125rem] px-2 text-xs font-semibold text-white dark:bg-orange-700">
 				<slot name="amount">
-					{{ $props.amount }}
+					{{
+						$props.item.form === SFItemForm.SOLID
+							? $props.amount
+							: $props.amount! / 1000
+					}}{{ !isSolid ? 'm³' : '' }}
 				</slot>
 			</div>
 
@@ -77,11 +81,7 @@
 				:alt="$props.item.name"
 				:width="$props.imageSize"
 				:height="$props.imageSize"
-				class="m-2"
-				:class="{
-					'rounded': isSolid,
-					'rounded-full': !isSolid
-				}" />
+				class="m-2" />
 		</div>
 	</NuxtLink>
 </template>

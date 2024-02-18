@@ -16,7 +16,11 @@
 		if (props.data.buildingRecipe) {
 			return undefined;
 		}
-		return roundToDec((60 / item.time) * item.amount, 2);
+		return roundToDec(
+			(60 / item.time) *
+				(item.item.form === SFItemForm.SOLID ? item.amount : item.amount / 1000),
+			2
+		);
 	}
 
 	const producedIn = computed(() => {

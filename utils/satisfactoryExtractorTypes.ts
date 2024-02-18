@@ -63,6 +63,21 @@ export enum SFItemForm {
 	LAST_ENUM = '5'
 }
 
+export function SFItemFormToString(form: SFItemForm): string {
+	switch (form) {
+		case SFItemForm.SOLID:
+			return 'Solid';
+		case SFItemForm.LIQUID:
+			return 'Liquid';
+		case SFItemForm.GAS:
+			return 'Gas';
+		case SFItemForm.HEAT:
+			return 'Heat';
+		default:
+			return 'Invalid';
+	}
+}
+
 export enum SFResourceNodePurity {
 	impure,
 	normal,
@@ -212,7 +227,7 @@ export type SFInformationRow = SFNodeCoordsBase & {
 	isRecipe: boolean;
 	type: WikiInformationType;
 	buildingRecipe: boolean;
-	IsAlternate: boolean;
+	isAlternate: boolean;
 	productionElement:
 		| { type: 'recipe'; data: InferReturnArray<typeof getRecipeWithProducedIn> }
 		| { type: 'buildable'; data: BuildableSelect }

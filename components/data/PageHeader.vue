@@ -6,7 +6,10 @@
 		},
 		description: {
 			type: String,
-			required: true
+			required: false,
+			default: () => {
+				return null;
+			}
 		},
 		image: {
 			type: String,
@@ -40,7 +43,10 @@
 
 		<div class="flex flex-col gap-1">
 			<h1 class="text-2xl font-bold">{{ $props.title }}</h1>
-			<p class="whitespace-break-spaces text-sm opacity-75" v-html="$props.description" />
+			<p
+				v-if="$props.description"
+				class="whitespace-break-spaces text-sm opacity-75"
+				v-html="$props.description" />
 		</div>
 
 		<div class="absolute right-2 top-2 flex gap-2">
