@@ -37,7 +37,7 @@ export function useParams<T extends RouteParamsRaw>(defaults: Partial<T>, event 
 			const watchKeys = Object.keys(defaults);
 			let dirty = false;
 			for (const key of watchKeys) {
-				if (!isEqual(params[key], route.query[key])) {
+				if (!_.isEqual(params[key], route.query[key])) {
 					dirty = true;
 					break;
 				}
