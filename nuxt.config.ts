@@ -9,7 +9,6 @@ export default defineNuxtConfig({
 		'@vueuse/nuxt',
 		'@pinia/nuxt',
 		'@pinia-plugin-persistedstate/nuxt',
-		'nuxt-typed-router',
 		'nuxt3-leaflet',
 		'@nuxt/image'
 	],
