@@ -276,8 +276,17 @@ export async function bindInformations(data: any) {
 				.select()
 				.from(items)
 				.where(eq(items.path, data.item))
-				.then((r) => {
-					return r.at(0) ?? {};
+				.then(async (r) => {
+					return (
+						r.at(0) ??
+						(await db
+							.select()
+							.from(buildables)
+							.where(eq(buildables.path, data.item))
+							.then((r) => {
+								return r.at(0) ?? {};
+							}))
+					);
 				})
 		};
 	};
