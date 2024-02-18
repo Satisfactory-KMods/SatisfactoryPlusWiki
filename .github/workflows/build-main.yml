@@ -78,6 +78,8 @@ jobs:
             - name: Deploy
               uses: appleboy/ssh-action@v1.0.0
               with:
+                  timeout: 60m
+                  command_timeout: 60m
                   host: ${{ secrets.SSH_HOST }}
                   username: ${{ secrets.SSH_USER }}
                   key: ${{ secrets.SSH_KEY }}
