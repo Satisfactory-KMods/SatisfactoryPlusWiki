@@ -21,15 +21,27 @@
 
 	const producedIn = computed(() => {
 		if (props.data.productionElement?.type === 'recipe') {
-			return props.data.productionElement.data.producedIn.at(0)?.name ?? 'Unknown Location';
+			console.log(props.data.productionElement.data);
+			return props.data.productionElement.data.producedIn.at(0)?.name ??
+				props.data.buildingRecipe
+				? 'Build Gun'
+				: 'Unknown Location';
 		}
-		return 'Unknown Location';
+		return props.data.buildingRecipe ? 'Build Gun' : 'Unknown Location';
+	});
+
+	const unlockedBy = computed(() => {
+		return props.data.schematics
+			.map((schematic) => {
+				return schematic.name;
+			})
+			.join(', ');
 	});
 </script>
 
 <template>
 	<div
-		class="relative flex flex-col gap-2 overflow-auto rounded border bg-gray-50 p-2 dark:border-slate-700 dark:bg-slate-800">
+		class="relative flex flex-shrink-0 flex-col gap-2 overflow-hidden rounded border bg-gray-50 p-2 dark:border-slate-700 dark:bg-slate-800">
 		<h2 class="text-xl font-bold">
 			{{ $props.data.productionElement?.data.name ?? 'Unknown Recipe' }}
 		</h2>
@@ -60,6 +72,7 @@
 						:per-minute="getPerMinute(item)" />
 				</template>
 			</div>
+			{{ unlockedBy }}
 		</div>
 	</div>
 </template>

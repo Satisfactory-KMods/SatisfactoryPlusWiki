@@ -63,3 +63,15 @@ export function replaceFromRecord(str: string, obj: Record<string, string | numb
 		return `<b>${String(r)}</b>`;
 	});
 }
+
+export {
+	vElementHover,
+	vElementSize,
+	vElementVisibility,
+	vInfiniteScroll,
+	vIntersectionObserver,
+	vOnClickOutside,
+	vOnKeyStroke,
+	vOnLongPress,
+	vScroll
+} from '@vueuse/components';

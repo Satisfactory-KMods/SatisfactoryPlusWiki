@@ -2,6 +2,7 @@
 	import { useSpoilerMode } from '~/stores/useSpoilerMode';
 	import { slugDayTimeToString, uePercentToPercent } from '~/utils/satisfactoryExtractorTypes';
 	import { replaceFromRecord } from '~/utils/utils';
+	import { vInfiniteScroll } from '#imports';
 
 	const { params } = useParams({
 		id: String(),
@@ -15,6 +16,14 @@
 			statusMessage: 'Page Not Found'
 		});
 	}
+
+	definePageMeta({
+		layout: 'default-no-scroll'
+	});
+
+	useHeadSafe({
+		title: result.value.items.name
+	});
 
 	const spoilerMode = useSpoilerMode();
 
@@ -117,6 +126,26 @@
 		};
 	});
 
+	const produced = computed(() => {
+		return (
+			result.value?.extra_informations?.produced.filter((e) => {
+				return !e.buildingRecipe;
+			}) ?? []
+		);
+	});
+
+	const buildables = computed(() => {
+		return (
+			result.value?.extra_informations?.produced.filter((e) => {
+				return !!e.buildingRecipe;
+			}) ?? []
+		);
+	});
+
+	const consumed = computed(() => {
+		return result.value?.extra_informations?.consumed ?? [];
+	});
+
 	const navigation = computed(() => {
 		const navigation = [
 			{
@@ -125,32 +154,56 @@
 			}
 		];
 
-		if (result.value?.extra_informations?.produced?.length) {
+		if (produced.value.length) {
 			navigation.push({
-				label: 'Produced By',
+				label: `Produced By (${produced.value.length})`,
 				to: `/show/${params.id}/itemDescriptor/produced-by`
 			});
 		}
 
-		if (result.value?.extra_informations?.produced?.length) {
+		if (consumed.value.length) {
 			navigation.push({
-				label: 'Consumed From',
+				label: `Consumed From (${consumed.value.length})`,
 				to: `/show/${params.id}/itemDescriptor/consumed-from`
+			});
+		}
+
+		if (buildables.value.length) {
+			navigation.push({
+				label: `Buildabled (${buildables.value.length})`,
+				to: `/show/${params.id}/itemDescriptor/buildables`
 			});
 		}
 
 		return navigation;
 	});
+
+	const all = computed(() => {
+		switch (params.page) {
+			case 'produced-by':
+				return produced.value;
+			case 'buildables':
+				return buildables.value;
+			case 'consumed-from':
+				return consumed.value;
+			default:
+				return [];
+		}
+	});
+	const show = ref(all.value.slice(0, 7));
+	function onLoadMore() {
+		show.value.push(...all.value.slice(show.value.length, show.value.length + 1));
+	}
 </script>
 
 <template>
-	<div class="flex flex-col gap-2">
+	<div class="flex h-full w-full flex-col overflow-hidden">
 		<DataPageHeader v-bind="headerData" />
 		<UHorizontalNavigation
 			:links="navigation"
 			class="border-b border-gray-200 dark:border-gray-800" />
 
-		<div v-if="!params.page" class="flex flex-col gap-2">
+		<div v-if="!params.page" class="flex flex-col gap-2 overflow-auto">
 			<UAlert
 				icon="i-heroicons-information-circle"
 				color="primary"
@@ -164,18 +217,16 @@
 			</UAlert>
 		</div>
 
-		<div v-if="params.page === 'produced-by'" class="flex flex-col gap-2">
-			<DataItemCostSlot
-				v-for="(data, idx) in result!.extra_informations.consumed"
-				:key="idx"
-				:data="data" />
-		</div>
-
-		<div v-if="params.page === 'consumed-from'" class="flex flex-col gap-2">
-			<DataItemCostSlot
-				v-for="(data, idx) in result!.extra_informations.produced"
-				:key="idx"
-				:data="data" />
+		<div
+			v-if="
+				params.page === 'produced-by' ||
+				params.page === 'consumed-from' ||
+				params.page === 'buildables'
+			"
+			ref="elProduced"
+			v-infinite-scroll="[onLoadMore, { distance: 500 }]"
+			class="flex flex-col gap-2 overflow-y-auto p-2 ps-0">
+			<DataItemCostSlot v-for="(data, idx) in show" :key="idx" :data="data" />
 		</div>
 	</div>
 </template>
