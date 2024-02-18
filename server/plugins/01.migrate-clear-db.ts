@@ -16,7 +16,8 @@ import {
 	schematics,
 	schematicsCosts,
 	startMat,
-	startMigrate
+	startMigrate,
+	startView
 } from '~/server/db';
 import { log } from '~/utils/logger';
 import { merge, startReadingData } from '../db/handler';
@@ -47,6 +48,7 @@ export default defineNitroPlugin(async () => {
 		await db.delete(mapping);
 
 		log('info', `Finished clearing database!`);
+		await startView();
 		await startReadingData();
 	}
 

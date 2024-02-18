@@ -88,7 +88,7 @@ jobs:
                       cd /home/apps/ 
                       docker compose up -d --no-deps --pull always --build ${{ env.DOCKERNAME }}
                       docker image prune --force
-                      sleep 60
+                      sleep 600
                       docker compose logs ${{ env.DOCKERNAME }}
 
             - name: 'Create Release'

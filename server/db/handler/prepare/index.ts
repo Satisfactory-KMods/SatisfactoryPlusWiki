@@ -137,7 +137,11 @@ export async function prepareCleaner(data: any) {
 export async function prepareSchematic(data: any) {
 	await db
 		.insert(schematics)
-		.values(data)
+		.values({
+			...data,
+			image: data.image ?? data.smallImage,
+			smallImage: data.smallImage ?? data.image
+		})
 		.returning()
 		.then(async (r) => {
 			const d = r.at(0);

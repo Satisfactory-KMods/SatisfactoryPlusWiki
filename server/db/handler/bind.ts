@@ -49,26 +49,26 @@ export async function handleJsonData(data: any, postPrepare: any[]) {
 	}
 }
 
-export async function read(filePath: string) {
+export async function read(filePath: string, postPrepare: any[]) {
 	const paths = await fs.readdir(filePath, { withFileTypes: true });
-	const postPrepare: any[] = [];
 	await Promise.all(
 		paths.map(async (path) => {
 			if (path.isDirectory()) {
-				await read(join(filePath, path.name));
+				return read(join(filePath, path.name), postPrepare);
 			} else if (path.isFile() && path.name.endsWith('.json')) {
 				let data = await fs.readFile(join(filePath, path.name), 'utf-8');
 				if (data.charCodeAt(0) === 0xfeff) {
 					data = data.substr(1);
 				}
-				await handleJsonData(JSON.parse(data), postPrepare);
+				return handleJsonData(JSON.parse(data), postPrepare);
 			}
 		})
 	);
-	await Promise.all(postPrepare.map(bindInformations));
 }
 
 export async function bind() {
-	await read(join(process.cwd(), 'public/sf'));
+	const postPrepare: any[] = [];
+	await read(join(process.cwd(), 'public/sf'), postPrepare);
+	await Promise.all(postPrepare.map(bindInformations));
 	return null;
 }

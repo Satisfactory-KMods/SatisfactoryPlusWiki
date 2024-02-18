@@ -1,4 +1,4 @@
-import { eq, getTableColumns } from 'drizzle-orm';
+import { eq } from 'drizzle-orm';
 import {
 	buildables,
 	cleaner,
@@ -10,7 +10,6 @@ import {
 	researchTreeNodes,
 	researchTreeSchematics
 } from '~/server/db/index';
-import { pgCoalesce } from '~/server/utils/db';
 import { log } from '~/utils/logger/index';
 import { blueprintPathToShort } from '~/utils/utils';
 import { producedIn, recipes, recipesInput, recipesOutput } from '../../schema/recipes';
@@ -21,6 +20,7 @@ import {
 	schematicsCosts
 } from '../../schema/schematics';
 import { wikiElement } from '../../schema/wiki';
+import { viewProducedInBundle } from '../../views/01.producedInBundle';
 import { SFDataType, WikiInformationType } from './../../../../utils/satisfactoryExtractorTypes';
 import { extraInformations } from './../../schema/extraInformations';
 
@@ -249,27 +249,10 @@ export async function tryGetProdElementFromType(type: WikiInformationType) {
 }
 
 export async function getRecipeWithProducedIn(recipePath: string) {
-	const producedInBundle = db.$with('pb').as(
-		db
-			.select({
-				recipe: producedIn.recipePath,
-				data: pgAggTable(buildables).as('data')
-			})
-			.from(producedIn)
-			.leftJoin(buildables, eq(producedIn.buildingPath, buildables.buildingPath))
-			.where(eq(producedIn.recipePath, recipePath))
-			.groupBy(producedIn.recipePath)
-	);
-
 	const result = await db
-		.with(producedInBundle)
-		.select({
-			...getTableColumns(recipes),
-			producedIn: pgCoalesce(producedInBundle.data).as('data')
-		})
-		.from(recipes)
-		.leftJoin(producedInBundle, eq(recipes.path, producedInBundle.recipe))
-		.where(eq(recipes.path, recipePath))
+		.select()
+		.from(viewProducedInBundle)
+		.where(eq(viewProducedInBundle.path, recipePath))
 		.limit(1);
 
 	return result;
@@ -278,6 +261,7 @@ export async function getRecipeWithProducedIn(recipePath: string) {
 export async function bindInformations(data: any) {
 	if (!data.produced.length && !data.consumed.length) return;
 	let { buildingPath: buildablePath, path: itemPath } = data;
+	log('log', 'Binding informations', itemPath, buildablePath);
 
 	if (buildablePath) {
 		buildablePath = itemPath;
@@ -322,13 +306,6 @@ export async function bindInformations(data: any) {
 		const result =
 			(await tryGetProdElementFromType(data.type)) ??
 			(await getRecipeWithProducedIn(data.productionElement).then(async (r) => {
-				if (r.at(0))
-					log(
-						'info',
-						'getRecipeWithProducedIn',
-						data.productionElement,
-						r.at(0)?.producedIn.length
-					);
 				return r.at(0)
 					? { type: 'recipe', data: r.at(0)! }
 					: await db
@@ -368,14 +345,6 @@ export async function bindInformations(data: any) {
 			...data,
 			buildablePath,
 			itemPath
-		})
-		.onConflictDoUpdate({
-			target: [extraInformations.buildablePath, extraInformations.itemPath],
-			set: {
-				...data,
-				buildablePath,
-				itemPath
-			}
 		})
 		.returning()
 		.then((r) => {
