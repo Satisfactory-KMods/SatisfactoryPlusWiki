@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 	import { SFResourceNodePurity, SFResourceNodeType } from '#imports';
 	import L, { CRS, LatLngBounds } from 'leaflet';
-	import cloneDeep from 'lodash/cloneDeep';
+	import _ from 'lodash';
 	import type { ResourceMapData } from '~/server/api/resource-map/data.get';
 	import { log } from '~/utils/logger';
 	import type { SecondGeneric } from '~/utils/typeUtils';
@@ -387,7 +387,7 @@
 		purity: SFResourceNodePurity
 	) {
 		const copy = {
-			value: cloneDeep(selectedPurs.value)
+			value: _.cloneDeep(selectedPurs.value)
 		};
 		for (const type of Object.keys(selectOptions[key])) {
 			const idx = copy.value.findIndex(([k, , t]) => {
@@ -465,7 +465,7 @@
 		const idx = selectedPurs.value.findIndex(([k, , t]) => {
 			return k === key && type === t;
 		});
-		const item = cloneDeep(selectedPurs.value[idx]);
+		const item = _.cloneDeep(selectedPurs.value[idx]);
 		if (item) {
 			if (item[1].includes(purity)) {
 				if (force && typeof force !== 'undefined') return;
@@ -482,7 +482,7 @@
 					return !(k === key && type === t);
 				});
 			} else {
-				const copy = cloneDeep(selectedPurs.value);
+				const copy = _.cloneDeep(selectedPurs.value);
 				copy[idx] = item;
 				selectedPurs.value = copy;
 			}

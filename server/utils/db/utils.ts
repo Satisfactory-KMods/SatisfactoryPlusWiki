@@ -19,6 +19,13 @@ export function pgCaseNull<T extends SQLWrapper, D extends SQLWrapper = SQL<numb
 	return sql<any>`case when ${condition} is null then ${then ?? sql.raw('0')} else ${condition} end`;
 }
 
+export function pgCoalesce<T extends InferExtendsTypes>(
+	statement: T,
+	otherwise = "'[]'::json"
+): SQL<InferDynamic<T>> {
+	return sql<any>`coalesce(${statement}, ${sql.raw(otherwise)})`;
+}
+
 export function pgCase<T extends InferExtendsTypes, D extends InferExtendsTypes>(
 	condition: SQLWrapper,
 	then: T,

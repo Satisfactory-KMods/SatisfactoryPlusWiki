@@ -1,4 +1,4 @@
-import { eq, getTableColumns, isNotNull, sql } from 'drizzle-orm';
+import { eq, getTableColumns } from 'drizzle-orm';
 import {
 	buildables,
 	cleaner,
@@ -10,6 +10,7 @@ import {
 	researchTreeNodes,
 	researchTreeSchematics
 } from '~/server/db/index';
+import { pgCoalesce } from '~/server/utils/db';
 import { log } from '~/utils/logger/index';
 import { blueprintPathToShort } from '~/utils/utils';
 import { producedIn, recipes, recipesInput, recipesOutput } from '../../schema/recipes';
@@ -260,20 +261,18 @@ export async function getRecipeWithProducedIn(recipePath: string) {
 			.groupBy(producedIn.recipePath)
 	);
 
-	return await db
+	const result = await db
 		.with(producedInBundle)
 		.select({
 			...getTableColumns(recipes),
-			producedIn: pgCase(
-				isNotNull(producedInBundle.data),
-				producedInBundle.data,
-				sql`'[]'::json`
-			).as('data') as typeof producedInBundle.data
+			producedIn: pgCoalesce(producedInBundle.data).as('data')
 		})
 		.from(recipes)
 		.leftJoin(producedInBundle, eq(recipes.path, producedInBundle.recipe))
 		.where(eq(recipes.path, recipePath))
 		.limit(1);
+
+	return result;
 }
 
 export async function bindInformations(data: any) {
@@ -323,8 +322,15 @@ export async function bindInformations(data: any) {
 		const result =
 			(await tryGetProdElementFromType(data.type)) ??
 			(await getRecipeWithProducedIn(data.productionElement).then(async (r) => {
+				if (r.at(0))
+					log(
+						'info',
+						'getRecipeWithProducedIn',
+						data.productionElement,
+						r.at(0)?.producedIn.length
+					);
 				return r.at(0)
-					? { type: 'recipe', data: r.at(0) }
+					? { type: 'recipe', data: r.at(0)! }
 					: await db
 							.select()
 							.from(buildables)
@@ -362,6 +368,14 @@ export async function bindInformations(data: any) {
 			...data,
 			buildablePath,
 			itemPath
+		})
+		.onConflictDoUpdate({
+			target: [extraInformations.buildablePath, extraInformations.itemPath],
+			set: {
+				...data,
+				buildablePath,
+				itemPath
+			}
 		})
 		.returning()
 		.then((r) => {

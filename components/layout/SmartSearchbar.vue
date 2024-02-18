@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 	import type { ApiSearchResponse } from '~/server/api/search.get';
-	import cloneDeep from 'lodash/cloneDeep';
+	import _ from 'lodash';
 
 	const display = ref(false);
 	const inputRef = ref();
@@ -8,7 +8,7 @@
 	const { input, output: search } = useRefDelay('', doSearch, 500);
 
 	function getDefaults() {
-		return cloneDeep<ApiSearchResponse>({
+		return _.cloneDeep<ApiSearchResponse>({
 			item: {
 				count: 0,
 				result: [],
@@ -56,9 +56,11 @@
 			results.value = getDefaults();
 			return;
 		}
-		results.value = await $fetch('/api/search', { query: { search: input.value } }).catch(() => {
-			return getDefaults();
-		});
+		results.value = await $fetch('/api/search', { query: { search: input.value } }).catch(
+			() => {
+				return getDefaults();
+			}
+		);
 	}
 
 	const showPopover = computed(() => {
@@ -88,7 +90,12 @@
 <template>
 	<form class="flex items-center gap-2" @submit.prevent="submitSearch">
 		<div class="relative">
-			<UInput ref="inputRef" v-model="input" color="gray" variant="outline" placeholder="Search...">
+			<UInput
+				ref="inputRef"
+				v-model="input"
+				color="gray"
+				variant="outline"
+				placeholder="Search...">
 				<template #trailing>
 					<span class="text-xs text-gray-500 dark:text-gray-400">
 						<UIcon name="i-heroicons-magnifying-glass" />
@@ -107,28 +114,42 @@
 									class="font-semibolt rounded border bg-gray-100 p-1 py-1 text-center text-lg hover:bg-gray-200 dark:border-gray-950 dark:bg-gray-800 hover:dark:bg-gray-700">
 									Items
 								</div>
-								<LayoutSmartSearchBarElement v-for="e in results.item.result" :key="e.id" :data="e" />
+								<LayoutSmartSearchBarElement
+									v-for="e in results.item.result"
+									:key="e.id"
+									:data="e" />
 							</div>
 							<div v-if="!!results.building.count" class="flex h-full flex-col gap-1">
 								<div
 									class="font-semibolt rounded border bg-gray-100 p-1 py-1 text-center text-lg hover:bg-gray-200 dark:border-gray-950 dark:bg-gray-800 hover:dark:bg-gray-700">
 									Buildings
 								</div>
-								<LayoutSmartSearchBarElement v-for="e in results.building.result" :key="e.id" :data="e" />
+								<LayoutSmartSearchBarElement
+									v-for="e in results.building.result"
+									:key="e.id"
+									:data="e" />
 							</div>
-							<div v-if="!!results.schematic.count" class="flex h-full flex-col gap-1">
+							<div
+								v-if="!!results.schematic.count"
+								class="flex h-full flex-col gap-1">
 								<div
 									class="font-semibolt rounded border bg-gray-100 p-1 py-1 text-center text-lg hover:bg-gray-200 dark:border-gray-950 dark:bg-gray-800 hover:dark:bg-gray-700">
 									Schematics
 								</div>
-								<LayoutSmartSearchBarElement v-for="e in results.schematic.result" :key="e.id" :data="e" />
+								<LayoutSmartSearchBarElement
+									v-for="e in results.schematic.result"
+									:key="e.id"
+									:data="e" />
 							</div>
 							<div v-if="!!results.recipe.count" class="flex h-full flex-col gap-1">
 								<div
 									class="font-semibolt rounded border bg-gray-100 p-1 py-1 text-center text-lg hover:bg-gray-200 dark:border-gray-950 dark:bg-gray-800 hover:dark:bg-gray-700">
 									Recipes
 								</div>
-								<LayoutSmartSearchBarElement v-for="e in results.recipe.result" :key="e.id" :data="e" />
+								<LayoutSmartSearchBarElement
+									v-for="e in results.recipe.result"
+									:key="e.id"
+									:data="e" />
 							</div>
 						</div>
 					</template>

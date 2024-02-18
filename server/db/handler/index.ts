@@ -1,5 +1,5 @@
 import { eq, inArray, sql } from 'drizzle-orm';
-import cloneDeep from 'lodash/cloneDeep';
+import _ from 'lodash';
 import { buildables, db, items } from '~/server/db/index';
 import { log } from '~/utils/logger';
 import { bind } from './bind';
@@ -47,7 +47,7 @@ export async function merge() {
 	await Promise.all(
 		foundItems.map(async (i) => {
 			log('info', `Merging: ${i.name}`);
-			const item = cloneDeep(i);
+			const item = _.cloneDeep(i);
 			if (item.itemTypeInformation.type === 'miner') {
 				if (item.itemTypeInformation.neededModules.length) {
 					item.itemTypeInformation.neededModules = await db

@@ -1,6 +1,5 @@
 import type { RouteParamsRaw } from '#vue-router';
-import cloneDeep from 'lodash/cloneDeep';
-import isEqual from 'lodash/isEqual';
+import { cloneDeep, isEqual } from 'lodash';
 
 /**
  * Reactively watch the params of the current route

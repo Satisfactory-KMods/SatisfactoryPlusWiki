@@ -7,4 +7,10 @@ export type ItemDisplay = {
 	form: SFItemForm;
 };
 
+export type CummonDisplayBox = {
+	to: string | null;
+	label: string;
+	image: string | null;
+};
+
 export {};

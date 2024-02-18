@@ -3,6 +3,7 @@
 	import { slugDayTimeToString, uePercentToPercent } from '~/utils/satisfactoryExtractorTypes';
 	import { replaceFromRecord } from '~/utils/utils';
 	import { vInfiniteScroll } from '#imports';
+	import type { ItemDataResult } from '~/server/api/data/[shortPath]/item.get';
 
 	const { params } = useParams({
 		id: String(),
@@ -178,22 +179,47 @@
 		return navigation;
 	});
 
+	const input = ref('');
 	const all = computed(() => {
+		let data: ItemDataResult['extra_informations']['produced'] = [];
 		switch (params.page) {
 			case 'produced-by':
-				return produced.value;
+				data = produced.value;
+				break;
 			case 'buildables':
-				return buildables.value;
+				data = buildables.value;
+				break;
 			case 'consumed-from':
-				return consumed.value;
+				data = consumed.value;
+				break;
 			default:
 				return [];
 		}
+
+		if (input.value.trim().length > 0) {
+			return data.filter((e) => {
+				return !!e.productionElement?.data.name
+					.toLowerCase()
+					.includes(input.value.toLowerCase());
+			});
+		}
+		return data;
 	});
 	const show = ref(all.value.slice(0, 7));
 	function onLoadMore() {
 		show.value.push(...all.value.slice(show.value.length, show.value.length + 1));
 	}
+
+	watch(
+		() => {
+			return [input.value];
+		},
+		async () => {
+			await nextTick();
+			console.log('input changed');
+			show.value = all.value.slice(0, 7);
+		}
+	);
 </script>
 
 <template>
@@ -203,7 +229,7 @@
 			:links="navigation"
 			class="border-b border-gray-200 dark:border-gray-800" />
 
-		<div v-if="!params.page" class="flex flex-col gap-2 overflow-auto">
+		<div v-if="!params.page" class="flex flex-col gap-2 overflow-auto p-2">
 			<UAlert
 				icon="i-heroicons-information-circle"
 				color="primary"
@@ -217,16 +243,31 @@
 			</UAlert>
 		</div>
 
-		<div
+		<template
 			v-if="
 				params.page === 'produced-by' ||
 				params.page === 'consumed-from' ||
 				params.page === 'buildables'
-			"
-			ref="elProduced"
-			v-infinite-scroll="[onLoadMore, { distance: 500 }]"
-			class="flex flex-col gap-2 overflow-y-auto p-2 ps-0">
-			<DataItemCostSlot v-for="(data, idx) in show" :key="idx" :data="data" />
-		</div>
+			">
+			<UInput
+				ref="inputRef"
+				v-model="input"
+				color="gray"
+				variant="outline"
+				class="my-1"
+				placeholder="Search...">
+				<template #trailing>
+					<span class="text-xs text-gray-500 dark:text-gray-400">
+						<UIcon name="i-heroicons-magnifying-glass" />
+					</span>
+				</template>
+			</UInput>
+			<div
+				ref="elProduced"
+				v-infinite-scroll="[onLoadMore, { distance: 500 }]"
+				class="flex flex-col gap-2 overflow-y-auto p-2 ps-0">
+				<DataItemCostSlot v-for="(data, idx) in show" :key="idx" :data="data" />
+			</div>
+		</template>
 	</div>
 </template>
