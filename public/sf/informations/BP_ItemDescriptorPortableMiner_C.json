@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_PortableMiner.Recipe_PortableMiner_C",
@@ -35,12 +36,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1.SF+_Schematic_Tutorial1_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/AutomaticMiner/Alternative_AutomaticMiner.Alternative_AutomaticMiner_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1.SF+_Schematic_Tutorial1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/AutomaticMiner/Recipe_Alternative_AutomaticMiner.Recipe_Alternative_AutomaticMiner_C",
@@ -65,7 +66,6 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1.SF+_Schematic_Tutorial1_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/AutomaticMiner/Alternative_AutomaticMiner.Alternative_AutomaticMiner_C"
 			]
 		}
@@ -73,6 +73,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_Module_Drill_T1.Recipe_Module_Drill_T1_C",
@@ -102,12 +103,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1.SF+_Schematic_Tutorial1_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/AutomaticMiner/Alternative_AutomaticMiner.Alternative_AutomaticMiner_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial4.SF+_Schematic_Tutorial4_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_Module_Crusher.Recipe_Module_Crusher_C",
@@ -147,12 +148,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1.SF+_Schematic_Tutorial1_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/AutomaticMiner/Alternative_AutomaticMiner.Alternative_AutomaticMiner_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_4.Schematic_Trees_Cryolit_3_4_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_Module_Drill_T2.Recipe_Module_Drill_T2_C",
@@ -187,12 +188,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1.SF+_Schematic_Tutorial1_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/AutomaticMiner/Alternative_AutomaticMiner.Alternative_AutomaticMiner_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_3.Schematic_SF+_4_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/SatisfactoryPlus/Content/BuildingRecipes/Recipe_SF+_Module_Drill_T3.Recipe_SF+_Module_Drill_T3_C",
@@ -237,8 +238,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1.SF+_Schematic_Tutorial1_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/AutomaticMiner/Alternative_AutomaticMiner.Alternative_AutomaticMiner_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_1.Schematic_SF+_8_1_C"
 			]
 		}
 	],

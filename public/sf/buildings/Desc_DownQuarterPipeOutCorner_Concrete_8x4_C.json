@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_DownQuarterPipe_ConcreteOutCorner_8x4.Recipe_DownQuarterPipe_ConcreteOutCorner_8x4_C",
@@ -34,11 +35,7 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_Concrete_FoundationMaterial.ResourceSink_Customizer_Concrete_FoundationMaterial_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_CurvedFoundationPack.ResourceSink_CurvedFoundationPack_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_QuarterPipes_Concrete.CBG_QuarterPipes_Concrete_C"
-			]
+			"schematics": []
 		}
 	],
 	"produced": [],

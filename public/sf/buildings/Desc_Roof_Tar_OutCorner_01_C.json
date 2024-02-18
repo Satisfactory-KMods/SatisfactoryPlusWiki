@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Tar_OutCorner_01.Recipe_Roof_Tar_OutCorner_01_C",
@@ -34,10 +35,7 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_TarRoofMaterial.ResourceSink_Customizer_TarRoofMaterial_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Roofs_Corners_Tar.CBG_Roofs_Corners_Tar_C"
-			]
+			"schematics": []
 		}
 	],
 	"produced": [],

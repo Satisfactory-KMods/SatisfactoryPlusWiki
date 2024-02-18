@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 5,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Buildings/Cleaner/Build_Cleaner2.Build_Cleaner2_C",
@@ -58,6 +59,7 @@
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Sorter/Recipe_Sorter_T1_Rubyte.Recipe_Sorter_T1_Rubyte_C",
@@ -87,14 +89,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Sorter/PureSortedTin/Alternative_PureSortedTin.Alternative_PureSortedTin_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_2.Schematic_SF+_6_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Sorter/PureSortedTin/Recipe_Alternative_PureSortedTin.Recipe_Alternative_PureSortedTin_C",
@@ -124,14 +124,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Sorter/PureSortedTin/Alternative_PureSortedTin.Alternative_PureSortedTin_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_2.Schematic_SF+_6_2_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Sorter/PureSortedTin/Alternative_PureSortedTin.Alternative_PureSortedTin_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Sorter/Recipe_Sorter_T2_Rubyte.Recipe_Sorter_T2_Rubyte_C",
@@ -171,14 +169,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Sorter/PureSortedTin/Alternative_PureSortedTin.Alternative_PureSortedTin_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_2.Schematic_SF+_6_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Sorter/Recipe_Sorter_T2_Satmonium.Recipe_Sorter_T2_Satmonium_C",
@@ -218,9 +214,6 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Sorter/PureSortedTin/Alternative_PureSortedTin.Alternative_PureSortedTin_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_2.Schematic_SF+_6_2_C"
 			]
 		}
@@ -228,6 +221,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Sorted_TinIngots.Recipe_Smelter_Sorted_TinIngots_C",
@@ -247,14 +241,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Sorter/PureSortedTin/Alternative_PureSortedTin.Alternative_PureSortedTin_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_2.Schematic_SF+_6_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_Mixture_ZincTin.Recipe_Crusher_Mixture_ZincTin_C",
@@ -279,14 +271,13 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Sorter/PureSortedTin/Alternative_PureSortedTin.Alternative_PureSortedTin_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_2.Schematic_SF+_6_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Simple/Recipe_FBFS_Simple_Tin.Recipe_FBFS_Simple_Tin_C",
@@ -311,14 +302,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Sorter/PureSortedTin/Alternative_PureSortedTin.Alternative_PureSortedTin_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_2.Schematic_SF+_6_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Foundery/TinnedIron/Recipe_Alternative_TinnedIron.Recipe_Alternative_TinnedIron_C",
@@ -343,14 +332,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Sorter/PureSortedTin/Alternative_PureSortedTin.Alternative_PureSortedTin_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_2.Schematic_SF+_6_2_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Foundery/TinnedIron/Alternative_TinnedIron.Alternative_TinnedIron_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Foundery/Recipe_Foundery_SaltedTin.Recipe_Foundery_SaltedTin_C",
@@ -375,14 +362,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Sorter/PureSortedTin/Alternative_PureSortedTin.Alternative_PureSortedTin_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_2.Schematic_SF+_6_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_4_2.Schematic_Trees_Cryolit_4_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Wascher/Recipe_Wasching_Tin.Recipe_Wasching_Tin_C",
@@ -411,12 +396,7 @@
 					"amount": 1500
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Sorter/PureSortedTin/Alternative_PureSortedTin.Alternative_PureSortedTin_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_2.Schematic_SF+_6_2_C"
-			]
+			"schematics": []
 		}
 	],
 	"dataType": "informations"

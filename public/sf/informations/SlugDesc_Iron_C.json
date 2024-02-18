@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 11,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Buildings/SlugHatching/Desc/Eggs/EggDesc_Iron.EggDesc_Iron_C",
@@ -40,6 +41,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Composter/Recipe_Mineral_Iron.Recipe_Mineral_Iron_C",
@@ -58,10 +60,13 @@
 					"amount": 1000
 				}
 			],
-			"schematics": []
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_5_NEW.Schematic_Trees_Slugs_3_5_NEW_C"
+			]
 		},
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 12,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Iron.SlugDesc_Iron_C",

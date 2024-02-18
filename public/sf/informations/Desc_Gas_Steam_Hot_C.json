@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 1,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Boiler/SF+_Build_RP_MP_BoilerMk1.SF+_Build_RP_MP_BoilerMk1_C",
@@ -36,6 +37,7 @@
 		},
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 1,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Boiler/SF+_Build_RP_MP_BoilerMk2.SF+_Build_RP_MP_BoilerMk2_C",
@@ -61,6 +63,7 @@
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Parts/Packaged/Recipes/UnPackaged/Recipe_UnPackaged_Gas_Steam_Hot.Recipe_UnPackaged_Gas_Steam_Hot_C",
@@ -84,15 +87,13 @@
 					"amount": 2000
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
-			]
+			"schematics": []
 		}
 	],
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Parts/Packaged/Recipes/Packaged/Recipe_Packaged_Gas_Steam_Hot.Recipe_Packaged_Gas_Steam_Hot_C",
@@ -116,13 +117,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 2,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Turbinen/SF+_Build_RP_MP_TurbineMk1.SF+_Build_RP_MP_TurbineMk1_C",
@@ -148,6 +147,7 @@
 		},
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 2,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Turbinen/SF+_Build_RP_MP_TurbineMk2.SF+_Build_RP_MP_TurbineMk2_C",
@@ -173,6 +173,7 @@
 		},
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 4,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Atmosphere/SF+_Build_RP_MP_SteamCooler.SF+_Build_RP_MP_SteamCooler_C",

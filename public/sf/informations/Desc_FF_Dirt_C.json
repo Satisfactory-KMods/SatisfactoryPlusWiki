@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 6,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/ExtractDesc/Miner/ExtractDesc_Dirt.ExtractDesc_Dirt_C",
@@ -36,6 +37,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/FicsitFarming/Buildings/Plots/CropPlot/Recipe_FF_CropPlot.Recipe_FF_CropPlot_C",
@@ -70,11 +72,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Scanning_Dirt.Schematic_Tree_Farming_Scanning_Dirt_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/FicsitFarming/Buildings/Plots/TreePlot/Recipe_FF_TreePlot.Recipe_FF_TreePlot_C",
@@ -109,11 +112,13 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Scanning_Dirt.Schematic_Tree_Farming_Scanning_Dirt_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_FertDirtFarming.Schematic_Tree_Farming_FertDirtFarming_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/FicsitFarming/Buildings/Plots/FlowerPlot/Recipe_FF_FlowerPlot.Recipe_FF_FlowerPlot_C",
@@ -148,11 +153,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Scanning_Dirt.Schematic_Tree_Farming_Scanning_Dirt_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/FicsitFarming/Buildings/Plots/MyceliaPlot/Recipe_FF_MyceliaPlot.Recipe_FF_MyceliaPlot_C",
@@ -187,11 +193,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Scanning_Dirt.Schematic_Tree_Farming_Scanning_Dirt_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/SatisfactoryPlus/Content/BuildingRecipes/Slugs/Recipe_SlugTerrarium.Recipe_SlugTerrarium_C",
@@ -231,11 +238,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Scanning_Dirt.Schematic_Tree_Farming_Scanning_Dirt_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_2_NEW.Schematic_Trees_Slugs_3_2_NEW_C"
 			]
 		},
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 10,
 			"buildingRecipe": false,
 			"productionElement": "/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt.Desc_FF_Dirt_C",

@@ -1,7 +1,7 @@
 ﻿{
 	"path": "/KLib/Assets/Parts/Packaged/Recipes/Packaged/Recipe_Packaged_CausticSoda.Recipe_Packaged_CausticSoda_C",
 	"name": "Packaged Caustic Soda ",
-	"image": "/KLib/Assets/Parts/Packaged/Items/Acid/UI/Icon_PCausticSoda.Icon_PCausticSoda",
+	"image": "/KLib/Assets/Parts/Production/PackedSoda/Icon_PackedSoda.Icon_PackedSoda",
 	"input": [
 		{
 			"item": "/Game/FactoryGame/Resource/Parts/FluidCanister/Desc_FluidCanister.Desc_FluidCanister_C",
@@ -24,10 +24,7 @@
 	"producedIn": [
 		"/AB_FluidExtras/FluidPacker/Build_AB_FluidPacker.Build_AB_FluidPacker_C"
 	],
-	"schematics": [
-		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1_0.Schematic_SF+_7_1_0_C"
-	],
+	"schematics": [],
 	"isAlternate": false,
 	"dataType": "recipe"
 }

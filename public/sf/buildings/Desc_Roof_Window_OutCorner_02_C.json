@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Window_OutCorner_02.Recipe_Roof_Window_OutCorner_02_C",
@@ -34,10 +35,7 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_GlassRoofMaterial.ResourceSink_Customizer_GlassRoofMaterial_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Roofs_Corners_Glass.CBG_Roofs_Corners_Glass_C"
-			]
+			"schematics": []
 		}
 	],
 	"produced": [],

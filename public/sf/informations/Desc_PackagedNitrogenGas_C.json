@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Packager/Recipe_PackagedNitrogen.Recipe_PackagedNitrogen_C",
@@ -34,14 +35,13 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_3_0.Schematic_SF+_7_3_0_C"
-			]
+			"schematics": []
 		}
 	],
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Packager/Recipe_UnpackageNitrogen.Recipe_UnpackageNitrogen_C",
@@ -65,9 +65,7 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_3_0.Schematic_SF+_7_3_0_C"
-			]
+			"schematics": []
 		}
 	],
 	"dataType": "informations"

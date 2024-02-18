@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_InvertedRamp_Asphalt_8x1.Recipe_InvertedRamp_Asphalt_8x1_C",
@@ -44,10 +45,7 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_Asphalt_FoundationMaterial.ResourceSink_Customizer_Asphalt_FoundationMaterial_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Ramps_Inverted_Asphalt.CBG_Ramps_Inverted_Asphalt_C"
-			]
+			"schematics": []
 		}
 	],
 	"produced": [],

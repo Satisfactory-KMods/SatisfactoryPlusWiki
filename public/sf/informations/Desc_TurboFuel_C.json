@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_PackagedTurboFuel.Recipe_PackagedTurboFuel_C",
@@ -34,15 +35,13 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Alternative_TurboFuel_0.Alternative_TurboFuel_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Alternative_TurboFuel_1.Alternative_TurboFuel_1_C"
-			]
+			"schematics": []
 		}
 	],
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_UnpackageTurboFuel.Recipe_UnpackageTurboFuel_C",
@@ -66,13 +65,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Alternative_TurboFuel_0.Alternative_TurboFuel_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Alternative_TurboFuel_1.Alternative_TurboFuel_1_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_RilfleMuni_Turbo.Recipe_Manu_RilfleMuni_Turbo_C",
@@ -107,8 +104,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Alternative_TurboFuel_0.Alternative_TurboFuel_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Alternative_TurboFuel_1.Alternative_TurboFuel_1_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_5_5.Schematic_Trees_Sulfur_5_5_C"
 			]
 		}
 	],

@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/FicsitFarming/Buildings/Plots/TreePlot/Recipe_FF_TreePlot.Recipe_FF_TreePlot_C",
@@ -53,6 +54,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_Banana.Recipe_SF+_Crop_Banana_C",
@@ -77,12 +79,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_FertDirtFarming.Schematic_Tree_Farming_FertDirtFarming_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_FertDirtFarming.Schematic_Tree_Farming_FertDirtFarming_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_Banana2.Recipe_SF+_Alt_Crop_Banana2_C",
@@ -111,13 +113,11 @@
 					"amount": 5
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_FertDirtFarming.Schematic_Tree_Farming_FertDirtFarming_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_Banana.Recipe_SF+_Alt_Crop_Banana_C",
@@ -146,13 +146,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_FertDirtFarming.Schematic_Tree_Farming_FertDirtFarming_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_Apple.Recipe_SF+_Crop_Apple_C",
@@ -177,12 +175,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_FertDirtFarming.Schematic_Tree_Farming_FertDirtFarming_C",
 				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_Apple.Recipe_SF+_Alt_Crop_Apple_C",
@@ -211,13 +209,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_FertDirtFarming.Schematic_Tree_Farming_FertDirtFarming_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_Apple2.Recipe_SF+_Alt_Crop_Apple2_C",
@@ -246,10 +242,7 @@
 					"amount": 5
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_FertDirtFarming.Schematic_Tree_Farming_FertDirtFarming_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C"
-			]
+			"schematics": []
 		}
 	],
 	"dataType": "buildings"

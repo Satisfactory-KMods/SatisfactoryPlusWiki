@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 10,
 			"buildingRecipe": false,
 			"productionElement": "/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt_Fertilized.Desc_FF_Dirt_Fertilized_C",
@@ -45,6 +46,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_YosseBerry.Recipe_SF+_Crop_YosseBerry_C",
@@ -68,10 +70,13 @@
 					"amount": 1
 				}
 			],
-			"schematics": []
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_FertDirtFarming.Schematic_Tree_Farming_FertDirtFarming_C"
+			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_YosseBerry2.Recipe_SF+_Alt_Crop_YosseBerry2_C",
@@ -104,6 +109,7 @@
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_YosseBerry.Recipe_SF+_Alt_Crop_YosseBerry_C",

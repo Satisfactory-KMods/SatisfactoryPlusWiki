@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Flowers.Recipe_SF+_Flowers_C",
@@ -35,13 +36,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Water.Hidden_Farming_FertDirt_Water_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Fert.Hidden_Farming_FertDirt_Fert_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Flowers2.Recipe_SF+_Flowers2_C",
@@ -70,14 +70,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Water.Hidden_Farming_FertDirt_Water_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Fert.Hidden_Farming_FertDirt_Fert_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Flowers3.Recipe_SF+_Alt_Flowers3_C",
@@ -106,16 +103,13 @@
 					"amount": 5
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Water.Hidden_Farming_FertDirt_Water_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Fert.Hidden_Farming_FertDirt_Fert_C"
-			]
+			"schematics": []
 		}
 	],
 	"produced": [
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 3,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Heater/SF+_Build_RP_MP_BiomassHeater.SF+_Build_RP_MP_BiomassHeater_C",
@@ -142,6 +136,7 @@
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Composter/FF/Recipe_Compost_Flower_SF+.Recipe_Compost_Flower_SF+_C",
@@ -165,14 +160,11 @@
 					"amount": 1500
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Water.Hidden_Farming_FertDirt_Water_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Fert.Hidden_Farming_FertDirt_Fert_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_ColorCartridge.Recipe_ColorCartridge_C",
@@ -197,9 +189,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Water.Hidden_Farming_FertDirt_Water_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_FertDirt_Fert.Hidden_Farming_FertDirt_Fert_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_3.Schematic_SF+_2_3_C"
 			]
 		}
 	],

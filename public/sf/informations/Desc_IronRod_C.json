@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Constructor/Recipe_IronRod.Recipe_IronRod_C",
@@ -29,13 +30,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Recipe_Alternative_CastedIronRods.Recipe_Alternative_CastedIronRods_C",
@@ -65,7 +64,6 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
 			]
 		}
@@ -73,6 +71,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_WorkBench.Recipe_WorkBench_C",
@@ -96,13 +95,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_Workshop.Recipe_Workshop_C",
@@ -127,12 +124,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1.SF+_Schematic_Tutorial1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_PortableMiner.Recipe_PortableMiner_C",
@@ -157,12 +154,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1.SF+_Schematic_Tutorial1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_IronWire.Recipe_Constructor_IronWire_C",
@@ -182,12 +179,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1.SF+_Schematic_Tutorial1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C",
@@ -222,12 +219,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_IronScrew.Recipe_Constructor_IronScrew_C",
@@ -247,12 +244,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorPole.Recipe_ConveyorPole_C",
@@ -287,12 +284,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_Module_Drill_T1.Recipe_Module_Drill_T1_C",
@@ -322,12 +319,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial4.SF+_Schematic_Tutorial4_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk1.Recipe_StorageContainerMk1_C",
@@ -357,12 +354,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial4.SF+_Schematic_Tutorial4_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/RefinedPower/Buildables/Factory/AutomatedBiomassGen/Recipe_AutomatedBiomassGen.Recipe_AutomatedBiomassGen_C",
@@ -397,12 +394,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/BuildGun/Recipe_SFP_WindTurbineMk1.Recipe_SFP_WindTurbineMk1_C",
@@ -437,12 +434,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_MetalFrame.Recipe_Assamble_MetalFrame_C",
@@ -467,12 +464,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorPoleStackable.Recipe_ConveyorPoleStackable_C",
@@ -507,12 +504,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_1.Schematic_SF+_1_1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipeSupport.Recipe_PipeSupport_C",
@@ -546,13 +543,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipeSupportStackable.Recipe_PipeSupportStackable_C",
@@ -586,13 +581,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/RefinedPower/Buildables/Factory/ModularPower/MPPlatforms/BoilerPlatform/Recipe_RP_MP_BoilerPlatform.Recipe_RP_MP_BoilerPlatform_C",
@@ -626,13 +619,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/RefinedPower/Buildables/Factory/ModularPower/MPPlatforms/ConverterPlatform/Recipe_RP_MP_ConverterPlatform.Recipe_RP_MP_ConverterPlatform_C",
@@ -666,13 +657,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/RefinedPower/Buildables/Factory/ModularPower/MPPlatforms/CoolingPlatform/Recipe_RP_MP_CoolingPlatform.Recipe_RP_MP_CoolingPlatform_C",
@@ -706,13 +695,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_RebarGun.Recipe_RebarGun_C",
@@ -742,12 +729,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Enemy/Schematic_Trees_Enemy_3_3.Schematic_Trees_Enemy_3_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_SpikedRebar.Recipe_SpikedRebar_C",
@@ -767,12 +754,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Enemy/Schematic_Trees_Enemy_3_3.Schematic_Trees_Enemy_3_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/FicsitFarming/Buildings/Plots/CropPlot/Recipe_FF_CropPlot.Recipe_FF_CropPlot_C",
@@ -807,12 +794,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/FicsitFarming/Resources/Parts/Misc/DoggoCage/Recipe_FF_DoggoCageEmpty.Recipe_FF_DoggoCageEmpty_C",
@@ -837,12 +824,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DoggoLove.Schematic_Tree_Farming_DoggoLove_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/FicsitFarming/Buildings/Plots/TreePlot/Recipe_FF_TreePlot.Recipe_FF_TreePlot_C",
@@ -877,12 +864,13 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_FertDirtFarming.Schematic_Tree_Farming_FertDirtFarming_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/FicsitFarming/Buildings/Plots/FlowerPlot/Recipe_FF_FlowerPlot.Recipe_FF_FlowerPlot_C",
@@ -917,12 +905,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/FicsitFarming/Buildings/Plots/MyceliaPlot/Recipe_FF_MyceliaPlot.Recipe_FF_MyceliaPlot_C",
@@ -957,12 +945,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_WetDirtFarming.Schematic_Tree_Farming_WetDirtFarming_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/FicsitFarming/Buildings/FarmingPlatform/Mk3/Recipe_FF_FarmingPlatformMk3.Recipe_FF_FarmingPlatformMk3_C",
@@ -992,12 +980,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Platform3.Schematic_Tree_Platform3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/SatisfactoryPlus/Content/BuildingRecipes/Slugs/Recipe_SlugHatchery_Mk1_Night.Recipe_SlugHatchery_Mk1_Night_C",
@@ -1037,12 +1025,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_2_2_NEW.Schematic_Trees_Slugs_2_2_NEW_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/SatisfactoryPlus/Content/BuildingRecipes/Slugs/Recipe_SlugHatchery.Recipe_SlugHatchery_C",
@@ -1077,12 +1065,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_1_NEW.Schematic_Trees_Slugs_3_1_NEW_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/SatisfactoryPlus/Content/BuildingRecipes/Slugs/Recipe_SlugHatchery_Mk1_Incubator.Recipe_SlugHatchery_Mk1_Incubator_C",
@@ -1117,12 +1105,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_1_NEW.Schematic_Trees_Slugs_3_1_NEW_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/SatisfactoryPlus/Content/BuildingRecipes/Slugs/Recipe_SlugHatchery_Mk1_Temerature.Recipe_SlugHatchery_Mk1_Temerature_C",
@@ -1162,12 +1150,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_1_NEW.Schematic_Trees_Slugs_3_1_NEW_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/SatisfactoryPlus/Content/BuildingRecipes/Slugs/Recipe_SlugHatchery_Mk1_Humidity.Recipe_SlugHatchery_Mk1_Humidity_C",
@@ -1207,12 +1195,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_1_NEW.Schematic_Trees_Slugs_3_1_NEW_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/SatisfactoryPlus/Content/BuildingRecipes/Slugs/Recipe_SlugTerrarium.Recipe_SlugTerrarium_C",
@@ -1252,12 +1240,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_2_NEW.Schematic_Trees_Slugs_3_2_NEW_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_PoleStand.Recipe_CS_PoleStand_C",
@@ -1297,12 +1285,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_Cs_PoleWall.Recipe_Cs_PoleWall_C",
@@ -1337,12 +1325,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_PoleWallDouble.Recipe_CS_PoleWallDouble_C",
@@ -1377,12 +1365,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_Chainsaw.Recipe_Chainsaw_C",
@@ -1417,12 +1405,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_2.Schematic_SF+_1_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_LookoutTower.Recipe_LookoutTower_C",
@@ -1457,12 +1445,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_3.Schematic_SF+_1_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_StoragePlayer.Recipe_StoragePlayer_C",
@@ -1492,12 +1480,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_4.Schematic_SF+_1_4_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Fence/Recipe_Fence_01.Recipe_Fence_01_C",
@@ -1527,12 +1515,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_FactoryRailing.ResourceSink_FactoryRailing_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Ladder/Recipe_Ladder.Recipe_Ladder_C",
@@ -1557,12 +1545,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_Ladders.ResourceSink_Ladders_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Stairs/Recipe_Stairs_Left_01.Recipe_Stairs_Left_01_C",
@@ -1592,12 +1580,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_Stairs.ResourceSink_Stairs_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Stairs/Recipe_Stairs_Right_01.Recipe_Stairs_Right_01_C",
@@ -1627,12 +1615,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_Stairs.ResourceSink_Stairs_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Vehicle/Recipe_FactoryCart.Recipe_FactoryCart_C",
@@ -1662,12 +1650,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_FactoryCart.ResourceSink_FactoryCart_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Fence/Recipe_Railing_01.Recipe_Railing_01_C",
@@ -1697,12 +1685,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_FactoryFence.ResourceSink_FactoryFence_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorPoleWall.Recipe_ConveyorPoleWall_C",
@@ -1737,12 +1725,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_ConveyorWallMount.ResourceSink_ConveyorWallMount_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_HyperTubeWallSupport.Recipe_HyperTubeWallSupport_C",
@@ -1777,12 +1765,13 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_HyperTubeWallAttachements.ResourceSink_HyperTubeWallAttachements_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_2.Schematic_SF+_4_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_HyperTubeWallHole.Recipe_HyperTubeWallHole_C",
@@ -1817,12 +1806,13 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_HyperTubeWallAttachements.ResourceSink_HyperTubeWallAttachements_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_2.Schematic_SF+_4_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipeSupportWall.Recipe_PipeSupportWall_C",
@@ -1857,12 +1847,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_PipelineWallAttachments.ResourceSink_PipelineWallAttachments_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipeSupportWallHole.Recipe_PipeSupportWallHole_C",
@@ -1897,12 +1887,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_PipelineWallAttachments.ResourceSink_PipelineWallAttachments_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Recipe_FoundationPassthrough_Pipe.Recipe_FoundationPassthrough_Pipe_C",
@@ -1932,12 +1922,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_PipelineFloorHole.ResourceSink_PipelineFloorHole_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KBlueprintDesignPlus/Recipe_BlueprintDesignerMk2.Recipe_BlueprintDesignerMk2_C",
@@ -1977,12 +1967,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_6.Schematic_SF+_2_6_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_HyperPoleStackable.Recipe_HyperPoleStackable_C",
@@ -2017,12 +2007,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_2.Schematic_SF+_4_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipeHyperSupport.Recipe_PipeHyperSupport_C",
@@ -2057,12 +2047,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_2.Schematic_SF+_4_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/RefinedPower/Buildables/Factory/SolarPanelMk1/Recipe_SolarPanel_Mk1.Recipe_SolarPanel_Mk1_C",
@@ -2107,12 +2097,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_6.Schematic_SF+_4_6_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KBlueprintDesignPlus/Recipe_BlueprintDesignerMk3.Recipe_BlueprintDesignerMk3_C",
@@ -2152,12 +2142,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_8.Schematic_SF+_4_8_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/Util_Buildings/WallHole/Recipe_WallHole.Recipe_WallHole_C",
@@ -2192,12 +2182,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Sink_WallBelt.Sink_WallBelt_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_StandaloneWidgetSign_Large.Recipe_StandaloneWidgetSign_Large_C",
@@ -2232,12 +2222,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_BillboardSigns.ResourceSink_BillboardSigns_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_StandaloneWidgetSign_Huge.Recipe_StandaloneWidgetSign_Huge_C",
@@ -2272,12 +2262,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_BillboardSigns.ResourceSink_BillboardSigns_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_PillarMiddle_Concrete.Recipe_PillarMiddle_Concrete_C",
@@ -2307,12 +2297,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_ConcretePillarSet.ResourceSink_ConcretePillarSet_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Pillars/Recipe_Pillar_Small_Concrete.Recipe_Pillar_Small_Concrete_C",
@@ -2342,12 +2332,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_ConcretePillarSet.ResourceSink_ConcretePillarSet_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorCeilingAttachment.Recipe_ConveyorCeilingAttachment_C",
@@ -2377,12 +2367,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_ConveyorCeilingMount.ResourceSink_ConveyorCeilingMount_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Recipe_FoundationPassthrough_Lift.Recipe_FoundationPassthrough_Lift_C",
@@ -2412,12 +2402,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_ConveyorLiftHole.ResourceSink_ConveyorLiftHole_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_StandaloneWidgetSign_Medium.Recipe_StandaloneWidgetSign_Medium_C",
@@ -2452,12 +2442,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_DisplaySigns.ResourceSink_DisplaySigns_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_StandaloneWidgetSign_Portrait.Recipe_StandaloneWidgetSign_Portrait_C",
@@ -2492,12 +2482,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_DisplaySigns.ResourceSink_DisplaySigns_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_StandaloneWidgetSign_Square_Small.Recipe_StandaloneWidgetSign_Square_Small_C",
@@ -2532,12 +2522,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_DisplaySigns.ResourceSink_DisplaySigns_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_StandaloneWidgetSign_Square.Recipe_StandaloneWidgetSign_Square_C",
@@ -2572,12 +2562,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_DisplaySigns.ResourceSink_DisplaySigns_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Fence/Recipe_Concrete_Barrier_01.Recipe_Concrete_Barrier_01_C",
@@ -2607,12 +2597,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_FactoryBarrier.ResourceSink_FactoryBarrier_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Vehicle/Recipe_GoldenCart.Recipe_GoldenCart_C",
@@ -2642,12 +2632,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_GoldenCart.ResourceSink_GoldenCart_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageHazard.Recipe_StorageHazard_C",
@@ -2677,12 +2667,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_HazardBoxSkin.ResourceSink_HazardBoxSkin_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Recipe_FoundationPassthrough_Hypertube.Recipe_FoundationPassthrough_Hypertube_C",
@@ -2712,12 +2702,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_HyperTubeFloorHole.ResourceSink_HyperTubeFloorHole_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_StandaloneWidgetSign_Small.Recipe_StandaloneWidgetSign_Small_C",
@@ -2752,12 +2742,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_LabelSigns.ResourceSink_LabelSigns_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_StandaloneWidgetSign_SmallWide.Recipe_StandaloneWidgetSign_SmallWide_C",
@@ -2792,12 +2782,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_LabelSigns.ResourceSink_LabelSigns_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_StandaloneWidgetSign_SmallVeryWide.Recipe_StandaloneWidgetSign_SmallVeryWide_C",
@@ -2832,12 +2822,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_LabelSigns.ResourceSink_LabelSigns_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_StandaloneWidgetSign_Square_Tiny.Recipe_StandaloneWidgetSign_Square_Tiny_C",
@@ -2872,12 +2862,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_LabelSigns.ResourceSink_LabelSigns_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageMedkit.Recipe_StorageMedkit_C",
@@ -2907,12 +2897,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_MedicalBoxSkin.ResourceSink_MedicalBoxSkin_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_BlueprintDesigner.Recipe_BlueprintDesigner_C",
@@ -2952,8 +2942,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedIronParts/Alternative_CastedIronParts.Alternative_CastedIronParts_C"
+				"/Game/FactoryGame/Schematics/Progression/Schematic_4-5.Schematic_4-5_C"
 			]
 		}
 	],

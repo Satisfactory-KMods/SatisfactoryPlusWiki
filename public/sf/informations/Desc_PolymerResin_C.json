@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/OilProcessing/Recipe_ChemReactor_Oil_Desulfurization.Recipe_ChemReactor_Oil_Desulfurization_C",
@@ -52,6 +53,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Weavingmachine/Recipe_Weavingmachine_SyntheticFabric.Recipe_Weavingmachine_SyntheticFabric_C",
@@ -75,9 +77,7 @@
 					"amount": 2
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
-			]
+			"schematics": []
 		}
 	],
 	"dataType": "informations"
