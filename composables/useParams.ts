@@ -1,4 +1,5 @@
 import type { RouteParamsRaw } from '#vue-router';
+import cloneDeep from 'lodash/cloneDeep';
 import isEqual from 'lodash/isEqual';
 
 /**
@@ -17,12 +18,17 @@ import isEqual from 'lodash/isEqual';
 export function useParams<T extends RouteParamsRaw>(defaults: Partial<T>, event = () => {}) {
 	const route = useRoute();
 	const router = useRouter();
-	const params = reactive<T>({ ...defaults, ...(route.params as any) });
-	const onParamsUpdated = ref(event);
 
-	for (const key in defaults) {
-		if (!params[key]) params[key] = defaults[key] as any;
-	}
+	const getDefaultVals = () => {
+		const p: T = cloneDeep(route.params) as any;
+		for (const key in defaults) {
+			if (!p[key]) p[key] = defaults[key] as any;
+		}
+		return p;
+	};
+
+	const params = reactive<T>(getDefaultVals());
+	const onParamsUpdated = ref(event);
 
 	watch(
 		() => {
@@ -56,5 +62,11 @@ export function useParams<T extends RouteParamsRaw>(defaults: Partial<T>, event 
 		updateRoute();
 	}
 
-	return { params: readonly(params), refs: toRefs(params), onParamsUpdated, updateRoute, setParams };
+	return {
+		params: readonly(params),
+		refs: toRefs(params),
+		onParamsUpdated,
+		updateRoute,
+		setParams
+	};
 }

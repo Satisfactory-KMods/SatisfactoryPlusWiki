@@ -1,4 +1,4 @@
-import { eq } from 'drizzle-orm';
+import { eq, getTableColumns, isNotNull, sql } from 'drizzle-orm';
 import {
 	buildables,
 	cleaner,
@@ -260,6 +260,35 @@ export async function tryGetProdElementFromType(type: WikiInformationType) {
 		});
 }
 
+export async function getRecipeWithProducedIn(recipePath: string) {
+	const producedInBundle = db.$with('pb').as(
+		db
+			.select({
+				recipe: producedIn.recipePath,
+				data: pgAggTable(buildables).as('data')
+			})
+			.from(producedIn)
+			.leftJoin(buildables, eq(producedIn.buildingPath, buildables.buildingPath))
+			.where(eq(producedIn.recipePath, recipePath))
+			.groupBy(producedIn.recipePath)
+	);
+
+	return await db
+		.with(producedInBundle)
+		.select({
+			...getTableColumns(recipes),
+			producedIn: pgCase(
+				isNotNull(producedInBundle.data),
+				producedInBundle.data,
+				sql`'[]'::json`
+			).as('data') as typeof producedInBundle.data
+		})
+		.from(recipes)
+		.leftJoin(producedInBundle, eq(recipes.path, producedInBundle.recipe))
+		.where(eq(recipes.path, recipePath))
+		.limit(1);
+}
+
 export async function bindInformations(data: any) {
 	if (!data.produced.length && !data.consumed.length) return;
 	let { buildingPath: buildablePath, path: itemPath } = data;
@@ -306,21 +335,17 @@ export async function bindInformations(data: any) {
 
 		const result =
 			(await tryGetProdElementFromType(data.type)) ??
-			(await db
-				.select()
-				.from(recipes)
-				.where(eq(recipes.path, data.wasteProducer))
-				.then(async (r) => {
-					return r.at(0)
-						? { type: 'recipe', data: r.at(0) }
-						: await db
-								.select()
-								.from(buildables)
-								.where(eq(buildables.buildingPath, data.wasteProducer))
-								.then((r) => {
-									return r.at(0) ? { type: 'buildable', data: r.at(0) } : null;
-								});
-				}));
+			(await getRecipeWithProducedIn(data.productionElement).then(async (r) => {
+				return r.at(0)
+					? { type: 'recipe', data: r.at(0) }
+					: await db
+							.select()
+							.from(buildables)
+							.where(eq(buildables.buildingPath, data.productionElement))
+							.then((r) => {
+								return r.at(0) ? { type: 'buildable', data: r.at(0) } : null;
+							});
+			}));
 		if (result) data.productionElement = result;
 		else data.productionElement = null;
 

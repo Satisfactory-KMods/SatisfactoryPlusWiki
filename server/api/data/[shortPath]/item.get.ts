@@ -1,6 +1,6 @@
 import type { InferReturn, RemoveNullFrom } from '~/utils/typeUtils';
 
-type ItemDataResult = RemoveNullFrom<
+export type ItemDataResult = RemoveNullFrom<
 	InferReturn<typeof getInformationForItem>,
 	'mapping' | 'wiki_element' | 'extra_informations'
 >;

@@ -31,8 +31,8 @@ export const extraInformations = dbSchema.table('extra_informations', {
 	isModul: boolean('is_modul').default(false).notNull(),
 	isHatchery: boolean('is_hatchery').default(false).notNull(),
 	isHatcheryModul: boolean('is_hatchery_modul').default(false).notNull(),
-	consumed: safeJson<SFInformationRow[]>()('consumed_in').default([]),
-	produced: safeJson<SFInformationRow[]>()('produced_in').default([])
+	consumed: safeJson<SFInformationRow[]>()('consumed_in').notNull().default([]),
+	produced: safeJson<SFInformationRow[]>()('produced_in').notNull().default([])
 });
 
 export const extraInformationsRelations = relations(extraInformations, ({ one }) => {

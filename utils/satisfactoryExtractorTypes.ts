@@ -1,6 +1,9 @@
-import { type RecipeSelect, type SchematicSelect } from '~/server/db/index';
+import type { getRecipeWithProducedIn } from '~/server/db/handler/bind/index';
+import { type SchematicSelect } from '~/server/db/index';
 import type { BuildableSelect } from './../server/db/schema/buildables';
 import type { ItemSelect } from './../server/db/schema/items';
+import type { InferReturnArray } from './typeUtils';
+
 export enum SFDataType {
 	buildable = 'buildable',
 	recipe = 'recipe',
@@ -210,7 +213,7 @@ export type SFInformationRow = SFNodeCoordsBase & {
 	type: WikiInformationType;
 	buildingRecipe: boolean;
 	productionElement:
-		| { type: 'recipe'; data: RecipeSelect }
+		| { type: 'recipe'; data: InferReturnArray<typeof getRecipeWithProducedIn> }
 		| { type: 'buildable'; data: BuildableSelect }
 		| null;
 	wasteProducer: BuildableSelect | null;
@@ -227,3 +230,26 @@ export type SFInformationRow = SFNodeCoordsBase & {
 				input: SFInfoItemConsumeAmount[];
 		  }
 	);
+
+export function slugDayTimeToString(dayTime: SFEggDateTime): string {
+	switch (dayTime) {
+		case SFEggDateTime.Any:
+			return 'Any Time';
+		case SFEggDateTime.Day:
+			return 'Day Only (can modify with DayTime Modul)';
+		case SFEggDateTime.Night:
+			return 'Night Only (can modify with DayTime Modul)';
+		default:
+			return 'None';
+	}
+}
+
+export function uePercentToPercent(value: number): number {
+	value *= 100;
+	return Math.round(value * 100) / 100;
+}
+
+export function roundToDec(value: number, len = 2): number {
+	const factor = Math.pow(10, len);
+	return Math.round(value * factor) / factor;
+}

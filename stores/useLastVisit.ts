@@ -31,8 +31,11 @@ export const useLastVisit = defineStore(
 		};
 	},
 	{
+		//persist: {
+		//	storage: persistedState.localStorage
+		//}
 		persist: {
-			storage: persistedState.localStorage
+			paths: ['data']
 		}
 	}
 );

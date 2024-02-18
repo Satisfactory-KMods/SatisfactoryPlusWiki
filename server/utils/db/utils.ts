@@ -19,7 +19,11 @@ export function pgCaseNull<T extends SQLWrapper, D extends SQLWrapper = SQL<numb
 	return sql<any>`case when ${condition} is null then ${then ?? sql.raw('0')} else ${condition} end`;
 }
 
-export function pgCase<T extends SQL, D extends SQL>(condition: SQL, then: T, otherwise: D): SQL<InferDynamic<T> | InferDynamic<D>> {
+export function pgCase<T extends InferExtendsTypes, D extends InferExtendsTypes>(
+	condition: SQLWrapper,
+	then: T,
+	otherwise: D
+): SQL<InferDynamic<T> | InferDynamic<D>> {
 	return sql<any>`case when ${condition} then ${then} else ${otherwise} end`;
 }
 
@@ -40,7 +44,10 @@ export type PgCastTypes<T> = {
 	'jsonb': T;
 };
 
-export function pgCast<T extends SQLWrapper, Key extends keyof PgCastTypes<T>>(statement: T, type: Key): SQL<PgCastTypes<SelectResultField<T>>[Key]> {
+export function pgCast<T extends SQLWrapper, Key extends keyof PgCastTypes<T>>(
+	statement: T,
+	type: Key
+): SQL<PgCastTypes<SelectResultField<T>>[Key]> {
 	return sql<any>`cast(${statement} as ${sql.raw(String(type))})`;
 }
 

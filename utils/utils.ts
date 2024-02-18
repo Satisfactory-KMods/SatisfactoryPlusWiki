@@ -15,7 +15,10 @@ export function blueprintPathToShort(path: string) {
 	return `${modName}-${cache.replace(/_/g, '-')}`.toLowerCase();
 }
 
-export function typeToString(key: string, { suffix, prefix, single = false }: { suffix?: string; prefix?: string; single?: boolean } = {}) {
+export function typeToString(
+	key: string,
+	{ suffix, prefix, single = false }: { suffix?: string; prefix?: string; single?: boolean } = {}
+) {
 	let str = key;
 	switch (key) {
 		case 'item':
@@ -50,4 +53,13 @@ export function typeToString(key: string, { suffix, prefix, single = false }: { 
 	}
 
 	return str;
+}
+
+export function replaceFromRecord(str: string, obj: Record<string, string | number>, bold = true) {
+	return str.replace(/{([^{}]*)}/g, (a: any, b: any) => {
+		const r = obj[b];
+		if (typeof r === 'undefined') return a;
+		if (!bold) return String(r);
+		return `<b>${String(r)}</b>`;
+	});
 }

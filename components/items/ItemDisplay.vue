@@ -57,9 +57,18 @@
 		<div class="relative">
 			<div
 				v-if="showAmount"
-				class="absolute right-1 top-1 rounded-full bg-orange-500 px-1 text-xs font-semibold text-white dark:bg-orange-700">
+				class="absolute right-1 top-1 rounded-full bg-orange-500 p-[0.125rem] px-2 text-xs font-semibold text-white dark:bg-orange-700">
 				<slot name="amount">
 					{{ $props.amount }}
+				</slot>
+			</div>
+
+			<!-- lable on bottom centered -->
+			<div
+				v-if="showItemsPerMinute"
+				class="absolute bottom-1 left-1/2 -translate-x-1/2 transform text-nowrap rounded bg-gray-800 bg-opacity-75 px-2 py-1 text-xs font-semibold text-white dark:bg-gray-700">
+				<slot name="per-minute">
+					{{ $props.perMinute }}{{ !isSolid ? 'm³' : '' }} / min
 				</slot>
 			</div>
 			<NuxtImg
@@ -73,11 +82,6 @@
 					'rounded': isSolid,
 					'rounded-full': !isSolid
 				}" />
-		</div>
-		<div
-			v-if="showItemsPerMinute"
-			class="w-full truncate border-t bg-slate-200 bg-opacity-50 px-2 py-1 text-center dark:border-gray-700 dark:bg-slate-900">
-			<slot name="per-minute"> {{ $props.perMinute }}{{ !isSolid ? 'm³' : '' }} / min </slot>
 		</div>
 	</NuxtLink>
 </template>

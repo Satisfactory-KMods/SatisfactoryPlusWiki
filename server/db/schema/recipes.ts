@@ -109,7 +109,7 @@ export const producedIn = dbSchema.table(
 			.notNull()
 			.references(
 				() => {
-					return buildables.path;
+					return buildables.buildingPath;
 				},
 				{
 					onDelete: 'cascade'

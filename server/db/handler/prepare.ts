@@ -1,6 +1,6 @@
 import fs from 'fs/promises';
 import { join } from 'path';
-import type { Nullish } from '~/utils/logger';
+import { type Nullish } from '~/utils/logger';
 import { SFDataType } from '~/utils/satisfactoryExtractorTypes';
 import {
 	prepareBuildable,

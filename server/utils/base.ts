@@ -1,4 +1,4 @@
-import { and, asc, desc, eq, ilike, isNotNull, not, sql } from 'drizzle-orm';
+import { and, asc, desc, eq, ilike, isNotNull, not, or, sql } from 'drizzle-orm';
 import { buildables, db, items, recipes, researchTree, schematics } from '~/server/db/index';
 import { log } from '~/utils/logger';
 import { wikiElement } from '../db/schema/wiki';
@@ -49,6 +49,8 @@ export async function getSearchResultForTable<
 		| typeof buildables
 		| typeof items
 >(table: T, searchString: string, limit = 5) {
+	searchString = `%${searchString}%`;
+
 	const result = await db
 		.select({
 			name: table.name,
@@ -64,7 +66,14 @@ export async function getSearchResultForTable<
 			and(
 				isNotNull(wikiElement.views),
 				not(eq(table.name, '')),
-				ilike(table.name, `%${searchString}%`)
+				// @ts-ignore
+				table.itemTypeInformation
+					? or(
+							ilike(table.name, searchString),
+							// @ts-ignore
+							sql`${table.itemTypeInformation}->>'hiddenName'::varchar ilike ${searchString}`
+						)
+					: ilike(table.name, searchString)
 			)
 		)
 		.limit(limit);
