@@ -1,5 +1,5 @@
 import type { RouteParamsRaw } from '#vue-router';
-import { cloneDeep, isEqual } from 'lodash';
+import _ from 'lodash';
 
 /**
  * Reactively watch the params of the current route
@@ -19,7 +19,7 @@ export function useParams<T extends RouteParamsRaw>(defaults: Partial<T>, event 
 	const router = useRouter();
 
 	const getDefaultVals = () => {
-		const p: T = cloneDeep(route.params) as any;
+		const p: T = _.cloneDeep(route.params) as any;
 		for (const key in defaults) {
 			if (!p[key]) p[key] = defaults[key] as any;
 		}
