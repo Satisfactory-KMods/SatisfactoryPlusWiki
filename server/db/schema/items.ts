@@ -1,11 +1,17 @@
 import { relations } from 'drizzle-orm';
 import { boolean, integer, numeric, text, uuid, varchar } from 'drizzle-orm/pg-core';
-import type { SFDataItemType, SFDataType, SFDescType, SFItemForm } from '~/utils/satisfactoryExtractorTypes';
+import type {
+	SFDataItemType,
+	SFDataType,
+	SFDescType,
+	SFItemForm
+} from '~/utils/satisfactoryExtractorTypes';
 import { safeJson } from '../../utils/db';
 import { cleaner } from './cleaners';
 import { mapTable } from './map';
 import { recipes } from './recipes';
 import { dataTypeEnum, dbSchema, descriptorType, itemFormEnum } from './schema';
+import type { SchematicSelect } from './schematics';
 import { schematics } from './schematics';
 import { wikiElement } from './wiki';
 
@@ -26,9 +32,11 @@ export const items = dbSchema.table('items', {
 	form: itemFormEnum('form').$type<SFItemForm>().notNull(),
 	stackSize: integer('stack_size').notNull(),
 	itemTypeInformation: safeJson<SFDataItemType>()('item_type_information').notNull(),
+	modified: boolean('modified').notNull().default(false),
 	image: text('image').notNull(),
 	category: text('category').notNull(),
-	subCategory: text('subCategory').notNull(),
+	subCategory: text('sub_category').notNull(),
+	usedInSchematics: safeJson<SchematicSelect[]>()('used_in_schematics').notNull().default([]),
 	dataType: dataTypeEnum('data_type').$type<SFDataType>().notNull()
 });
 

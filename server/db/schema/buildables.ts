@@ -28,7 +28,7 @@ export const buildables = dbSchema.table('buildables', {
 	energyValue: numeric('energy_value').notNull(),
 	stackSize: integer('stack_size').notNull(),
 	category: text('category').notNull(),
-	subCategory: text('subCategory').notNull(),
+	subCategory: text('sub_category').notNull(),
 	form: itemFormEnum('form').$type<SFItemForm>().notNull(),
 	dataType: dataTypeEnum('data_type').$type<SFDataType>().notNull()
 });

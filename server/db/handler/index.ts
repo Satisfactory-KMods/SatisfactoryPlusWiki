@@ -1,6 +1,6 @@
-import { eq, inArray, sql } from 'drizzle-orm';
+import { eq, inArray } from 'drizzle-orm';
 import _ from 'lodash';
-import { buildables, db, items } from '~/server/db/index';
+import { buildables, db, items, schematics } from '~/server/db/index';
 import { log } from '~/utils/logger';
 import { bind } from './bind';
 import { map } from './map';
@@ -37,17 +37,19 @@ function attachmentToBuildable(attachment: any) {
 }
 
 export async function merge() {
-	const foundItems = await db
-		.select()
-		.from(items)
-		.where(
-			sql`${items.itemTypeInformation}->>'type'::varchar != 'normal'::varchar AND ${items.itemTypeInformation}->>'updated' is null`
-		)
-		.orderBy(sql`${items.itemTypeInformation}->>'type'::varchar`);
+	const foundItems = await db.select().from(items).where(eq(items.modified, false));
+
 	await Promise.all(
 		foundItems.map(async (i) => {
 			log('info', `Merging: ${i.name}`);
 			const item = _.cloneDeep(i);
+
+			item.modified = true;
+			item.usedInSchematics = await db
+				.select()
+				.from(schematics)
+				.where(inArray(schematics.path, item.usedInSchematics as any));
+
 			if (item.itemTypeInformation.type === 'miner') {
 				if (item.itemTypeInformation.neededModules.length) {
 					item.itemTypeInformation.neededModules = await db
@@ -110,8 +112,6 @@ export async function merge() {
 								return r.at(0);
 							})) ?? fluid.trashItem;
 				}
-
-				item.itemTypeInformation.updated = true;
 			} else if (item.itemTypeInformation.type === 'egg') {
 				if (item.itemTypeInformation.fluid) {
 					item.itemTypeInformation.fluid = await db
@@ -128,7 +128,6 @@ export async function merge() {
 						.from(items)
 						.where(inArray(items.path, item.itemTypeInformation.possibleSlugs as any));
 				}
-				item.itemTypeInformation.updated = true;
 			} else if (item.itemTypeInformation.type === 'slug') {
 				item.itemTypeInformation.egg = await db
 					.select()
@@ -154,8 +153,6 @@ export async function merge() {
 							inArray(items.path, item.itemTypeInformation.comfortableWith as any)
 						);
 				}
-
-				item.itemTypeInformation.updated = true;
 			}
 
 			await db.update(items).set(item).where(eq(items.id, item.id));

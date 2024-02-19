@@ -8,7 +8,7 @@ export const users = dbSchema.table('user', {
 	id: text('id').notNull().primaryKey(),
 	name: text('name'),
 	email: text('email').notNull(),
-	emailVerified: momentTimestamp('emailVerified'),
+	emailVerified: momentTimestamp('email_verified'),
 	image: text('image')
 });
 
@@ -32,7 +32,7 @@ export const accounts = dbSchema.table(
 			),
 		type: text('type').$type<AdapterAccount['type']>().notNull(),
 		provider: text('provider').notNull(),
-		providerAccountId: text('providerAccountId').notNull(),
+		providerAccountId: text('provider_account_id').notNull(),
 		refresh_token: text('refresh_token'),
 		access_token: text('access_token'),
 		expires_at: integer('expires_at'),
@@ -58,7 +58,7 @@ export const accountsRelations = relations(accounts, ({ one }) => {
 });
 
 export const sessions = dbSchema.table('session', {
-	sessionToken: text('sessionToken').notNull().primaryKey(),
+	sessionToken: text('session_token').notNull().primaryKey(),
 	userId: text('userId')
 		.notNull()
 		.references(

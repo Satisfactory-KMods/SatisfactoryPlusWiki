@@ -112,9 +112,7 @@ export type SFTreeUnlockElement = {
 
 export type NodeCoords = { X: number; Y: number };
 
-export type SFDataItemBase = {
-	updated?: boolean;
-};
+export type SFDataItemBase = {};
 
 export type SFDataItemTypeNormal = {
 	type: 'normal';

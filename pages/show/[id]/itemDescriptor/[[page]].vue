@@ -130,6 +130,10 @@
 		};
 	});
 
+	const schematics = computed(() => {
+		return result.value?.items.usedInSchematics ?? [];
+	});
+
 	const produced = computed(() => {
 		return (
 			result.value?.extra_informations?.produced.filter((e) => {
@@ -195,6 +199,13 @@
 			navigation.push({
 				label: `Buildings (${buildables.value.length})`,
 				to: `/show/${params.id}/itemDescriptor/buildables`
+			});
+		}
+
+		if (schematics.value.length) {
+			navigation.push({
+				label: `Need for Schematics (${schematics.value.length})`,
+				to: `/show/${params.id}/itemDescriptor/need-for-schematics`
 			});
 		}
 
@@ -377,6 +388,68 @@
 				v-infinite-scroll="[onLoadMore, { distance: 500 }]"
 				class="flex flex-col gap-2 overflow-y-auto p-2 ps-0">
 				<DataItemCostSlot v-for="(data, idx) in show" :key="idx" :data="data" />
+			</div>
+		</template>
+
+		<template v-if="params.page === 'need-for-schematics'">
+			<div ref="elProduced" class="flex flex-col gap-2 overflow-y-auto p-2 ps-0">
+				<div
+					v-for="schematic of schematics"
+					:key="String(schematic.id)"
+					class="flex gap-2 overflow-hidden rounded border bg-gray-50 p-2 dark:border-gray-700 dark:bg-gray-800">
+					<div class="h-content flex flex-col gap-2">
+						<NuxtImg
+							:src="`/sf${schematic.image.split('.')[0]}.png`"
+							:alt="String(schematic.name)"
+							class="h-20 w-20 rounded border border-slate-700 bg-slate-800 p-2"
+							width="128"
+							placeholder="/sf.png"
+							height="128" />
+						<div class="flex-1" />
+					</div>
+					<div class="flex flex-1 flex-col overflow-hidden">
+						<div class="flex flex-1 items-start text-lg font-bold">
+							<span class="flex-1 text-lg">
+								{{ schematic.name }}
+							</span>
+							<span class="text-sm font-normal text-gray-500 dark:text-gray-400">
+								{{ schematic.time }} seconds
+							</span>
+						</div>
+						<div class="grid grid-cols-3 grid-rows-1 items-center">
+							<div class="flex items-center gap-1 text-sm">
+								<Icon
+									name="heroicons:hand-raised"
+									class="text-primary font-semibold" />
+								Handslots:
+								<span class="text-emerald-600">{{ schematic.handSlots ?? 0 }}</span>
+							</div>
+
+							<div class="flex items-center gap-1 text-sm">
+								<Icon
+									name="heroicons:archive-box"
+									class="text-primary font-semibold" />
+								Inventory Slots:
+								<span class="text-emerald-600">{{
+									schematic.inventorySlots ?? 0
+								}}</span>
+							</div>
+
+							<div class="flex justify-end">
+								<UButton
+									icon="i-heroicons-information-circle"
+									:to="{
+										name: 'show-id',
+										params: {
+											id: blueprintPathToShort(schematic.path)
+										}
+									}">
+									Details
+								</UButton>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</template>
 	</div>
