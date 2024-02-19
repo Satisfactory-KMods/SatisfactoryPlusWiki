@@ -56,52 +56,6 @@
 			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
-			"productionElement": "/Game/FactoryGame/Recipes/Constructor/Recipe_IronRod.Recipe_IronRod_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C",
-					"time": 4,
-					"amount": 1
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
-					"time": 4,
-					"amount": 1
-				}
-			],
-			"schematics": []
-		},
-		{
-			"isRecipe": true,
-			"isAlternate": false,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/Game/FactoryGame/Recipes/Constructor/Recipe_IronPlate.Recipe_IronPlate_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C",
-					"time": 6,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 6,
-					"amount": 2
-				}
-			],
-			"schematics": []
-		},
-		{
-			"isRecipe": true,
-			"isAlternate": false,
-			"type": 0,
-			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_IronWire.Recipe_Constructor_IronWire_C",
 			"wasteProducer": "",
 			"input": [
@@ -471,6 +425,52 @@
 			"schematics": [
 				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C"
 			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/Game/FactoryGame/Recipes/Constructor/Recipe_IronRod.Recipe_IronRod_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C",
+					"time": 4,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 4,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/Game/FactoryGame/Recipes/Constructor/Recipe_IronPlate.Recipe_IronPlate_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C",
+					"time": 6,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 6,
+					"amount": 2
+				}
+			],
+			"schematics": []
 		},
 		{
 			"isRecipe": true,

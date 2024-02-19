@@ -56,29 +56,6 @@
 			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Dirty_IronIngots.Recipe_Smelter_Dirty_IronIngots_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedStritarit.Desc_CrushedStritarit_C",
-					"time": 2,
-					"amount": 1
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C",
-					"time": 2,
-					"amount": 1
-				}
-			],
-			"schematics": []
-		},
-		{
-			"isRecipe": true,
-			"isAlternate": false,
-			"type": 0,
-			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Dirty_CopperIngot.Recipe_Smelter_Dirty_CopperIngot_C",
 			"wasteProducer": "",
 			"input": [
@@ -123,6 +100,29 @@
 			"schematics": [
 				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C"
 			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Dirty_IronIngots.Recipe_Smelter_Dirty_IronIngots_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedStritarit.Desc_CrushedStritarit_C",
+					"time": 2,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C",
+					"time": 2,
+					"amount": 1
+				}
+			],
+			"schematics": []
 		},
 		{
 			"isRecipe": true,

@@ -40,29 +40,6 @@
 			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Workbench/Recipe_Handcrafter_Stritarit.Recipe_Handcrafter_Stritarit_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Nodes/Stritarit/Res_StritaritOre.Res_StritaritOre_C",
-					"time": 3,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedStritarit.Desc_CrushedStritarit_C",
-					"time": 3,
-					"amount": 3
-				}
-			],
-			"schematics": []
-		},
-		{
-			"isRecipe": true,
-			"isAlternate": false,
-			"type": 0,
-			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_Stritarit.Recipe_Crusher_Stritarit_C",
 			"wasteProducer": "",
 			"input": [
@@ -110,6 +87,29 @@
 			"schematics": [
 				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
 			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Workbench/Recipe_Handcrafter_Stritarit.Recipe_Handcrafter_Stritarit_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Nodes/Stritarit/Res_StritaritOre.Res_StritaritOre_C",
+					"time": 3,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedStritarit.Desc_CrushedStritarit_C",
+					"time": 3,
+					"amount": 3
+				}
+			],
+			"schematics": []
 		},
 		{
 			"isRecipe": true,

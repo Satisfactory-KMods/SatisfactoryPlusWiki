@@ -100,39 +100,6 @@
 			"isRecipe": true,
 			"isAlternate": false,
 			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_XenoZapper.Recipe_XenoZapper_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 40,
-					"amount": 50
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 40,
-					"amount": 25
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
-					"time": 40,
-					"amount": 10
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/Equipment/ShockShank/BP_EquipmentDescriptorShockShank.BP_EquipmentDescriptorShockShank_C",
-					"time": 40,
-					"amount": 1
-				}
-			],
-			"schematics": []
-		},
-		{
-			"isRecipe": true,
-			"isAlternate": false,
-			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConstructorMk1.Recipe_ConstructorMk1_C",
 			"wasteProducer": "",
@@ -543,6 +510,39 @@
 			"schematics": [
 				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C"
 			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_XenoZapper.Recipe_XenoZapper_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 40,
+					"amount": 50
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 40,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+					"time": 40,
+					"amount": 10
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Equipment/ShockShank/BP_EquipmentDescriptorShockShank.BP_EquipmentDescriptorShockShank_C",
+					"time": 40,
+					"amount": 1
+				}
+			],
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
