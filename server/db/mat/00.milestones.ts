@@ -33,7 +33,7 @@ const subquerySchematics = db.$with('schematiccost').as(
 		.with(subCosts)
 		.select({
 			schematic_path: subCosts.schematic_path,
-			costs: pgAggTable(subCosts).as('costs')
+			costs: pgTable(subCosts).as('costs')
 		})
 		.from(subCosts)
 		.groupBy(subCosts.schematic_path)
@@ -59,25 +59,25 @@ const subqueryScanner = db.$with('scanner').as(
 		.groupBy(scannerUnlocks.schematicPath)
 );
 
-const cost = pgAggJsonFirst(subquerySchematics.costs);
+const cost = pgJsonAggFirst(subquerySchematics.costs);
 
 const query = db
 	.with(subquerySchematics, subqueryRecipes, subqueryScanner)
 	.select({
 		path: schematics.path,
-		name: pgAggMax(schematics.name).as('name'),
-		image: pgAggMax(schematics.image).as('image'),
-		tier: pgAggMax(schematics.tier).as('tier'),
-		type: pgAggMax(schematics.type).as('type'),
-		category: pgAggMax(schematics.category).as('category'),
-		subCategory: pgAggMax(schematics.subCategory).as('subCategory'),
-		views: pgAggMax(wikiElement.views).as('views'),
-		handslots: pgAggMax(schematics.handSlots).as('handslots'),
-		inventorySlots: pgAggMax(schematics.inventorySlots).as('inventorySlots'),
-		time: pgCast(pgAggMax(schematics.time), 'float').as('time'),
-		recipeCount: pgAggMax(subqueryRecipes.recipe_count).as('recipeCount'),
-		scannerUnlockCount: pgAggMax(subqueryScanner.scanner_count).as('scannerUnlockCount'),
-		short: pgAggMax(mapping.shortPath).as('short'),
+		name: pgMax(schematics.name).as('name'),
+		image: pgMax(schematics.image).as('image'),
+		tier: pgMax(schematics.tier).as('tier'),
+		type: pgMax(schematics.type).as('type'),
+		category: pgMax(schematics.category).as('category'),
+		subCategory: pgMax(schematics.subCategory).as('subCategory'),
+		views: pgMax(wikiElement.views).as('views'),
+		handslots: pgMax(schematics.handSlots).as('handslots'),
+		inventorySlots: pgMax(schematics.inventorySlots).as('inventorySlots'),
+		time: pgCast(pgMax(schematics.time), 'float').as('time'),
+		recipeCount: pgMax(subqueryRecipes.recipe_count).as('recipeCount'),
+		scannerUnlockCount: pgMax(subqueryScanner.scanner_count).as('scannerUnlockCount'),
+		short: pgMax(mapping.shortPath).as('short'),
 		costs: pgCase<typeof cost, typeof cost>(isNull(cost), sql`'[]'::json`, cost).as('costs')
 	})
 	.from(schematics)

@@ -24,7 +24,7 @@ export const schematicItemCosts = db.$with('itemCosts').as(
 		.with(itemCostsSubQuery)
 		.select({
 			schematic: itemCostsSubQuery.schematic,
-			costs: pgAggJsonArray(itemCostsSubQuery.data).as('costs')
+			costs: pgJsonAggCoal(itemCostsSubQuery.data).as('costs')
 		})
 		.from(itemCostsSubQuery)
 		.groupBy(itemCostsSubQuery.schematic)

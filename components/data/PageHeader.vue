@@ -62,9 +62,13 @@
 			<UButton
 				v-if="$props.useSpoiler"
 				variant="ghost"
-				:icon="spoilerMode.active ? 'i-entypo-eye' : 'i-entypo-eye-with-line'"
+				:icon="
+					spoilerMode.active
+						? 'i-heroicons-eye-slash-16-solid'
+						: 'i-heroicons-eye-16-solid'
+				"
 				@click="spoilerMode.toggle">
-				{{ spoilerMode.active ? 'Show Spoiler' : 'Hide Spoiler' }}
+				{{ !spoilerMode.active ? 'Show Spoiler' : 'Hide Spoiler' }}
 			</UButton>
 		</div>
 	</div>

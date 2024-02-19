@@ -26,7 +26,8 @@
 		return {
 			...spoilerData.value,
 			useSpoiler:
-				item.itemTypeInformation.type === 'egg' || item.itemTypeInformation.type === 'slug'
+				item.item_type_information.type === 'egg' ||
+				item.item_type_information.type === 'slug'
 		};
 	});
 

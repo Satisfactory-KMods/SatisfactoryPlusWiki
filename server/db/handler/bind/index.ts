@@ -261,7 +261,6 @@ export async function getRecipeWithProducedIn(recipePath: string) {
 export async function bindInformations(data: any) {
 	if (!data.produced.length && !data.consumed.length) return;
 	let { buildingPath: buildablePath, path: itemPath } = data;
-	log('log', 'Binding informations', itemPath, buildablePath);
 
 	if (buildablePath) {
 		buildablePath = itemPath;

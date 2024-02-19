@@ -19,6 +19,7 @@ export async function handleJsonData(data: any, postPrepare: any[]) {
 		switch (dataType) {
 			case SFDataType.buildable:
 				await prepareBuildable(data);
+				await prepareItems(data, true);
 				break;
 			case SFDataType.recipe:
 				await prepareRecipe(data);

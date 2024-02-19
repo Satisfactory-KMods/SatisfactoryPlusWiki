@@ -10,7 +10,12 @@ import {
 	getViewConfig
 } from 'drizzle-orm/pg-core';
 import type { SelectResultField } from 'drizzle-orm/query-builders/select.types';
-import type { InferDynamic, InferExtendsTypes, InferExtendsTypesNoTable } from './types';
+import type {
+	InferDynamic,
+	InferExtendsTypes,
+	InferExtendsTypesNoTable,
+	PgAggJsonBuildObjectHelper
+} from './types';
 import { pgCast } from './utils';
 
 export function pgCountTrue(statement: SQLWrapper, noCast = false) {
@@ -30,7 +35,7 @@ export function pgCountFalse(statement: SQLWrapper, noCast = false) {
 /**
  * @deprecated use pgAggJsonBuildObject instead
  */
-export function pgAggTable<
+export function pgTable<
 	T extends Exclude<InferExtendsTypes, SQL | SQL.Aliased>,
 	Idx extends number | undefined = undefined
 >(
@@ -51,32 +56,32 @@ export function pgAggTable<
 /**
  * @deprecated use pgAggJsonBuildObject instead
  */
-export function pgAggTableFirst<T extends Exclude<InferExtendsTypes, SQL | SQL.Aliased>>(
+export function pgTableFirst<T extends Exclude<InferExtendsTypes, SQL | SQL.Aliased>>(
 	table: T,
 	coalesce = false
 ) {
-	return pgAggTable(table, 0, coalesce);
+	return pgTable(table, 0, coalesce);
 }
 
 /**
  * @deprecated use pgAggJsonBuildObject instead
  */
-export function pgAggTableLast<T extends Exclude<InferExtendsTypes, SQL | SQL.Aliased>>(
+export function pgTableLast<T extends Exclude<InferExtendsTypes, SQL | SQL.Aliased>>(
 	table: T,
 	coalesce = false
 ) {
-	return pgAggTable(table, -1, coalesce);
+	return pgTable(table, -1, coalesce);
 }
 
-export function pgAggJsonFirst<T extends InferExtendsTypes>(column: T): SQL<InferDynamic<T>> {
+export function pgJsonAggFirst<T extends InferExtendsTypes>(column: T): SQL<InferDynamic<T>> {
 	return sql<any>`json_agg(${column})->0`;
 }
 
-export function pgAggJsonLast<T extends InferExtendsTypes>(column: T): SQL<InferDynamic<T>> {
+export function pgJsonAggLast<T extends InferExtendsTypes>(column: T): SQL<InferDynamic<T>> {
 	return sql<any>`json_agg(${column})->-1`;
 }
 
-export function pgAggJsonArray<
+export function pgJsonAggCoal<
 	T extends InferExtendsTypes,
 	Idx extends number | undefined = undefined
 >(
@@ -93,55 +98,55 @@ export function pgAggJsonArray<
 	return sql<any>`COALESCE(json_agg(${column}) FILTER (WHERE ${column} IS NOT NULL), '[]')`;
 }
 
-export function pgAggArray<T extends InferExtendsTypes>(column: T): SQL<InferDynamic<T>[]> {
+export function pgArrayAgg<T extends InferExtendsTypes>(column: T): SQL<InferDynamic<T>[]> {
 	return sql<any>`array_agg(${column})`;
 }
 
-export function pgAggMin<T extends SQLWrapper>(column: T): SQL<SelectResultField<T>> {
+export function pgMin<T extends SQLWrapper>(column: T): SQL<SelectResultField<T>> {
 	return sql<any>`min(${column})`;
 }
 
-export function pgAggAvg<T extends SQLWrapper>(column: T): SQL<SelectResultField<T>> {
+export function pgAvg<T extends SQLWrapper>(column: T): SQL<SelectResultField<T>> {
 	return sql<any>`avg(${column})`;
 }
 
-export function pgAggSum<T extends SQLWrapper>(column: T): SQL<SelectResultField<T>> {
+export function pgSum<T extends SQLWrapper>(column: T): SQL<SelectResultField<T>> {
 	return sql<any>`sum(${column})`;
 }
 
-export function pgAggMax<T extends SQLWrapper>(column: T): SQL<SelectResultField<T>> {
+export function pgMax<T extends SQLWrapper>(column: T): SQL<SelectResultField<T>> {
 	return sql<any>`max(${column})`;
 }
 
-export function pgAggString<T extends InferExtendsTypes>(column: T): SQL<InferDynamic<T>[]> {
+export function pgStringAgg<T extends InferExtendsTypes>(column: T): SQL<InferDynamic<T>[]> {
 	return sql<any[]>`string_agg(${column})`;
 }
 
-export function pgAggBoolOr<T extends InferExtendsTypes>(column: T) {
+export function pgBoolOr<T extends InferExtendsTypes>(column: T) {
 	return sql<boolean>`bool_or(${column})`;
 }
 
-export function pgAggBoolAnd<T extends InferExtendsTypes>(column: T) {
+export function pgBoolAnd<T extends InferExtendsTypes>(column: T) {
 	return sql<boolean>`bool_and(${column})`;
 }
 
-export function pgAggEvery<T extends InferExtendsTypes>(column: T) {
+export function pgEvery<T extends InferExtendsTypes>(column: T) {
 	return sql<boolean>`every(${column})`;
 }
 
-export function pgAggBitOr<T extends SQLWrapper>(column: T): SQL<SelectResultField<T>> {
+export function pgBitOr<T extends SQLWrapper>(column: T): SQL<SelectResultField<T>> {
 	return sql<any>`bit_or(${column})`;
 }
 
-export function pgAggBitAnd<T extends SQLWrapper>(column: T): SQL<SelectResultField<T>> {
+export function pgBitAnd<T extends SQLWrapper>(column: T): SQL<SelectResultField<T>> {
 	return sql<any>`bit_and(${column})`;
 }
 
-export function pgAggXmlAgg<T extends InferExtendsTypes>(column: T): SQL<InferDynamic<T>[]> {
+export function pgXmlAgg<T extends InferExtendsTypes>(column: T): SQL<InferDynamic<T>[]> {
 	return sql<any[]>`xmlagg(${column})`;
 }
 
-export function pgAggJsonField<
+export function pgJsonAggField<
 	T extends PgColumn,
 	Field extends keyof T['_']['data'],
 	Idx extends number | undefined = undefined
@@ -162,29 +167,20 @@ export function pgAggJsonBuildObject<
 				[k: string]: InferExtendsTypes;
 		  }
 		| InferExtendsTypes,
-	Index extends number | undefined = undefined
+	Index extends number | undefined = undefined,
+	Aggregate extends boolean = false
 >(
 	table: T,
-	index?: Index,
-	aggregate = false,
-	coalesce = true
-): Index extends number
-	? SQL<
-			T extends InferExtendsTypes
-				? InferDynamic<T>
-				: {
-						// @ts-ignore
-						[K in keyof T]: InferDynamic<T[K]>;
-					}
-		>[]
-	: SQL<
-			T extends InferExtendsTypes
-				? InferDynamic<T>
-				: {
-						// @ts-ignore
-						[K in keyof T]: InferDynamic<T[K]>;
-					}
-		> {
+	{
+		index = undefined,
+		aggregate = undefined,
+		coalesce = true
+	}: {
+		index?: Index;
+		aggregate?: Aggregate;
+		coalesce?: boolean;
+	} = {}
+): PgAggJsonBuildObjectHelper<T, Index, Aggregate> {
 	const datas: Record<string, any> = {};
 
 	// !Experimental
@@ -292,8 +288,8 @@ export function pgAggJsonBuildArray<
 	);
 
 	const query = coalesce
-		? sql`coalesce(json_agg(json_build_array(${joinedSql})${flat}), '[]'::json)`
-		: sql`json_agg(json_build_array(${joinedSql})${flat})`;
+		? pgCoalesce(pgJsonAgg(sql`json_build_array(${joinedSql})${flat}`))
+		: pgJsonAgg(sql`json_build_array(${joinedSql})${flat}`);
 
 	return (
 		typeof index !== 'undefined'
@@ -302,6 +298,10 @@ export function pgAggJsonBuildArray<
 	) as any;
 }
 
-export function pgAggCount(expression?: SQLWrapper) {
+export function pgJsonAgg<T extends SQLWrapper>(expression?: T): SQL<SelectResultField<T>[]> {
+	return sql<SelectResultField<T>[]>`json_agg(${expression})`;
+}
+
+export function pgCastCount(expression?: SQLWrapper) {
 	return pgCast(count(expression), 'integer');
 }

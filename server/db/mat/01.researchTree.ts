@@ -40,8 +40,8 @@ const treeItemUnlocks = db.$with('treeItemUnlocks').as(
 		.with(treeItemUnlocksPrepare)
 		.select({
 			tree: treeItemUnlocksPrepare.tree,
-			needAll: pgAggBoolOr(treeItemUnlocksPrepare.needAll).as('needAll'),
-			data: pgAggJsonArray(treeItemUnlocksPrepare.items).as('data')
+			needAll: pgBoolOr(treeItemUnlocksPrepare.needAll).as('needAll'),
+			data: pgJsonAggCoal(treeItemUnlocksPrepare.items).as('data')
 		})
 		.from(treeItemUnlocksPrepare)
 		.groupBy(treeItemUnlocksPrepare.tree)
@@ -80,7 +80,7 @@ const treeNodes = db.$with('treeNodes').as(
 		.with(treeNodesSubquery)
 		.select({
 			treePath: treeNodesSubquery.treePath,
-			nodes: pgAggJsonArray(treeNodesSubquery.data).as('nodes')
+			nodes: pgJsonAggCoal(treeNodesSubquery.data).as('nodes')
 		})
 		.from(treeNodesSubquery)
 		.groupBy(treeNodesSubquery.treePath)

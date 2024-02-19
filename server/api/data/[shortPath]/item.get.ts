@@ -2,7 +2,7 @@ import type { InferReturn, RemoveNullFrom } from '~/utils/typeUtils';
 
 export type ItemDataResult = RemoveNullFrom<
 	InferReturn<typeof getInformationForItem>,
-	'mapping' | 'wiki_element' | 'extra_informations'
+	'mapping' | 'wikiElement' | 'extraInformations'
 >;
 
 export default defineEventHandler((event) => {

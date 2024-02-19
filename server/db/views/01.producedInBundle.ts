@@ -1,12 +1,13 @@
 import { eq, getTableColumns } from 'drizzle-orm';
 import { buildables, db, dbSchema, producedIn, recipes } from '~/server/db/index';
+import { pgTable } from '~/server/utils/db';
 
 export const viewProducedInBundle = dbSchema.view('view_produced_in_bundle').as(() => {
 	const producedInBundle = db.$with('pb').as(
 		db
 			.select({
 				recipe: producedIn.recipePath,
-				data: pgAggTable(buildables).as('data')
+				data: pgTable(buildables).as('data')
 			})
 			.from(producedIn)
 			.leftJoin(buildables, eq(producedIn.buildingPath, buildables.buildingPath))

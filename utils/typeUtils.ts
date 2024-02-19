@@ -16,4 +16,8 @@ export type RemoveNullFrom<T, K extends keyof T> = {
 	[P in Exclude<keyof T, K>]: T[P];
 };
 
+export type RemoveNullFromAll<T> = {
+	[P in keyof T]: Exclude<T[P], null>;
+};
+
 export {};

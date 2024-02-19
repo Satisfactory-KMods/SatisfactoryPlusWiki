@@ -91,7 +91,7 @@ export async function migrateMaterialized({
 				} else {
 					await tx.execute(
 						sql`
-							DROP ${typeRaw} IF EXISTS ${sql.raw(schemaString)};
+							DROP ${typeRaw} IF EXISTS ${sql.raw(schemaString)} CASCADE;
 							CREATE OR REPLACE ${typeRaw} ${sql.raw(schemaString)} AS (${sql.raw(queryString)});
 						`
 					);

@@ -34,33 +34,33 @@
 
 	const spoilerData = computed(() => {
 		const item = result.value!.items;
-		if (item.itemTypeInformation.type === 'slug' && spoilerMode.active) {
+		if (item.item_type_information.type === 'slug' && spoilerMode.active) {
 			return {
-				title: item.itemTypeInformation.hiddenName,
-				description: replaceFromRecord(item.itemTypeInformation.hiddenDescription, {
-					OtherSlugs: item.itemTypeInformation.comfortableWith
+				title: item.item_type_information.hiddenName,
+				description: replaceFromRecord(item.item_type_information.hiddenDescription, {
+					OtherSlugs: item.item_type_information.comfortableWith
 						.map((slug) => {
 							return slug.name;
 						})
 						.join(', '),
-					FoodTierNum: `${item.itemTypeInformation.foodTier} (${item.itemTypeInformation.food.name})`
+					FoodTierNum: `${item.item_type_information.foodTier} (${item.item_type_information.food.name})`
 				}),
 				image: result.value!.items.image
 			};
-		} else if (item.itemTypeInformation.type === 'egg' && spoilerMode.active) {
+		} else if (item.item_type_information.type === 'egg' && spoilerMode.active) {
 			return {
-				title: item.itemTypeInformation.hiddenName,
-				description: replaceFromRecord(item.itemTypeInformation.hiddenDescription, {
-					HatchingTime: item.itemTypeInformation.hatchingTime,
-					MinHeat: item.itemTypeInformation.minHeat,
-					MaxHeat: item.itemTypeInformation.maxHeat,
-					MinHumidity: uePercentToPercent(item.itemTypeInformation.minHumidity),
-					MaxHumidity: uePercentToPercent(item.itemTypeInformation.maxHumidity),
-					SlugTime: slugDayTimeToString(item.itemTypeInformation.dayTime),
-					IsFluidConsume: item.itemTypeInformation.fluid
-						? item.itemTypeInformation.fluid.name
+				title: item.item_type_information.hiddenName,
+				description: replaceFromRecord(item.item_type_information.hiddenDescription, {
+					HatchingTime: item.item_type_information.hatchingTime,
+					MinHeat: item.item_type_information.minHeat,
+					MaxHeat: item.item_type_information.maxHeat,
+					MinHumidity: uePercentToPercent(item.item_type_information.minHumidity),
+					MaxHumidity: uePercentToPercent(item.item_type_information.maxHumidity),
+					SlugTime: slugDayTimeToString(item.item_type_information.dayTime),
+					IsFluidConsume: item.item_type_information.fluid
+						? item.item_type_information.fluid.name
 						: 'No',
-					IncubatorTier: item.itemTypeInformation.incubatorTier
+					IncubatorTier: item.item_type_information.incubatorTier
 				}),
 				image: result.value!.items.image
 			};
@@ -75,7 +75,7 @@
 	const headerData = computed(() => {
 		const item = result.value!.items;
 		let mapLink;
-		if (item.descriptorType === SFDescType.RESOURCE) {
+		if (item.descriptor_type === SFDescType.RESOURCE) {
 			const mapData = [
 				[
 					item.path,
@@ -127,17 +127,18 @@
 			...spoilerData.value,
 			mapLink,
 			useSpoiler:
-				item.itemTypeInformation.type === 'egg' || item.itemTypeInformation.type === 'slug'
+				item.item_type_information.type === 'egg' ||
+				item.item_type_information.type === 'slug'
 		};
 	});
 
 	const schematics = computed(() => {
-		return result.value?.items.usedInSchematics ?? [];
+		return result.value?.items.used_in_schematics ?? [];
 	});
 
 	const produced = computed(() => {
 		return (
-			result.value?.extra_informations?.produced.filter((e) => {
+			result.value?.extraInformations?.produced_in.filter((e) => {
 				return !e.buildingRecipe;
 			}) ?? []
 		);
@@ -145,15 +146,19 @@
 
 	const buildables = computed(() => {
 		return (
-			result.value?.extra_informations?.produced.filter((e) => {
+			result.value?.extraInformations?.produced_in.filter((e) => {
 				return !!e.buildingRecipe;
 			}) ?? []
 		);
 	});
 
+	const cleaners = computed(() => {
+		return result.value?.viewCleanerItemMapping ?? [];
+	});
+
 	const consumed = computed(() => {
 		return (
-			(result.value?.extra_informations?.consumed ?? []).filter((e) => {
+			(result.value?.extraInformations?.consumed_in ?? []).filter((e) => {
 				return !e.isAlternate;
 			}) ?? []
 		);
@@ -161,7 +166,7 @@
 
 	const alternateRecipes = computed(() => {
 		return (
-			(result.value?.extra_informations?.consumed ?? []).filter((e) => {
+			(result.value?.extraInformations?.consumed_in ?? []).filter((e) => {
 				return e.isAlternate;
 			}) ?? []
 		);
@@ -196,6 +201,14 @@
 			});
 		}
 
+		if (cleaners.value.length) {
+			navigation.push({
+				// TODO: RENAME
+				label: `Cleaner Recipes (${cleaners.value.length})`,
+				to: `/show/${params.id}/itemDescriptor/cleaner`
+			});
+		}
+
 		if (buildables.value.length) {
 			navigation.push({
 				label: `Buildings (${buildables.value.length})`,
@@ -215,7 +228,7 @@
 
 	const input = ref('');
 	const all = computed(() => {
-		let data: ItemDataResult['extra_informations']['produced'] = [];
+		let data: ItemDataResult['extraInformations']['produced_in'] = [];
 		switch (params.page) {
 			case 'alternate-recipes':
 				data = alternateRecipes.value;
@@ -268,26 +281,26 @@
 			},
 			{
 				Information: 'Can be deleted',
-				Value: result.value!.items.canDelete ? 'Yes' : 'No'
+				Value: result.value!.items.can_delete ? 'Yes' : 'No'
 			},
 			{
 				Information: 'Can be Sinked',
-				Value: result.value!.items.canBeSink ? 'Yes' : 'No'
+				Value: result.value!.items.can_be_sink ? 'Yes' : 'No'
 			},
 			{
 				Information: 'Sink Points',
-				Value: result.value!.items.sinkPoints
+				Value: result.value!.items.sink_points
 			},
 			{
 				Information: 'Is Radioactive',
-				Value: result.value!.items.radioActive ? 'Yes' : 'No'
+				Value: result.value!.items.radio_active ? 'Yes' : 'No'
 			},
 			{
 				Information: 'Stack Size',
 				Value:
 					result.value!.items.form === SFItemForm.SOLID
-						? result.value!.items.stackSize
-						: result.value!.items.stackSize / 1000
+						? result.value!.items.stack_size
+						: result.value!.items.stack_size / 1000
 			}
 		];
 
@@ -321,12 +334,12 @@
 					<div
 						class="flex h-8 w-40 cursor-pointer flex-col items-center justify-center gap-2 rounded border text-center text-white dark:border-slate-600"
 						:style="{
-							'background-color': `#${result?.items.gasColor}`
+							'background-color': `#${result?.items.gas_color}`
 						}"
-						@click="copyColor(result?.items.gasColor ?? '')">
+						@click="copyColor(result?.items.gas_color ?? '')">
 						<div class="flex items-center gap-2 text-xs text-white">
 							<Icon name="heroicons:clipboard-document" />
-							#{{ result?.items.gasColor }}
+							#{{ result?.items.gas_color }}
 						</div>
 					</div>
 				</div>
@@ -336,12 +349,12 @@
 					<div
 						class="flex h-8 w-40 cursor-pointer flex-col items-center justify-center gap-2 rounded border text-center text-white dark:border-slate-600"
 						:style="{
-							'background-color': `#${result?.items.fluidColor}`
+							'background-color': `#${result?.items.fluid_color}`
 						}"
-						@click="copyColor(result?.items.fluidColor ?? '')">
+						@click="copyColor(result?.items.fluid_color ?? '')">
 						<div class="flex items-center gap-2 text-xs text-white">
 							<Icon name="heroicons:clipboard-document" />
-							#{{ result?.items.fluidColor }}
+							#{{ result?.items.fluid_color }}
 						</div>
 					</div>
 				</div>
@@ -362,6 +375,15 @@
 			</div>
 
 			<UTable :rows="itemDatas" />
+		</div>
+
+		<div v-if="params.page === 'cleaner'" class="flex flex-col gap-2 overflow-auto pe-2">
+			<DataSchematicCleaner
+				v-for="cleaner of cleaners"
+				:key="cleaner.id"
+				:schematics="[result! as any]"
+				:data="cleaner"
+				class="flex-shrink-0" />
 		</div>
 
 		<template
@@ -397,27 +419,27 @@
 				<div
 					v-for="schematic of schematics"
 					:key="String(schematic.id)"
-					class="flex gap-2 overflow-hidden rounded border bg-gray-50 p-2 dark:border-gray-700 dark:bg-gray-800">
+					class="flex h-28 flex-shrink-0 gap-2 overflow-hidden rounded border bg-gray-50 p-2 dark:border-gray-700 dark:bg-gray-800">
 					<div class="h-content flex flex-col gap-2">
 						<NuxtImg
 							:src="`/sf${schematic.image.split('.')[0]}.png`"
 							:alt="String(schematic.name)"
-							class="h-20 w-20 rounded border border-slate-700 bg-slate-800 p-2"
+							class="h-24 w-24 rounded border border-slate-700 bg-slate-800 p-2"
 							width="128"
 							placeholder="/sf.png"
 							height="128" />
 						<div class="flex-1" />
 					</div>
 					<div class="flex flex-1 flex-col overflow-hidden">
-						<div class="flex flex-1 items-start text-lg font-bold">
+						<div class="flex items-start p-2 text-lg font-bold">
 							<span class="flex-1 text-lg">
-								{{ schematic.name }}
+								{{ schematic.name }} ({{ getSchematicSuffic(schematic) }})
 							</span>
 							<span class="text-sm font-normal text-gray-500 dark:text-gray-400">
 								{{ schematic.time }} seconds
 							</span>
 						</div>
-						<div class="grid grid-cols-3 grid-rows-1 items-center">
+						<div class="grid grid-cols-3 grid-rows-1 items-center p-2">
 							<div class="flex items-center gap-1 text-sm">
 								<Icon
 									name="heroicons:hand-raised"

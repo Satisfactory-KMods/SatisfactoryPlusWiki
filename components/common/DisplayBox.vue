@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 	import type { CummonDisplayBox } from '~/utils/items';
 
-	const slots = useSlots();
 	const props = defineProps({
 		item: {
 			type: Object as PropType<CummonDisplayBox>,

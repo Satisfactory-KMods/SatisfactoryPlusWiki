@@ -1,32 +1,33 @@
 <script lang="ts" setup>
-	import type { ItemDataResult } from '~/server/api/data/[shortPath]/item.get';
+	import type { SchematicSelect } from '~/server/db/pg';
+	import type { RecipeBundle } from '~/server/db/views';
 
 	const props = defineProps({
 		data: {
-			type: Object as PropType<ItemDataResult['extraInformations']['produced_in'][0]>,
+			type: Object as PropType<RecipeBundle>,
+			required: true
+		},
+		schematics: {
+			type: Array as PropType<SchematicSelect[]>,
 			required: true
 		}
 	});
 
-	function getPerMinute(
-		item:
-			| ItemDataResult['extraInformations']['produced_in'][0]['output'][0]
-			| ItemDataResult['extraInformations']['produced_in'][0]['input'][0]
-	) {
-		if (props.data.buildingRecipe) {
+	function getPerMinute({
+		time,
+		form,
+		amount
+	}: Pick<RecipeBundle['input'][0], 'time' | 'form' | 'amount'>) {
+		if (props.data.isBuildableRecipe) {
 			return undefined;
 		}
-		return roundToDec(
-			(60 / item.time) *
-				(item.item.form === SFItemForm.SOLID ? item.amount : item.amount / 1000),
-			2
-		);
+		return roundToDec((60 / time) * (form === SFItemForm.SOLID ? amount : amount / 1000), 2);
 	}
 
 	const producedIn = computed(() => {
-		if (props.data.productionElement?.type === 'recipe') {
-			return props.data.productionElement.data?.producedIn?.length > 0
-				? props.data.productionElement.data?.producedIn?.map((pi) => {
+		if (props.data.type === 'recipe') {
+			return props.data.producedIn?.length > 0
+				? props.data.producedIn?.map((pi) => {
 						return {
 							to: `/show/${blueprintPathToShort(pi.path)}`,
 							label: pi.name,
@@ -36,32 +37,21 @@
 				: [
 						{
 							to: null,
-							label: props.data.buildingRecipe ? 'Build Gun' : 'Unknown Location',
+							label: props.data.isBuildableRecipe ? 'Build Gun' : 'Unknown Location',
 							image: null
 						}
 					];
 		}
-		return [
-			{
-				to: null,
-				label: props.data.buildingRecipe ? 'Build Gun' : 'Unknown Location',
-				image: null
-			}
-		];
 	});
 
 	const unlockedBy = computed(() => {
-		return props.data.schematics
-			.filter((s) => {
-				return !!s;
-			})
-			.map((schematic) => {
-				return {
-					to: `/show/${blueprintPathToShort(schematic.path)}`,
-					label: `${schematic.name} (${getSchematicSuffic(schematic)})`,
-					image: schematic.image
-				};
-			});
+		return props.schematics.map((schematic) => {
+			return {
+				to: `/show/${blueprintPathToShort(schematic.path)}`,
+				label: `${schematic.name} (${getSchematicSuffic(schematic)})`,
+				image: schematic.image
+			};
+		});
 	});
 </script>
 
@@ -71,15 +61,15 @@
 			class="flex flex-1 flex-col overflow-hidden border bg-slate-50 dark:border-gray-700 dark:bg-gray-800">
 			<h2
 				class="w-full border-b bg-slate-200 p-2 text-center text-xl font-bold dark:border-gray-800 dark:bg-gray-900">
-				{{ $props.data.productionElement?.data.name ?? 'Unknown Recipe' }}
+				{{ $props.data?.name ?? 'Unknown Recipe' }}
 			</h2>
 
 			<div class="relative flex w-full items-center gap-2 overflow-hidden">
 				<div class="relative flex w-full flex-1 items-center gap-2 overflow-auto p-1">
-					<template v-for="item of $props.data.input" :key="item.item.path">
+					<template v-for="item of $props.data.input" :key="item.path">
 						<ItemsItemDisplay
-							v-if="item.item.path"
-							:item="item.item"
+							v-if="item.path"
+							:item="item"
 							:amount="item.amount"
 							:per-minute="getPerMinute(item)" />
 					</template>
@@ -88,11 +78,11 @@
 				<Icon name="radix-icons:triangle-right" class="text-5xl" />
 
 				<div class="relative flex w-full flex-1 items-center gap-2 overflow-auto p-1">
-					<template v-for="item of $props.data.output" :key="item.item.path">
+					<template v-for="item of $props.data.output" :key="item.path">
 						<ItemsItemDisplay
-							v-if="item.item.path"
-							:item="item.item"
-							:amount="$props.data.buildingRecipe ? undefined : item.amount"
+							v-if="item.path"
+							:item="item"
+							:amount="$props.data.isBuildableRecipe ? undefined : item.amount"
 							:per-minute="getPerMinute(item)" />
 					</template>
 				</div>

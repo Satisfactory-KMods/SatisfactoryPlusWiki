@@ -1,9 +1,6 @@
-import type { InferReturn, RemoveNullFrom } from '~/utils/typeUtils';
+import type { InferReturn, RemoveNullFromAll } from '~/utils/typeUtils';
 
-export type ItemDataResult = RemoveNullFrom<
-	InferReturn<typeof getInformationForItem>,
-	'mapping' | 'wiki_element' | 'extra_informations'
->;
+export type ItemDataResult = RemoveNullFromAll<InferReturn<typeof getInformationForSchematic>>;
 
 export default defineEventHandler((event) => {
 	const shortPath = getRouterParam(event, 'shortPath');
@@ -15,5 +12,5 @@ export default defineEventHandler((event) => {
 		});
 	}
 
-	return getInformationForItem(shortPath) as Promise<ItemDataResult>;
+	return getInformationForSchematic(shortPath) as Promise<ItemDataResult>;
 });

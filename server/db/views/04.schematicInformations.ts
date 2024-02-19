@@ -1,8 +1,11 @@
 import { eq, getTableColumns } from 'drizzle-orm';
-import { pgAggJsonArray, pgAggJsonBuildObject, pgCoalesce } from '../../utils/db';
-import { dbSchema, mapping, recipes } from '../schema';
+import { pgAggJsonBuildObject, pgCoalesce, pgJsonAggCoal } from '../../utils/db';
+import { dbSchema, mapping } from '../schema';
 import { items } from '../schema/items';
 import { recipeUnlocks, scannerUnlocks, schematics, schematicsCosts } from '../schema/schematics';
+import type { InferDynamic } from './../../utils/db/types';
+import { getCleanerViewColumns, viewCleanerElement } from './02.cleanerElement';
+import { getRecipeViewColumns, viewRecipeBundle } from './03.recipeBundle';
 
 export const viewSchematicInformations = dbSchema.view('view_schematic_informations').as((db) => {
 	const itemCostsSubQuery = db.$with('itemCostsSubQuery').as(
@@ -27,7 +30,7 @@ export const viewSchematicInformations = dbSchema.view('view_schematic_informati
 			.with(itemCostsSubQuery)
 			.select({
 				schematic: itemCostsSubQuery.schematic,
-				costs: pgAggJsonArray(itemCostsSubQuery.data).as('costs')
+				costs: pgJsonAggCoal(itemCostsSubQuery.data).as('costs')
 			})
 			.from(itemCostsSubQuery)
 			.groupBy(itemCostsSubQuery.schematic)
@@ -54,53 +57,54 @@ export const viewSchematicInformations = dbSchema.view('view_schematic_informati
 			.with(schematicScannerUnlocksPrepare)
 			.select({
 				schematic_costs: schematicScannerUnlocksPrepare.schematic,
-				scanners: pgAggJsonArray(schematicScannerUnlocksPrepare.data).as('scanners')
+				scanners: pgJsonAggCoal(schematicScannerUnlocksPrepare.data).as('scanners')
 			})
 			.from(schematicScannerUnlocksPrepare)
 			.groupBy(schematicScannerUnlocksPrepare.schematic)
 	);
 
-	const schematicRecipeUnlocksPrepare = db.$with('scanner_prepare').as(
+	const schematicRecipeUnlocks = db.$with('recipes').as(
 		db
 			.select({
 				schematic: recipeUnlocks.schematicPath,
-				data: pgAggJsonBuildObject({
-					...getTableColumns(recipes),
-					shortPath: mapping.shortPath
-				}).as('data')
+				data: pgAggJsonBuildObject(getRecipeViewColumns(), { aggregate: true }).as('data')
 			})
 			.from(recipeUnlocks)
-			.leftJoin(recipes, eq(recipeUnlocks.recipePath, recipes.path))
-			.leftJoin(mapping, eq(recipeUnlocks.recipePath, mapping.elPath))
+			.leftJoin(viewRecipeBundle, eq(recipeUnlocks.recipePath, viewRecipeBundle.path))
+			.groupBy(recipeUnlocks.schematicPath)
 	);
 
-	const schematicRecipeUnlocks = db.$with('recipes').as(
+	const cleanerUnlocks = db.$with('cleaner').as(
 		db
-			.with(schematicRecipeUnlocksPrepare)
 			.select({
-				schematic_recipes: schematicRecipeUnlocksPrepare.schematic,
-				recipes: pgAggJsonArray(schematicRecipeUnlocksPrepare.data).as('recipes')
+				schematic_cleaner: viewCleanerElement.schematic,
+				cleanerData: pgAggJsonBuildObject(getCleanerViewColumns(), { aggregate: true }).as(
+					'cleanerData'
+				)
 			})
-			.from(schematicRecipeUnlocksPrepare)
-			.groupBy(schematicRecipeUnlocksPrepare.schematic)
+			.from(viewCleanerElement)
+			.groupBy(viewCleanerElement.schematic)
 	);
 
 	return db
-		.with(schematicItemCosts, schematicScannerUnlocks, schematicRecipeUnlocks)
+		.with(schematicItemCosts, schematicScannerUnlocks, schematicRecipeUnlocks, cleanerUnlocks)
 		.select({
+			...getTableColumns(mapping),
 			...getTableColumns(schematics),
 			costs: pgCoalesce(schematicItemCosts.costs).as('costs'),
 			scanners: pgCoalesce(schematicScannerUnlocks.scanners).as('scanners'),
-			recipes: pgCoalesce(schematicRecipeUnlocks.recipes).as('recipes')
+			recipes: pgCoalesce(schematicRecipeUnlocks.data).as('recipes'),
+			cleaner: pgCoalesce(cleanerUnlocks.cleanerData).as('cleaner')
 		})
 		.from(schematics)
-		.leftJoin(
-			schematicRecipeUnlocks,
-			eq(schematics.path, schematicRecipeUnlocks.schematic_recipes)
-		)
+		.leftJoin(mapping, eq(schematics.path, mapping.elPath))
+		.leftJoin(cleanerUnlocks, eq(schematics.path, cleanerUnlocks.schematic_cleaner))
+		.leftJoin(schematicRecipeUnlocks, eq(schematics.path, schematicRecipeUnlocks.schematic))
 		.leftJoin(schematicItemCosts, eq(schematics.path, schematicItemCosts.schematic))
 		.leftJoin(
 			schematicScannerUnlocks,
 			eq(schematics.path, schematicScannerUnlocks.schematic_costs)
 		);
 });
+
+export type SchematicInformations = InferDynamic<typeof viewSchematicInformations>;

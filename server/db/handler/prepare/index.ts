@@ -4,14 +4,20 @@ import { buildables, db, items, mapping, researchTree, schematics } from '../..'
 import { recipes } from '../../schema/recipes';
 import { wikiElement } from './../../schema/wiki';
 
-export async function prepareItems(data: any) {
+export async function prepareItems(data: any, buildable = false) {
 	await db
 		.insert(items)
-		.values(data)
+		.values({
+			canDelete: false,
+			sinkPoints: 0,
+			canBeSink: false,
+			itemTypeInformation: { type: 'normal' },
+			...data
+		})
 		.returning()
 		.then(async (r) => {
 			const d = r.at(0);
-			if (!d) return;
+			if (!d || !!buildable) return;
 
 			await db
 				.insert(mapping)

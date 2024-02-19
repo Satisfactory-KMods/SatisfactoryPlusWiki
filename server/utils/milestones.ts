@@ -21,7 +21,12 @@ export function getMilestonesByTier(tier: number) {
 			costs: matMilestones.costs
 		})
 		.from(matMilestones)
-		.where(and(eq(matMilestones.tier, tier), inArray(matMilestones.type, [SFSchematicType.Tutorial, SFSchematicType.Milestone])))
+		.where(
+			and(
+				eq(matMilestones.tier, tier),
+				inArray(matMilestones.type, [SFSchematicType.Tutorial, SFSchematicType.Milestone])
+			)
+		)
 		.orderBy(matMilestones.name);
 }
 
@@ -75,7 +80,7 @@ export function getShopMilestonesByCategoryGrouped(category: string) {
 		.select({
 			category: subQuery.category,
 			subCategory: subQuery.subCategory,
-			milestones: pgAggJsonArray(subQuery.milestones).as('milestones')
+			milestones: pgJsonAggCoal(subQuery.milestones).as('milestones')
 		})
 		.from(subQuery)
 		.where(eq(subQuery.category, category))

@@ -1,6 +1,8 @@
+import type { SQL } from 'drizzle-orm';
 import { and, asc, desc, eq, ilike, isNotNull, not, or, sql } from 'drizzle-orm';
 import { buildables, db, items, recipes, researchTree, schematics } from '~/server/db/index';
 import { log } from '~/utils/logger';
+import { SFDescType } from '~/utils/satisfactoryExtractorTypes';
 import { wikiElement } from '../db/schema/wiki';
 import { hasReaded, setReaded } from '../plugins/02.schedules';
 
@@ -115,6 +117,14 @@ export async function getMostVisitsFor<
 		| typeof buildables
 		| typeof items
 >(table: T, limit = 5) {
+	const ands: SQL[] = [];
+
+	// @ts-ignore
+	if (table.descriptorType) {
+		// @ts-ignore
+		ands.push(not(eq(table.descriptorType, SFDescType.BUILDING)));
+	}
+
 	const result = await db
 		.select({
 			name: table.name,
@@ -126,7 +136,7 @@ export async function getMostVisitsFor<
 		.from(table)
 		.leftJoin(wikiElement, eq(table.path, wikiElement.elPath))
 		.orderBy(desc(wikiElement.views), asc(table.name))
-		.where(and(isNotNull(wikiElement.views), not(eq(table.name, ''))))
+		.where(and(...ands, isNotNull(wikiElement.views), not(eq(table.name, ''))))
 		.limit(limit);
 
 	return {

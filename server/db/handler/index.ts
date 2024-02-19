@@ -45,10 +45,12 @@ export async function merge() {
 			const item = _.cloneDeep(i);
 
 			item.modified = true;
-			item.usedInSchematics = await db
-				.select()
-				.from(schematics)
-				.where(inArray(schematics.path, item.usedInSchematics as any));
+			if (item.usedInSchematics.length) {
+				item.usedInSchematics = await db
+					.select()
+					.from(schematics)
+					.where(inArray(schematics.path, item.usedInSchematics as any));
+			}
 
 			if (item.itemTypeInformation.type === 'miner') {
 				if (item.itemTypeInformation.neededModules.length) {
