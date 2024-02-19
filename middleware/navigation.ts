@@ -10,10 +10,15 @@ export default defineNuxtRouteMiddleware(async (to) => {
 	}
 
 	if (to.path.endsWith(id)) {
+		let path = `/show/${id}/${getData.type}`;
+		if (getData.type === 'researchTree') {
+			path = `/research-trees/${id}`;
+		}
+
 		lastVisitStore.addVisit({
 			name: getData.displayName ?? 'Unknown',
-			path: `/show/${id}/${getData.type}`
+			path
 		});
-		return navigateTo(`/show/${id}/${getData.type}` as any);
+		return navigateTo(path as any);
 	}
 });

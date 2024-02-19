@@ -3,12 +3,13 @@
 		id: String(),
 		page: String('information')
 	});
-	const { data: result } = await useFetch(`/api/data/${params.id}/item`);
+	const { data: result } = await useFetch(`/api/data/${params.id}/recipe`);
 
 	if (!result.value) {
 		throw createError({
 			statusCode: 404,
-			statusMessage: 'Page Not Found'
+			statusMessage: 'Page Not Found',
+			fatal: true
 		});
 	}
 

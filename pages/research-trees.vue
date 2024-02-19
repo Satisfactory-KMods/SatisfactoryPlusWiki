@@ -13,7 +13,7 @@
 		return (categories.value ?? []).map((category) => {
 			return {
 				...category,
-				to: `/research-trees/${category.shortPath}`
+				to: `/show/${category.shortPath}`
 			};
 		});
 	});
