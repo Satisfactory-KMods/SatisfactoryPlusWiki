@@ -19,7 +19,9 @@ async function cleanup() {
 		'/Game/FactoryGame/Interface'
 	]) {
 		const absPath = join(process.cwd(), 'public/sf', path);
-		await fs.rm(absPath, { recursive: true, force: true }).catch(() => console.error(absPath + 'not found'));
+		await fs
+			.rm(absPath, { recursive: true, force: true })
+			.catch(() => console.error(absPath + 'not found'));
 	}
 }
 
@@ -29,9 +31,6 @@ async function read(path) {
 		if (
 			item.isFile() &&
 			!item.name.toLowerCase().endsWith('.json'.toLowerCase()) &&
-			//	item.name.toLowerCase().startsWith('T_'.toLowerCase()) ||
-			//	item.name.toLowerCase().startsWith('MI_'.toLowerCase()) ||
-			//	item.name.toLowerCase().startsWith('tex_'.toLowerCase()) ||
 			(item.name.toLowerCase().endsWith('_AO.png'.toLowerCase()) ||
 				item.name.toLowerCase().endsWith('_AOMasks.png'.toLowerCase()) ||
 				item.name.toLowerCase().endsWith('_ORMA.png'.toLowerCase()) ||
@@ -46,7 +45,6 @@ async function read(path) {
 				item.name.toLowerCase().endsWith('_NORM.png'.toLowerCase()) ||
 				item.name.toLowerCase().endsWith('_BC.png'.toLowerCase()) ||
 				item.name.toLowerCase().endsWith('_AlphaMap.png'.toLowerCase()) ||
-				item.name.toLowerCase().endsWith('_Tex.png'.toLowerCase()) ||
 				item.name.toLowerCase().endsWith('_BC_2.png'.toLowerCase()) ||
 				item.name.toLowerCase().endsWith('_N_2.png'.toLowerCase()) ||
 				item.name.toLowerCase().endsWith('_Refl_2.png'.toLowerCase()) ||
