@@ -25,3 +25,21 @@ export function pgCeil<T extends SQLWrapper>(column: T) {
 export function pgAbs<T extends SQLWrapper>(column: T) {
 	return pgCast(sql<any>`abs(${column})`, 'float');
 }
+
+export function pgRandom(range?: SQLWrapper | number) {
+	if (range) {
+		return sql<number>`random() * ${range}`;
+	}
+	return sql<number>`random()`;
+}
+
+export function pgRound(column: SQLWrapper, precision: number = 0) {
+	return pgCast(
+		sql<any>`round(${column}, ${sql.raw(String(precision))})`,
+		precision > 1 ? 'float' : 'integer'
+	);
+}
+
+export function pgSign<T extends SQLWrapper>(column: T) {
+	return pgCast(sql<any>`sign(${column})`, 'integer');
+}

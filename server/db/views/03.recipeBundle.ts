@@ -1,6 +1,6 @@
 import { eq, getTableColumns } from 'drizzle-orm';
 import { producedIn } from '~/server/db/index';
-import { pgAggJsonBuildObject } from '../../utils/db';
+import { getColumnsFromViewOrSubquery, pgAggJsonBuildObject } from '../../utils/db';
 import { db } from '../pg';
 import { dbSchema, mapping } from '../schema';
 import { items } from '../schema/items';
@@ -100,16 +100,6 @@ export const viewRecipeBundle = dbSchema.view('view_recipe_bundle').as((db) => {
 
 export type RecipeBundle = InferDynamic<typeof viewRecipeBundle>;
 
-export function getRecipeViewColumns(): typeof query {
-	// @ts-ignore
-	return Object.keys(query).reduce(
-		(acc, key) => {
-			return {
-				...acc,
-				// @ts-ignore
-				[key]: viewRecipeBundle[key]
-			};
-		},
-		{} as Record<string, any>
-	);
+export function getRecipeViewColumns() {
+	return getColumnsFromViewOrSubquery(viewRecipeBundle);
 }

@@ -1,8 +1,36 @@
 import type { Query, SQL, SQLWrapper } from 'drizzle-orm';
-import { sql } from 'drizzle-orm';
+import { Subquery, sql } from 'drizzle-orm';
+import type { PgView } from 'drizzle-orm/pg-core';
+import { PgMaterializedView, getMaterializedViewConfig, getViewConfig } from 'drizzle-orm/pg-core';
 import type { SelectResultField } from 'drizzle-orm/query-builders/select.types';
 import { log } from './../../../utils/logger/index';
 import type { InferDynamic } from './types';
+
+export function getColumnsFromViewOrSubquery<T extends PgView | PgMaterializedView | Subquery>(
+	view: T
+): T extends Subquery<infer _S, infer Fields>
+	? Fields
+	: T extends PgMaterializedView<infer _S, infer _D, infer Fields>
+		? Fields
+		: T extends PgView<infer _S, infer _D, infer Fields>
+			? Fields
+			: unknown {
+	if (view instanceof Subquery) {
+		// @ts-ignore
+		const { selectedFields } = table[SubqueryConfig];
+		return selectedFields;
+	}
+
+	if (view instanceof PgMaterializedView) {
+		const conf = getMaterializedViewConfig(view);
+		// @ts-ignore
+		return conf.selectedFields;
+	}
+
+	const conf = getViewConfig(view);
+	// @ts-ignore
+	return conf.selectedFields;
+}
 
 export function now(): SQL<moment.MomentInput> {
 	return sql`now()`;
@@ -21,9 +49,9 @@ export function pgCaseNull<T extends SQLWrapper, D extends SQLWrapper = SQL<numb
 
 export function pgCoalesce<T extends InferExtendsTypes>(
 	statement: T,
-	otherwise = "'[]'::json"
+	otherwise: string | SQL = "'[]'::json"
 ): SQL<InferDynamic<T>> {
-	return sql<any>`coalesce(${statement}, ${sql.raw(otherwise)})`;
+	return sql<any>`coalesce(${statement}, ${typeof otherwise === 'string' ? sql.raw(otherwise) : otherwise})`;
 }
 
 export function pgCase<T extends InferExtendsTypes, D extends InferExtendsTypes>(

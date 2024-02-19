@@ -1,5 +1,5 @@
 /* eslint-disable no-use-before-define */
-import type { SQL, SQLWrapper, Subquery, WithSubquery } from 'drizzle-orm';
+import type { ColumnsSelection, SQL, SQLWrapper, Subquery, WithSubquery } from 'drizzle-orm';
 import type {
 	PgColumn,
 	PgCustomColumn,
@@ -79,9 +79,11 @@ export type PgAggJsonBuildObjectHelper<
 > = Index extends number ? SQL<ToArray<ToInfer<T>, false>> : SQL<ToArray<ToInfer<T>, Aggregate>>;
 
 export type InferDynamicRecord<
-	T extends {
-		[k: string]: InferExtendsTypes;
-	}
+	T extends
+		| {
+				[k: string]: InferExtendsTypes;
+		  }
+		| ColumnsSelection
 > = {
 	[K in keyof T]: T[K] extends InferExtendsTypes ? InferDynamic<T[K]> : T[K];
 };

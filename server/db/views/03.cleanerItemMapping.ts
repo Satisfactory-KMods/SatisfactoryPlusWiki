@@ -1,6 +1,6 @@
-import { eq, getTableColumns, isNotNull } from 'drizzle-orm';
+import { eq, getTableColumns, isNotNull, sql } from 'drizzle-orm';
 import { alias } from 'drizzle-orm/pg-core';
-import { pgAggJsonBuildObject, pgNull } from '../../utils/db';
+import { pgAggJsonBuildObject } from '../../utils/db';
 import { db } from '../pg';
 import { buildables, cleaner, dbSchema, mapping, schematics } from '../schema';
 import { cleanerByPass } from '../schema/cleaners';
@@ -41,7 +41,7 @@ const query = {
 	cleanerBuilding: pgAggJsonBuildObject(buildables).as('cleanerBuilding'),
 	name: inFluid.name,
 	description: inFluid.description,
-	outFluid: pgCase(isNotNull(outFluid.id), pgAggJsonBuildObject(outFluid), pgNull()).as(
+	outFluid: pgCase(isNotNull(outFluid.id), pgAggJsonBuildObject(outFluid), sql<null>`NULL`).as(
 		'outFluid'
 	),
 	filterItem: pgAggJsonBuildObject(filterItem).as('filterItem'),

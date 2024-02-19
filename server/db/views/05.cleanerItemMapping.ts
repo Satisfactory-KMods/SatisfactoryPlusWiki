@@ -1,11 +1,10 @@
 import { eq, isNotNull } from 'drizzle-orm';
 import { unionAll } from 'drizzle-orm/pg-core';
 import { db } from '~/server/db/index';
+import { getColumnsFromViewOrSubquery } from '~/server/utils/db';
 import { cleaner, cleanerByPass, dbSchema } from '../schema';
 import type { InferDynamic } from './../../utils/db/types';
 import { viewCleanerElement } from './02.cleanerElement';
-
-const query = {};
 
 const allItemsFromCleanerRecipes = db
 	.$with('uni')
@@ -38,16 +37,6 @@ export const viewCleanerItemMapping = dbSchema.view('view_cleaner_item_mapping')
 
 export type CleanerItemMapping = InferDynamic<typeof viewCleanerItemMapping>;
 
-export function getCleanerItemMappingColumns(): typeof query {
-	// @ts-ignore
-	return Object.keys(query).reduce(
-		(acc, key) => {
-			return {
-				...acc,
-				// @ts-ignore
-				[key]: viewCleanerItemMapping[key]
-			};
-		},
-		{} as Record<string, any>
-	);
+export function getCleanerItemMappingColumns() {
+	return getColumnsFromViewOrSubquery(viewCleanerItemMapping);
 }

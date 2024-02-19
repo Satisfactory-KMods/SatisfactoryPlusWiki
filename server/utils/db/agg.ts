@@ -1,22 +1,9 @@
 import type { SQLWrapper } from 'drizzle-orm';
-import { SQL, Subquery, SubqueryConfig, count, sql } from 'drizzle-orm';
-import {
-	PgColumn,
-	PgMaterializedView,
-	PgTable,
-	PgView,
-	getMaterializedViewConfig,
-	getTableConfig,
-	getViewConfig
-} from 'drizzle-orm/pg-core';
+import { SQL, Subquery, count, sql } from 'drizzle-orm';
+import { PgColumn, PgMaterializedView, PgTable, PgView, getTableConfig } from 'drizzle-orm/pg-core';
 import type { SelectResultField } from 'drizzle-orm/query-builders/select.types';
-import type {
-	InferDynamic,
-	InferExtendsTypes,
-	InferExtendsTypesNoTable,
-	PgAggJsonBuildObjectHelper
-} from './types';
-import { pgCast } from './utils';
+import type { InferDynamic, InferExtendsTypes, PgAggJsonBuildObjectHelper } from './types';
+import { getColumnsFromViewOrSubquery, pgCast } from './utils';
 
 export function pgCountTrue(statement: SQLWrapper, noCast = false) {
 	if (noCast) {
@@ -181,29 +168,22 @@ export function pgAggJsonBuildObject<
 		coalesce?: boolean;
 	} = {}
 ): PgAggJsonBuildObjectHelper<T, Index, Aggregate> {
-	const datas: Record<string, any> = {};
+	let datas: Record<string, any> = {};
 
 	// !Experimental
-	if (table instanceof Subquery) {
-		// @ts-ignore
-		const { selectedFields } = table[SubqueryConfig];
-		for (const [k, v] of Object.entries(selectedFields)) {
-			datas[k] = v;
-		}
+	if (
+		table instanceof PgView ||
+		table instanceof Subquery ||
+		table instanceof PgMaterializedView
+	) {
+		datas = {
+			...datas,
+			...getColumnsFromViewOrSubquery(table)
+		};
 	} else if (table instanceof PgTable) {
 		const conf = getTableConfig(table);
 		for (const v of Object.values(conf.columns)) {
 			datas[v.name] = v;
-		}
-	} else if (table instanceof PgMaterializedView) {
-		const conf = getMaterializedViewConfig(table);
-		for (const [k, v] of Object.entries(conf.selectedFields)) {
-			datas[k] = v;
-		}
-	} else if (table instanceof PgView) {
-		const conf = getViewConfig(table);
-		for (const [k, v] of Object.entries(conf.selectedFields)) {
-			datas[k] = v;
 		}
 	} else if (!(table instanceof PgColumn)) {
 		for (const [k, v] of Object.entries(table)) {
@@ -215,8 +195,8 @@ export function pgAggJsonBuildObject<
 	if (!ent.length) {
 		if (table instanceof PgColumn || table instanceof SQL) {
 			const query = coalesce
-				? sql`coalesce(json_agg(json_build_object(${table})), '[]'::json)`
-				: sql`json_agg(json_build_array(${table}))`;
+				? pgCoalesce(pgJsonAgg(sql`json_build_object(${table})`))
+				: pgJsonAgg(sql`json_build_object(${table})`);
 
 			return (
 				typeof index !== 'undefined'
@@ -238,8 +218,8 @@ export function pgAggJsonBuildObject<
 
 	if (aggregate) {
 		const query = coalesce
-			? sql`coalesce(json_agg(json_build_object(${joinedSql})), '[]'::json)`
-			: sql`json_agg(json_build_object(${joinedSql}))`;
+			? pgCoalesce(pgJsonAgg(sql`json_build_object(${joinedSql})`))
+			: pgJsonAgg(sql`json_build_object(${joinedSql})`);
 		return (
 			typeof index !== 'undefined'
 				? sql.join([query, sql`->${sql.raw(String(index))}`], sql``)
@@ -248,8 +228,8 @@ export function pgAggJsonBuildObject<
 	}
 
 	const query = coalesce
-		? sql`coalesce(json_build_object(${joinedSql}), '[]'::json)`
-		: sql`json_build_array(${joinedSql})`;
+		? pgCoalesce(sql`json_build_object(${joinedSql})`, pgNull())
+		: sql`json_build_object(${joinedSql})`;
 	return (
 		typeof index !== 'undefined'
 			? sql.join([query, sql`->${sql.raw(String(index))}`], sql``)
@@ -257,51 +237,25 @@ export function pgAggJsonBuildObject<
 	) as any;
 }
 
-export function pgAggJsonBuildArray<
-	T extends InferExtendsTypesNoTable | InferExtendsTypesNoTable[],
-	Index extends number | undefined = undefined,
-	Flat extends boolean = false
->(
-	table: T,
-	index?: Index,
-	flatten?: Flat,
-	coalesce = true
-): Index extends number
-	? T extends InferExtendsTypesNoTable
-		? SQL<Flat extends true ? InferDynamic<T> : InferDynamic<T>[]>
-		: SQL<Flat extends true ? any : any[]>
-	: T extends InferExtendsTypesNoTable
-		? SQL<Flat extends true ? InferDynamic<T>[] : InferDynamic<T>[][]>
-		: SQL<Flat extends true ? any[] : any[][]> {
-	const flat = sql.raw(!flatten ? '' : '->>0');
-
-	const ent = table instanceof Array ? table : [table];
-	if (!ent.length) {
-		throw new TypeError('No columns to aggregate');
-	}
-
-	const joinedSql = sql.join(
-		(table instanceof Array ? table : [table]).map((e) => {
-			return sql`${e}`;
-		}),
-		sql`, `
-	);
-
-	const query = coalesce
-		? pgCoalesce(pgJsonAgg(sql`json_build_array(${joinedSql})${flat}`))
-		: pgJsonAgg(sql`json_build_array(${joinedSql})${flat}`);
-
-	return (
-		typeof index !== 'undefined'
-			? sql.join([query, sql`->${sql.raw(String(index))}`], sql``)
-			: query
-	) as any;
+export function pgNull() {
+	return sql<null>`NULL`;
 }
 
 export function pgJsonAgg<T extends SQLWrapper>(expression?: T): SQL<SelectResultField<T>[]> {
-	return sql<SelectResultField<T>[]>`json_agg(${expression})`;
+	return sql`json_agg(${expression})`;
 }
 
 export function pgCastCount(expression?: SQLWrapper) {
 	return pgCast(count(expression), 'integer');
+}
+
+export function pgNullIf<T extends SQLWrapper>(
+	v1: T,
+	v2: SQLWrapper
+): SQL<SelectResultField<T> | null> {
+	return sql`NULLIF(${v1}, ${v2})`;
+}
+
+export function pgAnyValue<T extends SQLWrapper>(expression: T): SQL<SelectResultField<T>> {
+	return sql`any_value(${expression})`;
 }
