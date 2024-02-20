@@ -16,8 +16,7 @@ import {
 	schematics,
 	schematicsCosts,
 	startMat,
-	startMigrate,
-	startView
+	startMigrate
 } from '~/server/db';
 import { log } from '~/utils/logger';
 import { merge, startReadingData } from '../db/handler';
@@ -26,7 +25,7 @@ import { mapTable } from '../db/schema/map';
 
 export default defineNitroPlugin(async () => {
 	await startMigrate();
-	await startView();
+	await startMat();
 
 	if (env.NODE_ENV !== 'development' || env.FORCE_CLEAR_DB) {
 		log('info', `Clearing database...`);
@@ -53,6 +52,6 @@ export default defineNitroPlugin(async () => {
 		await startReadingData();
 	}
 
-	await merge();
 	await startMat();
+	await merge();
 });

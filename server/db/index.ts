@@ -5,15 +5,10 @@ import * as imports from './views';
 
 export function startMat() {
 	return migrateViews({
-		imports: mats,
-		service: 'wiki',
-		migrationDb: db
-	});
-}
-
-export function startView() {
-	return migrateViews({
-		imports,
+		imports: {
+			...imports,
+			...mats
+		},
 		service: 'wiki',
 		migrationDb: db
 	});
