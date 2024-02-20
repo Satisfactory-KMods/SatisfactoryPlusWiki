@@ -1,7 +1,7 @@
+import { colJson } from '@kmods/drizzle-orm-utils';
 import { relations } from 'drizzle-orm';
 import { boolean, text, uuid } from 'drizzle-orm/pg-core';
 import type { SFInformationRow } from '~/utils/satisfactoryExtractorTypes';
-import { safeJson } from '../../utils/db';
 import { buildables } from './buildables';
 import { items } from './items';
 import { dbSchema } from './schema';
@@ -31,8 +31,8 @@ export const extraInformations = dbSchema.table('extra_informations', {
 	isModul: boolean('is_modul').default(false).notNull(),
 	isHatchery: boolean('is_hatchery').default(false).notNull(),
 	isHatcheryModul: boolean('is_hatchery_modul').default(false).notNull(),
-	consumed: safeJson<SFInformationRow[]>()('consumed_in').notNull().default([]),
-	produced: safeJson<SFInformationRow[]>()('produced_in').notNull().default([])
+	consumed: colJson('consumed_in').$type<SFInformationRow[]>().notNull().defaultArray(),
+	produced: colJson('produced_in').$type<SFInformationRow[]>().notNull().defaultArray()
 });
 
 export const extraInformationsRelations = relations(extraInformations, ({ one }) => {

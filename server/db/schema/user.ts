@@ -1,14 +1,14 @@
 import type { AdapterAccount } from '@auth/core/adapters';
+import { colTimestamp } from '@kmods/drizzle-orm-utils';
 import { relations } from 'drizzle-orm';
 import { integer, primaryKey, text } from 'drizzle-orm/pg-core';
-import { momentTimestamp } from '../../utils/db/table';
 import { dbSchema } from './schema';
 
 export const users = dbSchema.table('user', {
 	id: text('id').notNull().primaryKey(),
 	name: text('name'),
 	email: text('email').notNull(),
-	emailVerified: momentTimestamp('email_verified'),
+	emailVerified: colTimestamp('email_verified'),
 	image: text('image')
 });
 
@@ -67,7 +67,7 @@ export const sessions = dbSchema.table('session', {
 			},
 			{ onDelete: 'cascade' }
 		),
-	expires: momentTimestamp('expires').notNull()
+	expires: colTimestamp('expires').notNull()
 });
 
 export const sessionsRelations = relations(sessions, ({ one }) => {
@@ -84,7 +84,7 @@ export const verificationTokens = dbSchema.table(
 	{
 		identifier: text('identifier').notNull(),
 		token: text('token').notNull(),
-		expires: momentTimestamp('expires').notNull()
+		expires: colTimestamp('expires').notNull()
 	},
 	(vt) => {
 		return {

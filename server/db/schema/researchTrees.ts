@@ -1,7 +1,11 @@
+import { colJson } from '@kmods/drizzle-orm-utils';
 import { relations } from 'drizzle-orm';
 import { text, unique, uuid } from 'drizzle-orm/pg-core';
-import type { NodeCoords, SFDataType, SFTreeUnlockElement } from '~/utils/satisfactoryExtractorTypes';
-import { safeJson } from '../../utils/db';
+import type {
+	NodeCoords,
+	SFDataType,
+	SFTreeUnlockElement
+} from '~/utils/satisfactoryExtractorTypes';
 import { dataTypeEnum, dbSchema } from './schema';
 import { schematics } from './schematics';
 import { wikiElement } from './wiki';
@@ -15,7 +19,7 @@ export const researchTree = dbSchema.table('research_tree', {
 	name: text('name').notNull(),
 	description: text('description').notNull(),
 	image: text('image').notNull(),
-	treeUnlocks: safeJson<SFTreeUnlockElement[]>()('tree_unlocks').notNull(),
+	treeUnlocks: colJson('tree_unlocks').$type<SFTreeUnlockElement[]>().notNull(),
 	dataType: dataTypeEnum('data_type').$type<SFDataType>().notNull()
 });
 
@@ -61,10 +65,10 @@ export const researchTreeNodes = dbSchema.table(
 					onDelete: 'cascade'
 				}
 			),
-		coordinates: safeJson<NodeCoords>()('coordinates').notNull(),
-		unhiddenBy: safeJson<NodeCoords[]>()('unhidden_by').default([]).notNull(),
-		nodesToUnhide: safeJson<NodeCoords[]>()('nodes_to_unhide').default([]).notNull(),
-		parents: safeJson<NodeCoords[]>()('parents').default([]).notNull()
+		coordinates: colJson('coordinates').$type<NodeCoords>().notNull(),
+		unhiddenBy: colJson('unhidden_by').$type<NodeCoords[]>().default([]).notNull(),
+		nodesToUnhide: colJson('nodes_to_unhide').$type<NodeCoords[]>().default([]).notNull(),
+		parents: colJson('parents').$type<NodeCoords[]>().default([]).notNull()
 	},
 	(t) => {
 		return {

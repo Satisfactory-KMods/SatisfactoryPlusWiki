@@ -1,7 +1,7 @@
+import { colJson } from '@kmods/drizzle-orm-utils';
 import { relations } from 'drizzle-orm';
 import { integer, numeric, text, uuid } from 'drizzle-orm/pg-core';
 import type { SFNodeCoords, SFResourceNodeType } from '~/utils/satisfactoryExtractorTypes';
-import { safeJson } from '../../utils/db';
 import { items } from './items';
 import { dbSchema, resourceNodeType } from './schema';
 
@@ -21,8 +21,8 @@ export const mapTable = dbSchema.table('map', {
 	y: numeric('y').notNull(),
 	z: numeric('z').notNull(),
 	purity: integer('purity').$type<SFNodeCoords['purity']>().notNull(),
-	itemAmounts: safeJson<SFNodeCoords['itemAmounts']>()('item_amounts').notNull(),
-	satelites: safeJson<SFNodeCoords['satelites']>()('satelites').notNull()
+	itemAmounts: colJson('item_amounts').$type<SFNodeCoords['itemAmounts']>().notNull(),
+	satelites: colJson('satelites').$type<SFNodeCoords['satelites']>().notNull()
 });
 
 export const mapTableRelations = relations(mapTable, ({ one }) => {

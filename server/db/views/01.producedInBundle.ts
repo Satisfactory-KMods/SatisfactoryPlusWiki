@@ -1,6 +1,6 @@
+import { pgCoalesce, pgTable } from '@kmods/drizzle-orm-utils';
 import { eq, getTableColumns } from 'drizzle-orm';
 import { buildables, db, dbSchema, producedIn, recipes } from '~/server/db/index';
-import { pgTable } from '~/server/utils/db';
 
 export const viewProducedInBundle = dbSchema.view('view_produced_in_bundle').as(() => {
 	const producedInBundle = db.$with('pb').as(

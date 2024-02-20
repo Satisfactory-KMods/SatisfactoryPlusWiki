@@ -1,3 +1,4 @@
+import { colJson } from '@kmods/drizzle-orm-utils';
 import { relations } from 'drizzle-orm';
 import { boolean, integer, numeric, text, uuid, varchar } from 'drizzle-orm/pg-core';
 import type {
@@ -6,7 +7,6 @@ import type {
 	SFDescType,
 	SFItemForm
 } from '~/utils/satisfactoryExtractorTypes';
-import { safeJson } from '../../utils/db';
 import { cleaner } from './cleaners';
 import { mapTable } from './map';
 import { recipes } from './recipes';
@@ -31,12 +31,15 @@ export const items = dbSchema.table('items', {
 	energyValue: numeric('energy_value').notNull(),
 	form: itemFormEnum('form').$type<SFItemForm>().notNull(),
 	stackSize: integer('stack_size').notNull(),
-	itemTypeInformation: safeJson<SFDataItemType>()('item_type_information').notNull(),
+	itemTypeInformation: colJson('item_type_information').$type<SFDataItemType>().notNull(),
 	modified: boolean('modified').notNull().default(false),
 	image: text('image').notNull(),
 	category: text('category').notNull(),
 	subCategory: text('sub_category').notNull(),
-	usedInSchematics: safeJson<SchematicSelect[]>()('used_in_schematics').notNull().default([]),
+	usedInSchematics: colJson('used_in_schematics')
+		.$type<SchematicSelect[]>()
+		.notNull()
+		.default([]),
 	dataType: dataTypeEnum('data_type').$type<SFDataType>().notNull()
 });
 
