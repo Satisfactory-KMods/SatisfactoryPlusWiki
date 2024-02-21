@@ -327,54 +327,59 @@
 			class="border-b border-gray-200 dark:border-gray-800" />
 
 		<div v-if="!params.page" class="flex flex-col gap-2 overflow-auto p-2">
-			<div v-if="result?.items.form !== SFItemForm.SOLID" class="flex gap-3">
-				<div
-					class="flex flex-1 items-center gap-2 rounded border p-2 dark:border-slate-700 dark:bg-slate-800">
-					<span class="flex-1 text-lg font-bold">Gas Color</span>
+			<div>
+				<div v-if="result?.items.form !== SFItemForm.SOLID" class="flex gap-3">
 					<div
-						class="flex h-8 w-40 cursor-pointer flex-col items-center justify-center gap-2 rounded border text-center text-white dark:border-slate-600"
-						:style="{
-							'background-color': `#${result?.items.gas_color}`
-						}"
-						@click="copyColor(result?.items.gas_color ?? '')">
-						<div class="flex items-center gap-2 text-xs text-white">
-							<Icon name="heroicons:clipboard-document" />
-							#{{ result?.items.gas_color }}
+						class="flex flex-1 items-center gap-2 rounded border p-2 dark:border-slate-700 dark:bg-slate-800">
+						<span class="flex-1 text-lg font-bold">Gas Color</span>
+						<div
+							class="flex h-8 w-40 cursor-pointer flex-col items-center justify-center gap-2 rounded border text-center text-white dark:border-slate-600"
+							:style="{
+								'background-color': `#${result?.items.gas_color}`
+							}"
+							@click="copyColor(result?.items.gas_color ?? '')">
+							<div class="flex items-center gap-2 text-xs text-white">
+								<Icon name="heroicons:clipboard-document" />
+								#{{ result?.items.gas_color }}
+							</div>
+						</div>
+					</div>
+					<div
+						class="flex flex-1 items-center gap-2 rounded border p-2 dark:border-slate-700 dark:bg-slate-800">
+						<span class="flex-1 text-lg font-bold">Fluid Color</span>
+						<div
+							class="flex h-8 w-40 cursor-pointer flex-col items-center justify-center gap-2 rounded border text-center text-white dark:border-slate-600"
+							:style="{
+								'background-color': `#${result?.items.fluid_color}`
+							}"
+							@click="copyColor(result?.items.fluid_color ?? '')">
+							<div class="flex items-center gap-2 text-xs text-white">
+								<Icon name="heroicons:clipboard-document" />
+								#{{ result?.items.fluid_color }}
+							</div>
 						</div>
 					</div>
 				</div>
-				<div
-					class="flex flex-1 items-center gap-2 rounded border p-2 dark:border-slate-700 dark:bg-slate-800">
-					<span class="flex-1 text-lg font-bold">Fluid Color</span>
-					<div
-						class="flex h-8 w-40 cursor-pointer flex-col items-center justify-center gap-2 rounded border text-center text-white dark:border-slate-600"
-						:style="{
-							'background-color': `#${result?.items.fluid_color}`
-						}"
-						@click="copyColor(result?.items.fluid_color ?? '')">
-						<div class="flex items-center gap-2 text-xs text-white">
-							<Icon name="heroicons:clipboard-document" />
-							#{{ result?.items.fluid_color }}
-						</div>
-					</div>
+
+				<UAlert
+					icon="i-heroicons-information-circle"
+					color="primary"
+					variant="subtle"
+					title="In the future, users will have the ability to add more information about an item
+					or a building. If you don't see any additional information here, it's because
+					none has been provided yet.">
+				</UAlert>
+
+				<div class="prose dark:prose-invert prose-slate max-w-none p-2">
+					<h3>Description</h3>
+					<span
+						class="whitespace-break-spaces opacity-75"
+						v-html="headerData.description" />
 				</div>
+
+				<UTable :rows="itemDatas" />
+				<DataItemExtraInformations :item="result!" />
 			</div>
-
-			<UAlert
-				icon="i-heroicons-information-circle"
-				color="primary"
-				variant="subtle"
-				title="In the future, users will have the ability to add more information about an item
-				or a building. If you don't see any additional information here, it's because
-				none has been provided yet.">
-			</UAlert>
-
-			<div class="prose dark:prose-invert prose-slate max-w-none p-2">
-				<h3>Description</h3>
-				<span class="whitespace-break-spaces opacity-75" v-html="headerData.description" />
-			</div>
-
-			<UTable :rows="itemDatas" />
 		</div>
 
 		<div v-if="params.page === 'cleaner'" class="flex flex-col gap-2 overflow-auto pe-2">

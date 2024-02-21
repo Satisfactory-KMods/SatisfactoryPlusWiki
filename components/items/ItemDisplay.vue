@@ -83,5 +83,10 @@
 				:height="$props.imageSize"
 				class="m-2" />
 		</div>
+		<div
+			v-if="$slots.extra"
+			class="w-full border-t bg-slate-200 bg-opacity-50 px-2 py-1 text-center dark:border-gray-700 dark:bg-slate-900">
+			<div class="flex-1 truncate"><slot name="extra" /></div>
+		</div>
 	</NuxtLink>
 </template>
