@@ -13,21 +13,12 @@
 		});
 	}
 
-	const spoilerData = computed(() => {
-		return {
-			title: result.value!.items.name,
-			description: result.value!.items.description,
-			image: result.value!.items.image
-		};
-	});
-
 	const headerData = computed(() => {
-		const item = result.value!.items;
 		return {
-			...spoilerData.value,
-			useSpoiler:
-				item.item_type_information.type === 'egg' ||
-				item.item_type_information.type === 'slug'
+			title: result.value!.name,
+			description: '',
+			image: result.value!.image,
+			useSpoiler: false
 		};
 	});
 
@@ -46,9 +37,6 @@
 
 <template>
 	<div class="flex flex-col gap-2">
-		{{ navigation.findIndex((e) => e.param === params.page) }}
-		{{ navigation }}
-		{{ params }}
 		<DataPageHeader v-bind="headerData" />
 		<UHorizontalNavigation
 			:links="navigation"

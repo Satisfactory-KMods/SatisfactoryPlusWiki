@@ -1,10 +1,11 @@
 import type { SQL } from 'drizzle-orm';
 import { and, asc, desc, eq, ilike, isNotNull, not, or, sql } from 'drizzle-orm';
-import { buildables, db, items, recipes, researchTree, schematics } from '~/server/db/index';
+import { db, items, recipes, researchTree, schematics } from '~/server/db/index';
 import { log } from '~/utils/logger';
 import { SFDescType } from '~/utils/satisfactoryExtractorTypes';
 import { wikiElement } from '../db/schema/wiki';
 import { hasReaded, setReaded } from '../plugins/02.schedules';
+import { buildables } from './../db/schema/buildables';
 
 export async function getMappingData(id: string, user: string) {
 	const result = await db.query.mapping
@@ -119,9 +120,7 @@ export async function getMostVisitsFor<
 >(table: T, limit = 5) {
 	const ands: SQL[] = [];
 
-	// @ts-ignore
-	if (table.descriptorType) {
-		// @ts-ignore
+	if (table === items) {
 		ands.push(not(eq(table.descriptorType, SFDescType.BUILDING)));
 	}
 

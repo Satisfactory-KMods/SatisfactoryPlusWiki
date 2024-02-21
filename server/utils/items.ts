@@ -2,7 +2,7 @@ import { pgAggJsonBuildObject } from '@kmods/drizzle-orm-utils';
 import { and, eq, not } from 'drizzle-orm';
 import { db, extraInformations, items, mapping } from '~/server/db/index';
 import { SFDescType } from '~/utils/satisfactoryExtractorTypes';
-import { viewCleanerItemMapping } from '../db/views';
+import { viewBuildingBundle, viewCleanerItemMapping, viewRecipeBundle } from '../db/views';
 import { viewSchematicInformations } from '../db/views/04.schematicInformations';
 import { wikiDesc, wikiElement } from './../db/schema/wiki';
 
@@ -40,6 +40,30 @@ export function getInformationForSchematic(shortPath: string) {
 		.select()
 		.from(viewSchematicInformations)
 		.where(eq(viewSchematicInformations.shortPath, shortPath))
+		.limit(1)
+		.then((result) => {
+			if (!result.length) throw new Error('No result found');
+			return result[0];
+		});
+}
+
+export function getInformationForBuilding(shortPath: string) {
+	return db
+		.select()
+		.from(viewBuildingBundle)
+		.where(eq(viewBuildingBundle.shortPath, shortPath))
+		.limit(1)
+		.then((result) => {
+			if (!result.length) throw new Error('No result found');
+			return result[0];
+		});
+}
+
+export function getInformationForRecipe(shortPath: string) {
+	return db
+		.select()
+		.from(viewRecipeBundle)
+		.where(eq(viewRecipeBundle.shortPath, shortPath))
 		.limit(1)
 		.then((result) => {
 			if (!result.length) throw new Error('No result found');

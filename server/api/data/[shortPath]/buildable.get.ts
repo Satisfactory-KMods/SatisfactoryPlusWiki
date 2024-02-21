@@ -1,3 +1,11 @@
+import { getInformationForBuilding } from '~/server/utils/items';
+import type { InferReturn, RemoveNullFrom } from '~/utils/typeUtils';
+
+export type BuildingDataResult = RemoveNullFrom<
+	InferReturn<typeof getInformationForBuilding>,
+	'id'
+>;
+
 export default defineEventHandler((event) => {
 	const shortPath = getRouterParam(event, 'shortPath');
 
@@ -8,5 +16,5 @@ export default defineEventHandler((event) => {
 		});
 	}
 
-	return getInformationForItem(shortPath);
+	return getInformationForBuilding(shortPath);
 });

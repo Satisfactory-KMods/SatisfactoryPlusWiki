@@ -27,3 +27,22 @@ export function getResearchTreeData(path: string) {
 			return res[0];
 		});
 }
+
+export function inlineCatchNull<T extends (...args: any[]) => any>(fn: T): ReturnType<T> | null {
+	try {
+		return fn();
+	} catch (e) {
+		return null;
+	}
+}
+
+export function inlineCatch<T extends (...args: any[]) => any>(
+	fn: T,
+	catchResult: ReturnType<T>
+): ReturnType<T> {
+	try {
+		return fn();
+	} catch (e) {
+		return catchResult;
+	}
+}
