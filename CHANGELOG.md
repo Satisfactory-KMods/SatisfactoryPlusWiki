@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1](https://github.com/Satisfactory-KMods/SatisfactoryPlusWiki/compare/v1.0.0...v1.0.1) (2024-02-21)
+
+
+### Bug Fixes
+
+* views ([461de05](https://github.com/Satisfactory-KMods/SatisfactoryPlusWiki/commit/461de05642bae696b0276a3bfd8991cf7ae4aceb))
+
 ## 1.0.0 (2024-02-21)
 
 
