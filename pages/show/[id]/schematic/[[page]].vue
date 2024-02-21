@@ -160,7 +160,7 @@
 					v-for="recipe of result!.recipes"
 					:key="recipe.id"
 					:schematics="recipe.schematicUnlocks"
-					:data="recipe"
+					:data="recipe as any"
 					class="flex-shrink-0" />
 			</div>
 		</template>
@@ -171,7 +171,7 @@
 					v-for="cleaner of result!.cleaner"
 					:key="cleaner.id"
 					:schematics="[result! as any]"
-					:data="cleaner"
+					:data="cleaner as any"
 					class="flex-shrink-0" />
 			</div>
 		</template>

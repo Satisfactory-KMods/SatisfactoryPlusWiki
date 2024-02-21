@@ -4,7 +4,7 @@ import { eq, getTableColumns } from 'drizzle-orm';
 import { dbSchema, mapping } from '../schema';
 import { items } from '../schema/items';
 import { recipeUnlocks, scannerUnlocks, schematics, schematicsCosts } from '../schema/schematics';
-import { getCleanerViewColumns, viewCleanerWith } from './02.cleanerElement';
+import { viewCleanerWith } from './02.cleanerElement';
 import { withRecipeBundle } from './05.recipeBundle';
 
 export const viewSchematicInformations = dbSchema.view('view_schematic_informations').as((db) => {
@@ -80,7 +80,7 @@ export const viewSchematicInformations = dbSchema.view('view_schematic_informati
 			.with(viewCleanerWith)
 			.select({
 				schematic_cleaner: viewCleanerWith.schematic,
-				cleanerData: pgAggJsonBuildObject(getCleanerViewColumns(), { aggregate: true }).as(
+				cleanerData: pgAggJsonBuildObject(viewCleanerWith, { aggregate: true }).as(
 					'cleanerData'
 				)
 			})

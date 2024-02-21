@@ -1,6 +1,5 @@
 import type { InferDynamic } from '@kmods/drizzle-orm-utils';
 import {
-	getColumnsFromViewOrSubquery,
 	pgAggJsonBuildObject,
 	pgAnyValue,
 	pgCast,
@@ -125,7 +124,3 @@ export const viewBuildingBundle = dbSchema.view('view_building_bundle').as((db) 
 });
 
 export type BuildingBundle = InferDynamic<typeof viewBuildingBundle>;
-
-export function getBuildingBundleColumns() {
-	return getColumnsFromViewOrSubquery(viewBuildingBundle);
-}

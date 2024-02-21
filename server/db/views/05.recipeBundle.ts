@@ -98,28 +98,24 @@ const schematicUnlocks = db.$with('schematic').as(
 		.groupBy(recipeUnlocks.recipePath)
 );
 
-const query = {
-	...getTableColumns(recipes),
-	...getTableColumns(mapping),
-	input: pgCoalesce(inputDirection.values).as('input'),
-	output: pgCoalesce(outputDirection.values).as('output'),
-	producedIn: pgCoalesce(producedInBuildings.values).as('producedIn'),
-	schematicUnlocks: pgCoalesce(schematicUnlocks.values).as('schematicUnlocks')
-};
-
-export const withRecipeBundle = db
-	.$with('recipeBundle')
-	.as(
-		db
-			.with(inputDirection, outputDirection, producedInBuildings, schematicUnlocks)
-			.select(query)
-			.from(recipes)
-			.leftJoin(inputDirection, eq(recipes.path, inputDirection.recipePath))
-			.leftJoin(outputDirection, eq(recipes.path, outputDirection.recipePath))
-			.leftJoin(producedInBuildings, eq(recipes.path, producedInBuildings.recipePath))
-			.leftJoin(schematicUnlocks, eq(recipes.path, schematicUnlocks.recipePath))
-			.leftJoin(mapping, eq(recipes.path, mapping.elPath))
-	);
+export const withRecipeBundle = db.$with('recipeBundle').as(
+	db
+		.with(inputDirection, outputDirection, producedInBuildings, schematicUnlocks)
+		.select({
+			...getTableColumns(recipes),
+			...getTableColumns(mapping),
+			input: pgCoalesce(inputDirection.values).as('input'),
+			output: pgCoalesce(outputDirection.values).as('output'),
+			producedIn: pgCoalesce(producedInBuildings.values).as('producedIn'),
+			schematicUnlocks: pgCoalesce(schematicUnlocks.values).as('schematicUnlocks')
+		})
+		.from(recipes)
+		.leftJoin(inputDirection, eq(recipes.path, inputDirection.recipePath))
+		.leftJoin(outputDirection, eq(recipes.path, outputDirection.recipePath))
+		.leftJoin(producedInBuildings, eq(recipes.path, producedInBuildings.recipePath))
+		.leftJoin(schematicUnlocks, eq(recipes.path, schematicUnlocks.recipePath))
+		.leftJoin(mapping, eq(recipes.path, mapping.elPath))
+);
 
 export const viewRecipeBundle = dbSchema.view('view_recipe_bundle').as((db) => {
 	return db.with(withRecipeBundle).select().from(withRecipeBundle);

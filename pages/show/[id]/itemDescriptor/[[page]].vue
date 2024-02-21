@@ -387,7 +387,7 @@
 				v-for="cleaner of cleaners"
 				:key="cleaner.id"
 				:schematics="[result! as any]"
-				:data="cleaner"
+				:data="cleaner as any"
 				class="flex-shrink-0" />
 		</div>
 
