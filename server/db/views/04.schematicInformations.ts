@@ -4,8 +4,8 @@ import { eq, getTableColumns } from 'drizzle-orm';
 import { dbSchema, mapping } from '../schema';
 import { items } from '../schema/items';
 import { recipeUnlocks, scannerUnlocks, schematics, schematicsCosts } from '../schema/schematics';
-import { getCleanerViewColumns, viewCleanerElement } from './02.cleanerElement';
-import { getRecipeViewColumns, viewRecipeBundle } from './05.recipeBundle';
+import { getCleanerViewColumns, viewCleanerWith } from './02.cleanerElement';
+import { withRecipeBundle } from './05.recipeBundle';
 
 export const viewSchematicInformations = dbSchema.view('view_schematic_informations').as((db) => {
 	const itemCostsSubQuery = db.$with('itemCostsSubQuery').as(
@@ -65,25 +65,27 @@ export const viewSchematicInformations = dbSchema.view('view_schematic_informati
 
 	const schematicRecipeUnlocks = db.$with('recipes').as(
 		db
+			.with(withRecipeBundle)
 			.select({
 				schematic: recipeUnlocks.schematicPath,
-				data: pgAggJsonBuildObject(getRecipeViewColumns(), { aggregate: true }).as('data')
+				data: pgAggJsonBuildObject(withRecipeBundle, { aggregate: true }).as('data')
 			})
 			.from(recipeUnlocks)
-			.leftJoin(viewRecipeBundle, eq(recipeUnlocks.recipePath, viewRecipeBundle.path))
+			.leftJoin(withRecipeBundle, eq(recipeUnlocks.recipePath, withRecipeBundle.path))
 			.groupBy(recipeUnlocks.schematicPath)
 	);
 
 	const cleanerUnlocks = db.$with('cleaner').as(
 		db
+			.with(viewCleanerWith)
 			.select({
-				schematic_cleaner: viewCleanerElement.schematic,
+				schematic_cleaner: viewCleanerWith.schematic,
 				cleanerData: pgAggJsonBuildObject(getCleanerViewColumns(), { aggregate: true }).as(
 					'cleanerData'
 				)
 			})
-			.from(viewCleanerElement)
-			.groupBy(viewCleanerElement.schematic)
+			.from(viewCleanerWith)
+			.groupBy(viewCleanerWith.schematic)
 	);
 
 	return db

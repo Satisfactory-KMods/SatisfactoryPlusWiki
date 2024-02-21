@@ -50,23 +50,29 @@ const query = {
 	byPass: byPass.byPass
 };
 
-export const viewCleanerElement = dbSchema.view('view_cleaner_element').as((db) => {
-	return db
-		.with(byPass)
-		.select(query)
-		.from(cleaner)
-		.leftJoin(schematics, eq(cleaner.schematic, schematics.path))
-		.leftJoin(outFluid, eq(cleaner.outFluid, outFluid.path))
-		.leftJoin(
-			buildables,
-			eq(
-				buildables.path,
-				'/KLib/Assets/Buildings/Cleaner/BuildDesc_Cleaner_2.BuildDesc_Cleaner_2_C'
+export const viewCleanerWith = db
+	.$with('view_cleaner_element')
+	.as(
+		db
+			.with(byPass)
+			.select(query)
+			.from(cleaner)
+			.leftJoin(schematics, eq(cleaner.schematic, schematics.path))
+			.leftJoin(outFluid, eq(cleaner.outFluid, outFluid.path))
+			.leftJoin(
+				buildables,
+				eq(
+					buildables.path,
+					'/KLib/Assets/Buildings/Cleaner/BuildDesc_Cleaner_2.BuildDesc_Cleaner_2_C'
+				)
 			)
-		)
-		.leftJoin(inFluid, eq(cleaner.inFluid, inFluid.path))
-		.leftJoin(byPass, eq(cleaner.path, byPass.cleanerPath))
-		.leftJoin(filterItem, eq(cleaner.filterItem, filterItem.path));
+			.leftJoin(inFluid, eq(cleaner.inFluid, inFluid.path))
+			.leftJoin(byPass, eq(cleaner.path, byPass.cleanerPath))
+			.leftJoin(filterItem, eq(cleaner.filterItem, filterItem.path))
+	);
+
+export const viewCleanerElement = dbSchema.view('view_cleaner_element').as((db) => {
+	return db.with(viewCleanerWith).select().from(viewCleanerWith);
 });
 
 export type CleanerElement = InferDynamic<typeof viewCleanerElement>;

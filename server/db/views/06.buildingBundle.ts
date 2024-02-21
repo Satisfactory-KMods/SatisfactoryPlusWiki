@@ -15,11 +15,9 @@ import { db } from '../pg';
 import { dbSchema, mapping, recipeUnlocks } from '../schema';
 import { recipesOutput } from './../schema/recipes';
 import { schematics } from './../schema/schematics';
-import { viewProducedInBundle } from './01.producedInBundle';
-import { viewCleanerElement } from './02.cleanerElement';
-import { viewRecipeBundle } from './05.recipeBundle';
-
-const { producedIn } = getColumnsFromViewOrSubquery(viewProducedInBundle);
+import { withProductionInBundle } from './01.producedInBundle';
+import { viewCleanerWith } from './02.cleanerElement';
+import { withRecipeBundle } from './05.recipeBundle';
 
 const unlocksPrepare = db.$with('unlocksPrepare').as(
 	db
@@ -57,12 +55,13 @@ const unlocks = db.$with('unlocks').as(
 
 const buildingRecipePrepare = db.$with('buildingRecipePrepare').as(
 	db
+		.with(withRecipeBundle, withProductionInBundle)
 		.select({
-			recipe: pgAggJsonBuildObject(viewRecipeBundle).as('recipe'),
-			building: pgJsonArrayElements(producedIn).as('building')
+			recipe: pgAggJsonBuildObject(withRecipeBundle).as('recipe'),
+			building: pgJsonArrayElements(withProductionInBundle.producedIn).as('building')
 		})
-		.from(viewProducedInBundle)
-		.leftJoin(viewRecipeBundle, eq(viewProducedInBundle.path, viewRecipeBundle.path))
+		.from(withProductionInBundle)
+		.leftJoin(withRecipeBundle, eq(withProductionInBundle.path, withRecipeBundle.path))
 );
 
 const buildingRecipes = db.$with('buildingRecipes').as(
@@ -78,28 +77,28 @@ const buildingRecipes = db.$with('buildingRecipes').as(
 
 const cleanerRecipes = db.$with('cleanerRecipes').as(
 	db
+		.with(viewCleanerWith)
 		.select({
 			isCleaner: sql<true>`true`.as('isCleaner'),
-			values: pgAggJsonBuildObject(viewCleanerElement, {
+			values: pgAggJsonBuildObject(viewCleanerWith, {
 				aggregate: true
 			}).as('values_c')
 		})
-		.from(viewCleanerElement)
-		.groupBy(viewCleanerElement.dataType)
+		.from(viewCleanerWith)
+		.groupBy(viewCleanerWith.dataType)
 );
+
+const subQuery = db.with(withRecipeBundle).select().from(withRecipeBundle).as('subQuery');
 
 const recipe = db.$with('recipe').as(
 	db
-		.selectDistinctOn(
-			[pgClearQuote(pgCast(sql`${viewRecipeBundle.output}->0->'path'`, 'varchar'))],
-			{
-				buildingDescPath: pgClearQuote(
-					pgCast(sql`${viewRecipeBundle.output}->0->'path'`, 'varchar')
-				).as('buildingDescPath'),
-				recipe: pgAggJsonBuildObject(viewRecipeBundle).as('recipe')
-			}
-		)
-		.from(viewRecipeBundle)
+		.selectDistinctOn([pgClearQuote(pgCast(sql`${subQuery.output}->0->'path'`, 'varchar'))], {
+			buildingDescPath: pgClearQuote(
+				pgCast(sql`${subQuery.output}->0->'path'`, 'varchar')
+			).as('buildingDescPath'),
+			recipe: pgAggJsonBuildObject(subQuery).as('recipe')
+		})
+		.from(subQuery)
 );
 
 const query = {

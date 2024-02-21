@@ -107,16 +107,22 @@ const query = {
 	schematicUnlocks: pgCoalesce(schematicUnlocks.values).as('schematicUnlocks')
 };
 
+export const withRecipeBundle = db
+	.$with('recipeBundle')
+	.as(
+		db
+			.with(inputDirection, outputDirection, producedInBuildings, schematicUnlocks)
+			.select(query)
+			.from(recipes)
+			.leftJoin(inputDirection, eq(recipes.path, inputDirection.recipePath))
+			.leftJoin(outputDirection, eq(recipes.path, outputDirection.recipePath))
+			.leftJoin(producedInBuildings, eq(recipes.path, producedInBuildings.recipePath))
+			.leftJoin(schematicUnlocks, eq(recipes.path, schematicUnlocks.recipePath))
+			.leftJoin(mapping, eq(recipes.path, mapping.elPath))
+	);
+
 export const viewRecipeBundle = dbSchema.view('view_recipe_bundle').as((db) => {
-	return db
-		.with(inputDirection, outputDirection, producedInBuildings, schematicUnlocks)
-		.select(query)
-		.from(recipes)
-		.leftJoin(inputDirection, eq(recipes.path, inputDirection.recipePath))
-		.leftJoin(outputDirection, eq(recipes.path, outputDirection.recipePath))
-		.leftJoin(producedInBuildings, eq(recipes.path, producedInBuildings.recipePath))
-		.leftJoin(schematicUnlocks, eq(recipes.path, schematicUnlocks.recipePath))
-		.leftJoin(mapping, eq(recipes.path, mapping.elPath));
+	return db.with(withRecipeBundle).select().from(withRecipeBundle);
 });
 
 export type RecipeBundle = InferDynamic<typeof viewRecipeBundle>;
