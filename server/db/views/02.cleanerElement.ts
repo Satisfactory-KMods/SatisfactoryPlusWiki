@@ -36,57 +36,39 @@ const byPass = db.$with('bypass').as(
 		.groupBy(cleanerByPass.cleanerPath)
 );
 
-const query = {
-	...getTableColumns(cleaner),
-	schematicData: pgAggJsonBuildObject(schematics).as('schematicData'),
-	cleanerBuilding: pgAggJsonBuildObject(buildables).as('cleanerBuilding'),
-	name: inFluid.name,
-	description: inFluid.description,
-	outFluid: pgCase(isNotNull(outFluid.id), pgAggJsonBuildObject(outFluid), pgNull()).as(
-		'outFluid'
-	),
-	filterItem: pgAggJsonBuildObject(filterItem).as('filterItem'),
-	inFluid: pgAggJsonBuildObject(inFluid).as('inFluid'),
-	byPass: byPass.byPass
-};
-
-export const viewCleanerWith = db
-	.$with('view_cleaner_element')
-	.as(
-		db
-			.with(byPass)
-			.select(query)
-			.from(cleaner)
-			.leftJoin(schematics, eq(cleaner.schematic, schematics.path))
-			.leftJoin(outFluid, eq(cleaner.outFluid, outFluid.path))
-			.leftJoin(
-				buildables,
-				eq(
-					buildables.path,
-					'/KLib/Assets/Buildings/Cleaner/BuildDesc_Cleaner_2.BuildDesc_Cleaner_2_C'
-				)
+export const viewCleanerWith = db.$with('view_cleaner_element').as(
+	db
+		.with(byPass)
+		.select({
+			...getTableColumns(cleaner),
+			schematicData: pgAggJsonBuildObject(schematics).as('schematicData'),
+			cleanerBuilding: pgAggJsonBuildObject(buildables).as('cleanerBuilding'),
+			name: inFluid.name,
+			description: inFluid.description,
+			outFluid: pgCase(isNotNull(outFluid.id), pgAggJsonBuildObject(outFluid), pgNull()).as(
+				'outFluid'
+			),
+			filterItem: pgAggJsonBuildObject(filterItem).as('filterItem'),
+			inFluid: pgAggJsonBuildObject(inFluid).as('inFluid'),
+			byPass: byPass.byPass
+		})
+		.from(cleaner)
+		.leftJoin(schematics, eq(cleaner.schematic, schematics.path))
+		.leftJoin(outFluid, eq(cleaner.outFluid, outFluid.path))
+		.leftJoin(
+			buildables,
+			eq(
+				buildables.path,
+				'/KLib/Assets/Buildings/Cleaner/BuildDesc_Cleaner_2.BuildDesc_Cleaner_2_C'
 			)
-			.leftJoin(inFluid, eq(cleaner.inFluid, inFluid.path))
-			.leftJoin(byPass, eq(cleaner.path, byPass.cleanerPath))
-			.leftJoin(filterItem, eq(cleaner.filterItem, filterItem.path))
-	);
+		)
+		.leftJoin(inFluid, eq(cleaner.inFluid, inFluid.path))
+		.leftJoin(byPass, eq(cleaner.path, byPass.cleanerPath))
+		.leftJoin(filterItem, eq(cleaner.filterItem, filterItem.path))
+);
 
 export const viewCleanerElement = dbSchema.view('view_cleaner_element').as((db) => {
 	return db.with(viewCleanerWith).select().from(viewCleanerWith);
 });
 
 export type CleanerElement = InferDynamic<typeof viewCleanerElement>;
-
-export function getCleanerViewColumns(): typeof query {
-	// @ts-ignore
-	return Object.keys(query).reduce(
-		(acc, key) => {
-			return {
-				...acc,
-				// @ts-ignore
-				[key]: viewCleanerElement[key]
-			};
-		},
-		{} as Record<string, any>
-	);
-}

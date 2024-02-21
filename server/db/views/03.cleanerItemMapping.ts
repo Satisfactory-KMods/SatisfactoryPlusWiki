@@ -1,5 +1,5 @@
 import type { InferDynamic } from '@kmods/drizzle-orm-utils';
-import { getColumnsFromViewOrSubquery, pgAggJsonBuildObject } from '@kmods/drizzle-orm-utils';
+import { pgAggJsonBuildObject } from '@kmods/drizzle-orm-utils';
 import { eq, isNotNull } from 'drizzle-orm';
 import { unionAll } from 'drizzle-orm/pg-core';
 import { db } from '~/server/db/index';
@@ -33,7 +33,3 @@ export const viewCleanerItemMapping = dbSchema.view('view_cleaner_item_mapping')
 });
 
 export type CleanerItemMapping = InferDynamic<typeof viewCleanerItemMapping>;
-
-export function getCleanerItemMappingColumns() {
-	return getColumnsFromViewOrSubquery(viewCleanerItemMapping);
-}
