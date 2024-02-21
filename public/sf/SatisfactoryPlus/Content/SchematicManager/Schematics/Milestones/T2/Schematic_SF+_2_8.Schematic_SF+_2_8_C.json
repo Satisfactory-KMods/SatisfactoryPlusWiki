@@ -2,7 +2,24 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
 	"name": "Better Biomass Energy",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
+			"amount": 100
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/BioFuel/Desc_Biofuel.Desc_Biofuel_C",
+			"amount": 600
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_LeadSheet.Desc_LeadSheet_C",
+			"amount": 500
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C",
+			"amount": 500
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 3,
@@ -43,10 +60,6 @@
 		"/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Boilers/BoilerMk1/Recipe_RP_MP_BoilerMk1.Recipe_RP_MP_BoilerMk1_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [
-		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8_0.Schematic_SF+_2_8_0_C",
-		"/SatisfactoryPlus/Content/SchematicManager/Schem_MPRecipes.Schem_MPRecipes_C"
-	],
 	"cleanerDesc": [
 		"/SatisfactoryPlus/Content/Recipes/Cleaner/CleanerDesc_BioWater.CleanerDesc_BioWater_C"
 	],

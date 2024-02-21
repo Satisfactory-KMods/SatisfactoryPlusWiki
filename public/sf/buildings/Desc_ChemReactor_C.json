@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/ChemReactor/Recipe_ChemReactor.Recipe_ChemReactor_C",
@@ -57,6 +58,37 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Recipe_Alternative_TurboFuel.Recipe_Alternative_TurboFuel_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/GunPowder/Desc_Gunpowder.Desc_Gunpowder_C",
+					"time": 16,
+					"amount": 5
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Fuel/Desc_LiquidFuel.Desc_LiquidFuel_C",
+					"time": 16,
+					"amount": 4000
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Turbofuel/Desc_LiquidTurboFuel.Desc_LiquidTurboFuel_C",
+					"time": 16,
+					"amount": 4000
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Alternative_TurboFuel_0.Alternative_TurboFuel_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/OilProcessing/Recipe_ChemReactor_Oil_Destila.Recipe_ChemReactor_Oil_Destila_C",
@@ -91,6 +123,7 @@
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/OilProcessing/Recipe_ChemReactor_Oil_Desulfurization.Recipe_ChemReactor_Oil_Desulfurization_C",
@@ -130,6 +163,7 @@
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/OilProcessing/Recipe_ChemReactor_Oil_Petroleum.Recipe_ChemReactor_Oil_Petroleum_C",
@@ -154,6 +188,7 @@
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_LiquidBiofuel.Recipe_ChemReactor_LiquidBiofuel_C",
@@ -182,12 +217,11 @@
 					"amount": 6000
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_Diesel.Recipe_ChemReactor_Diesel_C",
@@ -206,12 +240,11 @@
 					"amount": 2000
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_NaturalGas.Recipe_ChemReactor_NaturalGas_C",
@@ -240,12 +273,11 @@
 					"amount": 1750
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/OilProcessing/Recipe_ChemReactor_Oil_Destila_2.Recipe_ChemReactor_Oil_Destila_2_C",
@@ -279,41 +311,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Recipe_Alternative_TurboFuel.Recipe_Alternative_TurboFuel_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/GunPowder/Desc_Gunpowder.Desc_Gunpowder_C",
-					"time": 16,
-					"amount": 5
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Fuel/Desc_LiquidFuel.Desc_LiquidFuel_C",
-					"time": 16,
-					"amount": 4000
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Turbofuel/Desc_LiquidTurboFuel.Desc_LiquidTurboFuel_C",
-					"time": 16,
-					"amount": 4000
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
-			]
-		},
-		{
-			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_Paint.Recipe_ChemReactor_Paint_C",
@@ -338,11 +340,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Flowers_3_2.Schematic_Trees_Evo_Flowers_3_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Recipe_SAC_PowerShard.Recipe_SAC_PowerShard_C",
@@ -372,11 +375,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_4_NEW.Schematic_Trees_Slugs_3_4_NEW_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_GunpowderMk2.Recipe_ChemReactor_GunpowderMk2_C",
@@ -411,11 +415,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_3_4.Schematic_Trees_Sulfur_3_4_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_SulfurAcid.Recipe_ChemReactor_SulfurAcid_C",
@@ -440,11 +445,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_2.Schematic_SF+_6_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_HydroAcid.Recipe_ChemReactor_HydroAcid_C",
@@ -474,11 +480,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_2.Schematic_SF+_6_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_Air.Recipe_ChemReactor_Air_C",
@@ -513,11 +520,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_ToxicAir.Recipe_ChemReactor_ToxicAir_C",
@@ -547,11 +555,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_OxyHdrogen.Recipe_ChemReactor_OxyHdrogen_C",
@@ -576,11 +585,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_NatriumHot.Recipe_ChemReactor_NatriumHot_C",
@@ -610,11 +620,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_NitricAcid.Recipe_ChemReactor_NitricAcid_C",
@@ -644,11 +655,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_Titantetrachlorid.Recipe_ChemReactor_Titantetrachlorid_C",
@@ -683,11 +695,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_1.Schematic_SF+_8_1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_Titan.Recipe_ChemReactor_Titan_C",
@@ -722,11 +735,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_1.Schematic_SF+_8_1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_Bata.Recipe_ChemReactor_Bata_C",
@@ -761,11 +775,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_3.Schematic_SF+_8_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_Chem_Lift_8.Recipe_Chem_Lift_8_C",
@@ -800,11 +815,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_7.Schematic_SF+_8_7_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_RocketFuel.Recipe_ChemReactor_RocketFuel_C",
@@ -839,7 +855,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_7.Schematic_SF+_8_7_C"
 			]
 		}
 	],

@@ -2,7 +2,20 @@
 	"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_3-2.Research_XMas_3-2_C",
 	"name": "It's snowing!",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBallCluster.Desc_XmasBallCluster_C",
+			"amount": 10
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_Snow.Desc_Snow_C",
+			"amount": 100
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBranch.Desc_XmasBranch_C",
+			"amount": 500
+		}
+	],
 	"category": "Organisation",
 	"subCategory": "",
 	"type": 6,
@@ -16,7 +29,6 @@
 		"/Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasWreath.Recipe_XmasWreath_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

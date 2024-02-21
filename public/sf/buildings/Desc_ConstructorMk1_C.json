@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConstructorMk1.Recipe_ConstructorMk1_C",
@@ -52,102 +53,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_SteelBeam.Recipe_Constructor_SteelBeam_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C",
-					"time": 3,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
-					"time": 3,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_SteelPipe.Recipe_Constructor_SteelPipe_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C",
-					"time": 3,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C",
-					"time": 3,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_SteelScrew.Recipe_Constructor_SteelScrew_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_SteelRod.Desc_SteelRod_C",
-					"time": 6,
-					"amount": 4
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
-					"time": 6,
-					"amount": 5
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CopperPipe.Recipe_Constructor_CopperPipe_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_CopperPlates.Desc_CopperPlates_C",
-					"time": 3,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
-					"time": 3,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
-			]
-		},
-		{
-			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_IronWire.Recipe_Constructor_IronWire_C",
@@ -167,11 +73,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1.SF+_Schematic_Tutorial1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CopperRod.Recipe_Constructor_CopperRod_C",
@@ -191,11 +98,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CopperWire.Recipe_Constructor_CopperWire_C",
@@ -215,11 +123,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CopperCable.Recipe_Constructor_CopperCable_C",
@@ -239,11 +148,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_Cement.Recipe_Constructor_Cement_C",
@@ -268,6 +178,7 @@
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_IronScrew.Recipe_Constructor_IronScrew_C",
@@ -292,6 +203,7 @@
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_TinPlates.Recipe_Constructor_TinPlates_C",
@@ -311,11 +223,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_TinRod.Recipe_Constructor_TinRod_C",
@@ -335,11 +248,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial4.SF+_Schematic_Tutorial4_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_TinWire.Recipe_Constructor_TinWire_C",
@@ -359,11 +273,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial4.SF+_Schematic_Tutorial4_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CopperPlate.Recipe_Constructor_CopperPlate_C",
@@ -383,11 +298,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CopperSheet.Recipe_Constructor_CopperSheet_C",
@@ -407,11 +323,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_IronSheet.Recipe_Constructor_IronSheet_C",
@@ -431,11 +348,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_TinSheet.Recipe_Constructor_TinSheet_C",
@@ -455,11 +373,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_WoodBio.Recipe_Constructor_WoodBio_C",
@@ -479,11 +398,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Constructor/Recipe_Biomass_Leaves.Recipe_Biomass_Leaves_C",
@@ -503,11 +423,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Constructor/Recipe_IronRod.Recipe_IronRod_C",
@@ -526,12 +447,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Constructor/Recipe_IronPlate.Recipe_IronPlate_C",
@@ -550,12 +470,11 @@
 					"amount": 2
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_LeadSheet.Recipe_Constructor_LeadSheet_C",
@@ -575,11 +494,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_6.Schematic_SF+_1_6_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_LeadPlates.Recipe_Constructor_LeadPlates_C",
@@ -599,11 +519,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_BronzePipe.Recipe_Constructor_BronzePipe_C",
@@ -623,11 +544,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_BronzePlate.Recipe_Constructor_BronzePlate_C",
@@ -647,11 +569,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_BronzerRod.Recipe_Constructor_BronzerRod_C",
@@ -671,11 +594,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_ZincPlates.Recipe_Constructor_ZincPlates_C",
@@ -695,11 +619,13 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Recipe_Alternative_CuttedCopperWire.Recipe_Alternative_CuttedCopperWire_C",
@@ -719,11 +645,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/FlatCopperWire/Recipe_Alternative_CuttedFlatCopperCable.Recipe_Alternative_CuttedFlatCopperCable_C",
@@ -743,11 +670,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/FlatCopperWire/Alternative_FlatCopperCable.Alternative_FlatCopperCable_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Recipe_InstandWire_Copper.Recipe_InstandWire_Copper_C",
@@ -767,11 +695,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Recipe_InstandWire_Iron.Recipe_InstandWire_Iron_C",
@@ -791,11 +720,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Recipe_InstandWire_Tin.Recipe_InstandWire_Tin_C",
@@ -815,11 +745,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/StunnedScrew/Recipe_StunnedScrew.Recipe_StunnedScrew_C",
@@ -839,11 +770,87 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/StunnedScrew/Alternative_StunnedScrew.Alternative_StunnedScrew_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_SteelBeam.Recipe_Constructor_SteelBeam_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C",
+					"time": 3,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+					"time": 3,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_SteelPipe.Recipe_Constructor_SteelPipe_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C",
+					"time": 3,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C",
+					"time": 3,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_SteelScrew.Recipe_Constructor_SteelScrew_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_SteelRod.Desc_SteelRod_C",
+					"time": 6,
+					"amount": 4
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+					"time": 6,
+					"amount": 5
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_BrassPlates.Recipe_Constructor_BrassPlates_C",
@@ -863,11 +870,37 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CopperPipe.Recipe_Constructor_CopperPipe_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_CopperPlates.Desc_CopperPlates_C",
+					"time": 3,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
+					"time": 3,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Constructor/Recipe_Protein_Hog.Recipe_Protein_Hog_C",
@@ -887,11 +920,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Enemy/Schematic_Trees_Enemy_1_1.Schematic_Trees_Enemy_1_1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Constructor/Recipe_Protein_Crab.Recipe_Protein_Crab_C",
@@ -911,11 +945,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Enemy/Schematic_Trees_Enemy_2_0.Schematic_Trees_Enemy_2_0_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Constructor/Recipe_AlienDNACapsule.Recipe_AlienDNACapsule_C",
@@ -935,11 +970,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Enemy/Schematic_Trees_Enemy_3_2.Schematic_Trees_Enemy_3_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_SpikedRebar.Recipe_SpikedRebar_C",
@@ -959,11 +995,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Enemy/Schematic_Trees_Enemy_3_3.Schematic_Trees_Enemy_3_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Constructor/Recipe_Protein_Spitter.Recipe_Protein_Spitter_C",
@@ -983,11 +1020,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Enemy/Schematic_Trees_Enemy_4_0.Schematic_Trees_Enemy_4_0_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Constructor/Recipe_Protein_Stinger.Recipe_Protein_Stinger_C",
@@ -1007,11 +1045,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Enemy/Schematic_Trees_Enemy_5_1.Schematic_Trees_Enemy_5_1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_SolidBiomassCapsuse.Recipe_Constructor_SolidBiomassCapsuse_C",
@@ -1031,11 +1070,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_QuickWire.Recipe_Constructor_QuickWire_C",
@@ -1055,11 +1095,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CateriumRod.Recipe_Constructor_CateriumRod_C",
@@ -1079,11 +1120,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CateriumPlate.Recipe_Constructor_CateriumPlate_C",
@@ -1103,11 +1145,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_3.Schematic_Trees_Satmonium_3_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CateriumSheet.Recipe_Constructor_CateriumSheet_C",
@@ -1127,11 +1170,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_3.Schematic_Trees_Satmonium_3_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Constructor/Recipe_Biofuel.Recipe_Biofuel_C",
@@ -1151,11 +1195,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_2.Schematic_SF+_1_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_InvarPlates.Recipe_Constructor_InvarPlates_C",
@@ -1175,11 +1220,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CobaltPlates.Recipe_Constructor_CobaltPlates_C",
@@ -1199,11 +1245,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasBow.Recipe_XmasBow_C",
@@ -1223,11 +1270,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_1-2.Research_XMas_1-2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Holiday/Recipe_Snowball.Recipe_Snowball_C",
@@ -1247,11 +1295,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_4-2.Research_XMas_4-2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasBranch.Recipe_XmasBranch_C",
@@ -1271,11 +1320,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_1.Research_XMas_1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_CandyCane.Recipe_CandyCane_C",
@@ -1295,11 +1345,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_1-1.Research_XMas_1-1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_Snow.Recipe_Snow_C",
@@ -1319,7 +1370,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2-1.Research_XMas_2-1_C"
 			]
 		}
 	],

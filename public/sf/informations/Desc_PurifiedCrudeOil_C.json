@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Recipe_FBFS_Oil_Purification.Recipe_FBFS_Oil_Purification_C",
@@ -40,13 +41,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Parts/Packaged/Recipes/UnPackaged/Recipe_UnPackaged_PurifiedCrudeOil.Recipe_UnPackaged_PurifiedCrudeOil_C",
@@ -70,16 +70,13 @@
 					"amount": 1000
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
-			]
+			"schematics": []
 		}
 	],
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/OilProcessing/Recipe_ChemReactor_Oil_Destila.Recipe_ChemReactor_Oil_Destila_C",
@@ -109,13 +106,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/OilProcessing/Recipe_ChemReactor_Oil_Destila_2.Recipe_ChemReactor_Oil_Destila_2_C",
@@ -149,14 +145,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Parts/Packaged/Recipes/Packaged/Recipe_Packaged_PurifiedCrudeOil.Recipe_Packaged_PurifiedCrudeOil_C",
@@ -180,11 +173,7 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
-			]
+			"schematics": []
 		}
 	],
 	"dataType": "informations"

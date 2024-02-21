@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_Roofs_Corners.ResourceSink_Roofs_Corners_C",
 	"name": "FICSIT Roofs",
 	"description": "Every Pioneer deserves a Roof over their head and factory. Get this basic human need now for only 6 Coupons!\r\n\r\nOnce unlocked, Roof Materials will become available for purchase in the Customizer section of the AWESOME Shop. Do not miss out on those special looks!",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 6
+		}
+	],
 	"category": "Architecture",
 	"subCategory": "Structural",
 	"type": 7,
@@ -20,7 +25,6 @@
 		"/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Orange_OutCorner_03.Recipe_Roof_Orange_OutCorner_03_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

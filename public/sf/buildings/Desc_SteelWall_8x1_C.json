@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_SteelWall_8x1.Recipe_SteelWall_8x1_C",
@@ -44,12 +45,7 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_SteelWallMaterial.ResourceSink_Customizer_SteelWallMaterial_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Steel_Walls_Basic.CBG_Steel_Walls_Basic_C",
-				"/Game/FactoryGame/Schematics/ResourceSink/Customizer/ResourceSink_Customizer_SteelWallMaterial.ResourceSink_Customizer_SteelWallMaterial_C",
-				"/Game/FactoryGame/Schematics/ResourceSink/Customizer_Background/CBG_Steel_Walls_Basic.CBG_Steel_Walls_Basic_C"
-			]
+			"schematics": []
 		}
 	],
 	"produced": [],

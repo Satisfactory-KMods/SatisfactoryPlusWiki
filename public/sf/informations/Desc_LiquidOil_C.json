@@ -11,71 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/PneumaticFrackingMachine/Recipe_FuckOilToOil.Recipe_FuckOilToOil_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/PneumaticFrackingMachine/Desc_AeratedOil.Desc_AeratedOil_C",
-					"time": 1,
-					"amount": 5000
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C",
-					"time": 1,
-					"amount": 5000
-				}
-			],
-			"schematics": [
-				"/PneumaticFrackingMachine/Schema_Mk1.Schema_Mk1_C",
-				"/PneumaticFrackingMachine/Schema_Mk2.Schema_Mk2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_5.Schematic_SF+_7_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_3_0.Schematic_SF+_7_3_0_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/PneumaticFrackingMachine/Recipe_FuckOilToOil_3.Recipe_FuckOilToOil_3_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/PneumaticFrackingMachine/Desc_AeratedOil.Desc_AeratedOil_C",
-					"time": 2,
-					"amount": 20000
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C",
-					"time": 2,
-					"amount": 1
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C",
-					"time": 2,
-					"amount": 20000
-				}
-			],
-			"schematics": [
-				"/PneumaticFrackingMachine/Schema_Mk1.Schema_Mk1_C",
-				"/PneumaticFrackingMachine/Schema_Mk2.Schema_Mk2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_5.Schematic_SF+_7_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_3_0.Schematic_SF+_7_3_0_C"
-			]
-		},
-		{
-			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_UnpackageOil.Recipe_UnpackageOil_C",
@@ -99,18 +35,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/PneumaticFrackingMachine/Schema_Mk1.Schema_Mk1_C",
-				"/PneumaticFrackingMachine/Schema_Mk2.Schema_Mk2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_5.Schematic_SF+_7_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_3_0.Schematic_SF+_7_3_0_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 6,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Buildable/Factory/OilPump/Build_OilPump.Build_OilPump_C",
@@ -124,8 +53,6 @@
 				}
 			],
 			"schematics": [
-				"/PneumaticFrackingMachine/Schema_Mk1.Schema_Mk1_C",
-				"/PneumaticFrackingMachine/Schema_Mk2.Schema_Mk2_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
@@ -135,6 +62,7 @@
 		},
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 6,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Buildable/Factory/FrackingExtractor/Build_FrackingExtractor.Build_FrackingExtractor_C",
@@ -148,80 +76,6 @@
 				}
 			],
 			"schematics": [
-				"/PneumaticFrackingMachine/Schema_Mk1.Schema_Mk1_C",
-				"/PneumaticFrackingMachine/Schema_Mk2.Schema_Mk2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_5.Schematic_SF+_7_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_3_0.Schematic_SF+_7_3_0_C"
-			]
-		},
-		{
-			"isRecipe": false,
-			"type": 6,
-			"buildingRecipe": false,
-			"productionElement": "/PneumaticFrackingMachine/Build_PneuMk1.Build_PneuMk1_C",
-			"wasteProducer": "",
-			"input": [],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C",
-					"time": 1,
-					"amount": 4000
-				}
-			],
-			"schematics": [
-				"/PneumaticFrackingMachine/Schema_Mk1.Schema_Mk1_C",
-				"/PneumaticFrackingMachine/Schema_Mk2.Schema_Mk2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_5.Schematic_SF+_7_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_3_0.Schematic_SF+_7_3_0_C"
-			]
-		},
-		{
-			"isRecipe": false,
-			"type": 6,
-			"buildingRecipe": false,
-			"productionElement": "/PneumaticFrackingMachine/Build_PneuMk2.Build_PneuMk2_C",
-			"wasteProducer": "",
-			"input": [],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C",
-					"time": 1,
-					"amount": 8000
-				}
-			],
-			"schematics": [
-				"/PneumaticFrackingMachine/Schema_Mk1.Schema_Mk1_C",
-				"/PneumaticFrackingMachine/Schema_Mk2.Schema_Mk2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_5.Schematic_SF+_7_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_3_0.Schematic_SF+_7_3_0_C"
-			]
-		},
-		{
-			"isRecipe": false,
-			"type": 6,
-			"buildingRecipe": false,
-			"productionElement": "/PneumaticFrackingMachine/Build_PneuMk3.Build_PneuMk3_C",
-			"wasteProducer": "",
-			"input": [],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C",
-					"time": 1,
-					"amount": 16000
-				}
-			],
-			"schematics": [
-				"/PneumaticFrackingMachine/Schema_Mk1.Schema_Mk1_C",
-				"/PneumaticFrackingMachine/Schema_Mk2.Schema_Mk2_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
@@ -233,6 +87,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Recipe_FBFS_Oil_Purification.Recipe_FBFS_Oil_Purification_C",
@@ -262,17 +117,12 @@
 				}
 			],
 			"schematics": [
-				"/PneumaticFrackingMachine/Schema_Mk1.Schema_Mk1_C",
-				"/PneumaticFrackingMachine/Schema_Mk2.Schema_Mk2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_5.Schematic_SF+_7_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_3_0.Schematic_SF+_7_3_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_PackagedCrudeOil.Recipe_PackagedCrudeOil_C",
@@ -296,15 +146,7 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/PneumaticFrackingMachine/Schema_Mk1.Schema_Mk1_C",
-				"/PneumaticFrackingMachine/Schema_Mk2.Schema_Mk2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_5.Schematic_SF+_7_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_3_0.Schematic_SF+_7_3_0_C"
-			]
+			"schematics": []
 		}
 	],
 	"dataType": "informations"

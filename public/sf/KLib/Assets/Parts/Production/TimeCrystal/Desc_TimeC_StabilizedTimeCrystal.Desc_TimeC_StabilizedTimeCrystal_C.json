@@ -1,7 +1,7 @@
 ﻿{
 	"path": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C",
-	"name": "Stabilized Quantum Crystal",
-	"description": "This Crystal is perfect for storage and teleport systems!",
+	"name": "Poled Quantum Crystal",
+	"description": "These crystals have been isolated from outside interference, making them easier to use. Shining light into it splits the image into two with different polarizations. A fundamental process to quantum computing.",
 	"gasColor": "00000000",
 	"fluidColor": "00000000",
 	"canBeSink": false,
@@ -16,11 +16,17 @@
 	"schematics": [
 		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Stabilizer.Schematic_Trees_TimeCrystak_Stabilizer_C"
 	],
+	"usedInSchematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_FluidStorage_1.Schematic_Trees_TimeCrystak_FluidStorage_1_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_1.Schematic_Trees_TimeCrystak_ItemStorage_1_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_Terminal.Schematic_Trees_TimeCrystak_Transport_Terminal_C"
+	],
 	"itemTypeInformation":
 	{
 		"type": "normal"
 	},
-	"image": "/KLib/Assets/Parts/Production/TimeCrystal/Icon_TimeC_StabilizedTimeCrystal.Icon_TimeC_StabilizedTimeCrystal",
+	"image": "/KLib/Assets/Parts/Production/TimeCrystal/ui/Icon_TimeC_Case_512.Icon_TimeC_Case_512",
 	"category": "Quantum Technology",
 	"subCategory": "",
 	"dataType": "itemDescriptor"

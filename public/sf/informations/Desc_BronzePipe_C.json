@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_BronzePipe.Recipe_Constructor_BronzePipe_C",
@@ -37,6 +38,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_Input_Fluid.Recipe_CS_Input_Fluid_C",
@@ -71,11 +73,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_In_Fluid.Schematic_Trees_TimeCrystak_Transport_In_Fluid_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_Output_Fluid.Recipe_CS_Output_Fluid_C",
@@ -110,7 +113,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_Out_Fluid.Schematic_Trees_TimeCrystak_Transport_Out_Fluid_C"
 			]
 		}
 	],

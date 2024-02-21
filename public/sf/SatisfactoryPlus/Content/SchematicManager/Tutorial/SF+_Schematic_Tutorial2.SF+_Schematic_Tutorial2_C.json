@@ -2,7 +2,24 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C",
 	"name": "Hub Upgrade 3",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+			"amount": 20
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+			"amount": 20
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+			"amount": 20
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CopperRod.Desc_CopperRod_C",
+			"amount": 20
+		}
+	],
 	"category": "Logistics",
 	"subCategory": "",
 	"type": 2,
@@ -20,7 +37,6 @@
 		"/SatisfactoryPlus/Content/Recipes/Workbench/Recipe_Handcrafter_LimeStone.Recipe_Handcrafter_LimeStone_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

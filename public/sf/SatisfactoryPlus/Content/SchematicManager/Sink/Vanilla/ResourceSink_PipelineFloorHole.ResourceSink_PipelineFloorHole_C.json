@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_PipelineFloorHole.ResourceSink_PipelineFloorHole_C",
 	"name": "Pipeline Floor Hole",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 1
+		}
+	],
 	"category": "Management",
 	"subCategory": "Pipelines",
 	"type": 7,
@@ -15,7 +20,6 @@
 		"/Game/FactoryGame/Buildable/Factory/FoundationPassthrough/Recipe_FoundationPassthrough_Pipe.Recipe_FoundationPassthrough_Pipe_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

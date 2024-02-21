@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_Walkways.ResourceSink_Walkways_C",
 	"name": "Industrial Walkways",
 	"description": "Ever wanted to admire your factories from a safe and convenient place? Build some Walkways and get inspired by your own labour to do even better!",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 5
+		}
+	],
 	"category": "Architecture",
 	"subCategory": "Traversal",
 	"type": 7,
@@ -19,7 +24,6 @@
 		"/Game/FactoryGame/Recipes/Buildings/Walkways/Recipe_Walkway_Ramp.Recipe_Walkway_Ramp_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

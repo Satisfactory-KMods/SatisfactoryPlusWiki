@@ -2,7 +2,24 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_0.Schematic_SF+_4_0_C",
 	"name": "Coal Power",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
+			"amount": 250
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+			"amount": 500
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_LeadPlates.Desc_LeadPlates_C",
+			"amount": 500
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Stator/Desc_Stator.Desc_Stator_C",
+			"amount": 100
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 3,
@@ -15,7 +32,6 @@
 		"/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Heaters/CoalHeater/Recipe_RP_MP_CoalHeater.Recipe_RP_MP_CoalHeater_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

@@ -2,7 +2,20 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Composter.Schematic_Tree_Farming_Composter_C",
 	"name": "Composter",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/FicsitFarming/Resources/Crops/Apples/Desc_FF_Crop_Apple.Desc_FF_Crop_Apple_C",
+			"amount": 500
+		},
+		{
+			"item": "/FicsitFarming/Resources/Crops/Cotton/Desc_FF_Crop_Cotton.Desc_FF_Crop_Cotton_C",
+			"amount": 1000
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
+			"amount": 250
+		}
+	],
 	"category": "",
 	"subCategory": "Walls",
 	"type": 6,
@@ -20,10 +33,6 @@
 		"/SatisfactoryPlus/Content/Recipes/Composter/FF/Recipe_Compost_Leaves_SF+.Recipe_Compost_Leaves_SF+_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [
-		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Unlocked_FertCrops.Hidden_Unlocked_FertCrops_C",
-		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_OtherComposter.Hidden_Farming_OtherComposter_C"
-	],
 	"cleanerDesc": [
 		"/SatisfactoryPlus/Content/Recipes/Cleaner/CleanerDesc_Fertilizer.CleanerDesc_Fertilizer_C"
 	],

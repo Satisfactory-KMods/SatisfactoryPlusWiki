@@ -12,6 +12,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasBall1.Recipe_XmasBall1_C",
@@ -30,10 +31,14 @@
 					"amount": 1
 				}
 			],
-			"schematics": []
+			"schematics": [
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2.Research_XMas_2_C",
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2.Research_XMas_2_C"
+			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasBall2.Recipe_XmasBall2_C",
@@ -52,10 +57,14 @@
 					"amount": 2
 				}
 			],
-			"schematics": []
+			"schematics": [
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2.Research_XMas_2_C",
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2.Research_XMas_2_C"
+			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasBow.Recipe_XmasBow_C",
@@ -74,10 +83,13 @@
 					"amount": 1
 				}
 			],
-			"schematics": []
+			"schematics": [
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_1-2.Research_XMas_1-2_C"
+			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasBranch.Recipe_XmasBranch_C",
@@ -96,10 +108,13 @@
 					"amount": 1
 				}
 			],
-			"schematics": []
+			"schematics": [
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_1.Research_XMas_1_C"
+			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_CandyCaneBasher.Recipe_CandyCaneBasher_C",
@@ -128,10 +143,13 @@
 					"amount": 1
 				}
 			],
-			"schematics": []
+			"schematics": [
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_1-1.Research_XMas_1-1_C"
+			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_CandyCane.Recipe_CandyCane_C",
@@ -150,10 +168,13 @@
 					"amount": 1
 				}
 			],
-			"schematics": []
+			"schematics": [
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_1-1.Research_XMas_1-1_C"
+			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Holiday/Recipe_TreeGiftProducer.Recipe_TreeGiftProducer_C",
@@ -187,10 +208,13 @@
 					"amount": 1
 				}
 			],
-			"schematics": []
+			"schematics": [
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2-2.Research_XMas_2-2_C"
+			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_Snow.Recipe_Snow_C",
@@ -209,7 +233,9 @@
 					"amount": 2
 				}
 			],
-			"schematics": []
+			"schematics": [
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2-1.Research_XMas_2-1_C"
+			]
 		}
 	],
 	"dataType": "informations"

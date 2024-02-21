@@ -4,10 +4,6 @@
 	"image": "/Game/FactoryGame/Buildable/Factory/PipePumpMk2/UI/IconDesc_PipePumpMK2_512.IconDesc_PipePumpMK2_512",
 	"input": [
 		{
-			"item": "/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C",
-			"amount": 2
-		},
-		{
 			"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
 			"amount": 5
 		},
@@ -34,5 +30,6 @@
 		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_9.Schematic_SF+_4_9_C"
 	],
 	"isAlternate": false,
+	"isBuildableRecipe": true,
 	"dataType": "recipe"
 }

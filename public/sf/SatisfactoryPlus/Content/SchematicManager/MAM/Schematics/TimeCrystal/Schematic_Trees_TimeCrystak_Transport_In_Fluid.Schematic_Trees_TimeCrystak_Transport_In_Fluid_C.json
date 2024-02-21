@@ -2,7 +2,20 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_In_Fluid.Schematic_Trees_TimeCrystak_Transport_In_Fluid_C",
 	"name": "Faxit Fluid Receiver",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_1.Desc_SpaceElevatorPart_1_C",
+			"amount": 100
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
+			"amount": 200
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Adapter.Desc_TimeC_Adapter_C",
+			"amount": 200
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,
@@ -15,7 +28,6 @@
 		"/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_Input_Fluid.Recipe_CS_Input_Fluid_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

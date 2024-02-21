@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_DoorWalls_Normal.ResourceSink_DoorWalls_Normal_C",
 	"name": "Door Walls",
 	"description": "Space dilation is still in the R&D phase at FICSIT research facilities. It's not yet recommended to try walking through walls. Purchase a Door today for safe factory traversal!",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 2
+		}
+	],
 	"category": "Walls",
 	"subCategory": "Walls",
 	"type": 7,
@@ -20,10 +25,6 @@
 		"/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Door_8x4_03_Steel.Recipe_Wall_Door_8x4_03_Steel_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [
-		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Concrete_Walls_Doors.CBG_Concrete_Walls_Doors_C",
-		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Steel_Walls_Doors.CBG_Steel_Walls_Doors_C"
-	],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

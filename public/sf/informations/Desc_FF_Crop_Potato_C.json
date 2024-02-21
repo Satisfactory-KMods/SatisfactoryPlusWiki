@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_Potato.Recipe_SF+_Crop_Potato_C",
@@ -35,13 +36,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DirtFarming.Schematic_Tree_Farming_DirtFarming_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Fert.Hidden_Farming_Dirt_Fert_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Water.Hidden_Farming_Dirt_Water_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DirtFarming.Schematic_Tree_Farming_DirtFarming_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_Potato2.Recipe_SF+_Alt_Crop_Potato2_C",
@@ -70,14 +70,11 @@
 					"amount": 5
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DirtFarming.Schematic_Tree_Farming_DirtFarming_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Fert.Hidden_Farming_Dirt_Fert_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Water.Hidden_Farming_Dirt_Water_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_Potato.Recipe_SF+_Alt_Crop_Potato_C",
@@ -106,16 +103,13 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DirtFarming.Schematic_Tree_Farming_DirtFarming_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Fert.Hidden_Farming_Dirt_Fert_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Water.Hidden_Farming_Dirt_Water_C"
-			]
+			"schematics": []
 		}
 	],
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Composter/FF/Recipe_Compost_Potato_SF+.Recipe_Compost_Potato_SF+_C",
@@ -139,14 +133,11 @@
 					"amount": 1500
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DirtFarming.Schematic_Tree_Farming_DirtFarming_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Fert.Hidden_Farming_Dirt_Fert_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Water.Hidden_Farming_Dirt_Water_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Cooker/Recipe_Cooker_SnailFoodMk_2.Recipe_Cooker_SnailFoodMk_2_C",
@@ -176,9 +167,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DirtFarming.Schematic_Tree_Farming_DirtFarming_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Fert.Hidden_Farming_Dirt_Fert_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Hidden/Hidden_Farming_Dirt_Water.Hidden_Farming_Dirt_Water_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_PlotModules.Schematic_Tree_Farming_PlotModules_C"
 			]
 		}
 	],

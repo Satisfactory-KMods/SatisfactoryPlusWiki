@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Ingots/Recipe_SAC_Ingots_Brass.Recipe_SAC_Ingots_Brass_C",
@@ -40,12 +41,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Foundery/DirtyBrass/Alternative_DirtyBrass.Alternative_DirtyBrass_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Foundery/DirtyBrass/Recipe_Alternative_DirtyBrass.Recipe_Alternative_DirtyBrass_C",
@@ -70,14 +71,14 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Foundery/DirtyBrass/Alternative_DirtyBrass.Alternative_DirtyBrass_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Foundery/DirtyBrass/Alternative_DirtyBrass.Alternative_DirtyBrass_C"
 			]
 		}
 	],
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_BrassPipe.Recipe_Assamble_BrassPipe_C",
@@ -102,12 +103,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Foundery/DirtyBrass/Alternative_DirtyBrass.Alternative_DirtyBrass_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_BrassPlates.Recipe_Constructor_BrassPlates_C",
@@ -127,7 +128,6 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Foundery/DirtyBrass/Alternative_DirtyBrass.Alternative_DirtyBrass_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C"
 			]
 		}

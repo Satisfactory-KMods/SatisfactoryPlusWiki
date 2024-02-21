@@ -2,7 +2,16 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_7.Schematic_SF+_1_7_C",
 	"name": "Glass Walls",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+			"amount": 1000
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+			"amount": 100
+		}
+	],
 	"category": "",
 	"subCategory": "Walls",
 	"type": 3,
@@ -28,10 +37,6 @@
 		"/Game/FactoryGame/Buildable/Building/Wall/SteelWallSet/Recipe_SteelWall_8x4_Window_04.Recipe_SteelWall_8x4_Window_04_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [
-		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Concrete_Walls_Windows.CBG_Concrete_Walls_Windows_C",
-		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Steel_Walls_WIndows.CBG_Steel_Walls_WIndows_C"
-	],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

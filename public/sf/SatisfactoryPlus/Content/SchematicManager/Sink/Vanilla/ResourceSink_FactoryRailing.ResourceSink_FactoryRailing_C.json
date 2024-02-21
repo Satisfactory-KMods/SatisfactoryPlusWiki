@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_FactoryRailing.ResourceSink_FactoryRailing_C",
 	"name": "Industrial Railing",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 1
+		}
+	],
 	"category": "Architecture",
 	"subCategory": "Structural",
 	"type": 7,
@@ -15,7 +20,6 @@
 		"/Game/FactoryGame/Recipes/Buildings/Fence/Recipe_Fence_01.Recipe_Fence_01_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

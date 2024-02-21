@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasBall2.Recipe_XmasBall2_C",
@@ -30,6 +31,7 @@
 				}
 			],
 			"schematics": [
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2.Research_XMas_2_C",
 				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2.Research_XMas_2_C"
 			]
 		}
@@ -37,6 +39,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasBall4.Recipe_XmasBall4_C",
@@ -61,11 +64,12 @@
 				}
 			],
 			"schematics": [
-				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2.Research_XMas_2_C"
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2-2.Research_XMas_2-2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Events/Christmas/Buildings/SnowmanDecor/Recipe_Snowman.Recipe_Snowman_C",
@@ -105,7 +109,7 @@
 				}
 			],
 			"schematics": [
-				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2.Research_XMas_2_C"
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2-1.Research_XMas_2-1_C"
 			]
 		}
 	],

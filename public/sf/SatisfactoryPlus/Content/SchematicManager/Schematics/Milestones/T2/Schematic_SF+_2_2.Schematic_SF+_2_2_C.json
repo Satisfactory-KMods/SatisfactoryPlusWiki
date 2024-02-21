@@ -2,7 +2,16 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
 	"name": "Advanced Sorting & Alloys",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
+			"amount": 50
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
+			"amount": 250
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 3,
@@ -25,9 +34,6 @@
 		"/SatisfactoryPlus/Content/Recipes/Foundery/Recipe_Foundery_WhiteBronze.Recipe_Foundery_WhiteBronze_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [
-		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2_0.Schematic_SF+_2_2_0_C"
-	],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

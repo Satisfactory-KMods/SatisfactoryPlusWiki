@@ -2,7 +2,16 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Enemy/Schematic_Trees_Enemy_4_2_reseted.Schematic_Trees_Enemy_4_2_reseted_C",
 	"name": "Alien Research",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/AlienDNACapsule/Desc_AlienDNACapsule.Desc_AlienDNACapsule_C",
+			"amount": 100
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/CrystalOscillator/Desc_CrystalOscillator.Desc_CrystalOscillator_C",
+			"amount": 100
+		}
+	],
 	"category": "Organisation",
 	"subCategory": "",
 	"type": 6,
@@ -12,9 +21,8 @@
 	"smallImage": "",
 	"scannerUnlocks": [],
 	"recipeUnlocks": [],
-	"handSlots": 10,
-	"subSchematics": [],
+	"handSlots": 0,
 	"cleanerDesc": [],
-	"inventorySlots": 0,
+	"inventorySlots": 10,
 	"dataType": "schematic"
 }

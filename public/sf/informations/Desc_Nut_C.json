@@ -12,6 +12,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_Medic.Recipe_Manu_Medic_C",
@@ -45,10 +46,13 @@
 					"amount": 2
 				}
 			],
-			"schematics": []
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Eat_0_0.Schematic_Trees_Evo_Eat_0_0_C"
+			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_MedicinalInhalerAlienOrgans.Recipe_MedicinalInhalerAlienOrgans_C",
@@ -72,7 +76,9 @@
 					"amount": 1
 				}
 			],
-			"schematics": []
+			"schematics": [
+				"/Game/FactoryGame/Schematics/Research/AlienOrganisms_RS/Research_AOrgans_2.Research_AOrgans_2_C"
+			]
 		}
 	],
 	"dataType": "informations"

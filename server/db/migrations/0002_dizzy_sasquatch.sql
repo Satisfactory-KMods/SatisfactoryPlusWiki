@@ -1,0 +1,1 @@
+ALTER TABLE "sfp-wiki"."mapping" ADD COLUMN "el_path" text;

@@ -2,7 +2,20 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/Schematic_Trees_Sulfur_3_1.Schematic_Trees_Sulfur_3_1_C",
 	"name": "Sulfur Extraction",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/RawResources/Sulfur/Desc_Sulfur.Desc_Sulfur_C",
+			"amount": 500
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_BrassPipe.Desc_BrassPipe_C",
+			"amount": 100
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C",
+			"amount": 50
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,
@@ -15,7 +28,6 @@
 		"/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_Module_Fluid.Recipe_Module_Fluid_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

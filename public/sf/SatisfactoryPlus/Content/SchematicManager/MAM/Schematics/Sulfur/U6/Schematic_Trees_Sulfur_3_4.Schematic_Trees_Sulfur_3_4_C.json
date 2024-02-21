@@ -2,7 +2,24 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_3_4.Schematic_Trees_Sulfur_3_4_C",
 	"name": "Smokeless Powder",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GunPowder/Desc_Gunpowder.Desc_Gunpowder_C",
+			"amount": 1000
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+			"amount": 500
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C",
+			"amount": 500
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/NobeliskExplosive/Desc_NobeliskExplosive.Desc_NobeliskExplosive_C",
+			"amount": 100
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,
@@ -14,9 +31,8 @@
 	"recipeUnlocks": [
 		"/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_GunpowderMk2.Recipe_ChemReactor_GunpowderMk2_C"
 	],
-	"handSlots": 10,
-	"subSchematics": [],
+	"handSlots": 0,
 	"cleanerDesc": [],
-	"inventorySlots": 0,
+	"inventorySlots": 10,
 	"dataType": "schematic"
 }

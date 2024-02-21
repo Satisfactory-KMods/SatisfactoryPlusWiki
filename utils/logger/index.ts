@@ -28,6 +28,7 @@ export enum LogLevel {
 	/**
 	 * Log level for debug
 	 */
+	DRIZZLE,
 	DEBUG,
 	/**
 	 * Log level for warnings
@@ -87,9 +88,6 @@ export type CustomLogs = Record<string, LogLevel>;
 
 export type Nullish<T = any> = T | null | undefined;
 
-export type InferReturn<T extends (...args: any) => any> = Exclude<Awaited<ReturnType<T>>, undefined | null>;
-export type InferReturnArray<T extends (...args: any) => any> = Exclude<Awaited<ReturnType<T>>, undefined | null>[0];
-
 /* eslint-disable no-console */
 /**
  * the default log levels
@@ -102,6 +100,7 @@ export const defaultLogLevel = {
 	debug: LogLevel.DEBUG,
 	warn: LogLevel.WARN,
 	error: LogLevel.ERROR,
+	drizzle: LogLevel.DRIZZLE,
 	fatal: LogLevel.FATAL
 };
 
@@ -172,6 +171,7 @@ export class Logger<T extends CustomLogs> {
 	private consoleFn(logLevel: LogLevel): (message?: any, ...optionalParams: any[]) => void {
 		switch (logLevel) {
 			case LogLevel.LOG:
+			case LogLevel.DRIZZLE:
 				return console.log;
 			case LogLevel.INFO:
 				return console.info;
@@ -204,6 +204,8 @@ export class Logger<T extends CustomLogs> {
 				return 'FATAL';
 			case LogLevel.SILENT:
 				return 'SILENT';
+			case LogLevel.DRIZZLE:
+				return 'DRIZZLE';
 			default:
 				return 'log';
 		}
@@ -230,6 +232,7 @@ export class Logger<T extends CustomLogs> {
 			case LogLevel.INFO:
 				return LogColor.green;
 			case LogLevel.DEBUG:
+			case LogLevel.DRIZZLE:
 				return LogColor.blue;
 			case LogLevel.WARN:
 				return LogColor.yellow;
@@ -273,17 +276,5 @@ export class Logger<T extends CustomLogs> {
 	}
 }
 
-export const logger = new Logger(
-	{
-		backend: LogLevel.LOG,
-		backend_api: LogLevel.LOG,
-		backend_api_error: LogLevel.ERROR,
-		backend_api_info: LogLevel.INFO,
-		frontend: LogLevel.LOG,
-		frontend_api: LogLevel.LOG,
-		frontend_api_error: LogLevel.ERROR,
-		frontend_api_info: LogLevel.INFO
-	},
-	{ colors: true }
-);
+export const logger = new Logger({}, { colors: true });
 export const log = logger.log.bind(logger);

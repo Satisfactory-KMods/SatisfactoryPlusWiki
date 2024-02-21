@@ -2,7 +2,24 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_3.Schematic_SF+_7_3_C",
 	"name": "Expert Logistics",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_CobaltPlates.Desc_CobaltPlates_C",
+			"amount": 2500
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_AlumniumSheet.Desc_AlumniumSheet_C",
+			"amount": 2500
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C",
+			"amount": 1000
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/AluminumPlateReinforced/Desc_AluminumPlateReinforced.Desc_AluminumPlateReinforced_C",
+			"amount": 500
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 3,
@@ -17,7 +34,6 @@
 		"/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk5.Recipe_ConveyorLiftMk5_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

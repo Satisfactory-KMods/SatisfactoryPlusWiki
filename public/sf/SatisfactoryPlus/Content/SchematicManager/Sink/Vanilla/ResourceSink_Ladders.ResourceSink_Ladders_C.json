@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_Ladders.ResourceSink_Ladders_C",
 	"name": "Factory Ladder",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 3
+		}
+	],
 	"category": "Architecture",
 	"subCategory": "Traversal",
 	"type": 7,
@@ -15,7 +20,6 @@
 		"/Game/FactoryGame/Recipes/Buildings/Ladder/Recipe_Ladder.Recipe_Ladder_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

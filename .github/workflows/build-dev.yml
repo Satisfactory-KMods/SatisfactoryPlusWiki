@@ -1,10 +1,15 @@
-name: build and create docker image
+name: Build, Push and Deploy
 
 on:
     push:
         branches:
             - '*'
             - '!main'
+
+env:
+    REGISTRY: ghcr.io
+    IMAGE_NAME: ${{ github.repository }}
+    DOCKERNAME: dev-sfp-wiki
 
 jobs:
     prepare-and-build-app:
@@ -18,7 +23,7 @@ jobs:
             - name: Install Node.js
               uses: actions/setup-node@v3
               with:
-                  node-version: 18
+                  node-version: 20
 
             - uses: pnpm/action-setup@v2
               name: Install pnpm
@@ -42,8 +47,10 @@ jobs:
             - name: lint and type check
               run: |
                   cp .env.example .env
+                  ./installPngs.sh
+                  pnpm add -g bun
                   pnpm i
-                  pnpm run lint
+                  bun run lint
                   rm .env
 
             - name: Log into registry
@@ -69,3 +76,19 @@ jobs:
                   labels: ${{ steps.meta.outputs.labels }}
                   cache-from: type=gha
                   cache-to: type=gha,mode=max
+
+            - name: Deploy
+              uses: appleboy/ssh-action@v1.0.0
+              with:
+                  timeout: 60m
+                  command_timeout: 60m
+                  host: ${{ secrets.SSH_HOST }}
+                  username: ${{ secrets.SSH_USER }}
+                  key: ${{ secrets.SSH_KEY }}
+                  port: 22
+                  script: |
+                      cd /home/apps/ 
+                      docker compose up -d --no-deps --pull always --build ${{ env.DOCKERNAME }}
+                      docker image prune --force
+                      sleep 600
+                      docker compose logs ${{ env.DOCKERNAME }}

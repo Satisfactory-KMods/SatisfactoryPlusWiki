@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_PolishedConcrete_FoundationMaterial.ResourceSink_Customizer_PolishedConcrete_FoundationMaterial_C",
 	"name": "Coated Concrete Foundation Material",
 	"description": "Adds the Coated Concrete Foundation Material to the Customizer, from where it can be applied to any Foundation or Ramp.",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 6
+		}
+	],
 	"category": "Customizer",
 	"subCategory": "Foundation Materials",
 	"type": 7,
@@ -54,17 +59,6 @@
 		"/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_QuarterPipeMiddleOutCorner_PolishedConcrete_4x4.Recipe_QuarterPipeMiddleOutCorner_PolishedConcrete_4x4_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [
-		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Foundations_Coated.CBG_Foundations_Coated_C",
-		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Ramps_Corners_Coated.CBG_Ramps_Corners_Coated_C",
-		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Ramps_Double_Coated.CBG_Ramps_Double_Coated_C",
-		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Ramps_InvCorners_Coated.CBG_Ramps_InvCorners_Coated_C",
-		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Ramps_Inverted_Coated.CBG_Ramps_Inverted_Coated_C",
-		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_QuarterPipes_Coated.CBG_QuarterPipes_Coated_C",
-		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Colour_ConcreteSwatch.CBG_Colour_ConcreteSwatch_C",
-		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Half_Foundations_Polished.CBG_Half_Foundations_Polished_C",
-		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_ExtensionQuarterPipes_Polished.CBG_ExtensionQuarterPipes_Polished_C"
-	],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

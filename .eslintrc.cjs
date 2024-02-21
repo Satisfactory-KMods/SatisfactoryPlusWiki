@@ -14,6 +14,7 @@ module.exports = {
 	plugins: ['unused-imports'],
 	rules: {
 		'import/named': 'off',
+		'import/namespace': 'off',
 		'@typescript-eslint/prefer-optional-chain': 'off',
 		'@typescript-eslint/no-inferrable-types': 'off',
 		'@typescript-eslint/consistent-type-definitions': 'off',

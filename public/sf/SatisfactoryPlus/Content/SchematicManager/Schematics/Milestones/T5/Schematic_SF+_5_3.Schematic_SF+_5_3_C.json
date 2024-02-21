@@ -2,7 +2,28 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
 	"name": "Industrial Manufacturing",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_TinWire.Desc_TinWire_C",
+			"amount": 500
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_MagnesiumGranules.Desc_MagnesiumGranules_C",
+			"amount": 1000
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_LeadSheet.Desc_LeadSheet_C",
+			"amount": 1000
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C",
+			"amount": 1000
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+			"amount": 1000
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 3,
@@ -20,7 +41,6 @@
 		"/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Parts/Recipe_SAC_Parts_Solder.Recipe_SAC_Parts_Solder_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

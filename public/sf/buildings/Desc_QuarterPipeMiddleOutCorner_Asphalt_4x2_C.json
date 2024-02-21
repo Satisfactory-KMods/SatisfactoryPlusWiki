@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/AsphaltSet/Recipe_QuarterPipeMiddleOutCorner_Asphalt_4x2.Recipe_QuarterPipeMiddleOutCorner_Asphalt_4x2_C",
@@ -34,14 +35,7 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_Asphalt_FoundationMaterial.ResourceSink_Customizer_Asphalt_FoundationMaterial_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_QuarterPipeExtensions.ResourceSink_QuarterPipeExtensions_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_ExtensionQuarterPipes_Asphalt.CBG_ExtensionQuarterPipes_Asphalt_C",
-				"/Game/FactoryGame/Schematics/ResourceSink/Customizer/ResourceSink_Customizer_Asphalt_FoundationMaterial.ResourceSink_Customizer_Asphalt_FoundationMaterial_C",
-				"/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_QuarterPipeExtensions.ResourceSink_QuarterPipeExtensions_C",
-				"/Game/FactoryGame/Schematics/ResourceSink/Customizer_Background/CBG_ExtensionQuarterPipes_Asphalt.CBG_ExtensionQuarterPipes_Asphalt_C"
-			]
+			"schematics": []
 		}
 	],
 	"produced": [],

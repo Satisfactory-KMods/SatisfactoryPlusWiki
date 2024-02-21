@@ -2,7 +2,16 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_4.Schematic_Trees_TimeCrystak_ItemStorage_4_C",
 	"name": "Drive Mk.4",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/NetworkHardDrives/Drive_Solid_Mk3.Drive_Solid_Mk3_C",
+			"amount": 3
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Parts/PowerShardCrystal/Desc_PowerShardCrystal.Desc_PowerShardCrystal_C",
+			"amount": 50
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,
@@ -15,7 +24,6 @@
 		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Recipes/Recipe_SolidDrive_MK_4.Recipe_SolidDrive_MK_4_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

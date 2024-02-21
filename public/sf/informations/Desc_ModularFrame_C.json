@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_MetalFrame.Recipe_Assamble_MetalFrame_C",
@@ -42,221 +43,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/KLib/Assets/Buildings/AirCollector/Recipe_AirCollector.Recipe_AirCollector_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_BrassPipe.Desc_BrassPipe_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
-					"time": 1,
-					"amount": 20
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
-					"time": 1,
-					"amount": 25
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
-					"time": 1,
-					"amount": 20
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 50
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Buildings/AirCollector/BuildDesc_AirCollector.BuildDesc_AirCollector_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_OilPump.Recipe_OilPump_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
-					"time": 1,
-					"amount": 25
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_BrassPipe.Desc_BrassPipe_C",
-					"time": 1,
-					"amount": 50
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
-					"time": 1,
-					"amount": 200
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
-					"time": 1,
-					"amount": 60
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
-					"time": 1,
-					"amount": 50
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Factory/OilPump/Desc_OilPump.Desc_OilPump_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/KLib/Assets/Buildings/Weavingmachine/Recipe_Weavingmachine.Recipe_Weavingmachine_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 20
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_LeadPlates.Desc_LeadPlates_C",
-					"time": 1,
-					"amount": 10
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Buildings/Weavingmachine/BuildDesc_Weavingmachine.BuildDesc_Weavingmachine_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Turbines/TurbineMk1/Recipe_RP_MP_TurbineMk1.Recipe_RP_MP_TurbineMk1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 25
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_LeadSheet.Desc_LeadSheet_C",
-					"time": 1,
-					"amount": 10
-				}
-			],
-			"output": [
-				{
-					"item": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Turbinen/BuildDesc_TurbineMk1.BuildDesc_TurbineMk1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipeStorageTank.Recipe_PipeStorageTank_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 25
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Factory/StorageTank/Desc_PipeStorageTank.Desc_PipeStorageTank_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
-			]
-		},
-		{
-			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/TowTruck/Recipe_SpaceElevator.Recipe_SpaceElevator_C",
@@ -296,11 +83,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterMk1.Recipe_SmelterMk1_C",
@@ -345,6 +133,227 @@
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/AirCollector/Recipe_AirCollector.Recipe_AirCollector_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_BrassPipe.Desc_BrassPipe_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
+					"time": 1,
+					"amount": 20
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+					"time": 1,
+					"amount": 20
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 50
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/AirCollector/BuildDesc_AirCollector.BuildDesc_AirCollector_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_OilPump.Recipe_OilPump_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_BrassPipe.Desc_BrassPipe_C",
+					"time": 1,
+					"amount": 50
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+					"time": 1,
+					"amount": 200
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+					"time": 1,
+					"amount": 60
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
+					"time": 1,
+					"amount": 50
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/OilPump/Desc_OilPump.Desc_OilPump_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/Weavingmachine/Recipe_Weavingmachine.Recipe_Weavingmachine_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 20
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_LeadPlates.Desc_LeadPlates_C",
+					"time": 1,
+					"amount": 10
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/Weavingmachine/BuildDesc_Weavingmachine.BuildDesc_Weavingmachine_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Mush_3_0.Schematic_Trees_Evo_Mush_3_0_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Fabric.Schematic_Tree_Farming_Fabric_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Turbines/TurbineMk1/Recipe_RP_MP_TurbineMk1.Recipe_RP_MP_TurbineMk1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_LeadSheet.Desc_LeadSheet_C",
+					"time": 1,
+					"amount": 10
+				}
+			],
+			"output": [
+				{
+					"item": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Turbinen/BuildDesc_TurbineMk1.BuildDesc_TurbineMk1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipeStorageTank.Recipe_PipeStorageTank_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 25
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/StorageTank/Desc_PipeStorageTank.Desc_PipeStorageTank_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Composter/Recipe_FSF+Composter.Recipe_FSF+Composter_C",
@@ -379,11 +388,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Composter.Schematic_Tree_Farming_Composter_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/FicsitFarming/Buildings/DoggoHouse/Recipe_FF_DoggoHouse.Recipe_FF_DoggoHouse_C",
@@ -423,11 +433,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DoggoLove.Schematic_Tree_Farming_DoggoLove_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Seed/Recipe_SF+_SeedExtractor.Recipe_SF+_SeedExtractor_C",
@@ -462,11 +473,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_SeedExtracting.Schematic_Tree_Farming_SeedExtracting_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/RefinedPower/Buildables/Factory/WaterTurbine_Mk1/Recipe_WaterTurbine_Mk1.Recipe_WaterTurbine_Mk1_C",
@@ -501,11 +513,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_8.Schematic_SF+_3_8_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_TruckStation.Recipe_TruckStation_C",
@@ -540,11 +553,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_9.Schematic_SF+_3_9_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Vehicle/Recipe_Tractor.Recipe_Tractor_C",
@@ -579,11 +593,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_9.Schematic_SF+_3_9_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Heaters/CoalHeater/Recipe_RP_MP_CoalHeater.Recipe_RP_MP_CoalHeater_C",
@@ -623,11 +638,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_0.Schematic_SF+_4_0_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_HeavyFrame.Recipe_Manu_HeavyFrame_C",
@@ -662,11 +678,13 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_1.Schematic_SF+_4_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_StorageContainerMk2.Recipe_StorageContainerMk2_C",
@@ -701,11 +719,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_3.Schematic_SF+_4_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_Computer.Recipe_Manu_Computer_C",
@@ -740,11 +759,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/AB_FluidExtras/FluidPacker/Recipe_AB_FluidPacker.Recipe_AB_FluidPacker_C",
@@ -779,11 +799,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_LightsControlPanel.Recipe_LightsControlPanel_C",
@@ -818,7 +839,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_LightControlPanel.ResourceSink_LightControlPanel_C"
 			]
 		}
 	],

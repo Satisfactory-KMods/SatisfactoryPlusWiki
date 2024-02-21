@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_Paint.Recipe_ChemReactor_Paint_C",
@@ -35,13 +36,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Flowers_3_2.Schematic_Trees_Evo_Flowers_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Flowers_3_2.Schematic_Trees_Evo_Flowers_3_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Parts/Packaged/Recipes/UnPackaged/Recipe_UnPackaged_Paint.Recipe_UnPackaged_Paint_C",
@@ -65,16 +65,13 @@
 					"amount": 1000
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Flowers_3_2.Schematic_Trees_Evo_Flowers_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
-			]
+			"schematics": []
 		}
 	],
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Packager/Other/Recipe_Packager_Color.Recipe_Packager_Color_C",
@@ -99,13 +96,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Flowers_3_2.Schematic_Trees_Evo_Flowers_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Flowers_3_2.Schematic_Trees_Evo_Flowers_3_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Parts/Packaged/Recipes/Packaged/Recipe_Packaged_Paint.Recipe_Packaged_Paint_C",
@@ -129,11 +125,7 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Flowers_3_2.Schematic_Trees_Evo_Flowers_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
-			]
+			"schematics": []
 		}
 	],
 	"dataType": "informations"

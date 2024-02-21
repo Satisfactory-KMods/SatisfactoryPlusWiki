@@ -12,6 +12,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Constructor/Recipe_Protein_Crab.Recipe_Protein_Crab_C",
@@ -30,7 +31,9 @@
 					"amount": 1
 				}
 			],
-			"schematics": []
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Enemy/Schematic_Trees_Enemy_2_0.Schematic_Trees_Enemy_2_0_C"
+			]
 		}
 	],
 	"dataType": "informations"

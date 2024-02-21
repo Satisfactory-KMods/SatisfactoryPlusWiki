@@ -2,7 +2,20 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Eat_0_0.Schematic_Trees_Evo_Eat_0_0_C",
 	"name": "Medical",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Environment/Nut/Desc_Nut.Desc_Nut_C",
+			"amount": 10
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Environment/Berry/Desc_Berry.Desc_Berry_C",
+			"amount": 3
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_GenericBiomass.Desc_GenericBiomass_C",
+			"amount": 500
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,
@@ -15,7 +28,6 @@
 		"/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_Medic.Recipe_Manu_Medic_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

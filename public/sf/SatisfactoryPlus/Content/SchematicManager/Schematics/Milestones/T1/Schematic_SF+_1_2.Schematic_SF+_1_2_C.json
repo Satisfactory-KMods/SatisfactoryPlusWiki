@@ -2,7 +2,20 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_2.Schematic_SF+_1_2_C",
 	"name": "Destruction of Nature",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
+			"amount": 25
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+			"amount": 100
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 500
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 3,
@@ -15,9 +28,8 @@
 		"/Game/FactoryGame/Recipes/Equipment/Recipe_Chainsaw.Recipe_Chainsaw_C",
 		"/Game/FactoryGame/Recipes/Constructor/Recipe_Biofuel.Recipe_Biofuel_C"
 	],
-	"handSlots": 6,
-	"subSchematics": [],
+	"handSlots": 1,
 	"cleanerDesc": [],
-	"inventorySlots": 0,
+	"inventorySlots": 5,
 	"dataType": "schematic"
 }

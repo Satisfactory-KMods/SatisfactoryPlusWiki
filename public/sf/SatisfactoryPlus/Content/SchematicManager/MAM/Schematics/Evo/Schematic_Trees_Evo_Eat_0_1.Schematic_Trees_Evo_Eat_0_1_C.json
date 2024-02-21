@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Eat_0_1.Schematic_Trees_Evo_Eat_0_1_C",
 	"name": "Researches",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Equipment/Medkit/Desc_Medkit.Desc_Medkit_C",
+			"amount": 20
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,
@@ -12,9 +17,8 @@
 	"smallImage": "/Game/FactoryGame/Resource/Equipment/Medkit/UI/Inhaler_256.Inhaler_256",
 	"scannerUnlocks": [],
 	"recipeUnlocks": [],
-	"handSlots": 5,
-	"subSchematics": [],
+	"handSlots": 0,
 	"cleanerDesc": [],
-	"inventorySlots": 0,
+	"inventorySlots": 5,
 	"dataType": "schematic"
 }

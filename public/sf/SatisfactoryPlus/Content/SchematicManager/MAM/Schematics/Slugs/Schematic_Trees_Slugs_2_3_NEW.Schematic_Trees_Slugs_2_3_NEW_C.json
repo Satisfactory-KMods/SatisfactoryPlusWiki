@@ -2,7 +2,20 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_2_3_NEW.Schematic_Trees_Slugs_2_3_NEW_C",
 	"name": "They are thirsty!",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+			"amount": 1000
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Fabric.Desc_Fabric_C",
+			"amount": 100
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
+			"amount": 20
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,
@@ -15,7 +28,6 @@
 		"/SatisfactoryPlus/Content/BuildingRecipes/Slugs/Recipe_SlugHatchery_Mk1_Tank.Recipe_SlugHatchery_Mk1_Tank_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 5,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Buildings/Cleaner/Build_Cleaner2.Build_Cleaner2_C",
@@ -42,6 +43,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_ShardFrame.Recipe_Assamble_ShardFrame_C",
@@ -76,11 +78,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_4_2_NEW.Schematic_Trees_Slugs_4_2_NEW_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_4_NEW.Schematic_Trees_Slugs_3_4_NEW_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_Module_Energy.Recipe_Module_Energy_C",
@@ -125,6 +128,7 @@
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Recipes/Recipe_SolidDrive_MK_4.Recipe_SolidDrive_MK_4_C",
@@ -149,11 +153,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_4_2_NEW.Schematic_Trees_Slugs_4_2_NEW_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_4.Schematic_Trees_TimeCrystak_ItemStorage_4_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_XenoBasher.Recipe_XenoBasher_C",
@@ -193,7 +198,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_4_2_NEW.Schematic_Trees_Slugs_4_2_NEW_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_5.Schematic_SF+_3_5_C"
 			]
 		}
 	],

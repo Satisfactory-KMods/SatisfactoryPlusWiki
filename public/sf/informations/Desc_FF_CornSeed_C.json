@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 10,
 			"buildingRecipe": false,
 			"productionElement": "/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt.Desc_FF_Dirt_C",
@@ -50,6 +51,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Norm/Recipe_SF+_Crop_Corn.Recipe_SF+_Crop_Corn_C",
@@ -73,10 +75,13 @@
 					"amount": 1
 				}
 			],
-			"schematics": []
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_DirtFarming.Schematic_Tree_Farming_DirtFarming_C"
+			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Fert/Recipe_SF+_Alt_Crop_Corn2.Recipe_SF+_Alt_Crop_Corn2_C",
@@ -109,6 +114,7 @@
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Plots/Water/Recipe_SF+_Alt_Crop_Corn.Recipe_SF+_Alt_Crop_Corn_C",

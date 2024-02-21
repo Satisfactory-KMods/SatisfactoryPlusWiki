@@ -2,7 +2,20 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C",
 	"name": "Advanced Alloys",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedCobalt.Desc_PurifiedCobalt_C",
+			"amount": 1000
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedNickle.Desc_PurifiedNickle_C",
+			"amount": 1000
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Purified/Desc_PurifiedCaterium.Desc_PurifiedCaterium_C",
+			"amount": 1000
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 3,
@@ -22,7 +35,6 @@
 		"/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CobaltPlates.Recipe_Constructor_CobaltPlates_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

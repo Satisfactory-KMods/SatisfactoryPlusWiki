@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Foundations/Recipe_Foundation_Frame_01.Recipe_Foundation_Frame_01_C",
@@ -40,8 +41,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_FrameworkFoundations.ResourceSink_FrameworkFoundations_C",
-				"/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_FrameworkFoundations.ResourceSink_FrameworkFoundations_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_FrameworkFoundations.ResourceSink_FrameworkFoundations_C"
 			]
 		}
 	],

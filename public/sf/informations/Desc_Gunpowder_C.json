@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_GunPowder.Recipe_Assamble_GunPowder_C",
@@ -42,6 +43,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Recipe_Alternative_TurboFuel.Recipe_Alternative_TurboFuel_C",
@@ -66,11 +68,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/Schematic_Trees_Sulfur_3_2.Schematic_Trees_Sulfur_3_2_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Alternative_TurboFuel_0.Alternative_TurboFuel_0_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_Nobelisk.Recipe_Manu_Nobelisk_C",
@@ -100,11 +103,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/Schematic_Trees_Sulfur_3_2.Schematic_Trees_Sulfur_3_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_3_3.Schematic_Trees_Sulfur_3_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_GunpowderMk2.Recipe_ChemReactor_GunpowderMk2_C",
@@ -139,7 +143,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/Schematic_Trees_Sulfur_3_2.Schematic_Trees_Sulfur_3_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_3_4.Schematic_Trees_Sulfur_3_4_C"
 			]
 		}
 	],

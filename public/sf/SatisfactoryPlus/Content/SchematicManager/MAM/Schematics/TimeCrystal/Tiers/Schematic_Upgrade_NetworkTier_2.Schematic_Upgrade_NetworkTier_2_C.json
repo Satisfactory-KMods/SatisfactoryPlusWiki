@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Tiers/Schematic_Upgrade_NetworkTier_2.Schematic_Upgrade_NetworkTier_2_C",
 	"name": "Unlock a new network tier",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/NetworkHardDrives/Drive_Solid_Mk3.Drive_Solid_Mk3_C",
+			"amount": 10
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,
@@ -13,7 +18,6 @@
 	"scannerUnlocks": [],
 	"recipeUnlocks": [],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

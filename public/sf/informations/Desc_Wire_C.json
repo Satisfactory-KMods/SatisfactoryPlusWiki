@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CopperWire.Recipe_Constructor_CopperWire_C",
@@ -30,14 +31,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Recipe_Alternative_CuttedCopperWire.Recipe_Alternative_CuttedCopperWire_C",
@@ -57,14 +56,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Recipe_InstandWire_Copper.Recipe_InstandWire_Copper_C",
@@ -84,14 +81,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Recipe_Alternative_CastedCopperScrew.Recipe_Alternative_CastedCopperScrew_C",
@@ -121,9 +116,6 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
 			]
 		}
@@ -131,48 +123,147 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_LookoutTower.Recipe_LookoutTower_C",
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C",
 			"wasteProducer": "",
 			"input": [
 				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
-					"time": 1,
-					"amount": 25
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 20
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 50
-				},
-				{
 					"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
 					"time": 1,
-					"amount": 20
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 1,
+					"amount": 5
 				}
 			],
 			"output": [
 				{
-					"item": "/Game/FactoryGame/Buildable/Factory/LookoutTower/Desc_LookoutTower.Desc_LookoutTower_C",
+					"item": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Desc_SmelterMk1.Desc_SmelterMk1_C",
 					"time": 1,
 					"amount": 1
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CopperCable.Recipe_Constructor_CopperCable_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+					"time": 4,
+					"amount": 4
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+					"time": 4,
+					"amount": 2
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleMk1.Recipe_PowerPoleMk1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+					"time": 1,
+					"amount": 4
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CopperRod.Desc_CopperRod_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk1/Desc_PowerPoleMk1.Desc_PowerPoleMk1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_Module_Smelter.Recipe_Module_Smelter_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
+					"time": 1,
+					"amount": 15
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
+					"time": 1,
+					"amount": 200
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+					"time": 1,
+					"amount": 100
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/ModularExtractor/Desc/BuildDesc_Module_Smelter.BuildDesc_Module_Smelter_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_4.Schematic_SF+_2_4_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Generators/MVGenerator/Recipe_SF+_MP_MVGenerator.Recipe_SF+_MP_MVGenerator_C",
@@ -212,236 +303,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
 			]
 		},
 		{
 			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleWall.Recipe_PowerPoleWall_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
-					"time": 1,
-					"amount": 4
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CopperRod.Desc_CopperRod_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/Desc_PowerPoleWall.Desc_PowerPoleWall_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleWallDouble.Recipe_PowerPoleWallDouble_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
-					"time": 1,
-					"amount": 4
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CopperRod.Desc_CopperRod_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/Desc_PowerPoleWallDouble.Desc_PowerPoleWallDouble_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
-					"time": 1,
-					"amount": 5
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Factory/SmelterMk1/Desc_SmelterMk1.Desc_SmelterMk1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CopperCable.Recipe_Constructor_CopperCable_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
-					"time": 4,
-					"amount": 4
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
-					"time": 4,
-					"amount": 2
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleMk1.Recipe_PowerPoleMk1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
-					"time": 1,
-					"amount": 4
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CopperRod.Desc_CopperRod_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk1/Desc_PowerPoleMk1.Desc_PowerPoleMk1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_Module_Smelter.Recipe_Module_Smelter_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
-					"time": 1,
-					"amount": 15
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
-					"time": 1,
-					"amount": 200
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
-					"time": 1,
-					"amount": 100
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Buildings/ModularExtractor/Desc/BuildDesc_Module_Smelter.BuildDesc_Module_Smelter_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_Nobelisk.Recipe_Manu_Nobelisk_C",
@@ -471,14 +338,52 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_3_3.Schematic_Trees_Sulfur_3_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_LookoutTower.Recipe_LookoutTower_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 1,
+					"amount": 25
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 20
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 50
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+					"time": 1,
+					"amount": 20
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/LookoutTower/Desc_LookoutTower.Desc_LookoutTower_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_3.Schematic_SF+_1_3_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_Mam.Recipe_Mam_C",
@@ -518,14 +423,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_4.Schematic_SF+_1_4_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_ObjectScanner.Recipe_ObjectScanner_C",
@@ -555,14 +458,82 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_4.Schematic_SF+_1_4_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleWall.Recipe_PowerPoleWall_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+					"time": 1,
+					"amount": 4
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CopperRod.Desc_CopperRod_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/Desc_PowerPoleWall.Desc_PowerPoleWall_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_WallPowerPoles.ResourceSink_WallPowerPoles_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleWallDouble.Recipe_PowerPoleWallDouble_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+					"time": 1,
+					"amount": 4
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CopperRod.Desc_CopperRod_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/Desc_PowerPoleWallDouble.Desc_PowerPoleWallDouble_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_WallPowerPoles.ResourceSink_WallPowerPoles_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_Stator.Recipe_Assamble_Stator_C",
@@ -587,14 +558,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_6.Schematic_SF+_4_6_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_CicuitBoard.Recipe_Manu_CicuitBoard_C",
@@ -629,14 +598,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Buildings/Recipe_FrackingSmasher.Recipe_FrackingSmasher_C",
@@ -681,10 +648,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/CuttedCopperWire/Alternative_CuttedCopperWire.Alternative_CuttedCopperWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_5.Schematic_SF+_7_5_C"
 			]
 		}
 	],

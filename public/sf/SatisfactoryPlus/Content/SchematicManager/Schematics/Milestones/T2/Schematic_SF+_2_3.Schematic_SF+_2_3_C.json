@@ -2,7 +2,24 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_3.Schematic_SF+_2_3_C",
 	"name": "Rewards",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_TinSheet.Desc_TinSheet_C",
+			"amount": 200
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
+			"amount": 100
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
+			"amount": 250
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_ZincPlates.Desc_ZincPlates_C",
+			"amount": 400
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 3,
@@ -80,18 +97,8 @@
 		"/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Custom.Recipe_Swatch_Custom_C",
 		"/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/Recipe_Swatch_Slot17.Recipe_Swatch_Slot17_C"
 	],
-	"handSlots": 5,
-	"subSchematics": [
-		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/Unlock/SF+_CustomizerUnlock_ColourSwatches.SF+_CustomizerUnlock_ColourSwatches_C",
-		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/Unlock/SF+_CustomizerUnlock_PipelineSwatch.SF+_CustomizerUnlock_PipelineSwatch_C",
-		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_3_0.Schematic_SF+_2_3_0_C",
-		"/Game/FactoryGame/Schematics/Progression/Schematic_2-5.Schematic_2-5_C",
-		"/Game/FactoryGame/Schematics/Progression/CustomizerUnlock_ColourSwatches.CustomizerUnlock_ColourSwatches_C",
-		"/Game/FactoryGame/Schematics/Progression/CustomizerUnlock_PipelineSwatch.CustomizerUnlock_PipelineSwatch_C",
-		"/Game/FactoryGame/Schematics/Progression/CustomizerUnlock_ColourSwatches.CustomizerUnlock_ColourSwatches_C",
-		"/Game/FactoryGame/Schematics/Progression/CustomizerUnlock_PipelineSwatch.CustomizerUnlock_PipelineSwatch_C"
-	],
+	"handSlots": 0,
 	"cleanerDesc": [],
-	"inventorySlots": 0,
+	"inventorySlots": 5,
 	"dataType": "schematic"
 }

@@ -2,7 +2,32 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
 	"name": "Molten Metals",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C",
+			"amount": 500
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GoldIngot/Desc_GoldIngot.Desc_GoldIngot_C",
+			"amount": 500
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/CopperIngot/Desc_CopperIngot.Desc_CopperIngot_C",
+			"amount": 500
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Ingots/Desc_TinIngot.Desc_TinIngot_C",
+			"amount": 500
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Ingots/Desc_LeadIngot.Desc_LeadIngot_C",
+			"amount": 500
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Ingots/Desc_BronzeIngot.Desc_BronzeIngot_C",
+			"amount": 500
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 3,
@@ -23,7 +48,6 @@
 		"/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Simple/Recipe_FBFS_Simple_Zinc.Recipe_FBFS_Simple_Zinc_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

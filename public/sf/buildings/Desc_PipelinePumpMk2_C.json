@@ -11,16 +11,12 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelinePumpMK2.Recipe_PipelinePumpMK2_C",
 			"wasteProducer": "",
 			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C",
-					"time": 1,
-					"amount": 2
-				},
 				{
 					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
 					"time": 1,

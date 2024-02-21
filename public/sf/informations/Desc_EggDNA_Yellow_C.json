@@ -12,6 +12,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/SchematicManager/SaveComp/Recipe_DNAToEgg_Yellow.Recipe_DNAToEgg_Yellow_C",
@@ -35,7 +36,9 @@
 					"amount": 1
 				}
 			],
-			"schematics": []
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_2_0_NEW.Schematic_Trees_Slugs_2_0_NEW_C"
+			]
 		}
 	],
 	"dataType": "informations"

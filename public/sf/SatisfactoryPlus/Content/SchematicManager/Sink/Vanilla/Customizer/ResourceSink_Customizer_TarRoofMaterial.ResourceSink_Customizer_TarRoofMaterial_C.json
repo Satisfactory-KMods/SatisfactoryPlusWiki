@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_TarRoofMaterial.ResourceSink_Customizer_TarRoofMaterial_C",
 	"name": "Tar Roof Material",
 	"description": "Adds the Tar Roof Material to the Customizer, from where it can be applied to any Roof.",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 2
+		}
+	],
 	"category": "Customizer",
 	"subCategory": "Roof Materials",
 	"type": 7,
@@ -24,10 +29,6 @@
 		"/Game/FactoryGame/Recipes/Buildings/Roof/Recipe_Roof_Tar_OutCorner_03.Recipe_Roof_Tar_OutCorner_03_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [
-		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Roofs_Basic_Tar.CBG_Roofs_Basic_Tar_C",
-		"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Roofs_Corners_Tar.CBG_Roofs_Corners_Tar_C"
-	],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

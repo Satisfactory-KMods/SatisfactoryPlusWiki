@@ -2,7 +2,20 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
 	"name": "Hub Upgrade 4",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
+			"amount": 10
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+			"amount": 20
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+			"amount": 50
+		}
+	],
 	"category": "Logistics",
 	"subCategory": "",
 	"type": 2,
@@ -26,11 +39,8 @@
 		"/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_Sapherit.Recipe_Crusher_Sapherit_C",
 		"/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_Stritarit.Recipe_Crusher_Stritarit_C"
 	],
-	"handSlots": 3,
-	"subSchematics": [
-		"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3_0.SF+_Schematic_Tutorial3_0_C"
-	],
+	"handSlots": 0,
 	"cleanerDesc": [],
-	"inventorySlots": 0,
+	"inventorySlots": 3,
 	"dataType": "schematic"
 }

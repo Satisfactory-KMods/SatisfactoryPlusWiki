@@ -1,37 +1,17 @@
-import { drizzle } from 'drizzle-orm/postgres-js';
-import { migrate } from 'drizzle-orm/postgres-js/migrator';
-import { join } from 'path';
-import postgres from 'postgres';
-import { log } from '~/utils/logger';
-import * as schema from './schema';
+import { migrateViews } from '@kmods/drizzle-orm-utils';
+import * as mats from './mat';
+import { db } from './pg';
+import * as views from './views';
 
-import { dbCredentials } from '~/env.mjs';
-
-const poolConnection = postgres(dbCredentials);
-
-export const db = drizzle(poolConnection, {
-	schema
-});
-
-export const dbState = {
-	connected: false,
-	migrated: false
-};
-
-export function startMigrate() {
-	log('info', 'Starting database migration');
-	if (dbState.migrated) return Promise.resolve(dbState);
-	return migrate(db, { migrationsFolder: join(process.cwd(), 'server/db/migrations') })
-		.then(() => {
-			dbState.migrated = true;
-			dbState.connected = true;
-			log('info', 'Database migration complete');
-			return dbState;
-		})
-		.catch((err) => {
-			log('error', 'Database migration failed');
-			log('fatal', err.message);
-		});
+export function startMat() {
+	return migrateViews({
+		imports: {
+			...views,
+			...mats
+		},
+		service: 'wiki',
+		migrationDb: db
+	});
 }
 
-export * from './schema';
+export * from './pg';

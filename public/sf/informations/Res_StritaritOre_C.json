@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 6,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/ExtractDesc/Miner/ExtractDesc_Stritarit.ExtractDesc_Stritarit_C",
@@ -36,6 +37,32 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Workbench/Recipe_Handcrafter_LimeStone.Recipe_Handcrafter_LimeStone_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Nodes/Stritarit/Res_StritaritOre.Res_StritaritOre_C",
+					"time": 2,
+					"amount": 1
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
+					"time": 2,
+					"amount": 2
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial2.SF+_Schematic_Tutorial2_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_Stritarit.Recipe_Crusher_Stritarit_C",
@@ -59,36 +86,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Workbench/Recipe_Handcrafter_LimeStone.Recipe_Handcrafter_LimeStone_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Nodes/Stritarit/Res_StritaritOre.Res_StritaritOre_C",
-					"time": 2,
-					"amount": 1
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_CrushedLimestone.Desc_CrushedLimestone_C",
-					"time": 2,
-					"amount": 2
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C"
-			]
-		},
-		{
-			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Workbench/Recipe_Handcrafter_Stritarit.Recipe_Handcrafter_Stritarit_C",
@@ -107,12 +109,11 @@
 					"amount": 3
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Recipe_Alternative_MixC_Rubyte.Recipe_Alternative_MixC_Rubyte_C",
@@ -142,11 +143,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Rubyte.Alternative_MixedCrushing_Rubyte_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Recipe_Alternative_MixC_Saperite.Recipe_Alternative_MixC_Saperite_C",
@@ -176,11 +178,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Saperite.Alternative_MixedCrushing_Saperite_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Recipe_Alternative_MixC_Stritarite.Recipe_Alternative_MixC_Stritarite_C",
@@ -210,11 +213,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Stritarite.Alternative_MixedCrushing_Stritarite_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Sorter/Recipe_Sorter_T3_Stritarit.Recipe_Sorter_T3_Stritarit_C",
@@ -254,7 +258,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schem_GameStart.Schem_GameStart_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_1.Schematic_SF+_8_1_C"
 			]
 		}
 	],

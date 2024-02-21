@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/GripMetal/Recipe_Foundation_Metal_8x4.Recipe_Foundation_Metal_8x4_C",
@@ -44,12 +45,7 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_GripMetal_FoundationMaterial.ResourceSink_Customizer_GripMetal_FoundationMaterial_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Foundations_Metal.CBG_Foundations_Metal_C",
-				"/Game/FactoryGame/Schematics/ResourceSink/Customizer/ResourceSink_Customizer_GripMetal_FoundationMaterial.ResourceSink_Customizer_GripMetal_FoundationMaterial_C",
-				"/Game/FactoryGame/Schematics/ResourceSink/Customizer_Background/CBG_Foundations_Metal.CBG_Foundations_Metal_C"
-			]
+			"schematics": []
 		}
 	],
 	"produced": [],

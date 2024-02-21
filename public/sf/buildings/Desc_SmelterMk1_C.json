@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterBasicMk1.Recipe_SmelterBasicMk1_C",
@@ -52,30 +53,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Dirty_Glass.Recipe_Smelter_Dirty_Glass_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Sand.Desc_Sand_C",
-					"time": 6,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
-					"time": 6,
-					"amount": 2
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
-			]
-		},
-		{
-			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Dirty_CopperIngot.Recipe_Smelter_Dirty_CopperIngot_C",
@@ -100,6 +78,7 @@
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Dirty_TinIngots.Recipe_Smelter_Dirty_TinIngots_C",
@@ -119,11 +98,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Dirty_IronIngots.Recipe_Smelter_Dirty_IronIngots_C",
@@ -142,12 +122,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Sorted_TinIngots.Recipe_Smelter_Sorted_TinIngots_C",
@@ -167,11 +146,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Sorted_LeadIngots.Recipe_Smelter_Sorted_LeadIngots_C",
@@ -191,11 +171,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Sorted_IronIngots.Recipe_Smelter_Sorted_IronIngots_C",
@@ -214,12 +195,11 @@
 					"amount": 3
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Sorted_CopperIngots.Recipe_Smelter_Sorted_CopperIngots_C",
@@ -238,12 +218,11 @@
 					"amount": 3
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Sorted_ZincIngots.Recipe_Smelter_Sorted_ZincIngots_C",
@@ -263,11 +242,13 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Sorted_CateriumIngot.Recipe_Smelter_Sorted_CateriumIngot_C",
@@ -287,11 +268,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_4.Schematic_Trees_Satmonium_3_4_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Dirty_CateriumIngots.Recipe_Smelter_Dirty_CateriumIngots_C",
@@ -311,11 +293,37 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_1.Schematic_Trees_Satmonium_3_1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Dirty_Glass.Recipe_Smelter_Dirty_Glass_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Sand.Desc_Sand_C",
+					"time": 6,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
+					"time": 6,
+					"amount": 2
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_7.Schematic_SF+_1_7_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasBall1.Recipe_XmasBall1_C",
@@ -335,11 +343,13 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2.Research_XMas_2_C",
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2.Research_XMas_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasBall2.Recipe_XmasBall2_C",
@@ -359,7 +369,8 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2.Research_XMas_2_C",
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2.Research_XMas_2_C"
 			]
 		}
 	],

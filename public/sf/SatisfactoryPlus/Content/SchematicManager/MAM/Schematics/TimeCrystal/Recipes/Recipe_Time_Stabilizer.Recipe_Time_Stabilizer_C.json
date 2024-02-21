@@ -1,7 +1,7 @@
 ﻿{
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Recipes/Recipe_Time_Stabilizer.Recipe_Time_Stabilizer_C",
-	"name": "Stabilized Quantum Crystal",
-	"image": "/KLib/Assets/Parts/Production/TimeCrystal/Icon_TimeC_StabilizedTimeCrystal.Icon_TimeC_StabilizedTimeCrystal",
+	"name": "Poled Quantum Crystal",
+	"image": "/KLib/Assets/Parts/Production/TimeCrystal/ui/Icon_TimeC_Case_512.Icon_TimeC_Case_512",
 	"input": [
 		{
 			"item": "/KLib/Assets/Ressources/Raw/Nodes/QuantumCystal/Res_TimeCrystal.Res_TimeCrystal_C",
@@ -28,5 +28,6 @@
 		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Stabilizer.Schematic_Trees_TimeCrystak_Stabilizer_C"
 	],
 	"isAlternate": false,
+	"isBuildableRecipe": false,
 	"dataType": "recipe"
 }

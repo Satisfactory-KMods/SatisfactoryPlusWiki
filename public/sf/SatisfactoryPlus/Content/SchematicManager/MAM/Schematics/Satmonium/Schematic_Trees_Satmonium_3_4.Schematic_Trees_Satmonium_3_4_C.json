@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_4.Schematic_Trees_Satmonium_3_4_C",
 	"name": "Sorting",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C",
+			"amount": 50
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,
@@ -15,9 +20,8 @@
 		"/SatisfactoryPlus/Content/Recipes/Sorter/Recipe_Sorter_T1_Satmonium.Recipe_Sorter_T1_Satmonium_C",
 		"/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Sorted_CateriumIngot.Recipe_Smelter_Sorted_CateriumIngot_C"
 	],
-	"handSlots": 5,
-	"subSchematics": [],
+	"handSlots": 0,
 	"cleanerDesc": [],
-	"inventorySlots": 0,
+	"inventorySlots": 5,
 	"dataType": "schematic"
 }

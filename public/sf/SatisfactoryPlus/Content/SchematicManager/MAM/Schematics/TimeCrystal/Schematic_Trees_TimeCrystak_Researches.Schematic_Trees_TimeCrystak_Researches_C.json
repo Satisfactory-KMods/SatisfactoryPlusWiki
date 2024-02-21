@@ -2,7 +2,20 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C",
 	"name": "Storage System",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C",
+			"amount": 200
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Frames/Fused/Desc_LeadFrame.Desc_LeadFrame_C",
+			"amount": 500
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
+			"amount": 200
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,
@@ -23,9 +36,6 @@
 		"/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_RAMModuleMk1_Output.Recipe_CS_RAMModuleMk1_Output_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [
-		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Hidden_Coolant.Schematic_Hidden_Coolant_C"
-	],
 	"cleanerDesc": [
 		"/SatisfactoryPlus/Content/Recipes/Cleaner/CleanerDesc_Coolant.CleanerDesc_Coolant_C",
 		"/SatisfactoryPlus/Content/Recipes/Cleaner/CleanerDesc_Coolant.CleanerDesc_Coolant_C"

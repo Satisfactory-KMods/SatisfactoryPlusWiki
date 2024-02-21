@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Enemy/Schematic_Trees_Enemy_4_0.Schematic_Trees_Enemy_4_0_C",
 	"name": "Spitter Research",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/AnimalParts/Desc_SpitterParts.Desc_SpitterParts_C",
+			"amount": 10
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,
@@ -14,9 +19,8 @@
 	"recipeUnlocks": [
 		"/Game/FactoryGame/Recipes/Constructor/Recipe_Protein_Spitter.Recipe_Protein_Spitter_C"
 	],
-	"handSlots": 3,
-	"subSchematics": [],
+	"handSlots": 0,
 	"cleanerDesc": [],
-	"inventorySlots": 0,
+	"inventorySlots": 3,
 	"dataType": "schematic"
 }

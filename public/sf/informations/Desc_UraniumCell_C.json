@@ -12,6 +12,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_Nobelisk_Nuce.Recipe_Manu_Nobelisk_Nuce_C",
@@ -45,7 +46,9 @@
 					"amount": 1
 				}
 			],
-			"schematics": []
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/U6/Schematic_Trees_Sulfur_3_6.Schematic_Trees_Sulfur_3_6_C"
+			]
 		}
 	],
 	"dataType": "informations"

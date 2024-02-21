@@ -2,7 +2,20 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
 	"name": "Oil Refining",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SteelPlateReinforced/Desc_SteelPlateReinforced.Desc_SteelPlateReinforced_C",
+			"amount": 500
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_3.Desc_SpaceElevatorPart_3_C",
+			"amount": 50
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_LeadSheet.Desc_LeadSheet_C",
+			"amount": 1000
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 3,
@@ -29,9 +42,6 @@
 		"/SatisfactoryPlus/Content/Recipes/ChemReactor/OilProcessing/Recipe_ChemReactor_Oil_Destila_2.Recipe_ChemReactor_Oil_Destila_2_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [
-		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0_1.Schematic_SF+_5_0_1_C"
-	],
 	"cleanerDesc": [
 		"/SatisfactoryPlus/Content/Recipes/Cleaner/CleanerDesc_RawSludge.CleanerDesc_RawSludge_C"
 	],

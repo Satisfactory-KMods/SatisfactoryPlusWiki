@@ -2,7 +2,20 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_1.Schematic_SF+_5_1_C",
 	"name": "Fluid & Gas Energy ",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SteelPlateReinforced/Desc_SteelPlateReinforced.Desc_SteelPlateReinforced_C",
+			"amount": 500
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_3.Desc_SpaceElevatorPart_3_C",
+			"amount": 50
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_LeadSheet.Desc_LeadSheet_C",
+			"amount": 1000
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 3,
@@ -12,12 +25,10 @@
 	"smallImage": "/KLib/Assets/Icons/Milestones/ICON_Milestone_Power.ICON_Milestone_Power",
 	"scannerUnlocks": [],
 	"recipeUnlocks": [
-		"/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Heater/Recipe_GasHeater.Recipe_GasHeater_C",
 		"/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Heaters/SolutionHeater/Recipe_RP_MP_SolutionHeater.Recipe_RP_MP_SolutionHeater_C",
 		"/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Boilers/BoilerMk2/Recipe_RP_MP_BoilerMk2.Recipe_RP_MP_BoilerMk2_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

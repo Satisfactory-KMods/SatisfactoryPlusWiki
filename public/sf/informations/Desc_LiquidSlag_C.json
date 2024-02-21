@@ -11,6 +11,322 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Alloy/Recipe_FBFS_Alloy_Bronze.Recipe_FBFS_Alloy_Bronze_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidCopper.Desc_LiquidCopper_C",
+					"time": 3,
+					"amount": 1500
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidTin.Desc_LiquidTin_C",
+					"time": 3,
+					"amount": 500
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidBronze.Desc_LiquidBronze_C",
+					"time": 3,
+					"amount": 1500
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
+					"time": 3,
+					"amount": 500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Simple/Recipe_FBFS_Simple_Copper.Recipe_FBFS_Simple_Copper_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedCopper.Desc_CrushedCopper_C",
+					"time": 3,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidCopper.Desc_LiquidCopper_C",
+					"time": 3,
+					"amount": 1500
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
+					"time": 3,
+					"amount": 500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Simple/Recipe_FBFS_Simple_Gold.Recipe_FBFS_Simple_Gold_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedCaterium.Desc_CrushedCaterium_C",
+					"time": 3,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidGold.Desc_LiquidGold_C",
+					"time": 3,
+					"amount": 1500
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
+					"time": 3,
+					"amount": 500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Simple/Recipe_FBFS_Simple_Iron.Recipe_FBFS_Simple_Iron_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedIron.Desc_CrushedIron_C",
+					"time": 3,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidIron.Desc_LiquidIron_C",
+					"time": 3,
+					"amount": 1500
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
+					"time": 3,
+					"amount": 500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Simple/Recipe_FBFS_Simple_Lead.Recipe_FBFS_Simple_Lead_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedLead.Desc_CrushedLead_C",
+					"time": 3,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidLead.Desc_LiquidLead_C",
+					"time": 3,
+					"amount": 1500
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
+					"time": 3,
+					"amount": 500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Simple/Recipe_FBFS_Simple_Magnesium.Recipe_FBFS_Simple_Magnesium_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedMagnesium.Desc_CrushedMagnesium_C",
+					"time": 3,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidMagnesium.Desc_LiquidMagnesium_C",
+					"time": 3,
+					"amount": 1500
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
+					"time": 3,
+					"amount": 500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Simple/Recipe_FBFS_Simple_Tin.Recipe_FBFS_Simple_Tin_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedTin.Desc_CrushedTin_C",
+					"time": 3,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidTin.Desc_LiquidTin_C",
+					"time": 3,
+					"amount": 1500
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
+					"time": 3,
+					"amount": 500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Simple/Recipe_FBFS_Simple_Zinc.Recipe_FBFS_Simple_Zinc_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedZinc.Desc_CrushedZinc_C",
+					"time": 3,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidZinc.Desc_LiquidZinc_C",
+					"time": 3,
+					"amount": 1500
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
+					"time": 3,
+					"amount": 500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Recipe_Alternative_HeavyCopper.Recipe_Alternative_HeavyCopper_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedCopper.Desc_CrushedCopper_C",
+					"time": 3,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidIron.Desc_LiquidIron_C",
+					"time": 3,
+					"amount": 375
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidCopper.Desc_LiquidCopper_C",
+					"time": 3,
+					"amount": 2250
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
+					"time": 3,
+					"amount": 500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": true,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Recipe_Alternative_ConductiveIron.Recipe_Alternative_ConductiveIron_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedIron.Desc_CrushedIron_C",
+					"time": 3,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidCopper.Desc_LiquidCopper_C",
+					"time": 3,
+					"amount": 375
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidIron.Desc_LiquidIron_C",
+					"time": 3,
+					"amount": 2250
+				},
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
+					"time": 3,
+					"amount": 500
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Alloy/Recipe_FBFS_Alloy_Steel.Recipe_FBFS_Alloy_Steel_C",
@@ -45,448 +361,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Alloy/Recipe_FBFS_Alloy_Bronze.Recipe_FBFS_Alloy_Bronze_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidCopper.Desc_LiquidCopper_C",
-					"time": 3,
-					"amount": 1500
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidTin.Desc_LiquidTin_C",
-					"time": 3,
-					"amount": 500
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidBronze.Desc_LiquidBronze_C",
-					"time": 3,
-					"amount": 1500
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
-					"time": 3,
-					"amount": 500
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Simple/Recipe_FBFS_Simple_Copper.Recipe_FBFS_Simple_Copper_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedCopper.Desc_CrushedCopper_C",
-					"time": 3,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidCopper.Desc_LiquidCopper_C",
-					"time": 3,
-					"amount": 1500
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
-					"time": 3,
-					"amount": 500
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Simple/Recipe_FBFS_Simple_Gold.Recipe_FBFS_Simple_Gold_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedCaterium.Desc_CrushedCaterium_C",
-					"time": 3,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidGold.Desc_LiquidGold_C",
-					"time": 3,
-					"amount": 1500
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
-					"time": 3,
-					"amount": 500
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Simple/Recipe_FBFS_Simple_Iron.Recipe_FBFS_Simple_Iron_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedIron.Desc_CrushedIron_C",
-					"time": 3,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidIron.Desc_LiquidIron_C",
-					"time": 3,
-					"amount": 1500
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
-					"time": 3,
-					"amount": 500
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Simple/Recipe_FBFS_Simple_Lead.Recipe_FBFS_Simple_Lead_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedLead.Desc_CrushedLead_C",
-					"time": 3,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidLead.Desc_LiquidLead_C",
-					"time": 3,
-					"amount": 1500
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
-					"time": 3,
-					"amount": 500
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Simple/Recipe_FBFS_Simple_Magnesium.Recipe_FBFS_Simple_Magnesium_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedMagnesium.Desc_CrushedMagnesium_C",
-					"time": 3,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidMagnesium.Desc_LiquidMagnesium_C",
-					"time": 3,
-					"amount": 1500
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
-					"time": 3,
-					"amount": 500
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Simple/Recipe_FBFS_Simple_Tin.Recipe_FBFS_Simple_Tin_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedTin.Desc_CrushedTin_C",
-					"time": 3,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidTin.Desc_LiquidTin_C",
-					"time": 3,
-					"amount": 1500
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
-					"time": 3,
-					"amount": 500
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Simple/Recipe_FBFS_Simple_Zinc.Recipe_FBFS_Simple_Zinc_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedZinc.Desc_CrushedZinc_C",
-					"time": 3,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidZinc.Desc_LiquidZinc_C",
-					"time": 3,
-					"amount": 1500
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
-					"time": 3,
-					"amount": 500
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Recipe_Alternative_HeavyCopper.Recipe_Alternative_HeavyCopper_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedCopper.Desc_CrushedCopper_C",
-					"time": 3,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidIron.Desc_LiquidIron_C",
-					"time": 3,
-					"amount": 375
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidCopper.Desc_LiquidCopper_C",
-					"time": 3,
-					"amount": 2250
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
-					"time": 3,
-					"amount": 500
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Recipe_Alternative_ConductiveIron.Recipe_Alternative_ConductiveIron_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedIron.Desc_CrushedIron_C",
-					"time": 3,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidCopper.Desc_LiquidCopper_C",
-					"time": 3,
-					"amount": 375
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidIron.Desc_LiquidIron_C",
-					"time": 3,
-					"amount": 2250
-				},
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Fluids/Metals/Desc_LiquidSlag.Desc_LiquidSlag_C",
-					"time": 3,
-					"amount": 500
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
-			]
-		},
-		{
-			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Recipe_Alternative_LimeSteel.Recipe_Alternative_LimeSteel_C",
@@ -521,23 +401,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Recipe_Alternative_ConductiveCopper.Recipe_Alternative_ConductiveCopper_C",
@@ -567,23 +436,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Alloy/Recipe_FBFS_Alloy_Brass.Recipe_FBFS_Alloy_Brass_C",
@@ -618,23 +476,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Alloy/Recipe_FBFS_Alloy_Solder.Recipe_FBFS_Alloy_Solder_C",
@@ -669,23 +516,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Parts/Packaged/Recipes/UnPackaged/Recipe_UnPackaged_LiquidSlag.Recipe_UnPackaged_LiquidSlag_C",
@@ -709,24 +545,11 @@
 					"amount": 1000
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Advanced/Recipe_FBFS_Advanced_Caterium.Recipe_FBFS_Advanced_Caterium_C",
@@ -760,24 +583,11 @@
 					"amount": 1000
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Advanced/Recipe_FBFS_Advanced_Copper.Recipe_FBFS_Advanced_Copper_C",
@@ -811,24 +621,11 @@
 					"amount": 1000
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Advanced/Recipe_FBFS_Advanced_Iron.Recipe_FBFS_Advanced_Iron_C",
@@ -862,24 +659,11 @@
 					"amount": 1000
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Advanced/Recipe_FBFS_Advanced_Lead.Recipe_FBFS_Advanced_Lead_C",
@@ -913,24 +697,11 @@
 					"amount": 1000
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Advanced/Recipe_FBFS_Advanced_Magnesium.Recipe_FBFS_Advanced_Magnesium_C",
@@ -964,24 +735,11 @@
 					"amount": 1000
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Advanced/Recipe_FBFS_Advanced_Tin.Recipe_FBFS_Advanced_Tin_C",
@@ -1015,24 +773,11 @@
 					"amount": 1000
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Advanced/Recipe_FBFS_Advanced_Zinc.Recipe_FBFS_Advanced_Zinc_C",
@@ -1066,24 +811,11 @@
 					"amount": 1000
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Advanced/Recipe_FBFS_Advanced_Nickle.Recipe_FBFS_Advanced_Nickle_C",
@@ -1118,23 +850,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Alloy/Recipe_FBFS_Alloy_Invar.Recipe_FBFS_Alloy_Invar_C",
@@ -1169,23 +890,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Advanced/Recipe_FBFS_Advanced_Cobalt.Recipe_FBFS_Advanced_Cobalt_C",
@@ -1220,23 +930,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
 			]
 		},
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 7,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Modules/Smelter/Build_SmelterModule.Build_SmelterModule_C",
@@ -1271,11 +970,11 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
@@ -1288,6 +987,7 @@
 		},
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 7,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Modules/Smelter/Build_SmelterModule.Build_SmelterModule_C",
@@ -1322,11 +1022,11 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
@@ -1339,6 +1039,7 @@
 		},
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 7,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Modules/Smelter/Build_SmelterModule.Build_SmelterModule_C",
@@ -1373,11 +1074,11 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
@@ -1390,6 +1091,7 @@
 		},
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 7,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Modules/Smelter/Build_SmelterModule.Build_SmelterModule_C",
@@ -1424,11 +1126,11 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
@@ -1443,6 +1145,7 @@
 	"produced": [
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 5,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Buildings/Cleaner/Build_Cleaner2.Build_Cleaner2_C",
@@ -1472,11 +1175,11 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
@@ -1489,6 +1192,7 @@
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Parts/Packaged/Recipes/Packaged/Recipe_Packaged_LiquidSlag.Recipe_Packaged_LiquidSlag_C",
@@ -1512,21 +1216,7 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/CopperIron/Alternative_HeavyCopper.Alternative_HeavyCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/IronCopper/Alternative_ConductiveIron.Alternative_ConductiveIron_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/MagCopper/Alternative_ConductiveCopper.Alternative_ConductiveCopper_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_2.Schematic_SF+_3_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_4.Schematic_SF+_6_4_C"
-			]
+			"schematics": []
 		}
 	],
 	"dataType": "informations"

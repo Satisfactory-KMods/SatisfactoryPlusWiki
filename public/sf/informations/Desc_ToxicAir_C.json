@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Parts/Packaged/Recipes/UnPackaged/Recipe_UnPackaged_ToxicAir.Recipe_UnPackaged_ToxicAir_C",
@@ -34,13 +35,11 @@
 					"amount": 2000
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 9,
 			"buildingRecipe": false,
 			"productionElement": "",
@@ -62,6 +61,7 @@
 	"produced": [
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 4,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Atmosphere/SF+_Build_RP_MP_Co2Cooler.SF+_Build_RP_MP_Co2Cooler_C",
@@ -81,6 +81,7 @@
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Parts/Packaged/Recipes/Packaged/Recipe_Packaged_ToxicAir.Recipe_Packaged_ToxicAir_C",
@@ -104,13 +105,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_ToxicAir.Recipe_ChemReactor_ToxicAir_C",
@@ -140,8 +139,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4_1.Schematic_SF+_5_4_1_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C"
 			]
 		}
 	],

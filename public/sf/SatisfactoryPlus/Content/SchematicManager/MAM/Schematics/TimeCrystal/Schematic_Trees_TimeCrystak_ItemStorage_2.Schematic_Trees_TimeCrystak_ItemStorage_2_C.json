@@ -2,7 +2,16 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_2.Schematic_Trees_TimeCrystak_ItemStorage_2_C",
 	"name": "Drive Mk.2",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/NetworkHardDrives/Drive_Solid_Mk1.Drive_Solid_Mk1_C",
+			"amount": 4
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_Cable.Desc_TimeC_Cable_C",
+			"amount": 250
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,
@@ -15,7 +24,6 @@
 		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Recipes/Recipe_SolidDrive_MK_2.Recipe_SolidDrive_MK_2_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

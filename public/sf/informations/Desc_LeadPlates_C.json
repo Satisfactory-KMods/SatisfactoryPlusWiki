@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_LeadPlates.Recipe_Constructor_LeadPlates_C",
@@ -37,50 +38,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/KLib/Assets/Buildings/Weavingmachine/Recipe_Weavingmachine.Recipe_Weavingmachine_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 20
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_LeadPlates.Desc_LeadPlates_C",
-					"time": 1,
-					"amount": 10
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Buildings/Weavingmachine/BuildDesc_Weavingmachine.BuildDesc_Weavingmachine_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C"
-			]
-		},
-		{
-			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_AssemblerMk1.Recipe_AssemblerMk1_C",
@@ -120,11 +78,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_6.Schematic_SF+_1_6_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_LeadSheet.Recipe_Constructor_LeadSheet_C",
@@ -144,11 +103,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_6.Schematic_SF+_1_6_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_SmelterMk1.Recipe_SmelterMk1_C",
@@ -188,11 +148,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/SoldifierAndCooler/Recipe_SoldifierAndCooler.Recipe_SoldifierAndCooler_C",
@@ -232,11 +193,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Boilers/BoilerMk2/Recipe_RP_MP_BoilerMk2.Recipe_RP_MP_BoilerMk2_C",
@@ -276,11 +238,59 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_1.Schematic_SF+_5_1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/Weavingmachine/Recipe_Weavingmachine.Recipe_Weavingmachine_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 20
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_LeadPlates.Desc_LeadPlates_C",
+					"time": 1,
+					"amount": 10
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/Weavingmachine/BuildDesc_Weavingmachine.BuildDesc_Weavingmachine_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Mush_3_0.Schematic_Trees_Evo_Mush_3_0_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Fabric.Schematic_Tree_Farming_Fabric_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_LeadFrame.Recipe_Assamble_LeadFrame_C",
@@ -305,11 +315,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_1.Schematic_SF+_2_1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_HeavyFrame.Recipe_Manu_HeavyFrame_C",
@@ -344,11 +355,13 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_1.Schematic_SF+_4_1_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_ManufacturerMk1.Recipe_ManufacturerMk1_C",
@@ -388,7 +401,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_5.Schematic_SF+_1_5_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_3.Schematic_SF+_5_3_C"
 			]
 		}
 	],

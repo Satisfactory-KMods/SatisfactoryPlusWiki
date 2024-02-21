@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/ChemReactor/Recipe_ChemReactor_Air.Recipe_ChemReactor_Air_C",
@@ -45,12 +46,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C"
 			]
 		},
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 6,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/ExtractDesc/Miner/ExtractDesc_Coal.ExtractDesc_Coal_C",
@@ -77,6 +78,7 @@
 	"produced": [
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 3,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Heater/SF+_Build_RP_MP_CoalHeater.SF+_Build_RP_MP_CoalHeater_C",
@@ -102,6 +104,7 @@
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Alloy/Recipe_FBFS_Alloy_Steel.Recipe_FBFS_Alloy_Steel_C",
@@ -136,12 +139,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Recipe_Alternative_LimeSteel_2.Recipe_Alternative_LimeSteel_2_C",
@@ -166,12 +169,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_CarbonDust.Recipe_Crusher_CarbonDust_C",
@@ -191,12 +194,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/Schematic_Trees_Sulfur_3_2.Schematic_Trees_Sulfur_3_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_FilterGasMask.Recipe_FilterGasMask_C",
@@ -226,8 +229,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Mush_4_0.Schematic_Trees_Evo_Mush_4_0_C"
 			]
 		}
 	],

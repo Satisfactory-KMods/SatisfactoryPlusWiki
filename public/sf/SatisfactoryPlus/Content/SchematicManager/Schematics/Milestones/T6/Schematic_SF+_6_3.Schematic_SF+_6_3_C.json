@@ -2,7 +2,32 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
 	"name": "Advanced Ore Processing",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C",
+			"amount": 50
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_SolderWire.Desc_SolderWire_C",
+			"amount": 1000
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_SolderRod.Desc_SolderRod_C",
+			"amount": 1000
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Ingots/Desc_BronzeIngot.Desc_BronzeIngot_C",
+			"amount": 1000
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C",
+			"amount": 1000
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Ingots/Desc_BrassIngot.Desc_BrassIngot_C",
+			"amount": 1000
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 3,
@@ -34,9 +59,6 @@
 		"/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Advanced/Recipe_FBFS_Advanced_Zinc.Recipe_FBFS_Advanced_Zinc_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [
-		"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C"
-	],
 	"cleanerDesc": [
 		"/SatisfactoryPlus/Content/Recipes/Cleaner/CleanerDesc_DirtyWater.CleanerDesc_DirtyWater_C"
 	],

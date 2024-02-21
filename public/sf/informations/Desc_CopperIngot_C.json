@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Dirty_CopperIngot.Recipe_Smelter_Dirty_CopperIngot_C",
@@ -30,15 +31,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2_0.Schematic_SF+_2_2_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_4_2.Schematic_Trees_Cryolit_4_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Sorted_CopperIngots.Recipe_Smelter_Sorted_CopperIngots_C",
@@ -57,16 +55,11 @@
 					"amount": 3
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2_0.Schematic_SF+_2_2_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_4_2.Schematic_Trees_Cryolit_4_2_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Ingots/Recipe_SAC_Ingots_Copper.Recipe_SAC_Ingots_Copper_C",
@@ -96,15 +89,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2_0.Schematic_SF+_2_2_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_4_2.Schematic_Trees_Cryolit_4_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Foundery/Recipe_Foundery_SaltedCopper.Recipe_Foundery_SaltedCopper_C",
@@ -129,15 +119,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2_0.Schematic_SF+_2_2_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
 				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_4_2.Schematic_Trees_Cryolit_4_2_C"
 			]
 		},
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 7,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Modules/Smelter/Build_SmelterModule.Build_SmelterModule_C",
@@ -183,6 +170,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CopperRod.Recipe_Constructor_CopperRod_C",
@@ -202,15 +190,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2_0.Schematic_SF+_2_2_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_4_2.Schematic_Trees_Cryolit_4_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CopperPlate.Recipe_Constructor_CopperPlate_C",
@@ -230,15 +215,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2_0.Schematic_SF+_2_2_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_4_2.Schematic_Trees_Cryolit_4_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Foundery/Recipe_Foundery_Bronze.Recipe_Foundery_Bronze_C",
@@ -263,15 +245,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2_0.Schematic_SF+_2_2_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_4_2.Schematic_Trees_Cryolit_4_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_0.Schematic_SF+_2_0_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Recipe_InstandWire_Copper.Recipe_InstandWire_Copper_C",
@@ -291,15 +270,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2_0.Schematic_SF+_2_2_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_4_2.Schematic_Trees_Cryolit_4_2_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Constructor/InstandWire/Alternative_InstandWire.Alternative_InstandWire_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Foundery/DirtyBrass/Recipe_Alternative_DirtyBrass.Recipe_Alternative_DirtyBrass_C",
@@ -324,15 +300,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2_0.Schematic_SF+_2_2_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_4_2.Schematic_Trees_Cryolit_4_2_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Foundery/DirtyBrass/Alternative_DirtyBrass.Alternative_DirtyBrass_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasBall3.Recipe_XmasBall3_C",
@@ -357,11 +330,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2_0.Schematic_SF+_2_2_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_4_2.Schematic_Trees_Cryolit_4_2_C"
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2-2.Research_XMas_2-2_C"
 			]
 		}
 	],

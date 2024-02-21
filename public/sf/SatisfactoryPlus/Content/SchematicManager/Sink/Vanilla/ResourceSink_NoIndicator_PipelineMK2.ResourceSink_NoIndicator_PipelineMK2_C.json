@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_NoIndicator_PipelineMK2.ResourceSink_NoIndicator_PipelineMK2_C",
 	"name": "Clean Pipeline Mk.2",
 	"description": "This clean version of the Mk.2 Pipeline does not feature the external fluid indicator, sacrificing feedback for style.",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 1
+		}
+	],
 	"category": "Management",
 	"subCategory": "Pipelines",
 	"type": 7,
@@ -15,7 +20,6 @@
 		"/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineMK2_NoIndicator.Recipe_PipelineMK2_NoIndicator_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

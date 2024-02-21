@@ -2,7 +2,16 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Scanning_Dirt_Fert.Schematic_Tree_Farming_Scanning_Dirt_Fert_C",
 	"name": "Peat Soil",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt_Fertilized.Desc_FF_Dirt_Fertilized_C",
+			"amount": 200
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+			"amount": 100
+		}
+	],
 	"category": "",
 	"subCategory": "Walls",
 	"type": 6,
@@ -16,7 +25,6 @@
 	],
 	"recipeUnlocks": [],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

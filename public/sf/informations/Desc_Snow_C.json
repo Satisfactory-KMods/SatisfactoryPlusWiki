@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Events/Christmas/Parts/Recipe_Snow.Recipe_Snow_C",
@@ -37,6 +38,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Events/Christmas/Fireworks/Recipe_Fireworks_03.Recipe_Fireworks_03_C",
@@ -60,12 +62,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2-1.Research_XMas_2-1_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Holiday/Recipe_Snowball.Recipe_Snowball_C",
@@ -85,11 +86,12 @@
 				}
 			],
 			"schematics": [
-				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2-1.Research_XMas_2-1_C"
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_4-2.Research_XMas_4-2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Events/Christmas/Buildings/SnowDispenser/Recipe_SnowDispenser.Recipe_SnowDispenser_C",
@@ -119,11 +121,12 @@
 				}
 			],
 			"schematics": [
-				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2-1.Research_XMas_2-1_C"
+				"/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_3-2.Research_XMas_3-2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Events/Christmas/Buildings/SnowmanDecor/Recipe_Snowman.Recipe_Snowman_C",

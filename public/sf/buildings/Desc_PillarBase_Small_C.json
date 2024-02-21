@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Pillars/Recipe_PillarBase_Small.Recipe_PillarBase_Small_C",
@@ -41,7 +42,6 @@
 			],
 			"schematics": [
 				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_FoudationPillar.ResourceSink_FoudationPillar_C",
-				"/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_FoudationPillar.ResourceSink_FoudationPillar_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_ConcretePillarSet.ResourceSink_ConcretePillarSet_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_FramePillarSet.ResourceSink_FramePillarSet_C"
 			]

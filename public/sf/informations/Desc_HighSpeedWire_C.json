@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_QuickWire.Recipe_Constructor_QuickWire_C",
@@ -37,108 +38,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleMk2.Recipe_PowerPoleMk2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
-					"time": 1,
-					"amount": 4
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 6
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CateriumRod.Desc_CateriumRod_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Desc_PowerPoleMk2.Desc_PowerPoleMk2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleWallMk2.Recipe_PowerPoleWallMk2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
-					"time": 1,
-					"amount": 4
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 6
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CateriumRod.Desc_CateriumRod_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/Desc_PowerPoleWallMk2.Desc_PowerPoleWallMk2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleWallDoubleMk2.Recipe_PowerPoleWallDoubleMk2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
-					"time": 1,
-					"amount": 4
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 6
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CateriumRod.Desc_CateriumRod_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/Desc_PowerPoleWallDoubleMk2.Desc_PowerPoleWallDoubleMk2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
-			]
-		},
-		{
-			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_Module_Smelter.Recipe_Module_Smelter_C",
@@ -173,11 +73,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_4.Schematic_SF+_2_4_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/FlexibleBlastFurnace/Recipe_FlexibleBlastFurnaceSmelter.Recipe_FlexibleBlastFurnaceSmelter_C",
@@ -217,11 +118,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_BladeRunners.Recipe_BladeRunners_C",
@@ -256,11 +158,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_2_2.Schematic_Trees_Satmonium_2_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_ZipLine.Recipe_ZipLine_C",
@@ -300,11 +203,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_2_3.Schematic_Trees_Satmonium_2_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_Rebar_Stun.Recipe_Assamble_Rebar_Stun_C",
@@ -329,11 +233,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_2_4_U6.Schematic_Trees_Satmonium_2_4_U6_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_RilfleMuni_Smart.Recipe_Manu_RilfleMuni_Smart_C",
@@ -368,11 +273,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_2_5_U6.Schematic_Trees_Satmonium_2_5_U6_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_HighSpeedConnector.Recipe_Manu_HighSpeedConnector_C",
@@ -407,11 +313,47 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_5.Schematic_Trees_Satmonium_3_5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleMk2.Recipe_PowerPoleMk2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
+					"time": 1,
+					"amount": 4
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 6
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CateriumRod.Desc_CateriumRod_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk2/Desc_PowerPoleMk2.Desc_PowerPoleMk2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_4_2.Schematic_Trees_Satmonium_4_2_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_Module_Energy.Recipe_Module_Energy_C",
@@ -451,11 +393,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_4_2_NEW.Schematic_Trees_Slugs_4_2_NEW_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_Module_Energy_Mk2.Recipe_Module_Energy_Mk2_C",
@@ -495,11 +438,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_4_4_NEW.Schematic_Trees_Slugs_4_4_NEW_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Recipes/Recipe_Time_Adapter.Recipe_Time_Adapter_C",
@@ -524,11 +468,82 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Transport_Terminal.Schematic_Trees_TimeCrystak_Transport_Terminal_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleWallMk2.Recipe_PowerPoleWallMk2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
+					"time": 1,
+					"amount": 4
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 6
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CateriumRod.Desc_CateriumRod_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/PowerPoleWall/Desc_PowerPoleWallMk2.Desc_PowerPoleWallMk2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_WallPowerPolesMK2.ResourceSink_WallPowerPolesMK2_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleWallDoubleMk2.Recipe_PowerPoleWallDoubleMk2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
+					"time": 1,
+					"amount": 4
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 6
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CateriumRod.Desc_CateriumRod_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Factory/PowerPoleWallDouble/Desc_PowerPoleWallDoubleMk2.Desc_PowerPoleWallDoubleMk2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_WallPowerPolesMK2.ResourceSink_WallPowerPolesMK2_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerTower.Recipe_PowerTower_C",
@@ -568,11 +583,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_6.Schematic_SF+_4_6_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerTowerPlatform.Recipe_PowerTowerPlatform_C",
@@ -617,11 +633,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_6.Schematic_SF+_4_6_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_Hoverpack.Recipe_Hoverpack_C",
@@ -661,11 +678,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T4/Schematic_SF+_4_7.Schematic_SF+_4_7_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Generators/HVGenerator/Recipe_SF+_MP_HVGenerator.Recipe_SF+_MP_HVGenerator_C",
@@ -705,11 +723,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_5.Schematic_SF+_6_5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Colider/Recipe_Colider.Recipe_Colider_C",
@@ -754,11 +773,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_2.Schematic_SF+_8_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_Lift_10.Recipe_Manu_Lift_10_C",
@@ -793,7 +813,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_2.Schematic_Trees_Satmonium_3_2_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_7.Schematic_SF+_8_7_C"
 			]
 		}
 	],

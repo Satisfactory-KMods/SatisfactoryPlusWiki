@@ -2,7 +2,12 @@
 	"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_1-2.Research_XMas_1-2_C",
 	"name": "Candy Cane Decor",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_CandyCane.Desc_CandyCane_C",
+			"amount": 10
+		}
+	],
 	"category": "Organisation",
 	"subCategory": "",
 	"type": 6,
@@ -16,7 +21,6 @@
 		"/Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasBow.Recipe_XmasBow_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/PolishedConcreteSet/Recipe_RampDouble_Polished_8x2.Recipe_RampDouble_Polished_8x2_C",
@@ -44,14 +45,7 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_FoundationExpansionPack.ResourceSink_FoundationExpansionPack_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Ramps_Double_Coated.CBG_Ramps_Double_Coated_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_PolishedConcrete_FoundationMaterial.ResourceSink_Customizer_PolishedConcrete_FoundationMaterial_C",
-				"/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_FoundationExpansionPack.ResourceSink_FoundationExpansionPack_C",
-				"/Game/FactoryGame/Schematics/ResourceSink/Customizer/ResourceSink_Customizer_PolishedConcrete_FoundationMaterial.ResourceSink_Customizer_PolishedConcrete_FoundationMaterial_C",
-				"/Game/FactoryGame/Schematics/ResourceSink/Customizer_Background/CBG_Ramps_Double_Coated.CBG_Ramps_Double_Coated_C"
-			]
+			"schematics": []
 		}
 	],
 	"produced": [],

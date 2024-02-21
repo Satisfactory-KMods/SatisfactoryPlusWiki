@@ -2,7 +2,24 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_7.Schematic_SF+_2_7_C",
 	"name": "Jump Pads",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
+			"amount": 50
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+			"amount": 250
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+			"amount": 500
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_LeadPlates.Desc_LeadPlates_C",
+			"amount": 200
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 3,
@@ -16,7 +33,6 @@
 		"/Game/FactoryGame/Recipes/Buildings/Recipe_UJellyLandingPad.Recipe_UJellyLandingPad_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

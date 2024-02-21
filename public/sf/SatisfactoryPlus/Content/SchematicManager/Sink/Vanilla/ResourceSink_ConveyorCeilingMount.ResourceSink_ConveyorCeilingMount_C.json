@@ -1,0 +1,26 @@
+﻿{
+	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_ConveyorCeilingMount.ResourceSink_ConveyorCeilingMount_C",
+	"name": "Conveyor Ceiling Mount",
+	"description": "",
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 1
+		}
+	],
+	"category": "Management",
+	"subCategory": "Conveyors",
+	"type": 7,
+	"tier": 1,
+	"time": 0,
+	"image": "/Game/FactoryGame/Buildable/Factory/ConveyorPoleWall/UI/IconDesc_ConvCeilingAttachment_256.IconDesc_ConvCeilingAttachment_256",
+	"smallImage": "",
+	"scannerUnlocks": [],
+	"recipeUnlocks": [
+		"/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorCeilingAttachment.Recipe_ConveyorCeilingAttachment_C"
+	],
+	"handSlots": 0,
+	"cleanerDesc": [],
+	"inventorySlots": 0,
+	"dataType": "schematic"
+}

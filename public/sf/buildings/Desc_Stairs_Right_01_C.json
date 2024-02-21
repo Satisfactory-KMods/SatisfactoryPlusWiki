@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Stairs/Recipe_Stairs_Right_01.Recipe_Stairs_Right_01_C",
@@ -40,8 +41,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_Stairs.ResourceSink_Stairs_C",
-				"/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_Stairs.ResourceSink_Stairs_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_Stairs.ResourceSink_Stairs_C"
 			]
 		}
 	],

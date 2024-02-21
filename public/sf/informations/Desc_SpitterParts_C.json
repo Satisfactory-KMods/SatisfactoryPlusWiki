@@ -12,6 +12,7 @@
 	"produced": [
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 3,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Heater/SF+_Build_RP_MP_BiomassHeater.SF+_Build_RP_MP_BiomassHeater_C",
@@ -34,6 +35,7 @@
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Constructor/Recipe_Protein_Spitter.Recipe_Protein_Spitter_C",
@@ -52,7 +54,9 @@
 					"amount": 1
 				}
 			],
-			"schematics": []
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Enemy/Schematic_Trees_Enemy_4_0.Schematic_Trees_Enemy_4_0_C"
+			]
 		}
 	],
 	"dataType": "informations"

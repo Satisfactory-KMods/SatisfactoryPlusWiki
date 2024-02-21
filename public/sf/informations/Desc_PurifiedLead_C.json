@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 5,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Buildings/Cleaner/Build_Cleaner2.Build_Cleaner2_C",
@@ -81,6 +82,7 @@
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Wascher/Recipe_Wasching_Lead.Recipe_Wasching_Lead_C",
@@ -109,15 +111,13 @@
 					"amount": 1500
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C"
-			]
+			"schematics": []
 		}
 	],
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/FlexibleBlastFurnaceSmelter/Advanced/Recipe_FBFS_Advanced_Lead.Recipe_FBFS_Advanced_Lead_C",
@@ -151,10 +151,7 @@
 					"amount": 1000
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3_0.Schematic_SF+_6_3_0_C"
-			]
+			"schematics": []
 		}
 	],
 	"dataType": "informations"

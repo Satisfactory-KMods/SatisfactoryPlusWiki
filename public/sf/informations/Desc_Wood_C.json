@@ -12,6 +12,7 @@
 	"produced": [
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 3,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Heater/SF+_Build_RP_MP_BiomassHeater.SF+_Build_RP_MP_BiomassHeater_C",
@@ -34,6 +35,7 @@
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_WoodBio.Recipe_Constructor_WoodBio_C",
@@ -52,7 +54,9 @@
 					"amount": 8
 				}
 			],
-			"schematics": []
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C"
+			]
 		}
 	],
 	"dataType": "informations"

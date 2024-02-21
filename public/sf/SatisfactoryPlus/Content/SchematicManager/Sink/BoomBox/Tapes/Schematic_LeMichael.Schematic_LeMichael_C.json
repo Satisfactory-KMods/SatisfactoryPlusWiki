@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/BoomBox/Tapes/Schematic_LeMichael.Schematic_LeMichael_C",
 	"name": "Classic Michael Boombox Tape",
 	"description": "The tape that doesn't need an introduction.\r\n\r\nBoombox Tapes are automatically added to the Boombox when obtained.",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 1
+		}
+	],
 	"category": "FICSIT Specials",
 	"subCategory": "Boombox",
 	"type": 7,
@@ -13,7 +18,6 @@
 	"scannerUnlocks": [],
 	"recipeUnlocks": [],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

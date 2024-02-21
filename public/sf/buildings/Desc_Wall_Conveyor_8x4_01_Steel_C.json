@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Walls/Recipe_Wall_Conveyor_8x4_01_Steel.Recipe_Wall_Conveyor_8x4_01_Steel_C",
@@ -44,14 +45,7 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_ConveryWalls_Normal.ResourceSink_ConveryWalls_Normal_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Steel_Walls_Conveyor.CBG_Steel_Walls_Conveyor_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_SteelWallMaterial.ResourceSink_Customizer_SteelWallMaterial_C",
-				"/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_ConveryWalls_Normal.ResourceSink_ConveryWalls_Normal_C",
-				"/Game/FactoryGame/Schematics/ResourceSink/Customizer/ResourceSink_Customizer_SteelWallMaterial.ResourceSink_Customizer_SteelWallMaterial_C",
-				"/Game/FactoryGame/Schematics/ResourceSink/Customizer_Background/CBG_Steel_Walls_Conveyor.CBG_Steel_Walls_Conveyor_C"
-			]
+			"schematics": []
 		}
 	],
 	"produced": [],

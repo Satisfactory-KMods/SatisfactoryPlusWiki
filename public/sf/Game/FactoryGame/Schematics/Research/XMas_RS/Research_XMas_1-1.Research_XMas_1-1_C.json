@@ -2,7 +2,12 @@
 	"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_1-1.Research_XMas_1-1_C",
 	"name": "Candy Cane Basher",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBranch.Desc_XmasBranch_C",
+			"amount": 50
+		}
+	],
 	"category": "Organisation",
 	"subCategory": "",
 	"type": 6,
@@ -16,7 +21,6 @@
 		"/Game/FactoryGame/Events/Christmas/Parts/Recipe_CandyCane.Recipe_CandyCane_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

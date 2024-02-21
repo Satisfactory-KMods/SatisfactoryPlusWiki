@@ -2,7 +2,32 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_5.Schematic_SF+_8_5_C",
 	"name": "Slug Minerals & Pasta",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Golden.SlugDesc_Golden_C",
+			"amount": 25
+		},
+		{
+			"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_Orange.SlugDesc_Orange_C",
+			"amount": 25
+		},
+		{
+			"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_YellowSlug.SlugDesc_YellowSlug_C",
+			"amount": 25
+		},
+		{
+			"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_DarkBlue.SlugDesc_DarkBlue_C",
+			"amount": 25
+		},
+		{
+			"item": "/KLib/Assets/Buildings/SlugHatching/Desc/Slugs/SlugDesc_BloodRed.SlugDesc_BloodRed_C",
+			"amount": 25
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C",
+			"amount": 100
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 3,
@@ -19,7 +44,6 @@
 		"/SatisfactoryPlus/Content/Recipes/Collider/Recipe_Slug_Colider_CrushedCrono.Recipe_Slug_Colider_CrushedCrono_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

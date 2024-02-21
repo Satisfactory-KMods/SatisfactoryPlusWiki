@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Recipe_Alternative_TurboFuel.Recipe_Alternative_TurboFuel_C",
@@ -35,12 +36,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Alternative_TurboFuel_0.Alternative_TurboFuel_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Alternative_TurboFuel_1.Alternative_TurboFuel_1_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Alternative_TurboFuel_0.Alternative_TurboFuel_0_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_UnpackageTurboFuel.Recipe_UnpackageTurboFuel_C",
@@ -64,15 +65,13 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Alternative_TurboFuel_0.Alternative_TurboFuel_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Alternative_TurboFuel_1.Alternative_TurboFuel_1_C"
-			]
+			"schematics": []
 		}
 	],
 	"produced": [
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 3,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Modular/Heater/SF_Build_RP_MP_SolutionHeater.SF_Build_RP_MP_SolutionHeater_C",
@@ -98,6 +97,7 @@
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/OilRefinery/Recipe_PackagedTurboFuel.Recipe_PackagedTurboFuel_C",
@@ -121,10 +121,7 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Alternative_TurboFuel_0.Alternative_TurboFuel_0_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Refinery/TurboFuel/Alternative_TurboFuel_1.Alternative_TurboFuel_1_C"
-			]
+			"schematics": []
 		}
 	],
 	"dataType": "informations"

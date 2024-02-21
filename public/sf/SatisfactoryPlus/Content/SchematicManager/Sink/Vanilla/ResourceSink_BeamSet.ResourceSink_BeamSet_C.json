@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_BeamSet.ResourceSink_BeamSet_C",
 	"name": "Structural Beam Pack",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 4
+		}
+	],
 	"category": "Architecture",
 	"subCategory": "Structural",
 	"type": 7,
@@ -19,7 +24,6 @@
 		"/Game/FactoryGame/Prototype/Buildable/Beams/Recipe_Beam_Connector_Double.Recipe_Beam_Connector_Double_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

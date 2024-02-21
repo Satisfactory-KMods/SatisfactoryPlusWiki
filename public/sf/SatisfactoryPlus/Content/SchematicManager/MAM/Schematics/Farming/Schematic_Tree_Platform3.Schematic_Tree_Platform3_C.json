@@ -2,7 +2,28 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Platform3.Schematic_Tree_Platform3_C",
 	"name": "Expert Farmer",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C",
+			"amount": 100
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_Glass.Desc_Glass_C",
+			"amount": 3000
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Screw/Desc_SteelScrew.Desc_SteelScrew_C",
+			"amount": 1000
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C",
+			"amount": 600
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/AluminumPlate/Desc_AluminumPlate.Desc_AluminumPlate_C",
+			"amount": 1000
+		}
+	],
 	"category": "",
 	"subCategory": "Walls",
 	"type": 6,
@@ -17,7 +38,6 @@
 		"/SatisfactoryPlus/Content/Recipes/Cooker/Recipe_Cooker_SnailFoodMk_7.Recipe_Cooker_SnailFoodMk_7_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

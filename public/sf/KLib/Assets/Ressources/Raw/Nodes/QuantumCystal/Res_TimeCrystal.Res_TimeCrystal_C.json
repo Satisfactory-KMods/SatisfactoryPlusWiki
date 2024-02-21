@@ -16,6 +16,10 @@
 	"schematics": [
 		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Miner.Schematic_Trees_TimeCrystak_Miner_C"
 	],
+	"usedInSchematics": [
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Miner.Schematic_Trees_TimeCrystak_Miner_C",
+		"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Stabilizer.Schematic_Trees_TimeCrystak_Stabilizer_C"
+	],
 	"itemTypeInformation":
 	{
 		"type": "miner",
@@ -53,7 +57,7 @@
 			}
 		]
 	},
-	"image": "/KUI/Assets/TX_PlaceHolder.TX_PlaceHolder",
+	"image": "/KLib/Assets/Parts/Production/TimeCrystal/Icon_TimeC_StabilizedTimeCrystal.Icon_TimeC_StabilizedTimeCrystal",
 	"category": "Raw Materials",
 	"subCategory": "",
 	"dataType": "itemDescriptor"

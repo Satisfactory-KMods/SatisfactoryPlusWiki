@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_Limedust_Cryolite.Recipe_Crusher_Limedust_Cryolite_C",
@@ -30,13 +31,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Recipe_Alternative_CrushedLimeDust.Recipe_Alternative_CrushedLimeDust_C",
@@ -56,13 +56,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Sorter/Recipe_Sorter_T2_Diamond.Recipe_Sorter_T2_Diamond_C",
@@ -92,8 +91,6 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
 				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
 			]
 		}
@@ -101,6 +98,7 @@
 	"produced": [
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 5,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Buildings/Cleaner/Build_Cleaner2.Build_Cleaner2_C",
@@ -165,13 +163,14 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
 				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_LimeDustConcrete.Recipe_Assamble_LimeDustConcrete_C",
@@ -196,1462 +195,42 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Foundation_Concrete_8x1.Recipe_Foundation_Concrete_8x1_C",
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Recipe_Alternative_LimeSteel_2.Recipe_Alternative_LimeSteel_2_C",
 			"wasteProducer": "",
 			"input": [
 				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
+					"item": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C",
+					"time": 6,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 6,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Mixture/Desc_Mixture_CoalLime.Desc_Mixture_CoalLime_C",
+					"time": 6,
 					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Foundation_Concrete_8x1.Desc_Foundation_Concrete_8x1_C",
-					"time": 1,
-					"amount": 1
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Alternative_LimeSteel.Alternative_LimeSteel_C"
 			]
 		},
 		{
 			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Foundation_Concrete_8x2.Recipe_Foundation_Concrete_8x2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Foundation_Concrete_8x2.Desc_Foundation_Concrete_8x2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Foundation_Concrete_8x4.Recipe_Foundation_Concrete_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Foundation_Concrete_8x4.Desc_Foundation_Concrete_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_Concrete_8x1.Recipe_Ramp_Concrete_8x1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Ramp_Concrete_8x1.Desc_Ramp_Concrete_8x1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_Concrete_8x2.Recipe_Ramp_Concrete_8x2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Ramp_Concrete_8x2.Desc_Ramp_Concrete_8x2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_Concrete_8x4.Recipe_Ramp_Concrete_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Ramp_Concrete_8x4.Desc_Ramp_Concrete_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_RampDouble_Concrete_8x1.Recipe_RampDouble_Concrete_8x1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_RampDouble_Concrete_8x1.Desc_RampDouble_Concrete_8x1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_RampDouble_Concrete_8x2.Recipe_RampDouble_Concrete_8x2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_RampDouble_Concrete_8x2.Desc_RampDouble_Concrete_8x2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_RampDouble_Concrete_8x4.Recipe_RampDouble_Concrete_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_RampDouble_Concrete_8x4.Desc_RampDouble_Concrete_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_DCorner_Concrete_8x1.Recipe_InvertedRamp_DCorner_Concrete_8x1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_DCorner_Concrete_8x1.Desc_InvertedRamp_DCorner_Concrete_8x1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_DCorner_Concrete_8x2.Recipe_InvertedRamp_DCorner_Concrete_8x2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_DCorner_Concrete_8x2.Desc_InvertedRamp_DCorner_Concrete_8x2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_DCorner_Concrete_8x4.Recipe_InvertedRamp_DCorner_Concrete_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_DCorner_Concrete_8x4.Desc_InvertedRamp_DCorner_Concrete_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_UCorner_Concrete_8x1.Recipe_InvertedRamp_UCorner_Concrete_8x1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_UCorner_Concrete_8x1.Desc_InvertedRamp_UCorner_Concrete_8x1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_UCorner_Concrete_8x2.Recipe_InvertedRamp_UCorner_Concrete_8x2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_UCorner_Concrete_8x2.Desc_InvertedRamp_UCorner_Concrete_8x2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_UCorner_Concrete_8x4.Recipe_InvertedRamp_UCorner_Concrete_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_UCorner_Concrete_8x4.Desc_InvertedRamp_UCorner_Concrete_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_Concrete_8x1.Recipe_InvertedRamp_Concrete_8x1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_Concrete_8x1.Desc_InvertedRamp_Concrete_8x1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_Concrete_8x2.Recipe_InvertedRamp_Concrete_8x2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_Concrete_8x2.Desc_InvertedRamp_Concrete_8x2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_Concrete_8x4.Recipe_InvertedRamp_Concrete_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_Concrete_8x4.Desc_InvertedRamp_Concrete_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_DownQuarterPipe_Concrete_8x4.Recipe_DownQuarterPipe_Concrete_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_DownQuarterPipe_Concrete_8x4.Desc_DownQuarterPipe_Concrete_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_DownQuarterPipe_ConcreteInCorner_8x4.Recipe_DownQuarterPipe_ConcreteInCorner_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_DownQuarterPipeInCorner_Concrete_8x4.Desc_DownQuarterPipeInCorner_Concrete_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_DownQuarterPipe_ConcreteOutCorner_8x4.Recipe_DownQuarterPipe_ConcreteOutCorner_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_DownQuarterPipeOutCorner_Concrete_8x4.Desc_DownQuarterPipeOutCorner_Concrete_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipe_Concrete_8x4.Recipe_QuarterPipe_Concrete_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipe_Concrete_8x4.Desc_QuarterPipe_Concrete_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeInCorner_Concrete_8x4.Recipe_QuarterPipeInCorner_Concrete_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeInCorner_Concrete_8x4.Desc_QuarterPipeInCorner_Concrete_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeOutCorner_Concrete_8x4.Recipe_QuarterPipeOutCorner_Concrete_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeOutCorner_Concrete_8x4.Desc_QuarterPipeOutCorner_Concrete_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddleInCorner_Concrete_8x1.Recipe_QuarterPipeMiddleInCorner_Concrete_8x1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeMiddleInCorner_Concrete_8x1.Desc_QuarterPipeMiddleInCorner_Concrete_8x1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddleInCorner_Concrete_8x2.Recipe_QuarterPipeMiddleInCorner_Concrete_8x2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeMiddleInCorner_Concrete_8x2.Desc_QuarterPipeMiddleInCorner_Concrete_8x2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddleInCorner_Concrete_8x4.Recipe_QuarterPipeMiddleInCorner_Concrete_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeMiddleInCorner_Concrete_8x4.Desc_QuarterPipeMiddleInCorner_Concrete_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddleOutCorner_Concrete_4x1.Recipe_QuarterPipeMiddleOutCorner_Concrete_4x1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeMiddleOutCorner_Concrete_4x1.Desc_QuarterPipeMiddleOutCorner_Concrete_4x1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddleOutCorner_Concrete_4x2.Recipe_QuarterPipeMiddleOutCorner_Concrete_4x2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeMiddleOutCorner_Concrete_4x2.Desc_QuarterPipeMiddleOutCorner_Concrete_4x2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddleOutCorner_Concrete_4x4.Recipe_QuarterPipeMiddleOutCorner_Concrete_4x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeMiddleOutCorner_Concrete_4x4.Desc_QuarterPipeMiddleOutCorner_Concrete_4x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddle_Concrete_8x1.Recipe_QuarterPipeMiddle_Concrete_8x1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeMiddle_Concrete_8x1.Desc_QuarterPipeMiddle_Concrete_8x1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddle_Concrete_8x2.Recipe_QuarterPipeMiddle_Concrete_8x2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeMiddle_Concrete_8x2.Desc_QuarterPipeMiddle_Concrete_8x2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddle_Concrete_8x4.Recipe_QuarterPipeMiddle_Concrete_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeMiddle_Concrete_8x4.Desc_QuarterPipeMiddle_Concrete_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_DownCorner_Concrete_8x1.Recipe_Ramp_DownCorner_Concrete_8x1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Ramp_DownCorner_Concrete_8x1.Desc_Ramp_DownCorner_Concrete_8x1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_DownCorner_Concrete_8x2.Recipe_Ramp_DownCorner_Concrete_8x2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Ramp_DownCorner_Concrete_8x2.Desc_Ramp_DownCorner_Concrete_8x2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_DownCorner_Concrete_8x4.Recipe_Ramp_DownCorner_Concrete_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Ramp_DownCorner_Concrete_8x4.Desc_Ramp_DownCorner_Concrete_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_UpCorner_Concrete_8x1.Recipe_Ramp_UpCorner_Concrete_8x1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Ramp_UpCorner_Concrete_8x1.Desc_Ramp_UpCorner_Concrete_8x1_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_UpCorner_Concrete_8x2.Recipe_Ramp_UpCorner_Concrete_8x2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Ramp_UpCorner_Concrete_8x2.Desc_Ramp_UpCorner_Concrete_8x2_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_UpCorner_Concrete_8x4.Recipe_Ramp_UpCorner_Concrete_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 3
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Ramp_UpCorner_Concrete_8x4.Desc_Ramp_UpCorner_Concrete_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x1.Recipe_Wall_Concrete_8x1_C",
@@ -1685,14 +264,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4.Recipe_Wall_Concrete_8x4_C",
@@ -1726,14 +302,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_FlipTris_8x1.Recipe_Wall_Concrete_FlipTris_8x1_C",
@@ -1767,14 +340,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_FlipTris_8x2.Recipe_Wall_Concrete_FlipTris_8x2_C",
@@ -1808,14 +378,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_FlipTris_8x4.Recipe_Wall_Concrete_FlipTris_8x4_C",
@@ -1849,14 +416,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_FlipTris_8x8.Recipe_Wall_Concrete_FlipTris_8x8_C",
@@ -1890,14 +454,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_Tris_8x1.Recipe_Wall_Concrete_Tris_8x1_C",
@@ -1931,14 +492,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_Tris_8x2.Recipe_Wall_Concrete_Tris_8x2_C",
@@ -1972,14 +530,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_Tris_8x4.Recipe_Wall_Concrete_Tris_8x4_C",
@@ -2013,14 +568,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_Tris_8x8.Recipe_Wall_Concrete_Tris_8x8_C",
@@ -2054,14 +606,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_CDoor_8x4.Recipe_Wall_Concrete_CDoor_8x4_C",
@@ -2095,14 +644,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_SDoor_8x4.Recipe_Wall_Concrete_SDoor_8x4_C",
@@ -2136,14 +682,1381 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Foundation_Concrete_8x1.Recipe_Foundation_Concrete_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Foundation_Concrete_8x1.Desc_Foundation_Concrete_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Foundation_Concrete_8x2.Recipe_Foundation_Concrete_8x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Foundation_Concrete_8x2.Desc_Foundation_Concrete_8x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Foundation_Concrete_8x4.Recipe_Foundation_Concrete_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Foundation_Concrete_8x4.Desc_Foundation_Concrete_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_Concrete_8x1.Recipe_Ramp_Concrete_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Ramp_Concrete_8x1.Desc_Ramp_Concrete_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_Concrete_8x2.Recipe_Ramp_Concrete_8x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Ramp_Concrete_8x2.Desc_Ramp_Concrete_8x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_Concrete_8x4.Recipe_Ramp_Concrete_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Ramp_Concrete_8x4.Desc_Ramp_Concrete_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_DCorner_Concrete_8x1.Recipe_InvertedRamp_DCorner_Concrete_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_DCorner_Concrete_8x1.Desc_InvertedRamp_DCorner_Concrete_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_DCorner_Concrete_8x2.Recipe_InvertedRamp_DCorner_Concrete_8x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_DCorner_Concrete_8x2.Desc_InvertedRamp_DCorner_Concrete_8x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_DCorner_Concrete_8x4.Recipe_InvertedRamp_DCorner_Concrete_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_DCorner_Concrete_8x4.Desc_InvertedRamp_DCorner_Concrete_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_UCorner_Concrete_8x1.Recipe_InvertedRamp_UCorner_Concrete_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_UCorner_Concrete_8x1.Desc_InvertedRamp_UCorner_Concrete_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_UCorner_Concrete_8x2.Recipe_InvertedRamp_UCorner_Concrete_8x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_UCorner_Concrete_8x2.Desc_InvertedRamp_UCorner_Concrete_8x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_UCorner_Concrete_8x4.Recipe_InvertedRamp_UCorner_Concrete_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_UCorner_Concrete_8x4.Desc_InvertedRamp_UCorner_Concrete_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_Concrete_8x1.Recipe_InvertedRamp_Concrete_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_Concrete_8x1.Desc_InvertedRamp_Concrete_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_Concrete_8x2.Recipe_InvertedRamp_Concrete_8x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_Concrete_8x2.Desc_InvertedRamp_Concrete_8x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_InvertedRamp_Concrete_8x4.Recipe_InvertedRamp_Concrete_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_InvertedRamp_Concrete_8x4.Desc_InvertedRamp_Concrete_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddle_Concrete_8x1.Recipe_QuarterPipeMiddle_Concrete_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeMiddle_Concrete_8x1.Desc_QuarterPipeMiddle_Concrete_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddle_Concrete_8x2.Recipe_QuarterPipeMiddle_Concrete_8x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeMiddle_Concrete_8x2.Desc_QuarterPipeMiddle_Concrete_8x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddle_Concrete_8x4.Recipe_QuarterPipeMiddle_Concrete_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeMiddle_Concrete_8x4.Desc_QuarterPipeMiddle_Concrete_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_DownQuarterPipe_Concrete_8x4.Recipe_DownQuarterPipe_Concrete_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_DownQuarterPipe_Concrete_8x4.Desc_DownQuarterPipe_Concrete_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_DownQuarterPipe_ConcreteInCorner_8x4.Recipe_DownQuarterPipe_ConcreteInCorner_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_DownQuarterPipeInCorner_Concrete_8x4.Desc_DownQuarterPipeInCorner_Concrete_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_DownQuarterPipe_ConcreteOutCorner_8x4.Recipe_DownQuarterPipe_ConcreteOutCorner_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_DownQuarterPipeOutCorner_Concrete_8x4.Desc_DownQuarterPipeOutCorner_Concrete_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipe_Concrete_8x4.Recipe_QuarterPipe_Concrete_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipe_Concrete_8x4.Desc_QuarterPipe_Concrete_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeInCorner_Concrete_8x4.Recipe_QuarterPipeInCorner_Concrete_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeInCorner_Concrete_8x4.Desc_QuarterPipeInCorner_Concrete_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeOutCorner_Concrete_8x4.Recipe_QuarterPipeOutCorner_Concrete_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeOutCorner_Concrete_8x4.Desc_QuarterPipeOutCorner_Concrete_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddleInCorner_Concrete_8x1.Recipe_QuarterPipeMiddleInCorner_Concrete_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeMiddleInCorner_Concrete_8x1.Desc_QuarterPipeMiddleInCorner_Concrete_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddleInCorner_Concrete_8x2.Recipe_QuarterPipeMiddleInCorner_Concrete_8x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeMiddleInCorner_Concrete_8x2.Desc_QuarterPipeMiddleInCorner_Concrete_8x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddleInCorner_Concrete_8x4.Recipe_QuarterPipeMiddleInCorner_Concrete_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeMiddleInCorner_Concrete_8x4.Desc_QuarterPipeMiddleInCorner_Concrete_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddleOutCorner_Concrete_4x1.Recipe_QuarterPipeMiddleOutCorner_Concrete_4x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeMiddleOutCorner_Concrete_4x1.Desc_QuarterPipeMiddleOutCorner_Concrete_4x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddleOutCorner_Concrete_4x2.Recipe_QuarterPipeMiddleOutCorner_Concrete_4x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeMiddleOutCorner_Concrete_4x2.Desc_QuarterPipeMiddleOutCorner_Concrete_4x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_QuarterPipeMiddleOutCorner_Concrete_4x4.Recipe_QuarterPipeMiddleOutCorner_Concrete_4x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_QuarterPipeMiddleOutCorner_Concrete_4x4.Desc_QuarterPipeMiddleOutCorner_Concrete_4x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_DownCorner_Concrete_8x1.Recipe_Ramp_DownCorner_Concrete_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Ramp_DownCorner_Concrete_8x1.Desc_Ramp_DownCorner_Concrete_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_DownCorner_Concrete_8x2.Recipe_Ramp_DownCorner_Concrete_8x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Ramp_DownCorner_Concrete_8x2.Desc_Ramp_DownCorner_Concrete_8x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_DownCorner_Concrete_8x4.Recipe_Ramp_DownCorner_Concrete_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Ramp_DownCorner_Concrete_8x4.Desc_Ramp_DownCorner_Concrete_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_UpCorner_Concrete_8x1.Recipe_Ramp_UpCorner_Concrete_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Ramp_UpCorner_Concrete_8x1.Desc_Ramp_UpCorner_Concrete_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_UpCorner_Concrete_8x2.Recipe_Ramp_UpCorner_Concrete_8x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Ramp_UpCorner_Concrete_8x2.Desc_Ramp_UpCorner_Concrete_8x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_Ramp_UpCorner_Concrete_8x4.Recipe_Ramp_UpCorner_Concrete_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_Ramp_UpCorner_Concrete_8x4.Desc_Ramp_UpCorner_Concrete_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_RampDouble_Concrete_8x1.Recipe_RampDouble_Concrete_8x1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_RampDouble_Concrete_8x1.Desc_RampDouble_Concrete_8x1_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_RampDouble_Concrete_8x2.Recipe_RampDouble_Concrete_8x2_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_RampDouble_Concrete_8x2.Desc_RampDouble_Concrete_8x2_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Recipe_RampDouble_Concrete_8x4.Recipe_RampDouble_Concrete_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 3
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Foundation/ConcreteSet/Desc_RampDouble_Concrete_8x4.Desc_RampDouble_Concrete_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_Gate_8x4.Recipe_Wall_Concrete_Gate_8x4_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_Gate_8x4.Desc_Wall_Concrete_Gate_8x4_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_Angular_8x4.Recipe_Wall_Concrete_Angular_8x4_C",
@@ -2177,14 +2090,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_Angular_8x8.Recipe_Wall_Concrete_Angular_8x8_C",
@@ -2218,14 +2128,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_Corner_2.Recipe_Wall_Concrete_8x4_Corner_2_C",
@@ -2249,14 +2156,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_Corner_01.Recipe_Wall_Concrete_8x4_Corner_01_C",
@@ -2290,14 +2194,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x8_Corner_2.Recipe_Wall_Concrete_8x8_Corner_2_C",
@@ -2321,14 +2222,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x8_Corner_01.Recipe_Wall_Concrete_8x8_Corner_01_C",
@@ -2362,14 +2260,125 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_ConveyorHole_01.Recipe_Wall_Concrete_8x4_ConveyorHole_01_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x4_ConveyorHole_01.Desc_Wall_Concrete_8x4_ConveyorHole_01_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_ConveyorHole_02.Recipe_Wall_Concrete_8x4_ConveyorHole_02_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x4_ConveyorHole_02.Desc_Wall_Concrete_8x4_ConveyorHole_02_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_ConveyorHole_03.Recipe_Wall_Concrete_8x4_ConveyorHole_03_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 1
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 2
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
+					"time": 1,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x4_ConveyorHole_03.Desc_Wall_Concrete_8x4_ConveyorHole_03_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": []
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_Window_01.Recipe_Wall_Concrete_8x4_Window_01_C",
@@ -2408,14 +2417,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_Window_02.Recipe_Wall_Concrete_8x4_Window_02_C",
@@ -2454,14 +2460,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_Window_03.Recipe_Wall_Concrete_8x4_Window_03_C",
@@ -2500,14 +2503,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_Window_04.Recipe_Wall_Concrete_8x4_Window_04_C",
@@ -2546,209 +2546,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_ConveyorHole_01.Recipe_Wall_Concrete_8x4_ConveyorHole_01_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x4_ConveyorHole_01.Desc_Wall_Concrete_8x4_ConveyorHole_01_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_ConveyorHole_02.Recipe_Wall_Concrete_8x4_ConveyorHole_02_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x4_ConveyorHole_02.Desc_Wall_Concrete_8x4_ConveyorHole_02_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_8x4_ConveyorHole_03.Recipe_Wall_Concrete_8x4_ConveyorHole_03_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_8x4_ConveyorHole_03.Desc_Wall_Concrete_8x4_ConveyorHole_03_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_Gate_8x4.Recipe_Wall_Concrete_Gate_8x4_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 1
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 1,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Desc_Wall_Concrete_Gate_8x4.Desc_Wall_Concrete_Gate_8x4_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/FBFS/LimeSteel/Recipe_Alternative_LimeSteel_2.Recipe_Alternative_LimeSteel_2_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C",
-					"time": 6,
-					"amount": 2
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Powder/Desc_Limedust.Desc_Limedust_C",
-					"time": 6,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Mixture/Desc_Mixture_CoalLime.Desc_Mixture_CoalLime_C",
-					"time": 6,
-					"amount": 3
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
-			]
-		},
-		{
-			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Sorter/Recipe_Sorter_T3_Crotonium.Recipe_Sorter_T3_Crotonium_C",
@@ -2788,13 +2590,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Blender/Recipe_Blender_Aluminiumoxid.Recipe_Blender_Aluminiumoxid_C",
@@ -2829,13 +2630,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Sorter/Recipe_Sorter_T3_Stritarit.Recipe_Sorter_T3_Stritarit_C",
@@ -2875,9 +2675,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_2.Schematic_Trees_Cryolit_3_2_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedLimeDust/Alternative_CrushedLimeDust.Alternative_CrushedLimeDust_C",
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_1.Schematic_SF+_8_1_C"
 			]
 		}
 	],

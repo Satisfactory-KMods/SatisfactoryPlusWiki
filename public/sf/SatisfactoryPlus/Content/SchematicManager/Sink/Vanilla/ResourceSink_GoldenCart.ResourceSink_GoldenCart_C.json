@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_GoldenCart.ResourceSink_GoldenCart_C",
 	"name": "Golden FICSIT Factory Cart™",
 	"description": "How did you even figure out how to get this? Whatever... You deserve it. ",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+			"amount": 50
+		}
+	],
 	"category": "FICSIT Specials",
 	"subCategory": "Vehicles",
 	"type": 7,
@@ -15,7 +20,6 @@
 		"/Game/FactoryGame/Recipes/Vehicle/Recipe_GoldenCart.Recipe_GoldenCart_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

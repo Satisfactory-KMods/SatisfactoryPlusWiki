@@ -2,7 +2,16 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Cryolite/Schematic_Trees_Cryolit_3_3.Schematic_Trees_Cryolit_3_3_C",
 	"name": "Diamond Extraction",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_Salt.Desc_Salt_C",
+			"amount": 3000
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Powder/Desc_Sand.Desc_Sand_C",
+			"amount": 3000
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,
@@ -15,7 +24,6 @@
 		"/SatisfactoryPlus/Content/Recipes/Sorter/Recipe_Sorter_T2_Diamond.Recipe_Sorter_T2_Diamond_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

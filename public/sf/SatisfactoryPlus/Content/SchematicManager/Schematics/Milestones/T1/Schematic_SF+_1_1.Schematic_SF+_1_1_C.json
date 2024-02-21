@@ -2,7 +2,20 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_1.Schematic_SF+_1_1_C",
 	"name": "Better Conveyors",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Belt/Desc_BeltItemMk1.Desc_BeltItemMk1_C",
+			"amount": 50
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+			"amount": 100
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 200
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 3,
@@ -17,7 +30,6 @@
 		"/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorPoleStackable.Recipe_ConveyorPoleStackable_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

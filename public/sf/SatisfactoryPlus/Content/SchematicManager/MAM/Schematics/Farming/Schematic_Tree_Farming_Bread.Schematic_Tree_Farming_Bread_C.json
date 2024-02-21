@@ -2,7 +2,16 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Bread.Schematic_Tree_Farming_Bread_C",
 	"name": "Bread",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/FicsitFarming/Resources/Crops/Wheat/Desc_FF_Crop_Wheat.Desc_FF_Crop_Wheat_C",
+			"amount": 500
+		},
+		{
+			"item": "/FicsitFarming/Resources/Crops/Bananas/Desc_FF_Crop_Banana.Desc_FF_Crop_Banana_C",
+			"amount": 500
+		}
+	],
 	"category": "",
 	"subCategory": "Walls",
 	"type": 6,
@@ -16,7 +25,6 @@
 		"/FicsitFarming/Recipes/Food/Recipe_FF_Cooked_Bread_Banana.Recipe_FF_Cooked_Bread_Banana_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

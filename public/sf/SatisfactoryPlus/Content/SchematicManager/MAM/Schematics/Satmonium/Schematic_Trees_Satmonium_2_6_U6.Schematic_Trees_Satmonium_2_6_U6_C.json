@@ -2,7 +2,24 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_2_6_U6.Schematic_Trees_Satmonium_2_6_U6_C",
 	"name": "Geothermal Generator",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C",
+			"amount": 50
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_SteelRod.Desc_SteelRod_C",
+			"amount": 500
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+			"amount": 500
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C",
+			"amount": 200
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,
@@ -17,7 +34,6 @@
 		"/Game/FactoryGame/Recipes/Buildings/Recipe_GeneratorGeoThermal.Recipe_GeneratorGeoThermal_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

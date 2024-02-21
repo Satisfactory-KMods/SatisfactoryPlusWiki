@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Packager/Recipe_PackagedAlumina.Recipe_PackagedAlumina_C",
@@ -34,15 +35,13 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1_0.Schematic_SF+_7_1_0_C"
-			]
+			"schematics": []
 		}
 	],
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Packager/Recipe_UnpackageAlumina.Recipe_UnpackageAlumina_C",
@@ -66,10 +65,7 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1.Schematic_SF+_7_1_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_1_0.Schematic_SF+_7_1_0_C"
-			]
+			"schematics": []
 		}
 	],
 	"dataType": "informations"

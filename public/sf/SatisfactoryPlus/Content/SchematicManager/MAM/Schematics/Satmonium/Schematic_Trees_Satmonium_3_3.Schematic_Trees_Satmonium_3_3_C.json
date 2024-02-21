@@ -2,7 +2,16 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_3.Schematic_Trees_Satmonium_3_3_C",
 	"name": "A.I Limiter",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_CateriumRod.Desc_CateriumRod_C",
+			"amount": 500
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
+			"amount": 1000
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,
@@ -17,7 +26,6 @@
 		"/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CateriumSheet.Recipe_Constructor_CateriumSheet_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

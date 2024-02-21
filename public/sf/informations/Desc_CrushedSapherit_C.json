@@ -11,6 +11,32 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Workbench/Recipe_Handcrafter_Sapherit.Recipe_Handcrafter_Sapherit_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Ressources/Raw/Nodes/Sapherit/Res_SapheritOre.Res_SapheritOre_C",
+					"time": 3,
+					"amount": 3
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedSapherit.Desc_CrushedSapherit_C",
+					"time": 3,
+					"amount": 3
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Crusher/Recipe_Crusher_Sapherit.Recipe_Crusher_Sapherit_C",
@@ -34,44 +60,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3_0.SF+_Schematic_Tutorial3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Saperite.Alternative_MixedCrushing_Saperite_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_5.Schematic_SF+_8_5_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Workbench/Recipe_Handcrafter_Sapherit.Recipe_Handcrafter_Sapherit_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Ressources/Raw/Nodes/Sapherit/Res_SapheritOre.Res_SapheritOre_C",
-					"time": 3,
-					"amount": 3
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Crushed/Desc_CrushedSapherit.Desc_CrushedSapherit_C",
-					"time": 3,
-					"amount": 3
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3_0.SF+_Schematic_Tutorial3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Saperite.Alternative_MixedCrushing_Saperite_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_5.Schematic_SF+_8_5_C"
-			]
-		},
-		{
-			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Recipe_Alternative_MixC_Saperite.Recipe_Alternative_MixC_Saperite_C",
@@ -101,15 +94,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3_0.SF+_Schematic_Tutorial3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Saperite.Alternative_MixedCrushing_Saperite_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_5.Schematic_SF+_8_5_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Saperite.Alternative_MixedCrushing_Saperite_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Collider/Recipe_Slug_Colider_CrushedSaph.Recipe_Slug_Colider_CrushedSaph_C",
@@ -134,15 +124,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3_0.SF+_Schematic_Tutorial3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Saperite.Alternative_MixedCrushing_Saperite_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_5.Schematic_SF+_8_5_C"
 			]
 		},
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 7,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Modules/Crusher/Build_Module_Crusher.Build_Module_Crusher_C",
@@ -177,9 +164,9 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3_0.SF+_Schematic_Tutorial3_0_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3_0.SF+_Schematic_Tutorial3_0_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Saperite.Alternative_MixedCrushing_Saperite_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_5.Schematic_SF+_8_5_C"
 			]
@@ -188,6 +175,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Dirty_CopperIngot.Recipe_Smelter_Dirty_CopperIngot_C",
@@ -207,15 +195,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3_0.SF+_Schematic_Tutorial3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Saperite.Alternative_MixedCrushing_Saperite_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_5.Schematic_SF+_8_5_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Sorter/Recipe_Sorter_T1_Sapherit.Recipe_Sorter_T1_Sapherit_C",
@@ -244,16 +229,11 @@
 					"amount": 2
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3_0.SF+_Schematic_Tutorial3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Saperite.Alternative_MixedCrushing_Saperite_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_5.Schematic_SF+_8_5_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Sorter/PureSortedCopper/Recipe_Alternative_PureSortedCopper.Recipe_Alternative_PureSortedCopper_C",
@@ -283,15 +263,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3_0.SF+_Schematic_Tutorial3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Saperite.Alternative_MixedCrushing_Saperite_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_5.Schematic_SF+_8_5_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Sorter/PureSortedCopper/Alternative_PureSortedCopper.Alternative_PureSortedCopper_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Sorter/Recipe_Sorter_T2_Sapherit.Recipe_Sorter_T2_Sapherit_C",
@@ -331,11 +308,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3_0.SF+_Schematic_Tutorial3_0_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial1_5.SF+_Schematic_Tutorial1_5_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/MixedCrushing/Alternative_MixedCrushing_Saperite.Alternative_MixedCrushing_Saperite_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_5.Schematic_SF+_8_5_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_2.Schematic_SF+_6_2_C"
 			]
 		}
 	],

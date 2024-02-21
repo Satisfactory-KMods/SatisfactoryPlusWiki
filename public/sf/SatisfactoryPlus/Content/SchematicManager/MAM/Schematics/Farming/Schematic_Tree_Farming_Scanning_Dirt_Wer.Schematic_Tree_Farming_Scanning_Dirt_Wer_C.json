@@ -2,7 +2,16 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Scanning_Dirt_Wer.Schematic_Tree_Farming_Scanning_Dirt_Wer_C",
 	"name": "Bog Earth",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/FicsitFarming/Resources/RawResources/Dirt/Desc_FF_Dirt_Wet.Desc_FF_Dirt_Wet_C",
+			"amount": 200
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+			"amount": 100
+		}
+	],
 	"category": "",
 	"subCategory": "Walls",
 	"type": 6,
@@ -16,7 +25,6 @@
 	],
 	"recipeUnlocks": [],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_TinPlates.Recipe_Constructor_TinPlates_C",
@@ -30,12 +31,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedTin/Alternative_CastedTinParts.Alternative_CastedTinParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedTin/Recipe_Alternative_CastedTinPlates.Recipe_Alternative_CastedTinPlates_C",
@@ -65,7 +66,6 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedTin/Alternative_CastedTinParts.Alternative_CastedTinParts_C"
 			]
 		}
@@ -73,6 +73,157 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/Crusher/Recipe_Crusher.Recipe_Crusher_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
+					"time": 1,
+					"amount": 15
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 10
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/Crusher/BuildDesc_Crusher.BuildDesc_Crusher_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_ModularMiner.Recipe_ModularMiner_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 20
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/ModularExtractor/Desc/BuildDesc_ModularMiner.BuildDesc_ModularMiner_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial4.SF+_Schematic_Tutorial4_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_TinSheet.Recipe_Constructor_TinSheet_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
+					"time": 6,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_TinSheet.Desc_TinSheet_C",
+					"time": 6,
+					"amount": 3
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/BuildGun/Recipe_SFP_WindTurbineMk1.Recipe_SFP_WindTurbineMk1_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+					"time": 10,
+					"amount": 10
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+					"time": 10,
+					"amount": 15
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
+					"time": 10,
+					"amount": 20
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 10,
+					"amount": 50
+				}
+			],
+			"output": [
+				{
+					"item": "/RefinedPower/Buildables/Factory/WindTurbine_Mk1/Desc_WindTurbine_Mk1.Desc_WindTurbine_Mk1_C",
+					"time": 10,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial5.SF+_Schematic_Tutorial5_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/AirCollector/Recipe_AirCollector.Recipe_AirCollector_C",
@@ -117,12 +268,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedTin/Alternative_CastedTinParts.Alternative_CastedTinParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_3.Schematic_SF+_3_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/Cleaner/Recipe_Cleaner_2.Recipe_Cleaner_2_C",
@@ -162,12 +313,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedTin/Alternative_CastedTinParts.Alternative_CastedTinParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/BioWaterExtractor/Recipe_BioWaterExtractor_SF+.Recipe_BioWaterExtractor_SF+_C",
@@ -211,163 +362,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedTin/Alternative_CastedTinParts.Alternative_CastedTinParts_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/KLib/Assets/Buildings/Crusher/Recipe_Crusher.Recipe_Crusher_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_IronWire.Desc_IronWire_C",
-					"time": 1,
-					"amount": 15
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 10
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Buildings/Crusher/BuildDesc_Crusher.BuildDesc_Crusher_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedTin/Alternative_CastedTinParts.Alternative_CastedTinParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_ModularMiner.Recipe_ModularMiner_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 20
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Buildings/ModularExtractor/Desc/BuildDesc_ModularMiner.BuildDesc_ModularMiner_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedTin/Alternative_CastedTinParts.Alternative_CastedTinParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_TinSheet.Recipe_Constructor_TinSheet_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
-					"time": 6,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_TinSheet.Desc_TinSheet_C",
-					"time": 6,
-					"amount": 3
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedTin/Alternative_CastedTinParts.Alternative_CastedTinParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/BuildGun/Recipe_SFP_WindTurbineMk1.Recipe_SFP_WindTurbineMk1_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
-					"time": 10,
-					"amount": 10
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
-					"time": 10,
-					"amount": 15
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_TinPlates.Desc_TinPlates_C",
-					"time": 10,
-					"amount": 20
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 10,
-					"amount": 50
-				}
-			],
-			"output": [
-				{
-					"item": "/RefinedPower/Buildables/Factory/WindTurbine_Mk1/Desc_WindTurbine_Mk1.Desc_WindTurbine_Mk1_C",
-					"time": 10,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedTin/Alternative_CastedTinParts.Alternative_CastedTinParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_Mam.Recipe_Mam_C",
@@ -407,12 +406,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedTin/Alternative_CastedTinParts.Alternative_CastedTinParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T1/Schematic_SF+_1_4.Schematic_SF+_1_4_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/Game/FactoryGame/Recipes/Equipment/Recipe_XenoBasher.Recipe_XenoBasher_C",
@@ -452,12 +451,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedTin/Alternative_CastedTinParts.Alternative_CastedTinParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_5.Schematic_SF+_3_5_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Blender/Recipe_Blender_FusedFrame.Recipe_Blender_FusedFrame_C",
@@ -492,8 +491,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Tutorial/SF+_Schematic_Tutorial3.SF+_Schematic_Tutorial3_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedTin/Alternative_CastedTinParts.Alternative_CastedTinParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T7/Schematic_SF+_7_4.Schematic_SF+_7_4_C"
 			]
 		}
 	],

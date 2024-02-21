@@ -7,10 +7,11 @@
 	"isHatcheryModul": false,
 	"buildingPath": "",
 	"path": "/KLib/Assets/Parts/Production/TimeCrystal/Desc_TimeC_StabilizedTimeCrystal.Desc_TimeC_StabilizedTimeCrystal_C",
-	"name": "Stabilized Quantum Crystal",
+	"name": "Poled Quantum Crystal",
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Recipes/Recipe_Time_Stabilizer.Recipe_Time_Stabilizer_C",
@@ -42,6 +43,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Recipes/Recipe_SolidDrive_MK_1.Recipe_SolidDrive_MK_1_C",
@@ -66,11 +68,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Stabilizer.Schematic_Trees_TimeCrystak_Stabilizer_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_1.Schematic_Trees_TimeCrystak_ItemStorage_1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Recipes/Recipe_Time_CPU.Recipe_Time_CPU_C",
@@ -105,11 +108,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Stabilizer.Schematic_Trees_TimeCrystak_Stabilizer_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_ItemStorage_6.Schematic_Trees_TimeCrystak_ItemStorage_6_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Recipes/Recipe_Time_Cable.Recipe_Time_Cable_C",
@@ -134,11 +138,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Stabilizer.Schematic_Trees_TimeCrystak_Stabilizer_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_Core.Recipe_CS_Core_C",
@@ -178,11 +183,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Stabilizer.Schematic_Trees_TimeCrystak_Stabilizer_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_PoleStand.Recipe_CS_PoleStand_C",
@@ -222,11 +228,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Stabilizer.Schematic_Trees_TimeCrystak_Stabilizer_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_Cs_PoleWall.Recipe_Cs_PoleWall_C",
@@ -261,11 +268,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Stabilizer.Schematic_Trees_TimeCrystak_Stabilizer_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_PoleWallDouble.Recipe_CS_PoleWallDouble_C",
@@ -300,11 +308,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Stabilizer.Schematic_Trees_TimeCrystak_Stabilizer_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_NetworkStorage_Mk1.Recipe_NetworkStorage_Mk1_C",
@@ -349,11 +358,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Stabilizer.Schematic_Trees_TimeCrystak_Stabilizer_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_RAMModuleMk1_Input.Recipe_CS_RAMModuleMk1_Input_C",
@@ -398,11 +408,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Stabilizer.Schematic_Trees_TimeCrystak_Stabilizer_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/CentralStorage/Recipes/Recipe_CS_RAMModuleMk1_Output.Recipe_CS_RAMModuleMk1_Output_C",
@@ -447,11 +458,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Stabilizer.Schematic_Trees_TimeCrystak_Stabilizer_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Researches.Schematic_Trees_TimeCrystak_Researches_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_Lift_10.Recipe_Manu_Lift_10_C",
@@ -486,7 +498,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/TimeCrystal/Schematic_Trees_TimeCrystak_Stabilizer.Schematic_Trees_TimeCrystak_Stabilizer_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T8/Schematic_SF+_8_7.Schematic_SF+_8_7_C"
 			]
 		}
 	],

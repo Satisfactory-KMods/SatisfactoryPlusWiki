@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Buildable/Building/Wall/ConcreteWallSet/Recipe_Wall_Concrete_Tris_8x2.Recipe_Wall_Concrete_Tris_8x2_C",
@@ -44,14 +45,7 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer/ResourceSink_Customizer_ConcreteWallMaterial.ResourceSink_Customizer_ConcreteWallMaterial_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_Diagonal_Up_WallSet.ResourceSink_Diagonal_Up_WallSet_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/Customizer_Background/CBG_Concrete_Walls_DiagonalUp.CBG_Concrete_Walls_DiagonalUp_C",
-				"/Game/FactoryGame/Schematics/ResourceSink/Customizer/ResourceSink_Customizer_ConcreteWallMaterial.ResourceSink_Customizer_ConcreteWallMaterial_C",
-				"/Game/FactoryGame/Schematics/ResourceSink/ResourceSink_Diagonal_Up_WallSet.ResourceSink_Diagonal_Up_WallSet_C",
-				"/Game/FactoryGame/Schematics/ResourceSink/Customizer_Background/CBG_Concrete_Walls_DiagonalUp.CBG_Concrete_Walls_DiagonalUp_C"
-			]
+			"schematics": []
 		}
 	],
 	"produced": [],

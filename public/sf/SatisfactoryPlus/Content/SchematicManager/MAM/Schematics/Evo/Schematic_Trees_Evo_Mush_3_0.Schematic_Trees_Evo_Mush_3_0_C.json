@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Evo/Schematic_Trees_Evo_Mush_3_0.Schematic_Trees_Evo_Mush_3_0_C",
 	"name": "Mycelia",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Mycelia.Desc_Mycelia_C",
+			"amount": 200
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,
@@ -16,9 +21,8 @@
 		"/SatisfactoryPlus/Content/Recipes/Weavingmachine/Recipe_Weavingmachine_Fabric.Recipe_Weavingmachine_Fabric_C",
 		"/SatisfactoryPlus/Content/Recipes/Weavingmachine/Recipe_Weavingmachine_Fabric_Cotten.Recipe_Weavingmachine_Fabric_Cotten_C"
 	],
-	"handSlots": 5,
-	"subSchematics": [],
+	"handSlots": 0,
 	"cleanerDesc": [],
-	"inventorySlots": 0,
+	"inventorySlots": 5,
 	"dataType": "schematic"
 }

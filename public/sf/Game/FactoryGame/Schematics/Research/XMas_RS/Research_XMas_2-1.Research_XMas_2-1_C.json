@@ -2,7 +2,16 @@
 	"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_2-1.Research_XMas_2-1_C",
 	"name": "A friend",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_CandyCane.Desc_CandyCane_C",
+			"amount": 50
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBow.Desc_XmasBow_C",
+			"amount": 50
+		}
+	],
 	"category": "Organisation",
 	"subCategory": "",
 	"type": 6,
@@ -16,7 +25,6 @@
 		"/Game/FactoryGame/Events/Christmas/Parts/Recipe_Snow.Recipe_Snow_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

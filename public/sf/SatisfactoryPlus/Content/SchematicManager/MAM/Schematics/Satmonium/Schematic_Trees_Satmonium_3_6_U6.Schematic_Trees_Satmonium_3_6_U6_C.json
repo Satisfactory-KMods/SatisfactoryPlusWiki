@@ -2,7 +2,24 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Satmonium/Schematic_Trees_Satmonium_3_6_U6.Schematic_Trees_Satmonium_3_6_U6_C",
 	"name": "Supercomputer",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C",
+			"amount": 400
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C",
+			"amount": 200
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_BrassPlates.Desc_BrassPlates_C",
+			"amount": 200
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Wires/Desc_SolderWire.Desc_SolderWire_C",
+			"amount": 2500
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,
@@ -15,7 +32,6 @@
 		"/SatisfactoryPlus/Content/Recipes/Manu/Recipe_Manu_Computer_Super.Recipe_Manu_Computer_Super_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

@@ -2,7 +2,24 @@
 	"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_3-1.Research_XMas_3-1_C",
 	"name": "FICSMAS Lights",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall1.Desc_XmasBall1_C",
+			"amount": 100
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall2.Desc_XmasBall2_C",
+			"amount": 100
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall3.Desc_XmasBall3_C",
+			"amount": 50
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall4.Desc_XmasBall4_C",
+			"amount": 50
+		}
+	],
 	"category": "Organisation",
 	"subCategory": "",
 	"type": 6,
@@ -16,7 +33,6 @@
 		"/Game/FactoryGame/Events/Christmas/Parts/Recipe_XmasBallCluster.Recipe_XmasBallCluster_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

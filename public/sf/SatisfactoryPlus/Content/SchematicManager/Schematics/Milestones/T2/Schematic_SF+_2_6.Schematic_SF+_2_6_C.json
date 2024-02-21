@@ -2,7 +2,28 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_6.Schematic_SF+_2_6_C",
 	"name": "FICSIT Blueprints",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Rods/Desc_TinRod.Desc_TinRod_C",
+			"amount": 200
+		},
+		{
+			"item": "/KLib/Assets/Parts/Production/Metal/Sheets/Desc_IronSheet.Desc_IronSheet_C",
+			"amount": 150
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+			"amount": 150
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+			"amount": 500
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 500
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 3,
@@ -15,7 +36,6 @@
 		"/KBlueprintDesignPlus/Recipe_BlueprintDesignerMk2.Recipe_BlueprintDesignerMk2_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

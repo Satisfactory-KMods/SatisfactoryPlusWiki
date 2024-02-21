@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": false,
+			"isAlternate": false,
 			"type": 5,
 			"buildingRecipe": false,
 			"productionElement": "/KLib/Assets/Buildings/Cleaner/Build_Cleaner2.Build_Cleaner2_C",
@@ -48,6 +49,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_SlagCement.Recipe_Assamble_SlagCement_C",
@@ -72,12 +74,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_4.Schematic_SF+_2_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_4.Schematic_SF+_2_4_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedSlag/Recipe_Alternative_CrushedSlag.Recipe_Alternative_CrushedSlag_C",
@@ -97,8 +99,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_4.Schematic_SF+_2_4_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Crusher/CrushedSlag/Alternative_CrushedSlag.Alternative_CrushedSlag_C"
 			]
 		}
 	],

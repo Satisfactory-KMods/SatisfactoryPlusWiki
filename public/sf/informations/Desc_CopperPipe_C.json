@@ -11,31 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": false,
-			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CopperPipe.Recipe_Constructor_CopperPipe_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_CopperPlates.Desc_CopperPlates_C",
-					"time": 3,
-					"amount": 2
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
-					"time": 3,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Recipe_Alternative_CastedCopperPipes.Recipe_Alternative_CastedCopperPipes_C",
@@ -65,14 +41,124 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
 				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": false,
+			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_CopperPipe.Recipe_Constructor_CopperPipe_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Plates/Desc_CopperPlates.Desc_CopperPlates_C",
+					"time": 3,
+					"amount": 2
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
+					"time": 3,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
 			]
 		}
 	],
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_Module_Smelter.Recipe_Module_Smelter_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
+					"time": 1,
+					"amount": 10
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
+					"time": 1,
+					"amount": 15
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
+					"time": 1,
+					"amount": 200
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+					"time": 1,
+					"amount": 100
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/ModularExtractor/Desc/BuildDesc_Module_Smelter.BuildDesc_Module_Smelter_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_4.Schematic_SF+_2_4_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
+			"type": 0,
+			"buildingRecipe": true,
+			"productionElement": "/KLib/Assets/Buildings/FlexibleBlastFurnace/Recipe_FlexibleBlastFurnaceSmelter.Recipe_FlexibleBlastFurnaceSmelter_C",
+			"wasteProducer": "",
+			"input": [
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
+					"time": 1,
+					"amount": 5
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+					"time": 1,
+					"amount": 20
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
+					"time": 1,
+					"amount": 30
+				},
+				{
+					"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
+					"time": 1,
+					"amount": 20
+				},
+				{
+					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+					"time": 1,
+					"amount": 25
+				}
+			],
+			"output": [
+				{
+					"item": "/KLib/Assets/Buildings/FlexibleBlastFurnace/BuildDesc_FlexibleBlastFurnaceSmelter.BuildDesc_FlexibleBlastFurnaceSmelter_C",
+					"time": 1,
+					"amount": 1
+				}
+			],
+			"schematics": [
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_0.Schematic_SF+_3_0_C"
+			]
+		},
+		{
+			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_OilPump.Recipe_OilPump_C",
@@ -112,12 +198,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_0.Schematic_SF+_5_0_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_Pipeline.Recipe_Pipeline_C",
@@ -142,12 +228,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_WaterPump.Recipe_WaterPump_C",
@@ -187,12 +273,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Heaters/BiomassHeater/Recipe_RP_MP_BiomassHeater.Recipe_RP_MP_BiomassHeater_C",
@@ -227,12 +313,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Boilers/BoilerMk1/Recipe_RP_MP_BoilerMk1.Recipe_RP_MP_BoilerMk1_C",
@@ -272,12 +358,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/BioWaterExtractor/Recipe_BioWaterExtractor_SF+.Recipe_BioWaterExtractor_SF+_C",
@@ -321,13 +407,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelinePump.Recipe_PipelinePump_C",
@@ -361,13 +445,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_PipelineJunction_Cross.Recipe_PipelineJunction_Cross_C",
@@ -396,13 +478,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Coolers/Co2Cooler/Recipe_RP_MP_Co2Cooler.Recipe_RP_MP_Co2Cooler_C",
@@ -441,13 +521,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/RefinedPower/Buildables/Factory/ModularPower/MPBuildings/Coolers/SteamCooler/Recipe_RP_MP_SteamCooler.Recipe_RP_MP_SteamCooler_C",
@@ -486,98 +564,11 @@
 					"amount": 1
 				}
 			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
-			]
+			"schematics": []
 		},
 		{
 			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_Module_Smelter.Recipe_Module_Smelter_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
-					"time": 1,
-					"amount": 10
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
-					"time": 1,
-					"amount": 15
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
-					"time": 1,
-					"amount": 200
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
-					"time": 1,
-					"amount": 100
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Buildings/ModularExtractor/Desc/BuildDesc_Module_Smelter.BuildDesc_Module_Smelter_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
-			"type": 0,
-			"buildingRecipe": true,
-			"productionElement": "/KLib/Assets/Buildings/FlexibleBlastFurnace/Recipe_FlexibleBlastFurnaceSmelter.Recipe_FlexibleBlastFurnaceSmelter_C",
-			"wasteProducer": "",
-			"input": [
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Frames/Light/Desc_BronzeFrame.Desc_BronzeFrame_C",
-					"time": 1,
-					"amount": 5
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
-					"time": 1,
-					"amount": 20
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
-					"time": 1,
-					"amount": 30
-				},
-				{
-					"item": "/KLib/Assets/Parts/Production/Metal/Pipes/Desc_CopperPipe.Desc_CopperPipe_C",
-					"time": 1,
-					"amount": 20
-				},
-				{
-					"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
-					"time": 1,
-					"amount": 25
-				}
-			],
-			"output": [
-				{
-					"item": "/KLib/Assets/Buildings/FlexibleBlastFurnace/BuildDesc_FlexibleBlastFurnaceSmelter.BuildDesc_FlexibleBlastFurnaceSmelter_C",
-					"time": 1,
-					"amount": 1
-				}
-			],
-			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
-			]
-		},
-		{
-			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/FicsitFarming/Buildings/FarmingPlatform/Mk2/Recipe_FF_FarmingPlatformMk2.Recipe_FF_FarmingPlatformMk2_C",
@@ -607,12 +598,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/SatisfactoryPlus/Content/ModifyedBuildings/Composter/Recipe_FSF+Composter.Recipe_FSF+Composter_C",
@@ -647,12 +638,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_Composter.Schematic_Tree_Farming_Composter_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/FicsitFarming/Buildings/Plots/Modules/Irrigation/Recipe_FF_PlotMod_Irrigation.Recipe_FF_PlotMod_Irrigation_C",
@@ -682,12 +673,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_PlotModules.Schematic_Tree_Farming_PlotModules_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/SatisfactoryPlus/Content/BuildingRecipes/Slugs/Recipe_SlugHatchery_Mk1_Humidity.Recipe_SlugHatchery_Mk1_Humidity_C",
@@ -727,12 +718,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_3_1_NEW.Schematic_Trees_Slugs_3_1_NEW_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_Module_Energy.Recipe_Module_Energy_C",
@@ -772,12 +763,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Slugs/Schematic_Trees_Slugs_4_2_NEW.Schematic_Trees_Slugs_4_2_NEW_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/KLib/Assets/Buildings/ModularExtractor/Recipes/Recipe_Module_Fluid.Recipe_Module_Fluid_C",
@@ -812,12 +803,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Sulfur/Schematic_Trees_Sulfur_3_1.Schematic_Trees_Sulfur_3_1_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Buildings/Recipe_OreWascher.Recipe_OreWascher_C",
@@ -862,12 +853,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T6/Schematic_SF+_6_3.Schematic_SF+_6_3_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": true,
 			"productionElement": "/Game/FactoryGame/Recipes/Buildings/Recipe_Pipeline_NoIndicator.Recipe_Pipeline_NoIndicator_C",
@@ -892,8 +883,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_8.Schematic_SF+_2_8_C",
-				"/SatisfactoryPlus/Content/Recipes/Alternative/SAC/CastedCopperParts/Alternative_CastedCopperParts.Alternative_CastedCopperParts_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Sink/Vanilla/ResourceSink_NoIndicator_PipelineMK1.ResourceSink_NoIndicator_PipelineMK1_C"
 			]
 		}
 	],

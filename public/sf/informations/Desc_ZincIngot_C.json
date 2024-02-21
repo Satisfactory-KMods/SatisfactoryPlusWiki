@@ -11,6 +11,7 @@
 	"consumed": [
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Smelter/Recipe_Smelter_Sorted_ZincIngots.Recipe_Smelter_Sorted_ZincIngots_C",
@@ -31,11 +32,12 @@
 			],
 			"schematics": [
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/SoldifierAndCooler/Ingots/Recipe_SAC_Ingots_Zinc.Recipe_SAC_Ingots_Zinc_C",
@@ -65,7 +67,6 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C"
 			]
 		}
@@ -73,6 +74,7 @@
 	"produced": [
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Recipe_Alternative_GalvanizedSheet.Recipe_Alternative_GalvanizedSheet_C",
@@ -97,12 +99,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Assembler/galvanizedSheet/Alternative_GalvanizedSheet.Alternative_GalvanizedSheet_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_ZincPlates.Recipe_Constructor_ZincPlates_C",
@@ -123,11 +125,12 @@
 			],
 			"schematics": [
 				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": true,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Alternative/Foundery/DirtyBrass/Recipe_Alternative_DirtyBrass.Recipe_Alternative_DirtyBrass_C",
@@ -152,12 +155,12 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C"
+				"/SatisfactoryPlus/Content/Recipes/Alternative/Foundery/DirtyBrass/Alternative_DirtyBrass.Alternative_DirtyBrass_C"
 			]
 		},
 		{
 			"isRecipe": true,
+			"isAlternate": false,
 			"type": 0,
 			"buildingRecipe": false,
 			"productionElement": "/SatisfactoryPlus/Content/Recipes/Assamble/Recipe_Assamble_GasTank.Recipe_Assamble_GasTank_C",
@@ -182,8 +185,7 @@
 				}
 			],
 			"schematics": [
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T2/Schematic_SF+_2_2.Schematic_SF+_2_2_C",
-				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T3/Schematic_SF+_3_1.Schematic_SF+_3_1_C"
+				"/SatisfactoryPlus/Content/SchematicManager/Schematics/Milestones/T5/Schematic_SF+_5_4.Schematic_SF+_5_4_C"
 			]
 		}
 	],

@@ -2,7 +2,20 @@
 	"path": "/Game/FactoryGame/Schematics/Research/XMas_RS/Research_XMas_4.Research_XMas_4_C",
 	"name": "Giant FICSMAS Tree: Upgrade 3",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasStar.Desc_XmasStar_C",
+			"amount": 1
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasWreath.Desc_XmasWreath_C",
+			"amount": 200
+		},
+		{
+			"item": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBallCluster.Desc_XmasBallCluster_C",
+			"amount": 400
+		}
+	],
 	"category": "Organisation",
 	"subCategory": "",
 	"type": 6,
@@ -13,9 +26,6 @@
 	"scannerUnlocks": [],
 	"recipeUnlocks": [],
 	"handSlots": 0,
-	"subSchematics": [
-		"/Game/FactoryGame/Events/Christmas/Buildings/TreeDecor/Schematic_XMassTree_T3.Schematic_XMassTree_T3_C"
-	],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

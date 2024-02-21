@@ -2,7 +2,16 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Farming/Schematic_Tree_Farming_BasicPlots.Schematic_Tree_Farming_BasicPlots_C",
 	"name": "Basic Farming",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+			"amount": 500
+		},
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
+			"amount": 50
+		}
+	],
 	"category": "",
 	"subCategory": "Walls",
 	"type": 6,
@@ -18,7 +27,6 @@
 		"/SatisfactoryPlus/Content/Recipes/Constructor/Recipe_Constructor_SolidBiomassCapsuse.Recipe_Constructor_SolidBiomassCapsuse_C"
 	],
 	"handSlots": 0,
-	"subSchematics": [],
 	"cleanerDesc": [],
 	"inventorySlots": 0,
 	"dataType": "schematic"

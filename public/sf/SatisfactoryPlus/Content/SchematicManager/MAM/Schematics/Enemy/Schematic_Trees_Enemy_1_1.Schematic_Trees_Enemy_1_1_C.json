@@ -2,7 +2,12 @@
 	"path": "/SatisfactoryPlus/Content/SchematicManager/MAM/Schematics/Enemy/Schematic_Trees_Enemy_1_1.Schematic_Trees_Enemy_1_1_C",
 	"name": "Hog Research",
 	"description": "",
-	"cost": [],
+	"cost": [
+		{
+			"item": "/Game/FactoryGame/Resource/Parts/AnimalParts/Desc_HogParts.Desc_HogParts_C",
+			"amount": 10
+		}
+	],
 	"category": "",
 	"subCategory": "",
 	"type": 6,
@@ -14,9 +19,8 @@
 	"recipeUnlocks": [
 		"/Game/FactoryGame/Recipes/Constructor/Recipe_Protein_Hog.Recipe_Protein_Hog_C"
 	],
-	"handSlots": 2,
-	"subSchematics": [],
+	"handSlots": 0,
 	"cleanerDesc": [],
-	"inventorySlots": 0,
+	"inventorySlots": 2,
 	"dataType": "schematic"
 }
