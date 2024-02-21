@@ -4,7 +4,7 @@ import { eq, isNotNull } from 'drizzle-orm';
 import { unionAll } from 'drizzle-orm/pg-core';
 import { db } from '~/server/db/index';
 import { cleaner, cleanerByPass, dbSchema } from '../schema';
-import { viewCleanerElement } from './02.cleanerElement';
+import { viewCleanerWith } from './02.cleanerElement';
 
 const allItemsFromCleanerRecipes = db
 	.$with('uni')
@@ -21,16 +21,13 @@ const allItemsFromCleanerRecipes = db
 
 export const viewCleanerItemMapping = dbSchema.view('view_cleaner_item_mapping').as((db) => {
 	return db
-		.with(allItemsFromCleanerRecipes)
+		.with(allItemsFromCleanerRecipes, viewCleanerWith)
 		.select({
 			item: allItemsFromCleanerRecipes.item,
-			cleaners: pgAggJsonBuildObject(viewCleanerElement, { aggregate: true }).as('cleaners')
+			cleaners: pgAggJsonBuildObject(viewCleanerWith, { aggregate: true }).as('cleaners')
 		})
 		.from(allItemsFromCleanerRecipes)
-		.leftJoin(
-			viewCleanerElement,
-			eq(allItemsFromCleanerRecipes.cleaner, viewCleanerElement.path)
-		)
+		.leftJoin(viewCleanerWith, eq(allItemsFromCleanerRecipes.cleaner, viewCleanerWith.path))
 		.where(isNotNull(allItemsFromCleanerRecipes.item))
 		.groupBy(allItemsFromCleanerRecipes.item);
 });
