@@ -16,5 +16,5 @@ export default defineEventHandler((event) => {
 		});
 	}
 
-	return getInformationForBuilding(shortPath);
+	return getInformationForBuilding(shortPath) as Promise<BuildingDataResult>;
 });

@@ -21,26 +21,19 @@
 			useSpoiler: false
 		};
 	});
-
-	const navigation = computed(() => {
-		const navigation = [
-			{
-				label: 'Item Informations',
-				to: `/show/${params.id}/itemDescriptor/information`,
-				param: 'information'
-			}
-		];
-
-		return navigation;
-	});
 </script>
 
 <template>
 	<div class="flex flex-col gap-2">
 		<DataPageHeader v-bind="headerData" />
-		<UHorizontalNavigation
-			:links="navigation"
-			:active="navigation.findIndex((e) => e.param === params.page)"
-			class="border-b border-gray-200 dark:border-gray-800" />
+
+		<div class="flex flex-col gap-2 overflow-y-auto ps-0">
+			<DataRecipe
+				:key="result!.id"
+				no-divider
+				:schematics="result!.schematicUnlocks"
+				:data="result! as any"
+				class="flex-shrink-0" />
+		</div>
 	</div>
 </template>

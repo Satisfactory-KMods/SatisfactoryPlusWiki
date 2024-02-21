@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-	import type { SchematicSelect } from '~/server/db/pg';
 	import type { RecipeBundle } from '~/server/db/views';
 
 	const props = defineProps({
@@ -8,8 +7,12 @@
 			required: true
 		},
 		schematics: {
-			type: Array as PropType<SchematicSelect[]>,
+			type: Array as PropType<RecipeBundle['schematicUnlocks']>,
 			required: true
+		},
+		noDivider: {
+			type: Boolean as PropType<boolean>,
+			default: false
 		}
 	});
 
@@ -113,6 +116,6 @@
 			</div>
 		</div>
 
-		<UDivider class="my-3" />
+		<UDivider v-if="!$props.noDivider" class="my-3" />
 	</div>
 </template>

@@ -13,5 +13,5 @@ export default defineEventHandler((event) => {
 		});
 	}
 
-	return getInformationForRecipe(shortPath);
+	return getInformationForRecipe(shortPath) as Promise<RecipeDataResult>;
 });

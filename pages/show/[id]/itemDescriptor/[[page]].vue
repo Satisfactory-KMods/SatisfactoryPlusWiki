@@ -407,7 +407,6 @@
 				</template>
 			</UInput>
 			<div
-				ref="elProduced"
 				v-infinite-scroll="[onLoadMore, { distance: 500 }]"
 				class="flex flex-col gap-2 overflow-y-auto p-2 ps-0">
 				<DataItemCostSlot v-for="(data, idx) in show" :key="idx" :data="data" />
@@ -415,7 +414,7 @@
 		</template>
 
 		<template v-if="params.page === 'need-for-schematics'">
-			<div ref="elProduced" class="flex flex-col gap-2 overflow-y-auto p-2 ps-0">
+			<div class="flex flex-col gap-2 overflow-y-auto p-2 ps-0">
 				<div
 					v-for="schematic of schematics"
 					:key="String(schematic.id)"

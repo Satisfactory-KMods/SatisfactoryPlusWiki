@@ -155,18 +155,18 @@
 		</div>
 
 		<template v-if="params.page === 'recipes'">
-			<div ref="elProduced" class="flex flex-col gap-2 overflow-y-auto p-2 ps-0">
+			<div class="flex flex-col gap-2 overflow-y-auto p-2 ps-0">
 				<DataRecipe
 					v-for="recipe of result!.recipes"
 					:key="recipe.id"
-					:schematics="[result! as any]"
+					:schematics="recipe.schematicUnlocks"
 					:data="recipe"
 					class="flex-shrink-0" />
 			</div>
 		</template>
 
 		<template v-if="params.page === 'cleaner'">
-			<div ref="elProduced" class="flex flex-col gap-2 overflow-y-auto p-2 ps-0">
+			<div class="flex flex-col gap-2 overflow-y-auto p-2 ps-0">
 				<DataSchematicCleaner
 					v-for="cleaner of result!.cleaner"
 					:key="cleaner.id"
