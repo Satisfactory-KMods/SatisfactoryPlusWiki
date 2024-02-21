@@ -5,7 +5,7 @@ import { dbSchema, mapping } from '../schema';
 import { items } from '../schema/items';
 import { recipeUnlocks, scannerUnlocks, schematics, schematicsCosts } from '../schema/schematics';
 import { getCleanerViewColumns, viewCleanerElement } from './02.cleanerElement';
-import { getRecipeViewColumns, viewRecipeBundle } from './03.recipeBundle';
+import { getRecipeViewColumns, viewRecipeBundle } from './05.recipeBundle';
 
 export const viewSchematicInformations = dbSchema.view('view_schematic_informations').as((db) => {
 	const itemCostsSubQuery = db.$with('itemCostsSubQuery').as(

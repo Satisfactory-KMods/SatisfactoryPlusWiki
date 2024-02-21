@@ -6,12 +6,12 @@ import {
 	pgCoalesce
 } from '@kmods/drizzle-orm-utils';
 import { eq, getTableColumns } from 'drizzle-orm';
-import { producedIn } from '~/server/db/index';
+import { producedIn, schematics } from '~/server/db/index';
 import { db } from '../pg';
-import { dbSchema, mapping } from '../schema';
+import { dbSchema, mapping, recipeUnlocks } from '../schema';
+import { buildables } from '../schema/buildables';
 import { items } from '../schema/items';
-import { buildables } from './../schema/buildables';
-import { recipes, recipesInput, recipesOutput } from './../schema/recipes';
+import { recipes, recipesInput, recipesOutput } from '../schema/recipes';
 
 const producedInBuildings = db.$with('producedInBuildings').as(
 	db
@@ -85,22 +85,37 @@ const outputDirection = db.$with('outputDirection').as(
 		.groupBy(recipesOutput.recipePath)
 );
 
+const schematicUnlocks = db.$with('schematic').as(
+	db
+		.select({
+			recipePath: recipeUnlocks.recipePath,
+			values: pgAggJsonBuildObject(schematics, {
+				aggregate: true
+			}).as('values_s')
+		})
+		.from(recipeUnlocks)
+		.leftJoin(schematics, eq(recipeUnlocks.schematicPath, schematics.path))
+		.groupBy(recipeUnlocks.recipePath)
+);
+
 const query = {
 	...getTableColumns(recipes),
 	...getTableColumns(mapping),
 	input: pgCoalesce(inputDirection.values).as('input'),
 	output: pgCoalesce(outputDirection.values).as('output'),
-	producedIn: pgCoalesce(producedInBuildings.values).as('producedIn')
+	producedIn: pgCoalesce(producedInBuildings.values).as('producedIn'),
+	schematicUnlocks: pgCoalesce(schematicUnlocks.values).as('schematicUnlocks')
 };
 
 export const viewRecipeBundle = dbSchema.view('view_recipe_bundle').as((db) => {
 	return db
-		.with(inputDirection, outputDirection, producedInBuildings)
+		.with(inputDirection, outputDirection, producedInBuildings, schematicUnlocks)
 		.select(query)
 		.from(recipes)
 		.leftJoin(inputDirection, eq(recipes.path, inputDirection.recipePath))
 		.leftJoin(outputDirection, eq(recipes.path, outputDirection.recipePath))
 		.leftJoin(producedInBuildings, eq(recipes.path, producedInBuildings.recipePath))
+		.leftJoin(schematicUnlocks, eq(recipes.path, schematicUnlocks.recipePath))
 		.leftJoin(mapping, eq(recipes.path, mapping.elPath));
 });
 

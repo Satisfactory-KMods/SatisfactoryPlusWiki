@@ -1,12 +1,12 @@
 import { migrateViews } from '@kmods/drizzle-orm-utils';
 import * as mats from './mat';
 import { db } from './pg';
-import * as imports from './views';
+import * as views from './views';
 
 export function startMat() {
 	return migrateViews({
 		imports: {
-			...imports,
+			...views,
 			...mats
 		},
 		service: 'wiki',
