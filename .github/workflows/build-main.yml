@@ -12,6 +12,9 @@ env:
 
 jobs:
     prepare-and-build-app:
+        permissions:
+            packages: write
+            contents: write
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
@@ -93,8 +96,10 @@ jobs:
                       docker compose logs ${{ env.DOCKERNAME }}
 
             - name: 'Create Release'
+              env:
+                  GH_TOKEN: ${{ secrets.RELEASE }}
+                  GITHUB_TOKEN: ${{ secrets.RELEASE }}
+                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+                  HUSKY: 0
               run: |
-                  npm install -g semantic-release
-                  export GH_TOKEN=${{ secrets.PAT }}
-                  export GITHUB_TOKEN=${{ secrets.PAT }}
-                  HUSKY=0 pnpm semantic-release
+                  pnpm semantic-release
