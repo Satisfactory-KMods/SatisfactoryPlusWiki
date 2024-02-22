@@ -20,7 +20,7 @@
 </script>
 
 <template>
-	<div>
+	<div class="w-full">
 		<div v-if="!tree" class="grid grid-cols-3 gap-2">
 			<NuxtLink v-for="nav of navigation" :key="nav.to" :to="nav.to">
 				<UCard>

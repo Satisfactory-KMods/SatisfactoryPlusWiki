@@ -21,7 +21,7 @@
 </script>
 
 <template>
-	<div class="flex flex-col gap-2">
+	<div class="flex flex-col gap-2 w-full">
 		<UInput ref="inputRef" v-model="input" color="gray" variant="outline" placeholder="Search...">
 			<template #trailing>
 				<span class="text-xs text-gray-500 dark:text-gray-400">
