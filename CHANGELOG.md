@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.2](https://github.com/Satisfactory-KMods/SatisfactoryPlusWiki/compare/v1.0.1...v1.0.2) (2024-02-22)
+
+
+### Bug Fixes
+
+* fluids has displayed informations for modular miner ([2cb9ea4](https://github.com/Satisfactory-KMods/SatisfactoryPlusWiki/commit/2cb9ea482a072fc92ea7fa48e90bb2d226cad2f5))
+* some pages has not full width ([18c3b4d](https://github.com/Satisfactory-KMods/SatisfactoryPlusWiki/commit/18c3b4d70857ed02ab7197605012291b543a835b))
+
+
+### Refactors
+
+* navigration sticky and foother on bottom ([cb3aa5a](https://github.com/Satisfactory-KMods/SatisfactoryPlusWiki/commit/cb3aa5a8c690973b213cbc0375c45d426cd2aa40))
+
 ## [1.0.1](https://github.com/Satisfactory-KMods/SatisfactoryPlusWiki/compare/v1.0.0...v1.0.1) (2024-02-21)
 
 
