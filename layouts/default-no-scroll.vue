@@ -4,7 +4,7 @@
 
 <template>
 	<div class="flex h-screen w-screen flex-col overflow-hidden dark:bg-gray-900">
-		<div class="border py-2 dark:border-gray-800">
+		<div class="border bg-white py-2 dark:border-gray-800 dark:bg-gray-900">
 			<UContainer>
 				<div class="flex items-center gap-3 p-1">
 					<NuxtLink to="/" class="flex flex-1 items-center gap-2">
@@ -33,18 +33,19 @@
 				</div>
 			</UContainer>
 		</div>
-		<div class="flex-1 overflow-hidden">
-			<UContainer class="h-full">
-				<div class="grid h-full grid-cols-12 overflow-hidden">
-					<div class="col-span-3 overflow-y-auto border-e dark:border-gray-800">
+		<div class="flex-1 overflow-auto">
+			<UContainer class="flex min-h-full flex-col overflow-hidden">
+				<div class="grid h-full flex-1 grid-cols-12 overflow-hidden">
+					<aside class="sticky top-0 col-span-3 self-start">
 						<LayoutSidebar />
-					</div>
-					<div class="col-span-9 overflow-hidden p-2">
+					</aside>
+					<main
+						class="col-span-9 flex max-h-[calc(100vh-66px)] w-full overflow-hidden border-s p-2 dark:border-gray-800">
 						<slot />
-					</div>
+					</main>
 				</div>
 			</UContainer>
+			<LayoutFooter />
 		</div>
-		<LayoutFooter />
 	</div>
 </template>

@@ -3,8 +3,8 @@
 </script>
 
 <template>
-	<div class="flex h-screen w-screen flex-col overflow-hidden dark:bg-gray-900">
-		<div class="border py-2 dark:border-gray-800">
+	<div class="flex h-screen w-screen flex-col overflow-auto dark:bg-gray-900">
+		<div class="border bg-white py-2 dark:border-gray-800 dark:bg-gray-900">
 			<UContainer>
 				<div class="flex items-center gap-3 p-1">
 					<NuxtLink to="/" class="flex flex-1 items-center gap-2">
@@ -34,14 +34,13 @@
 			</UContainer>
 		</div>
 		<div class="flex-1 overflow-auto">
-			<UContainer class="min-h-[100%]">
-				<div class="grid h-full grid-cols-12">
+			<UContainer class="flex min-h-full flex-col overflow-hidden">
+				<div class="grid h-full flex-1 grid-cols-12 overflow-hidden">
 					<aside class="sticky top-0 col-span-3 self-start">
-						<!--<aside
-						class="sticky top-0 col-span-3 h-full self-start overflow-y-auto border-e ">-->
 						<LayoutSidebar />
 					</aside>
-					<main class="col-span-9 border-s p-2 dark:border-gray-800">
+					<main
+						class="col-span-9 flex h-full overflow-hidden border-s p-2 dark:border-gray-800">
 						<slot />
 					</main>
 				</div>

@@ -231,23 +231,23 @@
 		let data: ItemDataResult['extraInformations']['produced_in'] = [];
 		switch (params.page) {
 			case 'alternate-recipes':
-				data = alternateRecipes.value;
+				data = alternateRecipes.value ?? [];
 				break;
 			case 'produced-by':
-				data = produced.value;
+				data = produced.value ?? [];
 				break;
 			case 'buildables':
-				data = buildables.value;
+				data = buildables.value ?? [];
 				break;
 			case 'consumed-from':
-				data = consumed.value;
+				data = consumed.value ?? [];
 				break;
 			default:
 				return [];
 		}
 
 		if (input.value.trim().length > 0) {
-			return data.filter((e) => {
+			return data?.filter((e) => {
 				return !!e.productionElement?.data.name
 					.toLowerCase()
 					.includes(input.value.toLowerCase());

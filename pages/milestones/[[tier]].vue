@@ -12,11 +12,11 @@
 </script>
 
 <template>
-	<div class="flex w-full flex-col gap-2 overflow-hidden py-2">
+	<div class="flex w-full flex-col flex-nowrap gap-2 py-2">
 		<div
 			v-for="schematic of data ?? []"
 			:key="String(schematic.short)"
-			class="flex gap-2 overflow-hidden rounded border bg-gray-50 p-2 dark:border-gray-700 dark:bg-gray-800">
+			class="flex flex-shrink-0 gap-2 overflow-hidden rounded border bg-gray-50 p-2 dark:border-gray-700 dark:bg-gray-800">
 			<div class="flex flex-col gap-2">
 				<NuxtImg
 					:src="`/sf${schematic.image.split('.')[0]}.png`"
