@@ -138,7 +138,7 @@
 
 	const produced = computed(() => {
 		return (
-			result.value?.extraInformations?.produced_in.filter((e) => {
+			result.value?.extraInformations?.produced_in?.filter((e) => {
 				return !e.buildingRecipe;
 			}) ?? []
 		);
@@ -146,7 +146,7 @@
 
 	const buildables = computed(() => {
 		return (
-			result.value?.extraInformations?.produced_in.filter((e) => {
+			result.value?.extraInformations?.produced_in?.filter((e) => {
 				return !!e.buildingRecipe;
 			}) ?? []
 		);
