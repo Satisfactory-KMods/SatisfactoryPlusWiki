@@ -19,7 +19,7 @@
 		class="table w-full table-auto border bg-slate-100 dark:divide-slate-800 dark:border-slate-700 dark:bg-slate-800">
 		<div class="table-row-group bg-white dark:bg-slate-800">
 			<!-- MINER / ORE -->
-			<template v-if="itemTypeInfo.type === 'miner'">
+			<template v-if="itemTypeInfo.type === 'miner' && item.items.form === SFItemForm.SOLID">
 				<div class="table-row">
 					<div
 						class="table-cell border-b border-slate-100 p-4 pl-8 text-slate-500 dark:border-slate-700 dark:text-slate-400">
