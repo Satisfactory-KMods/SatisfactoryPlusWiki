@@ -90,7 +90,7 @@
 </script>
 
 <template>
-	<div class="flex flex-col gap-2">
+	<div class="flex w-full flex-col gap-2">
 		<DataPageHeader v-bind="headerData" />
 		<UHorizontalNavigation
 			:links="navigation"

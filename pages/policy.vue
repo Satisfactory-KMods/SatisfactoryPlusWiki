@@ -203,7 +203,7 @@ If you have any questions about this Privacy Policy, You can contact us:
 </script>
 
 <template>
-	<main class="prose dark:prose-invert prose-slate max-w-none p-2">
+	<main class="prose dark:prose-invert prose-slate w-full max-w-none p-2">
 		<MDC :value="md" />
 	</main>
 </template>

@@ -58,7 +58,7 @@
 </script>
 
 <template>
-	<div>
+	<div class="flex h-full w-full flex-col">
 		<UHorizontalNavigation
 			:links="tiers"
 			:active="tier"
