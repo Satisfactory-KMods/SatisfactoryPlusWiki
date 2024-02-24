@@ -8,5 +8,10 @@
     ":prHourlyLimitNone",
     ":prConcurrentLimitNone"
   ],
-  "baseBranches": ["dev"]
+  "baseBranches": ["dev"],
+  "ignoreDeps": [
+    "@nuxt/image",
+    "sharp",
+    "next-auth"
+  ]
 }
