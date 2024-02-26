@@ -506,7 +506,7 @@
 					:bounds="mapConfig.bounds"
 					:max-bounds="mapConfig.maxBounds">
 					<LTileLayer
-						url="https://kyrium.space/static/new-map/prod/{z}/{x}/{y}.png"></LTileLayer>
+						url="https://kmods.space/static/new-map/prod/{z}/{x}/{y}.png"></LTileLayer>
 
 					<template v-for="marker of showMarkers" :key="marker.id">
 						<LMarker
