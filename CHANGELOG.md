@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.4](https://github.com/Satisfactory-KMods/SatisfactoryPlusWiki/compare/v1.0.3...v1.0.4) (2024-04-18)
+
+
+### Bug Fixes
+
+* disable alternate recipe on main page ([29d3e82](https://github.com/Satisfactory-KMods/SatisfactoryPlusWiki/commit/29d3e820ed59947225d9663dede6ad34fcfc9a9e))
+
 ## [1.0.3](https://github.com/Satisfactory-KMods/SatisfactoryPlusWiki/compare/v1.0.2...v1.0.3) (2024-02-26)
 
 
