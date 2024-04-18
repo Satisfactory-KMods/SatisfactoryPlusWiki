@@ -19,12 +19,12 @@
 			href: '/awsome-shop',
 			text: 'Awsome Shop',
 			icon: 'i-mdi-shopping-outline'
-		},
+		}/*,
 		{
 			href: '/recipes/alternate',
 			text: 'Alternate Recipes',
 			icon: 'i-heroicons-book-open'
-		}
+		}*/
 	];
 
 	const {
